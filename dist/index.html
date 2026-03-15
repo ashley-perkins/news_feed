@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 14:11 UTC</span>
+            </div>
+            <h1 class="header-title">Sunday, March 15, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">The US-Israel war against Iran entered its third week with no diplomatic off-ramp in sight, as President Trump rejected mediation efforts and threatened further strikes on Iran's Kharg Island oil hub [Globe and Mail, The Hindu]. Iran's Foreign Minister Araghchi warned countries against joining the conflict, responding to Trump's call for allies to escort tankers through the Strait of Hormuz [Le Monde, France 24]. The war's regional toll mounted: Gulf states intercepted Iranian missiles and drones [Globe and Mail], while Israeli strikes on Lebanon killed over 800 people as Hezbollah claimed ground clashes with Israeli forces near Khiam [BBC, Le Monde]. The Pentagon identified six US service members killed in a KC-135 crash in Iraq [BBC, Le Monde]. In Europe, Ukrainian President Zelensky accused EU allies of 'blackmail' over demands to repair the Druzhba oil pipeline carrying Russian crude to Hungary [BBC]. France held the first round of municipal elections seen as a barometer ahead of 2027 presidential polls [RFI, BBC], while the death of German philosopher Jürgen Habermas at 96 marked the passing of a towering intellectual figure [BBC]. Severe flooding in Kenya killed at least 62 people as climate extremes continued to grip East Africa [BBC, RFI].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Trump Rejects Iran Ceasefire Talks as War Enters Third Week, Calls on Allies to Escort Gulf Tankers</h2>
+            <ul class="story-bullets"><li>President Trump rejected mediation efforts from Middle Eastern allies and said the US is not ready to negotiate, stating terms are 'not good enough yet' and hinting at further strikes on Iran's Kharg Island oil hub</li><li>Iran's Foreign Minister Araghchi said the war will only end when Tehran is certain attacks cannot be repeated and reparations are paid; Iran warned countries against actions that could escalate the conflict</li><li>Trump called on China, France, Japan, South Korea, and the UK to send warships to escort oil tankers through the Strait of Hormuz; responses from named countries were non-committal</li><li>The war has killed more than 2,000 people, mostly in Iran, and created the largest-ever oil supply disruption as maritime traffic through the Strait of Hormuz has halted</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theglobeandmail.com/world/article-trump-rejects-efforts-to-start-iran-ceasefire-talks-sources-say/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized diplomatic rejection from both Washington and Tehran, detailed mediation attempts by Oman</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/ukraine-does-not-want-to-lose-us-backing-because-of-iran-war-zelenskyy/article70746081.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Led with Trump's statement that he's 'not ready' for a deal; included Trump's dismissive comments about Iran's new Supreme Leader</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/03/15/un-chief-says-diplomatic-avenues-available-to-stop-war-in-lebanon_6751453_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Focused on Iran's warnings to other countries and the guarded reception to Trump's escort request</span>
+            </a>
+            <a href="https://www.france24.com/en/trump-urges-allies-to-send-warships-to-strait-of-hormuz" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Video coverage emphasizing Trump's call for allied warships</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Israeli Strikes Kill Over 800 in Lebanon as Hezbollah Reports Ground Clashes with IDF</h2>
+            <ul class="story-bullets"><li>Lebanese health ministry reported 826 deaths including 106 children since Israeli strikes resumed on March 2, with Hezbollah claiming 'direct clashes' with Israeli forces in the town of Khiam</li><li>US outlet Axios reported Israel is planning a major ground invasion to seize the area south of the Litani River; the region is already under Israeli evacuation orders</li><li>UN Secretary-General Guterres visited Beirut and said diplomatic channels remain open, urging international support for Lebanon</li><li>France's President Macron offered to mediate direct talks between Lebanon and Israel, saying Lebanese leaders are willing to engage</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="#" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC<span class="framing-note">Detailed reporting from strike aftermath in Younine; noted Israeli military's claim of targeting 'Hezbollah terrorist infrastructure'</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/03/15/un-chief-says-diplomatic-avenues-available-to-stop-war-in-lebanon_6751453_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Emphasized Hezbollah's statement about ongoing ground clashes; reported on potential Israeli invasion plans</span>
+            </a>
+            <a href="https://www.aljazeera.com/news/2026/3/15/we-killed-dogs-israeli-troops-kill-two-children-parents-in-west-bank?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Focused on French mediation offer and characterized it as a 'major shift' in Lebanon's approach to Israel</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-trump-rejects-efforts-to-start-iran-ceasefire-talks-sources-say/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Reported on civilian toll at mass funeral in Sidon; explained 'Dahiya Doctrine' strategy</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Zelensky Accuses EU Allies of 'Blackmail' Over Russian Oil Pipeline Dispute</h2>
+            <ul class="story-bullets"><li>Ukrainian President Zelensky said EU pressure to repair the Soviet-era Druzhba pipeline, damaged by Russian strikes in January, amounts to blackmail and is equivalent to lifting sanctions on Moscow</li><li>Hungary is blocking €90 billion in EU loans to Ukraine and fresh sanctions on Russia until the pipeline is reopened; PM Orban has made hostility to Ukraine a campaign issue ahead of April elections</li><li>The EU has asked Ukraine to allow inspectors to assess the pipeline damage; some EU officials fear Zelensky's resistance could help Orban win re-election</li><li>Zelensky said Ukraine does not want to lose US support while Washington is 'preoccupied with the Middle East' and offered to share drone expertise with US allies in the region</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="#" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC<span class="framing-note">Neutral presentation of dispute; noted Hungary's dependence on Russian energy</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/ukraine-does-not-want-to-lose-us-backing-because-of-iran-war-zelenskyy/article70746081.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Emphasized Ukraine's concern about losing US backing due to the Iran war</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">France Holds First Round of Municipal Elections Ahead of 2027 Presidential Race</h2>
+            <ul class="story-bullets"><li>Polling stations opened across France for the first of two rounds of municipal elections to choose councillors for 34,875 municipalities</li><li>Midday turnout in metropolitan France was 19.37 percent, one point higher than the first round in 2020 which was disrupted by COVID-19</li><li>The Paris mayorship is the highest-profile contest, with the city under left-wing control for 25 years but potentially shifting to the right</li><li>Results will be analyzed for trends ahead of 2027 presidential elections; President Macron cannot run again after serving two consecutive terms</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="#" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI<span class="framing-note">Straightforward reporting on turnout and context for presidential implications</span>
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC<span class="framing-note">Emphasized polarization in French politics and role of alliances between mainstream and far-right/far-left parties</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #5A9E5A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #5A9E5A; border-color: #5A9E5A40">Climate</span>
+            </div>
+            <h2 class="story-headline">Severe Flooding Kills at Least 62 in Kenya as Climate Extremes Grip East Africa</h2>
+            <ul class="story-bullets"><li>At least 62 people have died in Kenya over the past week from flooding caused by heavy rains, up from 42 reported a week earlier</li><li>More than half the deaths occurred in Nairobi, where poor drainage and unregulated development blocking waterways worsened conditions; over 2,000 people displaced</li><li>Kenya Red Cross rescued 11 people from a flooded minibus and two children from a flooded house overnight; roads closed and schools flooded in the capital</li><li>Neighboring Somalia faces severe drought, with communities experiencing years of failed rains and shrinking wells while Kenya suffers flooding</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="#" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC<span class="framing-note">Focused on rescue operations and infrastructure failures in Nairobi</span>
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI<span class="framing-note">Broader regional framing contrasting Kenya's floods with Somalia's drought as manifestations of climate change</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.bbc.com/news/articles/crk8yxd2g0no" target="_blank" rel="noopener">German philosopher Jürgen Habermas, leading figure of the Frankfurt School and critic of capitalism, dies at 96</a>
+            <span class="additional-source">BBC</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.lemonde.fr/en/international/article/2026/03/15/us-military-identifies-six-soldiers-killed-in-iraq-plane-crash_6751457_4.html" target="_blank" rel="noopener">Pentagon identifies six US crew members killed in KC-135 refueling aircraft crash in western Iraq</a>
+            <span class="additional-source">Le Monde</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.com/news/articles/cqxdndz75zvo" target="_blank" rel="noopener">Israeli forces kill Palestinian couple and two children in occupied West Bank; military says incident under investigation</a>
+            <span class="additional-source">BBC</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/video/newsfeed/2026/3/15/icc-judge-says-us-sanctions-left-her-without-bank-cards-and-google-accounts" target="_blank" rel="noopener">ICC judge says US sanctions over Netanyahu arrest warrant left her without bank cards and Google accounts</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/africa/20260315-congo-brazzaville-president-sassou-nguesso-set-to-extend-four-decade-rule" target="_blank" rel="noopener">Congo-Brazzaville holds elections expected to extend 82-year-old President Sassou Nguesso's four-decade rule</a>
+            <span class="additional-source">RFI</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/mar/13/france-returns-sacred-djidji-ayokwe-talking-drum-looted-from-cote-divoire" target="_blank" rel="noopener">France returns sacred Djidji Ayôkwé talking drum looted from Côte d'Ivoire over 100 years ago</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/global-development/2026/mar/12/uk-government-axes-flagship-global-health-project" target="_blank" rel="noopener">UK government axes Global Health Workforce Programme supporting healthcare training in six African countries due to aid cuts</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/podcasts/international-report/20260315-turkey-warns-against-drawing-iran-s-kurds-into-middle-east-war" target="_blank" rel="noopener">Turkey warns US and Israel against involving Iran's Kurdish minority in Middle East war</a>
+            <span class="additional-source">RFI</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/india-eu-ties-in-focus-as-jaishankar-starts-2-day-visit-to-brussels/article70746369.ece" target="_blank" rel="noopener">India's External Affairs Minister Jaishankar begins two-day Brussels visit for talks with EU foreign ministers</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/pakistan-afghanistan-clash-military-facilities-strikes-updates/article70746153.ece" target="_blank" rel="noopener">Pakistan says it struck military facilities and 'terrorist hideouts' in southern Afghanistan including near Kandahar</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>

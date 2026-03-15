@@ -1,0 +1,202 @@
+{
+  "date": "Sunday, March 15, 2026",
+  "daily_brief": "The US-Israel war against Iran entered its third week with no diplomatic off-ramp in sight, as President Trump rejected mediation efforts and threatened further strikes on Iran's Kharg Island oil hub [Globe and Mail, The Hindu]. Iran's Foreign Minister Araghchi warned countries against joining the conflict, responding to Trump's call for allies to escort tankers through the Strait of Hormuz [Le Monde, France 24]. The war's regional toll mounted: Gulf states intercepted Iranian missiles and drones [Globe and Mail], while Israeli strikes on Lebanon killed over 800 people as Hezbollah claimed ground clashes with Israeli forces near Khiam [BBC, Le Monde]. The Pentagon identified six US service members killed in a KC-135 crash in Iraq [BBC, Le Monde]. In Europe, Ukrainian President Zelensky accused EU allies of 'blackmail' over demands to repair the Druzhba oil pipeline carrying Russian crude to Hungary [BBC]. France held the first round of municipal elections seen as a barometer ahead of 2027 presidential polls [RFI, BBC], while the death of German philosopher J\u00fcrgen Habermas at 96 marked the passing of a towering intellectual figure [BBC]. Severe flooding in Kenya killed at least 62 people as climate extremes continued to grip East Africa [BBC, RFI].",
+  "top_stories": [
+    {
+      "headline": "Trump Rejects Iran Ceasefire Talks as War Enters Third Week, Calls on Allies to Escort Gulf Tankers",
+      "category": "Conflict",
+      "bullets": [
+        "President Trump rejected mediation efforts from Middle Eastern allies and said the US is not ready to negotiate, stating terms are 'not good enough yet' and hinting at further strikes on Iran's Kharg Island oil hub",
+        "Iran's Foreign Minister Araghchi said the war will only end when Tehran is certain attacks cannot be repeated and reparations are paid; Iran warned countries against actions that could escalate the conflict",
+        "Trump called on China, France, Japan, South Korea, and the UK to send warships to escort oil tankers through the Strait of Hormuz; responses from named countries were non-committal",
+        "The war has killed more than 2,000 people, mostly in Iran, and created the largest-ever oil supply disruption as maritime traffic through the Strait of Hormuz has halted"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized diplomatic rejection from both Washington and Tehran, detailed mediation attempts by Oman",
+          "url": "https://www.theglobeandmail.com/world/article-trump-rejects-efforts-to-start-iran-ceasefire-talks-sources-say/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Led with Trump's statement that he's 'not ready' for a deal; included Trump's dismissive comments about Iran's new Supreme Leader",
+          "url": "https://www.thehindu.com/news/international/ukraine-does-not-want-to-lose-us-backing-because-of-iran-war-zelenskyy/article70746081.ece"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Focused on Iran's warnings to other countries and the guarded reception to Trump's escort request",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/15/un-chief-says-diplomatic-avenues-available-to-stop-war-in-lebanon_6751453_4.html"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Video coverage emphasizing Trump's call for allied warships",
+          "url": "https://www.france24.com/en/trump-urges-allies-to-send-warships-to-strait-of-hormuz"
+        }
+      ]
+    },
+    {
+      "headline": "Israeli Strikes Kill Over 800 in Lebanon as Hezbollah Reports Ground Clashes with IDF",
+      "category": "Conflict",
+      "bullets": [
+        "Lebanese health ministry reported 826 deaths including 106 children since Israeli strikes resumed on March 2, with Hezbollah claiming 'direct clashes' with Israeli forces in the town of Khiam",
+        "US outlet Axios reported Israel is planning a major ground invasion to seize the area south of the Litani River; the region is already under Israeli evacuation orders",
+        "UN Secretary-General Guterres visited Beirut and said diplomatic channels remain open, urging international support for Lebanon",
+        "France's President Macron offered to mediate direct talks between Lebanon and Israel, saying Lebanese leaders are willing to engage"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Detailed reporting from strike aftermath in Younine; noted Israeli military's claim of targeting 'Hezbollah terrorist infrastructure'",
+          "url": "#"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Hezbollah's statement about ongoing ground clashes; reported on potential Israeli invasion plans",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/15/un-chief-says-diplomatic-avenues-available-to-stop-war-in-lebanon_6751453_4.html"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Focused on French mediation offer and characterized it as a 'major shift' in Lebanon's approach to Israel",
+          "url": "https://www.aljazeera.com/news/2026/3/15/we-killed-dogs-israeli-troops-kill-two-children-parents-in-west-bank?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Reported on civilian toll at mass funeral in Sidon; explained 'Dahiya Doctrine' strategy",
+          "url": "https://www.theglobeandmail.com/world/article-trump-rejects-efforts-to-start-iran-ceasefire-talks-sources-say/"
+        }
+      ]
+    },
+    {
+      "headline": "Zelensky Accuses EU Allies of 'Blackmail' Over Russian Oil Pipeline Dispute",
+      "category": "Geopolitics",
+      "bullets": [
+        "Ukrainian President Zelensky said EU pressure to repair the Soviet-era Druzhba pipeline, damaged by Russian strikes in January, amounts to blackmail and is equivalent to lifting sanctions on Moscow",
+        "Hungary is blocking \u20ac90 billion in EU loans to Ukraine and fresh sanctions on Russia until the pipeline is reopened; PM Orban has made hostility to Ukraine a campaign issue ahead of April elections",
+        "The EU has asked Ukraine to allow inspectors to assess the pipeline damage; some EU officials fear Zelensky's resistance could help Orban win re-election",
+        "Zelensky said Ukraine does not want to lose US support while Washington is 'preoccupied with the Middle East' and offered to share drone expertise with US allies in the region"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Neutral presentation of dispute; noted Hungary's dependence on Russian energy",
+          "url": "#"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Ukraine's concern about losing US backing due to the Iran war",
+          "url": "https://www.thehindu.com/news/international/ukraine-does-not-want-to-lose-us-backing-because-of-iran-war-zelenskyy/article70746081.ece"
+        }
+      ]
+    },
+    {
+      "headline": "France Holds First Round of Municipal Elections Ahead of 2027 Presidential Race",
+      "category": "Policy",
+      "bullets": [
+        "Polling stations opened across France for the first of two rounds of municipal elections to choose councillors for 34,875 municipalities",
+        "Midday turnout in metropolitan France was 19.37 percent, one point higher than the first round in 2020 which was disrupted by COVID-19",
+        "The Paris mayorship is the highest-profile contest, with the city under left-wing control for 25 years but potentially shifting to the right",
+        "Results will be analyzed for trends ahead of 2027 presidential elections; President Macron cannot run again after serving two consecutive terms"
+      ],
+      "sources": [
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on turnout and context for presidential implications",
+          "url": "#"
+        },
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Emphasized polarization in French politics and role of alliances between mainstream and far-right/far-left parties",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "Severe Flooding Kills at Least 62 in Kenya as Climate Extremes Grip East Africa",
+      "category": "Climate",
+      "bullets": [
+        "At least 62 people have died in Kenya over the past week from flooding caused by heavy rains, up from 42 reported a week earlier",
+        "More than half the deaths occurred in Nairobi, where poor drainage and unregulated development blocking waterways worsened conditions; over 2,000 people displaced",
+        "Kenya Red Cross rescued 11 people from a flooded minibus and two children from a flooded house overnight; roads closed and schools flooded in the capital",
+        "Neighboring Somalia faces severe drought, with communities experiencing years of failed rains and shrinking wells while Kenya suffers flooding"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Focused on rescue operations and infrastructure failures in Nairobi",
+          "url": "#"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Broader regional framing contrasting Kenya's floods with Somalia's drought as manifestations of climate change",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "additional_stories": [
+    {
+      "headline": "German philosopher J\u00fcrgen Habermas, leading figure of the Frankfurt School and critic of capitalism, dies at 96",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/crk8yxd2g0no"
+    },
+    {
+      "headline": "Pentagon identifies six US crew members killed in KC-135 refueling aircraft crash in western Iraq",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/15/us-military-identifies-six-soldiers-killed-in-iraq-plane-crash_6751457_4.html"
+    },
+    {
+      "headline": "Israeli forces kill Palestinian couple and two children in occupied West Bank; military says incident under investigation",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cqxdndz75zvo"
+    },
+    {
+      "headline": "ICC judge says US sanctions over Netanyahu arrest warrant left her without bank cards and Google accounts",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/15/icc-judge-says-us-sanctions-left-her-without-bank-cards-and-google-accounts"
+    },
+    {
+      "headline": "Congo-Brazzaville holds elections expected to extend 82-year-old President Sassou Nguesso's four-decade rule",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/africa/20260315-congo-brazzaville-president-sassou-nguesso-set-to-extend-four-decade-rule"
+    },
+    {
+      "headline": "France returns sacred Djidji Ay\u00f4kw\u00e9 talking drum looted from C\u00f4te d'Ivoire over 100 years ago",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/13/france-returns-sacred-djidji-ayokwe-talking-drum-looted-from-cote-divoire"
+    },
+    {
+      "headline": "UK government axes Global Health Workforce Programme supporting healthcare training in six African countries due to aid cuts",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/mar/12/uk-government-axes-flagship-global-health-project"
+    },
+    {
+      "headline": "Turkey warns US and Israel against involving Iran's Kurdish minority in Middle East war",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/podcasts/international-report/20260315-turkey-warns-against-drawing-iran-s-kurds-into-middle-east-war"
+    },
+    {
+      "headline": "India's External Affairs Minister Jaishankar begins two-day Brussels visit for talks with EU foreign ministers",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/india-eu-ties-in-focus-as-jaishankar-starts-2-day-visit-to-brussels/article70746369.ece"
+    },
+    {
+      "headline": "Pakistan says it struck military facilities and 'terrorist hideouts' in southern Afghanistan including near Kandahar",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/pakistan-afghanistan-clash-military-facilities-strikes-updates/article70746153.ece"
+    }
+  ]
+}
