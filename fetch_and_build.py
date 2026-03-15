@@ -727,6 +727,11 @@ def main():
     out_path = out_dir / "index.html"
     out_path.write_text(html, encoding="utf-8")
 
+    # Also save dated archive copy
+    date_slug = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    archive_path = out_dir / f"{date_slug}.html"
+    archive_path.write_text(html, encoding="utf-8")
+
     # Also save the raw digest JSON for debugging
     json_path = out_dir / "digest.json"
     json_path.write_text(json.dumps(digest, indent=2), encoding="utf-8")
