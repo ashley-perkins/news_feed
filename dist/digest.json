@@ -1,226 +1,220 @@
 {
-  "date": "Monday, March 16, 2026",
-  "daily_brief": "The Iran war dominated global headlines as it entered its third week, with President Trump confirming US-Iran talks while stating Tehran is 'not ready' for a deal [Le Monde], even as Iran denied any negotiations were taking place [France 24]. Dubai airport temporarily suspended flights after a drone-related incident sparked a nearby fire, with UAE air defenses intercepting Iranian drones and missiles [France 24]. The conflict's economic ripple effects continued to spread, with Western Australian farmers warning that fuel shortages caused by the Strait of Hormuz closure could significantly impact seeding operations and the national grain crop [ABC Australia]. Trump demanded approximately seven countries join a coalition to police the strait, warning NATO faces a 'very bad' future if allies fail to assist [Globe and Mail, Financial Times]. In France, the first round of municipal elections saw historically low turnout and far-right gains, considered a litmus test ahead of the 2027 presidential race [RFI, BBC Europe]. Meanwhile, at the 98th Academy Awards, Paul Thomas Anderson's 'One Battle After Another' won Best Picture and five additional Oscars, marking a breakthrough for the acclaimed filmmaker who had never previously won [France 24, Al Jazeera, RNZ].",
+  "date": "Tuesday, March 17, 2026",
+  "daily_brief": "The US-Israeli war against Iran entered its 18th day with significant developments on multiple fronts. Israel claimed to have killed Iran's security chief Ali Larijani and Basij commander Gholamreza Soleimani in overnight airstrikes [BBC, Globe and Mail, Le Monde], potentially the most significant targeting of Iranian leadership since Supreme Leader Khamenei was killed on February 28. In a notable break from the administration, National Counterterrorism Center Director Joe Kent resigned, stating Iran posed 'no imminent threat' and accusing Israeli lobbying of pushing the US into war [BBC, Le Monde, Globe and Mail]. President Trump's calls for NATO allies to help secure the Strait of Hormuz were rebuffed by European capitals, with Germany's defense minister asking what 'a handful of European frigates' could accomplish that the US Navy cannot [Le Monde, BBC]. The economic ripple effects are spreading globally: Sri Lanka announced a four-day work week to conserve fuel [ABC Australia], while British holidaymakers are rebooking Easter trips away from Dubai [BBC]. Separately, Pakistan conducted an airstrike on a Kabul drug rehabilitation center killing over 100 people [BBC], and a Brussels court ordered 93-year-old former Belgian diplomat \u00c9tienne Davignon to stand trial over the 1961 assassination of Congolese leader Patrice Lumumba [Guardian, RFI, France 24].",
   "top_stories": [
     {
-      "headline": "Iran War Enters Third Week: Trump Claims Talks Underway as Tehran Denies Negotiations",
+      "headline": "Israel Claims Killing of Iran's Security Chief Larijani in Escalating Air Campaign",
       "category": "Conflict",
       "bullets": [
-        "President Trump confirmed the US is 'talking' to Iran but said Tehran is 'not ready' for a deal to end the conflict that began February 28",
-        "Iran's Foreign Minister Abbas Araghchi denied any talks with the US, stating Iran is 'stable and strong enough' and only defending its people",
-        "Dubai airport temporarily suspended flights Monday after a drone-related incident sparked a fuel tank fire nearby; UAE air defenses intercepted a wave of Iranian drones and missiles",
-        "Israel announced its troops launched 'limited' ground operations against Hezbollah positions in southern Lebanon in recent days"
+        "Israeli Defense Minister Israel Katz announced that Ali Larijani, secretary of Iran's Supreme National Security Council, and Basij paramilitary commander Gholamreza Soleimani were killed in overnight airstrikes near Tehran",
+        "Larijani had become the de facto leader of Iran's war efforts since Supreme Leader Khamenei was killed on February 28; his death would be the highest-profile assassination since then",
+        "Iran has not confirmed either death; both officials were central to Iran's violent crackdown on protests in January challenging the theocracy's rule",
+        "Prime Minister Netanyahu's office released a photo of him ordering the eliminations, while the IDF described Larijani as 'one of the most veteran and senior figures within the Iranian regime'"
       ],
       "sources": [
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Focused on diplomatic dimension and Trump's contradictory messaging",
-          "url": "https://www.lemonde.fr/en/culture/article/2026/03/16/oscars-2026-kpop-demon-hunters-wins-best-animated-feature_6751475_30.html"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized operational details of Dubai incident and broader regional impact",
-          "url": "https://www.france24.com/en/middle-east/20260316-middle-east-war-live-us-iran-talks-trump-says-no-deal-yet"
-        },
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Highlighted civilian experience in Doha and Tehran security measures",
-          "url": "https://www.bbc.com/news/articles/cwy8vk24wyvo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed military and strategic context, emphasized Larijani's role as de facto leader",
+          "url": "https://www.bbc.com/news/articles/cdxg1nx2r61o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Focused on Israeli government messaging and Netanyahu's involvement",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/17/this-is-not-our-war-europe-refuses-to-be-dragged-into-trump-s-war-with-iran_6751517_4.html"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Stressed economic dimensions and Canadian energy implications",
-          "url": "https://www.theglobeandmail.com/sports/basketball/article-duke-arizona-michigan-and-florida-are-march-madness-top-seeds-miami/"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Demands Allied Coalition to Reopen Strait of Hormuz, Warns NATO of 'Very Bad' Future",
-      "category": "Geopolitics",
-      "bullets": [
-        "Trump demanded approximately seven countries send warships to keep the Strait of Hormuz open, but received no commitments",
-        "The president warned NATO faces a 'very bad' future if allies fail to help, and previously appealed to China, France, Japan, South Korea and Britain",
-        "Western Australian farmers warned fuel shortages from the strait closure could significantly impact the $20 billion grain crop if seeding is delayed",
-        "The Economist reported Gulf states are 'burning through interceptors' at a pace far outstripping Ukraine, with stocks under severe pressure"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Detailed Trump's demands and lack of allied response",
-          "url": "https://www.theglobeandmail.com/sports/basketball/article-duke-arizona-michigan-and-florida-are-march-madness-top-seeds-miami/"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Emphasized NATO implications and European concerns",
-          "url": "https://www.ft.com/content/dc86ce80-86ab-45a1-83ff-abf7cc3a1fb2"
+          "framing_note": "Emphasized broader war context including Gulf attacks and energy crisis concerns",
+          "url": "https://www.theglobeandmail.com/business/technology/article-openai-signs-deal-to-give-pentagon-access-to-ai-for-classified-work/"
         },
         {
           "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Focused on domestic agricultural and economic impact",
-          "url": "https://www.abc.net.au/news/2026-03-16/afl-antisemitism-royal-commission-sydney-swans/106460880"
-        },
-        {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Analyzed military supply chain pressures",
-          "url": "https://www.economist.com/international/2026/03/03/binyamin-netanyahu-is-the-big-winner-from-the-iran-war-for-now"
+          "framing_note": "Provided biographical background on Larijani as pragmatic diplomat",
+          "url": "https://www.abc.net.au/news/2026-03-17/grace-tame-comments-abc-radio-sydney-interview-on-october-7/106465388"
         }
       ]
     },
     {
-      "headline": "French Municipal Elections See Historic Low Turnout, Far-Right Gains in First Round",
+      "headline": "Top US Counterterrorism Official Resigns, Says Iran War Driven by Israeli Lobby Pressure",
       "category": "Policy",
       "bullets": [
-        "Turnout stood between 56-58.5 percent, the lowest for municipal elections under the Fifth Republic excluding the 2020 Covid-era vote",
-        "The far-right National Rally showed strength in several southern cities ahead of the 2027 presidential elections",
-        "Socialist candidate led in Paris, though races in major cities are expected to proceed to second round runoffs on March 22",
-        "Results are seen as a litmus test of how far mainstream parties will form alliances with far-left and far-right parties"
+        "Joe Kent, director of the National Counterterrorism Center, resigned stating he 'cannot in good conscience support the ongoing war in Iran'",
+        "Kent's resignation letter accused the administration of starting the war 'due to pressure from Israel and its powerful American lobby,' claiming Iran posed 'no imminent threat'",
+        "Kent is a former Green Beret with 11 combat deployments; he is the first senior Trump administration official to resign over the Iran war",
+        "The White House dismissed the letter as containing 'many false claims'; Trump called Kent 'weak on security' and said the resignation showed 'it was a good thing that he's out'"
       ],
       "sources": [
         {
-          "name": "RFI English",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Provided detailed statistical analysis of turnout and regional patterns",
-          "url": "https://www.rfi.fr/en/africa/20260315-under-the-same-sky-climate-change-brings-drought-to-somalia-and-floods-to-kenya"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasized Paris mayorship race and Marine Le Pen's judicial situation",
-          "url": "https://www.bbc.com/news/articles/cdxzzqye9w0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief mention alongside inflation concerns",
-          "url": "https://www.ft.com/content/dc86ce80-86ab-45a1-83ff-abf7cc3a1fb2"
-        }
-      ]
-    },
-    {
-      "headline": "'One Battle After Another' Wins Best Picture, Six Oscars Total at 98th Academy Awards",
-      "category": "Society",
-      "bullets": [
-        "Paul Thomas Anderson's political comedy won Best Picture, Best Director, Best Adapted Screenplay, Best Supporting Actor, Best Film Editing, and Best Casting",
-        "Michael B. Jordan won Best Actor for 'Sinners,' joining a small circle of Black actors to win the award after Sidney Poitier, Denzel Washington, Forest Whitaker and Will Smith",
-        "Autumn Durald Arkapaw made history as the first female director of photography to win the cinematography Oscar for 'Sinners'",
-        "Irish actress Jessie Buckley won Best Actress for 'Hamnet'; host Conan O'Brien and presenters made pointed remarks about current US political climate without naming Trump directly"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on winners and historical significance",
-          "url": "https://www.france24.com/en/middle-east/20260316-middle-east-war-live-us-iran-talks-trump-says-no-deal-yet"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted political commentary at ceremony and US policy criticisms",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/large-protest-held-in-london-against-us-israeli-war-on-iran?traffic_source=rss"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Comprehensive winners list with ceremony coverage",
-          "url": "https://www.rnz.co.nz/life/screens/tv/how-bluey-nails-the-perfect-playground-sounds"
+          "framing_note": "Led with White House response and Trump's dismissive comments",
+          "url": "https://www.bbc.com/news/articles/cdxg1nx2r61o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Brief cultural coverage",
-          "url": "https://www.lemonde.fr/en/culture/article/2026/03/16/oscars-2026-kpop-demon-hunters-wins-best-animated-feature_6751475_30.html"
+          "framing_note": "Emphasized Kent's military credentials and quoted extensively from resignation letter",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/17/this-is-not-our-war-europe-refuses-to-be-dragged-into-trump-s-war-with-iran_6751517_4.html"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focus on Anderson's career achievement",
-          "url": "https://www.theglobeandmail.com/sports/basketball/article-duke-arizona-michigan-and-florida-are-march-madness-top-seeds-miami/"
+          "framing_note": "Noted Kent's past ties to right-wing extremists and controversial confirmation process",
+          "url": "https://www.theglobeandmail.com/business/technology/article-openai-signs-deal-to-give-pentagon-access-to-ai-for-classified-work/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Included background on Kent's previous congressional campaigns and far-right associations",
+          "url": "https://www.thehindu.com/news/international/daily-quiz-on-lexicons-and-lives/article70753114.ece"
         }
       ]
     },
     {
-      "headline": "Zelensky Accuses EU of 'Blackmail' Over Russian Oil Pipeline Dispute",
+      "headline": "European Allies Refuse Trump's Demand to Join Strait of Hormuz Operation",
       "category": "Geopolitics",
       "bullets": [
-        "Ukrainian President accused European allies of seeking to blackmail Kyiv into reopening the Druzhba pipeline transporting Russian oil to Hungary and Slovakia",
-        "Ukraine claims the Soviet-era pipeline was damaged by Russian air strikes in January and has yet to be repaired",
-        "Hungary is blocking fresh EU sanctions on Moscow and a vital \u20ac90 billion loan for Ukraine until the pipeline is reopened",
-        "A new \u20ac90 billion EU loan to cover Ukraine's budget shortfall has been approved by the European Parliament, with first payment possible in April"
+        "Trump called on NATO allies plus Japan, South Korea, and China to send warships to reopen the Strait of Hormuz, threatening it would be 'very bad for the future of NATO' if they refuse",
+        "EU foreign policy chief Kaja Kallas stated 'This is not Europe's war,' while Germany's defense minister asked what European frigates could do that the US Navy cannot",
+        "France confirmed it will not send naval vessels, maintaining a 'strictly defensive approach' and refusing to join the war on Iran",
+        "Trump later reversed course, posting that the US 'no longer need, or desire' allied assistance, adding 'WE DO NOT NEED THE HELP OF ANYONE'"
       ],
       "sources": [
         {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Detailed European diplomatic responses, emphasized France's refusal",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/17/this-is-not-our-war-europe-refuses-to-be-dragged-into-trump-s-war-with-iran_6751517_4.html"
+        },
+        {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Balanced presentation of Zelensky's position and EU concerns about Orban election",
-          "url": "https://www.bbc.com/news/articles/cdxzzqye9w0o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Included criticism from former UK defense chief that NATO wasn't designed for 'wars of choice'",
+          "url": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss"
         },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Led with Trump's reversal claiming US doesn't need help",
+          "url": "https://www.thehindu.com/news/international/daily-quiz-on-lexicons-and-lives/article70753114.ece"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Focused specifically on French position and defensive posture",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "Pakistan Airstrike Kills Over 100 at Kabul Drug Rehabilitation Center",
+      "category": "Conflict",
+      "bullets": [
+        "Pakistani air strikes killed more than 100 people at the Omid Addiction Treatment Hospital in Kabul, according to forensic laboratory sources",
+        "The facility was treating approximately 2,000 patients; many bodies were reportedly injured beyond recognition",
+        "Pakistan denied deliberately targeting the hospital, claiming it struck 'military installations and terrorist support infrastructure'",
+        "The UN Assistance Mission in Afghanistan condemned the strike and called for an immediate ceasefire and investigation; Afghan health ministry said no military facilities were near the center"
+      ],
+      "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on Ukraine's broader financial challenges and EU support",
-          "url": "https://www.bbc.com/news/articles/cwy8vk24wyvo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed casualty figures and UN response, included Pakistan's denial",
+          "url": "https://www.bbc.com/news/articles/cdxg1nx2r61o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Video coverage noting Pakistan's claim of targeting 'terrorist' targets",
+          "url": "https://www.france24.com/en/europe/20260317-former-belgian-diplomat-first-to-stand-trial-over-1961-murder-of-congo-s-lumumba"
+        }
+      ]
+    },
+    {
+      "headline": "Former Belgian Diplomat Ordered to Stand Trial Over 1961 Assassination of Patrice Lumumba",
+      "category": "Society",
+      "bullets": [
+        "Brussels court ordered 93-year-old \u00c9tienne Davignon, former EU Commission vice-president, to stand trial for alleged war crimes related to the killing of Congo's first prime minister",
+        "Davignon is charged with participation in unlawful detention and transfer of Lumumba and denying him a fair trial; a charge of intent to kill was dismissed",
+        "Lumumba was tortured and executed by firing squad in January 1961 by Belgian-backed separatists; his body was dissolved in acid",
+        "Lumumba's grandson Mehdi Lumumba called the decision 'historic,' saying 'Belgium is finally confronting its history'; Davignon denies all charges"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized historical context and Belgian parliamentary finding of 'moral responsibility'",
+          "url": "https://www.theguardian.com/media/2026/mar/15/nigerias-online-content-creator-market-has-boomed-can-the-skit-makers-and-streamers-make-it-pay"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Framed as landmark moment in Europe's colonial reckoning",
+          "url": "#"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief coverage noting this is first prosecution in the case",
+          "url": "https://www.france24.com/en/europe/20260317-former-belgian-diplomat-first-to-stand-trial-over-1961-murder-of-congo-s-lumumba"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ten Solomon Islands cabinet ministers resign in apparent coalition breakdown, threatening Prime Minister Manele's government",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/international/pacific-news/589715/mass-resignations-rock-solomon-islands-government"
+      "headline": "Sri Lanka introduces four-day work week to conserve fuel amid Middle East war and Strait of Hormuz closure",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-03-17/sri-lanka-moves-to-four-day-work-week-to-conserve-fuel-amid-war/106466160"
     },
     {
-      "headline": "IS-linked ADF rebels attack gold mining sites in northeastern DR Congo, killing multiple people including near a Chinese-run mine",
+      "headline": "UK health minister describes meningitis outbreak linked to Canterbury nightclub as 'unprecedented' after two student deaths and 15 confirmed cases",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/16/is-linked-rebels-stage-deadly-attack-on-dr-congo-mines-says-government_6751478_4.html"
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/17/uk-rushes-to-contain-unprecedented-meningitis-outbreak_6751532_4.html"
     },
     {
-      "headline": "French anti-terror prosecutors open investigation into two Moroccan-Italian brothers arrested with weapons and IS flag over 'lethal and antisemitic' plot",
+      "headline": "At least 23 killed in suspected Boko Haram suicide bombings in Maiduguri, Nigeria during Ramadan iftar",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/17/bombings-north-eastern-nigeria-maiduguri"
+    },
+    {
+      "headline": "British holidaymakers rebooking Easter trips from Dubai to Spain and Portugal amid Middle East war disruption",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/ckgl5d3d3kjo"
+      "url": "https://www.bbc.com/news/articles/cm21gv3133zo"
     },
     {
-      "headline": "Congo-Brazzaville holds elections expected to extend 82-year-old President Sassou Nguesso's more than four decades in power",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260315-congo-brazzaville-president-sassou-nguesso-set-to-extend-four-decade-rule"
+      "headline": "Former French president Nicolas Sarkozy returns to court for appeal trial over alleged Libyan campaign financing",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20260317-former-french-president-sarkozy-back-in-court-over-libyan-funding-scandal"
     },
     {
-      "headline": "Ugandan opposition leader Bobi Wine tells BBC he fled the country after January's disputed election, fearing for his life",
+      "headline": "UK and Ukraine announce partnership to sell drone technology abroad as Zelensky visits London",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-uk-ukraine-drones-starmer-support-zelensky/"
+    },
+    {
+      "headline": "OpenAI signs deal to provide AI models to Pentagon for classified work through Amazon Web Services after Anthropic dropped",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/business/technology/article-openai-signs-deal-to-give-pentagon-access-to-ai-for-classified-work/"
+    },
+    {
+      "headline": "Chile's new president Jos\u00e9 Antonio Kast begins construction of border barrier with Peru five days after taking office",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cwy8vk24wyvo"
+      "url": "https://www.bbc.com/news/articles/cvg1227k00eo"
     },
     {
-      "headline": "China urges US to 'correct erroneous ways' over new trade probes as negotiators from both countries meet in Paris",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/asia-pacific/20260316-china-urges-us-correct-erroneous-ways-trade-probes-paris-talks"
-    },
-    {
-      "headline": "Macron tells Iranian President attacks on French interests are 'unacceptable' after drone kills French soldier in Iraqi Kurdistan",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/16/macron-tells-iran-attacks-on-french-interests-unacceptable_6751477_4.html"
-    },
-    {
-      "headline": "Sweden detains Russian captain of shadow fleet tanker suspected of sailing under false Comoran flag to evade sanctions",
+      "headline": "French national Martin Ryan sentenced to 10 years in Azerbaijan prison for spying on military cooperation with Turkey and Pakistan",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cpqwg0yej04o"
+      "url": "https://www.bbc.com/news/articles/c2lr5j84gd1o"
     },
     {
-      "headline": "Milan-Cortina Winter Paralympics conclude with China topping medal table amid controversy over Russia's return to competition",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/16/milan-cortina-paralympics-end-as-a-beacon-of-unity_6751479_4.html"
-    },
-    {
-      "headline": "Rafah crossing closure leaves thousands of Gaza patients trapped without medical evacuation options amid Iran war",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/3/16/rafah-crossing-closure-leaves-gaza-patients-trapped-without-treatment"
+      "headline": "Cuba experiences third blackout in four months as Trump escalates threats and claims he could 'take Cuba'",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-cuba-power-outage-grid-oil-blockage-trump/"
     }
   ]
 }
