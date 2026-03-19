@@ -1,220 +1,196 @@
 {
-  "date": "Tuesday, March 17, 2026",
-  "daily_brief": "The US-Israeli war against Iran entered its 18th day with significant developments on multiple fronts. Israel claimed to have killed Iran's security chief Ali Larijani and Basij commander Gholamreza Soleimani in overnight airstrikes [BBC, Globe and Mail, Le Monde], potentially the most significant targeting of Iranian leadership since Supreme Leader Khamenei was killed on February 28. In a notable break from the administration, National Counterterrorism Center Director Joe Kent resigned, stating Iran posed 'no imminent threat' and accusing Israeli lobbying of pushing the US into war [BBC, Le Monde, Globe and Mail]. President Trump's calls for NATO allies to help secure the Strait of Hormuz were rebuffed by European capitals, with Germany's defense minister asking what 'a handful of European frigates' could accomplish that the US Navy cannot [Le Monde, BBC]. The economic ripple effects are spreading globally: Sri Lanka announced a four-day work week to conserve fuel [ABC Australia], while British holidaymakers are rebooking Easter trips away from Dubai [BBC]. Separately, Pakistan conducted an airstrike on a Kabul drug rehabilitation center killing over 100 people [BBC], and a Brussels court ordered 93-year-old former Belgian diplomat \u00c9tienne Davignon to stand trial over the 1961 assassination of Congolese leader Patrice Lumumba [Guardian, RFI, France 24].",
+  "date": "Thursday, March 19, 2026",
+  "daily_brief": "The Middle East war dominated global developments Thursday as Iran struck Qatar's Ras Laffan LNG facility\u2014the world's largest\u2014causing extensive damage and sending oil prices surging [Financial Times, Al Jazeera]. The attack came after Israel hit Iran's South Pars gas field, with Tehran also acknowledging the death of security chief Ali Larijani in an Israeli strike [RFI]. US intelligence officials testified that Iran's regime remains 'intact but largely degraded,' while repeatedly failing to substantiate the Trump administration's claims about imminent threats that justified the war [BBC, Globe and Mail, RNZ]. In Europe, leaders convene in Brussels Thursday facing twin crises: unlocking a \u20ac90 billion Ukraine loan blocked by Hungary's Viktor Orban, and confronting a new energy shock as the conflict disrupts supplies through the Strait of Hormuz [France 24, BBC]. Ukraine's President Zelensky warned the BBC that the war in Iran would create missile deficits for his country as US resources shift elsewhere. Meanwhile, Costa Rica severed diplomatic ties with Cuba, with President Chaves declaring the 'hemisphere must be cleansed of communists' [Le Monde].",
   "top_stories": [
     {
-      "headline": "Israel Claims Killing of Iran's Security Chief Larijani in Escalating Air Campaign",
+      "headline": "Iran Strikes Qatar's Major LNG Facility in Escalating Gulf Energy War",
       "category": "Conflict",
       "bullets": [
-        "Israeli Defense Minister Israel Katz announced that Ali Larijani, secretary of Iran's Supreme National Security Council, and Basij paramilitary commander Gholamreza Soleimani were killed in overnight airstrikes near Tehran",
-        "Larijani had become the de facto leader of Iran's war efforts since Supreme Leader Khamenei was killed on February 28; his death would be the highest-profile assassination since then",
-        "Iran has not confirmed either death; both officials were central to Iran's violent crackdown on protests in January challenging the theocracy's rule",
-        "Prime Minister Netanyahu's office released a photo of him ordering the eliminations, while the IDF described Larijani as 'one of the most veteran and senior figures within the Iranian regime'"
+        "Iran launched missile attacks on Qatar's Ras Laffan facility\u2014site of the world's largest LNG operations\u2014causing fires and 'extensive damage' according to Qatari officials",
+        "Qatar ordered Iran's military and security attach\u00e9s to leave within 24 hours following the attack",
+        "The strikes came in retaliation for Israeli attacks on Iran's South Pars gas field; Trump threatened to 'blow up' a major Iranian gas field if attacks on Gulf energy infrastructure continue",
+        "Oil and gas prices surged globally as the conflict threatens critical energy supply chains"
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed military and strategic context, emphasized Larijani's role as de facto leader",
-          "url": "https://www.bbc.com/news/articles/cdxg1nx2r61o?at_medium=RSS&at_campaign=rss"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Led with economic impact and market implications",
+          "url": "https://www.ft.com/content/426195c6-0063-41de-8c61-79c776598f09"
         },
         {
-          "name": "Le Monde",
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized diplomatic fallout and regional escalation",
+          "url": "https://www.france24.com/en/americas/20260319-trump-homeland-security-nominee-defends-immigration-stance-in-tense-hearing"
+        },
+        {
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Focused on Israeli government messaging and Netanyahu's involvement",
-          "url": "https://www.lemonde.fr/en/international/article/2026/03/17/this-is-not-our-war-europe-refuses-to-be-dragged-into-trump-s-war-with-iran_6751517_4.html"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized broader war context including Gulf attacks and energy crisis concerns",
-          "url": "https://www.theglobeandmail.com/business/technology/article-openai-signs-deal-to-give-pentagon-access-to-ai-for-classified-work/"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Provided biographical background on Larijani as pragmatic diplomat",
-          "url": "https://www.abc.net.au/news/2026-03-17/grace-tame-comments-abc-radio-sydney-interview-on-october-7/106465388"
+          "framing_note": "Focused on Gulf state responses and Iranian justifications",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/19/jd-vance-deflects-gas-price-concerns-with-criticism-of-biden?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Top US Counterterrorism Official Resigns, Says Iran War Driven by Israeli Lobby Pressure",
-      "category": "Policy",
-      "bullets": [
-        "Joe Kent, director of the National Counterterrorism Center, resigned stating he 'cannot in good conscience support the ongoing war in Iran'",
-        "Kent's resignation letter accused the administration of starting the war 'due to pressure from Israel and its powerful American lobby,' claiming Iran posed 'no imminent threat'",
-        "Kent is a former Green Beret with 11 combat deployments; he is the first senior Trump administration official to resign over the Iran war",
-        "The White House dismissed the letter as containing 'many false claims'; Trump called Kent 'weak on security' and said the resignation showed 'it was a good thing that he's out'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Led with White House response and Trump's dismissive comments",
-          "url": "https://www.bbc.com/news/articles/cdxg1nx2r61o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Kent's military credentials and quoted extensively from resignation letter",
-          "url": "https://www.lemonde.fr/en/international/article/2026/03/17/this-is-not-our-war-europe-refuses-to-be-dragged-into-trump-s-war-with-iran_6751517_4.html"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Noted Kent's past ties to right-wing extremists and controversial confirmation process",
-          "url": "https://www.theglobeandmail.com/business/technology/article-openai-signs-deal-to-give-pentagon-access-to-ai-for-classified-work/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Included background on Kent's previous congressional campaigns and far-right associations",
-          "url": "https://www.thehindu.com/news/international/daily-quiz-on-lexicons-and-lives/article70753114.ece"
-        }
-      ]
-    },
-    {
-      "headline": "European Allies Refuse Trump's Demand to Join Strait of Hormuz Operation",
+      "headline": "US Intelligence Officials Fail to Back Trump's Iran War Justifications in Senate Testimony",
       "category": "Geopolitics",
       "bullets": [
-        "Trump called on NATO allies plus Japan, South Korea, and China to send warships to reopen the Strait of Hormuz, threatening it would be 'very bad for the future of NATO' if they refuse",
-        "EU foreign policy chief Kaja Kallas stated 'This is not Europe's war,' while Germany's defense minister asked what European frigates could do that the US Navy cannot",
-        "France confirmed it will not send naval vessels, maintaining a 'strictly defensive approach' and refusing to join the war on Iran",
-        "Trump later reversed course, posting that the US 'no longer need, or desire' allied assistance, adding 'WE DO NOT NEED THE HELP OF ANYONE'"
-      ],
-      "sources": [
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Detailed European diplomatic responses, emphasized France's refusal",
-          "url": "https://www.lemonde.fr/en/international/article/2026/03/17/this-is-not-our-war-europe-refuses-to-be-dragged-into-trump-s-war-with-iran_6751517_4.html"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Included criticism from former UK defense chief that NATO wasn't designed for 'wars of choice'",
-          "url": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Led with Trump's reversal claiming US doesn't need help",
-          "url": "https://www.thehindu.com/news/international/daily-quiz-on-lexicons-and-lives/article70753114.ece"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Focused specifically on French position and defensive posture",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "Pakistan Airstrike Kills Over 100 at Kabul Drug Rehabilitation Center",
-      "category": "Conflict",
-      "bullets": [
-        "Pakistani air strikes killed more than 100 people at the Omid Addiction Treatment Hospital in Kabul, according to forensic laboratory sources",
-        "The facility was treating approximately 2,000 patients; many bodies were reportedly injured beyond recognition",
-        "Pakistan denied deliberately targeting the hospital, claiming it struck 'military installations and terrorist support infrastructure'",
-        "The UN Assistance Mission in Afghanistan condemned the strike and called for an immediate ceasefire and investigation; Afghan health ministry said no military facilities were near the center"
+        "DNI Tulsi Gabbard told senators Iran's regime is 'intact but largely degraded' but repeatedly declined to confirm whether Iran posed an imminent threat before the war began",
+        "Gabbard stated only the president can determine imminent threats, prompting sharp pushback from Democratic senators",
+        "Officials contradicted or failed to substantiate multiple Trump administration claims about the war, including assertions about Iran rebuilding its nuclear program",
+        "Testimony came one day after National Counterterrorism Center director Joe Kent resigned, suggesting the administration lied about imminent threats"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed casualty figures and UN response, included Pakistan's denial",
-          "url": "https://www.bbc.com/news/articles/cdxg1nx2r61o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straight reporting on testimony, noted Kent resignation context",
+          "url": "https://www.bbc.com/news/articles/c2d1drzgxzyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Video coverage noting Pakistan's claim of targeting 'terrorist' targets",
-          "url": "https://www.france24.com/en/europe/20260317-former-belgian-diplomat-first-to-stand-trial-over-1961-murder-of-congo-s-lumumba"
+          "framing_note": "Emphasized officials' evasiveness and contradictions with administration claims",
+          "url": "https://www.theglobeandmail.com/world/video-cesar-chavez-accused-of-sexually-abusing-labour-rights-leader-dolores/"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Analysis focused on credibility gap between officials' testimony and Trump's statements",
+          "url": "https://www.rnz.co.nz/news/on-the-inside/590050/takeaways-from-us-intelligence-officials-testimony-amid-war-with-iran"
         }
       ]
     },
     {
-      "headline": "Former Belgian Diplomat Ordered to Stand Trial Over 1961 Assassination of Patrice Lumumba",
-      "category": "Society",
+      "headline": "EU Summit Tackles \u20ac90 Billion Ukraine Loan Blocked by Orban Amid New Energy Crisis",
+      "category": "Economics",
       "bullets": [
-        "Brussels court ordered 93-year-old \u00c9tienne Davignon, former EU Commission vice-president, to stand trial for alleged war crimes related to the killing of Congo's first prime minister",
-        "Davignon is charged with participation in unlawful detention and transfer of Lumumba and denying him a fair trial; a charge of intent to kill was dismissed",
-        "Lumumba was tortured and executed by firing squad in January 1961 by Belgian-backed separatists; his body was dissolved in acid",
-        "Lumumba's grandson Mehdi Lumumba called the decision 'historic,' saying 'Belgium is finally confronting its history'; Davignon denies all charges"
+        "European leaders meet Thursday in Brussels to unlock \u20ac90 billion loan for Ukraine, stalled by Hungarian PM Viktor Orban over damaged Druzhba pipeline",
+        "Ukraine accepted EU technical and financial assistance to repair the pipeline, which carries Russian crude to Hungary and Slovakia",
+        "The summit agenda has been overtaken by Europe's new energy shock from the Middle East war, with diplomats expressing frustration at repeating past vulnerabilities",
+        "Orban linked pipeline repairs to loan approval ahead of Hungary's April 12 elections, with Zelensky calling it 'blackmail'"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized historical context and Belgian parliamentary finding of 'moral responsibility'",
-          "url": "https://www.theguardian.com/media/2026/mar/15/nigerias-online-content-creator-market-has-boomed-can-the-skit-makers-and-streamers-make-it-pay"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Framed as landmark moment in Europe's colonial reckoning",
-          "url": "#"
-        },
-        {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Brief coverage noting this is first prosecution in the case",
-          "url": "https://www.france24.com/en/europe/20260317-former-belgian-diplomat-first-to-stand-trial-over-1961-murder-of-congo-s-lumumba"
+          "framing_note": "Emphasized Orban's electoral motivations and 'no oil, no money' stance",
+          "url": "https://www.france24.com/en/americas/20260319-trump-homeland-security-nominee-defends-immigration-stance-in-tense-hearing"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Broader context on Europe's recurring energy vulnerabilities",
+          "url": "https://www.bbc.com/news/articles/c2d1drzgxzyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on diplomatic breakthrough over pipeline repairs",
+          "url": "https://www.rfi.fr/en/international/20260318-iran-acknowledges-death-of-security-chief-ali-larijani-in-israeli-strike"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Framed as Middle East war 'gatecrashing' EU economy summit",
+          "url": "https://www.ft.com/content/426195c6-0063-41de-8c61-79c776598f09"
+        }
+      ]
+    },
+    {
+      "headline": "Iran Confirms Death of Security Chief Ali Larijani in Israeli Strike, Launches Retaliatory Missiles",
+      "category": "Conflict",
+      "bullets": [
+        "Iran acknowledged the death of Ali Larijani, 67, secretary of the Supreme National Security Council, in an Israeli strike Tuesday\u2014the most prominent Iranian figure killed since Khamenei's death on February 28",
+        "Iranian Revolutionary Guards launched missiles at central Israel in immediate retaliation, killing two people near Tel Aviv",
+        "Funerals held Wednesday for Larijani and Basij paramilitary force head Gholamreza Soleimani, also killed in separate Israeli strike",
+        "Iran has executed three people convicted of killing police during January unrest, accused of acting on behalf of US and Israel"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on Iranian statements and retaliatory strikes",
+          "url": "https://www.rfi.fr/en/international/20260318-iran-acknowledges-death-of-security-chief-ali-larijani-in-israeli-strike"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Included context on domestic executions amid wartime tensions",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/19/jd-vance-deflects-gas-price-concerns-with-criticism-of-biden?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Zelensky Warns Ukraine Faces Missile Shortage as Middle East War Diverts US Resources",
+      "category": "Geopolitics",
+      "bullets": [
+        "In BBC interview, Ukrainian President Zelensky said the Iran war would create a 'deficit' of missiles for Ukraine as US resources are redirected",
+        "Zelensky claimed Putin wants a 'long war' between US, Israel and Iran because it weakens Ukraine through depleted reserves and higher energy prices",
+        "Ukrainian president said Trump is not on 'any side' in the Russia-Ukraine war and does not want to 'irritate' Putin",
+        "Zelensky urged Trump and UK PM Starmer to meet and find common ground despite Trump's criticism of Starmer"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Exclusive interview framing; emphasized Zelensky's 'very bad feeling' about war's impact",
+          "url": "https://www.bbc.com/news/articles/c2d1drzgxzyo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Sri Lanka introduces four-day work week to conserve fuel amid Middle East war and Strait of Hormuz closure",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-03-17/sri-lanka-moves-to-four-day-work-week-to-conserve-fuel-amid-war/106466160"
-    },
-    {
-      "headline": "UK health minister describes meningitis outbreak linked to Canterbury nightclub as 'unprecedented' after two student deaths and 15 confirmed cases",
+      "headline": "Costa Rica severs diplomatic ties with Cuba, with President Chaves declaring 'hemisphere must be cleansed of communists'",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/17/uk-rushes-to-contain-unprecedented-meningitis-outbreak_6751532_4.html"
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/19/costa-rica-closes-embassy-in-havana-cutting-ties-with-cuba_6751586_4.html"
     },
     {
-      "headline": "At least 23 killed in suspected Boko Haram suicide bombings in Maiduguri, Nigeria during Ramadan iftar",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/17/bombings-north-eastern-nigeria-maiduguri"
+      "headline": "Sudan drone attack kills at least 15 people at funeral gathering in Chad border town of Tine",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/19/sudan-drone-attack-kills-at-least-15-in-chad_6751587_4.html"
     },
     {
-      "headline": "British holidaymakers rebooking Easter trips from Dubai to Spain and Portugal amid Middle East war disruption",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cm21gv3133zo"
-    },
-    {
-      "headline": "Former French president Nicolas Sarkozy returns to court for appeal trial over alleged Libyan campaign financing",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20260317-former-french-president-sarkozy-back-in-court-over-libyan-funding-scandal"
-    },
-    {
-      "headline": "UK and Ukraine announce partnership to sell drone technology abroad as Zelensky visits London",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-uk-ukraine-drones-starmer-support-zelensky/"
-    },
-    {
-      "headline": "OpenAI signs deal to provide AI models to Pentagon for classified work through Amazon Web Services after Anthropic dropped",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/business/technology/article-openai-signs-deal-to-give-pentagon-access-to-ai-for-classified-work/"
-    },
-    {
-      "headline": "Chile's new president Jos\u00e9 Antonio Kast begins construction of border barrier with Peru five days after taking office",
+      "headline": "Woman killed when ski gondola detaches from cable and crashes down Mt Titlis at Swiss resort amid 80km/h winds",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cvg1227k00eo"
+      "url": "https://www.bbc.com/news/articles/cq575yp1lw6o"
     },
     {
-      "headline": "French national Martin Ryan sentenced to 10 years in Azerbaijan prison for spying on military cooperation with Turkey and Pakistan",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c2lr5j84gd1o"
+      "headline": "France names next aircraft carrier 'France Libre,' set to be largest warship ever built in Europe at \u20ac10 billion cost",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260318-macron-unveils-france-libre-as-france-s-next-aircraft-carrier"
     },
     {
-      "headline": "Cuba experiences third blackout in four months as Trump escalates threats and claims he could 'take Cuba'",
+      "headline": "Ecuador gang leader 'Lobo Menor' arrested in Mexico City, wanted for 2023 murder of presidential candidate Fernando Villavicencio",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cy8g81k5xzgo"
+    },
+    {
+      "headline": "Labour icon Dolores Huerta reveals she was sexually abused by C\u00e9sar Chavez, stayed silent for 60 years to protect farmworker movement",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-cuba-power-outage-grid-oil-blockage-trump/"
+      "url": "https://www.theglobeandmail.com/world/article-us-labour-icon-cesar-chavez-accused-of-sexual-abuse/"
+    },
+    {
+      "headline": "US intelligence agencies assess China does not plan to invade Taiwan in 2027 and has no fixed unification timeline",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/19/us-intelligence-agencies-not-expecting-china-to-invade-taiwan-in-2027"
+    },
+    {
+      "headline": "CAF strips Senegal of AFCON title and awards it to Morocco two months after final, citing players' brief pitch departure",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/03/19/caf-has-completely-lost-its-mind-with-this-absurd-decision-denounces-claude-le-roy-after-morocco-s-victory-at-afcon-is-announced_6751583_124.html"
+    },
+    {
+      "headline": "Norwegian crown princess's son Marius Borg H\u00f8iby faces seven-year prison request from prosecutors on rape and assault charges",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c74741pgleko"
+    },
+    {
+      "headline": "Barcelona crushes Newcastle 7-2 to advance 8-3 on aggregate in Champions League; Liverpool overcomes first-leg deficit against Galatasaray",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/19/barcelona-liverpool-bayern-and-atletico-move-to-champions-league-quarter-finals_6751585_4.html"
     }
   ]
 }
