@@ -1,196 +1,197 @@
 {
-  "date": "Thursday, March 19, 2026",
-  "daily_brief": "The Middle East war dominated global developments Thursday as Iran struck Qatar's Ras Laffan LNG facility\u2014the world's largest\u2014causing extensive damage and sending oil prices surging [Financial Times, Al Jazeera]. The attack came after Israel hit Iran's South Pars gas field, with Tehran also acknowledging the death of security chief Ali Larijani in an Israeli strike [RFI]. US intelligence officials testified that Iran's regime remains 'intact but largely degraded,' while repeatedly failing to substantiate the Trump administration's claims about imminent threats that justified the war [BBC, Globe and Mail, RNZ]. In Europe, leaders convene in Brussels Thursday facing twin crises: unlocking a \u20ac90 billion Ukraine loan blocked by Hungary's Viktor Orban, and confronting a new energy shock as the conflict disrupts supplies through the Strait of Hormuz [France 24, BBC]. Ukraine's President Zelensky warned the BBC that the war in Iran would create missile deficits for his country as US resources shift elsewhere. Meanwhile, Costa Rica severed diplomatic ties with Cuba, with President Chaves declaring the 'hemisphere must be cleansed of communists' [Le Monde].",
+  "date": "Friday, March 20, 2026",
+  "daily_brief": "The Middle East war dominated global headlines as Israel struck Tehran during Nowruz celebrations while Iran continued attacks on Gulf energy infrastructure, hitting Kuwait's Mina al-Ahmadi refinery [France 24, BBC, Globe and Mail]. Prime Minister Netanyahu claimed Iran is being 'decimated' and confirmed Israel acted alone in striking Iran's South Pars gas field, with President Trump requesting no further attacks on energy targets [BBC, Le Monde]. The energy crisis deepened as Strait of Hormuz traffic dropped 95%, prompting Canada, Japan, and European allies to signal willingness to help reopen the waterway [BBC, Globe and Mail]. The U.S. Treasury floated the extraordinary possibility of lifting sanctions on some Iranian oil to ease market pressures [BBC]. In Europe, reports emerged that Denmark had prepared to destroy Greenland airport runways in the event of a U.S. invasion, underscoring transatlantic tensions [BBC, Financial Times]. Meanwhile, Belarus released 250 political prisoners in a U.S.-brokered deal [Le Monde], and the EU summit failed to secure Hungary's support for a \u20ac90 billion Ukraine loan [RFI]. Relief agencies warned the conflict could push 45 million additional people into acute hunger by midyear [Globe and Mail].",
   "top_stories": [
     {
-      "headline": "Iran Strikes Qatar's Major LNG Facility in Escalating Gulf Energy War",
+      "headline": "Israel Strikes Tehran on Nowruz as Iran Hits Gulf Energy Sites, Escalating Regional Conflict",
       "category": "Conflict",
       "bullets": [
-        "Iran launched missile attacks on Qatar's Ras Laffan facility\u2014site of the world's largest LNG operations\u2014causing fires and 'extensive damage' according to Qatari officials",
-        "Qatar ordered Iran's military and security attach\u00e9s to leave within 24 hours following the attack",
-        "The strikes came in retaliation for Israeli attacks on Iran's South Pars gas field; Trump threatened to 'blow up' a major Iranian gas field if attacks on Gulf energy infrastructure continue",
-        "Oil and gas prices surged globally as the conflict threatens critical energy supply chains"
-      ],
-      "sources": [
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Led with economic impact and market implications",
-          "url": "https://www.ft.com/content/426195c6-0063-41de-8c61-79c776598f09"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized diplomatic fallout and regional escalation",
-          "url": "https://www.france24.com/en/americas/20260319-trump-homeland-security-nominee-defends-immigration-stance-in-tense-hearing"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Focused on Gulf state responses and Iranian justifications",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/19/jd-vance-deflects-gas-price-concerns-with-criticism-of-biden?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "US Intelligence Officials Fail to Back Trump's Iran War Justifications in Senate Testimony",
-      "category": "Geopolitics",
-      "bullets": [
-        "DNI Tulsi Gabbard told senators Iran's regime is 'intact but largely degraded' but repeatedly declined to confirm whether Iran posed an imminent threat before the war began",
-        "Gabbard stated only the president can determine imminent threats, prompting sharp pushback from Democratic senators",
-        "Officials contradicted or failed to substantiate multiple Trump administration claims about the war, including assertions about Iran rebuilding its nuclear program",
-        "Testimony came one day after National Counterterrorism Center director Joe Kent resigned, suggesting the administration lied about imminent threats"
+        "Israeli airstrikes hit Tehran on Friday as Iranians marked Persian New Year; Iran launched multiple missile barrages at Israel throughout Thursday and Friday",
+        "An Iranian drone struck Kuwait's Mina al-Ahmadi oil refinery, causing fires and shutting down some units; heavy explosions were reported over Dubai as air defenses intercepted incoming fire",
+        "Netanyahu stated Israel 'acted alone' in the South Pars gas field strike and confirmed Trump requested no further attacks on energy infrastructure",
+        "Iran has executed three men, including teenager Saleh Mohammadi, convicted over January anti-government protests in the first hangings related to the demonstrations"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Straight reporting on testimony, noted Kent resignation context",
-          "url": "https://www.bbc.com/news/articles/c2d1drzgxzyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on Netanyahu's statements and diplomatic fallout with U.S.",
+          "url": "https://www.bbc.com/news/articles/ce9mzn7k722o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized broader regional impact and AI-generated propaganda concerns",
+          "url": "https://www.france24.com/en/senegal-not-losing-without-a-fight"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Netanyahu's 'decimated' rhetoric and Iran's continued missile capabilities",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/20/netanyahu-says-iran-decimated-as-tehran-targets-gulf-petro-facilities_6751624_4.html"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized officials' evasiveness and contradictions with administration claims",
-          "url": "https://www.theglobeandmail.com/world/video-cesar-chavez-accused-of-sexually-abusing-labour-rights-leader-dolores/"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Analysis focused on credibility gap between officials' testimony and Trump's statements",
-          "url": "https://www.rnz.co.nz/news/on-the-inside/590050/takeaways-from-us-intelligence-officials-testimony-amid-war-with-iran"
+          "framing_note": "Stressed economic implications and Israel's agreement to refrain from further gas field strikes",
+          "url": "https://www.theglobeandmail.com/world/article-eu-leaders-summit-middle-east-iran-war-energy-prices/"
         }
       ]
     },
     {
-      "headline": "EU Summit Tackles \u20ac90 Billion Ukraine Loan Blocked by Orban Amid New Energy Crisis",
+      "headline": "Global Energy Crisis Deepens as Strait of Hormuz Traffic Falls 95% and U.S. Weighs Sanctions Relief",
       "category": "Economics",
       "bullets": [
-        "European leaders meet Thursday in Brussels to unlock \u20ac90 billion loan for Ukraine, stalled by Hungarian PM Viktor Orban over damaged Druzhba pipeline",
-        "Ukraine accepted EU technical and financial assistance to repair the pipeline, which carries Russian crude to Hungary and Slovakia",
-        "The summit agenda has been overtaken by Europe's new energy shock from the Middle East war, with diplomats expressing frustration at repeating past vulnerabilities",
-        "Orban linked pipeline repairs to loan approval ahead of Hungary's April 12 elections, with Zelensky calling it 'blackmail'"
+        "Daily ship traffic through the Strait of Hormuz has dropped from approximately 138 vessels to 5-6 per day since the war began February 28",
+        "Brent crude reached $113 per barrel; oil-producing nations released 400 million barrels from strategic reserves to offset supply disruptions",
+        "U.S. Treasury Secretary Bessent floated lifting sanctions on Iranian oil already at sea to ease market pressures, drawing sharp criticism from sanctions experts",
+        "Canada, Japan, UK, France, Germany, Italy, and the Netherlands issued a joint statement expressing readiness to contribute to efforts ensuring safe passage through the Strait"
       ],
       "sources": [
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized Orban's electoral motivations and 'no oil, no money' stance",
-          "url": "https://www.france24.com/en/americas/20260319-trump-homeland-security-nominee-defends-immigration-stance-in-tense-hearing"
-        },
-        {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Broader context on Europe's recurring energy vulnerabilities",
-          "url": "https://www.bbc.com/news/articles/c2d1drzgxzyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed shipping data analysis and vessel origins",
+          "url": "https://www.bbc.com/news/articles/ce9mzn7k722o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized allied diplomatic coordination and Canadian involvement",
+          "url": "https://www.theglobeandmail.com/world/article-eu-leaders-summit-middle-east-iran-war-energy-prices/"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Focused on diplomatic breakthrough over pipeline repairs",
-          "url": "https://www.rfi.fr/en/international/20260318-iran-acknowledges-death-of-security-chief-ali-larijani-in-israeli-strike"
+          "framing_note": "Featured former EU commissioner warning of 20-day window before severe consequences",
+          "url": "https://www.rfi.fr/en/international/20260319-global-happiness-holds-steady-but-social-media-weighs-on-teens"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Framed as Middle East war 'gatecrashing' EU economy summit",
-          "url": "https://www.ft.com/content/426195c6-0063-41de-8c61-79c776598f09"
+          "framing_note": "Focused on airline jet fuel shortage fears",
+          "url": "https://www.ft.com/content/255db77a-a48e-4952-b135-c6db334ded63"
         }
       ]
     },
     {
-      "headline": "Iran Confirms Death of Security Chief Ali Larijani in Israeli Strike, Launches Retaliatory Missiles",
-      "category": "Conflict",
-      "bullets": [
-        "Iran acknowledged the death of Ali Larijani, 67, secretary of the Supreme National Security Council, in an Israeli strike Tuesday\u2014the most prominent Iranian figure killed since Khamenei's death on February 28",
-        "Iranian Revolutionary Guards launched missiles at central Israel in immediate retaliation, killing two people near Tel Aviv",
-        "Funerals held Wednesday for Larijani and Basij paramilitary force head Gholamreza Soleimani, also killed in separate Israeli strike",
-        "Iran has executed three people convicted of killing police during January unrest, accused of acting on behalf of US and Israel"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on Iranian statements and retaliatory strikes",
-          "url": "https://www.rfi.fr/en/international/20260318-iran-acknowledges-death-of-security-chief-ali-larijani-in-israeli-strike"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Included context on domestic executions amid wartime tensions",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/19/jd-vance-deflects-gas-price-concerns-with-criticism-of-biden?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Zelensky Warns Ukraine Faces Missile Shortage as Middle East War Diverts US Resources",
+      "headline": "Denmark Prepared to Destroy Greenland Runways in Event of U.S. Invasion, Reports Reveal",
       "category": "Geopolitics",
       "bullets": [
-        "In BBC interview, Ukrainian President Zelensky said the Iran war would create a 'deficit' of missiles for Ukraine as US resources are redirected",
-        "Zelensky claimed Putin wants a 'long war' between US, Israel and Iran because it weakens Ukraine through depleted reserves and higher energy prices",
-        "Ukrainian president said Trump is not on 'any side' in the Russia-Ukraine war and does not want to 'irritate' Putin",
-        "Zelensky urged Trump and UK PM Starmer to meet and find common ground despite Trump's criticism of Starmer"
+        "Danish soldiers deployed to Greenland in January were prepared to blow up key airport runways if the U.S. attempted to invade the Arctic island",
+        "Blood supplies were brought in to treat potential wounded; Copenhagen sought political support from France, Germany, and Nordic nations",
+        "The report, based on 12 sources in Danish government and military plus European allies, was confirmed by two European officials to the Financial Times",
+        "Danish defence ministry declined to comment; both the U.S. and Denmark are NATO members"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Exclusive interview framing; emphasized Zelensky's 'very bad feeling' about war's impact",
-          "url": "https://www.bbc.com/news/articles/c2d1drzgxzyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straightforward reporting emphasizing NATO alliance tensions",
+          "url": "https://www.bbc.com/news/articles/ce9mzn7k722o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage, highlighting European solidarity efforts",
+          "url": "https://www.bbc.com/news/articles/cly1mg3zy20o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Confirmed report through independent European official sources",
+          "url": "https://www.ft.com/content/255db77a-a48e-4952-b135-c6db334ded63"
+        }
+      ]
+    },
+    {
+      "headline": "Belarus Releases 250 Political Prisoners in Largest U.S.-Brokered Deal in Years",
+      "category": "Policy",
+      "bullets": [
+        "Belarus freed 250 political prisoners Thursday following negotiations with U.S. envoy John Coale, who met President Lukashenko in Minsk",
+        "Released prisoners include human rights activists Valentin Stefanovich, Marfa Rabkova, and Anastasiya Loika",
+        "In exchange, the U.S. agreed to remove sanctions on several Belarusian companies",
+        "Opposition leader Svetlana Tikhanovskaya thanked Trump while urging release of hundreds still detained since disputed 2020 elections"
+      ],
+      "sources": [
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Balanced coverage noting Trump's diplomatic approach toward Russia ally while acknowledging humanitarian milestone",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/20/netanyahu-says-iran-decimated-as-tehran-targets-gulf-petro-facilities_6751624_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "EU Summit Fails to Break Hungary's Block on \u20ac90 Billion Ukraine Loan",
+      "category": "Geopolitics",
+      "bullets": [
+        "Hungarian Prime Minister Viktor Orban refused to lift his veto on the \u20ac90 billion EU loan to Ukraine at Brussels summit",
+        "Orban is leveraging the loan dispute over damage to an oil pipeline running through Ukraine that has reduced Russian oil flow to Hungary and Slovakia",
+        "EU diplomat stated 'no movement from Orban' and acknowledged the block is linked to Hungary's April 12 elections",
+        "EU High Representative Kaja Kallas warned it is 'really, really time' to show support for Ukraine by unlocking funding"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized Orban's electoral motivations and EU frustration",
+          "url": "https://www.rfi.fr/en/international/20260319-global-happiness-holds-steady-but-social-media-weighs-on-teens"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Broader context of Europe's energy crisis and summit priorities",
+          "url": "https://www.bbc.com/news/articles/cly1mg3zy20o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Costa Rica severs diplomatic ties with Cuba, with President Chaves declaring 'hemisphere must be cleansed of communists'",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/19/costa-rica-closes-embassy-in-havana-cutting-ties-with-cuba_6751586_4.html"
-    },
-    {
-      "headline": "Sudan drone attack kills at least 15 people at funeral gathering in Chad border town of Tine",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/19/sudan-drone-attack-kills-at-least-15-in-chad_6751587_4.html"
-    },
-    {
-      "headline": "Woman killed when ski gondola detaches from cable and crashes down Mt Titlis at Swiss resort amid 80km/h winds",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cq575yp1lw6o"
-    },
-    {
-      "headline": "France names next aircraft carrier 'France Libre,' set to be largest warship ever built in Europe at \u20ac10 billion cost",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260318-macron-unveils-france-libre-as-france-s-next-aircraft-carrier"
-    },
-    {
-      "headline": "Ecuador gang leader 'Lobo Menor' arrested in Mexico City, wanted for 2023 murder of presidential candidate Fernando Villavicencio",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cy8g81k5xzgo"
-    },
-    {
-      "headline": "Labour icon Dolores Huerta reveals she was sexually abused by C\u00e9sar Chavez, stayed silent for 60 years to protect farmworker movement",
+      "headline": "Relief agencies warn 45 million additional people could face acute hunger by midyear due to Middle East war's impact on food and fuel prices",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-us-labour-icon-cesar-chavez-accused-of-sexual-abuse/"
+      "url": "https://www.theglobeandmail.com/world/article-mideast-war-will-cause-spike-in-world-hunger-agencies-say/"
     },
     {
-      "headline": "US intelligence agencies assess China does not plan to invade Taiwan in 2027 and has no fixed unification timeline",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/3/19/us-intelligence-agencies-not-expecting-china-to-invade-taiwan-in-2027"
+      "headline": "Venezuela's interim President Delcy Rodriguez replaces all senior military commanders following U.S.-backed ouster of Maduro",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260320-venezuela-interim-president-military-commanders-reforms"
     },
     {
-      "headline": "CAF strips Senegal of AFCON title and awards it to Morocco two months after final, citing players' brief pitch departure",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/03/19/caf-has-completely-lost-its-mind-with-this-absurd-decision-denounces-claude-le-roy-after-morocco-s-victory-at-afcon-is-announced_6751583_124.html"
+      "headline": "EU agrees to review emissions trading system as energy crisis from Middle East war puts pressure on climate policies",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/34cc13d5-df6e-4621-a459-0f63f79f2070"
     },
     {
-      "headline": "Norwegian crown princess's son Marius Borg H\u00f8iby faces seven-year prison request from prosecutors on rape and assault charges",
+      "headline": "UK bilateral aid to African countries to be cut by 56% (nearly \u00a3900m) by 2028-29 to fund increased defense spending",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/mar/19/poorest-countries-lose-uk-aid-56-per-cent-budget-cut"
+    },
+    {
+      "headline": "Japan pledges $109 billion in U.S. investment and financing, the largest commitment among countries reaching trade deals with Trump",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/japan-s-109bn-in-us-investment-pledges-stand-out-among-partners"
+    },
+    {
+      "headline": "Singapore's ship-fueling hub faces soaring prices and tightening supply due to Middle East crisis, raising regional logistics concerns",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/spotlight/iran-tensions/singapore-world-s-top-ship-fueling-hub-grapples-with-tight-supply"
+    },
+    {
+      "headline": "Cyprus president calls for 'frank discussion' on UK military bases, describing them as 'colonial consequence' after drone attack",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c74741pgleko"
+      "url": "https://www.bbc.com/news/articles/cy7166denxeo"
     },
     {
-      "headline": "Barcelona crushes Newcastle 7-2 to advance 8-3 on aggregate in Champions League; Liverpool overcomes first-leg deficit against Galatasaray",
+      "headline": "Umberto Bossi, founder of Italy's Northern League party and longtime populist figure, dies at 84",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/19/barcelona-liverpool-bayern-and-atletico-move-to-champions-league-quarter-finals_6751585_4.html"
+      "url": "https://www.lemonde.fr/en/obituaries/article/2026/03/20/umberto-bossi-provocative-founder-of-italy-s-league-party-dies-at-84_6751625_15.html"
+    },
+    {
+      "headline": "World Happiness Report finds heavy social media use linked to declining well-being among teenagers, particularly girls in Western countries",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260319-global-happiness-holds-steady-but-social-media-weighs-on-teens"
     }
   ]
 }
