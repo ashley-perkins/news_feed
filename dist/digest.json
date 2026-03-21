@@ -1,197 +1,196 @@
 {
-  "date": "Friday, March 20, 2026",
-  "daily_brief": "The Middle East war dominated global headlines as Israel struck Tehran during Nowruz celebrations while Iran continued attacks on Gulf energy infrastructure, hitting Kuwait's Mina al-Ahmadi refinery [France 24, BBC, Globe and Mail]. Prime Minister Netanyahu claimed Iran is being 'decimated' and confirmed Israel acted alone in striking Iran's South Pars gas field, with President Trump requesting no further attacks on energy targets [BBC, Le Monde]. The energy crisis deepened as Strait of Hormuz traffic dropped 95%, prompting Canada, Japan, and European allies to signal willingness to help reopen the waterway [BBC, Globe and Mail]. The U.S. Treasury floated the extraordinary possibility of lifting sanctions on some Iranian oil to ease market pressures [BBC]. In Europe, reports emerged that Denmark had prepared to destroy Greenland airport runways in the event of a U.S. invasion, underscoring transatlantic tensions [BBC, Financial Times]. Meanwhile, Belarus released 250 political prisoners in a U.S.-brokered deal [Le Monde], and the EU summit failed to secure Hungary's support for a \u20ac90 billion Ukraine loan [RFI]. Relief agencies warned the conflict could push 45 million additional people into acute hunger by midyear [Globe and Mail].",
+  "date": "Saturday, March 21, 2026",
+  "daily_brief": "The US-Israeli war against Iran entered its fourth week with President Trump signaling he is considering 'winding down' military operations, even as the Pentagon dispatched 2,500 additional marines to the region [Le Monde, France 24, Financial Times]. In a significant policy reversal, Treasury Secretary Bessent announced temporary sanctions relief on Iranian oil to address soaring global energy prices [BBC, The Hindu]. Iran continued retaliatory strikes against Gulf states and Israel, while reportedly firing missiles at the joint US-UK base at Diego Garcia in the Indian Ocean [Wall Street Journal via France 24, Globe and Mail]. A federal judge ruled the Pentagon's press restrictions unconstitutional, citing the public's need for information during wartime [Le Monde]. Meanwhile, a new Global Terrorism Index report confirmed the Sahel has become the world's deadliest region for terrorism, with nearly half of all global terrorism deaths occurring there for the third consecutive year [RFI, The Guardian]. The UK announced steep 56% cuts to bilateral aid for African countries, redirecting funds toward defense spending amid the ongoing Middle East conflict [The Guardian].",
   "top_stories": [
     {
-      "headline": "Israel Strikes Tehran on Nowruz as Iran Hits Gulf Energy Sites, Escalating Regional Conflict",
+      "headline": "Trump Signals Possible End to Iran War as US Eases Oil Sanctions Amid Energy Crisis",
       "category": "Conflict",
       "bullets": [
-        "Israeli airstrikes hit Tehran on Friday as Iranians marked Persian New Year; Iran launched multiple missile barrages at Israel throughout Thursday and Friday",
-        "An Iranian drone struck Kuwait's Mina al-Ahmadi oil refinery, causing fires and shutting down some units; heavy explosions were reported over Dubai as air defenses intercepted incoming fire",
-        "Netanyahu stated Israel 'acted alone' in the South Pars gas field strike and confirmed Trump requested no further attacks on energy infrastructure",
-        "Iran has executed three men, including teenager Saleh Mohammadi, convicted over January anti-government protests in the first hangings related to the demonstrations"
+        "President Trump posted on Truth Social that the US is 'very close to meeting our objectives' and considering 'winding down' military operations against Iran, entering week four of the conflict",
+        "Treasury Secretary Bessent announced temporary sanctions relief on Iranian oil currently at sea, authorizing sales until April 19 to bring approximately 140 million barrels to global markets",
+        "Despite wind-down signals, the Pentagon ordered three additional amphibious assault ships and roughly 2,500 marines to the region",
+        "Iran continued retaliatory strikes on Saudi Arabia, Israel, and reportedly fired two ballistic missiles at the joint US-UK Diego Garcia base in the Indian Ocean"
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on Netanyahu's statements and diplomatic fallout with U.S.",
-          "url": "https://www.bbc.com/news/articles/ce9mzn7k722o?at_medium=RSS&at_campaign=rss"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Trump's contradictory messaging between wind-down rhetoric and troop deployments",
+          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/03/21/decision-to-award-afcon-2025-victory-to-morocco-further-damages-the-credibility-of-african-football_6751659_124.html"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized broader regional impact and AI-generated propaganda concerns",
-          "url": "https://www.france24.com/en/senegal-not-losing-without-a-fight"
+          "framing_note": "Focused on military developments and liveblog updates",
+          "url": "https://www.france24.com/en/americas/20260320-colombia-president-gustavo-petro-under-investigation-us-prosecutors-drug-trafficking"
         },
         {
-          "name": "Le Monde",
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Highlighted economic implications and Pentagon troop movements",
+          "url": "https://www.ft.com/content/46962f7d-5ee9-4813-a53c-2961a82bf82d"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized sanctions reversal as 'stunning' policy shift with uncertain payoff",
+          "url": "https://www.bbc.com/news/articles/c9d415g55nno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Noted mixed messages and stock market impact",
+          "url": "https://www.theglobeandmail.com/world/article-nowruz-wartime-tehran-iranians-find-joy-new-year-spring/"
+        },
+        {
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Netanyahu's 'decimated' rhetoric and Iran's continued missile capabilities",
-          "url": "https://www.lemonde.fr/en/international/article/2026/03/20/netanyahu-says-iran-decimated-as-tehran-targets-gulf-petro-facilities_6751624_4.html"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Stressed economic implications and Israel's agreement to refrain from further gas field strikes",
-          "url": "https://www.theglobeandmail.com/world/article-eu-leaders-summit-middle-east-iran-war-energy-prices/"
+          "framing_note": "Focused on implications for Indian oil imports and regional diplomacy",
+          "url": "https://www.thehindu.com/news/international/iran-ready-to-let-japanese-vessels-transit-strait-of-hormuz-say-reports/article70768281.ece"
         }
       ]
     },
     {
-      "headline": "Global Energy Crisis Deepens as Strait of Hormuz Traffic Falls 95% and U.S. Weighs Sanctions Relief",
-      "category": "Economics",
-      "bullets": [
-        "Daily ship traffic through the Strait of Hormuz has dropped from approximately 138 vessels to 5-6 per day since the war began February 28",
-        "Brent crude reached $113 per barrel; oil-producing nations released 400 million barrels from strategic reserves to offset supply disruptions",
-        "U.S. Treasury Secretary Bessent floated lifting sanctions on Iranian oil already at sea to ease market pressures, drawing sharp criticism from sanctions experts",
-        "Canada, Japan, UK, France, Germany, Italy, and the Netherlands issued a joint statement expressing readiness to contribute to efforts ensuring safe passage through the Strait"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed shipping data analysis and vessel origins",
-          "url": "https://www.bbc.com/news/articles/ce9mzn7k722o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized allied diplomatic coordination and Canadian involvement",
-          "url": "https://www.theglobeandmail.com/world/article-eu-leaders-summit-middle-east-iran-war-energy-prices/"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Featured former EU commissioner warning of 20-day window before severe consequences",
-          "url": "https://www.rfi.fr/en/international/20260319-global-happiness-holds-steady-but-social-media-weighs-on-teens"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on airline jet fuel shortage fears",
-          "url": "https://www.ft.com/content/255db77a-a48e-4952-b135-c6db334ded63"
-        }
-      ]
-    },
-    {
-      "headline": "Denmark Prepared to Destroy Greenland Runways in Event of U.S. Invasion, Reports Reveal",
-      "category": "Geopolitics",
-      "bullets": [
-        "Danish soldiers deployed to Greenland in January were prepared to blow up key airport runways if the U.S. attempted to invade the Arctic island",
-        "Blood supplies were brought in to treat potential wounded; Copenhagen sought political support from France, Germany, and Nordic nations",
-        "The report, based on 12 sources in Danish government and military plus European allies, was confirmed by two European officials to the Financial Times",
-        "Danish defence ministry declined to comment; both the U.S. and Denmark are NATO members"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting emphasizing NATO alliance tensions",
-          "url": "https://www.bbc.com/news/articles/ce9mzn7k722o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Same coverage, highlighting European solidarity efforts",
-          "url": "https://www.bbc.com/news/articles/cly1mg3zy20o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Confirmed report through independent European official sources",
-          "url": "https://www.ft.com/content/255db77a-a48e-4952-b135-c6db334ded63"
-        }
-      ]
-    },
-    {
-      "headline": "Belarus Releases 250 Political Prisoners in Largest U.S.-Brokered Deal in Years",
+      "headline": "Federal Judge Strikes Down Pentagon Press Restrictions as Unconstitutional",
       "category": "Policy",
       "bullets": [
-        "Belarus freed 250 political prisoners Thursday following negotiations with U.S. envoy John Coale, who met President Lukashenko in Minsk",
-        "Released prisoners include human rights activists Valentin Stefanovich, Marfa Rabkova, and Anastasiya Loika",
-        "In exchange, the U.S. agreed to remove sanctions on several Belarusian companies",
-        "Opposition leader Svetlana Tikhanovskaya thanked Trump while urging release of hundreds still detained since disputed 2020 elections"
+        "A Washington federal judge ruled that Pentagon press access restrictions violate the First and Fifth Amendments of the US Constitution",
+        "The ruling responded to a lawsuit brought by the New York Times after credentials were stripped from major outlets including AFP, AP, and Fox News in mid-October",
+        "Media organizations had declined to sign the new policy, resulting in loss of Pentagon access",
+        "The court emphasized the public's need for information 'from a variety of perspectives' during the US war with Iran"
       ],
       "sources": [
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Balanced coverage noting Trump's diplomatic approach toward Russia ally while acknowledging humanitarian milestone",
-          "url": "https://www.lemonde.fr/en/international/article/2026/03/20/netanyahu-says-iran-decimated-as-tehran-targets-gulf-petro-facilities_6751624_4.html"
+          "framing_note": "Framed as part of broader Trump administration measures against journalists deemed 'fake news'",
+          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/03/21/decision-to-award-afcon-2025-victory-to-morocco-further-damages-the-credibility-of-african-football_6751659_124.html"
         }
       ]
     },
     {
-      "headline": "EU Summit Fails to Break Hungary's Block on \u20ac90 Billion Ukraine Loan",
-      "category": "Geopolitics",
+      "headline": "Sahel Confirmed as World's Deadliest Region for Terrorism for Third Consecutive Year",
+      "category": "Conflict",
       "bullets": [
-        "Hungarian Prime Minister Viktor Orban refused to lift his veto on the \u20ac90 billion EU loan to Ukraine at Brussels summit",
-        "Orban is leveraging the loan dispute over damage to an oil pipeline running through Ukraine that has reduced Russian oil flow to Hungary and Slovakia",
-        "EU diplomat stated 'no movement from Orban' and acknowledged the block is linked to Hungary's April 12 elections",
-        "EU High Representative Kaja Kallas warned it is 'really, really time' to show support for Ukraine by unlocking funding"
+        "The Global Terrorism Index 2026 reports nearly half of all global terrorism deaths now occur in the Sahel region of sub-Saharan Africa",
+        "In 2024, more than half of 7,555 global terrorism deaths were recorded in the Sahel; in 2025, nearly half of 5,582 fatalities occurred there",
+        "Nigeria recorded the largest increase in terrorism deaths globally in 2025, with fatalities rising 46% to 750, while DRC deaths rose 28%",
+        "The epicenter of terrorism has shifted from the Middle East and North Africa, with the Sahel experiencing a tenfold increase in fatalities since 2007"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized Orban's electoral motivations and EU frustration",
-          "url": "https://www.rfi.fr/en/international/20260319-global-happiness-holds-steady-but-social-media-weighs-on-teens"
+          "framing_note": "Comprehensive coverage citing Institute for Economics and Peace data",
+          "url": "https://www.rfi.fr/en/france/20260320-french-jihadist-jailed-for-life-for-islamic-state-crimes-against-yazidis"
         },
         {
-          "name": "BBC Europe",
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Nigeria and DRC specifically, noting overall global deaths fell to decade low",
+          "url": "https://www.theguardian.com/world/2026/mar/17/ex-belgian-diplomat-93-trial-1961-murder-patrice-lumumba"
+        }
+      ]
+    },
+    {
+      "headline": "UK Announces 56% Cut to African Aid, Steepest Reduction in G7",
+      "category": "Policy",
+      "bullets": [
+        "UK bilateral aid to African countries will be reduced by nearly \u00a3900 million by 2028-29, a 56% cut",
+        "The cuts are part of more than \u00a36 billion in reductions funding increased defense spending",
+        "Aid spending will be cut to all G20 countries except Turkey, with 70% of support allocated to fragile and conflict-affected states by 2029",
+        "Labour MPs have privately expressed skepticism that cuts achieved intended military spending goals given delays in defense investment plans"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Critical framing, quoting aid agencies calling it 'steepest in G7' leaving UK reputation 'in tatters'",
+          "url": "https://www.theguardian.com/world/2026/mar/17/ex-belgian-diplomat-93-trial-1961-murder-patrice-lumumba"
+        }
+      ]
+    },
+    {
+      "headline": "AI's Role in Modern Warfare Spotlighted as US Credits Technology for Iran Strike Success",
+      "category": "Technology",
+      "bullets": [
+        "Admiral Brad Cooper of US Central Command stated AI tools helped US forces hit over 5,500 targets in Iran, turning processes that 'used to take hours and sometimes even days into seconds'",
+        "Over 1,000 targets were hit in the first 24 hours of Operation 'Epic Fury' beginning February 28",
+        "White House video communications borrowed visual language from first-person shooter games like Call of Duty, marking a shift in how military operations are portrayed",
+        "Military officials emphasized humans still make final decisions on strikes while AI accelerates targeting processes"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Broader context of Europe's energy crisis and summit priorities",
-          "url": "https://www.bbc.com/news/articles/cly1mg3zy20o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straightforward reporting on AI capabilities and Admiral Cooper's statements",
+          "url": "https://www.france24.com/en/americas/20260320-colombia-president-gustavo-petro-under-investigation-us-prosecutors-drug-trafficking"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Critical analysis of Pentagon communications strategy, noting shift to gaming aesthetics and meme-like operation names",
+          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/03/21/decision-to-award-afcon-2025-victory-to-morocco-further-damages-the-credibility-of-african-football_6751659_124.html"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Focused on targeting machine development by US and Israel",
+          "url": "https://www.economist.com/international/2026/03/10/india-has-much-to-lose-from-a-world-in-chaos"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Relief agencies warn 45 million additional people could face acute hunger by midyear due to Middle East war's impact on food and fuel prices",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-mideast-war-will-cause-spike-in-world-hunger-agencies-say/"
-    },
-    {
-      "headline": "Venezuela's interim President Delcy Rodriguez replaces all senior military commanders following U.S.-backed ouster of Maduro",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260320-venezuela-interim-president-military-commanders-reforms"
-    },
-    {
-      "headline": "EU agrees to review emissions trading system as energy crisis from Middle East war puts pressure on climate policies",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/34cc13d5-df6e-4621-a459-0f63f79f2070"
-    },
-    {
-      "headline": "UK bilateral aid to African countries to be cut by 56% (nearly \u00a3900m) by 2028-29 to fund increased defense spending",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/mar/19/poorest-countries-lose-uk-aid-56-per-cent-budget-cut"
-    },
-    {
-      "headline": "Japan pledges $109 billion in U.S. investment and financing, the largest commitment among countries reaching trade deals with Trump",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/japan-s-109bn-in-us-investment-pledges-stand-out-among-partners"
-    },
-    {
-      "headline": "Singapore's ship-fueling hub faces soaring prices and tightening supply due to Middle East crisis, raising regional logistics concerns",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/spotlight/iran-tensions/singapore-world-s-top-ship-fueling-hub-grapples-with-tight-supply"
-    },
-    {
-      "headline": "Cyprus president calls for 'frank discussion' on UK military bases, describing them as 'colonial consequence' after drone attack",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cy7166denxeo"
-    },
-    {
-      "headline": "Umberto Bossi, founder of Italy's Northern League party and longtime populist figure, dies at 84",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/obituaries/article/2026/03/20/umberto-bossi-provocative-founder-of-italy-s-league-party-dies-at-84_6751625_15.html"
-    },
-    {
-      "headline": "World Happiness Report finds heavy social media use linked to declining well-being among teenagers, particularly girls in Western countries",
+      "headline": "French jihadist Sabri Essid sentenced to life in absentia for Islamic State genocide against Yazidis, first such case in France",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260319-global-happiness-holds-steady-but-social-media-weighs-on-teens"
+      "url": "https://www.rfi.fr/en/france/20260320-french-jihadist-jailed-for-life-for-islamic-state-crimes-against-yazidis"
+    },
+    {
+      "headline": "US prosecutors investigating Colombian President Gustavo Petro over suspected ties to drug traffickers",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260320-colombia-president-gustavo-petro-under-investigation-us-prosecutors-drug-trafficking"
+    },
+    {
+      "headline": "Madagascar's military ruler decrees new ministers must pass lie detector tests following cabinet dismissal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/20/madagascar-military-ruler-new-ministers-lie-detector-tests"
+    },
+    {
+      "headline": "Former Belgian diplomat \u00c9tienne Davignon, 93, ordered to stand trial over alleged complicity in 1961 murder of Congo's Patrice Lumumba",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/17/ex-belgian-diplomat-93-trial-1961-murder-patrice-lumumba"
+    },
+    {
+      "headline": "At least 11 killed and dozens injured in fire at South Korean car parts factory in Daejeon",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/south-korea-car-plant-fire-many-killed-march-21-2026/article70767397.ece"
+    },
+    {
+      "headline": "Russian spy unit Center 795 exposed after agent used Google Translate, allowing FBI to read communications in real time",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20260320-google-translate-exposes-russian-spy-unit"
+    },
+    {
+      "headline": "French police under fire for using facial recognition during routine identity stops in potential breach of law",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260320-french-police-under-fire-over-use-of-facial-recognition-during-routine-stops"
+    },
+    {
+      "headline": "Canadian mother and seven-year-old autistic daughter detained by US border patrol in Texas despite valid visas",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/article-canadian-mother-daughter-detention-texas-border-patrol/"
+    },
+    {
+      "headline": "BTS holds first full concert in nearly four years in Seoul, with 260,000 expected to gather",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/media-entertainment/bts-takes-over-central-seoul-with-massive-comeback-concert"
+    },
+    {
+      "headline": "UNRWA head warns agency faces 'slow death' without firm political and financial support as mandate ends",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/21/unrwa-head-philippe-lazzarini-s-grim-assessment-without-firm-political-and-financial-support-we-face-a-slow-death_6751664_4.html"
     }
   ]
 }
