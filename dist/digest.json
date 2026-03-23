@@ -1,196 +1,220 @@
 {
-  "date": "Saturday, March 21, 2026",
-  "daily_brief": "The US-Israeli war against Iran entered its fourth week with President Trump signaling he is considering 'winding down' military operations, even as the Pentagon dispatched 2,500 additional marines to the region [Le Monde, France 24, Financial Times]. In a significant policy reversal, Treasury Secretary Bessent announced temporary sanctions relief on Iranian oil to address soaring global energy prices [BBC, The Hindu]. Iran continued retaliatory strikes against Gulf states and Israel, while reportedly firing missiles at the joint US-UK base at Diego Garcia in the Indian Ocean [Wall Street Journal via France 24, Globe and Mail]. A federal judge ruled the Pentagon's press restrictions unconstitutional, citing the public's need for information during wartime [Le Monde]. Meanwhile, a new Global Terrorism Index report confirmed the Sahel has become the world's deadliest region for terrorism, with nearly half of all global terrorism deaths occurring there for the third consecutive year [RFI, The Guardian]. The UK announced steep 56% cuts to bilateral aid for African countries, redirecting funds toward defense spending amid the ongoing Middle East conflict [The Guardian].",
+  "date": "Monday, March 23, 2026",
+  "daily_brief": "The US-Iran war dominates global headlines as President Trump's 48-hour ultimatum on reopening the Strait of Hormuz expires Monday night, with Tehran threatening retaliatory strikes on regional infrastructure including energy facilities and desalination plants [BBC, RFI, France 24]. The IEA warned the crisis represents the worst energy shock in decades, combining 'two oil crises and one gas crash' as oil prices surge past $100 per barrel [BBC, Le Monde]. Asian markets plunged sharply, with Japan's Nikkei falling 3.6% and South Korea's Kospi nearly 6% [BBC, Nikkei Asia]. Israel announced expanded ground and air operations against Hezbollah in Lebanon, with over 1,000 killed and more than a million displaced since fighting intensified [BBC]. In European politics, France's Socialist Party retained control of Paris, Marseille, Lyon, and Lille in municipal elections, offering a boost to mainstream parties ahead of presidential elections, while Germany's CDU won Rhineland-Palatinate as the AfD achieved record western gains [BBC, RFI, Le Monde]. The UN's World Meteorological Organization confirmed 2025 recorded the highest planetary energy imbalance ever measured, with the 11 warmest years all occurring since 2015 [Le Monde, France 24].",
   "top_stories": [
     {
-      "headline": "Trump Signals Possible End to Iran War as US Eases Oil Sanctions Amid Energy Crisis",
+      "headline": "Trump's Hormuz Ultimatum Expires as Iran Threatens Regional Infrastructure Strikes",
       "category": "Conflict",
       "bullets": [
-        "President Trump posted on Truth Social that the US is 'very close to meeting our objectives' and considering 'winding down' military operations against Iran, entering week four of the conflict",
-        "Treasury Secretary Bessent announced temporary sanctions relief on Iranian oil currently at sea, authorizing sales until April 19 to bring approximately 140 million barrels to global markets",
-        "Despite wind-down signals, the Pentagon ordered three additional amphibious assault ships and roughly 2,500 marines to the region",
-        "Iran continued retaliatory strikes on Saudi Arabia, Israel, and reportedly fired two ballistic missiles at the joint US-UK Diego Garcia base in the Indian Ocean"
+        "President Trump issued a 48-hour ultimatum on Saturday threatening to 'obliterate' Iranian power plants if Tehran does not fully reopen the Strait of Hormuz, with the deadline set for 23:44 GMT Monday",
+        "Iran's military operational command responded that any strikes on Iranian facilities would trigger attacks on 'all energy, information technology and desalination infrastructure belonging to the US' in the region",
+        "Iranian missiles struck two Israeli towns including Dimona, which houses a nuclear facility, wounding more than 100 people in one of the most destructive attacks since the war began February 28",
+        "Saudi Arabia and UAE reported fresh missile and drone attacks Monday morning, with Saudi Arabia detecting two ballistic missiles targeting Riyadh and an Indian national wounded in Abu Dhabi"
       ],
       "sources": [
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Trump's contradictory messaging between wind-down rhetoric and troop deployments",
-          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/03/21/decision-to-award-afcon-2025-victory-to-morocco-further-damages-the-credibility-of-african-football_6751659_124.html"
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focus on humanitarian and economic impacts, detailed coverage of Gulf state attacks",
+          "url": "https://www.bbc.com/news/articles/c203rdxkezwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized Iran's defiant response and continued military capability",
+          "url": "https://www.rfi.fr/en/africa/20260322-african-michelin-starred-chef-mory-sacko-designs-meals-for-air-france"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on military developments and liveblog updates",
-          "url": "https://www.france24.com/en/americas/20260320-colombia-president-gustavo-petro-under-investigation-us-prosecutors-drug-trafficking"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Highlighted economic implications and Pentagon troop movements",
-          "url": "https://www.ft.com/content/46962f7d-5ee9-4813-a53c-2961a82bf82d"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized sanctions reversal as 'stunning' policy shift with uncertain payoff",
-          "url": "https://www.bbc.com/news/articles/c9d415g55nno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Noted mixed messages and stock market impact",
-          "url": "https://www.theglobeandmail.com/world/article-nowruz-wartime-tehran-iranians-find-joy-new-year-spring/"
+          "framing_note": "Highlighted IEA warnings and included live updates format",
+          "url": "https://www.france24.com/en/middle-east/20260322-west-bank-settler-violence-gaza-strikes-palestinians-killed"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Focused on implications for Indian oil imports and regional diplomacy",
-          "url": "https://www.thehindu.com/news/international/iran-ready-to-let-japanese-vessels-transit-strait-of-hormuz-say-reports/article70768281.ece"
+          "framing_note": "Detailed coverage of Gulf attacks and regional infrastructure threats",
+          "url": "https://www.thehindu.com/videos/watch-why-is-the-assassination-of-congos-first-pm-patrice-lumumba-being-talked-about-now/article70774560.ece"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Emphasized economic impacts on Asian markets",
+          "url": "https://asia.nikkei.com/business/markets/equities/japan-stocks-plunge-as-threats-escalate-between-us-and-iran"
         }
       ]
     },
     {
-      "headline": "Federal Judge Strikes Down Pentagon Press Restrictions as Unconstitutional",
-      "category": "Policy",
+      "headline": "Global Energy Crisis Deepens as IEA Warns of Worst Shock in Decades",
+      "category": "Economics",
       "bullets": [
-        "A Washington federal judge ruled that Pentagon press access restrictions violate the First and Fifth Amendments of the US Constitution",
-        "The ruling responded to a lawsuit brought by the New York Times after credentials were stripped from major outlets including AFP, AP, and Fox News in mid-October",
-        "Media organizations had declined to sign the new policy, resulting in loss of Pentagon access",
-        "The court emphasized the public's need for information 'from a variety of perspectives' during the US war with Iran"
+        "IEA chief Fatih Birol compared the current crisis to the 1970s oil shocks combined with the 2022 Ukraine impact, calling it 'two oil crises and one gas crash put all together'",
+        "Asian stock markets plunged Monday with Japan's Nikkei 225 falling 3.6% and South Korea's Kospi dropping nearly 6%, driven by heavy dependence on oil and gas transiting the Strait of Hormuz",
+        "Approximately 20% of global oil and liquefied natural gas normally passes through the strait, which Iran has effectively blocked since February 28",
+        "Le Monde analysis noted the crisis provides Russia 'unexpected economic and strategic breathing space' as oil prices surge past $100 per barrel"
       ],
       "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Led with market impacts and IEA warnings",
+          "url": "https://www.bbc.com/news/articles/c203rdxkezwo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Framed as part of broader Trump administration measures against journalists deemed 'fake news'",
-          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/03/21/decision-to-award-afcon-2025-victory-to-morocco-further-damages-the-credibility-of-african-football_6751659_124.html"
-        }
-      ]
-    },
-    {
-      "headline": "Sahel Confirmed as World's Deadliest Region for Terrorism for Third Consecutive Year",
-      "category": "Conflict",
-      "bullets": [
-        "The Global Terrorism Index 2026 reports nearly half of all global terrorism deaths now occur in the Sahel region of sub-Saharan Africa",
-        "In 2024, more than half of 7,555 global terrorism deaths were recorded in the Sahel; in 2025, nearly half of 5,582 fatalities occurred there",
-        "Nigeria recorded the largest increase in terrorism deaths globally in 2025, with fatalities rising 46% to 750, while DRC deaths rose 28%",
-        "The epicenter of terrorism has shifted from the Middle East and North Africa, with the Sahel experiencing a tenfold increase in fatalities since 2007"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage citing Institute for Economics and Peace data",
-          "url": "https://www.rfi.fr/en/france/20260320-french-jihadist-jailed-for-life-for-islamic-state-crimes-against-yazidis"
+          "framing_note": "Published analysis piece on Russian benefits from the crisis",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/22/merz-s-party-leads-while-far-right-makes-gains-in-germany-s-state-election_6751705_4.html"
         },
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Nigeria and DRC specifically, noting overall global deaths fell to decade low",
-          "url": "https://www.theguardian.com/world/2026/mar/17/ex-belgian-diplomat-93-trial-1961-murder-patrice-lumumba"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline focus on stock market falls",
+          "url": "https://www.ft.com/content/a6ca1cd1-b74f-4ed5-a10b-87c95c0f44df"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Regional focus on Japan and South Korea economic impacts",
+          "url": "https://asia.nikkei.com/business/markets/equities/japan-stocks-plunge-as-threats-escalate-between-us-and-iran"
         }
       ]
     },
     {
-      "headline": "UK Announces 56% Cut to African Aid, Steepest Reduction in G7",
-      "category": "Policy",
+      "headline": "Israel Approves Expansion of Ground and Air Operations Against Hezbollah in Lebanon",
+      "category": "Conflict",
       "bullets": [
-        "UK bilateral aid to African countries will be reduced by nearly \u00a3900 million by 2028-29, a 56% cut",
-        "The cuts are part of more than \u00a36 billion in reductions funding increased defense spending",
-        "Aid spending will be cut to all G20 countries except Turkey, with 70% of support allocated to fragile and conflict-affected states by 2029",
-        "Labour MPs have privately expressed skepticism that cuts achieved intended military spending goals given delays in defense investment plans"
+        "Israeli military chief Lt Gen Eyal Zamir approved plans for 'prolonged operation' to 'advance targeted ground operations and strikes' against Hezbollah",
+        "Israeli air strikes damaged the Qasmiye bridge over the Litani River, a key route connecting southern Lebanon to central areas, after Defense Minister Israel Katz ordered destruction of crossings used by Hezbollah",
+        "More than 1,000 people have been killed in Lebanon since Israel intensified its campaign, including at least 118 children and 40 health workers, with over one million displaced",
+        "The escalation follows Hezbollah rocket fire into Israel after the group's Iranian backers came under US-Israeli attack on February 28"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Critical framing, quoting aid agencies calling it 'steepest in G7' leaving UK reputation 'in tatters'",
-          "url": "https://www.theguardian.com/world/2026/mar/17/ex-belgian-diplomat-93-trial-1961-murder-patrice-lumumba"
-        }
-      ]
-    },
-    {
-      "headline": "AI's Role in Modern Warfare Spotlighted as US Credits Technology for Iran Strike Success",
-      "category": "Technology",
-      "bullets": [
-        "Admiral Brad Cooper of US Central Command stated AI tools helped US forces hit over 5,500 targets in Iran, turning processes that 'used to take hours and sometimes even days into seconds'",
-        "Over 1,000 targets were hit in the first 24 hours of Operation 'Epic Fury' beginning February 28",
-        "White House video communications borrowed visual language from first-person shooter games like Call of Duty, marking a shift in how military operations are portrayed",
-        "Military officials emphasized humans still make final decisions on strikes while AI accelerates targeting processes"
-      ],
-      "sources": [
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed military operational context and humanitarian toll",
+          "url": "https://www.bbc.com/news/articles/c203rdxkezwo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Straightforward reporting on AI capabilities and Admiral Cooper's statements",
-          "url": "https://www.france24.com/en/americas/20260320-colombia-president-gustavo-petro-under-investigation-us-prosecutors-drug-trafficking"
+          "framing_note": "Integrated into broader Iran war coverage",
+          "url": "https://www.france24.com/en/middle-east/20260322-west-bank-settler-violence-gaza-strikes-palestinians-killed"
+        }
+      ]
+    },
+    {
+      "headline": "French Socialists Retain Major Cities as Municipal Elections Boost Mainstream Parties",
+      "category": "Policy",
+      "bullets": [
+        "Socialist Party and allies held Paris, Marseille, Lyon, and Lille, France's four largest cities, in second-round municipal elections Sunday",
+        "In Paris, Emmanuel Gr\u00e9goire defeated right-wing former minister Rachida Dati with 51% to 40%, while far-left France Unbowed candidate Sonia Chikirou received approximately 8%",
+        "Socialist alliances with France Unbowed failed in traditional strongholds like Clermont-Ferrand and Brest, with PS secretary-general Pierre Jouvet stating 'LFI wins nothing \u2013 and what is worse it is the LFI that brings about defeat'",
+        "The far-right National Rally made gains in smaller cities, winning Nice through an ally of Marine Le Pen, but failed to capture major urban centers"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized lessons about far-left alliance failures",
+          "url": "https://www.bbc.com/news/articles/c203rdxkezwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Detailed breakdown of major city results",
+          "url": "https://www.rfi.fr/en/africa/20260322-african-michelin-starred-chef-mory-sacko-designs-meals-for-air-france"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Duplicate coverage of same story",
+          "url": "https://www.bbc.com/news/articles/crl18nwjzzzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "UN Climate Report Confirms Record Heat Trapping in 2025, Warns of Millennia-Long Consequences",
+      "category": "Climate",
+      "bullets": [
+        "The World Meteorological Organization reported Earth's energy imbalance reached record levels in 2025, with more heat trapped than at any point since observations began in 1960",
+        "The 11 hottest years on record all occurred between 2015 and 2025, with 2025 ranking as the second or third warmest year at 1.43\u00b0C above pre-industrial averages",
+        "Greenhouse gas concentrations of CO2, methane, and nitrous oxide have reached their highest levels in at least 800,000 years",
+        "UN Secretary-General Ant\u00f3nio Guterres declared 'Planet Earth is being pushed beyond its limits. Every key climate indicator is flashing red' and called for transition from fossil fuels to renewable energy"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Included context on expected El Ni\u00f1o phase later this year",
+          "url": "https://www.bbc.com/news/articles/c203rdxkezwo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Critical analysis of Pentagon communications strategy, noting shift to gaming aesthetics and meme-like operation names",
-          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/03/21/decision-to-award-afcon-2025-victory-to-morocco-further-damages-the-credibility-of-african-football_6751659_124.html"
+          "framing_note": "Emphasized the millennia-long duration of warming consequences",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/22/merz-s-party-leads-while-far-right-makes-gains-in-germany-s-state-election_6751705_4.html"
         },
         {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Focused on targeting machine development by US and Israel",
-          "url": "https://www.economist.com/international/2026/03/10/india-has-much-to-lose-from-a-world-in-chaos"
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Straightforward coverage of WMO findings",
+          "url": "https://www.france24.com/en/middle-east/20260322-west-bank-settler-violence-gaza-strikes-palestinians-killed"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "French jihadist Sabri Essid sentenced to life in absentia for Islamic State genocide against Yazidis, first such case in France",
+      "headline": "CDU wins Rhineland-Palatinate after 35 years of SPD rule as AfD achieves record western Germany score of 20%",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/22/merz-s-party-leads-while-far-right-makes-gains-in-germany-s-state-election_6751705_4.html"
+    },
+    {
+      "headline": "Tens of thousands rally in Prague against PM Babi\u0161's government in largest Czech protest since 2019",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260320-french-jihadist-jailed-for-life-for-islamic-state-crimes-against-yazidis"
+      "url": "https://www.rfi.fr/en/international/20260322-czechs-rally-against-populist-pm-babis-in-largest-anti-government-protest-since-2019"
     },
     {
-      "headline": "US prosecutors investigating Colombian President Gustavo Petro over suspected ties to drug traffickers",
+      "headline": "Israeli settlers attack Palestinian villages in West Bank following death of 18-year-old settler, with over 20 attacks reported overnight",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cew719w80g7o"
+    },
+    {
+      "headline": "Army drone strike on El-Daein hospital in Sudan kills 64 and wounds 89, WHO reports",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/21/strike-on-sudan-hospital-kills-wounds-world-health-organization-reports"
+    },
+    {
+      "headline": "Air Canada Express jet collides with Port Authority vehicle at LaGuardia Airport, closing runway",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/23/air-canada-jet-collides-with-ground-vehicle-at-new-york-airport"
+    },
+    {
+      "headline": "UK bilateral aid to African countries to be cut by 56% (\u00a3900m) by 2028-29 to fund defense spending increase",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/mar/19/poorest-countries-lose-uk-aid-56-per-cent-budget-cut"
+    },
+    {
+      "headline": "Slovenia election too close to call as liberal PM Golob claims narrow victory over conservative challenger Jan\u0161a",
       "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260320-colombia-president-gustavo-petro-under-investigation-us-prosecutors-drug-trafficking"
+      "url": "https://www.france24.com/en/europe/20260323-slovenia-election-too-close-to-call-liberals-conservatives-neck-and-neck"
     },
     {
-      "headline": "Madagascar's military ruler decrees new ministers must pass lie detector tests following cabinet dismissal",
+      "headline": "Madagascar's military president decrees new ministers must pass lie detector tests to root out corruption",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/mar/20/madagascar-military-ruler-new-ministers-lie-detector-tests"
     },
     {
-      "headline": "Former Belgian diplomat \u00c9tienne Davignon, 93, ordered to stand trial over alleged complicity in 1961 murder of Congo's Patrice Lumumba",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/17/ex-belgian-diplomat-93-trial-1961-murder-patrice-lumumba"
-    },
-    {
-      "headline": "At least 11 killed and dozens injured in fire at South Korean car parts factory in Daejeon",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/south-korea-car-plant-fire-many-killed-march-21-2026/article70767397.ece"
-    },
-    {
-      "headline": "Russian spy unit Center 795 exposed after agent used Google Translate, allowing FBI to read communications in real time",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/video/20260320-google-translate-exposes-russian-spy-unit"
-    },
-    {
-      "headline": "French police under fire for using facial recognition during routine identity stops in potential breach of law",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260320-french-police-under-fire-over-use-of-facial-recognition-during-routine-stops"
-    },
-    {
-      "headline": "Canadian mother and seven-year-old autistic daughter detained by US border patrol in Texas despite valid visas",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/article-canadian-mother-daughter-detention-texas-border-patrol/"
-    },
-    {
-      "headline": "BTS holds first full concert in nearly four years in Seoul, with 260,000 expected to gather",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/media-entertainment/bts-takes-over-central-seoul-with-massive-comeback-concert"
-    },
-    {
-      "headline": "UNRWA head warns agency faces 'slow death' without firm political and financial support as mandate ends",
+      "headline": "North Korea's rubber-stamp legislature reelects Kim Jong Un as president of state affairs",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/21/unrwa-head-philippe-lazzarini-s-grim-assessment-without-firm-political-and-financial-support-we-face-a-slow-death_6751664_4.html"
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/23/north-korea-s-kim-jong-un-reappointed-as-president-of-state-affairs_6751713_4.html"
+    },
+    {
+      "headline": "Nigeria records 46% increase in terrorism deaths in 2025, rising to fourth place globally in terrorism index",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/19/jihadist-violence-nigeria-drc-terrorism-index"
     }
   ]
 }
