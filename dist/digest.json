@@ -1,226 +1,208 @@
 {
-  "date": "Wednesday, March 25, 2026",
-  "daily_brief": "The dominant story continues to be the US-Israeli war with Iran, now entering its fourth week, with President Trump claiming negotiations are underway while Tehran denies formal talks [BBC, France 24, Le Monde]. Iran's partial reopening of the Strait of Hormuz to 'non-hostile' vessels prompted a 6% drop in oil prices, though the conflict continues to devastate Global South economies from Pakistan to Egypt [Al Jazeera, Financial Times]. Russia launched its largest aerial attack on Ukraine since the war began, firing 948 drones in 24 hours and killing at least eight people, striking a UNESCO World Heritage site in Lviv and a maternity hospital in Ivano-Frankivsk [BBC]. Denmark's election produced an inconclusive result, with Prime Minister Mette Frederiksen's Social Democrats posting their worst showing in over a century despite her prominent stance against Trump's Greenland ambitions [BBC, France 24, The Hindu]. The EU and Australia finalized a landmark free trade deal worth A$10 billion after eight years of negotiations, as Brussels continues diversifying trade relationships amid global uncertainty [BBC, RFI]. Meanwhile, US investigators revealed a controller cleared a fire truck to cross LaGuardia Airport's runway just 12 seconds before an Air Canada jet touched down, killing both pilots [ABC Australia, Globe and Mail].",
+  "date": "Thursday, March 26, 2026",
+  "daily_brief": "The Middle East conflict dominated the day's news as Israel carried out a fresh wave of strikes across Iran while Tehran launched missile attacks on Israel and Gulf states, including strikes that damaged Kuwait International Airport [France 24, BBC, Globe and Mail]. Iran's Foreign Minister Abbas Araghchi flatly rejected US ceasefire proposals and denied any ongoing negotiations, though President Trump insisted talks were continuing [Al Jazeera, The Hindu, Financial Times]. The conflict's economic ripples spread globally, with Brent crude topping $104 per barrel and South Korean tech giants Samsung and SK urging employees to conserve fuel [Al Jazeera, The Hindu]. In a significant development for Ukraine, President Zelensky revealed that Washington is conditioning security guarantees on Kyiv ceding the Donbas region to Russia, citing US preoccupation with the Iran conflict [France 24, The Guardian]. In a landmark US court ruling, Meta and YouTube were found liable for harming a young woman through addictive platform design, with jurors awarding $6 million in damages\u2014a verdict likely to influence thousands of similar pending cases [BBC, Le Monde, Globe and Mail]. The UN General Assembly voted 123-3 to designate the transatlantic slave trade as 'the gravest crime against humanity,' with the US, Israel, and Argentina opposing and 52 nations including the UK abstaining [Guardian, BBC, RFI].",
   "top_stories": [
     {
-      "headline": "Trump Claims Iran Negotiations Underway, Tehran Opens Hormuz to 'Non-Hostile' Vessels",
+      "headline": "Israel Launches Wide-Scale Strikes on Iran as Tehran Rejects US Ceasefire Plan",
       "category": "Conflict",
       "bullets": [
-        "Trump announced he sent a 15-point peace plan to Iran and claimed negotiations are happening, though Iran has not confirmed formal talks and a military spokesperson said the US is 'negotiating with itself'",
-        "Iran announced 'non-hostile vessels' may transit the Strait of Hormuz if they meet safety and security regulations, prompting Brent crude to drop nearly 6%",
-        "At least 1,000 additional US troops from the 82nd Airborne Division are being deployed to the Middle East in coming days",
-        "Israel and Iran continue exchanging strikes, with Israeli attacks on Tehran infrastructure and Iranian missiles and drones targeting Israel, US bases in Kuwait, Jordan, and Bahrain"
+        "Israeli military carried out what it described as 'wide-scale' strikes across Iran on Thursday, while Iranian missiles struck central Israel, wounding two people in Kafr Qassem",
+        "Iran's Foreign Minister Abbas Araghchi stated Tehran has not engaged in talks with the US and has 'no intention of negotiating,' rejecting a reported 15-point US proposal addressing sanctions relief, nuclear rollback, and reopening the Strait of Hormuz",
+        "Iranian attacks also struck Gulf states including Kuwait International Airport, where a fuel tank was hit and caught fire; UAE air defense systems responded to missile threats",
+        "President Trump insisted Iran is negotiating despite denials, while the White House warned Iran would be 'hit harder than ever before' if it fails to accept a deal"
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasizes international law concerns and quotes former ICC prosecutor calling the war a 'crime of aggression'",
-          "url": "https://www.bbc.com/news/articles/c3w3e467ewqo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focuses on diplomatic developments and Trump's optimistic framing",
-          "url": "https://www.france24.com/en/middle-east/20260325-us-proposes-15-point-plan-as-iran-opens-hormuz-to-non-hostile-oil-vessels"
+          "framing_note": "Led with Israeli military actions and Trump's 'unleash hell' warning",
+          "url": "https://www.france24.com/en/europe/20260325-us-ties-ukraine-security-guarantees-to-donbas-withdrawal"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Neutral diplomatic focus with attention to tentative nature of claims",
-          "url": "https://www.lemonde.fr/en/campus/article/2026/03/24/from-afar-american-students-in-france-feel-the-shockwaves-of-trump_6751786_11.html"
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Analytical piece examining what each side wants from potential talks",
+          "url": "#"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized Iran's defiance and the details of the rejected US proposal",
+          "url": "https://www.theglobeandmail.com/world/article-imprisoned-canadian-says-he-was-tortured-in-ethiopia/"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlights economic impact on Iran's population and Global South countries",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/thousands-march-to-mark-50th-anniversary-of-argentinas-bloody-coup?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Notes Iran's defiant statements and challenges to any potential deal",
-          "url": "https://www.theglobeandmail.com/world/video-us-expected-to-deploy-more-troops-in-middle-east-sources-say/"
+          "framing_note": "Focused on oil price impacts and humanitarian toll on South Asian migrant workers",
+          "url": "https://www.aljazeera.com/economy/2026/3/26/oil-prices-rise-higher-as-iran-denies-us-talks-dimming-deescalation-hopes?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasizes regional impacts including India-Sri Lanka energy discussions",
-          "url": "https://www.thehindu.com/news/national/lpg-fuel-petrol-crisis-live-updates-west-asia-war-straight-of-hormuz/article70782692.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Russia Launches Largest Aerial Attack of Ukraine War: 948 Drones in 24 Hours",
-      "category": "Conflict",
-      "bullets": [
-        "Ukraine's Air Force reported 948 drones launched over 24 hours, including an unusual daytime wave of 556 drones starting Tuesday morning",
-        "At least eight people killed across the attacks; the 16th century Bernardine monastery in Lviv, a UNESCO World Heritage site, was damaged",
-        "A maternity hospital was hit in the Ivano-Frankivsk region; 32 people injured in Lviv alone",
-        "President Zelensky said the scale 'clearly shows that Russia has no intention of really ending this war'; Russia's military has not commented"
-      ],
-      "sources": [
+          "framing_note": "Highlighted India being granted Strait of Hormuz passage by Iran as a 'friendly nation'",
+          "url": "https://www.thehindu.com/news/international/earthquake-of-magnitude-4-hits-northwestern-nepal/article70786921.ece"
+        },
         {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Straightforward factual reporting with emphasis on scale and civilian infrastructure damage",
-          "url": "https://www.bbc.com/sport/tennis/articles/clyj0m2p1xko?at_medium=RSS&at_campaign=rss"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Noted 'glimmer of hope' from China regarding talks",
+          "url": "https://www.ft.com/content/16f13378-7a2f-4026-9d59-39a3da438569"
         }
       ]
     },
     {
-      "headline": "Denmark Election Inconclusive as Frederiksen's Social Democrats Post Century-Low Result",
+      "headline": "Zelensky Says US Conditioning Security Guarantees on Ukraine Ceding Donbas to Russia",
       "category": "Geopolitics",
       "bullets": [
-        "Social Democrats won 21.9% of the vote and 38 seats, their lowest result since 1903, down from 27.5% in 2022",
-        "Left-wing bloc secured 84 seats versus 77 for the right, both short of the 90-seat majority needed",
-        "Centrist Moderate party with 14 seats becomes kingmaker; Foreign Minister Lars Lokke Rasmussen called on rivals to 'come and play with us'",
-        "Despite Frederiksen's high-profile defense against Trump's Greenland annexation threats, domestic concerns over migration and cost of living dominated voter priorities"
+        "Ukrainian President Volodymyr Zelensky told Reuters that Washington is making security guarantees conditional on Kyiv surrendering all of the eastern Donbas region to Russia",
+        "Zelensky stated the US focus on the Iran conflict is driving Trump to pressure Ukraine for a quick end to the four-year war, saying Trump 'chooses a strategy of putting more pressure on the Ukrainian side'",
+        "Zelensky also accused Russia of attempting to blackmail the US by offering to stop sharing military intelligence with Iran in exchange for Washington cutting intelligence sharing with Ukraine",
+        "The Ukrainian president warned that ceding Donbas would weaken Ukraine's defenses and embolden Moscow to restart hostilities after any peace deal"
       ],
       "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasizes Frederiksen's Greenland stance and coalition complexity",
-          "url": "https://www.bbc.com/sport/tennis/articles/clyj0m2p1xko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Notes tough negotiations ahead",
-          "url": "https://www.bbc.com/news/articles/c3w3e467ewqo?at_medium=RSS&at_campaign=rss"
-        },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Frames result as 'setback' and 'weakened' position for Frederiksen",
-          "url": "https://www.france24.com/en/middle-east/20260325-us-proposes-15-point-plan-as-iran-opens-hormuz-to-non-hostile-oil-vessels"
+          "framing_note": "Straightforward reporting of Zelensky's Reuters interview claims",
+          "url": "https://www.france24.com/en/europe/20260325-us-ties-ukraine-security-guarantees-to-donbas-withdrawal"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Included additional detail on Russian intelligence-sharing 'blackmail' allegations",
+          "url": "https://www.theguardian.com/world/2026/mar/21/strike-on-sudan-hospital-kills-wounds-world-health-organization-reports"
+        }
+      ]
+    },
+    {
+      "headline": "Meta and YouTube Found Liable in Landmark Social Media Addiction Trial, Ordered to Pay $6 Million",
+      "category": "Technology",
+      "bullets": [
+        "A Los Angeles jury found Meta (Instagram, Facebook) and Google (YouTube) liable for harming a 20-year-old woman through addictive platform design, awarding $3 million in compensatory damages and $3 million in punitive damages",
+        "Jurors determined both companies were negligent, knew their platforms posed dangers to minors, failed to adequately warn users, and acted with 'malice, oppression, or fraud'",
+        "Meta was assigned 70% of responsibility ($4.2 million total), YouTube 30% ($1.8 million); TikTok and Snap settled before trial on undisclosed terms",
+        "The verdict follows a separate New Mexico jury finding against Meta this week and could influence over 1,000 similar pending lawsuits; both companies said they would appeal"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Emphasized the unprecedented nature of the ruling and implications for similar cases",
+          "url": "#"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Highlights historical significance of worst result in 120+ years",
-          "url": "https://www.lemonde.fr/en/campus/article/2026/03/24/from-afar-american-students-in-france-feel-the-shockwaves-of-trump_6751786_11.html"
+          "framing_note": "Framed as 'day of reckoning' for social media, focused on leverage for plaintiffs in pending cases",
+          "url": "https://www.lemonde.fr/en/pixels/article/2026/03/25/meta-youtube-ordered-to-pay-3-million-in-lawsuit-over-teen-s-depression_6751815_13.html"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focuses on her international standing and relationship with Carney",
-          "url": "https://www.theglobeandmail.com/world/video-us-expected-to-deploy-more-troops-in-middle-east-sources-say/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasizes inconclusive nature and global instability context",
-          "url": "https://www.thehindu.com/news/national/lpg-fuel-petrol-crisis-live-updates-west-asia-war-straight-of-hormuz/article70782692.ece"
+          "framing_note": "Highlighted this as second verdict against Meta in one week, noted company defenses",
+          "url": "https://www.theglobeandmail.com/world/article-imprisoned-canadian-says-he-was-tortured-in-ethiopia/"
         }
       ]
     },
     {
-      "headline": "Australia and EU Finalize A$10 Billion Free Trade Deal After Eight Years",
-      "category": "Economics",
-      "bullets": [
-        "Deal removes almost all tariffs on trade and includes cooperation on defense and critical minerals",
-        "Australian beef exports to EU will increase more than tenfold over the next decade, though farmers on both sides expressed dissatisfaction with quotas",
-        "European carmakers benefit from Australia raising luxury car tax threshold on electric vehicles; Australian winemakers can use 'prosecco' domestically but must stop for exports after 10 years",
-        "European Commission President von der Leyen described the deal as focused on 'collective resilience' in a 'deeply changing' world"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasizes mutual benefit and geopolitical context of diversifying from US unpredictability",
-          "url": "https://www.bbc.com/sport/tennis/articles/clyj0m2p1xko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Details specific compromises on geographical names and wine terms",
-          "url": "https://www.rfi.fr/en/international/20260324-torture-has-become-state-policy-in-palestinian-territories-un-expert"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.abc.net.au/news/2026-03-25/questions-over-electricity-deal-between-tas-hydro-and-firmus-ai/106495132"
-        }
-      ]
-    },
-    {
-      "headline": "LaGuardia Crash Investigation: Controller Cleared Fire Truck 12 Seconds Before Landing",
+      "headline": "UN General Assembly Votes to Designate Slave Trade as 'Gravest Crime Against Humanity'",
       "category": "Society",
       "bullets": [
-        "NTSB revealed only two air traffic controllers were on duty overnight when a controller cleared the fire truck to cross the runway",
-        "The Air Canada jet was traveling approximately 167 km/h when it struck the Port Authority emergency vehicle",
-        "Both pilots were killed; 39 people hospitalized with six still in hospital as of reporting",
-        "Airport's ground surveillance system did not generate an alert, and the fire truck lacked a transponder to transmit its location to air traffic control"
+        "The UN General Assembly passed a resolution 123-3 declaring the transatlantic slave trade 'the gravest crime against humanity' and calling for member states to consider apologies and contributions to a reparations fund",
+        "The United States, Israel, and Argentina voted against; 52 countries abstained including the United Kingdom and EU member states",
+        "Ghana's President John Mahama, who proposed the resolution, said: 'Let it be recorded that when history beckoned, we did what was right for the memory of millions who suffered the indignity of slavery'",
+        "The UK's representative said Britain 'firmly' believes no single atrocity should be regarded as more significant than another; the resolution is not legally binding but carries weight of global opinion"
       ],
       "sources": [
         {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Focuses on systemic failures and multiple safety layers that failed",
-          "url": "https://www.abc.net.au/news/2026-03-25/questions-over-electricity-deal-between-tas-hydro-and-firmus-ai/106495132"
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized reparatory justice angle and UK parliamentary petition for state apology",
+          "url": "https://www.theguardian.com/world/2026/mar/21/strike-on-sudan-hospital-kills-wounds-world-health-organization-reports"
         },
         {
-          "name": "Globe and Mail",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Emphasizes pilots had 'little chance of survival' and includes Canadian angle on Montreal-origin flight",
-          "url": "https://www.theglobeandmail.com/world/video-us-expected-to-deploy-more-troops-in-middle-east-sources-say/"
+          "framing_note": "Balanced coverage noting both supporters' framing as historic and abstaining nations' positions",
+          "url": "#"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Focused on African nations' strong backing and Mahama's advocacy",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "Hungary's Foreign Minister Accused of Sharing EU Council Discussions with Russia in Real Time",
+      "category": "Geopolitics",
+      "bullets": [
+        "The Washington Post reported that Hungarian Foreign Minister P\u00e9ter Szijj\u00e1rt\u00f3 has been informing Russian counterpart Sergey Lavrov in real time about EU Foreign Affairs Council discussions",
+        "Germany's Frankfurter Allgemeine Zeitung confirmed regular exchanges between the Hungarian and Russian ministers, citing former Lithuanian Foreign Minister Gabrielius Landsbergis who was aware of the situation since 2024",
+        "EU foreign policy chief Kaja Kallas's spokesperson reminded member states of their 'legal duty of sincere cooperation'; Germany's Foreign Ministry stated it 'will not tolerate' any breach of confidentiality",
+        "The controversy erupts amid Hungary's election campaign and ongoing tensions between Brussels and Budapest over Hungary's ties to Moscow"
+      ],
+      "sources": [
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Framed as scandal causing alarm in Brussels over possible transfer of sensitive information to Moscow",
+          "url": "https://www.lemonde.fr/en/pixels/article/2026/03/25/meta-youtube-ordered-to-pay-3-million-in-lawsuit-over-teen-s-depression_6751815_13.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "OpenAI shuts down Sora video-generation app and ends Disney partnership to focus on robotics and agentic AI",
-      "source": "BBC World, Al Jazeera",
-      "url": "https://www.bbc.com/news/articles/c3w3e467ewqo"
+      "headline": "Ousted Venezuelan President Maduro to appear in New York court for second time since January capture by US forces",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260326-ousted-venezuelan-president-maduro-to-appear-in-new-york-court"
     },
     {
-      "headline": "BlackRock CEO Larry Fink warns oil at $150 per barrel would trigger global recession",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c9wqrdkx8ppo"
+      "headline": "Belarus's Lukashenko signs 'friendship and cooperation' treaty with North Korea's Kim Jong Un during first visit to Pyongyang",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260325-lukashenko-greeted-by-kim-jong-un-on-first-visit-to-north-korea"
     },
     {
-      "headline": "Strike on Sudan hospital kills at least 64 people including children, WHO reports",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/21/strike-on-sudan-hospital-kills-wounds-world-health-organization-reports"
-    },
-    {
-      "headline": "Two Russians face trial in Angola on charges of attempting to interfere in elections on behalf of Wagner-linked network",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c1mklzkz41jo"
-    },
-    {
-      "headline": "Australia and France warn Israel against planned occupation of southern Lebanon up to Litani River",
-      "source": "ABC Australia, RFI English",
-      "url": "https://www.abc.net.au/news/2026-03-25/australia-warns-israel-against-south-lebanon-occupation/106495910"
-    },
-    {
-      "headline": "Brazil's Supreme Court grants former President Bolsonaro 90-day house arrest on humanitarian grounds after hospitalization",
+      "headline": "WHO chief calls Cuba's health crisis 'deeply concerning' as US fuel blockade deepens energy shortages affecting hospitals",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/25/brazil-court-grants-temporary-house-arrest-for-jailed-bolsonaro_6751791_4.html"
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/26/cuba-s-escalating-health-crisis-is-deeply-concerning-says-who-chief_6751817_4.html"
     },
     {
-      "headline": "New Mexico jury orders Meta to pay $375 million for knowingly harming children's mental health",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/business/technology/science/article-meta-trial-new-mexico-children-mental-health/"
+      "headline": "French court sentences Swiss Islamic scholar Tariq Ramadan to 18 years in prison for rape of three women",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/police-and-justice/article/2026/03/26/french-court-finds-swiss-islamic-scholar-ramadan-guilty-of-rape-sentenced-to-18-years_6751822_105.html"
     },
     {
-      "headline": "TotalEnergies signs deal with US to redirect $928 million from offshore wind projects to natural gas production",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20260324-totalenergies-us-energy-deal-brings-abrupt-end-to-offshore-wind-projects"
+      "headline": "WTO ministerial conference opens in Cameroon amid global trade tensions, US tariffs, and calls for reform",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/international/20260326-global-trade-tensions-test-wto-as-reform-battle-begins-in-yaounde"
     },
     {
-      "headline": "Second set of rare mountain gorilla twins born in DRC's Virunga National Park within two months",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/environment/2026/mar/24/mountain-gorillas-twins-born-drc-aoe"
+      "headline": "Four Syrian nationals arrested in Germany in operation targeting Channel small boat people-smuggling network",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cgld95j1e2jo"
     },
     {
-      "headline": "Thousands march in Buenos Aires to mark 50th anniversary of Argentina's military coup and honor 30,000 disappeared",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/thousands-march-to-mark-50th-anniversary-of-argentinas-bloody-coup"
+      "headline": "Ukrainian drones strike Estonian power plant chimney and crash in Latvia after veering off course during attack on Russian port",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c1eql309n12o"
+    },
+    {
+      "headline": "India among five nations granted passage through Strait of Hormuz by Iran alongside China, Russia, Iraq, and Pakistan",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/india-among-five-nations-granted-passage-through-strait-of-hormuz-by-tehran/article70786984.ece"
+    },
+    {
+      "headline": "Samsung and SK Group urge South Korean employees to reduce car use as government implements emergency energy conservation measures",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/sci-tech/technology/samsung-sk-urge-employees-to-cut-car-use-as-energy-risks-rise-over-iran-crisis/article70786570.ece"
+    },
+    {
+      "headline": "Danish PM Frederiksen's Social Democrats win election but suffer worst result since 1903, coalition fails to secure majority",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c74v5qynl9vo"
     }
   ]
 }
