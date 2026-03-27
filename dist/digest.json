@@ -1,208 +1,208 @@
 {
-  "date": "Thursday, March 26, 2026",
-  "daily_brief": "The Middle East conflict dominated the day's news as Israel carried out a fresh wave of strikes across Iran while Tehran launched missile attacks on Israel and Gulf states, including strikes that damaged Kuwait International Airport [France 24, BBC, Globe and Mail]. Iran's Foreign Minister Abbas Araghchi flatly rejected US ceasefire proposals and denied any ongoing negotiations, though President Trump insisted talks were continuing [Al Jazeera, The Hindu, Financial Times]. The conflict's economic ripples spread globally, with Brent crude topping $104 per barrel and South Korean tech giants Samsung and SK urging employees to conserve fuel [Al Jazeera, The Hindu]. In a significant development for Ukraine, President Zelensky revealed that Washington is conditioning security guarantees on Kyiv ceding the Donbas region to Russia, citing US preoccupation with the Iran conflict [France 24, The Guardian]. In a landmark US court ruling, Meta and YouTube were found liable for harming a young woman through addictive platform design, with jurors awarding $6 million in damages\u2014a verdict likely to influence thousands of similar pending cases [BBC, Le Monde, Globe and Mail]. The UN General Assembly voted 123-3 to designate the transatlantic slave trade as 'the gravest crime against humanity,' with the US, Israel, and Argentina opposing and 52 nations including the UK abstaining [Guardian, BBC, RFI].",
+  "date": "Friday, March 27, 2026",
+  "daily_brief": "The US-Israel war against Iran entered its fourth week with no resolution in sight, as G7 foreign ministers gathered in France amid growing allied divisions over Washington's strategy [RFI]. President Trump extended his deadline for Iran to reopen the Strait of Hormuz to April 6, claiming talks were going 'very well' despite Iranian officials dismissing US proposals as 'one-sided' [Globe and Mail, Financial Times]. The global energy crisis deepened, with African nations rationing electricity, Australia experiencing panic buying, and Asian manufacturers warning of imminent production shutdowns [BBC, The Hindu, Nikkei Asia]. Iran's Revolutionary Guards claimed responsibility for missile and drone strikes on Israeli and Gulf targets [France 24], while Germany's foreign minister revealed indirect US-Iran contacts with direct talks planned soon in Pakistan [France 24]. In a significant development for AI governance, a US federal judge suspended the Trump administration's sanctions against Anthropic, ruling the punitive measures appeared 'arbitrary and capricious' [Le Monde, France 24]. Meanwhile, the IOC announced transgender women will be barred from female Olympic events starting with the 2028 Los Angeles Games [Globe and Mail].",
   "top_stories": [
     {
-      "headline": "Israel Launches Wide-Scale Strikes on Iran as Tehran Rejects US Ceasefire Plan",
+      "headline": "Global Energy Crisis Deepens as Iran War Enters Fourth Week with No End in Sight",
       "category": "Conflict",
       "bullets": [
-        "Israeli military carried out what it described as 'wide-scale' strikes across Iran on Thursday, while Iranian missiles struck central Israel, wounding two people in Kafr Qassem",
-        "Iran's Foreign Minister Abbas Araghchi stated Tehran has not engaged in talks with the US and has 'no intention of negotiating,' rejecting a reported 15-point US proposal addressing sanctions relief, nuclear rollback, and reopening the Strait of Hormuz",
-        "Iranian attacks also struck Gulf states including Kuwait International Airport, where a fuel tank was hit and caught fire; UAE air defense systems responded to missile threats",
-        "President Trump insisted Iran is negotiating despite denials, while the White House warned Iran would be 'hit harder than ever before' if it fails to accept a deal"
+        "Iran's Revolutionary Guards claimed missile and drone strikes against targets in Israel and US-linked military facilities across the Gulf on Thursday",
+        "African nations including South Sudan and Mauritius have begun rationing electricity; Australia faces panic buying with fuel prices up 85% in some areas",
+        "Asian manufacturers report unprecedented supply chain disruptions, with some cutting production to 20-30% of normal output due to raw material shortages",
+        "Malaysia secured Iranian permission for its ships to pass through the Strait of Hormuz; India and China also on Iran's 'friendly countries' list for passage"
       ],
       "sources": [
         {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on humanitarian impact in Africa and Australia with detailed local reporting",
+          "url": "https://www.bbc.com/news/articles/c7vqdd23y0vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Led with Israeli military actions and Trump's 'unleash hell' warning",
-          "url": "https://www.france24.com/en/europe/20260325-us-ties-ukraine-security-guarantees-to-donbas-withdrawal"
-        },
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Analytical piece examining what each side wants from potential talks",
-          "url": "#"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized Iran's defiance and the details of the rejected US proposal",
-          "url": "https://www.theglobeandmail.com/world/article-imprisoned-canadian-says-he-was-tortured-in-ethiopia/"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Focused on oil price impacts and humanitarian toll on South Asian migrant workers",
-          "url": "https://www.aljazeera.com/economy/2026/3/26/oil-prices-rise-higher-as-iran-denies-us-talks-dimming-deescalation-hopes?traffic_source=rss"
+          "framing_note": "Emphasized military developments and diplomatic efforts",
+          "url": "https://www.france24.com/en/africa/20260327-south-africa-excluded-from-g7-summit-due-to-boycott-threats-from-us"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Highlighted India being granted Strait of Hormuz passage by Iran as a 'friendly nation'",
-          "url": "https://www.thehindu.com/news/international/earthquake-of-magnitude-4-hits-northwestern-nepal/article70786921.ece"
+          "framing_note": "Comprehensive coverage of Asian economic impacts and list of countries with Hormuz passage rights",
+          "url": "https://www.thehindu.com/news/international/us-israel-iran-war-list-of-countries-allowed-to-cross-the-strait-of-hormuz/article70791104.ece"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Focused on business and market implications across Asia",
+          "url": "https://asia.nikkei.com/politics/ukraine-war/russian-drones-target-civilians-like-in-a-video-game-in-ukrainian-city"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Provided analytical perspective on Strait of Hormuz's broader economic significance beyond oil",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/27/first-responders-rescue-man-from-tehran-building-hit-by-air-strike?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Extends Iran Deadline to April 6, Claims Talks Going 'Very Well' Despite Iranian Skepticism",
+      "category": "Geopolitics",
+      "bullets": [
+        "Trump announced 10-day pause on attacks against Iranian energy plants, extending deadline to April 6 at 2000 EDT",
+        "German Foreign Minister revealed US and Iran have had indirect contacts and plan to meet directly 'very soon' in Pakistan",
+        "Iranian officials dismissed US proposal for ending conflict as 'one-sided and unfair'; Iran denied requesting a pause on strikes",
+        "Wall Street posted worst day since Middle East crisis began as fresh inflation fears sent Treasury yields higher"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on diplomatic developments and Iranian denials",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-congress-funding-shutdown-travel-tsa-dhs/"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Noted 'glimmer of hope' from China regarding talks",
-          "url": "https://www.ft.com/content/16f13378-7a2f-4026-9d59-39a3da438569"
-        }
-      ]
-    },
-    {
-      "headline": "Zelensky Says US Conditioning Security Guarantees on Ukraine Ceding Donbas to Russia",
-      "category": "Geopolitics",
-      "bullets": [
-        "Ukrainian President Volodymyr Zelensky told Reuters that Washington is making security guarantees conditional on Kyiv surrendering all of the eastern Donbas region to Russia",
-        "Zelensky stated the US focus on the Iran conflict is driving Trump to pressure Ukraine for a quick end to the four-year war, saying Trump 'chooses a strategy of putting more pressure on the Ukrainian side'",
-        "Zelensky also accused Russia of attempting to blackmail the US by offering to stop sharing military intelligence with Iran in exchange for Washington cutting intelligence sharing with Ukraine",
-        "The Ukrainian president warned that ceding Donbas would weaken Ukraine's defenses and embolden Moscow to restart hostilities after any peace deal"
-      ],
-      "sources": [
+          "framing_note": "Emphasized market reaction and economic consequences",
+          "url": "https://www.ft.com/content/c07b1941-d271-49b5-9244-e72695501a00"
+        },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Straightforward reporting of Zelensky's Reuters interview claims",
-          "url": "https://www.france24.com/en/europe/20260325-us-ties-ukraine-security-guarantees-to-donbas-withdrawal"
+          "framing_note": "Highlighted German foreign minister's revelation about indirect contacts",
+          "url": "https://www.france24.com/en/africa/20260327-south-africa-excluded-from-g7-summit-due-to-boycott-threats-from-us"
         },
         {
-          "name": "The Guardian",
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Included additional detail on Russian intelligence-sharing 'blackmail' allegations",
-          "url": "https://www.theguardian.com/world/2026/mar/21/strike-on-sudan-hospital-kills-wounds-world-health-organization-reports"
+          "framing_note": "Provided live coverage context within broader regional developments",
+          "url": "https://www.thehindu.com/news/international/us-israel-iran-war-list-of-countries-allowed-to-cross-the-strait-of-hormuz/article70791104.ece"
         }
       ]
     },
     {
-      "headline": "Meta and YouTube Found Liable in Landmark Social Media Addiction Trial, Ordered to Pay $6 Million",
-      "category": "Technology",
+      "headline": "G7 Foreign Ministers Meet in France as Allied Unity Fractures Over Iran Strategy",
+      "category": "Geopolitics",
       "bullets": [
-        "A Los Angeles jury found Meta (Instagram, Facebook) and Google (YouTube) liable for harming a 20-year-old woman through addictive platform design, awarding $3 million in compensatory damages and $3 million in punitive damages",
-        "Jurors determined both companies were negligent, knew their platforms posed dangers to minors, failed to adequately warn users, and acted with 'malice, oppression, or fraud'",
-        "Meta was assigned 70% of responsibility ($4.2 million total), YouTube 30% ($1.8 million); TikTok and Snap settled before trial on undisclosed terms",
-        "The verdict follows a separate New Mexico jury finding against Meta this week and could influence over 1,000 similar pending lawsuits; both companies said they would appeal"
+        "US Secretary of State Marco Rubio arrived in France for first trip abroad since US joined Israel in strikes on Iran on February 28",
+        "None of the other G7 nations has offered unequivocal backing for the US-Israeli military campaign against Iran",
+        "South Africa was disinvited from June G7 summit; Pretoria initially blamed US pressure before backtracking",
+        "France, which holds G7 presidency, said it opted for a 'streamlined G7' and invited Kenya instead of South Africa"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized the unprecedented nature of the ruling and implications for similar cases",
-          "url": "#"
+          "framing_note": "Detailed coverage of allied divisions and diplomatic context",
+          "url": "https://www.rfi.fr/en/international/20260326-return-hubs-for-irregular-migrants-clear-eu-parliament-hurdle"
         },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on South Africa exclusion controversy with multiple official statements",
+          "url": "https://www.france24.com/en/africa/20260327-south-africa-excluded-from-g7-summit-due-to-boycott-threats-from-us"
+        }
+      ]
+    },
+    {
+      "headline": "Federal Judge Blocks Trump Administration Sanctions on AI Company Anthropic",
+      "category": "Technology",
+      "bullets": [
+        "Judge Rita Lin granted preliminary injunction freezing presidential order barring federal agencies from using Anthropic technology",
+        "Ruling also suspends Pentagon designation of Anthropic as 'national security supply chain risk' - a label typically reserved for foreign adversaries",
+        "Dispute erupted after Anthropic insisted its technology should not be used for mass surveillance or fully autonomous weapons",
+        "Judge wrote that 'nothing in the governing statute supports the Orwellian notion that an American company may be branded a potential adversary for expressing disagreement with the government'"
+      ],
+      "sources": [
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Framed as 'day of reckoning' for social media, focused on leverage for plaintiffs in pending cases",
-          "url": "https://www.lemonde.fr/en/pixels/article/2026/03/25/meta-youtube-ordered-to-pay-3-million-in-lawsuit-over-teen-s-depression_6751815_13.html"
+          "framing_note": "Focused on legal aspects and company statement",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/27/united-states-and-israel-are-facing-the-same-iranian-foe-but-are-fighting-different-wars_6751849_4.html"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Similar coverage with additional context on defense implications",
+          "url": "https://www.france24.com/en/africa/20260327-south-africa-excluded-from-g7-summit-due-to-boycott-threats-from-us"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Highlighted this as second verdict against Meta in one week, noted company defenses",
-          "url": "https://www.theglobeandmail.com/world/article-imprisoned-canadian-says-he-was-tortured-in-ethiopia/"
+          "framing_note": "Most detailed coverage of judge's reasoning and 'Orwellian' characterization",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-congress-funding-shutdown-travel-tsa-dhs/"
         }
       ]
     },
     {
-      "headline": "UN General Assembly Votes to Designate Slave Trade as 'Gravest Crime Against Humanity'",
+      "headline": "IOC Bans Transgender Women Athletes from Female Events at Olympics Starting 2028",
       "category": "Society",
       "bullets": [
-        "The UN General Assembly passed a resolution 123-3 declaring the transatlantic slave trade 'the gravest crime against humanity' and calling for member states to consider apologies and contributions to a reparations fund",
-        "The United States, Israel, and Argentina voted against; 52 countries abstained including the United Kingdom and EU member states",
-        "Ghana's President John Mahama, who proposed the resolution, said: 'Let it be recorded that when history beckoned, we did what was right for the memory of millions who suffered the indignity of slavery'",
-        "The UK's representative said Britain 'firmly' believes no single atrocity should be regarded as more significant than another; the resolution is not legally binding but carries weight of global opinion"
+        "International Olympic Committee announced new eligibility policy excluding transgender female athletes from women's events beginning at 2028 Los Angeles Games",
+        "IOC stated policy 'protects fairness, safety and integrity in the female category'",
+        "White House claimed decision resulted from Trump executive order; IOC President Kirsty Coventry denied any external pressure",
+        "Policy aligns with Trump executive order from a year ago seeking to prohibit transgender athletes from competing in women's events in US schools, colleges and professional sports"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized reparatory justice angle and UK parliamentary petition for state apology",
-          "url": "https://www.theguardian.com/world/2026/mar/21/strike-on-sudan-hospital-kills-wounds-world-health-organization-reports"
-        },
-        {
-          "name": "BBC",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Balanced coverage noting both supporters' framing as historic and abstaining nations' positions",
-          "url": "#"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Focused on African nations' strong backing and Mahama's advocacy",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "Hungary's Foreign Minister Accused of Sharing EU Council Discussions with Russia in Real Time",
-      "category": "Geopolitics",
-      "bullets": [
-        "The Washington Post reported that Hungarian Foreign Minister P\u00e9ter Szijj\u00e1rt\u00f3 has been informing Russian counterpart Sergey Lavrov in real time about EU Foreign Affairs Council discussions",
-        "Germany's Frankfurter Allgemeine Zeitung confirmed regular exchanges between the Hungarian and Russian ministers, citing former Lithuanian Foreign Minister Gabrielius Landsbergis who was aware of the situation since 2024",
-        "EU foreign policy chief Kaja Kallas's spokesperson reminded member states of their 'legal duty of sincere cooperation'; Germany's Foreign Ministry stated it 'will not tolerate' any breach of confidentiality",
-        "The controversy erupts amid Hungary's election campaign and ongoing tensions between Brussels and Budapest over Hungary's ties to Moscow"
-      ],
-      "sources": [
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Framed as scandal causing alarm in Brussels over possible transfer of sensitive information to Moscow",
-          "url": "https://www.lemonde.fr/en/pixels/article/2026/03/25/meta-youtube-ordered-to-pay-3-million-in-lawsuit-over-teen-s-depression_6751815_13.html"
+          "framing_note": "Balanced presentation of IOC's reasoning and political context, included IOC president's denial of White House pressure",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-congress-funding-shutdown-travel-tsa-dhs/"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ousted Venezuelan President Maduro to appear in New York court for second time since January capture by US forces",
+      "headline": "Belarus and North Korea sign friendship treaty as Lukashenko gifts Kim Jong Un a rifle",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c8957dxjvkxo"
+    },
+    {
+      "headline": "EU Parliament approves ban on AI 'nudifier' apps that generate non-consensual deepfakes",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260326-eu-votes-to-ban-ai-nudifier-apps-after-deepfake-outrage"
+    },
+    {
+      "headline": "EU lawmakers clear path for 'return hubs' to deport rejected asylum seekers outside bloc",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260326-return-hubs-for-irregular-migrants-clear-eu-parliament-hurdle"
+    },
+    {
+      "headline": "Trump to order immediate pay for TSA agents as 41-day government shutdown continues",
       "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260326-ousted-venezuelan-president-maduro-to-appear-in-new-york-court"
+      "url": "https://www.france24.com/en/americas/20260327-trump-to-order-immediate-pay-for-tsa-as-41-day-shutdown-continues"
     },
     {
-      "headline": "Belarus's Lukashenko signs 'friendship and cooperation' treaty with North Korea's Kim Jong Un during first visit to Pyongyang",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/asia-pacific/20260325-lukashenko-greeted-by-kim-jong-un-on-first-visit-to-north-korea"
-    },
-    {
-      "headline": "WHO chief calls Cuba's health crisis 'deeply concerning' as US fuel blockade deepens energy shortages affecting hospitals",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/26/cuba-s-escalating-health-crisis-is-deeply-concerning-says-who-chief_6751817_4.html"
-    },
-    {
-      "headline": "French court sentences Swiss Islamic scholar Tariq Ramadan to 18 years in prison for rape of three women",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/police-and-justice/article/2026/03/26/french-court-finds-swiss-islamic-scholar-ramadan-guilty-of-rape-sentenced-to-18-years_6751822_105.html"
-    },
-    {
-      "headline": "WTO ministerial conference opens in Cameroon amid global trade tensions, US tariffs, and calls for reform",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/international/20260326-global-trade-tensions-test-wto-as-reform-battle-begins-in-yaounde"
-    },
-    {
-      "headline": "Four Syrian nationals arrested in Germany in operation targeting Channel small boat people-smuggling network",
+      "headline": "Hungary's Orban government accused of mass voter intimidation ahead of April 12 elections",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cgld95j1e2jo"
+      "url": "https://www.bbc.com/news/articles/c36r0068xp2o"
     },
     {
-      "headline": "Ukrainian drones strike Estonian power plant chimney and crash in Latvia after veering off course during attack on Russian port",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c1eql309n12o"
+      "headline": "UN votes to describe transatlantic slave trade as 'gravest crime against humanity' with US, UK abstaining",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/news/2026/mar/25/un-votes-slave-trade-gravest-crime-against-humanity-reparatory-justice"
     },
     {
-      "headline": "India among five nations granted passage through Strait of Hormuz by Iran alongside China, Russia, Iraq, and Pakistan",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/india-among-five-nations-granted-passage-through-strait-of-hormuz-by-tehran/article70786984.ece"
+      "headline": "Zelensky says US linking security guarantees to Ukraine ceding all of Donbas to Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
     },
     {
-      "headline": "Samsung and SK Group urge South Korean employees to reduce car use as government implements emergency energy conservation measures",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/sci-tech/technology/samsung-sk-urge-employees-to-cut-car-use-as-energy-risks-rise-over-iran-crisis/article70786570.ece"
+      "headline": "Trump's signature to appear on all new US paper currency, marking first for sitting president",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-signature-paper-currency/"
     },
     {
-      "headline": "Danish PM Frederiksen's Social Democrats win election but suffer worst result since 1903, coalition fails to secure majority",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c74v5qynl9vo"
+      "headline": "Two drone strikes kill 28 civilians in Sudan as civil war approaches fourth year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/26/sudan-drone-strikes-civilian-targets-north-darfur-market-north-kordofan-truck"
+    },
+    {
+      "headline": "Vietnam cuts gasoline prices 19% after removing taxes amid energy crisis",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/energy/vietnam-gasoline-price-falls-19-after-taxes-removed-amid-energy-crisis"
     }
   ]
 }
