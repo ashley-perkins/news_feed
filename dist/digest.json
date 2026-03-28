@@ -1,208 +1,196 @@
 {
-  "date": "Friday, March 27, 2026",
-  "daily_brief": "The US-Israel war against Iran entered its fourth week with no resolution in sight, as G7 foreign ministers gathered in France amid growing allied divisions over Washington's strategy [RFI]. President Trump extended his deadline for Iran to reopen the Strait of Hormuz to April 6, claiming talks were going 'very well' despite Iranian officials dismissing US proposals as 'one-sided' [Globe and Mail, Financial Times]. The global energy crisis deepened, with African nations rationing electricity, Australia experiencing panic buying, and Asian manufacturers warning of imminent production shutdowns [BBC, The Hindu, Nikkei Asia]. Iran's Revolutionary Guards claimed responsibility for missile and drone strikes on Israeli and Gulf targets [France 24], while Germany's foreign minister revealed indirect US-Iran contacts with direct talks planned soon in Pakistan [France 24]. In a significant development for AI governance, a US federal judge suspended the Trump administration's sanctions against Anthropic, ruling the punitive measures appeared 'arbitrary and capricious' [Le Monde, France 24]. Meanwhile, the IOC announced transgender women will be barred from female Olympic events starting with the 2028 Los Angeles Games [Globe and Mail].",
+  "date": "Saturday, March 28, 2026",
+  "daily_brief": "The US-Israeli war against Iran entered its second month with no clear diplomatic breakthrough, as Secretary of State Marco Rubio told G7 counterparts that Washington expects to conclude operations within weeks [France 24, RFI]. The conflict widened significantly with Yemen's Houthi rebels launching their first missile toward Israel since the war began [Le Monde, The Hindu], while an Iranian strike on Prince Sultan Air Base in Saudi Arabia wounded 12 US troops and damaged aircraft [Globe and Mail, Financial Times]. G7 foreign ministers issued a joint statement calling for an immediate end to attacks on civilians and urging Iran to restore free navigation through the Strait of Hormuz [RFI]. On the domestic front, the US faces mounting chaos as House Republicans rejected a Senate deal to fund the Department of Homeland Security, leaving TSA agents unpaid for over a month and causing widespread airport delays; President Trump signed an executive order to pay TSA workers as a stopgap [BBC, Globe and Mail]. In a separate development, the UN General Assembly passed a landmark resolution declaring the transatlantic slave trade 'the gravest crime against humanity,' with Western nations including the UK and EU abstaining [The Guardian, BBC]. Nepal's former Prime Minister KP Sharma Oli was arrested over his role in a deadly protest crackdown that killed over 70 people last year [BBC].",
   "top_stories": [
     {
-      "headline": "Global Energy Crisis Deepens as Iran War Enters Fourth Week with No End in Sight",
+      "headline": "US-Israeli War on Iran Enters Second Month as Houthis Fire First Missile at Israel",
       "category": "Conflict",
       "bullets": [
-        "Iran's Revolutionary Guards claimed missile and drone strikes against targets in Israel and US-linked military facilities across the Gulf on Thursday",
-        "African nations including South Sudan and Mauritius have begun rationing electricity; Australia faces panic buying with fuel prices up 85% in some areas",
-        "Asian manufacturers report unprecedented supply chain disruptions, with some cutting production to 20-30% of normal output due to raw material shortages",
-        "Malaysia secured Iranian permission for its ships to pass through the Strait of Hormuz; India and China also on Iran's 'friendly countries' list for passage"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on humanitarian impact in Africa and Australia with detailed local reporting",
-          "url": "https://www.bbc.com/news/articles/c7vqdd23y0vo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized military developments and diplomatic efforts",
-          "url": "https://www.france24.com/en/africa/20260327-south-africa-excluded-from-g7-summit-due-to-boycott-threats-from-us"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Comprehensive coverage of Asian economic impacts and list of countries with Hormuz passage rights",
-          "url": "https://www.thehindu.com/news/international/us-israel-iran-war-list-of-countries-allowed-to-cross-the-strait-of-hormuz/article70791104.ece"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focused on business and market implications across Asia",
-          "url": "https://asia.nikkei.com/politics/ukraine-war/russian-drones-target-civilians-like-in-a-video-game-in-ukrainian-city"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Provided analytical perspective on Strait of Hormuz's broader economic significance beyond oil",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/27/first-responders-rescue-man-from-tehran-building-hit-by-air-strike?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Extends Iran Deadline to April 6, Claims Talks Going 'Very Well' Despite Iranian Skepticism",
-      "category": "Geopolitics",
-      "bullets": [
-        "Trump announced 10-day pause on attacks against Iranian energy plants, extending deadline to April 6 at 2000 EDT",
-        "German Foreign Minister revealed US and Iran have had indirect contacts and plan to meet directly 'very soon' in Pakistan",
-        "Iranian officials dismissed US proposal for ending conflict as 'one-sided and unfair'; Iran denied requesting a pause on strikes",
-        "Wall Street posted worst day since Middle East crisis began as fresh inflation fears sent Treasury yields higher"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on diplomatic developments and Iranian denials",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-congress-funding-shutdown-travel-tsa-dhs/"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Emphasized market reaction and economic consequences",
-          "url": "https://www.ft.com/content/c07b1941-d271-49b5-9244-e72695501a00"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Highlighted German foreign minister's revelation about indirect contacts",
-          "url": "https://www.france24.com/en/africa/20260327-south-africa-excluded-from-g7-summit-due-to-boycott-threats-from-us"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Provided live coverage context within broader regional developments",
-          "url": "https://www.thehindu.com/news/international/us-israel-iran-war-list-of-countries-allowed-to-cross-the-strait-of-hormuz/article70791104.ece"
-        }
-      ]
-    },
-    {
-      "headline": "G7 Foreign Ministers Meet in France as Allied Unity Fractures Over Iran Strategy",
-      "category": "Geopolitics",
-      "bullets": [
-        "US Secretary of State Marco Rubio arrived in France for first trip abroad since US joined Israel in strikes on Iran on February 28",
-        "None of the other G7 nations has offered unequivocal backing for the US-Israeli military campaign against Iran",
-        "South Africa was disinvited from June G7 summit; Pretoria initially blamed US pressure before backtracking",
-        "France, which holds G7 presidency, said it opted for a 'streamlined G7' and invited Kenya instead of South Africa"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of allied divisions and diplomatic context",
-          "url": "https://www.rfi.fr/en/international/20260326-return-hubs-for-irregular-migrants-clear-eu-parliament-hurdle"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on South Africa exclusion controversy with multiple official statements",
-          "url": "https://www.france24.com/en/africa/20260327-south-africa-excluded-from-g7-summit-due-to-boycott-threats-from-us"
-        }
-      ]
-    },
-    {
-      "headline": "Federal Judge Blocks Trump Administration Sanctions on AI Company Anthropic",
-      "category": "Technology",
-      "bullets": [
-        "Judge Rita Lin granted preliminary injunction freezing presidential order barring federal agencies from using Anthropic technology",
-        "Ruling also suspends Pentagon designation of Anthropic as 'national security supply chain risk' - a label typically reserved for foreign adversaries",
-        "Dispute erupted after Anthropic insisted its technology should not be used for mass surveillance or fully autonomous weapons",
-        "Judge wrote that 'nothing in the governing statute supports the Orwellian notion that an American company may be branded a potential adversary for expressing disagreement with the government'"
+        "The Israeli military reported the first missile launch from Yemen toward Israeli territory since the war began on February 28, with aerial defense systems operating to intercept the threat",
+        "Yemen's Houthi movement warned it would join the conflict if US-Israeli attacks continue against Iran or if other nations enter the war",
+        "Secretary of State Marco Rubio stated the US expects to conclude military operations within weeks, not months, without deploying ground troops",
+        "The war has killed more than 1,937 people in Iran and displaced approximately one quarter of Lebanon's population"
       ],
       "sources": [
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Focused on legal aspects and company statement",
-          "url": "https://www.lemonde.fr/en/international/article/2026/03/27/united-states-and-israel-are-facing-the-same-iranian-foe-but-are-fighting-different-wars_6751849_4.html"
+          "framing_note": "Focused on military developments and the Houthi warning",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/03/28/eu-is-targeting-small-parcels-from-shein-temu-and-other-chinese-e-commerce-sites_6751885_19.html"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Similar coverage with additional context on defense implications",
-          "url": "https://www.france24.com/en/africa/20260327-south-africa-excluded-from-g7-summit-due-to-boycott-threats-from-us"
+          "framing_note": "Emphasized US confidence in quick resolution and Lebanese PM interview",
+          "url": "https://www.france24.com/en/europe/20260327-pope-leo-xiv-makes-historic-visit-to-glitzy-monaco"
         },
         {
-          "name": "Globe and Mail",
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted civilian suffering in Lebanon and Iran, more critical of US-Israeli campaign",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/28/how-mothers-raise-newborn-babies-during-israels-offensive-in-lebanon?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Neutral reporting on military developments and regional implications",
+          "url": "https://www.thehindu.com/news/international/trump-says-cuba-is-next-in-speech-touting-us-military-successes/article70795408.ece"
+        },
+        {
+          "name": "RFI",
           "lean": "Center",
-          "framing_note": "Most detailed coverage of judge's reasoning and 'Orwellian' characterization",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-congress-funding-shutdown-travel-tsa-dhs/"
+          "framing_note": "Focused on G7 diplomatic response and call for civilian protection",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "IOC Bans Transgender Women Athletes from Female Events at Olympics Starting 2028",
-      "category": "Society",
+      "headline": "Iranian Strike Wounds 12 US Troops at Saudi Air Base, Damages Aircraft",
+      "category": "Conflict",
       "bullets": [
-        "International Olympic Committee announced new eligibility policy excluding transgender female athletes from women's events beginning at 2028 Los Angeles Games",
-        "IOC stated policy 'protects fairness, safety and integrity in the female category'",
-        "White House claimed decision resulted from Trump executive order; IOC President Kirsty Coventry denied any external pressure",
-        "Policy aligns with Trump executive order from a year ago seeking to prohibit transgender athletes from competing in women's events in US schools, colleges and professional sports"
+        "An Iranian attack on Prince Sultan Air Base in Saudi Arabia wounded 12 US service members, two of them seriously",
+        "Several aerial refueling planes were damaged in the strike, which involved at least one missile and several drones",
+        "The casualties bring the total US wounded since February 28 to over 300, with 13 US troops killed in the conflict",
+        "Iran agreed to allow humanitarian aid and agricultural shipments through the Strait of Hormuz following a UN request"
       ],
       "sources": [
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Balanced presentation of IOC's reasoning and political context, included IOC president's denial of White House pressure",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-congress-funding-shutdown-travel-tsa-dhs/"
+          "framing_note": "Led with the attack but also highlighted the humanitarian corridor breakthrough",
+          "url": "https://www.theglobeandmail.com/politics/article-israel-pushes-back-canada-criticism-occupation-southern-lebanon/"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Brief coverage linking to Houthi developments",
+          "url": "https://www.ft.com/content/b72476fc-762d-44b2-9d94-ec1887373ca6"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Straightforward casualty reporting with regional context",
+          "url": "https://www.thehindu.com/news/international/trump-says-cuba-is-next-in-speech-touting-us-military-successes/article70795408.ece"
+        }
+      ]
+    },
+    {
+      "headline": "US Airport Chaos Deepens as House Rejects DHS Funding Deal, Trump Signs Emergency Pay Order",
+      "category": "Policy",
+      "bullets": [
+        "House Republicans rejected a Senate deal to fund the Transportation Security Administration, extending the DHS partial shutdown to 44 days",
+        "TSA agents have not been paid for over a month, causing widespread delays at major US airports",
+        "President Trump signed an executive order directing payment to TSA employees, citing an emergency compromising national security",
+        "The order may face legal challenges as the Constitution assigns spending authority to Congress"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized political impasse and constitutional concerns",
+          "url": "https://www.bbc.com/news/articles/c05dlnd3635o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on Trump's executive action and practical implications for travelers",
+          "url": "https://www.theglobeandmail.com/politics/article-israel-pushes-back-canada-criticism-occupation-southern-lebanon/"
+        }
+      ]
+    },
+    {
+      "headline": "UN General Assembly Declares Transatlantic Slave Trade 'Gravest Crime Against Humanity'",
+      "category": "Geopolitics",
+      "bullets": [
+        "The UN General Assembly passed a resolution by 123 votes to 3, with 52 abstentions, declaring the transatlantic slave trade the gravest crime against humanity",
+        "The US, Argentina, and Israel voted against; the UK and EU member states abstained",
+        "Ghana's President John Mahama led the push for the resolution, which is not legally binding but strengthens momentum for reparations discussions",
+        "UN Secretary-General Guterres said Western nations' wealth was 'built on stolen lives and stolen labour'"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Extensive analysis of voting patterns and reparations implications, highlighted African leadership",
+          "url": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced explanation of the resolution's meaning and personal impact on descendants",
+          "url": "https://www.bbc.com/news/articles/c05dlnd3635o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Nepal's Former PM Oli Arrested Over Deadly Protest Crackdown",
+      "category": "Society",
+      "bullets": [
+        "Former Prime Minister KP Sharma Oli and ex-Home Minister Ramesh Lekhak were arrested following recommendations from an investigative panel",
+        "More than 70 people were killed during protests in September 2025, many shot by police during an uprising sparked by a social media ban",
+        "The arrests came one day after 35-year-old rapper-turned-politician Balen Shah was sworn in as new Prime Minister",
+        "Oli rejected the commission's findings as 'character assassination' and his lawyers said the detention was unwarranted"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage including Oli's defense and context of political transition",
+          "url": "https://www.bbc.com/news/articles/c05dlnd3635o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Belarus and North Korea sign friendship treaty as Lukashenko gifts Kim Jong Un a rifle",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c8957dxjvkxo"
+      "headline": "Tiger Woods arrested on DUI charges after rollover crash in Florida; authorities suspect drug impairment",
+      "source": "BBC World, Globe and Mail",
+      "url": "https://www.bbc.com/sport/golf/articles/cvg092kege7o"
     },
     {
-      "headline": "EU Parliament approves ban on AI 'nudifier' apps that generate non-consensual deepfakes",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260326-eu-votes-to-ban-ai-nudifier-apps-after-deepfake-outrage"
+      "headline": "EU reaches agreement to regulate flood of small parcels from Chinese e-commerce platforms Shein, Temu, and AliExpress",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/economy/article/2026/03/28/eu-is-targeting-small-parcels-from-shein-temu-and-other-chinese-e-commerce-sites_6751885_19.html"
     },
     {
-      "headline": "EU lawmakers clear path for 'return hubs' to deport rejected asylum seekers outside bloc",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260326-return-hubs-for-irregular-migrants-clear-eu-parliament-hurdle"
+      "headline": "Pope Leo XIV makes first papal visit to Monaco in nearly 500 years",
+      "source": "Le Monde, France 24",
+      "url": "https://www.france24.com/en/europe/20260327-pope-leo-xiv-makes-historic-visit-to-glitzy-monaco"
     },
     {
-      "headline": "Trump to order immediate pay for TSA agents as 41-day government shutdown continues",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260327-trump-to-order-immediate-pay-for-tsa-as-41-day-shutdown-continues"
+      "headline": "Bank of America agrees to pay $72.5 million to settle class-action lawsuit alleging facilitation of Epstein sex-trafficking ring",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/28/bank-of-america-agrees-to-pay-72-million-to-settle-epstein-sex-trafficking-suit_6751888_4.html"
     },
     {
-      "headline": "Hungary's Orban government accused of mass voter intimidation ahead of April 12 elections",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c36r0068xp2o"
+      "headline": "Trump threatens Cuba with military action, saying 'Cuba is next' at Miami investment conference",
+      "source": "Al Jazeera, The Hindu",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/28/trump-says-cuba-is-next-target-of-us-military"
     },
     {
-      "headline": "UN votes to describe transatlantic slave trade as 'gravest crime against humanity' with US, UK abstaining",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/news/2026/mar/25/un-votes-slave-trade-gravest-crime-against-humanity-reparatory-justice"
-    },
-    {
-      "headline": "Zelensky says US linking security guarantees to Ukraine ceding all of Donbas to Russia",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
-    },
-    {
-      "headline": "Trump's signature to appear on all new US paper currency, marking first for sitting president",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-signature-paper-currency/"
-    },
-    {
-      "headline": "Two drone strikes kill 28 civilians in Sudan as civil war approaches fourth year",
+      "headline": "Two drone strikes in Sudan kill 28 civilians, including an infant, as civil war approaches fourth year",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/mar/26/sudan-drone-strikes-civilian-targets-north-darfur-market-north-kordofan-truck"
     },
     {
-      "headline": "Vietnam cuts gasoline prices 19% after removing taxes amid energy crisis",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/energy/vietnam-gasoline-price-falls-19-after-taxes-removed-amid-energy-crisis"
+      "headline": "Egypt imposes 9pm business curfew to counter energy costs that have more than doubled due to Iran war",
+      "source": "France 24, Financial Times",
+      "url": "https://www.france24.com/en/egypt-imposes-business-curfew-to-counter-soaring-fuel-costs"
+    },
+    {
+      "headline": "Pakistan and IMF reach staff-level agreement for disbursement of approximately $1.2 billion in funding",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/pakistan-imf-strike-deal-over-disbursement-of-12-billion-fund/article70795507.ece"
+    },
+    {
+      "headline": "Austria announces plans to ban social media for children under 14, joining growing international movement",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cwyv70de9exo"
+    },
+    {
+      "headline": "Zelenskyy says US has linked security guarantees in peace deal to Ukraine ceding all of Donbas to Russia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
     }
   ]
 }
