@@ -1,196 +1,190 @@
 {
-  "date": "Saturday, March 28, 2026",
-  "daily_brief": "The US-Israeli war against Iran entered its second month with no clear diplomatic breakthrough, as Secretary of State Marco Rubio told G7 counterparts that Washington expects to conclude operations within weeks [France 24, RFI]. The conflict widened significantly with Yemen's Houthi rebels launching their first missile toward Israel since the war began [Le Monde, The Hindu], while an Iranian strike on Prince Sultan Air Base in Saudi Arabia wounded 12 US troops and damaged aircraft [Globe and Mail, Financial Times]. G7 foreign ministers issued a joint statement calling for an immediate end to attacks on civilians and urging Iran to restore free navigation through the Strait of Hormuz [RFI]. On the domestic front, the US faces mounting chaos as House Republicans rejected a Senate deal to fund the Department of Homeland Security, leaving TSA agents unpaid for over a month and causing widespread airport delays; President Trump signed an executive order to pay TSA workers as a stopgap [BBC, Globe and Mail]. In a separate development, the UN General Assembly passed a landmark resolution declaring the transatlantic slave trade 'the gravest crime against humanity,' with Western nations including the UK and EU abstaining [The Guardian, BBC]. Nepal's former Prime Minister KP Sharma Oli was arrested over his role in a deadly protest crackdown that killed over 70 people last year [BBC].",
+  "date": "Monday, March 30, 2026",
+  "daily_brief": "The US-Israel war on Iran entered its fifth week with no signs of de-escalation, as Iranian strikes hit major industrial facilities across the Gulf region, including aluminium plants in the UAE and Bahrain, and damaged Kuwait's international airport radar system [BBC, Financial Times, The Hindu]. A UNIFIL peacekeeper from Indonesia was killed by a projectile in southern Lebanon, the latest casualty as the conflict spreads [Le Monde, France 24]. Pakistan announced it will host US-Iran talks in coming days, though Tehran's parliament speaker dismissed the diplomatic effort as cover for potential ground operations [Globe and Mail, The Hindu]. In Paris, three people were arrested following an attempted bomb attack on Bank of America's headquarters, with French authorities suggesting possible links to Iranian proxies [BBC, France 24]. President Trump softened his rhetoric on Cuba, allowing a Russian oil tanker carrying 730,000 barrels of crude to deliver relief to the crisis-hit island despite Washington's de facto blockade [Le Monde, France 24]. Meanwhile, Israel reversed its decision to block the Latin Patriarch of Jerusalem from the Church of the Holy Sepulchre after international outcry over the Palm Sunday incident [BBC, France 24]. The G7 is holding crisis talks as the Iran war continues to roil the global economy [Financial Times].",
   "top_stories": [
     {
-      "headline": "US-Israeli War on Iran Enters Second Month as Houthis Fire First Missile at Israel",
+      "headline": "Iranian Strikes Hit Industrial Sites Across Gulf as War Enters Fifth Week",
       "category": "Conflict",
       "bullets": [
-        "The Israeli military reported the first missile launch from Yemen toward Israeli territory since the war began on February 28, with aerial defense systems operating to intercept the threat",
-        "Yemen's Houthi movement warned it would join the conflict if US-Israeli attacks continue against Iran or if other nations enter the war",
-        "Secretary of State Marco Rubio stated the US expects to conclude military operations within weeks, not months, without deploying ground troops",
-        "The war has killed more than 1,937 people in Iran and displaced approximately one quarter of Lebanon's population"
+        "Iran's IRGC launched drone and missile attacks on aluminium facilities in UAE and Bahrain, wounding workers at both sites",
+        "Kuwait's international airport radar system was significantly damaged by 15 drones; Oman is investigating a drone strike on its southern port of Salalah",
+        "Iran claimed the strikes targeted facilities with American military links, in response to US-Israeli attacks on Iranian steel production sites",
+        "Gulf nations are insisting they must have a say in any future settlement as the war threatens their economies and way of life"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on Gulf nations' concerns and the economic implications for the region",
+          "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Emphasized G7 crisis talks and global economic impact",
+          "url": "https://www.ft.com/content/214371b3-aad0-405d-88f3-28b371f4c776"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Reported Australian PM's call for clarity on US war objectives",
+          "url": "https://www.thehindu.com/news/international/taiwans-opposition-leader-to-visit-china-next-month-ahead-of-trump/article70801817.ece"
+        }
+      ]
+    },
+    {
+      "headline": "UNIFIL Peacekeeper Killed in Southern Lebanon as Israel-Hezbollah Fighting Intensifies",
+      "category": "Conflict",
+      "bullets": [
+        "An Indonesian peacekeeper was killed and three others wounded when a projectile hit a UNIFIL position near Adchit al Qusayr in southern Lebanon",
+        "The origin of the projectile is under investigation; UN chief Guterres condemned the killing as part of a pattern of incidents jeopardizing peacekeeper safety",
+        "Three Lebanese journalists were also killed Saturday in a targeted Israeli strike in Jezzine; Israel claimed one was a Hezbollah operative, providing no evidence",
+        "France's foreign minister said deliberate targeting of journalists would be a 'blatant violation of international law'"
       ],
       "sources": [
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Focused on military developments and the Houthi warning",
-          "url": "https://www.lemonde.fr/en/economy/article/2026/03/28/eu-is-targeting-small-parcels-from-shein-temu-and-other-chinese-e-commerce-sites_6751885_19.html"
+          "framing_note": "Straightforward reporting on casualty details and investigation",
+          "url": "https://www.lemonde.fr/en/international/article/2026/03/30/migrant-channel-crossings-france-uk-negotiations-over-border-funding-get-bogged-down_6751922_4.html"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Included Israeli military justification for journalist strike alongside denials",
+          "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Highlighted French government condemnation and Iran's IRGC response dedicating strikes to slain journalists",
+          "url": "https://www.rfi.fr/en/culture/20260329-nigerian-brothers-bring-parallels-of-fatherhood-nationhood-to-the-screen"
+        }
+      ]
+    },
+    {
+      "headline": "Pakistan to Host US-Iran Talks as Tehran Warns Against Ground Attack",
+      "category": "Geopolitics",
+      "bullets": [
+        "Pakistan announced it will host talks between the US and Iran in coming days, following weeks of quiet diplomacy",
+        "Foreign ministers from Turkey, Egypt and Saudi Arabia met in Islamabad to discuss the crisis",
+        "Iran's parliament speaker dismissed the talks as cover, warning Iranian forces are ready to 'set American troops on fire' if ground operations begin",
+        "Iran also threatened to attack homes of US and Israeli commanders and political officials in the region"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Detailed diplomatic context and Pakistan's mediating role",
+          "url": "https://www.theglobeandmail.com/world/video-humpback-whale-timmy-struggles-to-escape-shallow-waters-off-germany/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Iranian warnings and Australian concerns about war objectives",
+          "url": "https://www.thehindu.com/news/international/taiwans-opposition-leader-to-visit-china-next-month-ahead-of-trump/article70801817.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Three Arrested in Paris After Attempted Bomb Attack on Bank of America",
+      "category": "Geopolitics",
+      "bullets": [
+        "A suspect was detained after placing a device containing five litres of fuel and an ignition system near Bank of America's Paris headquarters early Saturday",
+        "Two additional suspects were arrested Sunday; the incident occurred near the Champs-\u00c9lys\u00e9es",
+        "French Interior Minister suggested the attack could be linked to Iranian services acting through proxies amid the US-Israel war on Iran",
+        "The Iranian embassy in France has not commented on the allegations"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced reporting with official statements from both French authorities",
+          "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized US confidence in quick resolution and Lebanese PM interview",
-          "url": "https://www.france24.com/en/europe/20260327-pope-leo-xiv-makes-historic-visit-to-glitzy-monaco"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted civilian suffering in Lebanon and Iran, more critical of US-Israeli campaign",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/28/how-mothers-raise-newborn-babies-during-israels-offensive-in-lebanon?traffic_source=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Neutral reporting on military developments and regional implications",
-          "url": "https://www.thehindu.com/news/international/trump-says-cuba-is-next-in-speech-touting-us-military-successes/article70795408.ece"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Focused on G7 diplomatic response and call for civilian protection",
-          "url": "#"
+          "framing_note": "Similar coverage with emphasis on ongoing investigation",
+          "url": "https://www.france24.com/en/sport/20260330-amnesty-warns-2026-world-cup-north-america-stage-repression"
         }
       ]
     },
     {
-      "headline": "Iranian Strike Wounds 12 US Troops at Saudi Air Base, Damages Aircraft",
-      "category": "Conflict",
-      "bullets": [
-        "An Iranian attack on Prince Sultan Air Base in Saudi Arabia wounded 12 US service members, two of them seriously",
-        "Several aerial refueling planes were damaged in the strike, which involved at least one missile and several drones",
-        "The casualties bring the total US wounded since February 28 to over 300, with 13 US troops killed in the conflict",
-        "Iran agreed to allow humanitarian aid and agricultural shipments through the Strait of Hormuz following a UN request"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Led with the attack but also highlighted the humanitarian corridor breakthrough",
-          "url": "https://www.theglobeandmail.com/politics/article-israel-pushes-back-canada-criticism-occupation-southern-lebanon/"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief coverage linking to Houthi developments",
-          "url": "https://www.ft.com/content/b72476fc-762d-44b2-9d94-ec1887373ca6"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Straightforward casualty reporting with regional context",
-          "url": "https://www.thehindu.com/news/international/trump-says-cuba-is-next-in-speech-touting-us-military-successes/article70795408.ece"
-        }
-      ]
-    },
-    {
-      "headline": "US Airport Chaos Deepens as House Rejects DHS Funding Deal, Trump Signs Emergency Pay Order",
-      "category": "Policy",
-      "bullets": [
-        "House Republicans rejected a Senate deal to fund the Transportation Security Administration, extending the DHS partial shutdown to 44 days",
-        "TSA agents have not been paid for over a month, causing widespread delays at major US airports",
-        "President Trump signed an executive order directing payment to TSA employees, citing an emergency compromising national security",
-        "The order may face legal challenges as the Constitution assigns spending authority to Congress"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized political impasse and constitutional concerns",
-          "url": "https://www.bbc.com/news/articles/c05dlnd3635o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on Trump's executive action and practical implications for travelers",
-          "url": "https://www.theglobeandmail.com/politics/article-israel-pushes-back-canada-criticism-occupation-southern-lebanon/"
-        }
-      ]
-    },
-    {
-      "headline": "UN General Assembly Declares Transatlantic Slave Trade 'Gravest Crime Against Humanity'",
-      "category": "Geopolitics",
-      "bullets": [
-        "The UN General Assembly passed a resolution by 123 votes to 3, with 52 abstentions, declaring the transatlantic slave trade the gravest crime against humanity",
-        "The US, Argentina, and Israel voted against; the UK and EU member states abstained",
-        "Ghana's President John Mahama led the push for the resolution, which is not legally binding but strengthens momentum for reparations discussions",
-        "UN Secretary-General Guterres said Western nations' wealth was 'built on stolen lives and stolen labour'"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Extensive analysis of voting patterns and reparations implications, highlighted African leadership",
-          "url": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced explanation of the resolution's meaning and personal impact on descendants",
-          "url": "https://www.bbc.com/news/articles/c05dlnd3635o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Nepal's Former PM Oli Arrested Over Deadly Protest Crackdown",
+      "headline": "Israel Reverses Ban on Latin Patriarch at Holy Sepulchre After International Outcry",
       "category": "Society",
       "bullets": [
-        "Former Prime Minister KP Sharma Oli and ex-Home Minister Ramesh Lekhak were arrested following recommendations from an investigative panel",
-        "More than 70 people were killed during protests in September 2025, many shot by police during an uprising sparked by a social media ban",
-        "The arrests came one day after 35-year-old rapper-turned-politician Balen Shah was sworn in as new Prime Minister",
-        "Oli rejected the commission's findings as 'character assassination' and his lawyers said the detention was unwarranted"
+        "Israeli police prevented Cardinal Pierbattista Pizzaballa from entering the Church of the Holy Sepulchre for Palm Sunday Mass, citing security concerns during the Iran war",
+        "The incident marked the first time in centuries a Latin Patriarch was barred from the site on Palm Sunday",
+        "US Ambassador Mike Huckabee called it an 'unfortunate overreach' that was 'difficult to understand or justify'",
+        "Prime Minister Netanyahu announced 'full and immediate access' would be restored following widespread international condemnation"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Comprehensive coverage including Oli's defense and context of political transition",
-          "url": "https://www.bbc.com/news/articles/c05dlnd3635o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Comprehensive coverage including US diplomatic criticism",
+          "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on the restoration of access and international reaction",
+          "url": "https://www.france24.com/en/sport/20260330-amnesty-warns-2026-world-cup-north-america-stage-repression"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Tiger Woods arrested on DUI charges after rollover crash in Florida; authorities suspect drug impairment",
-      "source": "BBC World, Globe and Mail",
-      "url": "https://www.bbc.com/sport/golf/articles/cvg092kege7o"
-    },
-    {
-      "headline": "EU reaches agreement to regulate flood of small parcels from Chinese e-commerce platforms Shein, Temu, and AliExpress",
+      "headline": "Trump allows Russian oil tanker to deliver 730,000 barrels of crude to crisis-hit Cuba despite de facto US blockade",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/economy/article/2026/03/28/eu-is-targeting-small-parcels-from-shein-temu-and-other-chinese-e-commerce-sites_6751885_19.html"
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/30/us-to-allow-russian-oil-tanker-to-bring-relief-to-cuba-despite-blockade_6751925_4.html"
     },
     {
-      "headline": "Pope Leo XIV makes first papal visit to Monaco in nearly 500 years",
-      "source": "Le Monde, France 24",
-      "url": "https://www.france24.com/en/europe/20260327-pope-leo-xiv-makes-historic-visit-to-glitzy-monaco"
+      "headline": "Amnesty International warns 2026 World Cup in North America risks becoming a 'stage for repression' under current conditions",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/sport/20260330-amnesty-warns-2026-world-cup-north-america-stage-repression"
     },
     {
-      "headline": "Bank of America agrees to pay $72.5 million to settle class-action lawsuit alleging facilitation of Epstein sex-trafficking ring",
+      "headline": "France lags on transposing EU Migration and Asylum Pact into law ahead of June deadline, raising fears of legal confusion",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/28/bank-of-america-agrees-to-pay-72-million-to-settle-epstein-sex-trafficking-suit_6751888_4.html"
+      "url": "https://www.lemonde.fr/en/france/article/2026/03/30/eu-pact-on-migration-and-asylum-france-lags-on-transposition-raising-fears-of-legal-confusion_6751924_7.html"
     },
     {
-      "headline": "Trump threatens Cuba with military action, saying 'Cuba is next' at Miami investment conference",
-      "source": "Al Jazeera, The Hindu",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/28/trump-says-cuba-is-next-target-of-us-military"
+      "headline": "France-UK negotiations over Channel border security funding stall as current agreement expires",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/30/migrant-channel-crossings-france-uk-negotiations-over-border-funding-get-bogged-down_6751922_4.html"
     },
     {
-      "headline": "Two drone strikes in Sudan kill 28 civilians, including an infant, as civil war approaches fourth year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/26/sudan-drone-strikes-civilian-targets-north-darfur-market-north-kordofan-truck"
+      "headline": "Italian authorities investigate LVMH's Sephora and Benefit for allegedly marketing skincare products to children under 10",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo"
     },
     {
-      "headline": "Egypt imposes 9pm business curfew to counter energy costs that have more than doubled due to Iran war",
-      "source": "France 24, Financial Times",
-      "url": "https://www.france24.com/en/egypt-imposes-business-curfew-to-counter-soaring-fuel-costs"
+      "headline": "Palestinians mark 50th anniversary of Land Day amid ongoing Israeli settlement expansion and land confiscations",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/30/land-day-what-happened-in-palestine-on-march-30-1976"
     },
     {
-      "headline": "Pakistan and IMF reach staff-level agreement for disbursement of approximately $1.2 billion in funding",
+      "headline": "Emmanuel Gr\u00e9goire sworn in as Paris mayor after defeating Rachida Dati in local elections",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260330-who-is-paris-s-newly-sworn-in-mayor-emmanuel-gr%C3%A9goire"
+    },
+    {
+      "headline": "China sanctions Japanese lawmaker Keiji Furuya, close aide to PM Takaichi, for Taiwan ties",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/pakistan-imf-strike-deal-over-disbursement-of-12-billion-fund/article70795507.ece"
+      "url": "https://www.thehindu.com/news/international/china-sanctions-aide-of-japan-pm-takaichi-for-taiwan-ties/article70801884.ece"
     },
     {
-      "headline": "Austria announces plans to ban social media for children under 14, joining growing international movement",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cwyv70de9exo"
+      "headline": "Taiwan opposition KMT leader to visit China in April ahead of Trump's Beijing summit",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/taiwans-opposition-leader-to-visit-china-next-month-ahead-of-trump/article70801817.ece"
     },
     {
-      "headline": "Zelenskyy says US has linked security guarantees in peace deal to Ukraine ceding all of Donbas to Russia",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
+      "headline": "Twenty-two people stand trial in France over alleged murder network operating within Masonic lodge",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/live-news/20260330-french-masonic-lodge-at-heart-of-murky-murder-trial"
     }
   ]
 }
