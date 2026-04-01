@@ -1,190 +1,172 @@
 {
-  "date": "Tuesday, March 31, 2026",
-  "daily_brief": "The US-Israel-Iran conflict dominated global developments Tuesday, with explosions and airstrikes knocking out power in Tehran while President Trump threatened destruction of Iran's civilian infrastructure if no deal is reached [France 24, Globe and Mail, The Hindu]. Spain escalated European opposition to the war by closing its airspace to US aircraft involved in operations against Iran [BBC, Al Jazeera]. Energy markets remained strained as the Strait of Hormuz disruption continued affecting global supplies, with Asian nations increasingly turning to coal and Germany's far-right AfD gaining support by calling for renewed Russian energy imports [Financial Times, The Hindu]. In Israel, the Knesset passed two significant measures: a budget ensuring Netanyahu's government survives until fall elections, and a controversial law making death by hanging the default sentence for Palestinians convicted of deadly attacks\u2014a measure condemned by European nations and rights groups as discriminatory [Le Monde, BBC, Globe and Mail]. Meanwhile, Myanmar's junta chief Min Aung Hlaing was elected vice-president by parliament, positioning him to become civilian president and legitimize his 2021 coup [France 24]. Ukraine's Zelensky revealed allies have urged him to scale back strikes on Russian energy infrastructure amid the global fuel crisis [BBC Europe].",
+  "date": "Wednesday, April 01, 2026",
+  "daily_brief": "The Iran war dominated global attention as President Trump announced US forces could end operations within two to three weeks, while declining responsibility for securing the Strait of Hormuz and telling allies to 'go get your own oil' [Globe and Mail, Financial Times, Le Monde]. The conflict's economic ripple effects are intensifying, with the EU warning of \u20ac14 billion in additional energy costs [Financial Times], US gas prices surpassing $4 per gallon, and Asian manufacturing showing signs of strain from supply chain disruptions [Nikkei Asia]. In Lebanon, Israel's defense minister announced plans to establish a permanent buffer zone extending to the Litani River, drawing condemnation from Lebanon and European nations [BBC, Le Monde]. The killing of three Indonesian UN peacekeepers in southern Lebanon within 24 hours underscored the deteriorating security situation [BBC]. Meanwhile, European diplomats gathered in Bucha, Ukraine, to mark four years since the massacre, reaffirming support as the country enters its fifth year of war with Russia [RFI]. On a historic note, India launched its first census in 15 years, beginning the mammoth task of counting over 1.4 billion people [BBC].",
   "top_stories": [
     {
-      "headline": "Explosions and Airstrikes Knock Out Power in Tehran as Trump Threatens Iran's Civilian Infrastructure",
+      "headline": "Trump Signals US Exit from Iran Within Weeks, Refuses to Secure Strait of Hormuz",
       "category": "Conflict",
       "bullets": [
-        "Multiple explosions and airstrikes hit Tehran on Tuesday, causing power outages in parts of the Iranian capital",
-        "US President Trump threatened widespread destruction of Iran's energy resources and vital infrastructure, including desalination plants, if no deal is reached 'shortly'",
-        "A drone struck a Kuwaiti oil tanker in Dubai waters causing a fire; Iran struck a water and electrical plant in Kuwait and an Israeli oil refinery came under attack",
-        "Iran executed four men convicted of links to banned opposition group MEK since Monday, as the war with US and Israel continues"
+        "President Trump stated US forces would end operations in Iran 'very soon,' estimating two to three weeks, regardless of whether a deal is reached with Tehran",
+        "Trump declared securing the Strait of Hormuz is 'not for us' and told allies including France to 'go get your own oil'",
+        "The White House announced Trump will deliver a prime-time address Wednesday evening to update the nation on the war",
+        "US strikes hit Isfahan, sending a massive fireball into the sky, while Iran attacked a fully loaded Kuwaiti oil tanker in the Persian Gulf"
       ],
       "sources": [
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief headline coverage of Tehran explosions",
-          "url": "https://www.france24.com/en/video/20260331-c%C3%A9line-dion-makes-comeback-with-concerts-in-paris-after-six-year-hiatus"
-        },
-        {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's escalating threats and potential seizure of Kharg Island",
-          "url": "https://www.theglobeandmail.com/world/article-israel-death-penalty-palestinians/"
+          "framing_note": "Emphasized Trump's criticism of allies and market impacts",
+          "url": "https://www.theglobeandmail.com/sports/golf/article-tiger-woods-hydrocodone-pills-car-crash/"
         },
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Provided comprehensive live updates including regional attacks and Iranian executions",
-          "url": "https://www.thehindu.com/news/international/china-prosecutes-former-regulatory-official-in-graft-crackdown/article70805800.ece"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on timeline and economic implications",
+          "url": "https://www.ft.com/content/ea185d2f-73e5-4d6f-82f6-fcd28db9b463"
         },
         {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Focused on energy shortfall consequences for developing nations",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/31/spain-closes-airspace-to-us-warplanes-involved-in-war-on-iran?traffic_source=rss"
+          "framing_note": "Highlighted Israeli PM Netanyahu's statement about changing 'the face of the Middle East'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/04/01/trump-says-us-to-leave-iran-very-soon-deal-or-not-we-re-finishing-the-job_6751999_4.html"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized Iran's asymmetric warfare capabilities and US 'maximalist demands'",
+          "url": "https://www.france24.com/en/sport/20260401-iraq-secure-final-world-cup-spot-with-win-over-bolivia-join-france-group"
         }
       ]
     },
     {
-      "headline": "Spain Closes Airspace to US Military Aircraft Involved in Iran Operations",
+      "headline": "Israel Announces Permanent Buffer Zone in Southern Lebanon, Drawing International Condemnation",
       "category": "Geopolitics",
       "bullets": [
-        "Spain's Defence Minister announced closure of Spanish airspace to US planes involved in attacks on Iran, including denial of use of Mor\u00f3n and Rota military bases",
-        "Foreign Minister stated the decision aims to 'not do anything that could encourage an escalation in this war'",
-        "A White House official responded that US military is 'meeting or surpassing all of its goals' and 'does not need help from Spain or anyone else'",
-        "Trump has previously threatened a full trade embargo on Spain over its opposition to the war"
+        "Defense Minister Israel Katz declared Israel will maintain security control over territory up to the Litani River (30km from the border) even after the war ends",
+        "Katz announced all houses in Lebanese villages near the Israeli border would be demolished",
+        "Lebanon's defense minister called it 'a clear intention to impose a new occupation'; European nations, Canada, and the UN also criticized the announcement",
+        "At least 1,238 people have been killed in Lebanon since early March, including 124 children and 52 health workers"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Balanced coverage including both Spanish government statements and White House response",
-          "url": "https://www.bbc.com/news/articles/czex10lngzjo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Provided detailed casualty figures and international reaction",
+          "url": "https://www.bbc.com/news/articles/c7vqnpqrgy3o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Brief video coverage framing Spain as 'rejecting' the US-Israeli war",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/31/spain-closes-airspace-to-us-warplanes-involved-in-war-on-iran?traffic_source=rss"
+          "framing_note": "Focused on ongoing strikes and Hezbollah's ground clashes with Israeli forces",
+          "url": "https://www.lemonde.fr/en/international/article/2026/04/01/trump-says-us-to-leave-iran-very-soon-deal-or-not-we-re-finishing-the-job_6751999_4.html"
         }
       ]
     },
     {
-      "headline": "Israel Passes Death Penalty Law for Palestinians Convicted of Deadly Attacks",
-      "category": "Policy",
+      "headline": "Three UN Peacekeepers Killed in Lebanon Within 24 Hours as Violence Escalates",
+      "category": "Conflict",
       "bullets": [
-        "Israeli Knesset approved law making death by hanging the default sentence for Palestinians convicted of deadly terror attacks, passing 62-48 with Netanyahu voting in favor",
-        "The law applies to those convicted in military courts of killings intended to 'negate the existence of Israel'\u2014language that effectively excludes Jewish citizens",
-        "Executions must occur within 90 days with possible 180-day postponement; law does not apply retroactively to current prisoners including October 7 attackers",
-        "European nations warned the law risks undermining 'democratic principles'; rights groups condemned it as creating 'racialized capital punishment'"
+        "Two Indonesian peacekeepers were killed Monday by a roadside explosion near Bani Hayyan; initial investigation points to an IED",
+        "A third Indonesian peacekeeper was killed Sunday when a projectile of unknown origin exploded at a position in Adchit Al Qusayr",
+        "A fourth peacekeeper was severely injured in Monday's incident",
+        "The deaths came shortly after Israel announced it would step up ground and air attacks against Hezbollah"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized practical impossibility of law applying to Jewish Israelis",
-          "url": "https://www.bbc.com/news/articles/czex10lngzjo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted far-right religious movement's role and characterized it as undermining rule of law",
-          "url": "https://www.lemonde.fr/en/international/article/2026/03/30/ukraine-and-bulgaria-sign-10-year-defense-agreement_6751964_4.html"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Noted international condemnation and that legal experts say law 'effectively confines' death penalty to Palestinians",
-          "url": "https://www.theglobeandmail.com/world/article-israel-death-penalty-palestinians/"
+          "framing_note": "Detailed account of UN investigation findings and circumstances",
+          "url": "https://www.bbc.com/news/articles/c7vqnpqrgy3o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Israeli Parliament Passes Budget, Ensuring Netanyahu Government Survives Until Fall Elections",
-      "category": "Policy",
-      "bullets": [
-        "Knesset passed annual budget in overnight session before April 1 deadline, avoiding trigger for early elections",
-        "Opposition slammed budget for increasing funding to ultra-Orthodox communities during wartime; opposition leader Lapid called it 'the greatest theft in the state's history'",
-        "A last-minute amendment added $250 million to ultra-Orthodox schools, intensifying anger over community's military service exemptions",
-        "Netanyahu retains right to call early elections before the fall term ends in late October"
-      ],
-      "sources": [
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Focused on opposition criticism and ultra-Orthodox funding controversy",
-          "url": "https://www.lemonde.fr/en/international/article/2026/03/30/ukraine-and-bulgaria-sign-10-year-defense-agreement_6751964_4.html"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.theglobeandmail.com/world/article-israel-death-penalty-palestinians/"
-        }
-      ]
-    },
-    {
-      "headline": "Myanmar Junta Chief Min Aung Hlaing Elected Vice-President, Moving Toward Civilian Leadership",
+      "headline": "European Diplomats Mark Bucha Massacre Anniversary, Reaffirm Ukraine Support",
       "category": "Geopolitics",
       "bullets": [
-        "Min Aung Hlaing received 247 of 260 votes in lower house election for vice-president position",
-        "The upper house elected Nan Ni Ni Aye from military-aligned Union Solidarity and Development Party as second vice-president; military will choose third",
-        "Parliamentary vote to select which vice-president becomes president expected later this week",
-        "Min Aung Hlaing has led Myanmar since 2021 coup that ousted Aung San Suu Kyi's elected government and triggered ongoing civil war"
+        "EU foreign policy chief Kaja Kallas led a delegation including foreign ministers from Germany, Poland, Italy, Romania, Ireland, Sweden, Bulgaria, and Baltic states to Bucha",
+        "The visit marked four years since Russian forces withdrew from Kyiv's suburbs, where hundreds of civilians were found summarily executed",
+        "Polish Foreign Minister Sikorski stated anyone claiming Putin is not a war criminal 'should come and see for themselves'",
+        "The UN has documented more than 70 summary executions in Bucha"
       ],
       "sources": [
         {
-          "name": "France 24",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Straightforward coverage noting process allows junta chief to 'exchange his uniform for civilian clothes'",
-          "url": "https://www.france24.com/en/video/20260331-c%C3%A9line-dion-makes-comeback-with-concerts-in-paris-after-six-year-hiatus"
+          "framing_note": "Emphasized European solidarity and graphic evidence of atrocities",
+          "url": "https://www.rfi.fr/en/france/20260331-new-saint-denis-mayor-sues-tv-channel-cnews-over-racist-comments"
+        }
+      ]
+    },
+    {
+      "headline": "India Launches First Census in 15 Years, Counting 1.4 Billion People",
+      "category": "Society",
+      "bullets": [
+        "More than three million officials will spend a year counting every person in India across 36 states, over 7,000 sub-districts, and nearly 640,000 villages",
+        "The census includes 33 questions covering housing, diet, internet access, and caste data for the first time",
+        "The last census was held in 2011; the 2021 round was delayed by the pandemic and administrative issues",
+        "India overtook China as the world's most populous country in 2023 according to UN data"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized scale and policy implications of the exercise",
+          "url": "https://www.bbc.com/news/articles/c7vqnpqrgy3o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Asian countries increasingly turn to coal as Iran war disrupts Gulf gas supplies, with policymakers saying immediate energy needs override environmental concerns",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/f33e75a0-e64d-4736-867f-e08c741de6ab"
+      "headline": "American freelance journalist Shelly Kittleson kidnapped in Baghdad with suspect linked to Iran-backed militia Kataib Hezbollah",
+      "source": "BBC World, Al Jazeera",
+      "url": "https://www.bbc.com/news/articles/c5yled478zwo"
     },
     {
-      "headline": "Germany's AfD consolidates position as second-largest party in state elections, with energy prices driving calls to resume Russian gas imports",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/soaring-fuel-prices-drive-german-far-right-calls-for-a-turn-back-to-russia/article70805911.ece"
-    },
-    {
-      "headline": "Ukraine's Zelensky says allies have asked him to scale back attacks on Russian energy infrastructure amid global fuel crisis",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c0e7lrxrelwo"
-    },
-    {
-      "headline": "Satellite imagery confirms Ukraine struck key Russian Baltic Sea oil export terminals at Ust-Luga and Primorsk, halting shipments for first time since 2022 invasion",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c9qdwpnwzwpo"
-    },
-    {
-      "headline": "Australia investigates Facebook, TikTok and YouTube for possible breaches of under-16 social media ban three months after landmark laws took effect",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/australia/article/2026/03/31/australia-investigates-tech-giants-over-breaches-of-social-media-ban-for-under-16s_6751973_223.html"
-    },
-    {
-      "headline": "C\u00e9line Dion announces 10-night Paris comeback residency for September-October, four years after Stiff Person Syndrome diagnosis ended touring",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c0708dkm2lko"
-    },
-    {
-      "headline": "Former Nepal Prime Minister K.P. Sharma Oli remains in judicial custody as Supreme Court refuses interim relief over detention related to Gen Z protest crackdown",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/former-kathmandu-cdo-arrested-for-his-role-in-crackdown-of-nepals-gen-z-protests/article70805682.ece"
-    },
-    {
-      "headline": "Amnesty International warns certain fans face 'serious risks' from US immigration enforcement during 2026 World Cup",
+      "headline": "EU opens investigation into French state aid for EDF's \u20ac73 billion plan to build six new nuclear reactors",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/sports/20260330-amnesty-warns-of-serious-risks-to-certain-fans-during-2026-world-cup-united-states-mexico-canada"
+      "url": "https://www.rfi.fr/en/international/20260401-eu-probes-french-aid-to-edf-over-the-construction-of-new-nuclear-reactors"
     },
     {
-      "headline": "Thieves steal paintings by Renoir, C\u00e9zanne and Matisse worth millions from museum near Parma, Italy in three-minute heist",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/culture/art-and-architecture/article-italian-museum-thieves-paintings-heist-renoir-cezanne-matisse/"
+      "headline": "Iraq qualifies for FIFA World Cup for first time in 40 years after defeating Bolivia 2-1 in intercontinental playoff",
+      "source": "France 24, Al Jazeera",
+      "url": "https://www.france24.com/en/sport/20260401-iraq-secure-final-world-cup-spot-with-win-over-bolivia-join-france-group"
     },
     {
-      "headline": "Magnitude 7.3 earthquake strikes 35km northeast of Luganville, Vanuatu at 115km depth; no tsunami warning issued",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/world/591060/earthquake-of-magnitude-7-strikes-vanuatu-islands"
+      "headline": "Russian military An-26 plane crashes in Crimea killing all 29 aboard, with technical issues suspected",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cly6387xgqxo"
+    },
+    {
+      "headline": "UNRWA chief Philippe Lazzarini steps down, calls for independent probe into deaths of nearly 400 staff in Gaza",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260331-unrwa-chief-steps-down-seeks-probe-into-killing-of-hundreds-of-staff-in-gaza"
+    },
+    {
+      "headline": "Iran reportedly deploying children as young as 12 in security checkpoint roles amid war",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c9wqgjn7x89o"
+    },
+    {
+      "headline": "Western Australia invokes emergency powers to force fuel companies to reveal supply chain information amid Middle East crisis",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-04-01/wa-government-emergency-powers-fuel-supply-chain-information-"
+    },
+    {
+      "headline": "South Korean exports hit all-time monthly high as companies front-load semiconductor orders amid supply chain fears",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/economy/trade/south-korean-exports-hit-all-time-high-by-value-on-chip-front-loading"
+    },
+    {
+      "headline": "Pakistan and China announce joint five-point peace initiative for Middle East mediation",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/pakistan-brings-china-into-iran-mediation-unveils-5-point-plan"
+    },
+    {
+      "headline": "NASA's Artemis II mission set to launch first crewed Moon flyby since 1972, featuring first woman and person of color to orbit the Moon",
+      "source": "France 24, Al Jazeera",
+      "url": "https://www.france24.com/en/americas/20260401-artemis-2-what-to-know-about-first-crewed-moon-mission-in-half-a-century"
     }
   ]
 }
