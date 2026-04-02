@@ -1,172 +1,202 @@
 {
-  "date": "Wednesday, April 01, 2026",
-  "daily_brief": "The Iran war dominated global attention as President Trump announced US forces could end operations within two to three weeks, while declining responsibility for securing the Strait of Hormuz and telling allies to 'go get your own oil' [Globe and Mail, Financial Times, Le Monde]. The conflict's economic ripple effects are intensifying, with the EU warning of \u20ac14 billion in additional energy costs [Financial Times], US gas prices surpassing $4 per gallon, and Asian manufacturing showing signs of strain from supply chain disruptions [Nikkei Asia]. In Lebanon, Israel's defense minister announced plans to establish a permanent buffer zone extending to the Litani River, drawing condemnation from Lebanon and European nations [BBC, Le Monde]. The killing of three Indonesian UN peacekeepers in southern Lebanon within 24 hours underscored the deteriorating security situation [BBC]. Meanwhile, European diplomats gathered in Bucha, Ukraine, to mark four years since the massacre, reaffirming support as the country enters its fifth year of war with Russia [RFI]. On a historic note, India launched its first census in 15 years, beginning the mammoth task of counting over 1.4 billion people [BBC].",
+  "date": "Thursday, April 02, 2026",
+  "daily_brief": "The dominant story today remains the US-Iran war, now in its fifth week, with President Trump delivering a primetime address claiming 'core strategic objectives are nearing completion' while promising two to three more weeks of intense strikes [BBC], [France 24], [Globe and Mail]. Hours after his speech, Israeli air defenses intercepted multiple waves of Iranian missiles, underscoring the conflict's continued intensity [France 24], [The Hindu]. Meanwhile, NASA achieved a historic milestone as Artemis II successfully launched four astronauts on humanity's first crewed lunar voyage in over 50 years [BBC], [RFI], [Al Jazeera]. In the Pacific, a magnitude 7.4 earthquake struck off Indonesia's Ternate island, killing at least one person and triggering brief tsunami warnings across the region [BBC]. European attention turns to Hungary, where challenger Peter Magyar poses the most serious electoral threat to Viktor Orb\u00e1n's 15-year rule ahead of April 12 elections [BBC Europe]. French authorities charged four individuals, including three minors, over a foiled bomb plot targeting Bank of America's Paris headquarters, with investigators exploring possible links to pro-Iran groups [France 24].",
   "top_stories": [
     {
-      "headline": "Trump Signals US Exit from Iran Within Weeks, Refuses to Secure Strait of Hormuz",
+      "headline": "Trump Vows Two to Three More Weeks of 'Extremely Hard' Strikes on Iran But Offers No Exit Strategy",
       "category": "Conflict",
       "bullets": [
-        "President Trump stated US forces would end operations in Iran 'very soon,' estimating two to three weeks, regardless of whether a deal is reached with Tehran",
-        "Trump declared securing the Strait of Hormuz is 'not for us' and told allies including France to 'go get your own oil'",
-        "The White House announced Trump will deliver a prime-time address Wednesday evening to update the nation on the war",
-        "US strikes hit Isfahan, sending a massive fireball into the sky, while Iran attacked a fully loaded Kuwaiti oil tanker in the Persian Gulf"
+        "President Trump delivered his first primetime national address on the Iran war, claiming US-Israeli military objectives are 'nearing completion' after 32 days of conflict",
+        "Trump threatened to bomb Iran 'back to the Stone Ages' and destroy its electrical infrastructure if Tehran does not agree to a deal",
+        "The speech offered contradictory signals, suggesting the US might walk away from the conflict and leave other nations to resolve the Strait of Hormuz blockade",
+        "Polls show a consistent majority of Americans disapprove of the military operation launched on February 28"
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's criticism of allies and market impacts",
-          "url": "https://www.theglobeandmail.com/sports/golf/article-tiger-woods-hydrocodone-pills-car-crash/"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on timeline and economic implications",
-          "url": "https://www.ft.com/content/ea185d2f-73e5-4d6f-82f6-fcd28db9b463"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Israeli PM Netanyahu's statement about changing 'the face of the Middle East'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/04/01/trump-says-us-to-leave-iran-very-soon-deal-or-not-we-re-finishing-the-job_6751999_4.html"
+          "framing_note": "Emphasized unanswered questions and lack of clear exit strategy",
+          "url": "https://www.bbc.com/news/articles/c0lendp6390o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized Iran's asymmetric warfare capabilities and US 'maximalist demands'",
-          "url": "https://www.france24.com/en/sport/20260401-iraq-secure-final-world-cup-spot-with-win-over-bolivia-join-france-group"
-        }
-      ]
-    },
-    {
-      "headline": "Israel Announces Permanent Buffer Zone in Southern Lebanon, Drawing International Condemnation",
-      "category": "Geopolitics",
-      "bullets": [
-        "Defense Minister Israel Katz declared Israel will maintain security control over territory up to the Litani River (30km from the border) even after the war ends",
-        "Katz announced all houses in Lebanese villages near the Israeli border would be demolished",
-        "Lebanon's defense minister called it 'a clear intention to impose a new occupation'; European nations, Canada, and the UN also criticized the announcement",
-        "At least 1,238 people have been killed in Lebanon since early March, including 124 children and 52 health workers"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided detailed casualty figures and international reaction",
-          "url": "https://www.bbc.com/news/articles/c7vqnpqrgy3o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Highlighted contradictions between winding down rhetoric and continued escalation",
+          "url": "https://www.france24.com/en/americas/20260401-trump-to-deliver-important-update-on-iran-war-in-televised-speech"
         },
         {
-          "name": "Le Monde",
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on contradictory messages and mounting global economic crisis",
+          "url": "https://www.theglobeandmail.com/world/article-italy-sheds-tears-after-missing-out-on-world-cup-again/"
+        },
+        {
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Focused on ongoing strikes and Hezbollah's ground clashes with Israeli forces",
-          "url": "https://www.lemonde.fr/en/international/article/2026/04/01/trump-says-us-to-leave-iran-very-soon-deal-or-not-we-re-finishing-the-job_6751999_4.html"
+          "framing_note": "Quoted critics calling speech 'embarrassing and incoherent'; noted lack of new substance",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/2/trump-claims-success-in-iran-in-just-32-days-compared-to-lengthy-us-wars?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Straightforward factual coverage of speech and Iranian response",
+          "url": "https://www.thehindu.com/news/international/death-of-rohingya-refugee-in-new-york-ruled-homicide/article70814259.ece"
         }
       ]
     },
     {
-      "headline": "Three UN Peacekeepers Killed in Lebanon Within 24 Hours as Violence Escalates",
+      "headline": "Israeli Air Defenses Intercept Multiple Iranian Missile Waves Hours After Trump Address",
       "category": "Conflict",
       "bullets": [
-        "Two Indonesian peacekeepers were killed Monday by a roadside explosion near Bani Hayyan; initial investigation points to an IED",
-        "A third Indonesian peacekeeper was killed Sunday when a projectile of unknown origin exploded at a position in Adchit Al Qusayr",
-        "A fourth peacekeeper was severely injured in Monday's incident",
-        "The deaths came shortly after Israel announced it would step up ground and air attacks against Hezbollah"
+        "Israeli military reported intercepting three waves of Iranian missile fire early Thursday, including at least two attacks after Trump's speech",
+        "Several people were lightly wounded in the Tel Aviv area; widespread sirens triggered across the country",
+        "Iran's military vowed 'crushing' attacks against the US and Israel in response to Trump's threats",
+        "US embassy in Baghdad warned of potential attacks by pro-Iran militia groups within 24-48 hours"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Provided comprehensive liveblog coverage with regional context",
+          "url": "https://www.france24.com/en/americas/20260401-trump-to-deliver-important-update-on-iran-war-in-televised-speech"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Factual reporting on military exchanges and oil price impacts",
+          "url": "https://www.thehindu.com/news/international/death-of-rohingya-refugee-in-new-york-ruled-homicide/article70814259.ece"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on Israel's intensified attacks on Lebanon alongside Iran developments",
+          "url": "https://www.bbc.com/news/articles/c0lendp6390o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "NASA's Artemis II Launches Four Astronauts on First Crewed Lunar Mission in Over 50 Years",
+      "category": "Technology",
+      "bullets": [
+        "The 32-story Space Launch System rocket lifted off from Kennedy Space Center at 6:35 PM ET, carrying three American astronauts and one Canadian",
+        "The 10-day mission will orbit the Moon without landing, traveling further from Earth than any humans before",
+        "Approximately 400,000 people gathered to witness the launch, reminiscent of Apollo-era crowds",
+        "The mission is a key step toward NASA's goal of landing astronauts on the Moon's south pole by 2028, ahead of China's planned 2030 crewed lunar mission"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed account of UN investigation findings and circumstances",
-          "url": "https://www.bbc.com/news/articles/c7vqnpqrgy3o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "European Diplomats Mark Bucha Massacre Anniversary, Reaffirm Ukraine Support",
-      "category": "Geopolitics",
-      "bullets": [
-        "EU foreign policy chief Kaja Kallas led a delegation including foreign ministers from Germany, Poland, Italy, Romania, Ireland, Sweden, Bulgaria, and Baltic states to Bucha",
-        "The visit marked four years since Russian forces withdrew from Kyiv's suburbs, where hundreds of civilians were found summarily executed",
-        "Polish Foreign Minister Sikorski stated anyone claiming Putin is not a war criminal 'should come and see for themselves'",
-        "The UN has documented more than 70 summary executions in Bucha"
-      ],
-      "sources": [
+          "framing_note": "Emphasized historic nature and crew's journey",
+          "url": "https://www.bbc.com/news/articles/c0lendp6390o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Highlighted diverse crew composition and race with China",
+          "url": "https://www.france24.com/en/americas/20260401-trump-to-deliver-important-update-on-iran-war-in-televised-speech"
+        },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized European solidarity and graphic evidence of atrocities",
-          "url": "https://www.rfi.fr/en/france/20260331-new-saint-denis-mayor-sues-tv-channel-cnews-over-racist-comments"
+          "framing_note": "Focused on US-China space competition context",
+          "url": "https://www.rfi.fr/en/international/20260401-france-denies-blocking-us-flights-as-israel-cuts-defence-ties"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Provided detailed timeline and technical mission details",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/2/trump-claims-success-in-iran-in-just-32-days-compared-to-lengthy-us-wars?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "India Launches First Census in 15 Years, Counting 1.4 Billion People",
+      "headline": "Magnitude 7.4 Earthquake Strikes Off Indonesia, Killing One and Triggering Brief Tsunami Warnings",
       "category": "Society",
       "bullets": [
-        "More than three million officials will spend a year counting every person in India across 36 states, over 7,000 sub-districts, and nearly 640,000 villages",
-        "The census includes 33 questions covering housing, diet, internet access, and caste data for the first time",
-        "The last census was held in 2011; the 2021 round was delayed by the pandemic and administrative issues",
-        "India overtook China as the world's most populous country in 2023 according to UN data"
+        "The earthquake struck in the Molucca Sea off Ternate island at 06:48 local time at a depth of 35km",
+        "At least one person died after being crushed by debris in North Sulawesi; another was injured jumping from a building",
+        "Tsunami warnings were issued for Guam, Japan, Malaysia, Papua New Guinea, Philippines, and Taiwan but lifted after two hours",
+        "Residents described it as the strongest earthquake felt in the region in at least six years"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized scale and policy implications of the exercise",
-          "url": "https://www.bbc.com/news/articles/c7vqnpqrgy3o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Included eyewitness accounts and regional context",
+          "url": "https://www.bbc.com/news/articles/c0lendp6390o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "France Charges Four Over Foiled Bomb Plot at Bank of America Paris Headquarters",
+      "category": "Geopolitics",
+      "bullets": [
+        "French authorities charged a man in his early twenties and three minors with 'terrorist criminal conspiracy' over an attempted attack near the Champs-\u00c9lys\u00e9es",
+        "The plot, thwarted before dawn on Saturday, allegedly involved placing a homemade explosive device outside the US bank",
+        "Investigators suspect the adult recruited minors Thursday-Friday night, offering 500-1,000 euros for the job",
+        "Anti-terror prosecutors are exploring possible links to a little-known Islamist group with suspected ties to Iran, though no firm connection established"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Detailed coverage noting timing one month after US-Israeli strikes on Iran",
+          "url": "https://www.france24.com/en/americas/20260401-trump-to-deliver-important-update-on-iran-war-in-televised-speech"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "American freelance journalist Shelly Kittleson kidnapped in Baghdad with suspect linked to Iran-backed militia Kataib Hezbollah",
-      "source": "BBC World, Al Jazeera",
-      "url": "https://www.bbc.com/news/articles/c5yled478zwo"
-    },
-    {
-      "headline": "EU opens investigation into French state aid for EDF's \u20ac73 billion plan to build six new nuclear reactors",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260401-eu-probes-french-aid-to-edf-over-the-construction-of-new-nuclear-reactors"
-    },
-    {
-      "headline": "Iraq qualifies for FIFA World Cup for first time in 40 years after defeating Bolivia 2-1 in intercontinental playoff",
-      "source": "France 24, Al Jazeera",
-      "url": "https://www.france24.com/en/sport/20260401-iraq-secure-final-world-cup-spot-with-win-over-bolivia-join-france-group"
-    },
-    {
-      "headline": "Russian military An-26 plane crashes in Crimea killing all 29 aboard, with technical issues suspected",
+      "headline": "Peter Magyar emerges as biggest threat to Viktor Orb\u00e1n's 15-year rule ahead of Hungary's April 12 elections",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cly6387xgqxo"
+      "url": "https://www.bbc.com/news/articles/c78l7vyylgqo"
     },
     {
-      "headline": "UNRWA chief Philippe Lazzarini steps down, calls for independent probe into deaths of nearly 400 staff in Gaza",
+      "headline": "Two migrants die attempting English Channel crossing near Calais as UK-France extend border deal talks",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cgldep231lxo"
+    },
+    {
+      "headline": "US Supreme Court justices signal skepticism toward Trump's executive order restricting birthright citizenship",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-birthright-citizenship-supreme-court/"
+    },
+    {
+      "headline": "Italy fails to qualify for third consecutive World Cup after penalty shootout loss to Bosnia-Herzegovina",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-italy-sheds-tears-after-missing-out-on-world-cup-again/"
+    },
+    {
+      "headline": "Macron visits South Korea for state talks on trade, AI, nuclear energy and security cooperation",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260331-unrwa-chief-steps-down-seeks-probe-into-killing-of-hundreds-of-staff-in-gaza"
+      "url": "https://www.rfi.fr/en/international/20260402-macron-heads-to-south-korea-for-talks-on-technology-and-security-lee-jae-myung"
     },
     {
-      "headline": "Iran reportedly deploying children as young as 12 in security checkpoint roles amid war",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c9wqgjn7x89o"
+      "headline": "WhatsApp says Italian surveillance company ASIGINT tricked around 200 users into downloading spyware",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/sci-tech/technology/whatsapp-says-italian-surveillance-company-tricked-around-200-users-into-downloading-spyware/article70814102.ece"
     },
     {
-      "headline": "Western Australia invokes emergency powers to force fuel companies to reveal supply chain information amid Middle East crisis",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-04-01/wa-government-emergency-powers-fuel-supply-chain-information-"
+      "headline": "Human Rights Watch reports Burkina Faso army and jihadists killed more than 1,800 civilians since 2023",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/burkina-army-jihadists-killed-more-than-1800-civilians-since-2023-human-rights-watch/article70814303.ece"
     },
     {
-      "headline": "South Korean exports hit all-time monthly high as companies front-load semiconductor orders amid supply chain fears",
+      "headline": "Barrick Mining delays Pakistan's largest copper-gold mine project by one year citing Iran war security risks",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/trade/south-korean-exports-hit-all-time-high-by-value-on-chip-front-loading"
+      "url": "https://asia.nikkei.com/business/markets/commodities/pakistan-s-largest-copper-gold-mine-project-delayed-by-war-militants"
     },
     {
-      "headline": "Pakistan and China announce joint five-point peace initiative for Middle East mediation",
+      "headline": "Indonesia and Australia warn of punishments against Meta and Google for failing to enforce under-16 social media bans",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/pakistan-brings-china-into-iran-mediation-unveils-5-point-plan"
+      "url": "https://asia.nikkei.com/business/technology/indonesia-australia-tussle-with-meta-and-google-over-teen-social-media-ban"
     },
     {
-      "headline": "NASA's Artemis II mission set to launch first crewed Moon flyby since 1972, featuring first woman and person of color to orbit the Moon",
-      "source": "France 24, Al Jazeera",
-      "url": "https://www.france24.com/en/americas/20260401-artemis-2-what-to-know-about-first-crewed-moon-mission-in-half-a-century"
+      "headline": "Trial begins for 36 defendants in Greece's deadliest train disaster that killed 57 people in 2023",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cx2wq13758no"
     }
   ]
 }
