@@ -1,214 +1,208 @@
 {
-  "date": "Friday, April 03, 2026",
-  "daily_brief": "The US-Iran war dominated global attention as President Trump escalated threats against Iranian infrastructure, warning that strikes on bridges and power plants 'haven't even started' [BBC, Globe and Mail, Al Jazeera]. French President Macron criticized Trump's contradictory messaging, urging a 'serious' approach and rejecting military action to reopen the Strait of Hormuz [BBC, RFI]. A UN Security Council vote on authorizing force to protect Hormuz shipping was postponed amid Iranian warnings against 'provocative action' [France 24, The Hindu]. The energy crisis deepened as drone attacks struck a Kuwaiti refinery [The Hindu], and European officials warned of 'long-lasting' economic shocks [Financial Times]. In a significant cabinet shake-up, Trump fired Attorney General Pam Bondi, reportedly over frustration with her handling of the Epstein files [BBC, Globe and Mail, Al Jazeera]. Defense Secretary Hegseth also removed US Army Chief of Staff Randy George\u2014an extraordinary wartime firing [Globe and Mail, Le Monde]. Meanwhile, NASA's Artemis II mission successfully executed its translunar injection, sending astronauts toward the Moon for the first time since 1972 [BBC, France 24]. In Southeast Asia, Myanmar's coup leader Min Aung Hlaing was formally elected president by a pro-military parliament [Al Jazeera, The Hindu, ABC Australia].",
+  "date": "Saturday, April 04, 2026",
+  "daily_brief": "Day 36 of the US-Israeli war on Iran saw significant escalation as Tehran claimed to have downed two American warplanes\u2014an F-15E Strike Eagle over southwestern Iran and an A-10 Warthog over the Gulf\u2014with one crew member still missing and being hunted by Iranian forces [BBC, France 24, Globe and Mail]. The incidents challenge US claims of total air superiority, while Tehran rejected a 48-hour ceasefire proposal conveyed through intermediaries [The Hindu]. The Strait of Hormuz saw its first Western commercial crossings since the conflict began, with French and Japanese vessels navigating Iranian-approved routes [RFI, BBC]. In Europe, Hungary's upcoming April 12 election could unseat Viktor Orb\u00e1n after 16 years, with opposition leader Peter Magyar polling at 58% versus Orb\u00e1n's 35% [BBC]. Meanwhile, the Artemis II crew passed the halfway point to the Moon, releasing striking images of Earth [BBC, Al Jazeera]. Burkina Faso's military ruler Ibrahim Traor\u00e9 declared democracy 'not for us,' following a Human Rights Watch report documenting over 1,800 civilian deaths since 2023 [BBC, The Guardian, RFI].",
   "top_stories": [
     {
-      "headline": "Trump Escalates Iran Strikes, Threatens Power Plants and Bridges as War Enters Second Month",
+      "headline": "Iran Downs Two US Warplanes; Search Underway for Missing Crew Member",
       "category": "Conflict",
       "bullets": [
-        "US bombed the B1 bridge between Tehran and Karaj, killing 8 and wounding 95 according to Iranian state media",
-        "Trump posted on social media that the US 'hasn't even started destroying what's left in Iran' and threatened electric power plants next",
-        "Iran's Foreign Minister Araghchi warned the UN Security Council against 'provocative action' ahead of a planned vote on authorizing force to protect Hormuz shipping",
-        "A scheduled UN Security Council vote on a resolution to mandate a force protecting Strait of Hormuz shipping was postponed with no new date set"
+        "Iran claimed it shot down a US F-15E Strike Eagle over Kohgiluyeh and Boyer-Ahmad province and an A-10 Warthog over the Gulf, marking the first US aircraft losses since the war began five weeks ago",
+        "US special forces rescued two crew members; one F-15E crew member remains missing with both Iranian forces and US search teams racing to locate them",
+        "Two US Black Hawk helicopters involved in rescue operations were hit by Iranian fire but remained airborne and exited Iranian airspace",
+        "Tehran rejected a US 48-hour ceasefire proposal conveyed through an unnamed intermediary on April 1"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on Macron's criticism of Trump's inconsistent messaging",
-          "url": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized diplomatic efforts and market impacts alongside military developments",
-          "url": "https://www.theglobeandmail.com/world/article-us-army-chief-staff-hegseth-iran-war/"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted civilian infrastructure targeting and included Iranian perspective from former FM Zarif calling for settlement",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/donald-trump-fires-loyalist-attorney-general-pam-bondi?traffic_source=rss"
+          "framing_note": "Focused on complexity of combat search-and-rescue operations and historical context",
+          "url": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Noted 'disturbing trend' of strikes hitting non-military targets",
-          "url": "https://www.france24.com/en/technology/20260403-artemis-ii-astronauts-ignite-engines-and-head-for-lunar-flyby"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Reported on regional spillover including Kuwait refinery attack",
-          "url": "https://www.thehindu.com/news/international/kuwait-oil-refinery-units-on-fire-after-drone-attack-state-media/article70818784.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Fires Attorney General Pam Bondi Over Epstein Files Handling",
-      "category": "Policy",
-      "bullets": [
-        "President Trump removed Pam Bondi as Attorney General, citing a transition to the private sector",
-        "Sources indicate Trump was frustrated with Bondi's handling of Jeffrey Epstein file releases and pace of prosecuting his critics",
-        "Deputy Attorney General Todd Blanche, Trump's former personal lawyer, will lead the Justice Department temporarily",
-        "Bondi is the second cabinet official removed in recent weeks, following Kristi Noem's departure as Homeland Security chief in March"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Noted Bondi's combative congressional hearings and Trump defending her just hours before firing",
-          "url": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized frustration over prosecution pace of Trump's adversaries",
-          "url": "https://www.theglobeandmail.com/world/article-us-army-chief-staff-hegseth-iran-war/"
+          "framing_note": "Emphasized this as major escalation following Trump's claims of having 'decimated' Iran",
+          "url": "https://www.france24.com/en/middle-east/20260403-two-us-fighter-jets-downed-in-mideast-one-crew-member-rescued"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Brief coverage focusing on Epstein files connection",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/donald-trump-fires-loyalist-attorney-general-pam-bondi?traffic_source=rss"
+          "framing_note": "Highlighted Iranian celebration and framed as contradiction of US air superiority claims",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/4/palestinian-christians-in-gaza-mark-good-friday?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Noted incidents challenge assertions from Trump and Hegseth about total control of skies",
+          "url": "https://www.theglobeandmail.com/world/article-trump-threatens-more-strikes-on-iranian-infrastructure-as-efforts-to/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Led with ceasefire rejection and included criticism from international law experts",
+          "url": "https://www.thehindu.com/news/international/who-warns-about-attacks-on-iran-health-facilities-regional-threat/article70822215.ece"
         }
       ]
     },
     {
-      "headline": "Macron Criticizes Trump's 'Not Serious' Approach to Iran War, Rejects Military Solution for Hormuz",
-      "category": "Geopolitics",
+      "headline": "First Western Commercial Ships Cross Strait of Hormuz Since War Began",
+      "category": "Economics",
       "bullets": [
-        "French President Macron said handling the Iran war requires seriousness and consistency, stating 'you don't say every day the opposite of what you said the day before'",
-        "Macron declared military action to reopen the Strait of Hormuz would be 'unrealistic' as over 40 countries met to discuss the shipping crisis",
-        "France and South Korea agreed to cooperate on addressing the energy crisis and securing maritime transport routes through Hormuz",
-        "Macron also addressed Trump's comments on reconsidering NATO membership, warning that questioning alliance commitments 'empties it of its substance'"
+        "A French-owned CMA CGM container ship (Malta-flagged Kribi) and a Japanese MOL vessel crossed the Strait of Hormuz on Thursday, the first Western European commercial crossings since the conflict started",
+        "Ships navigated via an Iranian-approved route through its waters, dubbed the 'Tehran Toll Booth,' or hugged unusually close to Oman's coast",
+        "Before the war, approximately 20% of global oil and liquefied natural gas passed through the Strait",
+        "Iran has stated 'non-hostile vessels' may use the waterway, though several ships have been attacked during the conflict"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Led with Macron's direct criticism of Trump's communication style",
-          "url": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straightforward reporting on the crossing with context on ongoing conflict risks",
+          "url": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized France-South Korea defense cooperation and Macron's rejection of military options",
-          "url": "https://www.rfi.fr/en/france/20260402-as-oil-prices-rise-france-suggests-extra-tax-could-help-phase-out-fossil-fuels"
+          "framing_note": "Detailed the specific routes taken and ship tracking data",
+          "url": "https://www.rfi.fr/en/africa/20260403-more-than-1-800-killed-by-army-and-jihadists-in-burkina-faso-since-2023-ngo-reports"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on diplomatic coordination between France and South Korea",
-          "url": "https://www.france24.com/en/technology/20260403-artemis-ii-astronauts-ignite-engines-and-head-for-lunar-flyby"
+          "framing_note": "Brief mention within broader conflict coverage",
+          "url": "https://www.france24.com/en/middle-east/20260403-two-us-fighter-jets-downed-in-mideast-one-crew-member-rescued"
         }
       ]
     },
     {
-      "headline": "Myanmar Coup Leader Min Aung Hlaing Formally Elected President by Pro-Military Parliament",
+      "headline": "Hungary's Orb\u00e1n Faces Potential Defeat as Opposition Leads by 23 Points Before April 12 Election",
       "category": "Geopolitics",
       "bullets": [
-        "Senior General Min Aung Hlaing received at least 293 of 584 parliamentary votes to become Myanmar's president",
-        "The vote formalizes his political control five years after he orchestrated a coup against Aung San Suu Kyi's elected government",
-        "The December-January elections that preceded this vote were won by the army-backed Union Solidarity and Development Party with over 80% of seats",
-        "Western governments have dismissed the electoral process as a sham designed to legitimize continued military rule"
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Detailed the armed resistance that followed the 2021 coup",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/donald-trump-fires-loyalist-attorney-general-pam-bondi?traffic_source=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Noted Min Aung Hlaing's statement about 'dreams becoming reality'",
-          "url": "https://www.thehindu.com/news/international/kuwait-oil-refinery-units-on-fire-after-drone-attack-state-media/article70818784.ece"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Emphasized analyst view that this is a strategic pivot to consolidate power through civilian government veneer",
-          "url": "https://www.abc.net.au/news/2026-04-03/obituary-nida-identity-john-clark/106530140"
-        }
-      ]
-    },
-    {
-      "headline": "NASA's Artemis II Astronauts Complete Translunar Injection, First Humans Beyond Earth Orbit Since 1972",
-      "category": "Technology",
-      "bullets": [
-        "The Orion spacecraft successfully fired its main engine for 5 minutes and 55 seconds, pushing the crew toward the Moon",
-        "Canadian astronaut Jeremy Hansen became the first non-American to travel to the Moon",
-        "The mission spent roughly a day in high Earth orbit testing life-support systems before receiving approval for lunar departure",
-        "The crew will travel approximately 250,000 miles to perform a lunar flyby before returning to Earth"
+        "Opposition Tisza party leader Peter Magyar leads Viktor Orb\u00e1n's Fidesz 58% to 35% in latest polling ahead of the April 12 parliamentary election",
+        "Orb\u00e1n, Europe's longest-serving leader, has been forced to campaign extensively after giving few rallies in past elections",
+        "A defeat would impact the broader European populist movement, as Orb\u00e1n has been a model for nationalist parties across the continent",
+        "Orb\u00e1n has maintained relationships with both Trump and Putin while opposing EU support for Ukraine"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized historical significance and astronaut quotes about humanity's capabilities",
-          "url": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Provided extensive context on Orb\u00e1n's regional and international significance",
+          "url": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Noted early challenges in orbit and future lunar mission implications",
-          "url": "https://www.france24.com/en/technology/20260403-artemis-ii-astronauts-ignite-engines-and-head-for-lunar-flyby"
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.com/news/articles/cwyjekvwww0o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Artemis II Crew Passes Halfway Point to Moon, Releases First High-Resolution Earth Images",
+      "category": "Technology",
+      "bullets": [
+        "NASA's Artemis II spacecraft reached 142,000 miles from Earth and 132,000 miles from the Moon approximately two days and five hours after launch",
+        "Commander Reid Wiseman captured images showing Earth with the Atlantic Ocean, aurora at both poles, and Venus visible in frame",
+        "The crew successfully completed a trans-lunar injection burn that set them on trajectory toward the Moon",
+        "The mission aims to take humans farther from Earth than ever before as part of NASA's return to lunar exploration"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed technical coverage including specific distances and crew reactions",
+          "url": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief video coverage emphasizing historic nature of mission",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/4/palestinian-christians-in-gaza-mark-good-friday?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Burkina Faso's Military Ruler Declares Democracy 'Not For Us' Amid Reports of 1,800+ Civilian Deaths",
+      "category": "Society",
+      "bullets": [
+        "Captain Ibrahim Traor\u00e9 told state television that Burkinab\u00e8 people should 'forget about democracy,' citing Libya's post-intervention instability as justification",
+        "The junta banned all political parties in January 2026 and extended Traor\u00e9's rule until 2029 after initially promising elections by July 2024",
+        "Human Rights Watch reported that the army, civilian auxiliaries (VDP), and jihadist groups have killed at least 1,837 civilians since January 2023",
+        "HRW called for the International Criminal Court to open a preliminary examination into war crimes and crimes against humanity"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Led with Traor\u00e9's anti-democracy statements and Libya comparison",
+          "url": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Included context on Traor\u00e9's anti-Western rhetoric and Thomas Sankara comparisons",
+          "url": "https://www.theguardian.com/environment/2026/mar/30/weather-tracker-thunderstorms-uae-united-arab-emirates-saudi-arabia"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on HRW report findings and called for ICC investigation",
+          "url": "https://www.rfi.fr/en/africa/20260403-more-than-1-800-killed-by-army-and-jihadists-in-burkina-faso-since-2023-ngo-reports"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Pentagon fires US Army Chief of Staff Randy George during wartime, an action nearly without precedent",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-us-army-chief-staff-hegseth-iran-war/"
+      "headline": "Israel launches new strikes on Beirut and southern Lebanese city of Tyre, injuring several",
+      "source": "Le Monde, France 24",
+      "url": "https://www.lemonde.fr/en/international/article/2026/04/04/israel-launches-new-strikes-on-beirut-after-destroying-bridge-in-eastern-lebanon_6752103_4.html"
     },
     {
-      "headline": "Paris police ban Annual Gathering of Muslims of France citing 'major terrorist risk' from far-right groups",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/france/20260403-paris-police-ban-annual-french-muslim-event-cite-major-terrorist-risk-far-right-groups"
+      "headline": "French court overturns police ban on major Muslim gathering near Paris, event proceeds",
+      "source": "BBC Europe, RFI English",
+      "url": "https://www.bbc.com/news/articles/cwyjekvwww0o"
     },
     {
-      "headline": "Kuwait oil refinery struck by drone attack, sparking fires at multiple units as regional conflict spreads",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/kuwait-oil-refinery-units-on-fire-after-drone-attack-state-media/article70818784.ece"
+      "headline": "Russia launches large-scale drone and missile attack on Ukraine during Orthodox Easter period, killing six",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cew70wjvv9do"
     },
     {
-      "headline": "Uganda receives first US deportation flight under third-country agreement, with 12 people sent to the country",
+      "headline": "Venezuela and US normalize relations three months after Maduro's removal",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/04/04/venezuela-and-the-us-normalize-relations-three-months-after-the-abduction-of-nicolas-maduro_6752102_4.html"
+    },
+    {
+      "headline": "Uganda receives first US deportation flight under third-country agreement",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/2026/apr/02/uganda-receives-first-us-deportation-flight-under-third-country-agreement"
     },
     {
-      "headline": "Iran war drives up bottled water and beer prices in India as plastic manufacturers struggle with fuel costs",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c5ywqky5dd7o"
-    },
-    {
-      "headline": "Ancient 2,500-year-old golden Co\u021bofene\u0219ti helmet recovered more than a year after Dutch museum heist",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cpvxj4jzvvvo"
-    },
-    {
-      "headline": "Cuba pardons over 2,000 prisoners amid US pressure",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/04/03/cuba-pardons-over-2-000-prisoners-amid-us-pressure_6752071_4.html"
-    },
-    {
-      "headline": "Australia's fuel supply under pressure as industry warns 53 incoming ships may not all arrive",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-04-03/chris-bowen-fuel-update-industry-concerned-not-enough/106530238"
-    },
-    {
-      "headline": "Suicide car bomb kills five including three women and a child at police station in northwest Pakistan",
+      "headline": "WHO warns of attacks on Iranian health facilities including Pasteur Institute, launches regional aid appeal",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/suicide-car-bomb-blast-kills-five-in-northwest-pakistan/article70818906.ece"
+      "url": "https://www.thehindu.com/news/international/who-warns-about-attacks-on-iran-health-facilities-regional-threat/article70822215.ece"
     },
     {
-      "headline": "French National Assembly rejects New Caledonia constitutional reform bill, casting doubt on territory's future",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260403-future-uncertain-in-new-caledonia-after-french-mps-block-reform-plan"
+      "headline": "Iran executes two more individuals linked to opposition group PMOI amid ongoing conflict",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/iran-executes-two-linked-to-opposition-group-reports/article70822472.ece"
+    },
+    {
+      "headline": "US company secures major copper and cobalt mining deal in Democratic Republic of Congo",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/04/04/in-the-democratic-republic-of-congo-a-us-company-secures-a-huge-deal-by-acquiring-copper-and-cobalt-mines_6752101_124.html"
+    },
+    {
+      "headline": "Canada and China sign agreement to deepen financial-sector ties during ministerial visit to Beijing",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/politics/article-canada-china-sign-pledge-in-beijing-to-deepen-financial-sector-ties/"
+    },
+    {
+      "headline": "Italy's Uffizi Galleries confirms cyber-attack but denies security systems compromised",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cy51wzeq6g5o"
     }
   ]
 }
