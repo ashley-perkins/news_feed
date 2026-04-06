@@ -1,190 +1,202 @@
 {
-  "date": "Sunday, April 05, 2026",
-  "daily_brief": "The US-Israel war on Iran dominated headlines today as President Trump announced the successful rescue of a downed F-15 airman in what he called one of the 'most daring' operations in US military history [France 24, Globe and Mail, ABC Australia]. The rescue came amid continued Iranian missile and drone attacks on Israel, Kuwait, and Gulf states, with Iran's Revolutionary Guards claiming to have destroyed US aircraft during the operation [The Hindu]. Trump issued a 48-hour ultimatum to Tehran, threatening 'all hell' if Iran does not make a deal or reopen the Strait of Hormuz [France 24]. The economic fallout continues to ripple globally, with five EU finance ministers calling for windfall profit taxes on energy companies [RFI], and a major African Union report warning the conflict poses 'serious risk' to African economies through higher fuel and food prices [RFI]. In other developments, Germany's new military travel restrictions for males under 45 drew attention as Europe bolsters defenses [BBC], while China executed a French national for drug trafficking despite diplomatic efforts, prompting condemnation from Paris [France 24]. The humanitarian toll of the Ukraine conflict also continued, with a Russian drone attack killing five at a Ukrainian market [BBC].",
+  "date": "Monday, April 06, 2026",
+  "daily_brief": "The US-Iran conflict dominated global news on Monday as new US-Israeli strikes killed more than 25 people across Iran, including at least six children, while President Trump issued an expletive-laden ultimatum demanding Tehran reopen the Strait of Hormuz by Tuesday or face attacks on civilian infrastructure [France 24, Globe and Mail, Al Jazeera]. The weekend saw a dramatic US military rescue of a downed F-15 crew member from Iranian territory, narrowly averting a potential hostage crisis [BBC, Globe and Mail]. Amid the conflict, Pope Leo XIV delivered his first Easter Mass, calling on world leaders to 'choose peace' without naming specific countries [BBC, RFI]. In Europe, Hungarian Prime Minister Viktor Orb\u00e1n convened emergency security talks after explosives were found near a Russian gas pipeline in Serbia, with opposition figures warning of a possible false flag operation ahead of Sunday's elections [BBC]. Meanwhile, Artemis II astronauts prepared for humanity's first lunar flyby since 1972 [France 24, The Hindu], and Ukraine continued expanding its regional security partnerships with President Zelensky visiting Damascus to discuss military cooperation with Syria's new leadership [RFI, France 24].",
   "top_stories": [
     {
-      "headline": "US Rescues Downed F-15 Airman in 'Most Daring' Iran Operation as Trump Issues 48-Hour Ultimatum",
+      "headline": "US-Israeli Strikes Kill Over 25 in Iran as Trump Issues Tuesday Ultimatum on Strait of Hormuz",
       "category": "Conflict",
       "bullets": [
-        "US forces rescued the second crew member of an F-15 Strike Eagle shot down over Iran on Friday, with Trump calling it one of the most daring search-and-rescue operations in US military history",
-        "Iran's Revolutionary Guards claimed to have destroyed 'enemy flying objects' including a US C-130 aircraft during the rescue operation in central Iran",
-        "Trump reiterated his demand that Iran make a deal or reopen the Strait of Hormuz within 48 hours, warning 'all hell' would follow",
-        "Iran launched missiles and drones at Israel and Kuwait early Sunday, while Hezbollah claimed to have targeted an Israeli warship with a cruise missile"
+        "New wave of US-Israeli airstrikes overnight killed at least 25 people in Iran, including six children, with targets including a residential area in Tehran and Sharif University of Technology",
+        "President Trump posted expletive-filled threat demanding Iran reopen the Strait of Hormuz by Tuesday 8 PM ET or face attacks on power plants and bridges",
+        "Pakistan has proposed a two-tier ceasefire framework to both Iran and the US that could take effect Monday and reopen the strait",
+        "Iran's military command warned of 'much more devastating' retaliation if civilian targets continue to be hit, while dismissing Trump as an 'unstable, delusional figure'"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's ultimatum and provided detailed liveblog coverage of regional attacks",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260404-nato-anniversary-overshadowed-by-trump-s-threats"
+          "framing_note": "Led with casualty figures and civilian impact, noted Pakistan mediation effort",
+          "url": "https://www.france24.com/en/middle-east/20260405-ukraine-zelensky-meets-syria-new-leader-al-sharaa-in-damascus-pushes-military-deals"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on the rescue operation and broader war context, included opinion pieces critical of US strategy",
-          "url": "https://www.theglobeandmail.com/world/article-qassem-soleimani-relatives-arrested-iran-war-trump-rubio/"
+          "framing_note": "Focused on Trump's rhetoric and shifting deadlines, quoted Iranian culture minister",
+          "url": "https://www.theglobeandmail.com/world/article-china-executes-french-citizen-convicted-of-drug-trafficking/"
         },
         {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on rescue, included Iranian claims about downed US aircraft",
-          "url": "https://www.abc.net.au/news/2026-04-05/us-airman-rescued-in-iran-after-special-forces-operation/106533008"
-        },
-        {
-          "name": "The Hindu",
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Iranian perspective and warnings about escalation",
-          "url": "https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-april-5-2026-live-updates/article70825713.ece"
+          "framing_note": "Emphasized civilian deaths and Iran's rejection of ultimatum, included regional economic impacts",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/4/6/iran-war-live-tehran-rejects-trumps-tuesday-deadline-on-strait-of-hormuz?traffic_source=rss"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Brief coverage emphasizing Trump's praise for the operation",
-          "url": "https://www.ft.com/content/77736111-3975-41a7-a0a3-d9d482ea2679"
-        }
-      ]
-    },
-    {
-      "headline": "EU Finance Ministers Demand Windfall Tax on Energy Companies Amid Iran War Price Shock",
-      "category": "Economics",
-      "bullets": [
-        "Finance ministers of Germany, Italy, Spain, Portugal, and Austria jointly called for an EU-wide tax on energy company windfall profits in a letter to the European Commission",
-        "The ministers cited market distortions similar to the 2022 energy crisis following Russia's Ukraine invasion, requesting swift action",
-        "Oil and gas prices have spiked since US-Israeli strikes on Iran began February 28, threatening a new cost-of-living crisis across Europe",
-        "The letter emphasized that those profiting from the war's consequences 'must do their part to ease the burden on the general public'"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Reported factually on the ministerial letter and its context within broader energy market disruptions",
-          "url": "https://www.rfi.fr/en/international/20260403-french-japanese-ships-cross-strait-of-hormuz-in-first-since-war"
-        }
-      ]
-    },
-    {
-      "headline": "Middle East War Threatens African Economies Through Trade Disruption and Rising Costs",
-      "category": "Economics",
-      "bullets": [
-        "A joint African Union and African Development Bank report warns the Iran conflict 'presents a serious risk to Africa' through higher fuel and food prices",
-        "The Middle East accounts for 15.8% of Africa's imports and 10.9% of its exports, making the continent vulnerable to supply chain disruptions",
-        "The report projects a 0.2 percentage point loss in Africa's GDP growth if the conflict exceeds six months",
-        "Reduced LNG deliveries from the Gulf will impact fertilizer production, threatening the crucial planting period through May"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage of the AU-AfDB report with specific economic projections",
-          "url": "https://www.rfi.fr/en/international/20260403-french-japanese-ships-cross-strait-of-hormuz-in-first-since-war"
-        }
-      ]
-    },
-    {
-      "headline": "Germany Requires Military Approval for Males Under 45 for Extended Foreign Stays",
-      "category": "Policy",
-      "bullets": [
-        "Under Germany's Military Service Modernisation Act effective January 1, males aged 17-45 must obtain prior approval for stays abroad exceeding three months",
-        "The regulation aims to maintain a 'reliable and meaningful military registration system' in response to threats from Russia following the Ukraine invasion",
-        "The requirement went largely unnoticed until reported by Frankfurter Rundschau; the defense ministry acknowledged consequences could be 'far-reaching'",
-        "Regulations on exemptions are being developed to 'avoid unnecessary bureaucracy,' though enforcement mechanisms remain unclear"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced reporting including ministry statements and acknowledgment of potential impacts on young people",
-          "url": "https://www.bbc.com/news/articles/cd0rl52z3dzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Identical coverage to BBC World",
-          "url": "https://www.bbc.com/news/articles/cy51wzeq6g5o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Drone Attack Kills Five at Ukrainian Market as Cross-Border Strikes Intensify",
-      "category": "Conflict",
-      "bullets": [
-        "A Russian drone struck a market in Nikopol, southern Ukraine, killing five people and injuring 21, including a 14-year-old girl",
-        "The attack follows at least 15 civilian deaths from drone and missile strikes across Ukraine on Friday, with Russia launching nearly 300 drones overnight",
-        "Ukraine retaliated with drone and missile attacks on the Russian city of Taganrog, killing at least one person and damaging an oil pipeline near the Baltic port of Primorsk",
-        "Ukrainian prosecutors are investigating the market attack as a war crime"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed casualty reporting with context on Nikopol's frequent targeting",
-          "url": "https://www.bbc.com/news/articles/cd0rl52z3dzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Identical coverage to BBC World",
-          "url": "https://www.bbc.com/news/articles/cy51wzeq6g5o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Brief coverage focusing on oil price implications",
+          "url": "https://www.ft.com/content/93040200-0a51-40d0-b7b7-355fd592331d"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Brief coverage focused on pipeline damage from Ukrainian strikes on Russia",
-          "url": "https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-april-5-2026-live-updates/article70825713.ece"
+          "framing_note": "Detailed strike locations and Iranian response, emphasized civilian infrastructure targeting",
+          "url": "https://www.thehindu.com/opinion/op-ed/the-world-trade-organization-is-flailing/article70827294.ece"
+        }
+      ]
+    },
+    {
+      "headline": "US Military Rescues Downed F-15 Crew Member from Iranian Territory in Complex Operation",
+      "category": "Conflict",
+      "bullets": [
+        "US special forces extracted a wounded weapons systems officer who had evaded capture for over 24 hours in mountainous Iranian terrain after his F-15E Strike Eagle was shot down Friday",
+        "CIA conducted deception campaign inside Iran to misdirect search efforts while rescue was underway; Iran had offered $66,000 bounty for the airman's capture",
+        "Two Black Hawk helicopters came under fire and two transport planes had to be destroyed during the operation",
+        "First US fighter jet shot down by enemy fire in over 20 years; incident highlights continued Iranian air defense capabilities despite weeks of strikes"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Detailed operational account, noted this challenges Trump's claims of 'overwhelming air dominance'",
+          "url": "#"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Historical context comparing to Cold War-era pilot captures, emphasized avoided hostage crisis",
+          "url": "https://www.theglobeandmail.com/world/article-china-executes-french-citizen-convicted-of-drug-trafficking/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Straightforward factual coverage of rescue details",
+          "url": "https://www.thehindu.com/opinion/op-ed/the-world-trade-organization-is-flailing/article70827294.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Hungary's Orb\u00e1n Convenes Emergency Council After Explosives Found Near Russian Gas Pipeline",
+      "category": "Geopolitics",
+      "bullets": [
+        "Two rucksacks of explosives and detonators found by Serbian army approximately 20km from where TurkStream pipeline crosses into Hungary",
+        "Discovery comes one week before Hungarian elections where Orb\u00e1n's Fidesz party trails significantly in polls",
+        "Opposition leader P\u00e9ter Magyar accused government of 'panic-mongering' orchestrated by 'Russian advisers'; security experts had previously warned of possible false flag operation",
+        "Serbian President Vu\u010di\u0107, a close Orb\u00e1n ally, personally informed Hungarian leader of the discovery"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provided context on prior false flag warnings and election implications",
+          "url": "https://www.bbc.com/news/articles/c0rx7xzd10xo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage, duplicated across feeds",
+          "url": "https://www.bbc.com/news/articles/cvg3nr83xyvo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Pope Leo XIV Delivers First Easter Address, Calls for Peace Without Naming Conflicts",
+      "category": "Society",
+      "bullets": [
+        "First US-born pope addressed thousands in St Peter's Square, calling on 'those who have the power to unleash wars' to choose peace",
+        "Broke with recent papal tradition by not explicitly naming any country or conflict in his message",
+        "Announced prayer vigil at Vatican for April 11; paid tribute to predecessor Pope Francis who died hours after last year's Easter address",
+        "Has emerged as vocal critic of Iran war through recent public statements urging de-escalation"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Noted break with tradition of naming conflicts, highlighted Pope's criticism of Iran war",
+          "url": "#"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Emphasized Middle East war context overshadowing celebrations",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "Artemis II Astronauts Begin Historic Lunar Flyby, First Since 1972",
+      "category": "Technology",
+      "bullets": [
+        "Orion capsule entered Moon's gravitational sphere of influence Monday; crew will travel farther from Earth than any humans before",
+        "Mission includes first woman (Christina Koch), first person of color (Victor Glover), and first non-American (Canadian Jeremy Hansen) to fly around the Moon",
+        "Approximately 40 minutes of radio silence expected as spacecraft passes behind Moon",
+        "NASA broadcasting live on multiple platforms; flyby lasting roughly seven hours began around 1845 GMT"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on historic firsts and technical details of the mission",
+          "url": "https://www.france24.com/en/middle-east/20260405-ukraine-zelensky-meets-syria-new-leader-al-sharaa-in-damascus-pushes-military-deals"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized scientific achievements and documentation of lunar features",
+          "url": "https://www.thehindu.com/opinion/op-ed/the-world-trade-organization-is-flailing/article70827294.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "China executes French national convicted for drug trafficking in 2010 despite diplomatic efforts for clemency",
+      "headline": "Ukrainian forces confirmed operating in western Libya, carried out attack on Russian shadow fleet tanker",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/international/20260406-ukrainian-forces-operating-in-western-libya-as-covert-war-grows-rfi-investigation"
+    },
+    {
+      "headline": "Ukraine's Zelensky meets Syria's new leader in Damascus to discuss military cooperation and food security",
       "source": "France 24",
-      "url": "https://www.france24.com/en/asia-pacific/20260404-china-executes-french-national-convicted-in-2010-for-drug-trafficking"
+      "url": "https://www.france24.com/en/middle-east/20260405-ukraine-zelensky-meets-syria-new-leader-al-sharaa-in-damascus-pushes-military-deals"
     },
     {
-      "headline": "US arrests niece and grandniece of slain Iranian General Qassem Soleimani after revoking their green cards",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cgqkn4j48qdo"
+      "headline": "Nigerian military rescues 31 worshippers abducted during Easter church services in Kaduna state; five killed in attack",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/africa/20260406-nigeria-troops-rescue-easter-worshippers-after-deadly-church-attack-christians"
     },
     {
-      "headline": "Burkina Faso's military ruler declares democracy 'is not for us' and tells citizens to forget about elections",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/apr/03/people-burkina-faso-should-forget-about-democracy-military-ruler-ibrahim-traore"
+      "headline": "Russian drone attack on market in southern Ukraine kills five, injures 21 including child",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cp869m2gzr0o"
     },
     {
-      "headline": "Uganda receives first US deportation flight under third-country agreement, with 12 deportees of undisclosed nationalities",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/apr/02/uganda-receives-first-us-deportation-flight-under-third-country-agreement"
+      "headline": "German males under 45 may now require military approval for stays abroad longer than three months under new defense law",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cvg3nr83xyvo"
     },
     {
-      "headline": "Iraq resumes oil exports through Turkish pipeline as Middle East war reshapes energy transit routes",
-      "source": "RFI English",
+      "headline": "Iraq resumes oil exports via Turkey pipeline as Middle East war reshapes trade routes away from Strait of Hormuz",
+      "source": "RFI",
       "url": "https://www.rfi.fr/en/podcasts/international-report/20260404-iraq-turns-to-turkey-for-oil-exports-as-middle-east-war-reshapes-routes"
     },
     {
-      "headline": "French and Japanese vessels cross Strait of Hormuz for first time since war began, using Iranian-approved route",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260403-french-japanese-ships-cross-strait-of-hormuz-in-first-since-war"
-    },
-    {
-      "headline": "US satellite firm Planet Labs announces indefinite blackout on imagery of Iran conflict zone at government request",
+      "headline": "Vietnam's gig workers face economic hardship as fuel prices double amid Iran's Hormuz blockade",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/4/5/us-satellite-firm-planet-labs-announces-blackout-on-war-on-iran-images"
+      "url": "https://www.aljazeera.com/economy/2026/4/6/vietnams-gig-workers-slammed-by-rising-fuel-costs-amid-fallout-of-iran-war"
     },
     {
-      "headline": "Canada signs agreement with China to deepen financial sector ties during Finance Minister's Beijing visit",
+      "headline": "China executes French citizen convicted of drug trafficking after 20 years in prison despite Paris protests",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/politics/article-canada-china-sign-pledge-in-beijing-to-deepen-financial-sector-ties/"
+      "url": "https://www.theglobeandmail.com/world/article-china-executes-french-citizen-convicted-of-drug-trafficking/"
     },
     {
-      "headline": "Pope Leo XIV celebrates first Easter vigil, calling for peace in a world torn by wars",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-pope-leo-easter-vigil-peace-world-at-war/"
+      "headline": "New Zealand Foreign Minister Winston Peters traveling to Washington to meet Secretary of State Rubio amid Middle East tensions",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/political/591584/foreign-minister-winston-peters-off-to-meet-us-secretary-of-state-marco-rubio"
     },
     {
-      "headline": "UN adopts resolution recognizing transatlantic slave trade as gravest crime against humanity; France abstains",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260405-from-ghana-to-france-un-slavery-resolution-meets-with-mixed-reactions"
+      "headline": "Burkina Faso's military ruler declares democracy 'not for us,' tells citizens to forget about elections",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/apr/03/people-burkina-faso-should-forget-about-democracy-military-ruler-ibrahim-traore"
     }
   ]
 }
