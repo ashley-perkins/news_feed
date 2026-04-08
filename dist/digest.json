@@ -1,226 +1,208 @@
 {
-  "date": "Tuesday, April 07, 2026",
-  "daily_brief": "The world holds its breath as President Trump's midnight deadline for Iran approaches, with the US threatening to destroy all bridges and power plants if Tehran does not reopen the Strait of Hormuz [BBC], [France 24], [Al Jazeera]. The EU has warned such strikes on civilian infrastructure would be illegal, while the UN Security Council prepares to vote on a watered-down resolution addressing the crisis [RFI]. In a notable display of transatlantic political alignment, Vice President JD Vance has arrived in Hungary to rally support for Prime Minister Viktor Orb\u00e1n ahead of Sunday's parliamentary election, where polls show the nationalist leader trailing opposition challenger P\u00e9ter Magyar [BBC], [France 24], [The Hindu]. Meanwhile, Taiwan's opposition leader Cheng Li-wun has begun a historic visit to China, the first by an incumbent KMT chair in a decade, signalling shifting cross-strait dynamics amid uncertainty over US Taiwan policy [BBC], [Financial Times]. NASA's Artemis II mission reached a historic milestone as astronauts entered the Moon's gravitational sphere, preparing for humanity's first lunar flyby since 1972 [RFI], [Al Jazeera]. In Australia, war hero Ben Roberts-Smith was arrested on five counts of war crime murder relating to killings of unarmed Afghan civilians [Al Jazeera], [The Hindu].",
+  "date": "Wednesday, April 08, 2026",
+  "daily_brief": "A two-week ceasefire between the United States and Iran took effect early Wednesday, averting what President Trump had threatened would be the destruction of Iranian 'civilisation' [BBC, France 24, Globe and Mail]. The deal, mediated by Pakistan, requires Iran to reopen the Strait of Hormuz to commercial shipping while negotiations begin Friday in Islamabad on a potential permanent settlement. Tehran has proposed a 10-point plan that includes continued uranium enrichment and the lifting of all sanctions\u2014terms Washington has previously rejected [The Hindu, Al Jazeera]. Markets responded with relief: oil prices fell approximately 13-15%, while Asian stocks surged [BBC]. However, Israeli Prime Minister Netanyahu clarified the ceasefire does not extend to operations against Hezbollah in Lebanon [France 24, Globe and Mail]. Separately, Vice President JD Vance visited Budapest to endorse Hungarian Prime Minister Viktor Orb\u00e1n ahead of Sunday's election, accusing the EU of 'foreign election interference' [BBC Europe, RFI]. French hostages C\u00e9cile Kohler and Jacques Paris departed Iran after more than three years of detention, travelling to Azerbaijan en route to France [BBC Europe, RFI].",
   "top_stories": [
     {
-      "headline": "Trump's Iran Ultimatum Enters Final Hours as US Threatens to Destroy Civilian Infrastructure",
+      "headline": "US and Iran Agree to Two-Week Ceasefire, Averting Threatened Escalation",
       "category": "Conflict",
       "bullets": [
-        "President Trump has set a Tuesday 8pm (Washington time) deadline for Iran to agree to reopen the Strait of Hormuz or face US military strikes on all bridges and power plants",
-        "Trump stated he was 'not at all' concerned about potential war crimes, while legal experts and UN officials warned that deliberately targeting civilian infrastructure violates international humanitarian law",
-        "Iran has rejected a 45-day ceasefire proposal from Pakistan and issued its own demands; the IRGC declared the strait has undergone 'irreversible strategic changes'",
-        "The UN Security Council will vote Tuesday morning on a watered-down resolution addressing the Hormuz blockade, having dropped language authorising the use of force"
+        "President Trump announced the ceasefire approximately 90 minutes before his 8 PM EDT deadline, agreeing to suspend US attacks on Iran for two weeks contingent on Iran reopening the Strait of Hormuz to commercial shipping",
+        "Iran issued a 10-point plan for permanent peace that includes continued Iranian control of the Strait of Hormuz, acceptance of its uranium enrichment program, and lifting of all US sanctions",
+        "Pakistan mediated the agreement; negotiations are scheduled to begin Friday in Islamabad",
+        "Both sides claimed victory: Trump called it a 'total and complete victory' while Iran's Supreme National Security Council declared the US had suffered 'an undeniable, historic and crushing defeat'"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasises diplomatic positioning and Trump's credibility challenges if he extends deadline again",
-          "url": "#"
+          "framing_note": "Emphasized Trump's de-escalation from extreme rhetoric; noted deal allows Trump to avoid 'treacherous choice'",
+          "url": "https://www.bbc.com/news/articles/c4gxk3kxjr0o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Leads with war crimes angle and expert legal analysis",
-          "url": "https://www.france24.com/en/middle-east/20260407-israeli-strike-kills-10-gaza-school-shelter-who-halts-evacuations-aid-worker-death"
+          "framing_note": "Highlighted Iran's 10-point plan details and both sides claiming victory",
+          "url": "https://www.france24.com/en/iran-portraying-ceasefire-as-victory-against-the-united-states-and-israel"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on political implications for Trump including midterm election concerns and MAGA movement fractures",
+          "url": "https://www.theglobeandmail.com/business/article-new-us-iran-ceasefire-proposal-is-shared-as-air-strikes-kill-more-than/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Iran's demands including uranium enrichment acceptance",
+          "url": "https://www.thehindu.com/news/international/us-disrupts-russian-military-run-dns-hijacking-network-justice-department-says/article70836108.ece"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlights Iran's perspective and questions why Iran would trust US given track record",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/7/artemis-ii-astronauts-break-record-for-farthest-human-travel-from-earth?traffic_source=rss"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Focuses on EU response and humanitarian concerns",
-          "url": "#"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasises Pakistan's mediation efforts and UN alarm",
-          "url": "https://www.thehindu.com/news/international/australias-most-decorated-soldier-ben-roberts-smith-arrested-over-alleged-war-crimes/article70832923.ece"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "New Zealand angle on fuel shock and PM's criticism of US goals as 'unclear'",
-          "url": "https://www.rnz.co.nz/life/music/promoter-defends-plan-for-kanye-west-to-headline-london-fest"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": null,
-          "url": "https://www.lemonde.fr/en/international/article/2026/04/07/how-russia-uses-georgia-as-a-tool-to-evade-sanctions_6752167_4.html"
+          "framing_note": "Noted Democratic calls for accountability over 'illegal war' alongside Republican scepticism",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/8/iranians-commemorate-victims-of-minab-school-strike?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Vice President Vance Arrives in Hungary to Rally for Orb\u00e1n Days Before Pivotal Election",
-      "category": "Geopolitics",
+      "headline": "Oil Prices Plunge, Global Markets Rally on Iran Ceasefire News",
+      "category": "Economics",
       "bullets": [
-        "JD Vance flew to Budapest to address a campaign rally with Prime Minister Viktor Orb\u00e1n, who faces his toughest election challenge in nearly 40 years of political life",
-        "Most independent polls show Orb\u00e1n's Fidesz party trailing the centre-right Tisza party led by P\u00e9ter Magyar by 10-20 percentage points ahead of the April 12 vote",
-        "Trump previously gave Orb\u00e1n his 'complete and total support' and granted Hungary an exemption from US sanctions on Russian oil companies Rosneft and Lukoil",
-        "The visit represents the Trump administration's broader strategy of supporting like-minded right-wing leaders in Europe"
+        "Brent crude fell approximately 13% to $94.80 per barrel; US-traded oil dropped more than 15% to $95.75",
+        "Asian stock markets surged: Japan's Nikkei gained 5%, South Korea's Kospi jumped nearly 6%, Hong Kong's Hang Seng rose 2.8%",
+        "Oil prices remain significantly elevated from pre-war levels of approximately $70 per barrel on February 28",
+        "Madagascar declared a 15-day state of energy emergency due to supply disruptions from the conflict"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Provides extensive context on Orb\u00e1n's 16-year rule and EU tensions",
-          "url": "#"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Notes Vance is 'one of the fiercest critics of centrist and progressive European governments'",
-          "url": "https://www.france24.com/en/middle-east/20260407-israeli-strike-kills-10-gaza-school-shelter-who-halts-evacuations-aid-worker-death"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Frames as example of Trump 'propping up like-minded right-wing leaders'",
-          "url": "https://www.thehindu.com/news/international/australias-most-decorated-soldier-ben-roberts-smith-arrested-over-alleged-war-crimes/article70832923.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Taiwan Opposition Leader Begins Historic China Visit Amid Cross-Strait Tensions",
-      "category": "Geopolitics",
-      "bullets": [
-        "KMT chairperson Cheng Li-wun arrived in China for a six-day visit, the first by an incumbent opposition leader in a decade, after accepting President Xi Jinping's invitation",
-        "Cheng said she hopes to be a 'bridge for peace' and is expected to meet Xi during stops in Shanghai, Nanjing and Beijing",
-        "The visit comes amid growing scepticism about US reliability in Taiwan following Trump's mixed signals on Taiwan policy",
-        "Beijing cut communications with Taiwan after President Tsai Ing-wen took office in 2016; analysts note Cheng's eagerness contrasts with predecessors' more cautious approach"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Focuses on Taiwan domestic politics and analyst views on Cheng's motivations",
-          "url": "#"
+          "framing_note": "Straightforward market reporting with regional breakdown",
+          "url": "https://www.bbc.com/news/articles/c4gxk3kxjr0o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Highlights timing ahead of planned Trump summit",
-          "url": "https://www.ft.com/content/a8e02654-b29a-4e6a-b2f8-f458b5dbfe5c"
-        }
-      ]
-    },
-    {
-      "headline": "Artemis II Astronauts Enter Moon's Gravitational Sphere in Historic Deep Space Mission",
-      "category": "Technology",
-      "bullets": [
-        "NASA's Orion spacecraft crossed into the Moon's sphere of influence, where lunar gravity now exerts stronger pull than Earth's",
-        "The four-person crew will conduct humanity's first lunar flyby since Apollo 17 in 1972, travelling farther from Earth than any humans in history",
-        "Victor Glover will become the first person of colour to orbit the Moon, Christina Koch the first woman, and Jeremy Hansen the first non-American on such a journey",
-        "The lunar observation period begins Tuesday morning, with the crew expected to witness the Moon eclipsing the Sun"
-      ],
-      "sources": [
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Emphasises scientific milestones and historic firsts",
-          "url": "#"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Focuses on the distance record being broken",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/7/artemis-ii-astronauts-break-record-for-farthest-human-travel-from-earth?traffic_source=rss"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Provides detailed schedule for New Zealand viewers",
-          "url": "https://www.rnz.co.nz/life/music/promoter-defends-plan-for-kanye-west-to-headline-london-fest"
-        }
-      ]
-    },
-    {
-      "headline": "Australia Arrests War Hero Ben Roberts-Smith on Five Counts of War Crime Murder",
-      "category": "Society",
-      "bullets": [
-        "Ben Roberts-Smith, 47, Australia's most decorated living soldier and Victoria Cross recipient, was arrested at Sydney Airport",
-        "He faces five counts of war crime murder relating to unarmed Afghan civilians killed between 2009 and 2012 during his six tours of Afghanistan",
-        "Police allege victims were detained and under ADF control when killed, either shot by Roberts-Smith or by subordinates acting on his orders",
-        "The arrest follows his failed 2023 defamation case against journalists who reported he was involved in murders of unarmed Afghan men"
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Leads with the arrest and references prior defamation case loss",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/7/artemis-ii-astronauts-break-record-for-farthest-human-travel-from-earth?traffic_source=rss"
+          "framing_note": "Brief headline treatment focused on ceasefire announcement",
+          "url": "https://www.ft.com/content/13578e0f-7218-4a80-b824-ac4ad318f860"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasises his status as national hero and military honours",
-          "url": "https://www.thehindu.com/news/international/australias-most-decorated-soldier-ben-roberts-smith-arrested-over-alleged-war-crimes/article70832923.ece"
+          "framing_note": "Highlighted Madagascar's energy emergency as example of global impact",
+          "url": "https://www.thehindu.com/news/international/us-disrupts-russian-military-run-dns-hijacking-network-justice-department-says/article70836108.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Vice President Vance Endorses Orb\u00e1n in Budapest, Accuses EU of Election Interference",
+      "category": "Geopolitics",
+      "bullets": [
+        "JD Vance visited Budapest five days before Hungary's April 12 election, stating he was there 'to help' Orb\u00e1n's campaign",
+        "Vance accused EU 'bureaucrats' of 'one of the worst examples of foreign election interference' he had ever seen",
+        "Orb\u00e1n faces his toughest electoral challenge in 16 years, with rival P\u00e9ter Magyar leading in most opinion polls",
+        "This marks the first top-level US visit to Hungary in 20 years"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Provided extensive context on Orb\u00e1n's political record and EU tensions; noted Magyar's poll lead",
+          "url": "https://www.bbc.com/news/articles/cq590egv9vzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "ABC Australia",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.abc.net.au/news/2026-04-07/new-kangaroo-island-ferries-delayed-again-sealink/106537470"
+          "framing_note": "Emphasized Vance's role as supporter of European far-right parties",
+          "url": "https://www.rfi.fr/en/international/20260407-vance-accuses-eu-of-election-interference-on-visit-to-hungary-to-support-orban"
+        }
+      ]
+    },
+    {
+      "headline": "French Hostages Kohler and Paris Leave Iran After Three Years in Detention",
+      "category": "Geopolitics",
+      "bullets": [
+        "C\u00e9cile Kohler, 41, and Jacques Paris, 72, departed Iran in a diplomatic convoy with the French ambassador on Tuesday",
+        "The couple were arrested in May 2022 during what their families described as a tourist trip; they were convicted of espionage charges France called baseless",
+        "They were released from Evin prison in November 2025 and had been under house arrest at the French embassy since then",
+        "President Macron thanked Oman for mediation efforts; the couple traveled to Azerbaijan en route to France"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Detailed timeline of detention and release process",
+          "url": "https://www.bbc.com/news/articles/cq590egv9vzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized French Foreign Minister's weekend discussions with Iranian counterpart",
+          "url": "https://www.rfi.fr/en/international/20260407-vance-accuses-eu-of-election-interference-on-visit-to-hungary-to-support-orban"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article inaccessible; headline referenced Iran's 'tactical gesture'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/04/08/the-president-of-the-united-states-is-clearly-insane-donald-trump-s-escalatory-rhetoric-raises-questions-over-his-mental-health_6752200_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Kanye West Blocked from UK Entry, Wireless Festival Cancelled",
+      "category": "Society",
+      "bullets": [
+        "British officials refused West entry on grounds his presence would not be 'conducive to the public good' following his repeated antisemitic remarks",
+        "Major sponsors Pepsi and Diageo had already withdrawn from the three-day festival scheduled for July 10-12",
+        "Prime Minister Keir Starmer said West 'should never have been invited' and pledged to 'confront and defeat the poison of antisemitism'",
+        "Presale tickets had sold out at midday Tuesday before the cancellation was announced"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage including sponsor withdrawals and government statements",
+          "url": "https://www.bbc.com/news/articles/c4gxk3kxjr0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Shorter report focusing on government decision and Starmer's statement",
+          "url": "https://www.rnz.co.nz/life/music/uk-festival-cancelled-after-headliner-kanye-west-blocked-from-traveling-to-uk"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Israeli strike kills 10 at Gaza school shelter as WHO suspends evacuations after aid worker death",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260407-israeli-strike-kills-10-gaza-school-shelter-who-halts-evacuations-aid-worker-death"
+      "headline": "Trump-backed Republican Clay Fuller wins Georgia special election to replace Marjorie Taylor Greene, preserving GOP House majority",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c8r40erdj6mo"
     },
     {
-      "headline": "Nine Indian police officers sentenced to death for fatal Covid custody beating of father and son",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/articles/ce8l0md9gl1o"
-    },
-    {
-      "headline": "Vietnam's To Lam elected president, cementing his position as most powerful leader in decades",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/b274b67c-9fd1-4d29-8edd-2038e612ef0f"
-    },
-    {
-      "headline": "English resident doctors begin six-day strike after rejecting government pay offer",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/doctors-in-england-begin-six-day-strike-after-rejecting-governments-pay-and-workforce-deal/article70833161.ece"
-    },
-    {
-      "headline": "Pope Leo XIV delivers first Easter Mass, calling on world leaders to choose peace",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/articles/crk1zgjj7y1o"
-    },
-    {
-      "headline": "Burkina Faso's military ruler says democracy is 'not for us' and elections are off the agenda",
+      "headline": "Burkina Faso's military ruler Ibrahim Traor\u00e9 tells citizens to 'forget about democracy' in state TV interview",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/apr/03/people-burkina-faso-should-forget-about-democracy-military-ruler-ibrahim-traore"
     },
     {
-      "headline": "Uganda receives first US deportation flight under third-country agreement",
+      "headline": "Uganda receives first US deportation flight under third-country agreement, with Uganda Law Society pledging legal challenges",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/2026/apr/02/uganda-receives-first-us-deportation-flight-under-third-country-agreement"
     },
     {
-      "headline": "IEA chief says current oil crisis worse than 1973, 1979 and 2002 combined",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260407-middle-east-war-live-trump-s-iran-ultimatum-enters-final-24-hours-amid-escalation-fears"
+      "headline": "One gunman killed and two injured in shooting near Israeli consulate in Istanbul; Turkish president calls it 'heinous act of terror'",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c3exp8j7yz4o"
     },
     {
-      "headline": "Bill Ackman's Pershing Square offers to buy Universal Music Group, potentially shifting listing from Amsterdam to New York",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/3322139e-5df5-4a4a-a6d2-ec42ca6a3c4b"
+      "headline": "US Justice Department disrupts Russian military-run DNS hijacking network operated by GRU Unit 26165",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/us-disrupts-russian-military-run-dns-hijacking-network-justice-department-says/article70836108.ece"
     },
     {
-      "headline": "Cyclone Vaianu cuts off roads and closes schools across Fiji's Western Division",
+      "headline": "Former French President Sarkozy tells appeals court 'I am innocent' in Libya campaign funding case",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260408-former-french-president-sarkozy-claims-innocence-at-libya-funding-appeals-trial"
+    },
+    {
+      "headline": "Train driver killed after high-speed passenger train collides with lorry carrying military equipment in northern France",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cq590egv9vzo"
+    },
+    {
+      "headline": "Cyclone Maila upgraded to Category 4, causing flooding and infrastructure damage in Papua New Guinea and Solomon Islands",
       "source": "RNZ",
-      "url": "https://www.rnz.co.nz/international/pacific-news/591661/cyclone-vaianu-roads-cut-off-schools-closed-flights-cancelled-in-fiji"
+      "url": "https://www.rnz.co.nz/international/pacific-news/591700/cyclone-maila-upgraded-to-category-4-as-png-and-solomons-brace-for-more"
+    },
+    {
+      "headline": "Iran and China use Strait of Hormuz crisis to promote yuan as alternative to US dollar in oil transactions",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/4/8/in-strait-of-hormuz-iran-and-china-take-aim-at-us-dollar-hegemony"
+    },
+    {
+      "headline": "ICE officers shoot and wound suspected gang member in Northern California after alleged vehicle ramming attempt",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-man-shot-by-ice-after-alleged-attempt-to-ram-officers-with-car/"
     }
   ]
 }
