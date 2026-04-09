@@ -1,208 +1,208 @@
 {
-  "date": "Wednesday, April 08, 2026",
-  "daily_brief": "A two-week ceasefire between the United States and Iran took effect early Wednesday, averting what President Trump had threatened would be the destruction of Iranian 'civilisation' [BBC, France 24, Globe and Mail]. The deal, mediated by Pakistan, requires Iran to reopen the Strait of Hormuz to commercial shipping while negotiations begin Friday in Islamabad on a potential permanent settlement. Tehran has proposed a 10-point plan that includes continued uranium enrichment and the lifting of all sanctions\u2014terms Washington has previously rejected [The Hindu, Al Jazeera]. Markets responded with relief: oil prices fell approximately 13-15%, while Asian stocks surged [BBC]. However, Israeli Prime Minister Netanyahu clarified the ceasefire does not extend to operations against Hezbollah in Lebanon [France 24, Globe and Mail]. Separately, Vice President JD Vance visited Budapest to endorse Hungarian Prime Minister Viktor Orb\u00e1n ahead of Sunday's election, accusing the EU of 'foreign election interference' [BBC Europe, RFI]. French hostages C\u00e9cile Kohler and Jacques Paris departed Iran after more than three years of detention, travelling to Azerbaijan en route to France [BBC Europe, RFI].",
+  "date": "Thursday, April 09, 2026",
+  "daily_brief": "The fragile two-week ceasefire between the United States and Iran, brokered by Pakistan and announced just 90 minutes before Trump's ultimatum expired, is already showing severe strain [BBC, FT, Globe and Mail]. Israel launched its most intensive air strikes on Lebanon since the conflict began, killing at least 182 people and wounding over 890, prompting Tehran to temporarily close the Strait of Hormuz again [RFI, Al Jazeera, BBC]. The strikes have created a diplomatic crisis, with Iran and Pakistan insisting Lebanon was covered by the truce while the US and Israel deny this [France 24, Globe and Mail]. France and the UK condemned the Israeli attacks as 'unacceptable' and 'deeply damaging' [France 24]. President Trump met with NATO Secretary General Mark Rutte amid renewed tensions over allied support during the Iran conflict, afterward posting that 'NATO wasn't there when we needed them' [BBC, Globe and Mail, The Hindu]. As negotiations are set to begin in Islamabad on Friday, Iran is pushing for control over the Strait of Hormuz including potential $2 million transit fees per vessel, while oil prices briefly dropped below $100 per barrel on ceasefire hopes [France 24, FT]. The coming days will test whether diplomacy can prevent renewed escalation.",
   "top_stories": [
     {
-      "headline": "US and Iran Agree to Two-Week Ceasefire, Averting Threatened Escalation",
+      "headline": "US-Iran Ceasefire Under Immediate Threat as Israel Pounds Lebanon, Killing Over 180",
       "category": "Conflict",
       "bullets": [
-        "President Trump announced the ceasefire approximately 90 minutes before his 8 PM EDT deadline, agreeing to suspend US attacks on Iran for two weeks contingent on Iran reopening the Strait of Hormuz to commercial shipping",
-        "Iran issued a 10-point plan for permanent peace that includes continued Iranian control of the Strait of Hormuz, acceptance of its uranium enrichment program, and lifting of all US sanctions",
-        "Pakistan mediated the agreement; negotiations are scheduled to begin Friday in Islamabad",
-        "Both sides claimed victory: Trump called it a 'total and complete victory' while Iran's Supreme National Security Council declared the US had suffered 'an undeniable, historic and crushing defeat'"
+        "Israel launched its largest wave of air strikes on Lebanon since the war began, hitting over 100 targets in 10 minutes across Beirut, southern Lebanon, and the Bekaa Valley, killing at least 182-254 people and wounding over 890",
+        "Lebanon declared a national day of mourning; strikes hit commercial and residential areas in Beirut without warning, prompting an urgent appeal to clear roads for ambulances",
+        "Iran temporarily closed the Strait of Hormuz again in response to the Israeli attacks, threatening the core premise of the ceasefire deal which required the waterway to remain open",
+        "Iran and Pakistan insist Lebanon was covered by the ceasefire agreement; US and Israel say it was not, creating a fundamental dispute over the deal's scope"
       ],
       "sources": [
         {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized civilian casualties and chaos on the ground in Beirut",
+          "url": "https://www.rfi.fr/en/africa/20260408-genocide-case-against-widow-of-ex-rwandan-president-remains-in-the-balance"
+        },
+        {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's de-escalation from extreme rhetoric; noted deal allows Trump to avoid 'treacherous choice'",
-          "url": "https://www.bbc.com/news/articles/c4gxk3kxjr0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Highlighted Iran's 10-point plan details and both sides claiming victory",
-          "url": "https://www.france24.com/en/iran-portraying-ceasefire-as-victory-against-the-united-states-and-israel"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on political implications for Trump including midterm election concerns and MAGA movement fractures",
-          "url": "https://www.theglobeandmail.com/business/article-new-us-iran-ceasefire-proposal-is-shared-as-air-strikes-kill-more-than/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Iran's demands including uranium enrichment acceptance",
-          "url": "https://www.thehindu.com/news/international/us-disrupts-russian-military-run-dns-hijacking-network-justice-department-says/article70836108.ece"
+          "framing_note": "Balanced coverage noting both Israeli military claims and Lebanese casualty figures",
+          "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Noted Democratic calls for accountability over 'illegal war' alongside Republican scepticism",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/8/iranians-commemorate-victims-of-minab-school-strike?traffic_source=rss"
+          "framing_note": "Highlighted Iranian and Lebanese government responses, used 'Israeli killing machine' quote from Lebanese PM",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/9/man-rescued-after-two-weeks-trapped-in-collapsed-mexico-mine?traffic_source=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on French and UK diplomatic condemnation of strikes",
+          "url": "https://www.france24.com/en/middle-east/20260409-middle-east-live-us-iran-truce-enters-second-day-as-war-flares-in-lebanon"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized ceasefire fragility and contradictory claims about Lebanon's inclusion",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-war-ceasefire-strait-hormuz/"
         }
       ]
     },
     {
-      "headline": "Oil Prices Plunge, Global Markets Rally on Iran Ceasefire News",
-      "category": "Economics",
+      "headline": "US-Iran Two-Week Ceasefire Reached Minutes Before Trump's Deadline, Negotiations to Begin in Islamabad",
+      "category": "Geopolitics",
       "bullets": [
-        "Brent crude fell approximately 13% to $94.80 per barrel; US-traded oil dropped more than 15% to $95.75",
-        "Asian stock markets surged: Japan's Nikkei gained 5%, South Korea's Kospi jumped nearly 6%, Hong Kong's Hang Seng rose 2.8%",
-        "Oil prices remain significantly elevated from pre-war levels of approximately $70 per barrel on February 28",
-        "Madagascar declared a 15-day state of energy emergency due to supply disruptions from the conflict"
+        "The ceasefire was announced 90 minutes before Trump's deadline expired, during which he had threatened that 'a whole civilisation will die tonight'",
+        "Pakistan brokered the deal; negotiations are set to begin in Islamabad on Friday with Iran's parliament speaker expected to lead Tehran's delegation",
+        "Iran proposed a 10-point plan including ongoing control over the Strait of Hormuz and potential transit fees of up to $2 million per ship",
+        "Oil prices briefly dropped below $100 per barrel and US stock futures soared on the announcement, though markets remain uncertain"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Straightforward market reporting with regional breakdown",
-          "url": "https://www.bbc.com/news/articles/c4gxk3kxjr0o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Analyzed Trump's need for an exit from a 'treacherous choice' between escalation and backing down",
+          "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Brief headline treatment focused on ceasefire announcement",
-          "url": "https://www.ft.com/content/13578e0f-7218-4a80-b824-ac4ad318f860"
+          "framing_note": "Focused on economic implications and European concerns about energy crisis",
+          "url": "https://www.ft.com/content/5f805a4d-f186-4761-9266-4bed85580901"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Detailed Iran's proposed Hormuz toll system and reconstruction demands",
+          "url": "https://www.france24.com/en/middle-east/20260409-middle-east-live-us-iran-truce-enters-second-day-as-war-flares-in-lebanon"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted criticism of Trump and questioned what the US gained from the war",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-war-ceasefire-strait-hormuz/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Madagascar's energy emergency as example of global impact",
-          "url": "https://www.thehindu.com/news/international/us-disrupts-russian-military-run-dns-hijacking-network-justice-department-says/article70836108.ece"
+          "framing_note": "Noted Trump's statement that US forces will remain deployed until 'real agreement' reached",
+          "url": "https://www.thehindu.com/business/Economy/imf-strikes-staff-level-deal-with-sri-lanka-on-700-million-in-funding/article70841438.ece"
         }
       ]
     },
     {
-      "headline": "Vice President Vance Endorses Orb\u00e1n in Budapest, Accuses EU of Election Interference",
+      "headline": "Trump Blasts NATO After Rutte Meeting, Alliance Tensions Escalate Over Iran War Support",
       "category": "Geopolitics",
       "bullets": [
-        "JD Vance visited Budapest five days before Hungary's April 12 election, stating he was there 'to help' Orb\u00e1n's campaign",
-        "Vance accused EU 'bureaucrats' of 'one of the worst examples of foreign election interference' he had ever seen",
-        "Orb\u00e1n faces his toughest electoral challenge in 16 years, with rival P\u00e9ter Magyar leading in most opinion polls",
-        "This marks the first top-level US visit to Hungary in 20 years"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Provided extensive context on Orb\u00e1n's political record and EU tensions; noted Magyar's poll lead",
-          "url": "https://www.bbc.com/news/articles/cq590egv9vzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized Vance's role as supporter of European far-right parties",
-          "url": "https://www.rfi.fr/en/international/20260407-vance-accuses-eu-of-election-interference-on-visit-to-hungary-to-support-orban"
-        }
-      ]
-    },
-    {
-      "headline": "French Hostages Kohler and Paris Leave Iran After Three Years in Detention",
-      "category": "Geopolitics",
-      "bullets": [
-        "C\u00e9cile Kohler, 41, and Jacques Paris, 72, departed Iran in a diplomatic convoy with the French ambassador on Tuesday",
-        "The couple were arrested in May 2022 during what their families described as a tourist trip; they were convicted of espionage charges France called baseless",
-        "They were released from Evin prison in November 2025 and had been under house arrest at the French embassy since then",
-        "President Macron thanked Oman for mediation efforts; the couple traveled to Azerbaijan en route to France"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed timeline of detention and release process",
-          "url": "https://www.bbc.com/news/articles/cq590egv9vzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized French Foreign Minister's weekend discussions with Iranian counterpart",
-          "url": "https://www.rfi.fr/en/international/20260407-vance-accuses-eu-of-election-interference-on-visit-to-hungary-to-support-orban"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article inaccessible; headline referenced Iran's 'tactical gesture'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/04/08/the-president-of-the-united-states-is-clearly-insane-donald-trump-s-escalatory-rhetoric-raises-questions-over-his-mental-health_6752200_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Kanye West Blocked from UK Entry, Wireless Festival Cancelled",
-      "category": "Society",
-      "bullets": [
-        "British officials refused West entry on grounds his presence would not be 'conducive to the public good' following his repeated antisemitic remarks",
-        "Major sponsors Pepsi and Diageo had already withdrawn from the three-day festival scheduled for July 10-12",
-        "Prime Minister Keir Starmer said West 'should never have been invited' and pledged to 'confront and defeat the poison of antisemitism'",
-        "Presale tickets had sold out at midday Tuesday before the cancellation was announced"
+        "Trump posted 'NATO WASN'T THERE WHEN WE NEEDED THEM, AND THEY WON'T BE THERE IF WE NEED THEM AGAIN' after a two-hour closed-door meeting with Secretary General Mark Rutte",
+        "Trump had suggested before the meeting that the US might leave NATO after allies refused to help reopen the Strait of Hormuz",
+        "Rutte described the talks as 'very frank' and 'very open' despite clear disagreements",
+        "White House press secretary confirmed Trump discussed leaving NATO during the meeting"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Comprehensive coverage including sponsor withdrawals and government statements",
-          "url": "https://www.bbc.com/news/articles/c4gxk3kxjr0o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Provided detailed context on meeting duration and Rutte's diplomatic language",
+          "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RNZ",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Shorter report focusing on government decision and Starmer's statement",
-          "url": "https://www.rnz.co.nz/life/music/uk-festival-cancelled-after-headliner-kanye-west-blocked-from-traveling-to-uk"
+          "framing_note": "Noted Trump's warm past relationship with Rutte and meeting's original intent to soothe tensions",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-war-ceasefire-strait-hormuz/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Mentioned Trump also renewed threats over Greenland during the meeting",
+          "url": "https://www.thehindu.com/business/Economy/imf-strikes-staff-level-deal-with-sri-lanka-on-700-million-in-funding/article70841438.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Macron Meets Pope Leo XIV at Vatican as Middle East Conflict Dominates Agenda",
+      "category": "Geopolitics",
+      "bullets": [
+        "French President Macron arrived at the Vatican for his first official visit since Pope Leo XIV took office in May 2025",
+        "Both leaders have welcomed the US-Iran ceasefire but are concerned about continued Israeli strikes on Lebanon, home to one of the largest Christian minorities in the Middle East",
+        "Gaza, Syria, and the situation for Christians in the region are also on the agenda",
+        "France's domestic efforts to legalize assisted dying will also be discussed"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Provided detailed context on Vatican-France relations and the Community of Sant'Egidio meeting",
+          "url": "https://www.rfi.fr/en/africa/20260408-genocide-case-against-widow-of-ex-rwandan-president-remains-in-the-balance"
+        }
+      ]
+    },
+    {
+      "headline": "Mediterranean Migrant Deaths Near 1,000 in 2026, One of Deadliest Years on Record",
+      "category": "Society",
+      "bullets": [
+        "At least 990 deaths have been recorded in the Mediterranean since January 2026, according to the International Organization for Migration",
+        "This represents one of the deadliest starts to a year since IOM records began in 2014",
+        "In the past two weeks alone, at least 180 people have died or gone missing in five separate shipwrecks",
+        "The Central Mediterranean route has seen approximately 765 deaths this year, more than 460 more than during the same period in 2025"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized IOM statistics and provided detail on specific recent incidents including Sunday's capsizing off Libya",
+          "url": "https://www.rfi.fr/en/africa/20260408-genocide-case-against-widow-of-ex-rwandan-president-remains-in-the-balance"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Trump-backed Republican Clay Fuller wins Georgia special election to replace Marjorie Taylor Greene, preserving GOP House majority",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c8r40erdj6mo"
+      "headline": "North Korea confirmed it tested missiles on three consecutive days (Monday, Tuesday, Wednesday), according to state media",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/04/09/north-korea-tested-missiles-on-monday-tuesday-and-wednesday-state-media-confirms_6752249_4.html"
     },
     {
-      "headline": "Burkina Faso's military ruler Ibrahim Traor\u00e9 tells citizens to 'forget about democracy' in state TV interview",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/apr/03/people-burkina-faso-should-forget-about-democracy-military-ruler-ibrahim-traore"
+      "headline": "French teachers C\u00e9cile Kohler and Jacques Paris returned to France after nearly four years of detention in Iran on espionage charges, describing 'daily horror' and 'inhumane conditions'",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260408-french-teachers-return-to-paris-after-years-held-in-iran-c%C3%A9cile-kohler-and-jacques-paris"
     },
     {
-      "headline": "Uganda receives first US deportation flight under third-country agreement, with Uganda Law Society pledging legal challenges",
+      "headline": "Severe Tropical Cyclone Maila, now Category 4, continues to threaten Papua New Guinea and Solomon Islands with 185 km/h sustained winds",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/international/pacific-news/591831/cyclone-maila-down-to-category-4-but-warnings-remain"
+    },
+    {
+      "headline": "IMF reached a staff-level agreement with Sri Lanka on approximately $700 million in funding following reviews of its reform programme",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/business/Economy/imf-strikes-staff-level-deal-with-sri-lanka-on-700-million-in-funding/article70841438.ece"
+    },
+    {
+      "headline": "Uganda received its first US deportation flight under a third-country agreement signed in August, with the Uganda Law Society announcing legal challenges",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/2026/apr/02/uganda-receives-first-us-deportation-flight-under-third-country-agreement"
     },
     {
-      "headline": "One gunman killed and two injured in shooting near Israeli consulate in Istanbul; Turkish president calls it 'heinous act of terror'",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c3exp8j7yz4o"
-    },
-    {
-      "headline": "US Justice Department disrupts Russian military-run DNS hijacking network operated by GRU Unit 26165",
+      "headline": "Philippines unveiled a new Coast Guard command center in the disputed Spratly Islands, covering 68,000 square kilometers of the South China Sea",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/us-disrupts-russian-military-run-dns-hijacking-network-justice-department-says/article70836108.ece"
+      "url": "https://www.thehindu.com/news/international/philippines-unveils-new-coast-guard-command-in-disputed-south-china-sea/article70841596.ece"
     },
     {
-      "headline": "Former French President Sarkozy tells appeals court 'I am innocent' in Libya campaign funding case",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260408-former-french-president-sarkozy-claims-innocence-at-libya-funding-appeals-trial"
+      "headline": "Burkina Faso's military ruler Ibrahim Traor\u00e9 told state media that democracy 'is not for us' and people should 'forget about' elections",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/apr/03/people-burkina-faso-should-forget-about-democracy-military-ruler-ibrahim-traore"
     },
     {
-      "headline": "Train driver killed after high-speed passenger train collides with lorry carrying military equipment in northern France",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cq590egv9vzo"
-    },
-    {
-      "headline": "Cyclone Maila upgraded to Category 4, causing flooding and infrastructure damage in Papua New Guinea and Solomon Islands",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/international/pacific-news/591700/cyclone-maila-upgraded-to-category-4-as-png-and-solomons-brace-for-more"
-    },
-    {
-      "headline": "Iran and China use Strait of Hormuz crisis to promote yuan as alternative to US dollar in oil transactions",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/4/8/in-strait-of-hormuz-iran-and-china-take-aim-at-us-dollar-hegemony"
-    },
-    {
-      "headline": "ICE officers shoot and wound suspected gang member in Northern California after alleged vehicle ramming attempt",
+      "headline": "Drug dealer Jasveen Sangha, dubbed the 'Ketamine Queen,' was sentenced to 15 years in prison for her role in actor Matthew Perry's fatal overdose",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-man-shot-by-ice-after-alleged-attempt-to-ram-officers-with-car/"
+      "url": "https://www.theglobeandmail.com/world/article-matthew-perry-drugs-death-ketamine-queen-jasveen-sangha-sentence/"
+    },
+    {
+      "headline": "Thailand's new Prime Minister Anutin Charnvirakul outlined plans to boost the economy through technology investments and OECD accession in his first policy speech",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/thailand-s-anutin-vows-to-boost-economy-with-technology-oecd-accession"
+    },
+    {
+      "headline": "Artemis II crew preparing to return to Earth on Friday after historic lunar flyby that broke the record for human travel distance from Earth",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c70dr45dj1lo"
     }
   ]
 }
