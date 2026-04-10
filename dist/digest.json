@@ -1,208 +1,184 @@
 {
-  "date": "Thursday, April 09, 2026",
-  "daily_brief": "The fragile two-week ceasefire between the United States and Iran, brokered by Pakistan and announced just 90 minutes before Trump's ultimatum expired, is already showing severe strain [BBC, FT, Globe and Mail]. Israel launched its most intensive air strikes on Lebanon since the conflict began, killing at least 182 people and wounding over 890, prompting Tehran to temporarily close the Strait of Hormuz again [RFI, Al Jazeera, BBC]. The strikes have created a diplomatic crisis, with Iran and Pakistan insisting Lebanon was covered by the truce while the US and Israel deny this [France 24, Globe and Mail]. France and the UK condemned the Israeli attacks as 'unacceptable' and 'deeply damaging' [France 24]. President Trump met with NATO Secretary General Mark Rutte amid renewed tensions over allied support during the Iran conflict, afterward posting that 'NATO wasn't there when we needed them' [BBC, Globe and Mail, The Hindu]. As negotiations are set to begin in Islamabad on Friday, Iran is pushing for control over the Strait of Hormuz including potential $2 million transit fees per vessel, while oil prices briefly dropped below $100 per barrel on ceasefire hopes [France 24, FT]. The coming days will test whether diplomacy can prevent renewed escalation.",
+  "date": "Friday, April 10, 2026",
+  "daily_brief": "The fragile US-Iran ceasefire brokered in Pakistan faces immediate strain as Israel continues heavy strikes on Lebanon that killed over 180 people this week, prompting international condemnation and scheduled Israel-Lebanon talks in Washington next week [France 24, BBC, Al Jazeera]. Vice President JD Vance departed for Pakistan to lead mediated talks with Iran, while President Trump accused Tehran of violating the agreement by restricting oil flow through the Strait of Hormuz [BBC, Globe and Mail]. In a significant cross-strait development, Taiwan's opposition leader Cheng Li-wun met with Chinese President Xi Jinping in Beijing\u2014the first such meeting in a decade\u2014with Xi expressing confidence that Taiwan and China would eventually unite [Nikkei Asia, ABC Australia, The Hindu]. The Artemis II astronauts are scheduled to splash down in the Pacific Ocean off San Diego this evening, completing humanity's first crewed lunar mission in over 50 years [France 24]. Meanwhile, European security concerns intensified as the UK revealed it tracked Russian submarines conducting surveillance operations over undersea cables and pipelines, with Defence Secretary Healey warning Moscow that any damage would have 'serious consequences' [BBC].",
   "top_stories": [
     {
-      "headline": "US-Iran Ceasefire Under Immediate Threat as Israel Pounds Lebanon, Killing Over 180",
+      "headline": "US-Iran Ceasefire Strains as Israel Bombards Lebanon; Washington to Host Israel-Lebanon Talks",
       "category": "Conflict",
       "bullets": [
-        "Israel launched its largest wave of air strikes on Lebanon since the war began, hitting over 100 targets in 10 minutes across Beirut, southern Lebanon, and the Bekaa Valley, killing at least 182-254 people and wounding over 890",
-        "Lebanon declared a national day of mourning; strikes hit commercial and residential areas in Beirut without warning, prompting an urgent appeal to clear roads for ambulances",
-        "Iran temporarily closed the Strait of Hormuz again in response to the Israeli attacks, threatening the core premise of the ceasefire deal which required the waterway to remain open",
-        "Iran and Pakistan insist Lebanon was covered by the ceasefire agreement; US and Israel say it was not, creating a fundamental dispute over the deal's scope"
+        "Israeli strikes on Lebanon killed at least 182 people and wounded over 890 on Wednesday, the heaviest bombardment since Hezbollah entered the war in early March",
+        "Israeli PM Netanyahu authorized direct negotiations with Lebanon focused on disarming Hezbollah, with talks expected at the State Department next week",
+        "VP JD Vance departed for Pakistan to lead US-Iran mediated talks; Trump accused Iran of 'doing a very poor job' allowing oil through the Strait of Hormuz",
+        "UN Secretary-General Guterres warned Israeli strikes on Lebanon could jeopardize the ceasefire; France condemned the strikes and warned Lebanon must not be a 'scapegoat'"
       ],
       "sources": [
         {
-          "name": "RFI English",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized civilian casualties and chaos on the ground in Beirut",
-          "url": "https://www.rfi.fr/en/africa/20260408-genocide-case-against-widow-of-ex-rwandan-president-remains-in-the-balance"
+          "framing_note": "Emphasized humanitarian toll and French diplomatic response",
+          "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20260409-nasa-s-artemis-ii-conspiracy-theories-take-off-about-staged-green-screen"
         },
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Balanced coverage noting both Israeli military claims and Lebanese casualty figures",
-          "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on Trump's comments and ceasefire fragility",
+          "url": "https://www.bbc.com/news/articles/cgld65x396go?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Iranian and Lebanese government responses, used 'Israeli killing machine' quote from Lebanese PM",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/9/man-rescued-after-two-weeks-trapped-in-collapsed-mexico-mine?traffic_source=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on French and UK diplomatic condemnation of strikes",
-          "url": "https://www.france24.com/en/middle-east/20260409-middle-east-live-us-iran-truce-enters-second-day-as-war-flares-in-lebanon"
+          "framing_note": "Framed as 'US-Israeli attacks' and emphasized Iranian perspective on ceasefire violations",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/10/kuwait-blames-iran-for-drone-strike-iran-denies-responsibility?traffic_source=rss"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized ceasefire fragility and contradictory claims about Lebanon's inclusion",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-war-ceasefire-strait-hormuz/"
+          "framing_note": "Balanced coverage emphasizing diplomatic developments",
+          "url": "https://www.theglobeandmail.com/world/article-iran-chart-shows-sea-mines-in-strait-of-hormuz-as-shaky-ceasefire/"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Highlighted French Foreign Minister's condemnation",
+          "url": "https://www.rfi.fr/en/international/20260409-french-foreign-minister-barrot-hits-out-at-israeli-strikes-on-lebanon"
         }
       ]
     },
     {
-      "headline": "US-Iran Two-Week Ceasefire Reached Minutes Before Trump's Deadline, Negotiations to Begin in Islamabad",
+      "headline": "Taiwan Opposition Leader Meets Xi Jinping in Beijing in First Such Encounter in a Decade",
       "category": "Geopolitics",
       "bullets": [
-        "The ceasefire was announced 90 minutes before Trump's deadline expired, during which he had threatened that 'a whole civilisation will die tonight'",
-        "Pakistan brokered the deal; negotiations are set to begin in Islamabad on Friday with Iran's parliament speaker expected to lead Tehran's delegation",
-        "Iran proposed a 10-point plan including ongoing control over the Strait of Hormuz and potential transit fees of up to $2 million per ship",
-        "Oil prices briefly dropped below $100 per barrel and US stock futures soared on the announcement, though markets remain uncertain"
+        "KMT chairwoman Cheng Li-wun met Chinese President Xi Jinping at the Great Hall of the People, the first meeting between a Taiwan opposition leader and Xi in 10 years",
+        "Xi expressed 'full confidence' that Taiwanese and Chinese people would eventually unite, calling Taiwan and China a 'common homeland'",
+        "The meeting comes ahead of Trump's expected visit to China in May and while a major defense funding package remains stalled in Taiwan's parliament",
+        "Critics in Taiwan accuse Cheng of being too pro-Beijing; she previously stated NATO was to blame for the Ukraine war and that Putin is not a dictator"
+      ],
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Emphasized strategic timing ahead of Trump-Xi meeting and US-Japan concerns",
+          "url": "https://asia.nikkei.com/economy/china-factory-prices-log-first-rise-in-years-as-iran-war-counters-deflation"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Detailed Cheng's political evolution and controversial past statements",
+          "url": "https://www.abc.net.au/news/2026-04-10/australia-economy-underpinned-by-housing-paul-schroder/106550386"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Brief, factual coverage of Xi's unification message",
+          "url": "https://www.thehindu.com/news/international/chinese-president-xi-jinping-kuomintang-kmt-chairwoman-cheng-li-wun-meeting/article70846151.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Artemis II Astronauts Approaching Pacific Splashdown After Historic Lunar Flyby",
+      "category": "Technology",
+      "bullets": [
+        "Four astronauts\u2014three Americans and one Canadian\u2014are scheduled to splash down off San Diego at 5:07pm local time (0007 GMT Saturday)",
+        "The crew traveled further from Earth than any humans in history during the 10-day mission, conducting a lunar flyby",
+        "NASA officials emphasized that success cannot be declared until the crew is safely recovered",
+        "The mission has generated widespread interest but also triggered conspiracy theories about 'staged' footage, which have been debunked"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage including both mission achievements and conspiracy theory debunking",
+          "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20260409-nasa-s-artemis-ii-conspiracy-theories-take-off-about-staged-green-screen"
+        }
+      ]
+    },
+    {
+      "headline": "UK Reveals Russian Submarine Surveillance Operation Over Undersea Cables and Pipelines",
+      "category": "Geopolitics",
+      "bullets": [
+        "Defence Secretary John Healey announced three Russian submarines conducted a 'covert' operation over cables and pipelines in waters north of the UK",
+        "An Akula-class submarine served as a diversionary tactic while two GUGI spy submarines surveilled undersea infrastructure",
+        "British warships and aircraft were deployed to deter the activity; no damage to UK infrastructure was detected",
+        "Healey warned Putin directly that any attempt to damage cables or pipelines 'will not be tolerated and will have serious consequences'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Analyzed Trump's need for an exit from a 'treacherous choice' between escalation and backing down",
-          "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on economic implications and European concerns about energy crisis",
-          "url": "https://www.ft.com/content/5f805a4d-f186-4761-9266-4bed85580901"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Detailed Iran's proposed Hormuz toll system and reconstruction demands",
-          "url": "https://www.france24.com/en/middle-east/20260409-middle-east-live-us-iran-truce-enters-second-day-as-war-flares-in-lebanon"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Highlighted criticism of Trump and questioned what the US gained from the war",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-war-ceasefire-strait-hormuz/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Noted Trump's statement that US forces will remain deployed until 'real agreement' reached",
-          "url": "https://www.thehindu.com/business/Economy/imf-strikes-staff-level-deal-with-sri-lanka-on-700-million-in-funding/article70841438.ece"
+          "framing_note": "Detailed technical reporting on submarine types and UK response; noted Russian embassy denial",
+          "url": "https://www.bbc.com/news/articles/cgld65x396go?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Trump Blasts NATO After Rutte Meeting, Alliance Tensions Escalate Over Iran War Support",
-      "category": "Geopolitics",
+      "headline": "France Announces \u20ac36 Billion Military Spending Increase Amid Russian Threat",
+      "category": "Policy",
       "bullets": [
-        "Trump posted 'NATO WASN'T THERE WHEN WE NEEDED THEM, AND THEY WON'T BE THERE IF WE NEED THEM AGAIN' after a two-hour closed-door meeting with Secretary General Mark Rutte",
-        "Trump had suggested before the meeting that the US might leave NATO after allies refused to help reopen the Strait of Hormuz",
-        "Rutte described the talks as 'very frank' and 'very open' despite clear disagreements",
-        "White House press secretary confirmed Trump discussed leaving NATO during the meeting"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided detailed context on meeting duration and Rutte's diplomatic language",
-          "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Noted Trump's warm past relationship with Rutte and meeting's original intent to soothe tensions",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-iran-war-ceasefire-strait-hormuz/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Mentioned Trump also renewed threats over Greenland during the meeting",
-          "url": "https://www.thehindu.com/business/Economy/imf-strikes-staff-level-deal-with-sri-lanka-on-700-million-in-funding/article70841438.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Macron Meets Pope Leo XIV at Vatican as Middle East Conflict Dominates Agenda",
-      "category": "Geopolitics",
-      "bullets": [
-        "French President Macron arrived at the Vatican for his first official visit since Pope Leo XIV took office in May 2025",
-        "Both leaders have welcomed the US-Iran ceasefire but are concerned about continued Israeli strikes on Lebanon, home to one of the largest Christian minorities in the Middle East",
-        "Gaza, Syria, and the situation for Christians in the region are also on the agenda",
-        "France's domestic efforts to legalize assisted dying will also be discussed"
+        "French government presented plan to add \u20ac36 billion to defense spending for 2024-2030, on top of \u20ac413 billion already allocated",
+        "Army chief of staff warned Russia could reach 1.9 million soldiers and 7,000 heavy tanks by 2030",
+        "Plan focuses on ammunition stockpiles, drones, air defense, and long-range artillery development",
+        "Defense spending would rise to 2.5% of GDP by decade's end, up from approximately 2% currently"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Provided detailed context on Vatican-France relations and the Community of Sant'Egidio meeting",
-          "url": "https://www.rfi.fr/en/africa/20260408-genocide-case-against-widow-of-ex-rwandan-president-remains-in-the-balance"
-        }
-      ]
-    },
-    {
-      "headline": "Mediterranean Migrant Deaths Near 1,000 in 2026, One of Deadliest Years on Record",
-      "category": "Society",
-      "bullets": [
-        "At least 990 deaths have been recorded in the Mediterranean since January 2026, according to the International Organization for Migration",
-        "This represents one of the deadliest starts to a year since IOM records began in 2014",
-        "In the past two weeks alone, at least 180 people have died or gone missing in five separate shipwrecks",
-        "The Central Mediterranean route has seen approximately 765 deaths this year, more than 460 more than during the same period in 2025"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized IOM statistics and provided detail on specific recent incidents including Sunday's capsizing off Libya",
-          "url": "https://www.rfi.fr/en/africa/20260408-genocide-case-against-widow-of-ex-rwandan-president-remains-in-the-balance"
+          "framing_note": "Emphasized lessons learned from Ukraine and Iran conflicts",
+          "url": "https://www.rfi.fr/en/international/20260409-french-foreign-minister-barrot-hits-out-at-israeli-strikes-on-lebanon"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "North Korea confirmed it tested missiles on three consecutive days (Monday, Tuesday, Wednesday), according to state media",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/04/09/north-korea-tested-missiles-on-monday-tuesday-and-wednesday-state-media-confirms_6752249_4.html"
+      "headline": "JD Vance endorses Viktor Orb\u00e1n days before Hungary's election while attacking EU",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cyv16lq2rp1o"
     },
     {
-      "headline": "French teachers C\u00e9cile Kohler and Jacques Paris returned to France after nearly four years of detention in Iran on espionage charges, describing 'daily horror' and 'inhumane conditions'",
+      "headline": "Greece announces social media ban for under-15s effective January 2027",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/ckgx1x742x5o"
+    },
+    {
+      "headline": "Hip-hop pioneer Afrika Bambaataa dies at 68 from prostate cancer",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/culture/20260410-hip-hop-pioneer-afrika-bambaataa-dies-at-68-from-prostate-cancer"
+    },
+    {
+      "headline": "Djibouti votes in presidential election expected to extend Guelleh's 27-year rule",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260408-french-teachers-return-to-paris-after-years-held-in-iran-c%C3%A9cile-kohler-and-jacques-paris"
+      "url": "https://www.rfi.fr/en/africa/20260410-djibouti-election-guelleh-unfolds-at-strategic-shipping-chokepoint"
     },
     {
-      "headline": "Severe Tropical Cyclone Maila, now Category 4, continues to threaten Papua New Guinea and Solomon Islands with 185 km/h sustained winds",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/international/pacific-news/591831/cyclone-maila-down-to-category-4-but-warnings-remain"
+      "headline": "Germany suspends military approval requirement for men under 45 staying abroad",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/ckgx103wkl1o"
     },
     {
-      "headline": "IMF reached a staff-level agreement with Sri Lanka on approximately $700 million in funding following reviews of its reform programme",
+      "headline": "Sixteen Cameroonians confirmed killed fighting for Russia in Ukraine",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cvg0v5gy01go"
+    },
+    {
+      "headline": "Four migrants die attempting to board boat for English Channel crossing",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cgmenyllyz7o"
+    },
+    {
+      "headline": "Pope Leo XIV to begin 11-day Africa tour visiting Algeria, Cameroon, Angola and Equatorial Guinea",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/business/Economy/imf-strikes-staff-level-deal-with-sri-lanka-on-700-million-in-funding/article70841438.ece"
+      "url": "https://www.thehindu.com/news/international/pope-leo-heads-to-africa-for-first-major-foreign-tour/article70846178.ece"
     },
     {
-      "headline": "Uganda received its first US deportation flight under a third-country agreement signed in August, with the Uganda Law Society announcing legal challenges",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/apr/02/uganda-receives-first-us-deportation-flight-under-third-country-agreement"
-    },
-    {
-      "headline": "Philippines unveiled a new Coast Guard command center in the disputed Spratly Islands, covering 68,000 square kilometers of the South China Sea",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/philippines-unveils-new-coast-guard-command-in-disputed-south-china-sea/article70841596.ece"
-    },
-    {
-      "headline": "Burkina Faso's military ruler Ibrahim Traor\u00e9 told state media that democracy 'is not for us' and people should 'forget about' elections",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/apr/03/people-burkina-faso-should-forget-about-democracy-military-ruler-ibrahim-traore"
-    },
-    {
-      "headline": "Drug dealer Jasveen Sangha, dubbed the 'Ketamine Queen,' was sentenced to 15 years in prison for her role in actor Matthew Perry's fatal overdose",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-matthew-perry-drugs-death-ketamine-queen-jasveen-sangha-sentence/"
-    },
-    {
-      "headline": "Thailand's new Prime Minister Anutin Charnvirakul outlined plans to boost the economy through technology investments and OECD accession in his first policy speech",
+      "headline": "South Korea justice minister declares end to era of state-chaebol collusion",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/thailand-s-anutin-vows-to-boost-economy-with-technology-oecd-accession"
+      "url": "https://asia.nikkei.com/editor-s-picks/interview/south-korea-vows-clean-break-from-era-of-state-chaebol-collusion"
     },
     {
-      "headline": "Artemis II crew preparing to return to Earth on Friday after historic lunar flyby that broke the record for human travel distance from Earth",
+      "headline": "Melania Trump denies ties to Jeffrey Epstein and calls for congressional hearings for survivors",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c70dr45dj1lo"
+      "url": "https://www.bbc.com/news/articles/c3ex07l1qvpo"
     }
   ]
 }
