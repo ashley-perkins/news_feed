@@ -1,250 +1,209 @@
 {
-  "date": "Saturday, April 11, 2026",
-  "daily_brief": "The most consequential diplomatic engagement in decades is underway in Islamabad, where US Vice President JD Vance has arrived for peace talks with Iranian officials led by parliamentary speaker Mohammad Bagher Ghalibaf [France 24, BBC, Al Jazeera]. The negotiations, described by Pakistan's Prime Minister as 'make or break,' aim to convert a fragile two-week ceasefire into a lasting settlement after six weeks of conflict that has killed thousands across the Middle East. However, significant obstacles remain: Iran continues its blockade of the Strait of Hormuz, and Israel's continued strikes on Lebanon\u2014which killed over 350 people on Wednesday [ABC Australia, RFI]\u2014threaten to derail proceedings. The EU airline industry has warned of jet fuel shortages within three weeks if the strait remains closed [BBC Europe]. Meanwhile, Hungary heads to the polls Sunday in what could end Viktor Orb\u00e1n's 16-year rule, with challenger P\u00e9ter Magyar leading in polls amid concerns over AI-driven disinformation and Russian influence [BBC, France 24, Globe and Mail]. In a triumph for American space exploration, NASA's Artemis II astronauts safely splashed down off California after completing the first crewed lunar flyby in over 50 years [France 24, BBC, Al Jazeera].",
+  "date": "Sunday, April 12, 2026",
+  "daily_brief": "The day's most consequential developments center on failed US-Iran peace talks in Islamabad, where Vice President JD Vance announced no deal was reached after 21 hours of negotiations, with nuclear commitments remaining the core sticking point [BBC, Al Jazeera, France 24]. The ceasefire between Washington and Tehran remains fragile, though three supertankers successfully transited the Strait of Hormuz [Al Jazeera]. In Europe, Hungarians are voting in a pivotal election that could unseat Viktor Orb\u00e1n after 16 years, with opposition leader P\u00e9ter Magyar leading in polls and promising a reset of EU relations and distance from Russia [BBC, France 24, Globe and Mail]. The contest has drawn direct intervention from President Trump, who endorsed Orb\u00e1n, while VP Vance rallied with him earlier this week. Meanwhile, the Orthodox Easter truce between Russia and Ukraine has been marred by violations, with Kyiv reporting hundreds of ceasefire breaches despite hopes for respite [BBC, RFI, Le Monde]. In London, over 500 pro-Palestinian protesters were arrested at a rally supporting the banned group Palestine Action, intensifying debate over civil liberties [France 24, Le Monde]. NASA celebrated the successful return of its Artemis II crew after the first crewed lunar flyby in over 50 years [RFI].",
   "top_stories": [
     {
-      "headline": "US and Iran Begin High-Stakes Peace Talks in Pakistan as Six-Week War Hangs in Balance",
+      "headline": "US-Iran Peace Talks End Without Deal After 21-Hour Marathon in Islamabad",
       "category": "Geopolitics",
       "bullets": [
-        "US Vice President JD Vance arrived in Islamabad Saturday to meet with Iranian parliamentary speaker Mohammad Bagher Ghalibaf and Foreign Minister Abbas Araghchi, marking the highest-level face-to-face talks between the US and Iran since the 1979 Islamic Revolution",
-        "Pakistan's Prime Minister Shehbaz Sharif described the negotiations as a 'make or break' effort to permanently halt weeks of fighting that has killed thousands across the Middle East",
-        "Key sticking points include Iran's continued blockade of the Strait of Hormuz, Israel's ongoing strikes in Lebanon, Iran's nuclear program, and the unfreezing of Iranian assets",
-        "Iran's new Supreme Leader Mojtaba Khamenei is reportedly still recovering from severe facial and leg injuries suffered in the airstrike that killed his father at the start of the war"
+        "Vice President JD Vance announced the US and Iran failed to reach an agreement after 21 hours of direct negotiations in Pakistan, the highest-level talks since 1979",
+        "The US demanded an affirmative commitment from Iran to not develop nuclear weapons or acquire tools to quickly achieve one; Iran cited 'excessive demands' as the reason for failure",
+        "Three supertankers successfully transited the Strait of Hormuz during the fragile ceasefire, though the waterway remains a key point of dispute",
+        "Pakistan urged both sides to uphold the existing ceasefire and expressed willingness to continue facilitating talks"
       ],
       "sources": [
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized mutual mistrust and provided details on Iran's new Supreme Leader's injuries",
-          "url": "https://www.france24.com/en/trump-harbors-an-unexplained-sympathy-for-vladimir-putin-ukrainian-analyst-says"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on historical significance and zero chance of quick peace deal",
-          "url": "https://www.bbc.com/news/articles/cwy3w9y8gyjo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Iranian skepticism and leverage, including 1,000+ hours of internet blackout in Iran",
-          "url": "https://www.aljazeera.com/economy/2026/4/11/trump-says-strait-of-hormuz-to-reopen-soon-as-us-iran-head-to-talks?traffic_source=rss"
+          "framing_note": "Emphasized Iran's position that no one expected a deal in one session; highlighted 'excessive demands' framing",
+          "url": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief coverage emphasizing 'positive' framing from Vance",
-          "url": "https://www.ft.com/content/bf147394-4a9a-4397-989e-5a4eac755e9a"
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of both sides; noted Saudi infrastructure restoration",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260411-hungary-tracking-the-campaign"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Noted shaky ceasefire and multiple issues that could derail truce",
-          "url": "https://www.theglobeandmail.com/world/article-us-house-oversight-chairman-vows-hearings-with-epstein-victims-after/"
+          "framing_note": "Focused on Vance's communications with Trump throughout negotiations",
+          "url": "https://www.theglobeandmail.com/world/article-hungary-election-tisza-magyar-politics-results-trump-vance/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Vance warning Iran 'not to play us' and Trump's nuclear priority",
-          "url": "https://www.thehindu.com/news/international/prince-harry-sued-for-defamation-by-charity-he-set-up-in-africa-to-honour-his-mother-princess-diana/article70850061.ece"
+          "framing_note": "Emphasized Pakistan's mediating role and Iran's perspective on excessive US demands",
+          "url": "https://www.thehindu.com/news/international/talks-ended-without-deal-due-to-excessive-demands-made-by-us-iran/article70853441.ece"
         },
         {
           "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Provided detailed breakdown of sticking points including Lebanon and Hormuz",
-          "url": "https://www.abc.net.au/news/2026-04-11/israels-mass-killing-has-forced-trump-to-think-about-lebanon/106554032"
+          "framing_note": "Analytical breakdown of sticking points including Lebanon's exclusion from ceasefire",
+          "url": "https://www.abc.net.au/news/2026-04-12/man-who-allegedly-attacked-police-officer-granted-bail-maitland/106556022"
         }
       ]
     },
     {
-      "headline": "Hungary Heads to Polls in Election That Could End Orb\u00e1n's 16-Year Rule",
+      "headline": "Hungary Votes in Election That Could End Orb\u00e1n's 16-Year Rule",
       "category": "Geopolitics",
       "bullets": [
-        "Hungarians vote Sunday in a closely contested election with opposition leader P\u00e9ter Magyar's Tisza party leading Prime Minister Viktor Orb\u00e1n's Fidesz by 19-23 percentage points in most polls",
-        "Tens of thousands gathered at Budapest's Heroes' Square Friday for an anti-Fidesz concert, while Orb\u00e1n received campaign support from US Vice President Vance's two-day visit and President Trump's pledge to 'use the full Economic Might of the United States' if Orb\u00e1n wins",
-        "The campaign has been marked by AI-generated disinformation targeting Magyar, including fake videos suggesting he would send Hungarians to fight in Ukraine",
-        "Orb\u00e1n's close ties to Russian President Putin have become a central campaign issue, with opposition activists highlighting Russian propaganda influence in Hungary"
+        "Hungarians are voting in parliamentary elections with polls showing opposition leader P\u00e9ter Magyar's Tisza party leading Orb\u00e1n's Fidesz by 7-9 percentage points",
+        "Magyar, a former Fidesz insider, has promised a 'system change,' reset of EU relations, and an end to close ties with Russia",
+        "President Trump endorsed Orb\u00e1n and pledged US 'economic might' to Hungary if Fidesz wins; VP Vance visited Budapest earlier in the week to rally support",
+        "Both camps have alleged foreign interference, with Orb\u00e1n framing the election as a choice between 'war and peace'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Magyar's momentum and cross-section of public anger against Fidesz",
-          "url": "https://www.bbc.com/news/articles/cwy3w9y8gyjo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed coverage of both campaigns; noted European Parliament's characterization of Hungary as 'electoral autocracy'",
+          "url": "https://www.bbc.com/news/articles/cpwjnvrpn8eo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused extensively on AI disinformation campaign and Russian interference concerns",
-          "url": "https://www.france24.com/en/trump-harbors-an-unexplained-sympathy-for-vladimir-putin-ukrainian-analyst-says"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Highlighted Russia's shadow over campaign and media bias favoring Orb\u00e1n",
-          "url": "https://www.rfi.fr/en/france/20260410-prostitution-of-minors-in-france-rises-by-43-percent-in-four-years"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized corruption and pocketbook issues alongside Magyar's rock star status",
-          "url": "https://www.theglobeandmail.com/world/article-us-house-oversight-chairman-vows-hearings-with-epstein-victims-after/"
-        }
-      ]
-    },
-    {
-      "headline": "Artemis II Astronauts Safely Return After First Crewed Lunar Mission in 50 Years",
-      "category": "Technology",
-      "bullets": [
-        "NASA's Orion spacecraft carrying four astronauts splashed down off the California coast Friday, completing the first crewed lunar flyby since the Apollo program",
-        "Commander Reid Wiseman, along with Christina Koch, Victor Glover, and Jeremy Hansen, reported being 'stable' and 'in great condition' following re-entry",
-        "The mission tested a heat shield that had shown unexpected damage during the uncrewed Artemis I mission in 2022, with NASA clearing it for flight despite acknowledged risks",
-        "NASA Administrator Jared Isaacman has outlined plans for annual crewed lunar landings beginning in 2028, with eventual Mars missions as the long-term goal"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Celebrated triumphant return and milestone for deep space ambitions",
-          "url": "https://www.france24.com/en/trump-harbors-an-unexplained-sympathy-for-vladimir-putin-ukrainian-analyst-says"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "More cautious, noting the 'hard part lies ahead' and historical context of Apollo funding cuts",
-          "url": "https://www.bbc.com/news/articles/cwy3w9y8gyjo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized pro-European nature of Magyar's platform and Trump's direct intervention",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260411-hungary-tracking-the-campaign"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Straightforward coverage of mission completion",
-          "url": "https://www.aljazeera.com/economy/2026/4/11/trump-says-strait-of-hormuz-to-reopen-soon-as-us-iran-head-to-talks?traffic_source=rss"
+          "framing_note": "Focused on Orb\u00e1n's eurosceptic nationalism and the election's significance for EU",
+          "url": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss"
         },
         {
-          "name": "RNZ",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on heat shield concerns and expert warnings about mission risks",
-          "url": "https://www.rnz.co.nz/news/world/592073/watch-live-artemis-ii-astronauts-return-to-earth-following-historic-moon-mission"
+          "framing_note": "Human interest angle on Magyar's grassroots campaign style and corruption as key issue",
+          "url": "https://www.theglobeandmail.com/world/article-hungary-election-tisza-magyar-politics-results-trump-vance/"
         },
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Included Trump's congratulations and Mars ambitions",
-          "url": "https://www.thehindu.com/news/international/prince-harry-sued-for-defamation-by-charity-he-set-up-in-africa-to-honour-his-mother-princess-diana/article70850061.ece"
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Ground-level reporting from polling stations; detailed ballot structure",
+          "url": "https://www.rfi.fr/en/africa/20260411-djibouti-s-guelleh-extends-27-year-rule-with-landslide-re-election-win"
         }
       ]
     },
     {
-      "headline": "EU Airlines Face Fuel Shortage Within Three Weeks If Strait of Hormuz Remains Closed",
-      "category": "Economics",
-      "bullets": [
-        "Airports Council International warned that Europe will suffer jet fuel shortages within three weeks if the Strait of Hormuz does not reopen, as the Persian Gulf accounts for roughly 50% of Europe's aviation fuel imports",
-        "European jet fuel prices hit an all-time high of $1,838 per tonne last week, more than double the pre-war price of $831",
-        "The trade body urged EU intervention, stating that 'relying on market forces and adaptation alone is not an option,' with smaller airports deemed particularly vulnerable",
-        "Ireland has faced four days of fuel protest blockades, with the government finalizing a 'substantial and significant' support package for affected sectors"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed industry warnings and price data",
-          "url": "https://www.bbc.com/news/articles/cew7jwwep7wo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Separate coverage of Irish fuel protests linked to US-Israeli war against Iran",
-          "url": "https://www.bbc.com/news/articles/cew7jwwep7wo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Israeli Strikes Kill Over 350 in Lebanon as Ceasefire Excluded Beirut",
+      "headline": "Orthodox Easter Truce in Ukraine Marred by Hundreds of Ceasefire Violations",
       "category": "Conflict",
       "bullets": [
-        "Israel launched approximately 100 strikes across Lebanon in 10 minutes on Wednesday in what was labeled 'Operation Eternal Darkness,' killing at least 357 people according to Lebanese authorities",
-        "The attacks targeted residential areas including central Beirut, representing one of the largest mass casualty events in Lebanon since the end of the civil war in 1990",
-        "Israel claims Lebanon was not covered by the US-Iran ceasefire, while Iran has made a Lebanon truce a precondition for peace negotiations",
-        "President Trump has asked Israeli Prime Minister Netanyahu to scale back attacks in Lebanon as Washington pushes for a comprehensive deal"
+        "A 32-hour Orthodox Easter ceasefire between Russia and Ukraine took effect Saturday afternoon, but air raid sirens sounded in Kharkiv region within 38 minutes",
+        "Ukrainian officials reported 469 ceasefire violations along the frontline, though no long-range missile or drone strikes occurred",
+        "Russia launched at least 160 drones across Ukraine shortly before the truce began, killing four people",
+        "President Zelensky warned Ukraine would respond 'strictly in kind' to any Russian violations"
       ],
       "sources": [
         {
-          "name": "ABC Australia",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Analysis piece arguing strikes 'forced Trump to think about Lebanon,' noted genocide ruling on Gaza",
-          "url": "https://www.abc.net.au/news/2026-04-11/israels-mass-killing-has-forced-trump-to-think-about-lebanon/106554032"
+          "framing_note": "Human interest focus on Easter celebrations amid war; skepticism from local clergy",
+          "url": "https://www.bbc.com/news/articles/cpwjnvrpn8eo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Interviewed Israeli academic critical of Israeli society being 'driven by trauma and revenge'",
-          "url": "https://www.rfi.fr/en/france/20260410-prostitution-of-minors-in-france-rises-by-43-percent-in-four-years"
+          "framing_note": "Emphasized fragility of arrangement and last-minute Russian strikes",
+          "url": "https://www.rfi.fr/en/africa/20260411-djibouti-s-guelleh-extends-27-year-rule-with-landslide-re-election-win"
         },
         {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Emphasized death toll and ongoing Israeli attacks as obstacle to talks",
-          "url": "https://www.aljazeera.com/economy/2026/4/11/trump-says-strait-of-hormuz-to-reopen-soon-as-us-iran-head-to-talks?traffic_source=rss"
+          "framing_note": "Reported specific violation count of 469",
+          "url": "https://www.lemonde.fr/en/international/article/2026/04/12/easter-truce-between-russia-and-ukraine-falters-as-kyiv-records-469-violations_6752325_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Over 500 Arrested at Pro-Palestinian Rally in London Supporting Banned Group",
+      "category": "Society",
+      "bullets": [
+        "London Metropolitan Police arrested 523 people aged 18-87 at a sit-down demonstration in Trafalgar Square supporting Palestine Action",
+        "Palestine Action was proscribed as a terrorist organization in July, making support punishable by up to 14 years in prison",
+        "The High Court ruled in February that the ban was unlawful and interfered with freedom of speech; the government is appealing",
+        "Arrests resumed in late March after police had paused them following the High Court ruling"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Balanced coverage noting both the arrests and the court ruling against the ban",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260411-hungary-tracking-the-campaign"
         },
         {
-          "name": "Globe and Mail",
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage confirming arrest numbers",
+          "url": "https://www.lemonde.fr/en/international/article/2026/04/12/easter-truce-between-russia-and-ukraine-falters-as-kyiv-records-469-violations_6752325_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "NASA's Artemis II Crew Returns Safely After First Crewed Lunar Flyby in 50 Years",
+      "category": "Technology",
+      "bullets": [
+        "Four astronauts\u2014three Americans and one Canadian\u2014splashed down off California's coast after completing the first crewed lunar mission since Apollo",
+        "The crew, commanded by Reid Wiseman and including Christina Koch, Victor Glover, and Jeremy Hansen, reported being in good condition",
+        "NASA Administrator Jared Isaacman called the mission 'perfect' after a successful high-stakes reentry",
+        "The mission returned with images of the Moon and demonstrated capabilities for future lunar exploration"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Framed as testing limits of US-Israel relationship",
-          "url": "https://www.theglobeandmail.com/world/article-us-house-oversight-chairman-vows-hearings-with-epstein-victims-after/"
+          "framing_note": "Celebratory tone emphasizing historic nature and successful execution",
+          "url": "https://www.rfi.fr/en/africa/20260411-djibouti-s-guelleh-extends-27-year-rule-with-landslide-re-election-win"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Melania Trump calls for public congressional hearings on Epstein victims, House Oversight chairman agrees to hold them",
-      "source": "BBC World, Globe and Mail",
-      "url": "https://www.bbc.com/news/articles/cwy3w9y8gyjo"
+      "headline": "At least 30 killed in stampede at Haiti's historic Laferriere Citadel during annual celebration",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-haiti-stampede-laferriere-citadel-dead/"
     },
     {
-      "headline": "California governor frontrunner Eric Swalwell denies sexual assault allegations from former staff members",
+      "headline": "Manhattan DA opens investigation into sexual misconduct allegations against California gubernatorial candidate Eric Swalwell",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c20qg3g9554o"
+      "url": "https://www.bbc.com/news/articles/c7vq0jnn0yro"
     },
     {
-      "headline": "Prince Harry sued for defamation by Sentebale, the African charity he co-founded to honor Princess Diana",
-      "source": "The Guardian, The Hindu",
+      "headline": "Germany's far-right AfD adopts radical pro-ethnic German manifesto ahead of Saxony-Anhalt elections where it could win outright majority",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cwy3wwgyd6do"
+    },
+    {
+      "headline": "China announces resumption of some ties with Taiwan including direct flights after opposition KMT leader's visit",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/china-says-it-will-resume-some-ties-with-taiwan-including-more-direct-flights/article70853479.ece"
+    },
+    {
+      "headline": "UK puts Chagos Islands handover deal on indefinite hold after Trump administration withdraws support",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-uk-puts-chagos-islands-handover-deal-on-hold-after-us-withdraws/"
+    },
+    {
+      "headline": "Wall Street banks expected to report $40 billion trading haul as Iran war volatility boosts revenues",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da"
+    },
+    {
+      "headline": "Prince Harry sued for defamation by African charity Sentebale he co-founded over alleged 'adverse media campaign'",
+      "source": "The Guardian",
       "url": "https://www.theguardian.com/uk-news/2026/apr/10/prince-harry-sued-defamation-charity-sentebale"
     },
     {
-      "headline": "French man charged with locking his nine-year-old son in a van for more than a year in Alsace",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cew7jwwep7wo"
+      "headline": "Djibouti's President Guelleh wins sixth term with 97.8% of vote, extending 27-year rule",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260411-djibouti-s-guelleh-extends-27-year-rule-with-landslide-re-election-win"
     },
     {
-      "headline": "Swedish man goes on trial accused of coercing wife into providing sexual services to more than 120 men",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cx24pdwx588o"
-    },
-    {
-      "headline": "Bangladesh reiterates demand for extradition of former PM Sheikh Hasina during talks with India",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/reiterated-demand-for-hasina-extradition-with-india-bangladesh-foreign-minister-rahman/article70850188.ece"
-    },
-    {
-      "headline": "Wild chimpanzees recorded waging first observed 'civil war' with coordinated attacks between former group members in Uganda",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/environment/2026/apr/09/civil-war-chimpanzee-group-closer-to-human-condition-aoe"
-    },
-    {
-      "headline": "Pakistan to repay $3.5 billion in loans to UAE in lump sum by end of April amid signs of strained ties over Iran neutrality",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/pakistan-s-3.5bn-loan-repayment-to-uae-hints-at-cracks-in-ties"
-    },
-    {
-      "headline": "Four men deported by US to Eswatini win right to see local lawyer after nine months in maximum security detention",
+      "headline": "Four men deported by US to Eswatini win right to see local lawyer after nine months in detention",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/2026/apr/10/trump-administration-deport-men-eswatini-court-rule"
-    },
-    {
-      "headline": "Prostitution of minors in France rises 43 percent over four years, with 704 victims identified in 2025",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260410-prostitution-of-minors-in-france-rises-by-43-percent-in-four-years"
     }
   ]
 }
