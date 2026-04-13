@@ -1,209 +1,220 @@
 {
-  "date": "Sunday, April 12, 2026",
-  "daily_brief": "The day's most consequential developments center on failed US-Iran peace talks in Islamabad, where Vice President JD Vance announced no deal was reached after 21 hours of negotiations, with nuclear commitments remaining the core sticking point [BBC, Al Jazeera, France 24]. The ceasefire between Washington and Tehran remains fragile, though three supertankers successfully transited the Strait of Hormuz [Al Jazeera]. In Europe, Hungarians are voting in a pivotal election that could unseat Viktor Orb\u00e1n after 16 years, with opposition leader P\u00e9ter Magyar leading in polls and promising a reset of EU relations and distance from Russia [BBC, France 24, Globe and Mail]. The contest has drawn direct intervention from President Trump, who endorsed Orb\u00e1n, while VP Vance rallied with him earlier this week. Meanwhile, the Orthodox Easter truce between Russia and Ukraine has been marred by violations, with Kyiv reporting hundreds of ceasefire breaches despite hopes for respite [BBC, RFI, Le Monde]. In London, over 500 pro-Palestinian protesters were arrested at a rally supporting the banned group Palestine Action, intensifying debate over civil liberties [France 24, Le Monde]. NASA celebrated the successful return of its Artemis II crew after the first crewed lunar flyby in over 50 years [RFI].",
+  "date": "Monday, April 13, 2026",
+  "daily_brief": "The day's major developments center on the escalating US-Iran conflict after peace talks collapsed in Islamabad over the weekend. President Trump announced a naval blockade of Iranian ports in the Strait of Hormuz, effective Monday afternoon, pushing oil prices back above $100 per barrel [BBC, Reuters, Al Jazeera]. Iran's military called the move 'piracy' and warned no Gulf ports would be safe if its own are threatened [France 24]. In a historic political shift, Hungary's Viktor Orb\u00e1n was swept from power after 16 years as P\u00e9ter Magyar's Tisza party secured a supermajority in parliament, signaling a potential realignment of Budapest's relations with the EU and Ukraine [BBC, Financial Times, Globe and Mail]. European leaders welcomed the result as a break from Orb\u00e1n's confrontational approach to Brussels. Elsewhere, Iran executed at least 1,639 people in 2025\u2014the highest since 1989\u2014according to human rights groups [France 24], while Pope Leo XIV began an ambitious four-nation African tour focused on peace and interfaith dialogue [RFI]. US Congressman Eric Swalwell suspended his California gubernatorial campaign amid sexual assault allegations he denies [BBC, Globe and Mail].",
   "top_stories": [
     {
-      "headline": "US-Iran Peace Talks End Without Deal After 21-Hour Marathon in Islamabad",
-      "category": "Geopolitics",
+      "headline": "Trump Orders Naval Blockade of Iranian Ports After Peace Talks Collapse",
+      "category": "Conflict",
       "bullets": [
-        "Vice President JD Vance announced the US and Iran failed to reach an agreement after 21 hours of direct negotiations in Pakistan, the highest-level talks since 1979",
-        "The US demanded an affirmative commitment from Iran to not develop nuclear weapons or acquire tools to quickly achieve one; Iran cited 'excessive demands' as the reason for failure",
-        "Three supertankers successfully transited the Strait of Hormuz during the fragile ceasefire, though the waterway remains a key point of dispute",
-        "Pakistan urged both sides to uphold the existing ceasefire and expressed willingness to continue facilitating talks"
+        "US Central Command announced a blockade of all Iranian ports beginning Monday at 2pm GMT, to be enforced against vessels of all nations, while still permitting transit between non-Iranian ports through the Strait of Hormuz",
+        "Peace talks in Islamabad ended Saturday without a deal; Trump said Iran refused to abandon nuclear ambitions, though US officials cited broader disagreements on Hormuz control and regional proxies",
+        "Iran's military called the blockade 'illegal' and 'piracy,' warning that if Iranian ports are endangered, no Gulf port would remain secure",
+        "Oil prices surged above $100/barrel in Asian trading Monday, with Brent crude up 7.3% to $102.30 and WTI up 8.7% to $104.94"
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Iran's position that no one expected a deal in one session; highlighted 'excessive demands' framing",
-          "url": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss"
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized risks and challenges for the American side, questioning enforcement logistics",
+          "url": "https://www.bbc.com/news/articles/c74vwdpj7kdo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Balanced coverage of both sides; noted Saudi infrastructure restoration",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260411-hungary-tracking-the-campaign"
+          "framing_note": "Focused on Trump's rhetoric and Iran's defiant response",
+          "url": "https://www.france24.com/en/middle-east/20260413-middle-east-war-live-trump-announces-blockade-of-strait-of-hormuz-on-monday"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Iranian warnings and framed blockade as latest escalation",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/13/viktor-orban-swept-from-power-after-16-years-ruling-hungary?traffic_source=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Led with market impact and economic consequences",
+          "url": "https://www.ft.com/content/616b55d5-219b-49bf-906b-3d8e479f8d13"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on Vance's communications with Trump throughout negotiations",
-          "url": "https://www.theglobeandmail.com/world/article-hungary-election-tisza-magyar-politics-results-trump-vance/"
+          "framing_note": "Noted blockade was scaled back from Trump's initial threat to close entire strait",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-iran-negotiations-in-islamabad-fail-to-bring-war-to-an-end/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Pakistan's mediating role and Iran's perspective on excessive US demands",
-          "url": "https://www.thehindu.com/news/international/talks-ended-without-deal-due-to-excessive-demands-made-by-us-iran/article70853441.ece"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Analytical breakdown of sticking points including Lebanon's exclusion from ceasefire",
-          "url": "https://www.abc.net.au/news/2026-04-12/man-who-allegedly-attacked-police-officer-granted-bail-maitland/106556022"
+          "framing_note": "Provided detailed timeline and emphasized strategic importance of Hormuz",
+          "url": "https://www.thehindu.com/news/international/israel-approves-appointment-of-new-intelligence-agency-chief/article70856273.ece"
         }
       ]
     },
     {
-      "headline": "Hungary Votes in Election That Could End Orb\u00e1n's 16-Year Rule",
+      "headline": "Orb\u00e1n Swept From Power as Magyar's Tisza Party Wins Supermajority in Hungary",
       "category": "Geopolitics",
       "bullets": [
-        "Hungarians are voting in parliamentary elections with polls showing opposition leader P\u00e9ter Magyar's Tisza party leading Orb\u00e1n's Fidesz by 7-9 percentage points",
-        "Magyar, a former Fidesz insider, has promised a 'system change,' reset of EU relations, and an end to close ties with Russia",
-        "President Trump endorsed Orb\u00e1n and pledged US 'economic might' to Hungary if Fidesz wins; VP Vance visited Budapest earlier in the week to rally support",
-        "Both camps have alleged foreign interference, with Orb\u00e1n framing the election as a choice between 'war and peace'"
+        "P\u00e9ter Magyar's Tisza party won approximately 138 seats in the 199-seat parliament versus 55 for Orb\u00e1n's Fidesz, ending 16 years of nationalist rule",
+        "Magyar, a 45-year-old former Fidesz insider, campaigned on anti-corruption, improving EU relations, and distancing Hungary from Russia",
+        "Orb\u00e1n conceded defeat Sunday evening; European leaders welcomed the result as a potential reset for Hungary's relations with the EU and Ukraine",
+        "Voter turnout was among the highest since the fall of the Soviet Union"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed coverage of both campaigns; noted European Parliament's characterization of Hungary as 'electoral autocracy'",
-          "url": "https://www.bbc.com/news/articles/cpwjnvrpn8eo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Described Orb\u00e1n's system as 'electoral autocracy' now 'in tatters'",
+          "url": "https://www.bbc.com/news/articles/c74vwdpj7kdo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized pro-European nature of Magyar's platform and Trump's direct intervention",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260411-hungary-tracking-the-campaign"
+          "framing_note": "Included Fidesz perspective attributing loss to economic stagnation and low undecided turnout",
+          "url": "https://www.france24.com/en/middle-east/20260413-middle-east-war-live-trump-announces-blockade-of-strait-of-hormuz-on-monday"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on Magyar as 'Orb\u00e1n's nemesis' and geopolitical implications",
+          "url": "https://www.ft.com/content/616b55d5-219b-49bf-906b-3d8e479f8d13"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized European welcome and street celebrations",
+          "url": "https://www.rfi.fr/en/international/20260412-exiled-cartoonists-give-voice-to-iran-s-silenced-millions"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Focused on Orb\u00e1n's eurosceptic nationalism and the election's significance for EU",
-          "url": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss"
+          "framing_note": "Characterized Orb\u00e1n as 'far-right' in headline",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/13/viktor-orban-swept-from-power-after-16-years-ruling-hungary?traffic_source=rss"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Human interest angle on Magyar's grassroots campaign style and corruption as key issue",
-          "url": "https://www.theglobeandmail.com/world/article-hungary-election-tisza-magyar-politics-results-trump-vance/"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Ground-level reporting from polling stations; detailed ballot structure",
-          "url": "https://www.rfi.fr/en/africa/20260411-djibouti-s-guelleh-extends-27-year-rule-with-landslide-re-election-win"
+          "framing_note": "Framed as setback for global right-wing populist movement",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-iran-negotiations-in-islamabad-fail-to-bring-war-to-an-end/"
         }
       ]
     },
     {
-      "headline": "Orthodox Easter Truce in Ukraine Marred by Hundreds of Ceasefire Violations",
-      "category": "Conflict",
-      "bullets": [
-        "A 32-hour Orthodox Easter ceasefire between Russia and Ukraine took effect Saturday afternoon, but air raid sirens sounded in Kharkiv region within 38 minutes",
-        "Ukrainian officials reported 469 ceasefire violations along the frontline, though no long-range missile or drone strikes occurred",
-        "Russia launched at least 160 drones across Ukraine shortly before the truce began, killing four people",
-        "President Zelensky warned Ukraine would respond 'strictly in kind' to any Russian violations"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Human interest focus on Easter celebrations amid war; skepticism from local clergy",
-          "url": "https://www.bbc.com/news/articles/cpwjnvrpn8eo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized fragility of arrangement and last-minute Russian strikes",
-          "url": "https://www.rfi.fr/en/africa/20260411-djibouti-s-guelleh-extends-27-year-rule-with-landslide-re-election-win"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Reported specific violation count of 469",
-          "url": "https://www.lemonde.fr/en/international/article/2026/04/12/easter-truce-between-russia-and-ukraine-falters-as-kyiv-records-469-violations_6752325_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Over 500 Arrested at Pro-Palestinian Rally in London Supporting Banned Group",
+      "headline": "Iran Executed Record 1,639 People in 2025, Highest Since 1989",
       "category": "Society",
       "bullets": [
-        "London Metropolitan Police arrested 523 people aged 18-87 at a sit-down demonstration in Trafalgar Square supporting Palestine Action",
-        "Palestine Action was proscribed as a terrorist organization in July, making support punishable by up to 14 years in prison",
-        "The High Court ruled in February that the ban was unlawful and interfered with freedom of speech; the government is appealing",
-        "Arrests resumed in late March after police had paused them following the High Court ruling"
+        "Iran Human Rights and Together Against Death Penalty reported at least 1,639 executions in 2025, a 68% increase from 975 in 2024",
+        "The figure represents an average of more than four executions per day and includes 48 women",
+        "NGOs warned executions may increase further following January protests and the ongoing war with the US and Israel",
+        "The organizations said the figure is an 'absolute minimum' as most executions are not reported in official Iranian media"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Balanced coverage noting both the arrests and the court ruling against the ban",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260411-hungary-tracking-the-campaign"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Brief coverage confirming arrest numbers",
-          "url": "https://www.lemonde.fr/en/international/article/2026/04/12/easter-truce-between-russia-and-ukraine-falters-as-kyiv-records-469-violations_6752325_4.html"
+          "framing_note": "Sole detailed source; emphasized risk of increased executions if regime survives current crisis",
+          "url": "https://www.france24.com/en/middle-east/20260413-middle-east-war-live-trump-announces-blockade-of-strait-of-hormuz-on-monday"
         }
       ]
     },
     {
-      "headline": "NASA's Artemis II Crew Returns Safely After First Crewed Lunar Flyby in 50 Years",
-      "category": "Technology",
+      "headline": "Pope Leo XIV Begins Four-Nation African Tour Focused on Peace and Dialogue",
+      "category": "Society",
       "bullets": [
-        "Four astronauts\u2014three Americans and one Canadian\u2014splashed down off California's coast after completing the first crewed lunar mission since Apollo",
-        "The crew, commanded by Reid Wiseman and including Christina Koch, Victor Glover, and Jeremy Hansen, reported being in good condition",
-        "NASA Administrator Jared Isaacman called the mission 'perfect' after a successful high-stakes reentry",
-        "The mission returned with images of the Moon and demonstrated capabilities for future lunar exploration"
+        "The US-born pontiff departed Monday for an 18,000km journey across Algeria, Cameroon, Angola, and Equatorial Guinea, returning April 23",
+        "Leo will become the first pope to visit Algeria, where he will meet President Tebboune and visit the Great Mosque of Algiers",
+        "The trip comes amid global uncertainty from the Middle East war; speeches expected to address conflict, migration, corruption, and interfaith relations",
+        "In Monaco, Leo previously called Trump's threat to destroy Iranian civilization 'truly unacceptable'"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Celebratory tone emphasizing historic nature and successful execution",
-          "url": "https://www.rfi.fr/en/africa/20260411-djibouti-s-guelleh-extends-27-year-rule-with-landslide-re-election-win"
+          "framing_note": "Focused on diplomatic and interfaith significance of Algeria visit",
+          "url": "https://www.rfi.fr/en/international/20260412-exiled-cartoonists-give-voice-to-iran-s-silenced-millions"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Trump's attack on Pope Leo following peace appeals",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/13/viktor-orban-swept-from-power-after-16-years-ruling-hungary?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "US Rep. Eric Swalwell Suspends California Governor Campaign Amid Sexual Assault Allegations",
+      "category": "Policy",
+      "bullets": [
+        "Democratic Congressman Eric Swalwell dropped out of the California gubernatorial race Sunday after four women accused him of misconduct ranging from harassment to rape",
+        "Swalwell denied the allegations but apologized for 'mistakes in judgment' in his past",
+        "Multiple Democratic members of Congress called for his resignation from the House, with some threatening to support expulsion",
+        "The exit reshapes the wide-open primary race ahead of the June 2 election to replace Governor Gavin Newsom"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on allegations and political fallout",
+          "url": "https://www.bbc.com/news/articles/c74vwdpj7kdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Noted growing Democratic pressure for congressional resignation",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-iran-negotiations-in-islamabad-fail-to-bring-war-to-an-end/"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "At least 30 killed in stampede at Haiti's historic Laferriere Citadel during annual celebration",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-haiti-stampede-laferriere-citadel-dead/"
+      "headline": "Peru's presidential election extended to Monday after logistical chaos left thousands unable to vote",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260413-peru-presidential-election-delayed-as-voting-chaos-forces-extension"
     },
     {
-      "headline": "Manhattan DA opens investigation into sexual misconduct allegations against California gubernatorial candidate Eric Swalwell",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c7vq0jnn0yro"
+      "headline": "Nigeria airstrike targeting Boko Haram reportedly kills at least 100 civilians at market in Yobe state",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/apr/12/nigeria-airstrike-market-yobe-state-boko-haram"
     },
     {
-      "headline": "Germany's far-right AfD adopts radical pro-ethnic German manifesto ahead of Saxony-Anhalt elections where it could win outright majority",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cwy3wwgyd6do"
-    },
-    {
-      "headline": "China announces resumption of some ties with Taiwan including direct flights after opposition KMT leader's visit",
+      "headline": "Philippines accuses Chinese fishermen of poisoning disputed waters with cyanide near Second Thomas Shoal",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/china-says-it-will-resume-some-ties-with-taiwan-including-more-direct-flights/article70853479.ece"
+      "url": "https://www.thehindu.com/news/international/philippines-accuses-china-of-poisoning-disputed-waters/article70856503.ece"
     },
     {
-      "headline": "UK puts Chagos Islands handover deal on indefinite hold after Trump administration withdraws support",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-uk-puts-chagos-islands-handover-deal-on-hold-after-us-withdraws/"
+      "headline": "Ukraine and Russia accuse each other of hundreds of violations during Orthodox Easter ceasefire",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cz78y73v830o"
     },
     {
-      "headline": "Wall Street banks expected to report $40 billion trading haul as Iran war volatility boosts revenues",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da"
+      "headline": "South Korea and Poland upgrade ties to comprehensive strategic partnership with defense cooperation at center",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/south-korea-poland-to-upgrade-ties-as-donald-tusk-calls-seoul-key-ally-after-us/article70856418.ece"
     },
     {
-      "headline": "Prince Harry sued for defamation by African charity Sentebale he co-founded over alleged 'adverse media campaign'",
+      "headline": "Luxury brands report 30-50% sales drops in Dubai malls as Iran conflict hits fastest-growing market",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/business/luxury-brands-face-profits-squeeze-as-iran-conflict-shrinks-dubai-mall-sales/article70856500.ece"
+    },
+    {
+      "headline": "Mauritius vows to 'decolonise' Chagos Islands after UK forced to shelve handover legislation",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/uk-news/2026/apr/10/prince-harry-sued-defamation-charity-sentebale"
+      "url": "https://www.theguardian.com/world/2026/apr/12/mauritius-vows-decolonise-chagos-islands-starmer-shelves-handover"
     },
     {
-      "headline": "Djibouti's President Guelleh wins sixth term with 97.8% of vote, extending 27-year rule",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260411-djibouti-s-guelleh-extends-27-year-rule-with-landslide-re-election-win"
-    },
-    {
-      "headline": "Four men deported by US to Eswatini win right to see local lawyer after nine months in detention",
+      "headline": "Benin holds presidential election four months after failed coup, with finance minister Wadagni favored",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/apr/10/trump-administration-deport-men-eswatini-court-rule"
+      "url": "https://www.theguardian.com/world/2026/apr/12/benin-presidential-election"
+    },
+    {
+      "headline": "Lebanon says talks with Israel aim for troop withdrawal from occupied territory ahead of Washington meeting",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/04/13/lebanon-says-talks-with-israel-aim-for-troop-withdrawal-from-territory_6752350_4.html"
+    },
+    {
+      "headline": "Israel approves Roman Gofman as new Mossad intelligence chief, to begin in June 2026",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/israel-approves-appointment-of-new-intelligence-agency-chief/article70856273.ece"
     }
   ]
 }
