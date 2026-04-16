@@ -1,184 +1,208 @@
 {
-  "date": "Wednesday, April 15, 2026",
-  "daily_brief": "The Sudan war marks its grim third anniversary today as a Berlin donor conference convenes amid criticism from Khartoum, which called the gathering 'unacceptable' interference [France 24, The Guardian, Globe and Mail]. The conflict has killed an estimated 150,000 people and displaced 14 million, with UN officials expressing frustration at the lack of political urgency to end hostilities. Meanwhile, the Strait of Hormuz blockade continues to dominate global concerns, with the FAO warning that delayed shipments of fertilizer and fuel could trigger a global food crisis [ABC Australia], while France and the UK announced they will host talks Friday on a multinational mission to restore freedom of navigation [RFI]. US Treasury Secretary Bessent defended the Iran war's economic costs to the BBC, arguing short-term pain is worthwhile for long-term security [BBC]. In a diplomatic breakthrough, Israel and Lebanon held their first direct talks since 1993, mediated by Secretary of State Rubio in Washington [BBC, France 24]. China's President Xi met with Russian Foreign Minister Lavrov in Beijing, calling relations between the two powers 'precious' amid international instability [Al Jazeera].",
+  "date": "Thursday, April 16, 2026",
+  "daily_brief": "The fragile US-Iran ceasefire enters its final week amid intensifying diplomatic efforts and mounting global economic strain. Pakistan's army chief arrived in Tehran bearing a new message from Washington [The Hindu], as officials report an 'in principle agreement' to extend the truce [Globe and Mail], though Iran's advisor warned the country will not abandon its Strait of Hormuz position until its rights are secured [The Hindu]. The US naval blockade continues to squeeze global energy markets, with European jet fuel shortages possible within weeks [France 24] and finance ministers from eleven nations including the UK, Australia, and New Zealand calling for restored transit through the waterway [RNZ]. Meanwhile, Russia launched devastating overnight strikes across Ukraine, killing at least 14-15 people including a 12-year-old boy in Kyiv, with attacks hitting Odesa and Dnipro in what officials called 'double-tap' strikes targeting first responders [France 24, BBC]. In Hungary, election winner P\u00e9ter Magyar pushed for rapid transfer of power in talks with President Sulyok, seeking to convene parliament as early as May 4 [BBC]. Domestically, President Trump faces unusual criticism from conservative Catholic allies over his public feud with Pope Leo XIV and the broader conduct of the Iran war [BBC].",
   "top_stories": [
     {
-      "headline": "Sudan War Enters Fourth Year as Berlin Donor Conference Meets Amid Khartoum's Criticism",
-      "category": "Conflict",
+      "headline": "US-Iran Ceasefire Hangs by Thread as Pakistan Mediates, Blockade Continues",
+      "category": "Geopolitics",
       "bullets": [
-        "The war between Sudan's army and the paramilitary Rapid Support Forces (RSF) began on April 15, 2023, and has killed an estimated 150,000 people while displacing 14 million",
-        "Germany hosted a donor conference in Berlin on Wednesday to mobilize humanitarian aid; only 16% of the UN's $2.8 billion appeal has been funded this year",
-        "Sudan's government condemned the conference as 'surprising and unacceptable' interference, organized without consulting Khartoum",
-        "UK Foreign Secretary Yvette Cooper announced doubling of British aid to \u00a315 million for Sudanese emergency responders"
+        "Pakistan's Army Chief Field Marshal Asim Munir arrived in Tehran Wednesday bearing a new US message, seeking to arrange a second round of peace talks before the ceasefire expires next week",
+        "US officials said they are optimistic about reaching a deal, with regional officials reporting an 'in principle agreement' to extend the ceasefire",
+        "The US naval blockade of Iranian ports continues, with 10 vessels turned around since Monday, though two US-sanctioned supertankers have entered the Gulf",
+        "Iran's supreme leader advisor stated Iran will not leave the Strait of Hormuz until its rights are fully secured"
       ],
       "sources": [
         {
-          "name": "The Guardian",
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized US warnings of more economic pain and 'financial equivalent of bombing campaign'",
+          "url": "https://www.theglobeandmail.com/business/article-ticketmaster-live-nation-trial-anticompetitive-monopoly/"
+        },
+        {
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized UN official's frustration and criticism of international response as 'bloody unacceptable'",
-          "url": "https://www.theguardian.com/world/2026/apr/13/chagos-islands-treaty-mauritius-uk-bill-parliament"
+          "framing_note": "Highlighted Pakistan's mediation role and Iran's position on Hormuz",
+          "url": "https://www.thehindu.com/news/international/explosions-fire-at-crucial-australian-refinery-sparks-fuel-supply-fears/article70867694.ece"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on Iranian civilian perspectives and uncertainty about ceasefire holding",
+          "url": "https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Led with Sudan government's rejection of the conference",
-          "url": "https://www.france24.com/en/culture/20260415-kanye-west-pulls-plug-on-marseille-concert-postpones-until-further-notice"
+          "framing_note": "Emphasized economic consequences including potential European jet fuel shortages",
+          "url": "https://www.france24.com/en/americas/20260415-peru-sanchez-fujimori-runoff-rival-protests-fraud"
+        }
+      ]
+    },
+    {
+      "headline": "Russian Overnight Strikes Kill at Least 14 Across Ukraine, Including Child in Kyiv",
+      "category": "Conflict",
+      "bullets": [
+        "Russia launched waves of missile and drone attacks overnight hitting Kyiv, Odesa, and Dnipro, killing at least 14-15 people and injuring approximately 90",
+        "A 12-year-old boy and 35-year-old woman were among four killed in Kyiv, where a 16-storey residential building collapsed in the Podilsky district",
+        "Eight people died in Odesa and two-three in Dnipro; Ukraine's air force reported downing 31 missiles and 636 drones over 24 hours",
+        "Russia employed 'double-tap' attacks, striking locations again after first responders arrived; four emergency medical workers were injured in Kyiv"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Detailed the 'double-tap' tactic targeting first responders",
+          "url": "https://www.france24.com/en/americas/20260415-peru-sanchez-fujimori-runoff-rival-protests-fraud"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Noted two Ukrainian children killed in retaliatory drone strike on Russian territory",
+          "url": "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on aid shortfalls and relief workers' desperation for global attention",
-          "url": "https://www.theglobeandmail.com/sports/football/article-ex-michigan-coach-sherrone-moore-receives-probation-for-confrontation/"
+          "framing_note": "Straightforward casualty reporting with emphasis on residential damage",
+          "url": "https://www.theglobeandmail.com/business/article-ticketmaster-live-nation-trial-anticompetitive-monopoly/"
         },
         {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Highlighted Ethiopian interference allegations and broader regional dynamics",
-          "url": "#"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Brief headline coverage",
+          "url": "https://www.lemonde.fr/en/international/article/2026/04/16/russia-is-banking-on-cheap-energy-to-draw-hungary-back-into-its-orbit_6752477_4.html"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Focused on air defense statistics",
+          "url": "https://www.thehindu.com/news/international/explosions-fire-at-crucial-australian-refinery-sparks-fuel-supply-fears/article70867694.ece"
         }
       ]
     },
     {
-      "headline": "Israel and Lebanon Hold First Direct Talks Since 1993 Amid Ongoing Hezbollah Conflict",
-      "category": "Geopolitics",
+      "headline": "Nine Killed in Second Turkish School Shooting in Two Days",
+      "category": "Society",
       "bullets": [
-        "Lebanese and Israeli officials met in Washington DC on Tuesday, mediated by US Secretary of State Marco Rubio",
-        "Both sides agreed to launch direct negotiations at a future date; Israel demanded disarmament of Hezbollah while Lebanon called for a ceasefire",
-        "Over 2,000 people have been killed since Israeli military operations in Lebanon began on March 2, 2026",
-        "Hezbollah claimed at least 24 attacks on Israel during the day of talks"
+        "A 14-year-old student killed eight students and one teacher at Ayser Calik Secondary School in Kahramanmaras, southern Turkey; the attacker was also killed",
+        "The shooter entered two classrooms armed with five guns and seven magazines allegedly belonging to his ex-police officer father, who has been detained",
+        "Thirteen others were wounded, six critically; video showed people jumping from first-floor windows during the attack",
+        "The shooting came one day after an ex-student opened fire at another high school in southern Turkey, injuring 16 before killing himself"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Straightforward diplomatic reporting with casualty figures",
-          "url": "https://www.bbc.com/news/articles/cz6778j78vlo?at_medium=RSS&at_campaign=rss"
+          "framing_note": null,
+          "url": "https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Featured expert analysis emphasizing Hezbollah as hybrid actor complicating conventional diplomacy",
-          "url": "https://www.france24.com/en/culture/20260415-kanye-west-pulls-plug-on-marseille-concert-postpones-until-further-notice"
+          "framing_note": null,
+          "url": "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "France and UK to Host 40-Nation Talks on Multinational Mission to Reopen Strait of Hormuz",
+      "headline": "Hungary's Election Winner Magyar Pushes for Rapid Power Transfer After Orb\u00e1n Defeat",
       "category": "Geopolitics",
       "bullets": [
-        "French President Macron and British PM Starmer will co-chair a video conference Friday with over 40 countries",
-        "The proposed mission would be 'purely defensive' to restore freedom of navigation once conflict conditions allow",
-        "FAO warned that critical agricultural inputs remain blocked, with 20-45% of key agrifood exports relying on the strait",
-        "Iran has demanded $270 billion in compensation for war damages and proposed a Hormuz transit tax as part of negotiations"
+        "P\u00e9ter Magyar, who ended Viktor Orb\u00e1n's 16-year rule in a landslide victory, met with President Tam\u00e1s Sulyok to discuss transition timeline",
+        "Magyar demanded parliament convene on May 4\u2014the day official results are expected\u2014and called for Sulyok to resign, saying he is 'unworthy of representing the unity of the Hungarian nation'",
+        "Sulyok said he would convene parliament 'at the earliest possible date' and officially propose Magyar as prime minister; new government likely to be elected May 6-7",
+        "Magyar, 45, arrived at the presidential palace and later posted video of himself with Sulyok on the balcony while Orb\u00e1n stood below"
       ],
       "sources": [
         {
-          "name": "RFI",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Focused on diplomatic coordination and French foreign minister statements",
-          "url": "#"
+          "framing_note": "Focused on procedural timeline and Magyar's demands",
+          "url": "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Emphasized agricultural and food security implications of blockade",
-          "url": "https://www.abc.net.au/news/2026-04-15/farmers-selling-cattle-in-record-numbers-el-nino/106566046"
-        },
-        {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Iran's compensation demands and negotiating position",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/15/candidate-calls-for-new-election-in-peru-claiming-fraud-without-evidence?traffic_source=rss"
+          "framing_note": "Published opinion piece on 'pitfalls of Hungary's post-Orb\u00e1n transition'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/04/16/russia-is-banking-on-cheap-energy-to-draw-hungary-back-into-its-orbit_6752477_4.html"
         }
       ]
     },
     {
-      "headline": "US Treasury Secretary Defends Iran War Costs, Says 'Bit of Pain' Worth Long-Term Security",
-      "category": "Economics",
+      "headline": "Trump Faces Backlash from Conservative Catholic Allies Over Pope Leo Feud",
+      "category": "Policy",
       "bullets": [
-        "Treasury Secretary Scott Bessent told BBC that short-term economic damage is acceptable to eliminate Iranian nuclear threat",
-        "IMF has warned the US-Israel war with Iran could push the global economy into recession",
-        "Bessent cited Iran's missile strike on Diego Garcia as evidence of threat to Western capitals",
-        "UK government stated there is 'no assessment' that Iran is trying to target Europe with missiles"
+        "President Trump attacked Pope Leo XIV on social media as 'too liberal' and 'weak on crime,' and shared an AI image of himself as a Christ-like figure",
+        "Conservative Catholic allies who previously supported Trump, including Bishop Joseph Strickland who helped 'consecrate' Mar-a-Lago, have publicly criticized him",
+        "The criticism reflects deeper unease among Catholic conservatives over Trump's conduct of the Iran war, crystallizing a shift in opinion since the conflict began six weeks ago",
+        "The rift puts Trump at odds with the first American pope, straining a relationship that has previously been a source of political support"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Balanced reporting that included UK government pushback on threat assessment claims",
-          "url": "https://www.bbc.com/news/articles/cz6778j78vlo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Xi Jinping Meets Russian Foreign Minister Lavrov, Calls Relations 'Precious' Amid Global Instability",
-      "category": "Geopolitics",
-      "bullets": [
-        "Chinese President Xi met Lavrov in Beijing's Great Hall of the People on Wednesday",
-        "Xi urged 'closer and stronger strategic coordination' between China and Russia",
-        "Xi called for both nations to 'firmly defend their legitimate interests and safeguard the unity of Global South countries'",
-        "Meeting comes amid fears Strait of Hormuz shutdown could trigger global food crisis affecting fertilizer and fuel exports"
-      ],
-      "sources": [
+          "framing_note": "Emphasized this represents criticism from Trump's own base, not typical opponents",
+          "url": "https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&at_campaign=rss"
+        },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Connected meeting to broader Iran war context and Global South positioning",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/15/candidate-calls-for-new-election-in-peru-claiming-fraud-without-evidence?traffic_source=rss"
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "UK shelves Chagos Islands sovereignty treaty after Trump administration withdraws support",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/apr/13/chagos-islands-treaty-mauritius-uk-bill-parliament"
-    },
-    {
-      "headline": "Spain approves plan to grant legal status to approximately 500,000 undocumented migrants",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cy511nln2xvo"
-    },
-    {
-      "headline": "Trump administration asks appeals court to vacate seditious conspiracy convictions of Oath Keepers and Proud Boys leaders",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-oath-keepers-proud-boys-us-justice-department/"
-    },
-    {
-      "headline": "Super Typhoon Sinlaku batters Northern Mariana Islands with 240 km/h winds, strongest storm on Earth this year",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-super-typhoon-sinlaku-us-islands-pacific-ocean/"
-    },
-    {
-      "headline": "Nigerian military airstrike on Jilli market kills as many as 200 people, including civilians, while targeting jihadist group",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/apr/14/survivors-ask-why-nigeria-bombed-busy-market-in-effort-to-target-jihadist-group"
-    },
-    {
-      "headline": "DRC peace talks open in Geneva as M23 fighting shifts to remote highland areas",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/africa/20260414-drc-peace-talks-open-as-violence-shifts-to-remote-highlands"
-    },
-    {
-      "headline": "About 250 Rohingya and Bangladeshi migrants missing after boat capsizes in Andaman Sea",
+      "headline": "Israeli demolitions have destroyed more than 1,400 buildings in southern Lebanon since March 2, with international law experts warning the systematic destruction may constitute war crimes",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cz6778j78vlo"
+      "url": "https://www.bbc.com/news/articles/cdxkk1vnp57o"
     },
     {
-      "headline": "JD Vance defends campaign visit supporting Orb\u00e1n days before Hungarian PM's landslide election defeat",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c8dll93j7d5o"
+      "headline": "More than 36 Senate Democrats backed Bernie Sanders' resolutions to block US arms sales to Israel, more than doubling support from similar votes in 2024-2025",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260416-growing-discontent-democrats-back-sanders-block-arms-sales-israel"
     },
     {
-      "headline": "Australian PM Albanese visits Brunei seeking energy supply guarantees amid Iran war disruptions",
+      "headline": "TSMC reported record Q1 profit surging 58% on AI chip demand, pushing Taiwan's stock market value past the UK's",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/4e647b69-f130-4864-944c-3b4c0fcb1dbc"
+    },
+    {
+      "headline": "More than \u00a31 billion pledged at Berlin conference for Sudan humanitarian crisis, exceeding the $1 billion target as the world's largest humanitarian emergency enters its fourth year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/apr/15/more-than-1bn-pledged-for-sudan-as-humanitarian-crisis-deepens"
+    },
+    {
+      "headline": "Explosions and fire at Australia's Viva Energy refinery in Geelong sparked fuel supply fears, with the facility producing 10% of the nation's fuel",
       "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-04-15/anthony-albanese-brunei-visit-energy-security-trade-iran-war/106568168"
+      "url": "https://www.abc.net.au/news/2026-04-16/viva-energy-geelong-oil-refinery-fire-cause-petrol-prices/106570810"
     },
     {
-      "headline": "Sixteen injured after former student opens fire at high school in southeastern Turkey before killing himself",
+      "headline": "China's GDP growth accelerated to 5% in Q1 2026 despite Iran war disruptions, with exports offsetting weak domestic demand",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/economy/china-s-gdp-growth-accelerates-to-5-despite-iran-war"
+    },
+    {
+      "headline": "Peru's presidential election heads to June runoff between conservative Keiko Fujimori and left-wing Roberto Sanchez, as third-place finisher threatens fraud protests",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260415-peru-sanchez-fujimori-runoff-rival-protests-fraud"
+    },
+    {
+      "headline": "Iranian national Mahdieh Esfandiari returned to Tehran after release from French prison, one week after France secured release of two citizens held in Iran",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260415-iranian-citizen-held-in-france-returns-to-tehran-after-french-nationals-release"
+    },
+    {
+      "headline": "New German search engine allows people to discover if ancestors were Nazi Party members by searching millions of NSDAP membership cards",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c2k33xk24nyo"
+      "url": "https://www.bbc.com/news/articles/cr411ndee7yo"
+    },
+    {
+      "headline": "A jury found Live Nation and Ticketmaster had an anticompetitive monopoly over major concert venues, potentially requiring the company to pay back $1.72 per ticket in 22 states",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/business/article-ticketmaster-live-nation-trial-anticompetitive-monopoly/"
     }
   ]
 }
