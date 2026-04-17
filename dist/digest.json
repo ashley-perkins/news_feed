@@ -1,208 +1,190 @@
 {
-  "date": "Thursday, April 16, 2026",
-  "daily_brief": "The fragile US-Iran ceasefire enters its final week amid intensifying diplomatic efforts and mounting global economic strain. Pakistan's army chief arrived in Tehran bearing a new message from Washington [The Hindu], as officials report an 'in principle agreement' to extend the truce [Globe and Mail], though Iran's advisor warned the country will not abandon its Strait of Hormuz position until its rights are secured [The Hindu]. The US naval blockade continues to squeeze global energy markets, with European jet fuel shortages possible within weeks [France 24] and finance ministers from eleven nations including the UK, Australia, and New Zealand calling for restored transit through the waterway [RNZ]. Meanwhile, Russia launched devastating overnight strikes across Ukraine, killing at least 14-15 people including a 12-year-old boy in Kyiv, with attacks hitting Odesa and Dnipro in what officials called 'double-tap' strikes targeting first responders [France 24, BBC]. In Hungary, election winner P\u00e9ter Magyar pushed for rapid transfer of power in talks with President Sulyok, seeking to convene parliament as early as May 4 [BBC]. Domestically, President Trump faces unusual criticism from conservative Catholic allies over his public feud with Pope Leo XIV and the broader conduct of the Iran war [BBC].",
+  "date": "Friday, April 17, 2026",
+  "daily_brief": "The day's most consequential development was a surprise 10-day ceasefire between Israel and Lebanon announced by President Trump, which took effect at midnight local time amid celebrations in Beirut and skepticism in northern Israel [BBC], [Globe and Mail]. The truce comes as European leaders, led by France and the UK, convened roughly 40 nations in Paris to discuss plans for a multinational force to secure the Strait of Hormuz once the US-Iran conflict ends [France 24], [RFI], [The Hindu]. The IEA warned that Europe has approximately six weeks of jet fuel remaining if Gulf supplies remain blocked [BBC Europe]. Meanwhile, Italian PM Giorgia Meloni publicly broke with President Trump over the Iran war and his attacks on Pope Leo XIV, declaring that allies are 'not vassals' [France 24]. Russia launched its deadliest aerial assault on Ukraine in months, killing at least 18 people across Odesa, Dnipro, and Kyiv [BBC Europe]. Finance ministers meeting at the IMF in Washington expressed serious concern over Anthropic's new Claude Mythos AI model, which has identified vulnerabilities in major operating systems and browsers, prompting emergency discussions about financial system security [BBC World].",
   "top_stories": [
     {
-      "headline": "US-Iran Ceasefire Hangs by Thread as Pakistan Mediates, Blockade Continues",
-      "category": "Geopolitics",
-      "bullets": [
-        "Pakistan's Army Chief Field Marshal Asim Munir arrived in Tehran Wednesday bearing a new US message, seeking to arrange a second round of peace talks before the ceasefire expires next week",
-        "US officials said they are optimistic about reaching a deal, with regional officials reporting an 'in principle agreement' to extend the ceasefire",
-        "The US naval blockade of Iranian ports continues, with 10 vessels turned around since Monday, though two US-sanctioned supertankers have entered the Gulf",
-        "Iran's supreme leader advisor stated Iran will not leave the Strait of Hormuz until its rights are fully secured"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized US warnings of more economic pain and 'financial equivalent of bombing campaign'",
-          "url": "https://www.theglobeandmail.com/business/article-ticketmaster-live-nation-trial-anticompetitive-monopoly/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Pakistan's mediation role and Iran's position on Hormuz",
-          "url": "https://www.thehindu.com/news/international/explosions-fire-at-crucial-australian-refinery-sparks-fuel-supply-fears/article70867694.ece"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on Iranian civilian perspectives and uncertainty about ceasefire holding",
-          "url": "https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized economic consequences including potential European jet fuel shortages",
-          "url": "https://www.france24.com/en/americas/20260415-peru-sanchez-fujimori-runoff-rival-protests-fraud"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Overnight Strikes Kill at Least 14 Across Ukraine, Including Child in Kyiv",
+      "headline": "Trump Announces 10-Day Israel-Lebanon Ceasefire as Hezbollah's Response Remains Uncertain",
       "category": "Conflict",
       "bullets": [
-        "Russia launched waves of missile and drone attacks overnight hitting Kyiv, Odesa, and Dnipro, killing at least 14-15 people and injuring approximately 90",
-        "A 12-year-old boy and 35-year-old woman were among four killed in Kyiv, where a 16-storey residential building collapsed in the Podilsky district",
-        "Eight people died in Odesa and two-three in Dnipro; Ukraine's air force reported downing 31 missiles and 636 drones over 24 hours",
-        "Russia employed 'double-tap' attacks, striking locations again after first responders arrived; four emergency medical workers were injured in Kyiv"
+        "US President Trump announced that Israel and Lebanon agreed to a 10-day ceasefire effective midnight local time on April 17, with potential extension if negotiations progress",
+        "Israel retains the right to self-defense under the agreement; Lebanon must prevent Hezbollah and other armed groups from attacking Israeli targets",
+        "Lebanese Army reported Israeli 'acts of aggression' violating the ceasefire within hours of it taking effect; Hezbollah has not formally recognized the truce",
+        "Israeli forces remain deployed in southern Lebanon with five army divisions; Trump invited Netanyahu and Lebanese President Aoun to the White House for further talks"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized Israeli public skepticism and surprise within Netanyahu's own cabinet",
+          "url": "https://www.bbc.com/news/articles/cvg0z3n5e5jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on celebrations in Lebanon and humanitarian aspects of displaced families returning",
+          "url": "https://www.theglobeandmail.com/world/article-ice-head-todd-lyons-immigration/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted early ceasefire violations and Macron's warning that the truce 'may already be undermined'",
+          "url": "https://www.thehindu.com/news/international/pakistan-based-lets-co-founder-injured-in-attack-in-lahore/article70872490.ece"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Framed within broader Iran war context; emphasized Iranian foreign ministry welcoming the truce",
+          "url": "https://www.aljazeera.com/features/2026/4/17/young-south-sudanese-models-take-up-space-in-quest-to-showcase-talent?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "European Leaders Convene 40-Nation Summit to Plan Post-War Strait of Hormuz Security Mission",
+      "category": "Geopolitics",
+      "bullets": [
+        "France's Macron and UK's Starmer hosted roughly 40 countries in Paris to discuss deploying a multinational force to ensure navigation through the Strait of Hormuz after the Iran conflict ends",
+        "Germany's Merz and Italy's Meloni attended in person; China was invited but attendance unclear; US, Israel, and Iran excluded as 'belligerent' parties",
+        "Iran's blockade since February 28 and subsequent US counter-blockade have caused global energy price surges affecting food, fuel, and aviation",
+        "The IEA warned Europe has approximately six weeks of jet fuel remaining; flight cancellations possible if supplies are not restored"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Detailed the 'double-tap' tactic targeting first responders",
-          "url": "https://www.france24.com/en/americas/20260415-peru-sanchez-fujimori-runoff-rival-protests-fraud"
+          "framing_note": "Emphasized European consumer impacts including inflation and flight cancellations",
+          "url": "https://www.france24.com/en/france/20260417-macron-starmer-chair-meeting-to-mull-european-post-war-mission-in-hormuz-strait"
         },
         {
-          "name": "BBC Europe",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Noted two Ukrainian children killed in retaliatory drone strike on Russian territory",
-          "url": "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Straightforward casualty reporting with emphasis on residential damage",
-          "url": "https://www.theglobeandmail.com/business/article-ticketmaster-live-nation-trial-anticompetitive-monopoly/"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Brief headline coverage",
-          "url": "https://www.lemonde.fr/en/international/article/2026/04/16/russia-is-banking-on-cheap-energy-to-draw-hungary-back-into-its-orbit_6752477_4.html"
+          "framing_note": "Highlighted French foreign minister's framing of blockade's impact on French citizens and businesses",
+          "url": "https://www.rfi.fr/en/france/20260416-star-authors-quit-french-publisher-grasset-over-editor-s-sudden-departure"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Focused on air defense statistics",
-          "url": "https://www.thehindu.com/news/international/explosions-fire-at-crucial-australian-refinery-sparks-fuel-supply-fears/article70867694.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Nine Killed in Second Turkish School Shooting in Two Days",
-      "category": "Society",
-      "bullets": [
-        "A 14-year-old student killed eight students and one teacher at Ayser Calik Secondary School in Kahramanmaras, southern Turkey; the attacker was also killed",
-        "The shooter entered two classrooms armed with five guns and seven magazines allegedly belonging to his ex-police officer father, who has been detained",
-        "Thirteen others were wounded, six critically; video showed people jumping from first-floor windows during the attack",
-        "The shooting came one day after an ex-student opened fire at another high school in southern Turkey, injuring 16 before killing himself"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Characterized summit as attempt by 'sidelined nations' to address a conflict they didn't start",
+          "url": "https://www.thehindu.com/news/international/pakistan-based-lets-co-founder-injured-in-attack-in-lahore/article70872490.ece"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Led with stark IEA warning about jet fuel supplies; included UK government response",
+          "url": "https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Focused on humanitarian dimension\u2014millions facing hunger from disrupted fuel and fertilizer supplies",
+          "url": "https://www.economist.com/international/2026/04/07/when-emigration-helps-bad-rulers-survive"
         }
       ]
     },
     {
-      "headline": "Hungary's Election Winner Magyar Pushes for Rapid Power Transfer After Orb\u00e1n Defeat",
+      "headline": "Meloni Breaks with Trump Over Iran War and Pope Criticism, Declaring Italy 'Not a Vassal'",
       "category": "Geopolitics",
       "bullets": [
-        "P\u00e9ter Magyar, who ended Viktor Orb\u00e1n's 16-year rule in a landslide victory, met with President Tam\u00e1s Sulyok to discuss transition timeline",
-        "Magyar demanded parliament convene on May 4\u2014the day official results are expected\u2014and called for Sulyok to resign, saying he is 'unworthy of representing the unity of the Hungarian nation'",
-        "Sulyok said he would convene parliament 'at the earliest possible date' and officially propose Magyar as prime minister; new government likely to be elected May 6-7",
-        "Magyar, 45, arrived at the presidential palace and later posted video of himself with Sulyok on the balcony while Orb\u00e1n stood below"
+        "Trump called Italian PM Meloni 'unacceptable' in a Corriere della Sera interview for refusing to back the US-led war on Iran and condemning his attacks on Pope Leo XIV",
+        "Meloni responded that 'being allies does not mean there are no red lines, and it certainly does not mean being vassals or subjects'",
+        "Italy has suspended renewal of a defense deal with Israel amid the dispute",
+        "The rupture has been building since the US-Israel war on Iran began February 28 and may benefit Meloni domestically ahead of 2027 elections"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Detailed the political context and suggested the break could serve Meloni's domestic political interests",
+          "url": "https://www.france24.com/en/france/20260417-macron-starmer-chair-meeting-to-mull-european-post-war-mission-in-hormuz-strait"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Launches Deadliest Aerial Attack in Months on Ukraine, Killing at Least 18",
+      "category": "Conflict",
+      "bullets": [
+        "Russia fired over 700 drones and missiles at Ukraine overnight, killing at least 18 people\u20149 in Odesa, 5 in Dnipro, 4 in Kyiv including a 12-year-old boy",
+        "A 16-storey residential building collapsed in Kyiv's central Podil district; 45 people injured in the capital",
+        "Attack came days after a brief Orthodox Easter ceasefire, with both sides accusing the other of violations",
+        "Two people including a child killed in Ukrainian drone strike on Russia's Krasnodar region"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Focused on procedural timeline and Magyar's demands",
-          "url": "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Published opinion piece on 'pitfalls of Hungary's post-Orb\u00e1n transition'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/04/16/russia-is-banking-on-cheap-energy-to-draw-hungary-back-into-its-orbit_6752477_4.html"
+          "framing_note": "Straightforward factual account with eyewitness video descriptions and casualty details",
+          "url": "https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Trump Faces Backlash from Conservative Catholic Allies Over Pope Leo Feud",
-      "category": "Policy",
+      "headline": "Finance Ministers Sound Alarm Over Anthropic's Mythos AI Model's Cybersecurity Capabilities",
+      "category": "Technology",
       "bullets": [
-        "President Trump attacked Pope Leo XIV on social media as 'too liberal' and 'weak on crime,' and shared an AI image of himself as a Christ-like figure",
-        "Conservative Catholic allies who previously supported Trump, including Bishop Joseph Strickland who helped 'consecrate' Mar-a-Lago, have publicly criticized him",
-        "The criticism reflects deeper unease among Catholic conservatives over Trump's conduct of the Iran war, crystallizing a shift in opinion since the conflict began six weeks ago",
-        "The rift puts Trump at odds with the first American pope, straining a relationship that has previously been a source of political support"
+        "Anthropic's Claude Mythos model has identified vulnerabilities in every major operating system and browser, prompting crisis meetings among finance ministers at the IMF",
+        "Canadian Finance Minister Champagne said the issue warranted attention from all finance ministers, comparing it unfavorably to the known risk of Hormuz",
+        "Top bankers will be given advance access to test their systems' vulnerabilities",
+        "Barclays CEO described it as 'serious enough that people have to worry' and called for better understanding of the risks"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized this represents criticism from Trump's own base, not typical opponents",
-          "url": "https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
-          "url": "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Framed as unprecedented security threat requiring international coordination; quoted officials comparing uncertainty to Hormuz crisis",
+          "url": "https://www.bbc.com/news/articles/cvg0z3n5e5jo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Israeli demolitions have destroyed more than 1,400 buildings in southern Lebanon since March 2, with international law experts warning the systematic destruction may constitute war crimes",
+      "headline": "Myanmar's military leader Min Aung Hlaing, now civilian president, commutes all death sentences in apparent rebranding effort",
+      "source": "France 24, The Hindu",
+      "url": "https://www.france24.com/en/asia-pacific/20260417-myanmar-s-junta-leader-turned-civilian-president-commutes-all-death-sentences"
+    },
+    {
+      "headline": "Pope Leo XIV criticizes 'tyrants' spending billions on wars during Cameroon visit, days after public clash with Trump",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cdxkk1vnp57o"
+      "url": "https://www.bbc.com/news/articles/cvg0z3n5e5jo"
     },
     {
-      "headline": "More than 36 Senate Democrats backed Bernie Sanders' resolutions to block US arms sales to Israel, more than doubling support from similar votes in 2024-2025",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260416-growing-discontent-democrats-back-sanders-block-arms-sales-israel"
-    },
-    {
-      "headline": "TSMC reported record Q1 profit surging 58% on AI chip demand, pushing Taiwan's stock market value past the UK's",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/4e647b69-f130-4864-944c-3b4c0fcb1dbc"
-    },
-    {
-      "headline": "More than \u00a31 billion pledged at Berlin conference for Sudan humanitarian crisis, exceeding the $1 billion target as the world's largest humanitarian emergency enters its fourth year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/apr/15/more-than-1bn-pledged-for-sudan-as-humanitarian-crisis-deepens"
-    },
-    {
-      "headline": "Explosions and fire at Australia's Viva Energy refinery in Geelong sparked fuel supply fears, with the facility producing 10% of the nation's fuel",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-04-16/viva-energy-geelong-oil-refinery-fire-cause-petrol-prices/106570810"
-    },
-    {
-      "headline": "China's GDP growth accelerated to 5% in Q1 2026 despite Iran war disruptions, with exports offsetting weak domestic demand",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/china-s-gdp-growth-accelerates-to-5-despite-iran-war"
-    },
-    {
-      "headline": "Peru's presidential election heads to June runoff between conservative Keiko Fujimori and left-wing Roberto Sanchez, as third-place finisher threatens fraud protests",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260415-peru-sanchez-fujimori-runoff-rival-protests-fraud"
-    },
-    {
-      "headline": "Iranian national Mahdieh Esfandiari returned to Tehran after release from French prison, one week after France secured release of two citizens held in Iran",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260415-iranian-citizen-held-in-france-returns-to-tehran-after-french-nationals-release"
-    },
-    {
-      "headline": "New German search engine allows people to discover if ancestors were Nazi Party members by searching millions of NSDAP membership cards",
+      "headline": "Conservative Catholic allies publicly break with Trump over Iran war and attack on Pope Leo XIV",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cr411ndee7yo"
+      "url": "https://www.bbc.com/news/articles/c070jxyjrmeo"
     },
     {
-      "headline": "A jury found Live Nation and Ticketmaster had an anticompetitive monopoly over major concert venues, potentially requiring the company to pay back $1.72 per ticket in 22 states",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/business/article-ticketmaster-live-nation-trial-anticompetitive-monopoly/"
+      "headline": "US singer D4vd arrested on suspicion of murdering 14-year-old Celeste Rivas Hernandez found in his Tesla",
+      "source": "BBC World, Globe and Mail",
+      "url": "https://www.bbc.com/news/articles/c20d22ev21wo"
+    },
+    {
+      "headline": "Turkey suffers second school shooting in two days, leaving nine dead including eight students in Kahramanmaras",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cn088n9e6e9o"
+    },
+    {
+      "headline": "Acting US ICE head Todd Lyons to step down at end of May amid ongoing controversy over immigration enforcement",
+      "source": "Globe and Mail, Le Monde",
+      "url": "https://www.theglobeandmail.com/world/article-ice-head-todd-lyons-immigration/"
+    },
+    {
+      "headline": "Nearly 150 French authors quit publisher Grasset over dismissal of editor, citing Bollor\u00e9's 'ideological war'",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260416-star-authors-quit-french-publisher-grasset-over-editor-s-sudden-departure"
+    },
+    {
+      "headline": "Burkina Faso's military government dissolves over 100 NGOs and civil society groups in latest crackdown",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/4/17/burkina-faso-dissolves-more-than-100-ngos-and-civil-society-groups"
+    },
+    {
+      "headline": "World Athletics blocks 11 athlete transfer requests to Turkey over 'coordinated recruitment strategy'",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/4/17/world-athletics-deliver-nationality-switch-hammer-blow-to-turkiye"
+    },
+    {
+      "headline": "South Africa appoints former apartheid-era negotiator Roelf Meyer as ambassador to US in bid to repair relations",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/apr/15/south-africa-names-ambassador-us-roelf-meyer"
     }
   ]
 }
