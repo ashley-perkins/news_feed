@@ -1,208 +1,227 @@
 {
-  "date": "Saturday, April 18, 2026",
-  "daily_brief": "The fragile 10-day ceasefire between Israel and Lebanon entered its second day amid reports of violations and warnings from French President Macron that it 'may already be undermined' [BBC, RFI]. Iran reopened the Strait of Hormuz to commercial vessels for the duration of the truce, sending oil prices plunging from above $98 to $88 per barrel [BBC, France 24], though Tehran threatened to close the waterway again if the US blockade of Iranian ports continues [Al Jazeera, Globe and Mail]. President Trump declared a peace deal could come 'soon' but also warned the US would 'start dropping bombs again' if no agreement is reached by Wednesday [France 24, Al Jazeera]. In Europe, EU officials rushed to Budapest to fast-track cooperation with Hungary's Prime Minister-elect P\u00e9ter Magyar, whose Tisza party ended Viktor Orb\u00e1n's 16-year rule with a sweeping electoral victory [RFI, BBC]. The International Energy Agency warned that Europe has approximately six weeks of jet fuel remaining if Middle Eastern supplies are not restored [BBC]. Meanwhile, more than \u00a31 billion was pledged for Sudan at a Berlin conference as the humanitarian crisis deepens [Guardian], and Australia and Japan formalized a major defense agreement worth AU$20 billion for frigate construction [Nikkei Asia].",
+  "date": "Monday, May 04, 2026",
+  "daily_brief": "Tensions in the Strait of Hormuz escalated sharply Monday as the U.S. launched 'Project Freedom' to escort stranded commercial vessels through the waterway, with CENTCOM confirming two Navy destroyers entered the Gulf and two U.S. merchant ships transited the strait [Globe and Mail, France 24]. Iran warned the operation constitutes a ceasefire violation and claimed to have forced back a U.S. warship, though the Pentagon denied reports of missile strikes [Al Jazeera, Le Monde]. A South Korean ship suffered an explosion in the strait, with the cause under investigation [France 24]. In Europe, over 30 leaders convened in Yerevan for the European Political Community summit, with Armenia's hosting seen as a significant pivot away from Moscow [BBC, RFI]. President Macron called for coordinated diplomacy on Hormuz reopening, expressing skepticism about Washington's unilateral approach [RFI]. Meanwhile, India's BJP secured a historic breakthrough in West Bengal, one of its last major electoral frontiers [BBC, Nikkei Asia, Financial Times]. A suspected hantavirus outbreak on a cruise ship off Cape Verde has killed three passengers, with Cape Verde authorities refusing to allow the vessel to dock [Guardian, BBC, WHO].",
   "top_stories": [
     {
-      "headline": "Iran Reopens Strait of Hormuz During Lebanon Ceasefire, But Threatens Closure If US Blockade Continues",
-      "category": "Geopolitics",
+      "headline": "U.S. Navy Enters Persian Gulf to Break Iran Blockade as Tehran Warns of Escalation",
+      "category": "Conflict",
       "bullets": [
-        "Iranian Foreign Minister Abbas Araghchi announced the Strait of Hormuz is open to all commercial vessels for the remainder of the 10-day Israel-Lebanon ceasefire, though military vessels remain banned",
-        "Oil prices fell sharply from above $98 to $88 per barrel following the announcement; global stock markets rallied with the S&P 500 closing at a record above 7100",
-        "Iran threatened to close the strait again if the US maintains its blockade of Iranian ports; Trump stated the blockade will continue until a deal is '100 percent complete'",
-        "Trump claimed a peace deal could come 'soon' but warned the US would 'start dropping bombs again' if no agreement is reached by Wednesday"
+        "U.S. Central Command confirmed two guided-missile destroyers entered the Gulf and two U.S.-flagged merchant vessels transited the Strait of Hormuz under 'Project Freedom'",
+        "Iran claimed it forced a U.S. warship to turn back and fired warning shots; CENTCOM denied reports that Iranian missiles struck any vessels",
+        "A South Korean ship carrying 24 crew suffered an explosion and fire in the strait; UAE intercepted three Iranian drones over its waters",
+        "Oil prices jumped 5% on initial reports before retreating; the strait normally carries one-fifth of global seaborne oil"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on market impact and verification concerns from maritime groups",
-          "url": "https://www.bbc.com/news/articles/c4g4yl5dd4do?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on military and commercial shipping details with balanced U.S.-Iran claims",
+          "url": "https://www.theglobeandmail.com/culture/music/article-britney-spears-dui-charge-court/"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized diplomatic context and Trump's optimistic statements",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260417-renzi-urges-european-strategy-denounces-trump-s-global-chaos-and-populism-of-orb%C3%A1n-and-meloni"
+          "framing_note": "Emphasized live developments including South Korean ship incident and regional spillover",
+          "url": "https://www.france24.com/en/video/20260504-philippines-massive-ash-cloud-fills-sky-as-volcano-erupts"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlighted contradictions between US and Iranian messaging and Iran's conditions",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/4/18/new-jersey-announces-150-transit-tickets-to-reach-the-world-cup?traffic_source=rss"
+          "framing_note": "Highlighted Trump's 'all the cards' rhetoric and Iranian perspective on ceasefire violation",
+          "url": "https://www.aljazeera.com/sports/2026/5/4/formula-one-plans-return-to-v8-engines-as-electrical-revolution-loses-spark?traffic_source=rss"
         },
         {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized uncertainty and unsuccessful vessel crossing attempts",
-          "url": "https://www.theglobeandmail.com/world/article-canada-skips-us-sponsored-military-exercise-in-africa-as-it-reviews/"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Covered international diplomatic coordination including New Zealand's involvement",
-          "url": "https://www.rnz.co.nz/news/business/592743/wall-street-hits-record-highs-following-lebanon-ceasefire-economist-warns-market-still-volatile"
-        }
-      ]
-    },
-    {
-      "headline": "Israel-Lebanon Ceasefire Holds Amid Reported Violations and French Warnings",
-      "category": "Conflict",
-      "bullets": [
-        "A 10-day US-brokered ceasefire between Israel and Hezbollah took effect at midnight Thursday after six weeks of conflict that killed over 2,100 people and displaced more than one million in Lebanon",
-        "Lebanese army accused Israel of 'a number of violations' in southern Lebanon within hours of the truce beginning; French President Macron warned the ceasefire 'may already be undermined'",
-        "Israeli PM Netanyahu said Israeli troops would not withdraw and Israel would maintain a 10-kilometre security zone in southern Lebanon",
-        "Celebrations erupted in Lebanon with displaced residents beginning to return to the south, though many homes have been destroyed"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced coverage of celebrations and obstacles to lasting peace",
-          "url": "https://www.bbc.com/news/articles/c4g4yl5dd4do?at_medium=RSS&at_campaign=rss"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage emphasizing Iran's warning",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/04/iran-warns-of-ceasefire-violation-as-us-plans-to-escort-hormuz-ships_6753096_4.html"
         },
         {
           "name": "RFI",
           "lean": "Center",
-          "framing_note": "Emphasized Macron's concerns and diplomatic fragility",
+          "framing_note": "Stressed Macron's skepticism about U.S. initiative and call for coordinated diplomacy",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "European Leaders Gather in Armenia for Summit as Host Nation Pivots from Russia",
+      "category": "Geopolitics",
+      "bullets": [
+        "Over 30 European leaders plus Canadian PM Mark Carney convened in Yerevan for the European Political Community summit",
+        "Tuesday will see the first-ever bilateral EU-Armenia summit with von der Leyen and Costa attending",
+        "Armenia's shift follows Russia's failure to intervene during Azerbaijan's 2023 takeover of Nagorno-Karabakh",
+        "Putin recently reminded Armenia it receives Russian gas at $177.50 per 1,000 cubic meters versus $600 in Europe"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Emphasized the symbolic significance of hosting given Armenia's traditional Russian alignment",
+          "url": "#"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Focused on transatlantic tensions and Trump's shadow over proceedings",
+          "url": "#"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief video coverage noting security and trade discussions",
+          "url": "https://www.aljazeera.com/sports/2026/5/4/formula-one-plans-return-to-v8-engines-as-electrical-revolution-loses-spark?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Modi's BJP Wins Historic Victory in West Bengal, Completing Eastern India Expansion",
+      "category": "Policy",
+      "bullets": [
+        "BJP is set to form government in West Bengal for the first time, defeating three-term incumbent Mamata Banerjee",
+        "The state has over 100 million voters, making the election comparable to a national poll in scale",
+        "BJP also won Assam for a third term; in Kerala, Congress-led coalition defeated the Left Front",
+        "In Tamil Nadu, actor-turned-politician Vijay's TVK party swept aside the ruling DMK government"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Provided extensive context on BJP's long struggle to win Bengal and broader political significance",
+          "url": "#"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on vote counting trends",
+          "url": "https://asia.nikkei.com/politics/the-north-korean-defectors-running-as-conservatives-in-uk-local-elections"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Described result as 'historic landslide'",
+          "url": "https://www.ft.com/content/8656d0a1-2fd5-4392-9636-12b55f4abcab"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized end of left-wing governance in India and implications for opposition",
+          "url": "https://www.aljazeera.com/sports/2026/5/4/formula-one-plans-return-to-v8-engines-as-electrical-revolution-loses-spark?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Suspected Hantavirus Outbreak on Cruise Ship Kills Three; Vessel Barred from Cape Verde Port",
+      "category": "Society",
+      "bullets": [
+        "Three passengers died (Dutch couple, German national) on MV Hondius; a British man is in intensive care in South Africa with confirmed hantavirus",
+        "The ship carrying 149 people from 23 countries is anchored off Cape Verde after authorities refused docking permission",
+        "WHO confirmed one laboratory case and five suspected cases; the virus typically spreads via rodent contact, rarely between humans",
+        "Ship was on polar expedition from Argentina to Antarctica before heading to Cape Verde"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Detailed timeline of deaths and company statements",
+          "url": "#"
+        },
+        {
+          "name": "Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Cape Verde's refusal to allow docking and passenger accounts",
           "url": "#"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on broader US-Iran diplomatic context",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260417-renzi-urges-european-strategy-denounces-trump-s-global-chaos-and-populism-of-orb%C3%A1n-and-meloni"
+          "framing_note": "Provided background on hantavirus history including recent Gene Hackman family case",
+          "url": "https://www.france24.com/en/video/20260504-philippines-massive-ash-cloud-fills-sky-as-volcano-erupts"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Framed ceasefire as primarily about Trump's desire to end wider conflict",
-          "url": "https://www.theglobeandmail.com/world/article-canada-skips-us-sponsored-military-exercise-in-africa-as-it-reviews/"
+          "framing_note": "Included passenger video testimony about uncertainty",
+          "url": "https://www.theglobeandmail.com/culture/music/article-britney-spears-dui-charge-court/"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Featured microbiologist explaining need to identify outbreak source",
+          "url": "https://www.rnz.co.nz/news/political/594092/global-sumud-flotilla-calls-on-nz-government-to-intervene-after-israeli-interception"
         }
       ]
     },
     {
-      "headline": "EU Rushes to Unlock \u20ac17 Billion for Hungary as Magyar Prepares to Take Power",
-      "category": "Policy",
+      "headline": "Ukrainian Drones Strike Moscow Residential Building Days Before Victory Day Parade",
+      "category": "Conflict",
       "bullets": [
-        "EU officials met with Prime Minister-elect P\u00e9ter Magyar's team in Budapest to fast-track cooperation and work toward unblocking approximately \u20ac17 billion in frozen EU funds",
-        "Magyar's Tisza party won 52% of the vote in the April 12 election, securing 140 of 199 parliamentary seats and ending Viktor Orb\u00e1n's 16-year rule",
-        "Funds were frozen since 2022 over concerns about corruption, judicial independence, and rule of law under Orb\u00e1n's government",
-        "Magyar plans to use his supermajority to retroactively limit prime ministerial terms to two, potentially blocking Orb\u00e1n's return"
+        "A drone hit an upmarket high-rise in southwest Moscow, less than 10km from the Kremlin, causing visible fa\u00e7ade damage but no casualties",
+        "Russia reported intercepting 117 drones overnight across multiple regions; 60 targeted St. Petersburg in what governor called 'massive' attack",
+        "Vnukovo and Domodedovo airports suspended operations overnight",
+        "Attack came third consecutive night before Russia's scaled-back May 9 Victory Day parade"
       ],
       "sources": [
         {
-          "name": "RFI",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Focused on EU funding mechanics and timeline pressures",
+          "framing_note": "Straightforward reporting with geographic context and parade timing",
           "url": "#"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Emphasized Magyar's rapid moves to consolidate power and reform media",
-          "url": "https://www.bbc.com/news/articles/cz9025d7jqzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Title framed Orb\u00e1n's defeat as blow to 'reactionary international' (article content unavailable)",
-          "url": "https://www.lemonde.fr/en/pixels/article/2026/04/18/france-s-clair-obscur-wins-bafta-for-best-video-game_6752551_13.html"
-        }
-      ]
-    },
-    {
-      "headline": "Europe Faces Jet Fuel Crisis With Six Weeks of Supply Remaining, IEA Warns",
-      "category": "Economics",
-      "bullets": [
-        "International Energy Agency executive director Fatih Birol warned Europe has 'maybe six weeks of jet fuel left' if Middle Eastern imports cannot be partially replaced",
-        "The Strait of Hormuz closure has disrupted the largest source of jet fuel to global markets; Gulf refineries supply much of global aviation fuel",
-        "IEA report noted that alternative suppliers like Korea, India, and China are themselves dependent on Middle Eastern crude",
-        "UK government stated airlines are 'currently not seeing disruption to supply' but is working with suppliers on contingency plans"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused on potential flight cancellations and industry response",
-          "url": "https://www.bbc.com/news/articles/cz9025d7jqzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Covered related naphtha shortages affecting Japanese manufacturers despite government assurances",
-          "url": "https://asia.nikkei.com/business/business-trends/naphtha-crunch-bites-japanese-companies-despite-pm-s-assurances"
-        }
-      ]
-    },
-    {
-      "headline": "Over \u00a31 Billion Pledged for Sudan at Berlin Conference as Humanitarian Crisis Deepens",
-      "category": "Conflict",
-      "bullets": [
-        "International donors pledged \u00a31.13 billion at a Berlin conference for Sudan, exceeding the $1 billion target set by German organizers",
-        "Three years of conflict have left 34 million people\u2014two-thirds of Sudan's population\u2014requiring humanitarian assistance in what the UN calls the world's largest humanitarian crisis",
-        "Neither Sudan's army nor the Rapid Support Forces attended the conference; Sudan's army-aligned foreign ministry accused Western countries of a 'colonial tutelage approach'",
-        "US senior adviser Massad Boulos said Washington is seeking a humanitarian truce and is 'not taking sides' in the war"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized protests against UAE's alleged RSF support and distant prospects for peace",
-          "url": "https://www.theguardian.com/world/2026/apr/15/ashly-robinson-death-influencer-zanzibar"
+          "framing_note": "Duplicate coverage with same framing",
+          "url": "https://www.bbc.com/news/articles/cewpx5yvwyxo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Australia and Japan sign AU$20 billion deal for Mitsubishi Heavy Industries to build frigates, deepening defense ties",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/defense/australia-and-japan-sign-mogami-deal-pivot-to-deeper-defense-ties"
+      "headline": "Two senior Republican lawmakers criticize Pentagon decision to cut 5,000 U.S. troops from Germany, saying it sends wrong signal to Russia",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cewpx5yvwyxo"
     },
     {
-      "headline": "China lodges 'serious protest' over New Zealand Air Force reconnaissance flights near its airspace, which NZDF denies disrupted civil aviation",
+      "headline": "France uses G7 presidency to press for faster global methane cuts as IEA reports fossil fuel emissions remain near record highs",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/environment/20260504-france-urges-faster-methane-cuts-as-emissions-remain-at-record-high-environment"
+    },
+    {
+      "headline": "New Zealand exporters may be eligible for up to $1 billion in tariff refunds after U.S. Supreme Court reversed Trump's Liberation Day tariffs",
       "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/political/592746/china-lodges-serious-protest-over-nz-air-force-s-conduct-in-its-air-space-nzdf-denies-disruption"
+      "url": "https://www.rnz.co.nz/news/business/594128/nz-exporters-scramble-for-us-tariff-refunds-after-us-supreme-court-ruling"
     },
     {
-      "headline": "Suspected Irish crime boss Daniel Kinahan arrested in Dubai under warrant from Irish courts",
+      "headline": "Rudy Giuliani hospitalized in stable but critical condition; no details on illness released",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c4g4yl5dd4do"
+      "url": "https://www.bbc.com/news/articles/c7941rgy4lyo"
     },
     {
-      "headline": "South African politician Julius Malema sentenced to five years in prison for firing rifle at 2018 political rally; appeal filed",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/apr/16/south-africa-julius-malema-jail-term-rifle"
+      "headline": "Zambia cancels RightsCon human rights and technology summit days before start, citing need to align with 'national values'",
+      "source": "Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/may/02/zambia-cancels-rightscon-summit-largest-human-rights-technology-conference"
     },
     {
-      "headline": "Palestinian Authority extradites suspect in 1982 Paris Jewish restaurant attack that killed six people",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cj94pkyr9mpo"
+      "headline": "Two U.S. service members missing after military exercises near cliff in southwestern Morocco",
+      "source": "Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/may/03/service-members-missing-military-exercises-morocco"
     },
     {
-      "headline": "Meta contractor Sama fires over 1,000 Kenyan workers after losing AI training contract",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/apr/17/kenyan-outsourcing-company-for-meta-sacks-workers"
+      "headline": "Jean-Luc M\u00e9lenchon announces candidacy for France's 2027 presidential election",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20260503-french-hard-left-politician-m%C3%A9lenchon-to-stand-in-2027-presidential-election"
     },
     {
-      "headline": "Kanye West concert in Poland cancelled following government pressure over antisemitic comments",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/czx95rl4ek5o"
+      "headline": "Australia to wind back electric vehicle fringe benefits tax exemption starting 2027, saving $1.7 billion over four years",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-05-04/electric-vehicle-tax-discount-to-be-wound-back/106639618"
     },
     {
-      "headline": "US extends waiver allowing countries to purchase sanctioned Russian oil through May 16 to control energy prices",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-us-extends-waiver-allowing-countries-to-buy-russian-oil/"
-    },
-    {
-      "headline": "Pope Leo XIV celebrates Mass with 120,000 attendees in Cameroon, warns of AI dangers spreading 'polarisation and violence'",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cdj7kwn1d78o"
-    },
-    {
-      "headline": "Turkish police detain 162 people over online posts about school shootings that killed nine this week",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cz9025d7jqzo"
+      "headline": "Global Sumud Flotilla carrying Gaza aid intercepted by Israel near Crete; New Zealanders among 175 detained",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/political/594092/global-sumud-flotilla-calls-on-nz-government-to-intervene-after-israeli-interception"
     }
   ]
 }
