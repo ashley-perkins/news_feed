@@ -1,227 +1,184 @@
 {
-  "date": "Monday, May 04, 2026",
-  "daily_brief": "Tensions in the Strait of Hormuz escalated sharply Monday as the U.S. launched 'Project Freedom' to escort stranded commercial vessels through the waterway, with CENTCOM confirming two Navy destroyers entered the Gulf and two U.S. merchant ships transited the strait [Globe and Mail, France 24]. Iran warned the operation constitutes a ceasefire violation and claimed to have forced back a U.S. warship, though the Pentagon denied reports of missile strikes [Al Jazeera, Le Monde]. A South Korean ship suffered an explosion in the strait, with the cause under investigation [France 24]. In Europe, over 30 leaders convened in Yerevan for the European Political Community summit, with Armenia's hosting seen as a significant pivot away from Moscow [BBC, RFI]. President Macron called for coordinated diplomacy on Hormuz reopening, expressing skepticism about Washington's unilateral approach [RFI]. Meanwhile, India's BJP secured a historic breakthrough in West Bengal, one of its last major electoral frontiers [BBC, Nikkei Asia, Financial Times]. A suspected hantavirus outbreak on a cruise ship off Cape Verde has killed three passengers, with Cape Verde authorities refusing to allow the vessel to dock [Guardian, BBC, WHO].",
+  "date": "Tuesday, May 05, 2026",
+  "daily_brief": "Tensions in the Middle East dominated headlines as US forces moved to reopen the Strait of Hormuz, sinking six Iranian boats and escorting merchant vessels through the critical chokepoint, while Iran retaliated with missile and drone strikes on UAE facilities [France 24, Globe and Mail]. Saudi Arabia called for de-escalation as the UN Security Council prepared emergency consultations. In Europe, EU and US trade officials met in Paris amid renewed threats from President Trump to impose 25% tariffs on European vehicles [RFI], while the European Political Community summit in Armenia highlighted growing concerns over US security commitments, with President Macron noting Europe's 'over-reliance on the US security umbrella' [BBC Europe]. Russia declared a unilateral ceasefire in Ukraine for Victory Day celebrations, threatening massive strikes on Kyiv if violated; Ukraine responded with its own separate truce timeline [Globe and Mail, The Hindu]. A tragic car-ramming attack in Leipzig killed two and injured 22, with German authorities investigating a 33-year-old suspect with a history of mental illness [BBC]. Meanwhile, an explosion at a fireworks factory in China's Hunan province killed at least 26 people, prompting President Xi to order a full investigation [Al Jazeera, Globe and Mail].",
   "top_stories": [
     {
-      "headline": "U.S. Navy Enters Persian Gulf to Break Iran Blockade as Tehran Warns of Escalation",
+      "headline": "US Forces Break Strait of Hormuz Blockade, Iran Strikes Back at UAE",
       "category": "Conflict",
       "bullets": [
-        "U.S. Central Command confirmed two guided-missile destroyers entered the Gulf and two U.S.-flagged merchant vessels transited the Strait of Hormuz under 'Project Freedom'",
-        "Iran claimed it forced a U.S. warship to turn back and fired warning shots; CENTCOM denied reports that Iranian missiles struck any vessels",
-        "A South Korean ship carrying 24 crew suffered an explosion and fire in the strait; UAE intercepted three Iranian drones over its waters",
-        "Oil prices jumped 5% on initial reports before retreating; the strait normally carries one-fifth of global seaborne oil"
+        "US military sank six Iranian boats and escorted two American-flagged merchant ships through the Strait of Hormuz on Monday as part of 'Project Freedom'",
+        "Iran launched 15 missiles and four drones at UAE; one struck an oil facility in Fujairah, wounding three workers",
+        "Danish freight company Maersk confirmed one of its vessels successfully transited under US military escort",
+        "Saudi Arabia called for immediate de-escalation; UN Security Council scheduled closed-door meeting on Lebanon"
       ],
       "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on military and commercial shipping details with balanced U.S.-Iran claims",
-          "url": "https://www.theglobeandmail.com/culture/music/article-britney-spears-dui-charge-court/"
-        },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized live developments including South Korean ship incident and regional spillover",
-          "url": "https://www.france24.com/en/video/20260504-philippines-massive-ash-cloud-fills-sky-as-volcano-erupts"
+          "framing_note": "Detailed operational coverage emphasizing Iranian warnings and diplomatic responses",
+          "url": "https://www.france24.com/en/europe/20260504-armenia-turns-towards-europe-as-macron-highlights-shift-from-russia"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on Trump's 'Project Freedom' announcement and congressional authorization questions",
+          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-ceasefire-wwii-victory-day/"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Trump's 'all the cards' rhetoric and Iranian perspective on ceasefire violation",
-          "url": "https://www.aljazeera.com/sports/2026/5/4/formula-one-plans-return-to-v8-engines-as-electrical-revolution-loses-spark?traffic_source=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Brief coverage emphasizing Iran's warning",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/04/iran-warns-of-ceasefire-violation-as-us-plans-to-escort-hormuz-ships_6753096_4.html"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Stressed Macron's skepticism about U.S. initiative and call for coordinated diplomacy",
-          "url": "#"
+          "framing_note": "Emphasized oil price impacts and characterized events as 'dangerous escalation'",
+          "url": "https://www.aljazeera.com/features/2026/5/5/what-comes-next-fear-grips-pakistani-families-of-somali-piracy-victims?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "European Leaders Gather in Armenia for Summit as Host Nation Pivots from Russia",
-      "category": "Geopolitics",
+      "headline": "EU-US Trade Talks Resume in Paris Amid Trump's 25% Tariff Threat on European Vehicles",
+      "category": "Economics",
       "bullets": [
-        "Over 30 European leaders plus Canadian PM Mark Carney convened in Yerevan for the European Political Community summit",
-        "Tuesday will see the first-ever bilateral EU-Armenia summit with von der Leyen and Costa attending",
-        "Armenia's shift follows Russia's failure to intervene during Azerbaijan's 2023 takeover of Nagorno-Karabakh",
-        "Putin recently reminded Armenia it receives Russian gas at $177.50 per 1,000 cubic meters versus $600 in Europe"
+        "EU Trade Commissioner Maros Sefcovic met with US Trade Representative Jamieson Greer in Paris on Tuesday",
+        "Trump announced Friday that tariffs on EU cars could rise to 25% as early as this week, accusing EU of failing to honor summer 2024 agreement",
+        "Greer said EU has not made meaningful changes to tariffs or regulatory framework despite tariff bill advancing in European Parliament",
+        "EU pushed back firmly, with spokesman insisting the bloc is meeting its commitments"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized the symbolic significance of hosting given Armenia's traditional Russian alignment",
-          "url": "#"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Focused on transatlantic tensions and Trump's shadow over proceedings",
-          "url": "#"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief video coverage noting security and trade discussions",
-          "url": "https://www.aljazeera.com/sports/2026/5/4/formula-one-plans-return-to-v8-engines-as-electrical-revolution-loses-spark?traffic_source=rss"
+          "framing_note": "Balanced coverage presenting both US complaints and EU rebuttals",
+          "url": "https://www.rfi.fr/en/africa/20260504-are-mali-s-tuareg-led-fla-fighters-terrorists-or-separatists-azawad-liberation-front"
         }
       ]
     },
     {
-      "headline": "Modi's BJP Wins Historic Victory in West Bengal, Completing Eastern India Expansion",
-      "category": "Policy",
-      "bullets": [
-        "BJP is set to form government in West Bengal for the first time, defeating three-term incumbent Mamata Banerjee",
-        "The state has over 100 million voters, making the election comparable to a national poll in scale",
-        "BJP also won Assam for a third term; in Kerala, Congress-led coalition defeated the Left Front",
-        "In Tamil Nadu, actor-turned-politician Vijay's TVK party swept aside the ruling DMK government"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Provided extensive context on BJP's long struggle to win Bengal and broader political significance",
-          "url": "#"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on vote counting trends",
-          "url": "https://asia.nikkei.com/politics/the-north-korean-defectors-running-as-conservatives-in-uk-local-elections"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Described result as 'historic landslide'",
-          "url": "https://www.ft.com/content/8656d0a1-2fd5-4392-9636-12b55f4abcab"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized end of left-wing governance in India and implications for opposition",
-          "url": "https://www.aljazeera.com/sports/2026/5/4/formula-one-plans-return-to-v8-engines-as-electrical-revolution-loses-spark?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Suspected Hantavirus Outbreak on Cruise Ship Kills Three; Vessel Barred from Cape Verde Port",
+      "headline": "Two Dead, 22 Injured After Car Rams Crowd in Leipzig Shopping District",
       "category": "Society",
       "bullets": [
-        "Three passengers died (Dutch couple, German national) on MV Hondius; a British man is in intensive care in South Africa with confirmed hantavirus",
-        "The ship carrying 149 people from 23 countries is anchored off Cape Verde after authorities refused docking permission",
-        "WHO confirmed one laboratory case and five suspected cases; the virus typically spreads via rodent contact, rarely between humans",
-        "Ship was on polar expedition from Argentina to Antarctica before heading to Cape Verde"
+        "A 33-year-old German citizen drove a car into pedestrians on Grimmaische Stra\u00dfe in central Leipzig at approximately 5:35 PM local time",
+        "Two people were killed and 22 injured, including three with serious injuries",
+        "Saxony state premier said the suspect had a history of mental illness; motive remains unclear",
+        "Suspect was arrested at the scene; authorities treating incident as a lone-perpetrator rampage"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed timeline of deaths and company statements",
-          "url": "#"
-        },
-        {
-          "name": "Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Cape Verde's refusal to allow docking and passenger accounts",
-          "url": "#"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Provided background on hantavirus history including recent Gene Hackman family case",
-          "url": "https://www.france24.com/en/video/20260504-philippines-massive-ash-cloud-fills-sky-as-volcano-erupts"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Included passenger video testimony about uncertainty",
-          "url": "https://www.theglobeandmail.com/culture/music/article-britney-spears-dui-charge-court/"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Featured microbiologist explaining need to identify outbreak source",
-          "url": "https://www.rnz.co.nz/news/political/594092/global-sumud-flotilla-calls-on-nz-government-to-intervene-after-israeli-interception"
-        }
-      ]
-    },
-    {
-      "headline": "Ukrainian Drones Strike Moscow Residential Building Days Before Victory Day Parade",
-      "category": "Conflict",
-      "bullets": [
-        "A drone hit an upmarket high-rise in southwest Moscow, less than 10km from the Kremlin, causing visible fa\u00e7ade damage but no casualties",
-        "Russia reported intercepting 117 drones overnight across multiple regions; 60 targeted St. Petersburg in what governor called 'massive' attack",
-        "Vnukovo and Domodedovo airports suspended operations overnight",
-        "Attack came third consecutive night before Russia's scaled-back May 9 Victory Day parade"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting with geographic context and parade timing",
-          "url": "#"
+          "framing_note": "Straightforward factual reporting with official statements",
+          "url": "https://www.bbc.com/news/articles/cvg0w84q1wyo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Duplicate coverage with same framing",
-          "url": "https://www.bbc.com/news/articles/cewpx5yvwyxo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Duplicate coverage from same outlet",
+          "url": "https://www.bbc.com/news/articles/cp8pn8py5gro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Declares Victory Day Ceasefire, Ukraine Announces Separate Truce",
+      "category": "Conflict",
+      "bullets": [
+        "Russia declared unilateral ceasefire for May 8-9 to mark 81st anniversary of WWII Victory Day, threatening 'massive missile strike' on Kyiv if violated",
+        "Ukraine responded by declaring its own truce for May 5-6, calling Russian timing 'not serious'",
+        "Moscow's Victory Day parade on Red Square will be scaled back due to Ukrainian drone attack concerns",
+        "Russian drones and missiles struck Ukrainian gas facilities Tuesday, killing five including three Naftogaz employees"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized pattern of failed previous ceasefire attempts",
+          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-ceasefire-wwii-victory-day/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Noted Ukraine dismissed Russian ceasefire as tied to 'military holiday'",
+          "url": "https://www.thehindu.com/news/international/russian-drones-missiles-kill-five-at-ukraines-naftogaz-gas-production-plants-ceo-says/article70941671.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Explosion at Chinese Fireworks Factory Kills at Least 26, Injures 61",
+      "category": "Society",
+      "bullets": [
+        "Blast occurred Monday at Huasheng Fireworks Manufacturing plant in Liuyang, Hunan province, China's fireworks manufacturing hub",
+        "President Xi Jinping ordered thorough investigation and accountability for those responsible",
+        "Nearly 500 emergency personnel and three rescue robots deployed; residents evacuated within 3km due to risk from remaining warehouses",
+        "Person in charge of the company has been detained; rescue operations continued into Tuesday"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Reported initial death toll of 21",
+          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-ceasefire-wwii-victory-day/"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Updated death toll to 26; emphasized Xi's accountability statement",
+          "url": "https://www.aljazeera.com/features/2026/5/5/what-comes-next-fear-grips-pakistani-families-of-somali-piracy-victims?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Brief factual coverage with updated casualty figures",
+          "url": "https://www.thehindu.com/news/international/russian-drones-missiles-kill-five-at-ukraines-naftogaz-gas-production-plants-ceo-says/article70941671.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Two senior Republican lawmakers criticize Pentagon decision to cut 5,000 U.S. troops from Germany, saying it sends wrong signal to Russia",
+      "headline": "Suspected hantavirus outbreak on cruise ship MV Hondius kills three, leaves British passenger in intensive care as WHO investigates",
+      "source": "BBC World, The Guardian, Globe and Mail",
+      "url": "https://www.bbc.com/news/articles/cy0294829ndo"
+    },
+    {
+      "headline": "European Political Community summit in Armenia addresses defense concerns as Macron warns of over-reliance on US security umbrella",
+      "source": "BBC Europe, France 24",
+      "url": "https://www.bbc.com/news/articles/cn0pyle4jeeo"
+    },
+    {
+      "headline": "Macron declares Armenia has chosen path 'towards Europe' during Yerevan visit, highlighting shift from Russian influence",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260504-armenia-turns-towards-europe-as-macron-highlights-shift-from-russia"
+    },
+    {
+      "headline": "Spain seizes record cocaine haul of up to 45,000kg from freighter in Atlantic Ocean near Canary Islands",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cewpx5yvwyxo"
+      "url": "https://www.bbc.com/news/articles/cp8pn8py5gro"
     },
     {
-      "headline": "France uses G7 presidency to press for faster global methane cuts as IEA reports fossil fuel emissions remain near record highs",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/environment/20260504-france-urges-faster-methane-cuts-as-emissions-remain-at-record-high-environment"
+      "headline": "India and Russia sign defense pact allowing troops and warships to be stationed on each other's territory",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/defense/india-russia-pact-allows-troops-and-warships-on-each-other-s-soil"
     },
     {
-      "headline": "New Zealand exporters may be eligible for up to $1 billion in tariff refunds after U.S. Supreme Court reversed Trump's Liberation Day tariffs",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/business/594128/nz-exporters-scramble-for-us-tariff-refunds-after-us-supreme-court-ruling"
+      "headline": "Nine workers killed in Colombia coal mine explosion weeks after safety warnings about gas buildup",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/5/5/nine-workers-killed-in-colombia-coal-mine-explosion"
     },
     {
-      "headline": "Rudy Giuliani hospitalized in stable but critical condition; no details on illness released",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c7941rgy4lyo"
+      "headline": "French cycling prodigy Paul Seixas, 19, to become youngest Tour de France starter since 1937",
+      "source": "RFI English, France 24",
+      "url": "https://www.rfi.fr/en/sports/20260504-teenage-french-cycling-prodigy-set-to-race-in-2026-tour-de-france-paul-seixas"
     },
     {
-      "headline": "Zambia cancels RightsCon human rights and technology summit days before start, citing need to align with 'national values'",
-      "source": "Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/may/02/zambia-cancels-rightscon-summit-largest-human-rights-technology-conference"
+      "headline": "Indonesia reports 5.61% GDP growth in Q1 2026, boosted by Ramadan and Eid spending",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/economy/indonesia-posts-5.61-gdp-growth-in-first-quarter-buoyed-by-eid-spending"
     },
     {
-      "headline": "Two U.S. service members missing after military exercises near cliff in southwestern Morocco",
-      "source": "Guardian",
+      "headline": "Two US service members missing after military exercises in Morocco, search and rescue underway",
+      "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/2026/may/03/service-members-missing-military-exercises-morocco"
     },
     {
-      "headline": "Jean-Luc M\u00e9lenchon announces candidacy for France's 2027 presidential election",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20260503-french-hard-left-politician-m%C3%A9lenchon-to-stand-in-2027-presidential-election"
-    },
-    {
-      "headline": "Australia to wind back electric vehicle fringe benefits tax exemption starting 2027, saving $1.7 billion over four years",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-05-04/electric-vehicle-tax-discount-to-be-wound-back/106639618"
-    },
-    {
-      "headline": "Global Sumud Flotilla carrying Gaza aid intercepted by Israel near Crete; New Zealanders among 175 detained",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/political/594092/global-sumud-flotilla-calls-on-nz-government-to-intervene-after-israeli-interception"
+      "headline": "CK Hutchison to sell VodafoneThree stake for $5.8 billion as Hong Kong conglomerate builds cash reserves",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/business-deals/ck-hutchison-to-sell-vodafonethree-stake-for-5.8bn"
     }
   ]
 }
