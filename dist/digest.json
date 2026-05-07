@@ -1,184 +1,166 @@
 {
-  "date": "Tuesday, May 05, 2026",
-  "daily_brief": "Tensions in the Middle East dominated headlines as US forces moved to reopen the Strait of Hormuz, sinking six Iranian boats and escorting merchant vessels through the critical chokepoint, while Iran retaliated with missile and drone strikes on UAE facilities [France 24, Globe and Mail]. Saudi Arabia called for de-escalation as the UN Security Council prepared emergency consultations. In Europe, EU and US trade officials met in Paris amid renewed threats from President Trump to impose 25% tariffs on European vehicles [RFI], while the European Political Community summit in Armenia highlighted growing concerns over US security commitments, with President Macron noting Europe's 'over-reliance on the US security umbrella' [BBC Europe]. Russia declared a unilateral ceasefire in Ukraine for Victory Day celebrations, threatening massive strikes on Kyiv if violated; Ukraine responded with its own separate truce timeline [Globe and Mail, The Hindu]. A tragic car-ramming attack in Leipzig killed two and injured 22, with German authorities investigating a 33-year-old suspect with a history of mental illness [BBC]. Meanwhile, an explosion at a fireworks factory in China's Hunan province killed at least 26 people, prompting President Xi to order a full investigation [Al Jazeera, Globe and Mail].",
+  "date": "Thursday, May 07, 2026",
+  "daily_brief": "Diplomatic efforts to end the US-Iran war intensified Thursday, with Tehran reviewing a 14-point US proposal that could establish a framework for ceasefire negotiations [BBC], [Globe and Mail]. President Trump expressed optimism that a deal was close, though he threatened to resume bombing if talks collapse [France 24]. The conflict's economic reverberations continued to shape global markets: Japanese stocks surged to historic highs on peace hopes [Nikkei Asia], while Shell reported elevated Q1 profits driven by oil prices that have fluctuated between $100-120 per barrel since the Strait of Hormuz closure [BBC]. France announced it is repositioning its aircraft carrier strike group toward the Red Sea for a potential Franco-British defensive mission in the strait, distinct from US military operations [RFI], [Globe and Mail]. Meanwhile, the Israel-Hezbollah ceasefire showed signs of strain as Israel struck Beirut's southern suburbs for the first time since the April agreement, targeting a Hezbollah commander [BBC]. In the Pacific, Solomon Islands Prime Minister Jeremiah Manele was ousted in a no-confidence vote after weeks of political turmoil [RNZ]. UK voters headed to polls in local elections seen as a critical test for Prime Minister Keir Starmer's struggling Labour government [France 24].",
   "top_stories": [
     {
-      "headline": "US Forces Break Strait of Hormuz Blockade, Iran Strikes Back at UAE",
-      "category": "Conflict",
+      "headline": "Iran Reviews US Peace Proposal as Trump Predicts War Will End 'Quickly'",
+      "category": "Geopolitics",
       "bullets": [
-        "US military sank six Iranian boats and escorted two American-flagged merchant ships through the Strait of Hormuz on Monday as part of 'Project Freedom'",
-        "Iran launched 15 missiles and four drones at UAE; one struck an oil facility in Fujairah, wounding three workers",
-        "Danish freight company Maersk confirmed one of its vessels successfully transited under US military escort",
-        "Saudi Arabia called for immediate de-escalation; UN Security Council scheduled closed-door meeting on Lebanon"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Detailed operational coverage emphasizing Iranian warnings and diplomatic responses",
-          "url": "https://www.france24.com/en/europe/20260504-armenia-turns-towards-europe-as-macron-highlights-shift-from-russia"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on Trump's 'Project Freedom' announcement and congressional authorization questions",
-          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-ceasefire-wwii-victory-day/"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized oil price impacts and characterized events as 'dangerous escalation'",
-          "url": "https://www.aljazeera.com/features/2026/5/5/what-comes-next-fear-grips-pakistani-families-of-somali-piracy-victims?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "EU-US Trade Talks Resume in Paris Amid Trump's 25% Tariff Threat on European Vehicles",
-      "category": "Economics",
-      "bullets": [
-        "EU Trade Commissioner Maros Sefcovic met with US Trade Representative Jamieson Greer in Paris on Tuesday",
-        "Trump announced Friday that tariffs on EU cars could rise to 25% as early as this week, accusing EU of failing to honor summer 2024 agreement",
-        "Greer said EU has not made meaningful changes to tariffs or regulatory framework despite tariff bill advancing in European Parliament",
-        "EU pushed back firmly, with spokesman insisting the bloc is meeting its commitments"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Balanced coverage presenting both US complaints and EU rebuttals",
-          "url": "https://www.rfi.fr/en/africa/20260504-are-mali-s-tuareg-led-fla-fighters-terrorists-or-separatists-azawad-liberation-front"
-        }
-      ]
-    },
-    {
-      "headline": "Two Dead, 22 Injured After Car Rams Crowd in Leipzig Shopping District",
-      "category": "Society",
-      "bullets": [
-        "A 33-year-old German citizen drove a car into pedestrians on Grimmaische Stra\u00dfe in central Leipzig at approximately 5:35 PM local time",
-        "Two people were killed and 22 injured, including three with serious injuries",
-        "Saxony state premier said the suspect had a history of mental illness; motive remains unclear",
-        "Suspect was arrested at the scene; authorities treating incident as a lone-perpetrator rampage"
+        "Iran's foreign ministry confirmed it is reviewing a US proposal described as a 14-point memorandum that could establish a framework for nuclear negotiations, with Pakistan serving as mediator",
+        "Reported provisions include suspension of Iranian nuclear enrichment, lifting of sanctions, and restoring transit through the Strait of Hormuz, though many terms are contingent on a final agreement",
+        "President Trump told reporters Iran 'wants to make a deal' after 'very good talks,' but earlier threatened to resume bombing if Tehran rejects the proposal",
+        "Iranian parliamentary officials dismissed the proposal as a 'wish list,' while Pakistan's foreign minister said his country is working to convert the ceasefire into a permanent end to the war"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Straightforward factual reporting with official statements",
-          "url": "https://www.bbc.com/news/articles/cvg0w84q1wyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Balanced coverage emphasizing both diplomatic progress and Iranian skepticism",
+          "url": "https://www.bbc.com/news/articles/czj2emlv2kjo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "BBC Europe",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Duplicate coverage from same outlet",
-          "url": "https://www.bbc.com/news/articles/cp8pn8py5gro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on unresolved issues including nuclear program and Strait of Hormuz",
+          "url": "https://www.theglobeandmail.com/world/article-france-moves-aircraft-carrier-group-toward-strait-of-hormuz-for/"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Framed conflict as 'high risk, high reward' game for both sides, included expert analysis on Iran testing US risk tolerance",
+          "url": "https://www.france24.com/en/europe/20260507-starmer-s-labour-to-face-potential-backlash-in-uk-local-elections"
         }
       ]
     },
     {
-      "headline": "Russia Declares Victory Day Ceasefire, Ukraine Announces Separate Truce",
+      "headline": "France Deploys Aircraft Carrier Strike Group Toward Strait of Hormuz",
+      "category": "Geopolitics",
+      "bullets": [
+        "France is repositioning its nuclear-powered Charles de Gaulle aircraft carrier and escort vessels south of the Suez Canal into the Red Sea",
+        "The deployment supports a proposed Franco-British defensive mission to restore maritime security in the Strait of Hormuz, separate from US 'Project Freedom' operations",
+        "President Macron said the mission may help restore confidence among shipowners and insurers while remaining 'distinct from the parties at war'",
+        "The Strait of Hormuz closure has triggered what the International Energy Agency calls the largest supply disruption in the history of the global oil market"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized European autonomy from US operations and defensive nature of mission",
+          "url": "https://www.rfi.fr/en/france/20260506-amazon-ramps-up-france-operations-with-%E2%82%AC15bn-expansion-and-7000-jobs"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted broader diplomatic context including Macron's call with Iranian president",
+          "url": "https://www.theglobeandmail.com/world/article-france-moves-aircraft-carrier-group-toward-strait-of-hormuz-for/"
+        }
+      ]
+    },
+    {
+      "headline": "Israel Strikes Beirut for First Time Since Hezbollah Ceasefire",
       "category": "Conflict",
       "bullets": [
-        "Russia declared unilateral ceasefire for May 8-9 to mark 81st anniversary of WWII Victory Day, threatening 'massive missile strike' on Kyiv if violated",
-        "Ukraine responded by declaring its own truce for May 5-6, calling Russian timing 'not serious'",
-        "Moscow's Victory Day parade on Red Square will be scaled back due to Ukrainian drone attack concerns",
-        "Russian drones and missiles struck Ukrainian gas facilities Tuesday, killing five including three Naftogaz employees"
+        "Israeli air strike hit Beirut's southern suburbs (Dahieh) targeting a commander of Hezbollah's elite Radwan Force, the first attack on the capital since the April 16 ceasefire",
+        "Prime Minister Netanyahu said he personally approved the strike; local media reported Hezbollah unit members were meeting when the attack occurred",
+        "Lebanese health ministry reports Israeli attacks have killed more than 120 people across Lebanon in the past week, including women and children",
+        "Israeli military continues to occupy a strip of southern Lebanon; both sides accuse each other of ceasefire violations"
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized pattern of failed previous ceasefire attempts",
-          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-ceasefire-wwii-victory-day/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Noted Ukraine dismissed Russian ceasefire as tied to 'military holiday'",
-          "url": "https://www.thehindu.com/news/international/russian-drones-missiles-kill-five-at-ukraines-naftogaz-gas-production-plants-ceo-says/article70941671.ece"
+          "framing_note": "Provided context on ongoing violations by both sides and Lebanese casualty figures",
+          "url": "https://www.bbc.com/news/articles/czj2emlv2kjo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Explosion at Chinese Fireworks Factory Kills at Least 26, Injures 61",
-      "category": "Society",
+      "headline": "Shell Profits Rise to $6.92 Billion as Iran War Drives Oil Prices Higher",
+      "category": "Economics",
       "bullets": [
-        "Blast occurred Monday at Huasheng Fireworks Manufacturing plant in Liuyang, Hunan province, China's fireworks manufacturing hub",
-        "President Xi Jinping ordered thorough investigation and accountability for those responsible",
-        "Nearly 500 emergency personnel and three rescue robots deployed; residents evacuated within 3km due to risk from remaining warehouses",
-        "Person in charge of the company has been detained; rescue operations continued into Tuesday"
+        "Shell reported Q1 2026 profits of $6.92 billion, up from $5.58 billion in the same period last year, exceeding analyst expectations",
+        "Oil prices have surged since the war began, with Brent crude peaking above $120 per barrel before settling around $101, compared to $73 before the conflict",
+        "The Strait of Hormuz closure has disrupted approximately 20% of global oil and liquid natural gas supplies",
+        "BP previously reported its Q1 profits more than doubled; both companies cited improved oil trading results"
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Reported initial death toll of 21",
-          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-ceasefire-wwii-victory-day/"
-        },
+          "framing_note": "Straightforward financial reporting with context on war's impact on energy markets",
+          "url": "https://www.bbc.com/news/articles/czj2emlv2kjo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Solomon Islands Prime Minister Ousted in No-Confidence Vote",
+      "category": "Geopolitics",
+      "bullets": [
+        "Prime Minister Jeremiah Manele was removed by parliament in a 26-22 vote after just over two years in power",
+        "The political crisis began March 15 when mass resignations from a key coalition party led to formation of a 28-member opposition bloc including 10 cabinet ministers",
+        "Manele had refused to convene parliament for weeks until an Appeal Court ruling last Friday forced the vote",
+        "Manele remains in office until formally removed by the Governor-General; parliament adjourned to organize election of new prime minister"
+      ],
+      "sources": [
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Updated death toll to 26; emphasized Xi's accountability statement",
-          "url": "https://www.aljazeera.com/features/2026/5/5/what-comes-next-fear-grips-pakistani-families-of-somali-piracy-victims?traffic_source=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Brief factual coverage with updated casualty figures",
-          "url": "https://www.thehindu.com/news/international/russian-drones-missiles-kill-five-at-ukraines-naftogaz-gas-production-plants-ceo-says/article70941671.ece"
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Detailed coverage of political maneuvering and constitutional process",
+          "url": "https://www.rnz.co.nz/news/world/594481/body-found-close-to-scottish-island-where-kiwi-monk-justin-evans-disappeared"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Suspected hantavirus outbreak on cruise ship MV Hondius kills three, leaves British passenger in intensive care as WHO investigates",
-      "source": "BBC World, The Guardian, Globe and Mail",
-      "url": "https://www.bbc.com/news/articles/cy0294829ndo"
+      "headline": "Japanese stocks close at historic high on optimism over potential US-Iran agreement",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/japan-stocks-close-at-historic-high-on-hopes-for-progress-in-us-iran-talks"
     },
     {
-      "headline": "European Political Community summit in Armenia addresses defense concerns as Macron warns of over-reliance on US security umbrella",
-      "source": "BBC Europe, France 24",
-      "url": "https://www.bbc.com/news/articles/cn0pyle4jeeo"
+      "headline": "Hantavirus-stricken cruise ship MV Hondius heading to Canary Islands after three passengers evacuated, with eight confirmed or suspected cases and three deaths",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c5y093d5n9ko"
     },
     {
-      "headline": "Macron declares Armenia has chosen path 'towards Europe' during Yerevan visit, highlighting shift from Russian influence",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260504-armenia-turns-towards-europe-as-macron-highlights-shift-from-russia"
-    },
-    {
-      "headline": "Spain seizes record cocaine haul of up to 45,000kg from freighter in Atlantic Ocean near Canary Islands",
+      "headline": "Russia ignores Ukraine's unilateral ceasefire, launches drone attacks killing two at kindergarten in Sumy region",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cp8pn8py5gro"
+      "url": "https://www.bbc.com/news/articles/cpdpxdd5n6yo"
     },
     {
-      "headline": "India and Russia sign defense pact allowing troops and warships to be stationed on each other's territory",
+      "headline": "UK local elections open as Prime Minister Keir Starmer faces major test with polls predicting gains for Reform UK and Greens",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260507-starmer-s-labour-to-face-potential-backlash-in-uk-local-elections"
+    },
+    {
+      "headline": "North-South Korea road bridge nearing completion as satellite images show deepening Russia-DPRK military cooperation",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cwy2e3wwd55o"
+    },
+    {
+      "headline": "Pussy Riot and Femen protest Russia's return to Venice Biennale for first time since Ukraine invasion",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cvgz14e1zeno"
+    },
+    {
+      "headline": "EU launches \u20ac6 million program to support Palestinians facing Israeli settler violence in occupied West Bank",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260507-eu-rolls-out-%E2%82%AC6m-west-bank-aid-plan-amid-settler-violence-against-palestinians"
+    },
+    {
+      "headline": "Philippines urges ASEAN to strengthen crisis coordination as Iran war impacts Southeast Asian energy supplies",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/defense/india-russia-pact-allows-troops-and-warships-on-each-other-s-soil"
+      "url": "https://asia.nikkei.com/politics/international-relations/philippines-urges-asean-to-strengthen-crisis-coordination-amid-iran-war"
     },
     {
-      "headline": "Nine workers killed in Colombia coal mine explosion weeks after safety warnings about gas buildup",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/5/5/nine-workers-killed-in-colombia-coal-mine-explosion"
-    },
-    {
-      "headline": "French cycling prodigy Paul Seixas, 19, to become youngest Tour de France starter since 1937",
-      "source": "RFI English, France 24",
-      "url": "https://www.rfi.fr/en/sports/20260504-teenage-french-cycling-prodigy-set-to-race-in-2026-tour-de-france-paul-seixas"
-    },
-    {
-      "headline": "Indonesia reports 5.61% GDP growth in Q1 2026, boosted by Ramadan and Eid spending",
+      "headline": "AirAsia orders 150 fuel-efficient Airbus A220 aircraft worth $19 billion amid rising fuel costs",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/indonesia-posts-5.61-gdp-growth-in-first-quarter-buoyed-by-eid-spending"
+      "url": "https://asia.nikkei.com/business/transportation/airasia-orders-150-fuel-efficient-airbus-planes-amid-rising-oil-costs"
     },
     {
-      "headline": "Two US service members missing after military exercises in Morocco, search and rescue underway",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/may/03/service-members-missing-military-exercises-morocco"
-    },
-    {
-      "headline": "CK Hutchison to sell VodafoneThree stake for $5.8 billion as Hong Kong conglomerate builds cash reserves",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/business-deals/ck-hutchison-to-sell-vodafonethree-stake-for-5.8bn"
+      "headline": "Amazon announces \u20ac15 billion investment in France creating 7,000 jobs across new logistics and AI operations",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260506-amazon-ramps-up-france-operations-with-%E2%82%AC15bn-expansion-and-7000-jobs"
     }
   ]
 }
