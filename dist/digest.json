@@ -1,214 +1,208 @@
 {
-  "date": "Friday, May 08, 2026",
-  "daily_brief": "The fragile US-Iran ceasefire faced its most serious test yet as both sides exchanged fire in the Strait of Hormuz, with the US military intercepting what it called 'unprovoked' Iranian attacks on three Navy destroyers while Iran accused Washington of striking coastal areas and violating the truce [BBC, Al Jazeera, Globe and Mail]. Despite the flare-up, President Trump dismissed the incident as 'a love tap' and insisted negotiations remain on track, though oil prices spiked nearly 3% to around $100 per barrel [BBC]. The UAE reported its air defenses were 'actively engaging' Iranian missiles and drones, underscoring regional spillover risks [The Hindu]. In Europe, Britain's Labour Party suffered devastating losses in local elections, with Reform UK surging to gain over 200 council seats as voter anger with Prime Minister Starmer's government intensified [Globe and Mail, The Hindu, Financial Times]. Meanwhile, health authorities worldwide raced to contain a hantavirus outbreak linked to the cruise ship MV Hondius, with five confirmed cases and three deaths, though the WHO emphasized this is not a pandemic situation [BBC, Guardian, Globe and Mail]. Trump also issued a July 4 ultimatum to the EU on trade, threatening 'much higher' tariffs if a deal is not finalized [BBC].",
+  "date": "Saturday, May 09, 2026",
+  "daily_brief": "The day's developments center on fragile diplomatic efforts across multiple theaters of conflict. President Trump announced a three-day ceasefire between Russia and Ukraine, including a prisoner exchange of 1,000 from each side, allowing Moscow's scaled-back Victory Day parade to proceed without the threat of Ukrainian drone attacks [BBC], [France 24], [Globe and Mail]. Meanwhile, tensions in the Persian Gulf remain acute despite an ongoing US-Iran ceasefire, with both sides trading fire in the Strait of Hormuz; Washington awaits Tehran's response to a proposed peace deal even as US forces disabled two Iranian oil tankers [Al Jazeera], [BBC], [The Hindu]. A satellite-detected oil spill off Iran's Kharg Island has raised concerns about infrastructure strain under the US naval blockade [France 24]. In Europe, Hungary marks a historic political transition as P\u00e9ter Magyar is sworn in as Prime Minister, ending Viktor Orb\u00e1n's 16-year rule [BBC], [The Hindu]. In the UK, Prime Minister Keir Starmer faces intense pressure after Labour suffered severe losses in local elections to Reform UK and nationalist parties [RFI]. South Africa's Constitutional Court revived impeachment proceedings against President Ramaphosa over the 'Farmgate' scandal [France 24], [Globe and Mail].",
   "top_stories": [
     {
-      "headline": "US and Iran Exchange Fire in Strait of Hormuz, Testing Fragile Ceasefire",
+      "headline": "Trump Brokers Three-Day Ukraine-Russia Ceasefire with Prisoner Exchange Ahead of Victory Day",
       "category": "Conflict",
       "bullets": [
-        "US Central Command said it intercepted 'unprovoked' Iranian missile, drone, and small boat attacks on three Navy destroyers transiting the Strait of Hormuz and responded with 'self-defense strikes' on Iranian military facilities",
-        "Iran's military command accused the US of violating the ceasefire by targeting an Iranian oil tanker and conducting aerial attacks on coastal areas including Qeshm Island, Bandar Khamir, and Sirik",
-        "The UAE Ministry of Defence reported its air defenses were 'actively engaging' a separate Iranian missile and drone attack early Friday morning",
-        "President Trump dismissed the exchange as 'a love tap,' stated the ceasefire remains in place, and said negotiations with Iran are ongoing"
+        "President Trump announced a 72-hour ceasefire between Russia and Ukraine, which both Zelensky and Putin confirmed, including suspension of all military activity and exchange of 1,000 prisoners per side.",
+        "The ceasefire follows mutual accusations of violations after each side had declared separate truces; Moscow had warned of retaliatory strikes on Kyiv if Victory Day celebrations were disrupted.",
+        "Russia's Victory Day parade in Red Square proceeded Saturday without tanks or heavy weapons for the first time in nearly two decades, with officials citing the threat of Ukrainian attacks.",
+        "Kremlin spokesman cited 'additional security measures' due to the 'current operational situation,' while Trump expressed hope this could mark 'the beginning of the end' of the war."
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's characterization of the incident as minor and ceasefire remaining intact",
-          "url": "https://www.bbc.com/news/articles/c8r8gxjxz10o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized Trump's personal role and quoted his optimistic framing about potential peace.",
+          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
         },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on security measures and the scaled-back nature of the parade.",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260508-one-page-peace-plan-for-iran-starmer-s-sinking-ship-musk-v-altman"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted Putin's 'growing paranoia' and the symbolic significance of the reduced parade.",
+          "url": "https://www.theglobeandmail.com/world/article-south-africa-president-cyril-ramaphosa-court-impeachment-proceedings/"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article title referenced truce but content unavailable.",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/08/us-jusy-convicts-four-men-over-plot-to-assassinate-president-of-haiti_6753270_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "US-Iran Tensions Flare in Strait of Hormuz Despite Ceasefire as Tehran Weighs Peace Proposal",
+      "category": "Geopolitics",
+      "bullets": [
+        "US forces disabled two Iranian-flagged oil tankers attempting to reach Iranian ports, which Tehran called a ceasefire violation and 'reckless military adventure.'",
+        "Iran's Fars news agency reported 'sporadic clashes' between Iranian and US naval forces in the Strait of Hormuz; Pentagon released video of strikes on tankers.",
+        "US Secretary of State Rubio said Washington expected Iran's response to a 14-point peace proposal Friday, with talks mediated through Pakistan covering nuclear issues, Hormuz, and sanctions relief.",
+        "A CIA assessment reportedly concluded Iran could withstand the US naval blockade for approximately four months before facing severe economic pressure, though intelligence officials disputed this characterization."
+      ],
+      "sources": [
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Iranian accusations of US ceasefire violations and provided more detail on Iranian government statements",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/8/ex-prisoners-recount-abuse-in-israeli-detention-centres?traffic_source=rss"
+          "framing_note": "Led with Iran's accusation of US 'reckless military adventure' and emphasized Iranian perspective.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/8/celebrated-naturalist-david-attenborough-marks-100th-birthday?traffic_source=rss"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced coverage noting Trump's claim ceasefire remained intact despite clashes.",
+          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on the fragility of the ceasefire and implications for shipping",
-          "url": "https://www.theglobeandmail.com/business/article-iran-us-war-peace-talks/"
+          "framing_note": "Highlighted CIA assessment suggesting limited US leverage over Tehran.",
+          "url": "https://www.theglobeandmail.com/world/article-south-africa-president-cyril-ramaphosa-court-impeachment-proceedings/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Noted UAE involvement and broader regional implications",
-          "url": "https://www.thehindu.com/sci-tech/health/who-hantavirus-cases-on-atlantic-cruise-ship-may-7-2026-updates/article70951974.ece"
+          "framing_note": "Detailed analysis of why US 'Project Freedom' failed to secure navigation.",
+          "url": "https://www.thehindu.com/news/international/why-us-project-freedom-couldnt-secure-free-navigation-in-strait-of-hormuz/article70956589.ece"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.france24.com/en/africa/20260508-al-qaeda-linked-attacks-in-central-mali-kill-more-than-30-people"
+          "framing_note": "Reported oil spill off Kharg Island raising infrastructure concerns.",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260508-one-page-peace-plan-for-iran-starmer-s-sinking-ship-musk-v-altman"
         }
       ]
     },
     {
-      "headline": "Labour Suffers Heavy Losses in UK Local Elections as Reform UK Surges",
-      "category": "Policy",
-      "bullets": [
-        "Labour lost over 249 council seats in early results from 136 English councils, with Reform UK gaining more than 350 seats",
-        "Reform UK is projected to become the main opposition party in both Scotland and Wales, behind the SNP and Plaid Cymru respectively",
-        "Labour is projected to finish third in both Scottish Parliament and Welsh Senedd elections, potentially losing Wales for the first time since devolution began in 1999",
-        "The results have intensified pressure on Prime Minister Keir Starmer, with some Labour lawmakers calling for him to resign or set a departure timetable"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized the fracturing of Britain's two-party system",
-          "url": "https://www.theglobeandmail.com/business/article-iran-us-war-peace-talks/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted the historical significance of potential Labour losses in Wales",
-          "url": "https://www.thehindu.com/sci-tech/health/who-hantavirus-cases-on-atlantic-cruise-ship-may-7-2026-updates/article70951974.ece"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on pressure mounting on Starmer's leadership",
-          "url": "https://www.ft.com/content/e767bc68-e762-4ad6-9b74-e6b8b824a820"
-        }
-      ]
-    },
-    {
-      "headline": "WHO Confirms Five Hantavirus Cases on Cruise Ship, Says Outbreak Is Not a Pandemic",
-      "category": "Society",
-      "bullets": [
-        "Five of eight suspected hantavirus cases on the MV Hondius have been laboratory confirmed, with three deaths including a Dutch couple and a German national",
-        "The Andes virus strain involved can spread person-to-person through close contact, marking the first documented human-to-human transmission of this type",
-        "The ship is en route to the Canary Islands with approximately 150 passengers and crew from 28 countries; a chartered plane will fly British passengers home",
-        "WHO officials emphasized this is 'not Covid' and the risk to the general public remains low, though more cases are possible given the six-week incubation period"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided detailed updates on patient conditions and repatriation plans",
-          "url": "https://www.bbc.com/news/articles/c8r8gxjxz10o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Focused on individual patient stories and medical evacuations",
-          "url": "https://www.theguardian.com/business/2026/may/04/nigeria-refinery-dangote-uk-plan-jet-fuel-shortage-strait-of-hormuz"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized international contact tracing efforts",
-          "url": "https://www.theglobeandmail.com/business/article-iran-us-war-peace-talks/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Noted two Indian nationals among the crew",
-          "url": "https://www.thehindu.com/sci-tech/health/who-hantavirus-cases-on-atlantic-cruise-ship-may-7-2026-updates/article70951974.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Gives EU July 4 Deadline to Finalize Trade Deal or Face Higher Tariffs",
-      "category": "Economics",
-      "bullets": [
-        "President Trump threatened 'much higher' tariffs on the EU if the bloc does not implement the July 2025 trade agreement by July 4, America's 250th birthday",
-        "European Commission President von der Leyen said the EU remains 'fully committed' to the deal and is making 'good progress towards tariff reduction'",
-        "Hours after Trump's ultimatum, a US trade court ruled his latest 10% global tariffs were not justified under US trade law, though the block applies only to limited plaintiffs",
-        "The current EU-US deal would impose 15% tariffs on EU exports, down from Trump's threatened 30%"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasized the court ruling as a potential check on Trump's tariff strategy",
-          "url": "https://www.bbc.com/news/articles/cwy2d0v3p2po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on legal implications and upcoming Trump-Xi meeting",
-          "url": "https://www.theglobeandmail.com/business/article-iran-us-war-peace-talks/"
-        }
-      ]
-    },
-    {
-      "headline": "Trump and Lula Meet at White House Amid Tariff and Bolsonaro Tensions",
+      "headline": "P\u00e9ter Magyar Sworn In as Hungary's Prime Minister, Ending Orb\u00e1n's 16-Year Rule",
       "category": "Geopolitics",
       "bullets": [
-        "Brazilian President Lula and President Trump held a three-hour meeting at the White House, with both leaders publicly describing it as positive despite ongoing disagreements",
-        "No joint press conference was held; Lula said he requested this arrangement beforehand, while the absence prompted speculation about tensions",
-        "Brazil proposed a 30-day working group to resolve tariff disputes, with Lula acknowledging Trump believes Brazil charges excessive taxes",
-        "Unresolved issues include Trump's pressure on Brazil to drop charges against former President Bolsonaro, who was sentenced to 27 years for an attempted coup"
+        "P\u00e9ter Magyar's Tisza party won 141 of 199 parliamentary seats in April elections, securing a two-thirds majority capable of constitutional changes.",
+        "Magyar, 45, a former government insider turned critic, promised 'regime change' including anti-corruption reforms and reversing Orb\u00e1n's changes to judiciary, media, and academia.",
+        "Orb\u00e1n's Fidesz party collapsed from 135 to 52 seats; Orb\u00e1n and key figures have declined to take their parliamentary seats amid ongoing corruption allegations.",
+        "Magyar met with European Commission President von der Leyen to unlock billions in EU funds frozen over rule-of-law concerns; incoming ministers warned of inheriting a 'very grim economic situation.'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Noted the absence of joint press appearance as a sign of unresolved disagreements",
-          "url": "https://www.bbc.com/news/articles/c8r8gxjxz10o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized the historic nature of the transition and uncertainty about the economic situation.",
+          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Focused on Magyar's pro-European orientation and reform agenda.",
+          "url": "https://www.thehindu.com/news/international/why-us-project-freedom-couldnt-secure-free-navigation-in-strait-of-hormuz/article70956589.ece"
+        }
+      ]
+    },
+    {
+      "headline": "UK Prime Minister Starmer Vows to Continue Despite Labour's Devastating Local Election Losses",
+      "category": "Policy",
+      "bullets": [
+        "Labour suffered historic losses in Thursday's local elections, decimated by Nigel Farage's Reform UK party across England and failing to make inroads against the SNP in Scotland.",
+        "The party experienced a 'historic mauling' in its Welsh heartlands, with voters backing hard-right and nationalist parties.",
+        "Starmer, facing persistent calls to resign, said results were 'very tough' but refused to 'walk away and plunge the country into chaos.'",
+        "Reform UK leader Farage, whose party has led national polls for over a year, predicted Starmer would be ousted within months."
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on election results and Starmer's response.",
+          "url": "https://www.rfi.fr/en/france/20260508-france-returns-ambassador-to-algeria-in-further-sign-of-thawing-relations"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized Lula's positive framing of the meeting and tariff progress",
-          "url": "https://www.france24.com/en/africa/20260508-al-qaeda-linked-attacks-in-central-mali-kill-more-than-30-people"
+          "framing_note": "Framed within broader coverage noting Starmer's 'sinking ship' and recurring controversies.",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260508-one-page-peace-plan-for-iran-starmer-s-sinking-ship-musk-v-altman"
+        }
+      ]
+    },
+    {
+      "headline": "South Africa's Constitutional Court Revives Impeachment Proceedings Against President Ramaphosa",
+      "category": "Policy",
+      "bullets": [
+        "The Constitutional Court ruled that a 2022 parliamentary vote shutting down impeachment proceedings was unconstitutional and must be set aside.",
+        "The 'Farmgate' scandal involves the disappearance of over $580,000 in cash hidden in a sofa at Ramaphosa's game ranch, allegedly payment for buffalo.",
+        "Ramaphosa's ANC party lost its majority in 2024 elections and now governs through a coalition; opposition parties that previously sought impeachment could now revive proceedings.",
+        "Ramaphosa confirmed he will respect the ruling, stating 'no person is above the law'; the Democratic Alliance, now a coalition partner, faces questions about how it will vote."
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized the scandal's details and impeachment process.",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260508-one-page-peace-plan-for-iran-starmer-s-sinking-ship-musk-v-altman"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on political implications given ANC's loss of majority and coalition dynamics.",
+          "url": "https://www.theglobeandmail.com/world/article-south-africa-president-cyril-ramaphosa-court-impeachment-proceedings/"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Russia scales back Victory Day parade with no tanks for first time in nearly two decades as war in Ukraine continues",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cwy2gj2jlr8o"
+      "headline": "Hantavirus outbreak on cruise ship MV Hondius kills three, with vessel approaching Tenerife amid local protests over health risks",
+      "source": "BBC World, The Guardian",
+      "url": "https://www.bbc.com/news/articles/c5y0gkg038yo"
     },
     {
-      "headline": "Anti-war protests sweep Japan as PM Takaichi pushes for expanded military role and lifting of arms export restrictions",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c4g93v8jqnyo"
+      "headline": "Satellite images reveal large oil spill spreading off Iran's Kharg Island amid concerns about infrastructure strain from US blockade",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260509-live-oil-spill-is-detected-off-kharg-island-in-the-persian-gulf"
     },
     {
-      "headline": "Record heatwave sweeps South Asia with temperatures approaching 50\u00b0C, killing at least 10 in Pakistan",
+      "headline": "Israel issues evacuation warnings for nine villages in southern Lebanon ahead of expected attacks on Hezbollah despite ceasefire",
+      "source": "France 24, The Hindu",
+      "url": "https://www.france24.com/en/middle-east/20260509-live-oil-spill-is-detected-off-kharg-island-in-the-persian-gulf"
+    },
+    {
+      "headline": "Taiwan's opposition-led legislature votes to cut President Lai's defense budget by 38% days before expected Trump-Xi summit",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-opposition-votes-to-cut-lai-s-defense-budget-despite-us-urging"
+    },
+    {
+      "headline": "Zambia publicly rejects US demands linking $2 billion health package to data sharing and critical minerals access",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260509-zambia-pushes-back-against-us-demands-tied-to-health-and-minerals-deal"
+    },
+    {
+      "headline": "Indian sailor killed and four injured after wooden dhow catches fire near Strait of Hormuz amid US-Iran hostilities",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/indian-sailor-killed-in-dhow-fire-near-strait-of-hormuz/article70958354.ece"
+    },
+    {
+      "headline": "Celebrated naturalist Sir David Attenborough marks his 100th birthday",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/5/8/a-calamity-why-is-a-record-heatwave-sweeping-south-asia"
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/8/celebrated-naturalist-david-attenborough-marks-100th-birthday"
     },
     {
-      "headline": "Al-Qaeda-linked JNIM attacks kill more than 30 people in central Mali amid renewed security crisis",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/africa/20260508-al-qaeda-linked-attacks-in-central-mali-kill-more-than-30-people"
-    },
-    {
-      "headline": "Germany slashes tax revenue projections by \u20ac70 billion, finance minister blames Trump's 'irresponsible war in Iran'",
+      "headline": "Greece's military examines mysterious unmanned naval drone found by fishermen in the Ionian Sea, possibly linked to Ukraine",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cwy2d0v3p2po"
+      "url": "https://www.bbc.com/news/articles/cx217expnvvo"
     },
     {
-      "headline": "EU prosecutors open investigation into alleged misuse of funds linked to France's far-right leader Jordan Bardella",
+      "headline": "Cambodians displaced by border conflict with Thailand struggle with disrupted lives amid tense ceasefire",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/5/9/cambodians-struggle-with-displaced-lives-amid-tense-ceasefire-with-thailand"
+    },
+    {
+      "headline": "France returns ambassador to Algeria and sends envoy to S\u00e9tif massacre commemoration in bid to improve relations",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260507-eu-prosecutors-probe-alleged-misuse-of-funds-linked-to-france-s-bardella"
-    },
-    {
-      "headline": "Eurovision faces largest-ever boycott as five countries withdraw over Israel's inclusion ahead of 70th anniversary final",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260508-eurovision-hopes-70th-anniversary-celebration-outshines-israel-controversy"
-    },
-    {
-      "headline": "Russia's women's water polo team to compete under own flag in Sydney World Cup finals, marking highest-profile sporting return since Ukraine invasion ban",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-05-08/russia-to-compete-at-sydney-water-polo-world-cup-final/106658240"
-    },
-    {
-      "headline": "Sir David Attenborough celebrates 100th birthday, with tributes highlighting his transformative impact on nature documentary filmmaking",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/life/people/celebrity/sir-david-attenborough-turns-100"
-    },
-    {
-      "headline": "France extends border controls until October, joining growing number of EU states testing limits of Schengen free movement",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260508-growing-border-checks-across-europe-test-schengen-free-movement"
+      "url": "https://www.rfi.fr/en/france/20260508-france-returns-ambassador-to-algeria-in-further-sign-of-thawing-relations"
     }
   ]
 }
