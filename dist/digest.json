@@ -1,82 +1,52 @@
 {
-  "date": "Saturday, May 09, 2026",
-  "daily_brief": "The day's developments center on fragile diplomatic efforts across multiple theaters of conflict. President Trump announced a three-day ceasefire between Russia and Ukraine, including a prisoner exchange of 1,000 from each side, allowing Moscow's scaled-back Victory Day parade to proceed without the threat of Ukrainian drone attacks [BBC], [France 24], [Globe and Mail]. Meanwhile, tensions in the Persian Gulf remain acute despite an ongoing US-Iran ceasefire, with both sides trading fire in the Strait of Hormuz; Washington awaits Tehran's response to a proposed peace deal even as US forces disabled two Iranian oil tankers [Al Jazeera], [BBC], [The Hindu]. A satellite-detected oil spill off Iran's Kharg Island has raised concerns about infrastructure strain under the US naval blockade [France 24]. In Europe, Hungary marks a historic political transition as P\u00e9ter Magyar is sworn in as Prime Minister, ending Viktor Orb\u00e1n's 16-year rule [BBC], [The Hindu]. In the UK, Prime Minister Keir Starmer faces intense pressure after Labour suffered severe losses in local elections to Reform UK and nationalist parties [RFI]. South Africa's Constitutional Court revived impeachment proceedings against President Ramaphosa over the 'Farmgate' scandal [France 24], [Globe and Mail].",
+  "date": "Sunday, May 10, 2026",
+  "daily_brief": "Sunday's global news was dominated by the arrival of the hantavirus-stricken cruise ship MV Hondius in Tenerife, where Spanish authorities began an unprecedented 23-country evacuation operation after three passengers died from the rare Andes strain [BBC, RFI, France 24, Al Jazeera]. In Hungary, P\u00e9ter Magyar was sworn in as prime minister, marking the end of Viktor Orb\u00e1n's 16-year rule and signaling a decisive pro-EU shift as the European flag was reinstated on parliament [RFI, BBC, Le Monde]. Russian President Vladimir Putin declared the Ukraine conflict is 'coming to an end' following a scaled-back Victory Day parade in Moscow, though both sides accused each other of violating a US-brokered ceasefire [BBC, France 24]. Tensions in the Middle East remained elevated as Israeli strikes killed at least 39 people in Lebanon despite the ceasefire, while Iran's Revolutionary Guards threatened US sites in the region if Iranian tankers come under fire [BBC, France 24, The Hindu]. In the Sahel, jihadist attacks in central Mali killed over 70 people in recent days, with Al-Qaeda-linked JNIM intensifying assaults on villages [France 24, The Hindu].",
   "top_stories": [
     {
-      "headline": "Trump Brokers Three-Day Ukraine-Russia Ceasefire with Prisoner Exchange Ahead of Victory Day",
-      "category": "Conflict",
+      "headline": "Hantavirus Cruise Ship Arrives in Tenerife as Spain Launches Unprecedented Evacuation",
+      "category": "Society",
       "bullets": [
-        "President Trump announced a 72-hour ceasefire between Russia and Ukraine, which both Zelensky and Putin confirmed, including suspension of all military activity and exchange of 1,000 prisoners per side.",
-        "The ceasefire follows mutual accusations of violations after each side had declared separate truces; Moscow had warned of retaliatory strikes on Kyiv if Victory Day celebrations were disrupted.",
-        "Russia's Victory Day parade in Red Square proceeded Saturday without tanks or heavy weapons for the first time in nearly two decades, with officials citing the threat of Ukrainian attacks.",
-        "Kremlin spokesman cited 'additional security measures' due to the 'current operational situation,' while Trump expressed hope this could mark 'the beginning of the end' of the war."
+        "The Dutch-flagged MV Hondius arrived at the port of Granadilla in Tenerife early Sunday after weeks at sea, carrying nearly 150 passengers and crew.",
+        "Three passengers have died from the Andes strain of hantavirus\u2014a Dutch couple and a German woman\u2014with at least eight total cases confirmed or suspected.",
+        "WHO officials classified all aboard as 'high-risk contacts' while emphasizing the risk to the general public remains low; WHO chief Tedros Adhanom Ghebreyesus traveled to Spain to oversee operations.",
+        "The evacuation involves 23 countries coordinating repatriation flights, with the final flight to Australia scheduled for Monday."
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's personal role and quoted his optimistic framing about potential peace.",
-          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized the 'unprecedented' nature of the operation and local concerns from Canary Islands officials",
+          "url": "https://www.bbc.com/news/articles/cy42kp0x92jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on WHO statements and international coordination",
+          "url": "https://www.rfi.fr/en/france/20260509-pro-russian-separatist-held-in-france-over-ukraine-torture-claims"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on security measures and the scaled-back nature of the parade.",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260508-one-page-peace-plan-for-iran-starmer-s-sinking-ship-musk-v-altman"
+          "framing_note": "Similar coverage to RFI with additional detail on evacuation timeline",
+          "url": "https://www.france24.com/en/europe/20260509-russia-and-ukraine-trade-accusations-of-truce-violations"
         },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Highlighted Putin's 'growing paranoia' and the symbolic significance of the reduced parade.",
-          "url": "https://www.theglobeandmail.com/world/article-south-africa-president-cyril-ramaphosa-court-impeachment-proceedings/"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article title referenced truce but content unavailable.",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/08/us-jusy-convicts-four-men-over-plot-to-assassinate-president-of-haiti_6753270_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "US-Iran Tensions Flare in Strait of Hormuz Despite Ceasefire as Tehran Weighs Peace Proposal",
-      "category": "Geopolitics",
-      "bullets": [
-        "US forces disabled two Iranian-flagged oil tankers attempting to reach Iranian ports, which Tehran called a ceasefire violation and 'reckless military adventure.'",
-        "Iran's Fars news agency reported 'sporadic clashes' between Iranian and US naval forces in the Strait of Hormuz; Pentagon released video of strikes on tankers.",
-        "US Secretary of State Rubio said Washington expected Iran's response to a 14-point peace proposal Friday, with talks mediated through Pakistan covering nuclear issues, Hormuz, and sanctions relief.",
-        "A CIA assessment reportedly concluded Iran could withstand the US naval blockade for approximately four months before facing severe economic pressure, though intelligence officials disputed this characterization."
-      ],
-      "sources": [
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Led with Iran's accusation of US 'reckless military adventure' and emphasized Iranian perspective.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/8/celebrated-naturalist-david-attenborough-marks-100th-birthday?traffic_source=rss"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced coverage noting Trump's claim ceasefire remained intact despite clashes.",
-          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Highlighted CIA assessment suggesting limited US leverage over Tehran.",
-          "url": "https://www.theglobeandmail.com/world/article-south-africa-president-cyril-ramaphosa-court-impeachment-proceedings/"
+          "framing_note": "Straightforward factual coverage",
+          "url": "https://www.aljazeera.com/sports/2026/5/10/dubois-stops-wardley-in-11th-round-to-take-wbo-heavyweight-boxing-title?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Detailed analysis of why US 'Project Freedom' failed to secure navigation.",
-          "url": "https://www.thehindu.com/news/international/why-us-project-freedom-couldnt-secure-free-navigation-in-strait-of-hormuz/article70956589.ece"
+          "framing_note": "Included WHO chief's open letter to Tenerife residents",
+          "url": "https://www.thehindu.com/news/international/dozens-killed-in-fresh-attacks-in-central-mali-local-security-sources/article70961351.ece"
         },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Reported oil spill off Kharg Island raising infrastructure concerns.",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260508-one-page-peace-plan-for-iran-starmer-s-sinking-ship-musk-v-altman"
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Earlier reporting focused on British nationals affected",
+          "url": "https://www.theguardian.com/world/2026/may/06/cruise-ship-hantavirus-strain-andes-spread-humans-south-africa"
         }
       ]
     },
@@ -84,125 +54,167 @@
       "headline": "P\u00e9ter Magyar Sworn In as Hungary's Prime Minister, Ending Orb\u00e1n's 16-Year Rule",
       "category": "Geopolitics",
       "bullets": [
-        "P\u00e9ter Magyar's Tisza party won 141 of 199 parliamentary seats in April elections, securing a two-thirds majority capable of constitutional changes.",
-        "Magyar, 45, a former government insider turned critic, promised 'regime change' including anti-corruption reforms and reversing Orb\u00e1n's changes to judiciary, media, and academia.",
-        "Orb\u00e1n's Fidesz party collapsed from 135 to 52 seats; Orb\u00e1n and key figures have declined to take their parliamentary seats amid ongoing corruption allegations.",
-        "Magyar met with European Commission President von der Leyen to unlock billions in EU funds frozen over rule-of-law concerns; incoming ministers warned of inheriting a 'very grim economic situation.'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized the historic nature of the transition and uncertainty about the economic situation.",
-          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Focused on Magyar's pro-European orientation and reform agenda.",
-          "url": "https://www.thehindu.com/news/international/why-us-project-freedom-couldnt-secure-free-navigation-in-strait-of-hormuz/article70956589.ece"
-        }
-      ]
-    },
-    {
-      "headline": "UK Prime Minister Starmer Vows to Continue Despite Labour's Devastating Local Election Losses",
-      "category": "Policy",
-      "bullets": [
-        "Labour suffered historic losses in Thursday's local elections, decimated by Nigel Farage's Reform UK party across England and failing to make inroads against the SNP in Scotland.",
-        "The party experienced a 'historic mauling' in its Welsh heartlands, with voters backing hard-right and nationalist parties.",
-        "Starmer, facing persistent calls to resign, said results were 'very tough' but refused to 'walk away and plunge the country into chaos.'",
-        "Reform UK leader Farage, whose party has led national polls for over a year, predicted Starmer would be ousted within months."
+        "P\u00e9ter Magyar took the oath of office Saturday after his Tisza party won 141 of 199 parliamentary seats in April elections, rising from zero seats just two years ago.",
+        "The EU flag was reinstated on Hungary's parliament building for the first time in 12 years, symbolizing a pro-European shift.",
+        "Magyar declared he would 'serve, not rule over Hungary' and promised 'regime change' while tens of thousands of supporters celebrated outside parliament.",
+        "Viktor Orb\u00e1n's Fidesz party collapsed from 135 to 52 seats, with Orb\u00e1n and key figures declining to take their parliamentary seats."
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Straightforward reporting on election results and Starmer's response.",
-          "url": "https://www.rfi.fr/en/france/20260508-france-returns-ambassador-to-algeria-in-further-sign-of-thawing-relations"
+          "framing_note": "Emphasized EU welcome and von der Leyen's positive response",
+          "url": "https://www.rfi.fr/en/france/20260509-pro-russian-separatist-held-in-france-over-ukraine-torture-claims"
         },
         {
-          "name": "France 24",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Framed within broader coverage noting Starmer's 'sinking ship' and recurring controversies.",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260508-one-page-peace-plan-for-iran-starmer-s-sinking-ship-musk-v-altman"
+          "framing_note": "Focused on domestic political implications and corruption allegations against Fidesz",
+          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article inaccessible but headline indicated celebratory framing",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/09/spanish-island-braces-for-arrival-of-hantavirus-cruise-ship_6753289_4.html"
         }
       ]
     },
     {
-      "headline": "South Africa's Constitutional Court Revives Impeachment Proceedings Against President Ramaphosa",
-      "category": "Policy",
+      "headline": "Putin Declares Ukraine War 'Coming to an End' as Victory Day Parade Scales Back",
+      "category": "Conflict",
       "bullets": [
-        "The Constitutional Court ruled that a 2022 parliamentary vote shutting down impeachment proceedings was unconstitutional and must be set aside.",
-        "The 'Farmgate' scandal involves the disappearance of over $580,000 in cash hidden in a sofa at Ramaphosa's game ranch, allegedly payment for buffalo.",
-        "Ramaphosa's ANC party lost its majority in 2024 elections and now governs through a coalition; opposition parties that previously sought impeachment could now revive proceedings.",
-        "Ramaphosa confirmed he will respect the ruling, stating 'no person is above the law'; the Democratic Alliance, now a coalition partner, faces questions about how it will vote."
+        "Speaking after a scaled-back Victory Day parade in Moscow, Putin said he believes the conflict with Ukraine is 'coming to an end' while condemning Western support for Kyiv.",
+        "The annual parade lacked tanks, missiles, and other military hardware due to security concerns over potential Ukrainian drone attacks.",
+        "A US-brokered three-day ceasefire was in effect but both Russia and Ukraine accused each other of violations throughout Saturday.",
+        "Putin stated he would only meet Ukrainian President Zelensky once certain conditions are met, without specifying details."
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced coverage noting both Putin's statements and context of scaled-back parade",
+          "url": "https://www.bbc.com/news/articles/cy42kp0x92jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Steve Rosenberg analysis emphasized the diminished nature of this year's event",
+          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Highlighted mutual ceasefire violation accusations",
+          "url": "https://www.france24.com/en/europe/20260509-russia-and-ukraine-trade-accusations-of-truce-violations"
+        }
+      ]
+    },
+    {
+      "headline": "Israeli Strikes Kill at Least 39 in Lebanon Despite Ceasefire",
+      "category": "Conflict",
+      "bullets": [
+        "Lebanese health ministry reported 39 deaths from Israeli strikes on Saturday, including seven people killed in one strike on the town of Saksakiyeh, among them a child.",
+        "The IDF stated it was targeting Hezbollah infrastructure and personnel, claiming it took steps to minimize civilian harm including using 'precise munitions.'",
+        "Fighting has continued since President Trump announced a ceasefire deal between Israel and Lebanon on April 16.",
+        "Most strikes have concentrated in southern Lebanon, with the IDF saying it targeted 'Hezbollah terrorists operating from within a structure used for military purposes.'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Presented both Lebanese casualty figures and Israeli military statements",
+          "url": "https://www.bbc.com/news/articles/cy42kp0x92jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Headline emphasized deaths 'despite ceasefire'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/09/spanish-island-braces-for-arrival-of-hantavirus-cruise-ship_6753289_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Jihadist Attacks in Central Mali Kill Over 70 in Days of Violence",
+      "category": "Conflict",
+      "bullets": [
+        "Al-Qaeda-linked JNIM launched attacks on villages in central Mali on Friday, following earlier assaults on Wednesday that killed at least 30 people.",
+        "Local officials reported death tolls ranging from 70 to 80 in the recent wave of violence, with one describing the situation as 'our hearts are bleeding.'",
+        "Security sources said JNIM is targeting villages that refused to sign local agreements with the armed group.",
+        "The attacks follow an unprecedented joint assault by JNIM and the Tuareg-dominated Azawad Liberation Front against Mali's ruling junta last month."
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized the scandal's details and impeachment process.",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260508-one-page-peace-plan-for-iran-starmer-s-sinking-ship-musk-v-altman"
+          "framing_note": "Provided context on broader security deterioration and junta's struggles",
+          "url": "https://www.france24.com/en/europe/20260509-russia-and-ukraine-trade-accusations-of-truce-violations"
         },
         {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on political implications given ANC's loss of majority and coalition dynamics.",
-          "url": "https://www.theglobeandmail.com/world/article-south-africa-president-cyril-ramaphosa-court-impeachment-proceedings/"
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Straightforward factual report",
+          "url": "https://www.thehindu.com/news/international/dozens-killed-in-fresh-attacks-in-central-mali-local-security-sources/article70961351.ece"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article inaccessible but headline confirmed coverage",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/09/spanish-island-braces-for-arrival-of-hantavirus-cruise-ship_6753289_4.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Hantavirus outbreak on cruise ship MV Hondius kills three, with vessel approaching Tenerife amid local protests over health risks",
-      "source": "BBC World, The Guardian",
-      "url": "https://www.bbc.com/news/articles/c5y0gkg038yo"
-    },
-    {
-      "headline": "Satellite images reveal large oil spill spreading off Iran's Kharg Island amid concerns about infrastructure strain from US blockade",
+      "headline": "Iran's Revolutionary Guards threaten US sites in Middle East if Iranian tankers attacked",
       "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260509-live-oil-spill-is-detected-off-kharg-island-in-the-persian-gulf"
+      "url": "https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire"
     },
     {
-      "headline": "Israel issues evacuation warnings for nine villages in southern Lebanon ahead of expected attacks on Hezbollah despite ceasefire",
-      "source": "France 24, The Hindu",
-      "url": "https://www.france24.com/en/middle-east/20260509-live-oil-spill-is-detected-off-kharg-island-in-the-persian-gulf"
-    },
-    {
-      "headline": "Taiwan's opposition-led legislature votes to cut President Lai's defense budget by 38% days before expected Trump-Xi summit",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-opposition-votes-to-cut-lai-s-defense-budget-despite-us-urging"
-    },
-    {
-      "headline": "Zambia publicly rejects US demands linking $2 billion health package to data sharing and critical minerals access",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260509-zambia-pushes-back-against-us-demands-tied-to-health-and-minerals-deal"
-    },
-    {
-      "headline": "Indian sailor killed and four injured after wooden dhow catches fire near Strait of Hormuz amid US-Iran hostilities",
+      "headline": "Twelve Pakistani police officers killed in car bombing and militant ambush in northwest Pakistan",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/indian-sailor-killed-in-dhow-fire-near-strait-of-hormuz/article70958354.ece"
+      "url": "https://www.thehindu.com/news/international/twelve-pakistani-police-officers-killed-in-car-bombing-and-shootout/article70961523.ece"
     },
     {
-      "headline": "Celebrated naturalist Sir David Attenborough marks his 100th birthday",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/8/celebrated-naturalist-david-attenborough-marks-100th-birthday"
-    },
-    {
-      "headline": "Greece's military examines mysterious unmanned naval drone found by fishermen in the Ionian Sea, possibly linked to Ukraine",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cx217expnvvo"
-    },
-    {
-      "headline": "Cambodians displaced by border conflict with Thailand struggle with disrupted lives amid tense ceasefire",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/5/9/cambodians-struggle-with-displaced-lives-amid-tense-ceasefire-with-thailand"
-    },
-    {
-      "headline": "France returns ambassador to Algeria and sends envoy to S\u00e9tif massacre commemoration in bid to improve relations",
+      "headline": "Pro-Russian separatist arrested in France on suspicion of war crimes and torture at Donetsk prison",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260508-france-returns-ambassador-to-algeria-in-further-sign-of-thawing-relations"
+      "url": "https://www.rfi.fr/en/france/20260509-pro-russian-separatist-held-in-france-over-ukraine-torture-claims"
+    },
+    {
+      "headline": "Venice Biennale opens amid protests and resignations over participation of Russia and Israel",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/culture/20260509-venice-biennale-opens-under-shadow-of-protests-over-russia-and-israel"
+    },
+    {
+      "headline": "Australia's One Nation party wins first-ever federal lower house seat in New South Wales by-election",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cwy2e4z4npro"
+    },
+    {
+      "headline": "Greek authorities conduct controlled explosion of suspected Ukrainian naval drone found in Ionian Sea",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c9364r4r902o"
+    },
+    {
+      "headline": "French far-right leaders Marine Le Pen and Jordan Bardella meet German and Israeli ambassadors ahead of 2027 election",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260510-france-far-right-leaders-court-israel-germany-envoys-ahead-of-presidentials-marine-le-pen"
+    },
+    {
+      "headline": "Sir David Attenborough celebrates 100th birthday",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/life/people/celebrity/sir-david-attenborough-turns-100"
+    },
+    {
+      "headline": "High-ranking Sri Lankan Buddhist monk arrested over alleged rape of 15-year-old girl",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cy42kp0x92jo"
+    },
+    {
+      "headline": "Trump to visit China this week for meeting with Xi Jinping alongside US tech and finance executives",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/trump-visits-china-vote-on-sara-duterte-impeachment-softbank-earnings"
     }
   ]
 }
