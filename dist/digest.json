@@ -1,220 +1,196 @@
 {
-  "date": "Sunday, May 10, 2026",
-  "daily_brief": "Sunday's global news was dominated by the arrival of the hantavirus-stricken cruise ship MV Hondius in Tenerife, where Spanish authorities began an unprecedented 23-country evacuation operation after three passengers died from the rare Andes strain [BBC, RFI, France 24, Al Jazeera]. In Hungary, P\u00e9ter Magyar was sworn in as prime minister, marking the end of Viktor Orb\u00e1n's 16-year rule and signaling a decisive pro-EU shift as the European flag was reinstated on parliament [RFI, BBC, Le Monde]. Russian President Vladimir Putin declared the Ukraine conflict is 'coming to an end' following a scaled-back Victory Day parade in Moscow, though both sides accused each other of violating a US-brokered ceasefire [BBC, France 24]. Tensions in the Middle East remained elevated as Israeli strikes killed at least 39 people in Lebanon despite the ceasefire, while Iran's Revolutionary Guards threatened US sites in the region if Iranian tankers come under fire [BBC, France 24, The Hindu]. In the Sahel, jihadist attacks in central Mali killed over 70 people in recent days, with Al-Qaeda-linked JNIM intensifying assaults on villages [France 24, The Hindu].",
+  "date": "Monday, May 11, 2026",
+  "daily_brief": "The global hantavirus outbreak dominated headlines Monday as confirmed cases emerged among repatriated passengers from the MV Hondius cruise ship, with a French national testing positive and an American also confirmed infected [BBC], [France 24], [The Hindu]. US-Iran tensions escalated sharply after President Trump rejected Tehran's ceasefire proposal as 'totally unacceptable,' sending oil prices surging above $104 per barrel [Al Jazeera], [BBC], [The Hindu]. In a notable shift, Russian President Putin suggested the Ukraine conflict may be 'coming to an end' following a scaled-back Victory Day parade in Moscow that omitted traditional military hardware displays due to security concerns [BBC]. France launched its Africa Forward Summit in Nairobi\u2014the first such gathering in an Anglophone African nation\u2014as President Macron seeks to reset relations following France's military withdrawal from the Sahel [RFI], [France 24]. Meanwhile, former Thai Prime Minister Thaksin Shinawatra was released from prison on parole after serving eight months of a one-year corruption sentence, raising questions about his political future [France 24], [The Hindu]. Markets reflected geopolitical uncertainty, with South Korea's KOSPI hitting record highs on AI-driven semiconductor gains while oil prices jumped on Iran war concerns [Nikkei Asia], [The Hindu].",
   "top_stories": [
     {
-      "headline": "Hantavirus Cruise Ship Arrives in Tenerife as Spain Launches Unprecedented Evacuation",
+      "headline": "Hantavirus Cases Confirmed in US and France as Cruise Ship Evacuations Continue",
       "category": "Society",
       "bullets": [
-        "The Dutch-flagged MV Hondius arrived at the port of Granadilla in Tenerife early Sunday after weeks at sea, carrying nearly 150 passengers and crew.",
-        "Three passengers have died from the Andes strain of hantavirus\u2014a Dutch couple and a German woman\u2014with at least eight total cases confirmed or suspected.",
-        "WHO officials classified all aboard as 'high-risk contacts' while emphasizing the risk to the general public remains low; WHO chief Tedros Adhanom Ghebreyesus traveled to Spain to oversee operations.",
-        "The evacuation involves 23 countries coordinating repatriation flights, with the final flight to Australia scheduled for Monday."
+        "A French national evacuated from the MV Hondius tested positive for hantavirus and her health is deteriorating, with 22 contact cases traced in France",
+        "A US passenger also tested positive; a second American showed mild symptoms during repatriation to Nebraska",
+        "Three passengers have died from the outbreak\u2014a Dutch couple and a German woman\u2014with the virus linked to a birdwatching trip in Argentina",
+        "More than 90 passengers have been repatriated to their home countries; British, Spanish, and other nationals are under monitoring or quarantine"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized the 'unprecedented' nature of the operation and local concerns from Canary Islands officials",
-          "url": "https://www.bbc.com/news/articles/cy42kp0x92jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on WHO statements and international coordination",
-          "url": "https://www.rfi.fr/en/france/20260509-pro-russian-separatist-held-in-france-over-ukraine-torture-claims"
+          "framing_note": "Focused on international coordination and repatriation logistics",
+          "url": "https://www.bbc.com/news/articles/c1j257w87neo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Similar coverage to RFI with additional detail on evacuation timeline",
-          "url": "https://www.france24.com/en/europe/20260509-russia-and-ukraine-trade-accusations-of-truce-violations"
+          "framing_note": "Emphasized French government response and health minister statements",
+          "url": "https://www.france24.com/en/africa/20260511-macron-opens-africa-summit-in-kenya-with-push-for-new-france-africa-partnership"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Similar to France 24, focus on French evacuation details",
+          "url": "https://www.rfi.fr/en/international/20260510-eurovision-fever-hits-host-city-vienna"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided broader context including US and international response",
+          "url": "https://www.thehindu.com/news/international/american-passenger-tests-positive-for-hantavirus/article70964606.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Rejects Iran Ceasefire Proposal as 'Totally Unacceptable,' Oil Prices Surge",
+      "category": "Conflict",
+      "bullets": [
+        "President Trump dismissed Iran's response to US peace proposals, calling it 'totally unacceptable' without elaborating on specifics",
+        "Iran's proposal reportedly included ending the war on all fronts, lifting the US naval blockade, and preserving Tehran's control over its nuclear program",
+        "Oil prices jumped over 4%, with Brent crude rising above $104 per barrel on renewed conflict uncertainty",
+        "Israeli PM Netanyahu stated Iran's enriched uranium stockpile must be 'taken out' before the war can be considered over"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced reporting on both US and Iranian positions",
+          "url": "https://www.bbc.com/news/articles/c1j257w87neo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Straightforward factual coverage",
-          "url": "https://www.aljazeera.com/sports/2026/5/10/dubois-stops-wardley-in-11th-round-to-take-wbo-heavyweight-boxing-title?traffic_source=rss"
+          "framing_note": "More detailed on Iranian perspective; noted US plan amounted to 'Iran's surrender' according to Iranian media",
+          "url": "https://www.aljazeera.com/video/upfront/2026/5/11/is-the-vatican-standing-up-to-trump?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Included WHO chief's open letter to Tenerife residents",
-          "url": "https://www.thehindu.com/news/international/dozens-killed-in-fresh-attacks-in-central-mali-local-security-sources/article70961351.ece"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Earlier reporting focused on British nationals affected",
-          "url": "https://www.theguardian.com/world/2026/may/06/cruise-ship-hantavirus-strain-andes-spread-humans-south-africa"
+          "framing_note": "Focused on market impact and oil price movements",
+          "url": "https://www.thehindu.com/news/international/american-passenger-tests-positive-for-hantavirus/article70964606.ece"
         }
       ]
     },
     {
-      "headline": "P\u00e9ter Magyar Sworn In as Hungary's Prime Minister, Ending Orb\u00e1n's 16-Year Rule",
+      "headline": "Putin Suggests Ukraine Conflict 'Coming to an End' After Scaled-Back Victory Day",
       "category": "Geopolitics",
       "bullets": [
-        "P\u00e9ter Magyar took the oath of office Saturday after his Tisza party won 141 of 199 parliamentary seats in April elections, rising from zero seats just two years ago.",
-        "The EU flag was reinstated on Hungary's parliament building for the first time in 12 years, symbolizing a pro-European shift.",
-        "Magyar declared he would 'serve, not rule over Hungary' and promised 'regime change' while tens of thousands of supporters celebrated outside parliament.",
-        "Viktor Orb\u00e1n's Fidesz party collapsed from 135 to 52 seats, with Orb\u00e1n and key figures declining to take their parliamentary seats."
+        "Russian President Putin said 'I think that the matter is coming to an end' regarding the Ukraine conflict, speaking after Victory Day celebrations",
+        "The annual Moscow parade lacked tanks, missiles, and military hardware typically showcased, citing security concerns over potential Ukrainian drone attacks",
+        "A US-brokered three-day ceasefire reduced attack risks during the parade, though both sides accused each other of violations",
+        "Putin stated he would only meet President Zelensky once a lasting peace deal is in place"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Provided both news coverage and analytical perspective from correspondent Steve Rosenberg noting the 'very different' atmosphere",
+          "url": "https://www.bbc.com/news/articles/cn5pxyr9xr7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe (Rosenberg analysis)",
+          "lean": "Center",
+          "framing_note": "Noted fewer journalists, guests, and world leaders attended; highlighted Kremlin's reluctance to scale back the parade",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "France Opens Africa Forward Summit in Kenya, Seeking Continental Reset",
+      "category": "Geopolitics",
+      "bullets": [
+        "France hosted the Africa Forward Summit in Nairobi\u2014the first such gathering in an English-speaking African country\u2014with President Macron and approximately 30 heads of state attending",
+        "The summit aims to diversify French alliances following diplomatic crises in the Sahel and the withdrawal of French troops from West Africa",
+        "Agenda topics include AI and digital transformation, health sector investments, energy transition, and creative industries",
+        "Kenyan President Ruto described the summit as a potential 'turning point' toward better partnership"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized EU welcome and von der Leyen's positive response",
-          "url": "https://www.rfi.fr/en/france/20260509-pro-russian-separatist-held-in-france-over-ukraine-torture-claims"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused on domestic political implications and corruption allegations against Fidesz",
-          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article inaccessible but headline indicated celebratory framing",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/09/spanish-island-braces-for-arrival-of-hantavirus-cruise-ship_6753289_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Putin Declares Ukraine War 'Coming to an End' as Victory Day Parade Scales Back",
-      "category": "Conflict",
-      "bullets": [
-        "Speaking after a scaled-back Victory Day parade in Moscow, Putin said he believes the conflict with Ukraine is 'coming to an end' while condemning Western support for Kyiv.",
-        "The annual parade lacked tanks, missiles, and other military hardware due to security concerns over potential Ukrainian drone attacks.",
-        "A US-brokered three-day ceasefire was in effect but both Russia and Ukraine accused each other of violations throughout Saturday.",
-        "Putin stated he would only meet Ukrainian President Zelensky once certain conditions are met, without specifying details."
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced coverage noting both Putin's statements and context of scaled-back parade",
-          "url": "https://www.bbc.com/news/articles/cy42kp0x92jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Steve Rosenberg analysis emphasized the diminished nature of this year's event",
-          "url": "https://www.bbc.com/news/articles/ce3pqvvzgnko?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed coverage of summit logistics and French foreign ministry statements",
+          "url": "https://www.rfi.fr/en/international/20260510-eurovision-fever-hits-host-city-vienna"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Highlighted mutual ceasefire violation accusations",
-          "url": "https://www.france24.com/en/europe/20260509-russia-and-ukraine-trade-accusations-of-truce-violations"
+          "framing_note": "Emphasized Macron's push for 'partnership rather than influence' framing",
+          "url": "https://www.france24.com/en/africa/20260511-macron-opens-africa-summit-in-kenya-with-push-for-new-france-africa-partnership"
         }
       ]
     },
     {
-      "headline": "Israeli Strikes Kill at Least 39 in Lebanon Despite Ceasefire",
-      "category": "Conflict",
+      "headline": "Former Thai PM Thaksin Shinawatra Released from Prison on Parole",
+      "category": "Policy",
       "bullets": [
-        "Lebanese health ministry reported 39 deaths from Israeli strikes on Saturday, including seven people killed in one strike on the town of Saksakiyeh, among them a child.",
-        "The IDF stated it was targeting Hezbollah infrastructure and personnel, claiming it took steps to minimize civilian harm including using 'precise munitions.'",
-        "Fighting has continued since President Trump announced a ceasefire deal between Israel and Lebanon on April 16.",
-        "Most strikes have concentrated in southern Lebanon, with the IDF saying it targeted 'Hezbollah terrorists operating from within a structure used for military purposes.'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Presented both Lebanese casualty figures and Israeli military statements",
-          "url": "https://www.bbc.com/news/articles/cy42kp0x92jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline emphasized deaths 'despite ceasefire'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/09/spanish-island-braces-for-arrival-of-hantavirus-cruise-ship_6753289_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Jihadist Attacks in Central Mali Kill Over 70 in Days of Violence",
-      "category": "Conflict",
-      "bullets": [
-        "Al-Qaeda-linked JNIM launched attacks on villages in central Mali on Friday, following earlier assaults on Wednesday that killed at least 30 people.",
-        "Local officials reported death tolls ranging from 70 to 80 in the recent wave of violence, with one describing the situation as 'our hearts are bleeding.'",
-        "Security sources said JNIM is targeting villages that refused to sign local agreements with the armed group.",
-        "The attacks follow an unprecedented joint assault by JNIM and the Tuareg-dominated Azawad Liberation Front against Mali's ruling junta last month."
+        "Thaksin Shinawatra, 76, was released after serving eight months of a one-year sentence for corruption-related charges",
+        "The billionaire populist served as prime minister from 2001-2006 before being ousted in a military coup; he spent nearly two decades in self-imposed exile",
+        "He will wear an electronic monitor during his four-month probation period and faces other pending criminal cases",
+        "Several hundred supporters wearing red shirts gathered outside the Bangkok prison to greet him"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Provided context on broader security deterioration and junta's struggles",
-          "url": "https://www.france24.com/en/europe/20260509-russia-and-ukraine-trade-accusations-of-truce-violations"
+          "framing_note": "Comprehensive background on Thaksin's political history and family involvement",
+          "url": "https://www.france24.com/en/africa/20260511-macron-opens-africa-summit-in-kenya-with-push-for-new-france-africa-partnership"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Straightforward factual report",
-          "url": "https://www.thehindu.com/news/international/dozens-killed-in-fresh-attacks-in-central-mali-local-security-sources/article70961351.ece"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article inaccessible but headline confirmed coverage",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/09/spanish-island-braces-for-arrival-of-hantavirus-cruise-ship_6753289_4.html"
+          "framing_note": "Included supporter quotes and analyst perspectives on his political future",
+          "url": "https://www.thehindu.com/news/international/american-passenger-tests-positive-for-hantavirus/article70964606.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Iran's Revolutionary Guards threaten US sites in Middle East if Iranian tankers attacked",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260510-live-iran-s-guards-threaten-us-sites-in-the-region-if-its-tankers-come-under-fire"
-    },
-    {
-      "headline": "Twelve Pakistani police officers killed in car bombing and militant ambush in northwest Pakistan",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/twelve-pakistani-police-officers-killed-in-car-bombing-and-shootout/article70961523.ece"
-    },
-    {
-      "headline": "Pro-Russian separatist arrested in France on suspicion of war crimes and torture at Donetsk prison",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260509-pro-russian-separatist-held-in-france-over-ukraine-torture-claims"
-    },
-    {
-      "headline": "Venice Biennale opens amid protests and resignations over participation of Russia and Israel",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/culture/20260509-venice-biennale-opens-under-shadow-of-protests-over-russia-and-israel"
-    },
-    {
-      "headline": "Australia's One Nation party wins first-ever federal lower house seat in New South Wales by-election",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cwy2e4z4npro"
-    },
-    {
-      "headline": "Greek authorities conduct controlled explosion of suspected Ukrainian naval drone found in Ionian Sea",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c9364r4r902o"
-    },
-    {
-      "headline": "French far-right leaders Marine Le Pen and Jordan Bardella meet German and Israeli ambassadors ahead of 2027 election",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260510-france-far-right-leaders-court-israel-germany-envoys-ahead-of-presidentials-marine-le-pen"
-    },
-    {
-      "headline": "Sir David Attenborough celebrates 100th birthday",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/life/people/celebrity/sir-david-attenborough-turns-100"
-    },
-    {
-      "headline": "High-ranking Sri Lankan Buddhist monk arrested over alleged rape of 15-year-old girl",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cy42kp0x92jo"
-    },
-    {
-      "headline": "Trump to visit China this week for meeting with Xi Jinping alongside US tech and finance executives",
+      "headline": "South Korea's KOSPI hits record high as SK Hynix shares jump 11% on AI boom",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/trump-visits-china-vote-on-sara-duterte-impeachment-softbank-earnings"
+      "url": "https://asia.nikkei.com/business/markets/hynix-shares-jump-11-driving-kospi-to-record-high"
+    },
+    {
+      "headline": "Philippine Vice President Sara Duterte faces second impeachment vote in House of Representatives",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/philippine-vice-president-sara-duterte-set-to-be-impeached-for-second-time"
+    },
+    {
+      "headline": "Iranian Nobel laureate Narges Mohammadi transferred from prison to hospital amid health concerns",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c1j257w87neo"
+    },
+    {
+      "headline": "EU foreign ministers to meet Syrian diplomat to discuss revival of ties and potential migrant returns",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/eyeing-migrant-returns-eu-pushes-to-revive-syria-ties/article70964733.ece"
+    },
+    {
+      "headline": "Greek tourism minister assures British holidaymakers will face no summer border delays despite EU biometric system",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cn5pxyr9xr7o"
+    },
+    {
+      "headline": "Six bodies found in train boxcar near US-Mexico border in Laredo, Texas",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/several-people-found-dead-in-boxcar-in-texas/article70964677.ece"
+    },
+    {
+      "headline": "Eurovision 2026 opens in Vienna with renewed boycott calls over Israel's participation",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260510-eurovision-fever-hits-host-city-vienna"
+    },
+    {
+      "headline": "Togo leads African Union push to replace Mercator map projection at UN General Assembly",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260510-togo-s-fight-against-a-centuries-old-map-revives-debate-over-african-representation"
+    },
+    {
+      "headline": "India's Modi urges citizens to 'tighten belts' amid Gulf crisis impacts",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/39a9e8c8-432d-46c9-9875-cc0bfa5c380f"
+    },
+    {
+      "headline": "Pop star Dua Lipa sues Samsung for $15 million over unauthorized use of her image on TV packaging",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-05-11/dua-lipa-sues-samsung-for-using-her-face-to-sell-tvs/106667428"
     }
   ]
 }
