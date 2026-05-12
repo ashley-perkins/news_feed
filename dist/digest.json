@@ -1,196 +1,220 @@
 {
-  "date": "Monday, May 11, 2026",
-  "daily_brief": "The global hantavirus outbreak dominated headlines Monday as confirmed cases emerged among repatriated passengers from the MV Hondius cruise ship, with a French national testing positive and an American also confirmed infected [BBC], [France 24], [The Hindu]. US-Iran tensions escalated sharply after President Trump rejected Tehran's ceasefire proposal as 'totally unacceptable,' sending oil prices surging above $104 per barrel [Al Jazeera], [BBC], [The Hindu]. In a notable shift, Russian President Putin suggested the Ukraine conflict may be 'coming to an end' following a scaled-back Victory Day parade in Moscow that omitted traditional military hardware displays due to security concerns [BBC]. France launched its Africa Forward Summit in Nairobi\u2014the first such gathering in an Anglophone African nation\u2014as President Macron seeks to reset relations following France's military withdrawal from the Sahel [RFI], [France 24]. Meanwhile, former Thai Prime Minister Thaksin Shinawatra was released from prison on parole after serving eight months of a one-year corruption sentence, raising questions about his political future [France 24], [The Hindu]. Markets reflected geopolitical uncertainty, with South Korea's KOSPI hitting record highs on AI-driven semiconductor gains while oil prices jumped on Iran war concerns [Nikkei Asia], [The Hindu].",
+  "date": "Tuesday, May 12, 2026",
+  "daily_brief": "The fragile US-Iran ceasefire dominates global attention today as President Trump declared the month-old truce is on 'massive life support' after rejecting Tehran's 14-point counter-proposal as 'totally unacceptable' [BBC]. Iran's parliamentary speaker responded that armed forces are 'ready to respond' to any aggression [BBC], while France and the UK convene over 40 defence ministers to plan military operations to restore shipping through the blocked Strait of Hormuz [RFI]. The diplomatic uncertainty has rattled Asian markets, with Japanese 10-year bond yields hitting their highest level since 1997 on inflation fears [Nikkei Asia]. Meanwhile, all eyes turn to Beijing where President Trump arrives Wednesday for a consequential three-day summit with Xi Jinping, accompanied by major US CEOs including Elon Musk and Tim Cook [The Hindu, Al Jazeera]. In Europe, UK Prime Minister Keir Starmer faces an existential political crisis as cabinet ministers reportedly urge him to consider his departure following devastating local election losses [Financial Times, Al Jazeera]. The EU has finally agreed sanctions on Israeli settlers after Hungary's new government dropped its veto [RFI], while the hantavirus outbreak on cruise ship MV Hondius continues to spread internationally with new cases confirmed in France and the US [BBC, Globe and Mail].",
   "top_stories": [
     {
-      "headline": "Hantavirus Cases Confirmed in US and France as Cruise Ship Evacuations Continue",
-      "category": "Society",
+      "headline": "Trump Declares US-Iran Ceasefire on 'Massive Life Support' as Tehran Rejects Counter-Proposal",
+      "category": "Conflict",
       "bullets": [
-        "A French national evacuated from the MV Hondius tested positive for hantavirus and her health is deteriorating, with 22 contact cases traced in France",
-        "A US passenger also tested positive; a second American showed mild symptoms during repatriation to Nebraska",
-        "Three passengers have died from the outbreak\u2014a Dutch couple and a German woman\u2014with the virus linked to a birdwatching trip in Argentina",
-        "More than 90 passengers have been repatriated to their home countries; British, Spanish, and other nationals are under monitoring or quarantine"
+        "President Trump told reporters the month-old ceasefire with Iran is 'unbelievably weak' and rejected Iran's 14-point counter-proposal as 'totally unacceptable' and a 'piece of garbage'",
+        "Iran's parliamentary speaker Mohammad Ghalibaf responded on X that Iran's armed forces are 'ready to respond and to teach a lesson for any aggression'",
+        "Tehran's proposal reportedly includes demands for an end to Israeli attacks on Hezbollah in Lebanon, lifting of the US naval blockade, guarantees against future attacks, and compensation for war damage",
+        "France and UK are co-hosting a 40-nation virtual meeting of defence ministers to plan multinational military operations to restore shipping through the blocked Strait of Hormuz"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on international coordination and repatriation logistics",
-          "url": "https://www.bbc.com/news/articles/c1j257w87neo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized French government response and health minister statements",
-          "url": "https://www.france24.com/en/africa/20260511-macron-opens-africa-summit-in-kenya-with-push-for-new-france-africa-partnership"
+          "framing_note": "Lead coverage focused on Trump's comments and Iranian response, detailed the 14-point proposal",
+          "url": "https://www.bbc.com/news/articles/c202xrd9gn7o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Similar to France 24, focus on French evacuation details",
-          "url": "https://www.rfi.fr/en/international/20260510-eurovision-fever-hits-host-city-vienna"
+          "framing_note": "Emphasized the France-UK diplomatic initiative and multinational coalition-building",
+          "url": "https://www.rfi.fr/en/africa/20260511-sudan-conflict-enters-deadlier-phase-due-to-drones-un-civilan-deaths"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Provided live coverage focusing on military planning aspects",
+          "url": "https://www.france24.com/en/middle-east/20260512-middle-east-live-us-iran-talks-deadlocked-strait-of-hormuz-still-closed"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article referenced but body unavailable",
+          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/05/12/after-signals-from-emmanuel-macron-algeria-shows-its-own-willingness-to-resume-dialogue_6753358_124.html"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Provided broader context including US and international response",
-          "url": "https://www.thehindu.com/news/international/american-passenger-tests-positive-for-hantavirus/article70964606.ece"
+          "framing_note": "Included detail about UAE secretly conducting strikes on Iran per Wall Street Journal report",
+          "url": "https://www.thehindu.com/news/international/jeffrey-epstein-files-go-on-display-at-new-york-pop-up-exhibit-featuring-35-million-pages/article70968375.ece"
         }
       ]
     },
     {
-      "headline": "Trump Rejects Iran Ceasefire Proposal as 'Totally Unacceptable,' Oil Prices Surge",
-      "category": "Conflict",
+      "headline": "Trump to Meet Xi in Beijing This Week in Most Consequential US-China Summit in Years",
+      "category": "Geopolitics",
       "bullets": [
-        "President Trump dismissed Iran's response to US peace proposals, calling it 'totally unacceptable' without elaborating on specifics",
-        "Iran's proposal reportedly included ending the war on all fronts, lifting the US naval blockade, and preserving Tehran's control over its nuclear program",
-        "Oil prices jumped over 4%, with Brent crude rising above $104 per barrel on renewed conflict uncertainty",
-        "Israeli PM Netanyahu stated Iran's enriched uranium stockpile must be 'taken out' before the war can be considered over"
+        "President Trump arrives in Beijing Wednesday for a three-day summit with President Xi Jinping, the first US presidential visit to China since 2017",
+        "Major US CEOs including Elon Musk (Tesla), Tim Cook (Apple), and leaders of Boeing, Goldman Sachs, and Citi will accompany Trump",
+        "Key agenda items include the US-Israel war on Iran, trade relations, Taiwan tensions, and competition in advanced technologies including AI and rare earth minerals",
+        "China is positioning itself as a potential peacemaker in the Iran conflict, having joined Pakistan in mediation efforts"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Balanced reporting on both US and Iranian positions",
-          "url": "https://www.bbc.com/news/articles/c1j257w87neo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized the summit's potential to set US-China relations for years, noted China's diplomatic opportunity",
+          "url": "https://www.bbc.com/news/articles/c202xrd9gn7o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "More detailed on Iranian perspective; noted US plan amounted to 'Iran's surrender' according to Iranian media",
-          "url": "https://www.aljazeera.com/video/upfront/2026/5/11/is-the-vatican-standing-up-to-trump?traffic_source=rss"
+          "framing_note": "Provided historical context of all seven Trump-Xi meetings since 2017",
+          "url": "https://www.aljazeera.com/news/2026/5/12/palestine-weekly-wrap-israeli-settlers-rampage-through-west-bank-villages?traffic_source=rss"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Focused on economic angles including rare earth minerals and trade implications",
+          "url": "https://asia.nikkei.com/business/materials/chinese-rare-earth-miners-bullish-ahead-of-trump-xi-summit"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Focused on market impact and oil price movements",
-          "url": "https://www.thehindu.com/news/international/american-passenger-tests-positive-for-hantavirus/article70964606.ece"
+          "framing_note": "Highlighted the business delegation and bilateral trade tensions",
+          "url": "https://www.thehindu.com/news/international/jeffrey-epstein-files-go-on-display-at-new-york-pop-up-exhibit-featuring-35-million-pages/article70968375.ece"
         }
       ]
     },
     {
-      "headline": "Putin Suggests Ukraine Conflict 'Coming to an End' After Scaled-Back Victory Day",
-      "category": "Geopolitics",
+      "headline": "UK Prime Minister Starmer Faces Cabinet Revolt as Senior Ministers Urge Him to Consider Departure",
+      "category": "Policy",
       "bullets": [
-        "Russian President Putin said 'I think that the matter is coming to an end' regarding the Ukraine conflict, speaking after Victory Day celebrations",
-        "The annual Moscow parade lacked tanks, missiles, and military hardware typically showcased, citing security concerns over potential Ukrainian drone attacks",
-        "A US-brokered three-day ceasefire reduced attack risks during the parade, though both sides accused each other of violations",
-        "Putin stated he would only meet President Zelensky once a lasting peace deal is in place"
+        "Interior Minister Shabana Mahmood and at least two other cabinet ministers have reportedly told Starmer to consider setting out a timeline for his departure",
+        "More than 80 Labour MPs have called for Starmer's resignation following devastating local election losses last week where Labour lost over 1,400 seats",
+        "Six ministerial aides resigned on Monday; UK government bonds and sterling dropped amid political uncertainty",
+        "Starmer remains defiant, stating Labour would 'never be forgiven' for the chaos of constantly changing leaders, and delivered a speech pledging to bring Britain 'back to the heart of Europe'"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Provided both news coverage and analytical perspective from correspondent Steve Rosenberg noting the 'very different' atmosphere",
-          "url": "https://www.bbc.com/news/articles/cn5pxyr9xr7o?at_medium=RSS&at_campaign=rss"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on market reaction and political manoeuvring around Chancellor Rachel Reeves",
+          "url": "https://www.ft.com/content/0e4afd5a-f08b-497f-8b19-256ed2cbbf10"
         },
         {
-          "name": "BBC Europe (Rosenberg analysis)",
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized the scale of opposition within Labour Party",
+          "url": "https://www.aljazeera.com/news/2026/5/12/palestine-weekly-wrap-israeli-settlers-rampage-through-west-bank-villages?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Straightforward reporting on Mahmood's intervention",
+          "url": "https://www.thehindu.com/news/international/jeffrey-epstein-files-go-on-display-at-new-york-pop-up-exhibit-featuring-35-million-pages/article70968375.ece"
+        },
+        {
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Noted fewer journalists, guests, and world leaders attended; highlighted Kremlin's reluctance to scale back the parade",
-          "url": "#"
+          "framing_note": "Highlighted Starmer's pro-European messaging as political strategy",
+          "url": "https://www.rfi.fr/en/africa/20260511-sudan-conflict-enters-deadlier-phase-due-to-drones-un-civilan-deaths"
         }
       ]
     },
     {
-      "headline": "France Opens Africa Forward Summit in Kenya, Seeking Continental Reset",
+      "headline": "Hantavirus Outbreak Spreads Internationally as Final Cruise Ship Passengers Evacuated",
+      "category": "Society",
+      "bullets": [
+        "All remaining passengers have been evacuated from MV Hondius in Tenerife; three passengers have died from the outbreak",
+        "Seven confirmed cases and two suspected cases have been linked to the ship according to WHO; new positive cases confirmed in France and the US",
+        "A French woman's health is reported to be deteriorating with 22 contacts traced; a second American showed mild symptoms during repatriation",
+        "WHO Director-General stated the public 'should know there is nothing to fear, the risk is low, this is not another COVID'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage of evacuation logistics and case tracking",
+          "url": "https://www.bbc.com/news/articles/c202xrd9gn7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Included WHO reassurance about public health risk",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-trumps-trade-war-hurts-the-us-too-canadian-ambassador-says/"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Duplicate coverage of same story",
+          "url": "https://www.bbc.com/news/articles/cx21669452lo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "EU Approves Sanctions on Israeli Settlers After Hungary Drops Long-Standing Veto",
       "category": "Geopolitics",
       "bullets": [
-        "France hosted the Africa Forward Summit in Nairobi\u2014the first such gathering in an English-speaking African country\u2014with President Macron and approximately 30 heads of state attending",
-        "The summit aims to diversify French alliances following diplomatic crises in the Sahel and the withdrawal of French troops from West Africa",
-        "Agenda topics include AI and digital transformation, health sector investments, energy transition, and creative industries",
-        "Kenyan President Ruto described the summit as a potential 'turning point' toward better partnership"
+        "The European Union agreed to new sanctions on Israeli settlers in the occupied West Bank for violence against Palestinians",
+        "Sanctions target three individual settlers and four settler organisations with asset freezes and travel bans",
+        "Hungary's new Prime Minister Peter Magyar lifted the veto that predecessor Viktor Orb\u00e1n had maintained for months",
+        "Sanctions will also target Hamas members, a condition required by some EU countries for their support"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Detailed coverage of summit logistics and French foreign ministry statements",
-          "url": "https://www.rfi.fr/en/international/20260510-eurovision-fever-hits-host-city-vienna"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized Macron's push for 'partnership rather than influence' framing",
-          "url": "https://www.france24.com/en/africa/20260511-macron-opens-africa-summit-in-kenya-with-push-for-new-france-africa-partnership"
-        }
-      ]
-    },
-    {
-      "headline": "Former Thai PM Thaksin Shinawatra Released from Prison on Parole",
-      "category": "Policy",
-      "bullets": [
-        "Thaksin Shinawatra, 76, was released after serving eight months of a one-year sentence for corruption-related charges",
-        "The billionaire populist served as prime minister from 2001-2006 before being ousted in a military coup; he spent nearly two decades in self-imposed exile",
-        "He will wear an electronic monitor during his four-month probation period and faces other pending criminal cases",
-        "Several hundred supporters wearing red shirts gathered outside the Bangkok prison to greet him"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Comprehensive background on Thaksin's political history and family involvement",
-          "url": "https://www.france24.com/en/africa/20260511-macron-opens-africa-summit-in-kenya-with-push-for-new-france-africa-partnership"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Included supporter quotes and analyst perspectives on his political future",
-          "url": "https://www.thehindu.com/news/international/american-passenger-tests-positive-for-hantavirus/article70964606.ece"
+          "framing_note": "Quoted EU foreign policy chief Kallas saying 'it was high time we move from deadlock to delivery'",
+          "url": "https://www.rfi.fr/en/africa/20260511-sudan-conflict-enters-deadlier-phase-due-to-drones-un-civilan-deaths"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "South Korea's KOSPI hits record high as SK Hynix shares jump 11% on AI boom",
+      "headline": "France announces \u20ac23 billion in African investments at Kenya summit, signaling shift away from former colonial ties",
+      "source": "BBC World, RFI English, France 24",
+      "url": "https://www.bbc.com/news/articles/cpqpernnx8xo"
+    },
+    {
+      "headline": "UN reports drones now cause over 80% of civilian deaths in Sudan conflict, warns of 'deadlier phase'",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260511-sudan-conflict-enters-deadlier-phase-due-to-drones-un-civilan-deaths"
+    },
+    {
+      "headline": "Japanese 10-year bond yields hit highest level since 1997 as Iran war stokes inflation fears",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/hynix-shares-jump-11-driving-kospi-to-record-high"
+      "url": "https://asia.nikkei.com/business/markets/bond-yields-jump-in-japan-and-south-korea-as-us-iran-talks-snag"
     },
     {
-      "headline": "Philippine Vice President Sara Duterte faces second impeachment vote in House of Representatives",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/philippine-vice-president-sara-duterte-set-to-be-impeached-for-second-time"
-    },
-    {
-      "headline": "Iranian Nobel laureate Narges Mohammadi transferred from prison to hospital amid health concerns",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c1j257w87neo"
-    },
-    {
-      "headline": "EU foreign ministers to meet Syrian diplomat to discuss revival of ties and potential migrant returns",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/eyeing-migrant-returns-eu-pushes-to-revive-syria-ties/article70964733.ece"
-    },
-    {
-      "headline": "Greek tourism minister assures British holidaymakers will face no summer border delays despite EU biometric system",
+      "headline": "US holds closely guarded talks with Denmark to open three new military bases in southern Greenland",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cn5pxyr9xr7o"
+      "url": "https://www.bbc.com/news/articles/cx21669452lo"
     },
     {
-      "headline": "Six bodies found in train boxcar near US-Mexico border in Laredo, Texas",
+      "headline": "Nearly 200 sanctioned Russian shadow fleet vessels entered UK waters since Starmer threatened interceptions",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cn8pvgw802no"
+    },
+    {
+      "headline": "UN report confirms at least 269 killed in Pakistani airstrike on Afghan drug rehabilitation centre",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c202xrd9gn7o"
+    },
+    {
+      "headline": "BBC investigation unmasks 'Kardo Ranya,' key people smuggler behind majority of Channel crossings",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cp3pl5093wpo"
+    },
+    {
+      "headline": "Southern California mayor Eileen Wang resigns, agrees to plead guilty to acting as illegal agent for Chinese government",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-california-mayor-eileen-wang-china-agent/"
+    },
+    {
+      "headline": "India declines Russian LNG under sanctions despite energy shortfall from Middle East tensions",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/several-people-found-dead-in-boxcar-in-texas/article70964677.ece"
+      "url": "https://www.thehindu.com/business/india-declines-russian-lng-under-sanctions-talks-continue-on-permitted-cargoes-sources-say/article70968551.ece"
     },
     {
-      "headline": "Eurovision 2026 opens in Vienna with renewed boycott calls over Israel's participation",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260510-eurovision-fever-hits-host-city-vienna"
-    },
-    {
-      "headline": "Togo leads African Union push to replace Mercator map projection at UN General Assembly",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260510-togo-s-fight-against-a-centuries-old-map-revives-debate-over-african-representation"
-    },
-    {
-      "headline": "India's Modi urges citizens to 'tighten belts' amid Gulf crisis impacts",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/39a9e8c8-432d-46c9-9875-cc0bfa5c380f"
-    },
-    {
-      "headline": "Pop star Dua Lipa sues Samsung for $15 million over unauthorized use of her image on TV packaging",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-05-11/dua-lipa-sues-samsung-for-using-her-face-to-sell-tvs/106667428"
+      "headline": "Mitsubishi Heavy expects profit surge as Japan eases restrictions on defence equipment exports",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/companies/mitsubishi-heavy-expects-profit-surge-as-japan-eases-arms-export-rules"
     }
   ]
 }
