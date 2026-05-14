@@ -1,202 +1,192 @@
 {
-  "date": "Wednesday, May 13, 2026",
-  "daily_brief": "The day's global agenda is dominated by US President Donald Trump's arrival in Beijing for a high-stakes summit with Chinese President Xi Jinping, their first meeting since 2017, with discussions expected on trade, Taiwan, and the ongoing Iran conflict [BBC World, France 24, Nikkei Asia, Al Jazeera, Globe and Mail]. Trump downplayed differences with Xi over Iran before departing, though pressure mounts as the war enters its 75th day and Gulf tensions escalate over the Strait of Hormuz [Al Jazeera, Globe and Mail]. In Europe, UK Prime Minister Keir Starmer faces a political crisis as over 80 Labour MPs have called for his resignation following heavy local election losses, with Wednesday's King's Speech seen as a pivotal moment for his premiership [France 24, Al Jazeera, Financial Times]. The European Commission signaled new legislation to restrict children's access to social media could come within months, with President von der Leyen stating the debate over minimum age limits 'can no longer be ignored' [BBC Europe, RFI]. Meanwhile, Ukraine's anti-corruption agencies named former presidential chief of staff Andriy Yermak as a suspect in a money-laundering probe, marking a significant escalation in domestic accountability efforts [BBC Europe].",
+  "date": "Thursday, May 14, 2026",
+  "daily_brief": "The Trump-Xi summit in Beijing dominated headlines Thursday, with President Trump arriving accompanied by major US tech CEOs including Elon Musk and Tim Cook [BBC, France 24, Financial Times]. While Trump hailed a 'fantastic relationship,' Xi delivered a pointed warning that Taiwan remains 'the most important issue' and could push the superpowers into conflict if mishandled [France 24, Le Monde]. The summit comes amid a fragile US-Iran ceasefire and ongoing trade tensions, with tariffs on Chinese goods still at 145% [RFI, Globe and Mail]. Meanwhile, Russia launched one of its largest aerial assaults since 2022 against Ukraine, firing over 670 drones and 56 missiles at Kyiv and other cities, killing at least two and wounding dozens just days after a three-day ceasefire collapsed [BBC, France 24, Financial Times, The Hindu]. President Zelensky warned these were 'not the actions of those who believe the war is coming to an end.' In parallel diplomatic activity, BRICS foreign ministers convened in New Delhi to address global divisions over the Iran war and rising energy prices [The Hindu]. Health authorities continue monitoring the hantavirus outbreak from the MV Hondius cruise ship, with France reporting one serious case while officials stress the situation remains contained [RFI, BBC].",
   "top_stories": [
     {
-      "headline": "Trump Arrives in Beijing for High-Stakes Summit with Xi Amid Iran War and Trade Tensions",
+      "headline": "Trump and Xi Open Beijing Summit as China Warns Taiwan Issue Could Trigger Conflict",
       "category": "Geopolitics",
       "bullets": [
-        "US President Donald Trump departed for Beijing on Tuesday for a three-day visit\u2014the first by a US president to China since 2017\u2014with formal talks with President Xi Jinping scheduled for Thursday and Friday",
-        "Agenda items include trade relations, US arms sales to Taiwan, artificial intelligence cooperation, and efforts to end the Iran conflict now in its 75th day",
-        "Trump downplayed Iran as a point of contention before departure, saying Xi has been 'relatively good,' while stating preventing Iran from acquiring nuclear weapons is his sole priority regardless of US economic impact",
-        "Trump is accompanied by corporate executives including Elon Musk, Tim Cook, and Jensen Huang, with expectations of commercial deals for aircraft and agricultural goods"
+        "President Trump arrived in Beijing Wednesday evening for a two-day summit with Xi Jinping, the first US presidential visit to China in nearly a decade",
+        "Xi warned that Taiwan is 'the most important issue' in US-China relations and that mishandling it could push the nations into 'conflict'",
+        "Trump was accompanied by 17 US tech CEOs including Elon Musk (Tesla/SpaceX), Tim Cook (Apple), Jensen Huang (Nvidia), and Larry Fink (BlackRock)",
+        "Xi told the executives that Chinese markets will 'open wider' to US and global trade, while a trade truce from October 2025 remains in place amid tariffs of 145% on Chinese goods and 84% Chinese counter-tariffs"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasizes China's increased strength and assertiveness since Trump's last visit, highlighting Xi's investments in renewable energy and AI",
-          "url": "https://www.bbc.com/news/articles/clyp8rdldk1o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized pageantry and diplomatic protocol of Trump's arrival",
+          "url": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Frames summit around multiple competing priorities\u2014trade, Taiwan, Iran\u2014noting few expect major breakthroughs",
-          "url": "https://www.france24.com/en/asia-pacific/20260513-trump-xi-summit-trade-taiwan-and-iran-on-the-table-at-high-stakes-beijing-meeting"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focus on last-minute trade negotiations in Seoul and commercial deal expectations",
-          "url": "https://asia.nikkei.com/announcements/nikkei-launches-new-stock-index-tracking-japan-s-entertainment-industry"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlights Taiwan as Beijing's top priority and frames Xi as predictable versus Trump's mercurial approach",
-          "url": "https://www.aljazeera.com/economy/2026/5/13/trump-and-xi-to-meet-in-beijing-the-key-issues-shaping-the-china-summit?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasizes Trump's statement that Americans' financial struggles are 'not even a little bit' a factor in Iran negotiations",
-          "url": "https://www.theglobeandmail.com/world/article-canvas-cyberattack-students-data/"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline emphasizes Xi welcoming Trump 'from a position of strength'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/13/gaza-s-displaced-persons-camps-are-overrun-by-rats_6753385_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "UK Prime Minister Starmer Fights for Survival as Labour Revolt Deepens Ahead of King's Speech",
-      "category": "Policy",
-      "bullets": [
-        "Over 80 Labour MPs have called for Prime Minister Keir Starmer to resign following heavy losses in local and regional elections, though more than 100 others signed a statement backing him",
-        "Four junior ministers resigned on Tuesday as the party descended into open warfare over Starmer's leadership",
-        "Starmer held a brief meeting Wednesday morning with Health Secretary Wes Streeting, widely seen as a potential leadership rival",
-        "King Charles III will deliver the government's legislative agenda Wednesday, with Downing Street promising an 'ambitious programme' to make Britain 'stronger and fairer'"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Describes Starmer's job as 'hanging in the balance' and the speech as having 'huge repercussions'",
-          "url": "https://www.france24.com/en/asia-pacific/20260513-trump-xi-summit-trade-taiwan-and-iran-on-the-table-at-high-stakes-beijing-meeting"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Frames Starmer as 'fighting for his political survival' and notes he has 'failed to deliver reforms'",
-          "url": "https://www.aljazeera.com/economy/2026/5/13/trump-and-xi-to-meet-in-beijing-the-key-issues-shaping-the-china-summit?traffic_source=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline describes Starmer as 'clings to power'",
-          "url": "https://www.ft.com/content/2e3f38a8-4415-4349-845f-c67425178863"
-        }
-      ]
-    },
-    {
-      "headline": "EU Moves Toward Restricting Children's Social Media Access, New Legislation Possible by Summer",
-      "category": "Policy",
-      "bullets": [
-        "European Commission President Ursula von der Leyen proposed a 'social media delay' for children and said new legislation could be put forward within months",
-        "An expert panel is due to deliver recommendations by July on strengthening protections for minors online, including examining potential bans for younger teenagers",
-        "Denmark and nine other EU member states including France are already pushing for various minimum age limits for platform access",
-        "Australia became the first country to ban social media for under-16s in December 2025; France aims to implement a ban for under-15s by September 2026"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Straightforward policy reporting, notes von der Leyen 'did not rule out' a ban",
-          "url": "https://www.bbc.com/news/articles/cn8pvgw802no?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Led with Xi's Taiwan warning as the dominant theme",
+          "url": "https://www.france24.com/en/asia-pacific/20260514-iran-conflict-looms-over-trump-xi-talks-in-beijing-china"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Frames as 'fresh push to rein in' social media giants, emphasizes mental health concerns",
-          "url": "https://www.rfi.fr/en/africa/20260512-museveni-sworn-in-for-seventh-term-as-succession-question-looms"
+          "framing_note": "Focused on tariff negotiations and EU concerns about being 'caught in the middle'",
+          "url": "https://www.rfi.fr/en/france/20260513-france-says-hantavirus-outbreak-under-control-as-infection-remains-isolated"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Highlighted Xi's message to tech CEOs about market opening",
+          "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Contextualized within broader trade war history",
+          "url": "https://www.theglobeandmail.com/world/article-philippine-senate-gunshots-senator-ronald-dela-rosa-icc/"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Xi's Taiwan warning",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/05/14/obesity-surges-in-low-income-countries-stabilizes-in-wealthier-nations_6753435_114.html"
         }
       ]
     },
     {
-      "headline": "Ukraine's Former Presidential Chief of Staff Yermak Named Suspect in Corruption Probe",
-      "category": "Geopolitics",
+      "headline": "Russia Launches Massive Aerial Assault on Ukraine as Ceasefire Collapses",
+      "category": "Conflict",
       "bullets": [
-        "Andriy Yermak, President Zelensky's former right-hand man, appeared in Kyiv court Tuesday after being named a suspect in a money-laundering scheme by Ukraine's two anti-corruption agencies",
-        "The allegations center on a $10.5 million luxury construction project outside Kyiv; prosecutors requested either preventive detention or bail of approximately $4 million",
-        "Yermak resigned as head of the presidential office last November following an anti-corruption raid on his flat; he denies wrongdoing and says he owns only 'one flat and one car'",
-        "The head of Ukraine's National Anti-corruption Bureau stressed that President Zelensky himself is not part of the investigation"
+        "Russia launched over 670 attack drones and 56 missiles against Ukraine overnight, one of its largest strikes since the 2022 invasion began",
+        "At least two people were killed and over 40 wounded, with a nine-storey residential building in Kyiv destroyed and 18 apartments lost",
+        "The attack marks the third consecutive day of deadly strikes following the expiration of a three-day ceasefire on Monday",
+        "President Zelensky urged allies not to remain silent, stating these are 'definitely not the actions of those who believe the war is coming to an end'"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Provides detailed factual account, notes Yermak led Ukraine's talks with the US until his resignation",
-          "url": "https://www.bbc.com/news/articles/cn8pvgw802no?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "WHO Says No Sign of Larger Hantavirus Outbreak as Cruise Ship Passengers Evacuated",
-      "category": "Society",
-      "bullets": [
-        "The World Health Organization said there is 'no sign' of a larger hantavirus outbreak following evacuation of passengers from the cruise ship MV Hondius, though warned 'the situation could change'",
-        "Three people have died after traveling on the ship; nine cases are confirmed with two suspected, including a French woman in intensive care with 'the most severe form' of the disease",
-        "The final 28 passengers arrived in the Netherlands on Tuesday; 12 employees at a Dutch hospital are in quarantine after possible exposure while handling patient samples",
-        "Experts emphasized the virus has 'pretty low' transmission efficiency compared to COVID-19, though it has a fatality rate of approximately one in three"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Balanced factual reporting on outbreak status and evacuation details",
-          "url": "https://www.bbc.com/news/articles/cn8pvgw802no?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed rescue operations and infrastructure damage",
+          "url": "https://www.bbc.com/sport/cycling/articles/ckgpynkj4jno?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Featured expert interviews emphasizing scientific differences from COVID-19 and pushing back against pandemic comparisons",
-          "url": "https://www.france24.com/en/asia-pacific/20260513-trump-xi-summit-trade-taiwan-and-iran-on-the-table-at-high-stakes-beijing-meeting"
+          "framing_note": "Emphasized scale of attack and Zelensky's diplomatic messaging",
+          "url": "https://www.france24.com/en/asia-pacific/20260514-iran-conflict-looms-over-trump-xi-talks-in-beijing-china"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Framed around ceasefire collapse",
+          "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Connected the attack timing to Trump-Xi summit",
+          "url": "https://www.thehindu.com/sci-tech/technology/apple-criticises-eu-measures-to-help-ai-rivals-access-google-services/article70976837.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Hantavirus Outbreak From Cruise Ship Contained But Remains Under Close Watch",
+      "category": "Society",
+      "bullets": [
+        "Three people have died and nine cases confirmed from the MV Hondius cruise ship outbreak, with two additional suspected cases",
+        "A woman is isolating on the remote Pitcairn Islands after contact with an exposed individual but shows no symptoms",
+        "A French woman over 65 repatriated from the ship is in intensive care in Paris with severe cardiopulmonary symptoms",
+        "WHO chief Tedros said there is 'no sign' of a larger outbreak but warned 'the situation could change'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on the Pitcairn Islands isolation case and global spread concerns",
+          "url": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized French government reassurances and lessons from COVID-19",
+          "url": "https://www.rfi.fr/en/france/20260513-france-says-hantavirus-outbreak-under-control-as-infection-remains-isolated"
+        }
+      ]
+    },
+    {
+      "headline": "BRICS Foreign Ministers Meet in New Delhi Amid Iran War Tensions and Energy Price Pressures",
+      "category": "Geopolitics",
+      "bullets": [
+        "Foreign ministers from BRICS nations began a two-day meeting in New Delhi on Thursday",
+        "Iranian Foreign Minister Abbas Araghchi and Russia's Sergey Lavrov are attending; China sent Ambassador Xu Feihong while Foreign Minister Wang Yi remained in Beijing for Trump's visit",
+        "India's Foreign Minister Jaishankar said talks would focus on global challenges and deepening cooperation, noting BRICS should play a 'constructive and stabilising role'",
+        "The meeting occurs as the Iran war has disrupted global energy supplies and driven up oil prices"
+      ],
+      "sources": [
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Detailed diplomatic attendance and framed BRICS as counterweight to Western institutions",
+          "url": "https://www.thehindu.com/sci-tech/technology/apple-criticises-eu-measures-to-help-ai-rivals-access-google-services/article70976837.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Israeli Strikes Kill 22 in Southern Lebanon as Ceasefire Violations Continue",
+      "category": "Conflict",
+      "bullets": [
+        "Israeli air strikes killed 22 people including eight children across multiple locations in southern Lebanon",
+        "Strikes targeted vehicles on the coastal highway near Beirut and in the city of Sidon, as well as several villages further south",
+        "Israeli military said it struck Hezbollah weapons storage facilities and told residents of nine towns to evacuate",
+        "UN peacekeeping force UNIFIL expressed concern about increased drone activity near UN positions resulting in explosions around their bases"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced account of casualties and military claims from both sides",
+          "url": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "US in closely guarded talks with Denmark to open three new military bases in southern Greenland",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cx21669452lo"
-    },
-    {
-      "headline": "Ghana to evacuate 300 citizens from South Africa following wave of anti-immigrant protests",
+      "headline": "South Carolina Supreme Court unanimously overturns Alex Murdaugh's murder convictions, orders new trial due to jury tampering by court clerk",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cedpv17gqqzo"
+      "url": "https://www.bbc.com/news/articles/cedpvnq7wn1o"
     },
     {
-      "headline": "France's Renaissance party endorses former PM Gabriel Attal for 2027 presidential bid with 91% support",
+      "headline": "Philippine Senator Ronald dela Rosa, wanted by ICC for crimes against humanity, flees Senate building after gunfire erupts during attempted arrest",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/5/14/philippine-politician-wanted-by-icc-flees-senate"
+    },
+    {
+      "headline": "Paris Saint-Germain clinch record-extending 14th French Ligue 1 title with 2-0 win over Lens",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260513-macron-s-renaissance-party-endorses-ex-pm-attal-for-2027-presidential-bid"
+      "url": "https://www.rfi.fr/en/international/20260513-paris-saint-germain-clinches-a-record-extending-14th-french-league-title"
     },
     {
-      "headline": "Defense Secretary Hegseth faces congressional grilling as Iran war costs rise to $29 billion",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-hegseth-hearings-congress-iran-war/"
+      "headline": "German court rules Milka chocolate maker Mondel\u0113z deceived consumers by shrinking Alpine Milk bar from 100g to 90g without clear notice",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/crmp428zylko"
     },
     {
-      "headline": "Air India crisis deepens with CEO resignation and $2.4 billion losses ahead of Ahmedabad crash report",
+      "headline": "UK economy grew 0.6% in first quarter despite Middle East energy crisis, reducing pressure on Bank of England to cut rates",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/c27cc9ec-efe5-4227-9f34-edadea11003b"
+    },
+    {
+      "headline": "Human Rights Watch documents execution of 53 civilians by M23 rebels and Rwandan soldiers during occupation of Uvira in eastern DR Congo",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c775vvz0kydo"
+      "url": "https://www.bbc.com/news/articles/cy42dgj0x32o"
     },
     {
-      "headline": "Eurovision Song Contest opens in Vienna amid Israel controversy with five countries boycotting",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-eurovision-2026-israel-protests/"
+      "headline": "French parliamentary report finds Louvre security concerns were 'pushed aside' in favor of prestige projects prior to \u20ac88 million jewel heist",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260514-louvre-security-concerns-pushed-aside-in-favour-of-prestige-projects"
     },
     {
-      "headline": "Jason Collins, NBA's first openly gay active player, dies aged 47 after battle with brain cancer",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/clyp8rdldk1o"
-    },
-    {
-      "headline": "Internal displacements from conflict reached record 32.3 million in 2025, surpassing disaster-driven displacement for first time",
+      "headline": "Internal displacements caused by conflict reached record 32.3 million in 2025, surpassing disaster-driven displacement for first time",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/may/12/internal-displacements-violence-conflict-record-high-2025"
-    },
-    {
-      "headline": "Nearly 200 sanctioned Russian 'shadow fleet' vessels have entered UK waters since PM threatened interceptions seven weeks ago",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cn8pvgw802no"
-    },
-    {
-      "headline": "Uganda's President Museveni sworn in for seventh term as oil production set to begin and succession questions loom",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260512-museveni-sworn-in-for-seventh-term-as-succession-question-looms"
     }
   ]
 }
