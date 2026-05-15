@@ -1,192 +1,190 @@
 {
-  "date": "Thursday, May 14, 2026",
-  "daily_brief": "The Trump-Xi summit in Beijing dominated headlines Thursday, with President Trump arriving accompanied by major US tech CEOs including Elon Musk and Tim Cook [BBC, France 24, Financial Times]. While Trump hailed a 'fantastic relationship,' Xi delivered a pointed warning that Taiwan remains 'the most important issue' and could push the superpowers into conflict if mishandled [France 24, Le Monde]. The summit comes amid a fragile US-Iran ceasefire and ongoing trade tensions, with tariffs on Chinese goods still at 145% [RFI, Globe and Mail]. Meanwhile, Russia launched one of its largest aerial assaults since 2022 against Ukraine, firing over 670 drones and 56 missiles at Kyiv and other cities, killing at least two and wounding dozens just days after a three-day ceasefire collapsed [BBC, France 24, Financial Times, The Hindu]. President Zelensky warned these were 'not the actions of those who believe the war is coming to an end.' In parallel diplomatic activity, BRICS foreign ministers convened in New Delhi to address global divisions over the Iran war and rising energy prices [The Hindu]. Health authorities continue monitoring the hantavirus outbreak from the MV Hondius cruise ship, with France reporting one serious case while officials stress the situation remains contained [RFI, BBC].",
+  "date": "Friday, May 15, 2026",
+  "daily_brief": "The day's most consequential developments center on the Trump-Xi summit in Beijing, where both leaders claimed progress on trade while remaining divided on Taiwan and Iran [Reuters via Globe and Mail], [Nikkei Asia], [RFI]. Markets reacted nervously, with Boeing shares falling on underwhelming deal announcements [FT] and Asian tech stocks sliding amid rising oil prices linked to the ongoing Iran conflict [Nikkei Asia]. Russia launched its largest aerial assault on Ukraine since the war began, killing at least 27 civilians over two days and demolishing residential buildings in Kyiv\u2014actions President Zelensky said contradict Russian claims the war is ending [BBC], [Globe and Mail], [RFI]. In a dramatic political collapse, Latvia's Prime Minister Evika Silina resigned after controversy over Ukrainian drones that strayed into Latvian territory and struck an oil facility, with NATO analysts suggesting the drones may have autonomously selected their target [Globe and Mail], [BBC]. Humanitarian concerns mounted as the UN appealed to Equatorial Guinea not to deport US asylum seekers to countries where they face persecution [Guardian], while a federal judge ordered the Trump administration to return a Colombian woman mistakenly deported to the Democratic Republic of Congo [Guardian].",
   "top_stories": [
     {
-      "headline": "Trump and Xi Open Beijing Summit as China Warns Taiwan Issue Could Trigger Conflict",
+      "headline": "Trump and Xi Conclude Beijing Summit with Trade Optimism but Deep Divisions on Taiwan and Iran",
       "category": "Geopolitics",
       "bullets": [
-        "President Trump arrived in Beijing Wednesday evening for a two-day summit with Xi Jinping, the first US presidential visit to China in nearly a decade",
-        "Xi warned that Taiwan is 'the most important issue' in US-China relations and that mishandling it could push the nations into 'conflict'",
-        "Trump was accompanied by 17 US tech CEOs including Elon Musk (Tesla/SpaceX), Tim Cook (Apple), Jensen Huang (Nvidia), and Larry Fink (BlackRock)",
-        "Xi told the executives that Chinese markets will 'open wider' to US and global trade, while a trade truce from October 2025 remains in place amid tariffs of 145% on Chinese goods and 84% Chinese counter-tariffs"
+        "US President Donald Trump and Chinese President Xi Jinping met over two days in Beijing, the first visit by a US president to China in nine years",
+        "Trump claimed 'fantastic trade deals' were reached covering agriculture, aviation, and AI, while Xi described a new 'constructive strategic and stable relationship'",
+        "Xi warned that mishandling Taiwan could lead to 'a clash' between the two nations; Trump said China offered to 'help on Hormuz' regarding the Iran conflict",
+        "Boeing shares fell after the summit as investors deemed the announced deals disappointing; progress was reported on fentanyl precursor trafficking"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized pageantry and diplomatic protocol of Trump's arrival",
-          "url": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized that leaders 'talked past each other' on key issues despite warm rhetoric",
+          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-drone-attacks/"
         },
         {
-          "name": "France 24",
+          "name": "Nikkei Asia",
           "lean": "Center",
-          "framing_note": "Led with Xi's Taiwan warning as the dominant theme",
-          "url": "https://www.france24.com/en/asia-pacific/20260514-iran-conflict-looms-over-trump-xi-talks-in-beijing-china"
+          "framing_note": "Focused on business delegation including Musk, Cook, and Huang; detailed Chinese foreign ministry statements",
+          "url": "https://asia.nikkei.com/business/companies/india-s-gautam-adani-settles-civil-suit-with-the-sec-in-the-us"
         },
         {
-          "name": "RFI English",
+          "name": "RFI",
           "lean": "Center",
-          "framing_note": "Focused on tariff negotiations and EU concerns about being 'caught in the middle'",
-          "url": "https://www.rfi.fr/en/france/20260513-france-says-hantavirus-outbreak-under-control-as-infection-remains-isolated"
+          "framing_note": "Led with Trump's 'fantastic deals' claim; included Xi's promise to send rose seeds to White House",
+          "url": "#"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Highlighted Xi's message to tech CEOs about market opening",
-          "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d"
+          "framing_note": "Focused on Boeing share decline and market disappointment with deal outcomes",
+          "url": "https://www.ft.com/content/b433d23a-ae67-488e-9ef6-78c83f443763"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized 'new common understandings' from Chinese foreign ministry perspective",
+          "url": "https://www.thehindu.com/news/international/cia-director-visits-cuba-as-island-nation-runs-out-of-oil/article70981731.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Launches Largest Aerial Assault on Ukraine Since War Began, Killing Dozens",
+      "category": "Conflict",
+      "bullets": [
+        "Russia launched over 1,560 drones and 56 missiles over a two-day period targeting Ukrainian cities, the largest such attack since the 2022 invasion began",
+        "At least 27 civilians were killed, including two children, with a Kyiv apartment building demolished and over 50 residential buildings damaged nationwide",
+        "Ukrainian air defenses intercepted 93% of projectiles, downing 652 drones and 41 missiles overnight",
+        "President Zelensky said the attacks contradict Russian claims the war is ending; Friday declared a day of mourning in Kyiv"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Detailed casualty figures and rescue operations; quoted Zelensky on partners needing to hold Moscow accountable",
+          "url": "#"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Contextualized within broader trade war history",
-          "url": "https://www.theglobeandmail.com/world/article-philippine-senate-gunshots-senator-ronald-dela-rosa-icc/"
+          "framing_note": "Contrasted Putin's Saturday statement that war was 'coming to an end' with the scale of attacks",
+          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-drone-attacks/"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Xi's Taiwan warning",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/05/14/obesity-surges-in-low-income-countries-stabilizes-in-wealthier-nations_6753435_114.html"
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Emphasized that attacks 'shredded hopes' of a halt to Moscow's invasion",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "Russia Launches Massive Aerial Assault on Ukraine as Ceasefire Collapses",
-      "category": "Conflict",
-      "bullets": [
-        "Russia launched over 670 attack drones and 56 missiles against Ukraine overnight, one of its largest strikes since the 2022 invasion began",
-        "At least two people were killed and over 40 wounded, with a nine-storey residential building in Kyiv destroyed and 18 apartments lost",
-        "The attack marks the third consecutive day of deadly strikes following the expiration of a three-day ceasefire on Monday",
-        "President Zelensky urged allies not to remain silent, stating these are 'definitely not the actions of those who believe the war is coming to an end'"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed rescue operations and infrastructure damage",
-          "url": "https://www.bbc.com/sport/cycling/articles/ckgpynkj4jno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized scale of attack and Zelensky's diplomatic messaging",
-          "url": "https://www.france24.com/en/asia-pacific/20260514-iran-conflict-looms-over-trump-xi-talks-in-beijing-china"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Framed around ceasefire collapse",
-          "url": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Connected the attack timing to Trump-Xi summit",
-          "url": "https://www.thehindu.com/sci-tech/technology/apple-criticises-eu-measures-to-help-ai-rivals-access-google-services/article70976837.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Hantavirus Outbreak From Cruise Ship Contained But Remains Under Close Watch",
-      "category": "Society",
-      "bullets": [
-        "Three people have died and nine cases confirmed from the MV Hondius cruise ship outbreak, with two additional suspected cases",
-        "A woman is isolating on the remote Pitcairn Islands after contact with an exposed individual but shows no symptoms",
-        "A French woman over 65 repatriated from the ship is in intensive care in Paris with severe cardiopulmonary symptoms",
-        "WHO chief Tedros said there is 'no sign' of a larger outbreak but warned 'the situation could change'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on the Pitcairn Islands isolation case and global spread concerns",
-          "url": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized French government reassurances and lessons from COVID-19",
-          "url": "https://www.rfi.fr/en/france/20260513-france-says-hantavirus-outbreak-under-control-as-infection-remains-isolated"
-        }
-      ]
-    },
-    {
-      "headline": "BRICS Foreign Ministers Meet in New Delhi Amid Iran War Tensions and Energy Price Pressures",
+      "headline": "Latvian Government Collapses After Ukrainian Drones Strike Oil Facility; AI Targeting Suspected",
       "category": "Geopolitics",
       "bullets": [
-        "Foreign ministers from BRICS nations began a two-day meeting in New Delhi on Thursday",
-        "Iranian Foreign Minister Abbas Araghchi and Russia's Sergey Lavrov are attending; China sent Ambassador Xu Feihong while Foreign Minister Wang Yi remained in Beijing for Trump's visit",
-        "India's Foreign Minister Jaishankar said talks would focus on global challenges and deepening cooperation, noting BRICS should play a 'constructive and stabilising role'",
-        "The meeting occurs as the Iran war has disrupted global energy supplies and driven up oil prices"
+        "Prime Minister Evika Silina resigned after her coalition collapsed following controversy over two Ukrainian drones that struck an oil depot in eastern Latvia on May 7",
+        "NATO Strategic Communications Centre director said drones likely made an 'autonomous decision' to select the target after losing contact with operators\u2014potentially a first in warfare",
+        "No air-raid sirens sounded until after both drones had struck; Defense Minister Andris Spruds was fired over the incident before his party withdrew support from the government",
+        "Ukraine officially claims the drones were redirected by Russian electronic warfare; NATO analysis contradicts this account"
       ],
       "sources": [
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Detailed diplomatic attendance and framed BRICS as counterweight to Western institutions",
-          "url": "https://www.thehindu.com/sci-tech/technology/apple-criticises-eu-measures-to-help-ai-rivals-access-google-services/article70976837.ece"
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Led with AI targeting angle; quoted NATO think tank director extensively on autonomous decision-making",
+          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-drone-attacks/"
+        },
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Focused on political crisis and coalition collapse; less emphasis on AI targeting theory",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "Israeli Strikes Kill 22 in Southern Lebanon as Ceasefire Violations Continue",
-      "category": "Conflict",
+      "headline": "UN Urges Equatorial Guinea to Halt Deportations as Judge Orders Return of Colombian Woman from DRC",
+      "category": "Policy",
       "bullets": [
-        "Israeli air strikes killed 22 people including eight children across multiple locations in southern Lebanon",
-        "Strikes targeted vehicles on the coastal highway near Beirut and in the city of Sidon, as well as several villages further south",
-        "Israeli military said it struck Hezbollah weapons storage facilities and told residents of nine towns to evacuate",
-        "UN peacekeeping force UNIFIL expressed concern about increased drone activity near UN positions resulting in explosions around their bases"
+        "A federal judge ruled the deportation of Colombian asylum seeker Adriana Mar\u00eda Quiroz Zapata to the Democratic Republic of Congo was 'likely illegal' and ordered her return to the US",
+        "UN human rights experts issued a rare public appeal urging Equatorial Guinea not to return US deportees to their home countries where they face persecution, torture, or death",
+        "The Trump administration paid Equatorial Guinea $7.5 million to accept third-country nationals who had asylum protections in the US",
+        "Quiroz Zapata, 55, has diabetes and thyroid conditions; she reported skin deterioration and blackened nails while in detention and now lives under supervision in a Kinshasa hotel"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Detailed individual deportee's medical condition and hotel confinement; described Equatorial Guinea as 'one of the world's most repressive regimes'",
+          "url": "https://www.theguardian.com/world/2026/may/12/internal-displacements-violence-conflict-record-high-2025"
+        }
+      ]
+    },
+    {
+      "headline": "Ebola Outbreak Declared in Eastern DR Congo with 65 Deaths Reported",
+      "category": "Society",
+      "bullets": [
+        "Africa CDC declared an Ebola outbreak in DR Congo's Ituri province, with 246 cases and 65 deaths reported, mainly in gold-mining towns of Mongwalu and Rwampara",
+        "This is the 17th Ebola outbreak in DR Congo, where the disease was first discovered in 1976",
+        "Laboratory tests at the national research institute confirmed the virus in 13 of 20 samples analyzed",
+        "Africa CDC is convening meetings with Uganda, South Sudan, and international partners on cross-border surveillance; additional suspected cases reported in provincial capital Bunia"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Balanced account of casualties and military claims from both sides",
-          "url": "https://www.bbc.com/news/articles/c1k2zekj8y9o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straightforward reporting on outbreak declaration and case numbers; noted Congolese government had not yet officially declared outbreak",
+          "url": "#"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "South Carolina Supreme Court unanimously overturns Alex Murdaugh's murder convictions, orders new trial due to jury tampering by court clerk",
+      "headline": "Over 100 killed as deadly storms strike India's Uttar Pradesh state",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/05/15/over-100-killed-as-deadly-storms-lash-india-s-uttar-pradesh_6753476_4.html"
+    },
+    {
+      "headline": "CIA Director John Ratcliffe meets Cuban intelligence officials in Havana amid deepening oil crisis from US blockade",
+      "source": "BBC World, The Hindu",
+      "url": "https://www.bbc.com/news/articles/cd7pyrj0vx7o"
+    },
+    {
+      "headline": "Indian billionaire Gautam Adani agrees to pay $18 million to settle SEC civil fraud lawsuit without admitting wrongdoing",
+      "source": "BBC World, Nikkei Asia",
+      "url": "https://www.bbc.com/news/articles/c4g82p5ygp8o"
+    },
+    {
+      "headline": "US Supreme Court temporarily restores mail access to abortion pill mifepristone while litigation continues",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cedpvnq7wn1o"
+      "url": "https://www.bbc.com/news/articles/cx21x27d4jdo"
     },
     {
-      "headline": "Philippine Senator Ronald dela Rosa, wanted by ICC for crimes against humanity, flees Senate building after gunfire erupts during attempted arrest",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/5/14/philippine-politician-wanted-by-icc-flees-senate"
+      "headline": "Japanese memory chip maker Kioxia forecasts 48-fold quarterly profit increase driven by AI data center demand",
+      "source": "Nikkei Asia, Financial Times",
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-kioxia-forecasts-48-fold-quarterly-profit-jump-on-ai-demand"
     },
     {
-      "headline": "Paris Saint-Germain clinch record-extending 14th French Ligue 1 title with 2-0 win over Lens",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260513-paris-saint-germain-clinches-a-record-extending-14th-french-league-title"
-    },
-    {
-      "headline": "German court rules Milka chocolate maker Mondel\u0113z deceived consumers by shrinking Alpine Milk bar from 100g to 90g without clear notice",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/crmp428zylko"
-    },
-    {
-      "headline": "UK economy grew 0.6% in first quarter despite Middle East energy crisis, reducing pressure on Bank of England to cut rates",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/c27cc9ec-efe5-4227-9f34-edadea11003b"
-    },
-    {
-      "headline": "Human Rights Watch documents execution of 53 civilians by M23 rebels and Rwandan soldiers during occupation of Uvira in eastern DR Congo",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cy42dgj0x32o"
-    },
-    {
-      "headline": "French parliamentary report finds Louvre security concerns were 'pushed aside' in favor of prestige projects prior to \u20ac88 million jewel heist",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260514-louvre-security-concerns-pushed-aside-in-favour-of-prestige-projects"
-    },
-    {
-      "headline": "Internal displacements caused by conflict reached record 32.3 million in 2025, surpassing disaster-driven displacement for first time",
+      "headline": "Global conflict-driven internal displacements reached record 32.3 million in 2025, surpassing disaster-driven displacement for first time",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/may/12/internal-displacements-violence-conflict-record-high-2025"
+    },
+    {
+      "headline": "Millions of Palestinians worldwide mark 78th anniversary of the Nakba amid ongoing displacement in Gaza",
+      "source": "Al Jazeera, France 24",
+      "url": "https://www.aljazeera.com/gallery/2026/5/15/millions-of-palestinians-mark-78-years-since-the-nakba"
+    },
+    {
+      "headline": "UK political turmoil deepens as Andy Burnham announces challenge to Prime Minister Keir Starmer, sending gilts and sterling lower",
+      "source": "Financial Times, France 24",
+      "url": "https://www.ft.com/content/d9a66be6-fa98-43d0-badc-b23a13cc7525"
+    },
+    {
+      "headline": "Five Italian divers, including University of Genoa professor, die in cave diving accident in Maldives at 50-meter depth",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c62e0p7rd2ro"
+    },
+    {
+      "headline": "FIFA announces Madonna, Shakira, and BTS to headline first-ever World Cup final halftime show at MetLife Stadium",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/sports/soccer/article-2026-fifa-world-cup-halftime-show-madonna-shakira-bts/"
     }
   ]
 }
