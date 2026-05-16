@@ -1,190 +1,196 @@
 {
-  "date": "Friday, May 15, 2026",
-  "daily_brief": "The day's most consequential developments center on the Trump-Xi summit in Beijing, where both leaders claimed progress on trade while remaining divided on Taiwan and Iran [Reuters via Globe and Mail], [Nikkei Asia], [RFI]. Markets reacted nervously, with Boeing shares falling on underwhelming deal announcements [FT] and Asian tech stocks sliding amid rising oil prices linked to the ongoing Iran conflict [Nikkei Asia]. Russia launched its largest aerial assault on Ukraine since the war began, killing at least 27 civilians over two days and demolishing residential buildings in Kyiv\u2014actions President Zelensky said contradict Russian claims the war is ending [BBC], [Globe and Mail], [RFI]. In a dramatic political collapse, Latvia's Prime Minister Evika Silina resigned after controversy over Ukrainian drones that strayed into Latvian territory and struck an oil facility, with NATO analysts suggesting the drones may have autonomously selected their target [Globe and Mail], [BBC]. Humanitarian concerns mounted as the UN appealed to Equatorial Guinea not to deport US asylum seekers to countries where they face persecution [Guardian], while a federal judge ordered the Trump administration to return a Colombian woman mistakenly deported to the Democratic Republic of Congo [Guardian].",
+  "date": "Saturday, May 16, 2026",
+  "daily_brief": "The conclusion of President Trump's two-day summit with Xi Jinping in Beijing dominated global headlines, with Taiwan emerging as a flashpoint after Trump warned the island against declaring formal independence [BBC], [France 24], [Nikkei Asia]. While both leaders described the talks as successful, few concrete trade deals were confirmed beyond a potential Boeing aircraft sale. In counterterrorism news, US and Nigerian forces killed Abu-Bilal al-Minuki, described by Trump as ISIS's global second-in-command, in a joint operation in the Lake Chad Basin [BBC], [France 24], [The Guardian]. A new Ebola outbreak in eastern DRC has killed 65 people, with the Africa CDC convening emergency talks as the Bundibugyo strain\u2014for which no licensed vaccine exists\u2014was identified [RFI], [The Guardian]. The Russia-Ukraine conflict saw a prisoner exchange of 205 POWs proceed even as Kyiv mourned 24 civilians killed in a Russian missile strike on an apartment block [BBC]. Meanwhile, Israel and Lebanon agreed to extend their fragile ceasefire for 45 days despite ongoing Israeli strikes in southern Lebanon [France 24], [The Hindu].",
   "top_stories": [
     {
-      "headline": "Trump and Xi Conclude Beijing Summit with Trade Optimism but Deep Divisions on Taiwan and Iran",
+      "headline": "Trump Warns Taiwan Against Independence After Concluding Summit with Xi in Beijing",
       "category": "Geopolitics",
       "bullets": [
-        "US President Donald Trump and Chinese President Xi Jinping met over two days in Beijing, the first visit by a US president to China in nine years",
-        "Trump claimed 'fantastic trade deals' were reached covering agriculture, aviation, and AI, while Xi described a new 'constructive strategic and stable relationship'",
-        "Xi warned that mishandling Taiwan could lead to 'a clash' between the two nations; Trump said China offered to 'help on Hormuz' regarding the Iran conflict",
-        "Boeing shares fell after the summit as investors deemed the announced deals disappointing; progress was reported on fentanyl precursor trafficking"
+        "Trump concluded a two-day state visit to Beijing, describing talks as 'very successful' while Xi called them 'historic and landmark'; Xi accepted an invitation to visit the White House in September",
+        "Trump told Fox News he is 'not looking to have somebody go independent' regarding Taiwan, though he said he made 'no commitment either way' on the self-governing island",
+        "Taiwan's Foreign Ministry responded Saturday by asserting it is a 'sovereign and independent democratic nation' not subordinate to China, and emphasized that US arms sales are part of Washington's security commitment",
+        "Few concrete trade deals were announced, though Trump claimed China agreed to purchase 200 Boeing jets with potential commitment for 750 more; the tariff truce expires in November"
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized that leaders 'talked past each other' on key issues despite warm rhetoric",
-          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-drone-attacks/"
+          "framing_note": "Emphasized warm rhetoric and symbolism of visit, noted lack of confirmed deals",
+          "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on Taiwan's assertive response and sovereignty claims",
+          "url": "https://www.france24.com/en/middle-east/20260516-middle-east-war-live-israel-lebanon-extend-shaky-ceasefire"
         },
         {
           "name": "Nikkei Asia",
           "lean": "Center",
-          "framing_note": "Focused on business delegation including Musk, Cook, and Huang; detailed Chinese foreign ministry statements",
-          "url": "https://asia.nikkei.com/business/companies/india-s-gautam-adani-settles-civil-suit-with-the-sec-in-the-us"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Led with Trump's 'fantastic deals' claim; included Xi's promise to send rose seeds to White House",
-          "url": "#"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on Boeing share decline and market disappointment with deal outcomes",
-          "url": "https://www.ft.com/content/b433d23a-ae67-488e-9ef6-78c83f443763"
+          "framing_note": "Highlighted Taiwan's cautious relief and arms sales implications",
+          "url": "https://asia.nikkei.com/life-arts/life/destinations/footloose-in-luang-prabang-two-days-in-the-heart-of-laos"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized 'new common understandings' from Chinese foreign ministry perspective",
-          "url": "https://www.thehindu.com/news/international/cia-director-visits-cuba-as-island-nation-runs-out-of-oil/article70981731.ece"
+          "framing_note": "Emphasized Taiwan's independence assertion and US security commitments",
+          "url": "https://www.thehindu.com/news/international/trump-says-isis-second-in-command-abu-bilal-al-minuki-eliminated/article70986019.ece"
         }
       ]
     },
     {
-      "headline": "Russia Launches Largest Aerial Assault on Ukraine Since War Began, Killing Dozens",
+      "headline": "US and Nigerian Forces Kill Senior ISIS Leader in Joint Operation",
       "category": "Conflict",
       "bullets": [
-        "Russia launched over 1,560 drones and 56 missiles over a two-day period targeting Ukrainian cities, the largest such attack since the 2022 invasion began",
-        "At least 27 civilians were killed, including two children, with a Kyiv apartment building demolished and over 50 residential buildings damaged nationwide",
-        "Ukrainian air defenses intercepted 93% of projectiles, downing 652 drones and 41 missiles overnight",
-        "President Zelensky said the attacks contradict Russian claims the war is ending; Friday declared a day of mourning in Kyiv"
+        "Abu-Bilal al-Minuki, designated by Trump as ISIS's global second-in-command, was killed in a joint US-Nigerian military operation in the Lake Chad Basin",
+        "Nigerian President Bola Tinubu confirmed al-Minuki was killed alongside 'several of his lieutenants' during a strike on his compound",
+        "Al-Minuki, a Nigerian national, directed IS-linked cells across Africa and was designated a Specially Designated Global Terrorist by Washington in 2023",
+        "Trump described the killing as significantly diminishing ISIS's global operations and African networks"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed casualty figures and rescue operations; quoted Zelensky on partners needing to hold Moscow accountable",
-          "url": "#"
+          "framing_note": "Noted this could mark significant setback for IS following al-Baghdadi's 2019 death",
+          "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Globe and Mail",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Contrasted Putin's Saturday statement that war was 'coming to an end' with the scale of attacks",
-          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-drone-attacks/"
+          "framing_note": "Included detail that al-Minuki was plotting attacks against US interests",
+          "url": "https://www.france24.com/en/middle-east/20260516-middle-east-war-live-israel-lebanon-extend-shaky-ceasefire"
         },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Emphasized that attacks 'shredded hopes' of a halt to Moscow's invasion",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "Latvian Government Collapses After Ukrainian Drones Strike Oil Facility; AI Targeting Suspected",
-      "category": "Geopolitics",
-      "bullets": [
-        "Prime Minister Evika Silina resigned after her coalition collapsed following controversy over two Ukrainian drones that struck an oil depot in eastern Latvia on May 7",
-        "NATO Strategic Communications Centre director said drones likely made an 'autonomous decision' to select the target after losing contact with operators\u2014potentially a first in warfare",
-        "No air-raid sirens sounded until after both drones had struck; Defense Minister Andris Spruds was fired over the incident before his party withdrew support from the government",
-        "Ukraine officially claims the drones were redirected by Russian electronic warfare; NATO analysis contradicts this account"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Led with AI targeting angle; quoted NATO think tank director extensively on autonomous decision-making",
-          "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-drone-attacks/"
-        },
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Focused on political crisis and coalition collapse; less emphasis on AI targeting theory",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "UN Urges Equatorial Guinea to Halt Deportations as Judge Orders Return of Colombian Woman from DRC",
-      "category": "Policy",
-      "bullets": [
-        "A federal judge ruled the deportation of Colombian asylum seeker Adriana Mar\u00eda Quiroz Zapata to the Democratic Republic of Congo was 'likely illegal' and ordered her return to the US",
-        "UN human rights experts issued a rare public appeal urging Equatorial Guinea not to return US deportees to their home countries where they face persecution, torture, or death",
-        "The Trump administration paid Equatorial Guinea $7.5 million to accept third-country nationals who had asylum protections in the US",
-        "Quiroz Zapata, 55, has diabetes and thyroid conditions; she reported skin deterioration and blackened nails while in detention and now lives under supervision in a Kinshasa hotel"
-      ],
-      "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Detailed individual deportee's medical condition and hotel confinement; described Equatorial Guinea as 'one of the world's most repressive regimes'",
-          "url": "https://www.theguardian.com/world/2026/may/12/internal-displacements-violence-conflict-record-high-2025"
+          "framing_note": "Provided context on Trump's previous accusations against Nigeria regarding Christian persecution",
+          "url": "https://www.theguardian.com/world/2026/may/14/un-equatorial-guinea-us-deportees"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Brief factual coverage referencing earlier US strikes in Nigeria",
+          "url": "https://www.thehindu.com/news/international/trump-says-isis-second-in-command-abu-bilal-al-minuki-eliminated/article70986019.ece"
         }
       ]
     },
     {
-      "headline": "Ebola Outbreak Declared in Eastern DR Congo with 65 Deaths Reported",
+      "headline": "Ebola Outbreak in Eastern DRC Kills 65, Spreads to Uganda",
       "category": "Society",
       "bullets": [
-        "Africa CDC declared an Ebola outbreak in DR Congo's Ituri province, with 246 cases and 65 deaths reported, mainly in gold-mining towns of Mongwalu and Rwampara",
-        "This is the 17th Ebola outbreak in DR Congo, where the disease was first discovered in 1976",
-        "Laboratory tests at the national research institute confirmed the virus in 13 of 20 samples analyzed",
-        "Africa CDC is convening meetings with Uganda, South Sudan, and international partners on cross-border surveillance; additional suspected cases reported in provincial capital Bunia"
+        "Africa CDC reported 246 suspected Ebola cases and 65 deaths in DRC's conflict-affected Ituri province, near borders with Uganda and South Sudan",
+        "Uganda confirmed its first case after a 59-year-old man died in a Kampala hospital following travel from DRC",
+        "DRC health officials identified the Bundibugyo strain of Ebola, for which no licensed vaccine exists, unlike the more common Zaire strain",
+        "Africa CDC convened emergency meeting with regional authorities, warning that 'intense population movement' in mining areas increases transmission risk"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Straightforward reporting on outbreak declaration and case numbers; noted Congolese government had not yet officially declared outbreak",
-          "url": "#"
+          "framing_note": "Emphasized regional alert and cross-border concerns",
+          "url": "https://www.rfi.fr/en/international/20260515-indian-pm-seeks-trade-energy-stability-on-uae-europe-tour"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted that Bundibugyo strain has no available vaccine, noted only two previous outbreaks of this variant",
+          "url": "https://www.theguardian.com/world/2026/may/14/un-equatorial-guinea-us-deportees"
+        }
+      ]
+    },
+    {
+      "headline": "Russia-Ukraine Prisoner Swap Proceeds as Kyiv Mourns 24 Killed in Apartment Strike",
+      "category": "Conflict",
+      "bullets": [
+        "Russia and Ukraine exchanged 205 prisoners of war on Friday, with most Ukrainian POWs held since 2022",
+        "A Russian missile strike destroyed 18 flats in a Kyiv apartment block, killing 24 people including three girls; among victims was 12-year-old Lyubava Yakovleva, whose father died earlier in the war",
+        "The exchange occurred during a short-lived ceasefire that ended with massive Russian strikes across Ukraine",
+        "Russian officials reported four people killed, including a child, when Ukrainian drones struck Ryazan; Ukraine claimed it hit one of Russia's largest oil refineries"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Detailed coverage of both the prisoner exchange and civilian casualties on both sides",
+          "url": "https://www.bbc.com/news/articles/c62e0p7rd2ro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Israel and Lebanon Extend Ceasefire for 45 Days Despite Ongoing Strikes",
+      "category": "Conflict",
+      "bullets": [
+        "The US announced Israel and Lebanon agreed to extend their April 17 ceasefire by 45 days and hold expanded talks on a political settlement",
+        "At least six people were killed, including three paramedics, in an Israeli strike on a civil defence centre in southern Lebanon early Saturday",
+        "Israel maintains its strikes are not subject to the ceasefire terms; the original truce did not end fighting between Israel and Hezbollah",
+        "Iran's Foreign Minister said Tehran received messages from the US indicating willingness to continue talks"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized US role in brokering extension and ongoing strikes",
+          "url": "https://www.france24.com/en/middle-east/20260516-middle-east-war-live-israel-lebanon-extend-shaky-ceasefire"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Iranian diplomatic openings and China's potential mediation role",
+          "url": "https://www.thehindu.com/news/international/trump-says-isis-second-in-command-abu-bilal-al-minuki-eliminated/article70986019.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Over 100 killed as deadly storms strike India's Uttar Pradesh state",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/05/15/over-100-killed-as-deadly-storms-lash-india-s-uttar-pradesh_6753476_4.html"
+      "headline": "Switzerland announces it will open secret intelligence files on Nazi war criminal Josef Mengele",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o"
     },
     {
-      "headline": "CIA Director John Ratcliffe meets Cuban intelligence officials in Havana amid deepening oil crisis from US blockade",
-      "source": "BBC World, The Hindu",
-      "url": "https://www.bbc.com/news/articles/cd7pyrj0vx7o"
-    },
-    {
-      "headline": "Indian billionaire Gautam Adani agrees to pay $18 million to settle SEC civil fraud lawsuit without admitting wrongdoing",
-      "source": "BBC World, Nikkei Asia",
-      "url": "https://www.bbc.com/news/articles/c4g82p5ygp8o"
-    },
-    {
-      "headline": "US Supreme Court temporarily restores mail access to abortion pill mifepristone while litigation continues",
+      "headline": "Harvey Weinstein's New York rape retrial ends in mistrial after jury deadlock",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cx21x27d4jdo"
+      "url": "https://www.bbc.com/news/articles/c152lexw1vxo"
     },
     {
-      "headline": "Japanese memory chip maker Kioxia forecasts 48-fold quarterly profit increase driven by AI data center demand",
-      "source": "Nikkei Asia, Financial Times",
-      "url": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-kioxia-forecasts-48-fold-quarterly-profit-jump-on-ai-demand"
-    },
-    {
-      "headline": "Global conflict-driven internal displacements reached record 32.3 million in 2025, surpassing disaster-driven displacement for first time",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/may/12/internal-displacements-violence-conflict-record-high-2025"
-    },
-    {
-      "headline": "Millions of Palestinians worldwide mark 78th anniversary of the Nakba amid ongoing displacement in Gaza",
-      "source": "Al Jazeera, France 24",
-      "url": "https://www.aljazeera.com/gallery/2026/5/15/millions-of-palestinians-mark-78-years-since-the-nakba"
-    },
-    {
-      "headline": "UK political turmoil deepens as Andy Burnham announces challenge to Prime Minister Keir Starmer, sending gilts and sterling lower",
-      "source": "Financial Times, France 24",
-      "url": "https://www.ft.com/content/d9a66be6-fa98-43d0-badc-b23a13cc7525"
-    },
-    {
-      "headline": "Five Italian divers, including University of Genoa professor, die in cave diving accident in Maldives at 50-meter depth",
+      "headline": "Man killed by 13-foot great white shark near Perth's Rottnest Island in Western Australia",
       "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c1m2xy3dr20o"
+    },
+    {
+      "headline": "Five Italian divers, including university researchers, die in cave diving accident in the Maldives",
+      "source": "BBC Europe",
       "url": "https://www.bbc.com/news/articles/c62e0p7rd2ro"
     },
     {
-      "headline": "FIFA announces Madonna, Shakira, and BTS to headline first-ever World Cup final halftime show at MetLife Stadium",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/sports/soccer/article-2026-fifa-world-cup-halftime-show-madonna-shakira-bts/"
+      "headline": "EU invites Taliban representatives to Brussels for technical talks on Afghan migrant deportations",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260515-eu-push-to-deport-afghan-refugees-brings-taliban-back-to-the-table"
+    },
+    {
+      "headline": "Six million Somalis face crisis-level food insecurity as famine looms amid drought and Middle East war impacts",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260515-famine-looms-in-somalia-amid-drought-dwindling-aid-and-middle-east-war"
+    },
+    {
+      "headline": "Spain's PM Sanchez defends Eurovision boycott over Israel's participation, citing Gaza genocide",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/16/spain-pm-defends-eurovision-boycott-over-israel"
+    },
+    {
+      "headline": "Japan set to receive first LNG shipment via Strait of Hormuz since de facto closure due to Iran conflict",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/commodities/japan-set-to-receive-first-lng-via-hormuz-since-de-facto-closure"
+    },
+    {
+      "headline": "Indian PM Modi begins five-nation tour focused on trade and energy stability amid Gulf shipping disruptions",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260515-indian-pm-seeks-trade-energy-stability-on-uae-europe-tour"
+    },
+    {
+      "headline": "Mali's military junta launches airstrikes against rebel alliance that seized key northern town of Kidal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/may/15/mali-airstrikes-rebel-alliance-separatists"
     }
   ]
 }
