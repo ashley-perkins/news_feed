@@ -1,196 +1,196 @@
 {
-  "date": "Saturday, May 16, 2026",
-  "daily_brief": "The conclusion of President Trump's two-day summit with Xi Jinping in Beijing dominated global headlines, with Taiwan emerging as a flashpoint after Trump warned the island against declaring formal independence [BBC], [France 24], [Nikkei Asia]. While both leaders described the talks as successful, few concrete trade deals were confirmed beyond a potential Boeing aircraft sale. In counterterrorism news, US and Nigerian forces killed Abu-Bilal al-Minuki, described by Trump as ISIS's global second-in-command, in a joint operation in the Lake Chad Basin [BBC], [France 24], [The Guardian]. A new Ebola outbreak in eastern DRC has killed 65 people, with the Africa CDC convening emergency talks as the Bundibugyo strain\u2014for which no licensed vaccine exists\u2014was identified [RFI], [The Guardian]. The Russia-Ukraine conflict saw a prisoner exchange of 205 POWs proceed even as Kyiv mourned 24 civilians killed in a Russian missile strike on an apartment block [BBC]. Meanwhile, Israel and Lebanon agreed to extend their fragile ceasefire for 45 days despite ongoing Israeli strikes in southern Lebanon [France 24], [The Hindu].",
+  "date": "Sunday, May 17, 2026",
+  "daily_brief": "The World Health Organization declared the Ebola outbreak in the Democratic Republic of Congo and Uganda a public health emergency of international concern, citing more than 300 suspected cases and 88 deaths from a rare Bundibugyo strain for which no vaccines exist [BBC, Al Jazeera]. Ukraine launched one of its largest drone barrages of the conflict, with over 500 drones targeting Russian territory overnight, killing three in the Moscow region and striking a city oil refinery [BBC, France 24, The Hindu]. Tensions over Taiwan resurfaced after President Trump's Beijing summit, with Taipei firmly reasserting its sovereignty while Trump indicated he had made 'no commitment either way' and would soon decide on an $11bn weapons package [BBC, France 24, Nikkei Asia]. In counterterrorism developments, US and Nigerian forces killed ISIS global second-in-command Abu-Bilal al-Minuki in a joint operation in Nigeria's Lake Chad Basin [The Guardian, Globe and Mail]. Meanwhile, Bulgaria claimed its first Eurovision victory with Dara's 'Bangaranga,' edging out Israel in a contest marked by boycotts over Gaza [France 24, RFI, Globe and Mail]. The USS Gerald R. Ford returned home after a 326-day deployment\u2014the longest for a US carrier since Vietnam\u2014following operations against Iran and the capture of Venezuela's Maduro [France 24, Le Monde].",
   "top_stories": [
     {
-      "headline": "Trump Warns Taiwan Against Independence After Concluding Summit with Xi in Beijing",
-      "category": "Geopolitics",
+      "headline": "WHO Declares Ebola Outbreak in DR Congo and Uganda a Global Health Emergency",
+      "category": "Climate",
       "bullets": [
-        "Trump concluded a two-day state visit to Beijing, describing talks as 'very successful' while Xi called them 'historic and landmark'; Xi accepted an invitation to visit the White House in September",
-        "Trump told Fox News he is 'not looking to have somebody go independent' regarding Taiwan, though he said he made 'no commitment either way' on the self-governing island",
-        "Taiwan's Foreign Ministry responded Saturday by asserting it is a 'sovereign and independent democratic nation' not subordinate to China, and emphasized that US arms sales are part of Washington's security commitment",
-        "Few concrete trade deals were announced, though Trump claimed China agreed to purchase 200 Boeing jets with potential commitment for 750 more; the tariff truce expires in November"
+        "The WHO declared the Ebola outbreak in DR Congo's Ituri province and Uganda a public health emergency of international concern, with approximately 300 suspected cases and 88 deaths reported",
+        "The outbreak is caused by the Bundibugyo virus, a rare Ebola strain with no approved vaccines or therapeutics\u2014only the third recorded Bundibugyo outbreak",
+        "Eight laboratory-confirmed cases exist in DR Congo, with one confirmed case in Kinshasa and two confirmed cases in neighboring Uganda, including a 59-year-old man who died Thursday",
+        "WHO warned the outbreak could be 'much larger' than currently detected, with high risk of local and regional spread due to mining towns with transient populations"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized warm rhetoric and symbolism of visit, noted lack of confirmed deals",
-          "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized the lack of approved drugs or vaccines and risk of regional spread",
+          "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted the 88 death toll and noted this is only the third BVD outbreak ever recorded",
+          "url": "https://www.aljazeera.com/sports/2026/5/17/fifa-holds-positive-talks-with-iranian-football-officials-on-world-cup?traffic_source=rss"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Earlier reporting focused on 65 deaths and Africa CDC concerns about spread",
+          "url": "https://www.theguardian.com/world/2026/may/14/un-equatorial-guinea-us-deportees"
+        }
+      ]
+    },
+    {
+      "headline": "Ukraine Launches Over 500 Drones at Russia in Largest Overnight Attack, Killing Three Near Moscow",
+      "category": "Conflict",
+      "bullets": [
+        "Russia's defense ministry reported intercepting 556 Ukrainian drones across 14 regions, Crimea, and the Black and Azov seas\u2014one of the largest Ukrainian drone barrages of the war",
+        "Three civilians were killed in the Moscow region: a woman in Khimki when her house was hit, and a man and woman in the village of Pogorelki",
+        "Twelve people were injured in strikes on a Moscow city oil refinery, though authorities said the refinery's 'technology' was not damaged",
+        "Moscow's Sheremetyevo airport, Russia's busiest, reported drone wreckage on its territory but continued operations"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on casualty details and infrastructure damage",
+          "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on Taiwan's assertive response and sovereignty claims",
-          "url": "https://www.france24.com/en/middle-east/20260516-middle-east-war-live-israel-lebanon-extend-shaky-ceasefire"
+          "framing_note": "Noted this as one of the largest Ukrainian barrages of the ongoing conflict",
+          "url": "https://www.france24.com/en/culture/20260517-bulgaria-s-bangaranga-wins-eurovision-with-israel-second"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized the scale of Russian air defense response",
+          "url": "https://www.thehindu.com/news/international/philippines-asks-top-court-to-allow-icc-drug-war-arrest-of-senator/article70989714.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Taiwan Asserts Sovereignty After Trump Declines Commitment Following Beijing Summit",
+      "category": "Geopolitics",
+      "bullets": [
+        "Taiwan's presidential spokesperson stated it is 'self-evident' that Taiwan is 'a sovereign, independent democratic country' following Trump's remarks from Beijing",
+        "President Trump said he had 'made no commitment either way' about Taiwan after his two-day summit with Xi Jinping and would soon decide on an $11bn weapons package",
+        "Taiwan reaffirmed commitment to maintaining the status quo with China\u2014neither declaring independence nor uniting with Beijing",
+        "The US is bound by law to provide Taiwan with means of self-defense while simultaneously maintaining diplomatic ties with China"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced reporting on both US and Taiwan positions",
+          "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Framed coverage around question of whether Chinese invasion is imminent",
+          "url": "https://www.france24.com/en/culture/20260517-bulgaria-s-bangaranga-wins-eurovision-with-israel-second"
         },
         {
           "name": "Nikkei Asia",
           "lean": "Center",
-          "framing_note": "Highlighted Taiwan's cautious relief and arms sales implications",
-          "url": "https://asia.nikkei.com/life-arts/life/destinations/footloose-in-luang-prabang-two-days-in-the-heart-of-laos"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Taiwan's independence assertion and US security commitments",
-          "url": "https://www.thehindu.com/news/international/trump-says-isis-second-in-command-abu-bilal-al-minuki-eliminated/article70986019.ece"
+          "framing_note": "Emphasized US allies' unease over Trump's transactional approach during Beijing visit",
+          "url": "https://asia.nikkei.com/spotlight/comment/brief-us-china-calm-masks-simmering-anger-and-distrust"
         }
       ]
     },
     {
-      "headline": "US and Nigerian Forces Kill Senior ISIS Leader in Joint Operation",
+      "headline": "US and Nigerian Forces Kill ISIS Global Second-in-Command in Joint Operation",
       "category": "Conflict",
       "bullets": [
-        "Abu-Bilal al-Minuki, designated by Trump as ISIS's global second-in-command, was killed in a joint US-Nigerian military operation in the Lake Chad Basin",
-        "Nigerian President Bola Tinubu confirmed al-Minuki was killed alongside 'several of his lieutenants' during a strike on his compound",
-        "Al-Minuki, a Nigerian national, directed IS-linked cells across Africa and was designated a Specially Designated Global Terrorist by Washington in 2023",
-        "Trump described the killing as significantly diminishing ISIS's global operations and African networks"
+        "Abu-Bilal al-Minuki, designated ISIS's global second-in-command, was killed in a joint US-Nigerian military operation in the Lake Chad Basin region of northeastern Nigeria",
+        "President Trump announced the strike, calling al-Minuki 'the most active terrorist in the world' and crediting intelligence sources for tracking his location",
+        "Nigerian President Bola Tinubu confirmed the operation killed al-Minuki along with several lieutenants in a strike on his compound",
+        "Al-Minuki, a Nigerian national, had been designated a 'specially designated global terrorist' by the US in 2023 as a Sahel-based ISIS senior leader"
       ],
       "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Noted this could mark significant setback for IS following al-Baghdadi's 2019 death",
-          "url": "https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Included detail that al-Minuki was plotting attacks against US interests",
-          "url": "https://www.france24.com/en/middle-east/20260516-middle-east-war-live-israel-lebanon-extend-shaky-ceasefire"
-        },
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Provided context on Trump's previous accusations against Nigeria regarding Christian persecution",
+          "framing_note": "Provided background on al-Minuki's 2023 designation and Trump's previous criticisms of Nigeria",
           "url": "https://www.theguardian.com/world/2026/may/14/un-equatorial-guinea-us-deportees"
         },
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Brief factual coverage referencing earlier US strikes in Nigeria",
-          "url": "https://www.thehindu.com/news/international/trump-says-isis-second-in-command-abu-bilal-al-minuki-eliminated/article70986019.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Ebola Outbreak in Eastern DRC Kills 65, Spreads to Uganda",
-      "category": "Society",
-      "bullets": [
-        "Africa CDC reported 246 suspected Ebola cases and 65 deaths in DRC's conflict-affected Ituri province, near borders with Uganda and South Sudan",
-        "Uganda confirmed its first case after a 59-year-old man died in a Kampala hospital following travel from DRC",
-        "DRC health officials identified the Bundibugyo strain of Ebola, for which no licensed vaccine exists, unlike the more common Zaire strain",
-        "Africa CDC convened emergency meeting with regional authorities, warning that 'intense population movement' in mining areas increases transmission risk"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized regional alert and cross-border concerns",
-          "url": "https://www.rfi.fr/en/international/20260515-indian-pm-seeks-trade-energy-stability-on-uae-europe-tour"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted that Bundibugyo strain has no available vaccine, noted only two previous outbreaks of this variant",
-          "url": "https://www.theguardian.com/world/2026/may/14/un-equatorial-guinea-us-deportees"
+          "framing_note": "Emphasized bilateral cooperation and quoted both Trump and Tinubu statements",
+          "url": "https://www.theglobeandmail.com/world/video-isis-second-in-command-killed-by-us-and-nigerian-forces/"
         }
       ]
     },
     {
-      "headline": "Russia-Ukraine Prisoner Swap Proceeds as Kyiv Mourns 24 Killed in Apartment Strike",
-      "category": "Conflict",
+      "headline": "USS Gerald R. Ford Returns After 326-Day Deployment, Longest Since Vietnam War",
+      "category": "Geopolitics",
       "bullets": [
-        "Russia and Ukraine exchanged 205 prisoners of war on Friday, with most Ukrainian POWs held since 2022",
-        "A Russian missile strike destroyed 18 flats in a Kyiv apartment block, killing 24 people including three girls; among victims was 12-year-old Lyubava Yakovleva, whose father died earlier in the war",
-        "The exchange occurred during a short-lived ceasefire that ended with massive Russian strikes across Ukraine",
-        "Russian officials reported four people killed, including a child, when Ukrainian drones struck Ryazan; Ukraine claimed it hit one of Russia's largest oil refineries"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of both the prisoner exchange and civilian casualties on both sides",
-          "url": "https://www.bbc.com/news/articles/c62e0p7rd2ro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Israel and Lebanon Extend Ceasefire for 45 Days Despite Ongoing Strikes",
-      "category": "Conflict",
-      "bullets": [
-        "The US announced Israel and Lebanon agreed to extend their April 17 ceasefire by 45 days and hold expanded talks on a political settlement",
-        "At least six people were killed, including three paramedics, in an Israeli strike on a civil defence centre in southern Lebanon early Saturday",
-        "Israel maintains its strikes are not subject to the ceasefire terms; the original truce did not end fighting between Israel and Hezbollah",
-        "Iran's Foreign Minister said Tehran received messages from the US indicating willingness to continue talks"
+        "The USS Gerald R. Ford, the world's largest aircraft carrier, returned to Norfolk, Virginia after a 326-day deployment\u2014the longest for a US carrier strike group since the Vietnam War",
+        "Defense Secretary Pete Hegseth welcomed the carrier home; the deployment included combat operations against Iran in the Middle East",
+        "The Ford's mission also included operations in the Caribbean involving strikes on alleged drug-smuggling boats, interdiction of sanctioned tankers, and the seizure of Venezuelan leader Nicolas Maduro",
+        "The carrier was originally dispatched to the Middle East ahead of the outbreak of war with Iran"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized US role in brokering extension and ongoing strikes",
-          "url": "https://www.france24.com/en/middle-east/20260516-middle-east-war-live-israel-lebanon-extend-shaky-ceasefire"
+          "framing_note": "Detailed the multiple theaters of operation including Caribbean and Iran",
+          "url": "https://www.france24.com/en/culture/20260517-bulgaria-s-bangaranga-wins-eurovision-with-israel-second"
         },
         {
-          "name": "The Hindu",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Iranian diplomatic openings and China's potential mediation role",
-          "url": "https://www.thehindu.com/news/international/trump-says-isis-second-in-command-abu-bilal-al-minuki-eliminated/article70986019.ece"
+          "framing_note": "Article headline only; content unavailable",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/05/17/macron-is-paving-the-way-for-the-return-of-african-and-asian-artifacts-from-french-museums_6753526_23.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Switzerland announces it will open secret intelligence files on Nazi war criminal Josef Mengele",
+      "headline": "Bulgaria wins Eurovision Song Contest for the first time with Dara's 'Bangaranga,' with Israel finishing second amid boycott protests over Gaza",
+      "source": "France 24, RFI, Globe and Mail",
+      "url": "https://www.france24.com/en/culture/20260517-bulgaria-s-bangaranga-wins-eurovision-with-israel-second"
+    },
+    {
+      "headline": "Man drives car into pedestrians in Modena, Italy, injuring eight people before emerging with a knife; suspect identified as Italian national with prior mental health referral",
+      "source": "BBC World, BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cyv28pd4n22o"
+    },
+    {
+      "headline": "Israel launches airstrikes on southern Lebanon despite ceasefire extension, preceded by evacuation warnings covering nine villages",
+      "source": "The Hindu, Al Jazeera",
+      "url": "https://www.thehindu.com/news/international/us-israel-iran-war-live-updates-lebanon-airstrikes-ceasefire-hezbollah-strait-of-hormuz/article70989557.ece"
+    },
+    {
+      "headline": "Iran announces plan to manage Strait of Hormuz traffic including tolls, will ban 'enemy' military equipment from passing through",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/5/17/iran-war-day-79-tehran-to-unveil-hormuz-toll-plan-israel-bombs-lebanon"
+    },
+    {
+      "headline": "Nepal's Kami Rita Sherpa summits Mount Everest for record 32nd time at age 56",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/nepals-mountaineer-kami-rita-sherpa-climbs-mt-everest-for-32nd-time-beats-own-record/article70989806.ece"
+    },
+    {
+      "headline": "Tata Electronics signs deal with Dutch chip equipment giant ASML to build semiconductor plant in Gujarat during PM Modi's Netherlands visit",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/5/17/indias-tata-and-dutch-giant-asml-sign-semiconductor-deal-during-modi-visit"
+    },
+    {
+      "headline": "Philippines government asks Supreme Court to allow ICC arrest of Senator Ronald Dela Rosa for drug war crimes against humanity",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/philippines-asks-top-court-to-allow-icc-drug-war-arrest-of-senator/article70989714.ece"
+    },
+    {
+      "headline": "Tens of thousands march in London in rival demonstrations over immigration and Palestinian solidarity, with 4,000 police deployed",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-thousands-march-in-london-at-rival-immigration-pro-palestinian-rallies/"
+    },
+    {
+      "headline": "Pope Leo XIV to make first official papal state visit to France in 18 years in September, including stop at UNESCO headquarters",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20260516-pope-leo-to-visit-france-in-september-in-first-official-papal-trip-in-18-years"
+    },
+    {
+      "headline": "Switzerland announces it will open long-sealed intelligence files on Nazi war criminal Josef Mengele, without specifying a date",
       "source": "BBC Europe",
       "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o"
-    },
-    {
-      "headline": "Harvey Weinstein's New York rape retrial ends in mistrial after jury deadlock",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c152lexw1vxo"
-    },
-    {
-      "headline": "Man killed by 13-foot great white shark near Perth's Rottnest Island in Western Australia",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c1m2xy3dr20o"
-    },
-    {
-      "headline": "Five Italian divers, including university researchers, die in cave diving accident in the Maldives",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c62e0p7rd2ro"
-    },
-    {
-      "headline": "EU invites Taliban representatives to Brussels for technical talks on Afghan migrant deportations",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260515-eu-push-to-deport-afghan-refugees-brings-taliban-back-to-the-table"
-    },
-    {
-      "headline": "Six million Somalis face crisis-level food insecurity as famine looms amid drought and Middle East war impacts",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260515-famine-looms-in-somalia-amid-drought-dwindling-aid-and-middle-east-war"
-    },
-    {
-      "headline": "Spain's PM Sanchez defends Eurovision boycott over Israel's participation, citing Gaza genocide",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/16/spain-pm-defends-eurovision-boycott-over-israel"
-    },
-    {
-      "headline": "Japan set to receive first LNG shipment via Strait of Hormuz since de facto closure due to Iran conflict",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/commodities/japan-set-to-receive-first-lng-via-hormuz-since-de-facto-closure"
-    },
-    {
-      "headline": "Indian PM Modi begins five-nation tour focused on trade and energy stability amid Gulf shipping disruptions",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260515-indian-pm-seeks-trade-energy-stability-on-uae-europe-tour"
-    },
-    {
-      "headline": "Mali's military junta launches airstrikes against rebel alliance that seized key northern town of Kidal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/may/15/mali-airstrikes-rebel-alliance-separatists"
     }
   ]
 }
