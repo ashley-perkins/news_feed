@@ -1,196 +1,190 @@
 {
-  "date": "Sunday, May 17, 2026",
-  "daily_brief": "The World Health Organization declared the Ebola outbreak in the Democratic Republic of Congo and Uganda a public health emergency of international concern, citing more than 300 suspected cases and 88 deaths from a rare Bundibugyo strain for which no vaccines exist [BBC, Al Jazeera]. Ukraine launched one of its largest drone barrages of the conflict, with over 500 drones targeting Russian territory overnight, killing three in the Moscow region and striking a city oil refinery [BBC, France 24, The Hindu]. Tensions over Taiwan resurfaced after President Trump's Beijing summit, with Taipei firmly reasserting its sovereignty while Trump indicated he had made 'no commitment either way' and would soon decide on an $11bn weapons package [BBC, France 24, Nikkei Asia]. In counterterrorism developments, US and Nigerian forces killed ISIS global second-in-command Abu-Bilal al-Minuki in a joint operation in Nigeria's Lake Chad Basin [The Guardian, Globe and Mail]. Meanwhile, Bulgaria claimed its first Eurovision victory with Dara's 'Bangaranga,' edging out Israel in a contest marked by boycotts over Gaza [France 24, RFI, Globe and Mail]. The USS Gerald R. Ford returned home after a 326-day deployment\u2014the longest for a US carrier since Vietnam\u2014following operations against Iran and the capture of Venezuela's Maduro [France 24, Le Monde].",
+  "date": "Monday, May 18, 2026",
+  "daily_brief": "The World Health Organization declared the Ebola outbreak in the Democratic Republic of Congo a public health emergency of international concern on Sunday, with approximately 300 suspected cases and 88 deaths from a rare Bundibugyo strain for which no approved vaccine exists [BBC], [Globe and Mail]. The virus has already spread to Uganda, raising fears of regional transmission. Meanwhile, G7 finance ministers convene in Paris today amid sharp disagreements over trade policy, China relations, and the economic fallout from the ongoing US-Israel war with Iran [RFI], [Le Monde]. That conflict showed no signs of resolution as President Trump warned Iran the 'clock is ticking' after Tehran rejected US demands as excessive [BBC], [France 24]. A drone strike on a nuclear power plant in Abu Dhabi underscored the fragility of the ceasefire, with no group claiming responsibility [RNZ], [Globe and Mail]. In a significant development for US-China relations, Beijing agreed to purchase $17 billion annually in US agricultural products following the Trump-Xi summit, offering relief to American farmers caught in the trade war [The Hindu]. Japanese government bond yields hit 29-year highs at 2.8% as fiscal concerns mount amid the Middle East crisis [Nikkei Asia].",
   "top_stories": [
     {
-      "headline": "WHO Declares Ebola Outbreak in DR Congo and Uganda a Global Health Emergency",
-      "category": "Climate",
+      "headline": "WHO Declares Ebola Outbreak in DR Congo a Global Health Emergency",
+      "category": "Health",
       "bullets": [
-        "The WHO declared the Ebola outbreak in DR Congo's Ituri province and Uganda a public health emergency of international concern, with approximately 300 suspected cases and 88 deaths reported",
-        "The outbreak is caused by the Bundibugyo virus, a rare Ebola strain with no approved vaccines or therapeutics\u2014only the third recorded Bundibugyo outbreak",
-        "Eight laboratory-confirmed cases exist in DR Congo, with one confirmed case in Kinshasa and two confirmed cases in neighboring Uganda, including a 59-year-old man who died Thursday",
-        "WHO warned the outbreak could be 'much larger' than currently detected, with high risk of local and regional spread due to mining towns with transient populations"
+        "The WHO declared the Ebola outbreak in DR Congo's Ituri province a public health emergency of international concern, citing approximately 300 suspected cases and 88 deaths",
+        "The outbreak involves the rare Bundibugyo strain of Ebola, for which no approved vaccines or treatments currently exist",
+        "The virus has spread beyond Congo's borders, with two confirmed cases in Uganda including one fatality in Kampala",
+        "Health officials warn the outbreak may be 'potentially much larger' than detected, having circulated undetected for at least four weeks in a region marked by mining activity and armed conflict"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized the lack of approved drugs or vaccines and risk of regional spread",
-          "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted the 88 death toll and noted this is only the third BVD outbreak ever recorded",
-          "url": "https://www.aljazeera.com/sports/2026/5/17/fifa-holds-positive-talks-with-iranian-football-officials-on-world-cup?traffic_source=rss"
+          "framing_note": "Emphasized the technical aspects of the WHO declaration and provided detailed epidemiological context",
+          "url": "https://www.bbc.com/news/articles/cn8p392nl7yo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Earlier reporting focused on 65 deaths and Africa CDC concerns about spread",
-          "url": "https://www.theguardian.com/world/2026/may/14/un-equatorial-guinea-us-deportees"
-        }
-      ]
-    },
-    {
-      "headline": "Ukraine Launches Over 500 Drones at Russia in Largest Overnight Attack, Killing Three Near Moscow",
-      "category": "Conflict",
-      "bullets": [
-        "Russia's defense ministry reported intercepting 556 Ukrainian drones across 14 regions, Crimea, and the Black and Azov seas\u2014one of the largest Ukrainian drone barrages of the war",
-        "Three civilians were killed in the Moscow region: a woman in Khimki when her house was hit, and a man and woman in the village of Pogorelki",
-        "Twelve people were injured in strikes on a Moscow city oil refinery, though authorities said the refinery's 'technology' was not damaged",
-        "Moscow's Sheremetyevo airport, Russia's busiest, reported drone wreckage on its territory but continued operations"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on casualty details and infrastructure damage",
-          "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Noted this as one of the largest Ukrainian barrages of the ongoing conflict",
-          "url": "https://www.france24.com/en/culture/20260517-bulgaria-s-bangaranga-wins-eurovision-with-israel-second"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized the scale of Russian air defense response",
-          "url": "https://www.thehindu.com/news/international/philippines-asks-top-court-to-allow-icc-drug-war-arrest-of-senator/article70989714.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Taiwan Asserts Sovereignty After Trump Declines Commitment Following Beijing Summit",
-      "category": "Geopolitics",
-      "bullets": [
-        "Taiwan's presidential spokesperson stated it is 'self-evident' that Taiwan is 'a sovereign, independent democratic country' following Trump's remarks from Beijing",
-        "President Trump said he had 'made no commitment either way' about Taiwan after his two-day summit with Xi Jinping and would soon decide on an $11bn weapons package",
-        "Taiwan reaffirmed commitment to maintaining the status quo with China\u2014neither declaring independence nor uniting with Beijing",
-        "The US is bound by law to provide Taiwan with means of self-defense while simultaneously maintaining diplomatic ties with China"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced reporting on both US and Taiwan positions",
-          "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Framed coverage around question of whether Chinese invasion is imminent",
-          "url": "https://www.france24.com/en/culture/20260517-bulgaria-s-bangaranga-wins-eurovision-with-israel-second"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Emphasized US allies' unease over Trump's transactional approach during Beijing visit",
-          "url": "https://asia.nikkei.com/spotlight/comment/brief-us-china-calm-masks-simmering-anger-and-distrust"
-        }
-      ]
-    },
-    {
-      "headline": "US and Nigerian Forces Kill ISIS Global Second-in-Command in Joint Operation",
-      "category": "Conflict",
-      "bullets": [
-        "Abu-Bilal al-Minuki, designated ISIS's global second-in-command, was killed in a joint US-Nigerian military operation in the Lake Chad Basin region of northeastern Nigeria",
-        "President Trump announced the strike, calling al-Minuki 'the most active terrorist in the world' and crediting intelligence sources for tracking his location",
-        "Nigerian President Bola Tinubu confirmed the operation killed al-Minuki along with several lieutenants in a strike on his compound",
-        "Al-Minuki, a Nigerian national, had been designated a 'specially designated global terrorist' by the US in 2023 as a Sahel-based ISIS senior leader"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Provided background on al-Minuki's 2023 designation and Trump's previous criticisms of Nigeria",
+          "framing_note": "Earlier reporting focused on initial case counts before WHO declaration",
           "url": "https://www.theguardian.com/world/2026/may/14/un-equatorial-guinea-us-deportees"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized bilateral cooperation and quoted both Trump and Tinubu statements",
-          "url": "https://www.theglobeandmail.com/world/video-isis-second-in-command-killed-by-us-and-nigerian-forces/"
+          "framing_note": "Highlighted the lack of approved treatments and the speed of WHO's response without usual procedures",
+          "url": "https://www.theglobeandmail.com/world/article-drone-barakah-nuclear-power-plant-al-dhafra-abu-dhabi/"
         }
       ]
     },
     {
-      "headline": "USS Gerald R. Ford Returns After 326-Day Deployment, Longest Since Vietnam War",
-      "category": "Geopolitics",
+      "headline": "G7 Finance Ministers Meet in Paris Amid Deep Divisions on Trade and Iran War Fallout",
+      "category": "Economics",
       "bullets": [
-        "The USS Gerald R. Ford, the world's largest aircraft carrier, returned to Norfolk, Virginia after a 326-day deployment\u2014the longest for a US carrier strike group since the Vietnam War",
-        "Defense Secretary Pete Hegseth welcomed the carrier home; the deployment included combat operations against Iran in the Middle East",
-        "The Ford's mission also included operations in the Caribbean involving strikes on alleged drug-smuggling boats, interdiction of sanctioned tankers, and the seizure of Venezuelan leader Nicolas Maduro",
-        "The carrier was originally dispatched to the Middle East ahead of the outbreak of war with Iran"
+        "Finance ministers and central bankers from G7 nations began two-day talks in Paris on Monday to address divergent positions on trade, China policy, and economic disruptions from the Iran conflict",
+        "France, holding the G7 presidency, acknowledged significant disagreements with the US over new 15 percent tariff surcharges imposed earlier this year",
+        "Discussions will address America's budget deficit, Europe's innovation challenges, Chinese industrial overcapacity, and critical mineral supply chains",
+        "French Finance Minister Roland Lescure stated 'the way the global economy has been developing for more than a decade is clearly unsustainable'"
       ],
       "sources": [
         {
-          "name": "France 24",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Detailed the multiple theaters of operation including Caribbean and Iran",
-          "url": "https://www.france24.com/en/culture/20260517-bulgaria-s-bangaranga-wins-eurovision-with-israel-second"
+          "framing_note": "Detailed coverage of French hosting role and specific policy disagreements",
+          "url": "https://www.rfi.fr/en/sports/20260518-gilgeous-alexander-wins-nba-s-top-player-title-ahead-of-french-star-wembanyama"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article headline only; content unavailable",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/05/17/macron-is-paving-the-way-for-the-return-of-african-and-asian-artifacts-from-french-museums_6753526_23.html"
+          "framing_note": "Article title available but full content not accessible",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/18/staggering-iran-toll-drives-up-global-executions-to-their-highest-since-1981-says-amnesty-international_6753549_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Warns Iran as Ceasefire Talks Stall; Drone Strikes Hit Gulf States",
+      "category": "Conflict",
+      "bullets": [
+        "President Trump warned Iran the 'clock is ticking' after Tehran rejected US ceasefire demands as excessive, with talks continuing through Pakistani mediation",
+        "Iran announced formation of a new body to manage the Strait of Hormuz, which Tehran has effectively closed and seeks to charge ships to traverse",
+        "Drone strikes hit targets in Saudi Arabia and the UAE on Sunday, including a fire at the Barakah Nuclear Power Plant in Abu Dhabi; no casualties or radiation release reported",
+        "Iranian media reported negotiations at an 'impasse' while Trump said Iran was 'dying to sign' a deal but failing to honor terms"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced presentation of both US and Iranian positions on negotiations",
+          "url": "https://www.bbc.com/news/articles/cn8p392nl7yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized ongoing diplomatic exchanges and Iranian response to US proposals",
+          "url": "https://www.france24.com/en/americas/20260518-california-jury-set-to-deliberate-on-silicon-valley-s-first-major-ai-trial"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Focused on the nuclear plant attack and UAE security response",
+          "url": "https://www.rnz.co.nz/life/screens/movies/netflix-doco-star-betraying-the-wives-of-a-paedophile-polygamist-was-emotional-torture"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Connected attack to broader ceasefire fragility and regional tensions",
+          "url": "https://www.theglobeandmail.com/world/article-drone-barakah-nuclear-power-plant-al-dhafra-abu-dhabi/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Detailed Iranian announcement of Strait of Hormuz management body",
+          "url": "https://www.thehindu.com/news/international/malaysia-ends-indonesia-migrant-boat-search-16-bodies-recovered/article70993084.ece"
+        }
+      ]
+    },
+    {
+      "headline": "China Agrees to $17 Billion Annual US Agricultural Purchases Following Trump-Xi Summit",
+      "category": "Economics",
+      "bullets": [
+        "China committed to purchasing US agricultural products at an annualized rate of $17 billion per year for 2026-2028, the White House announced Sunday",
+        "The deal includes restored market access for US beef and resumed poultry imports from bird-flu-free states",
+        "The agreement follows President Trump's return from a summit in Beijing aimed at easing trade war impacts on American farmers",
+        "American farmers face additional pressure from the Iran war, which has restricted global fertilizer supplies through the Strait of Hormuz and driven up prices"
+      ],
+      "sources": [
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided detailed terms of the agreement and noted Beijing had not immediately confirmed the specifics",
+          "url": "https://www.thehindu.com/news/international/malaysia-ends-indonesia-migrant-boat-search-16-bodies-recovered/article70993084.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Japan Bond Yields Hit 29-Year High as Fiscal and Inflation Concerns Mount",
+      "category": "Economics",
+      "bullets": [
+        "Ten-year Japanese government bond yields climbed to 2.8% on Monday, the highest level since October 1996",
+        "Investors are selling sovereign debt amid inflation pressures and fiscal concerns exacerbated by the Middle East conflict",
+        "The Japanese government has begun deliberating whether to compile a supplementary budget to address rising fuel costs",
+        "The yen dropped to its lowest level since the last currency intervention"
+      ],
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Connected bond market moves to broader Middle East conflict disruptions and domestic policy considerations",
+          "url": "https://asia.nikkei.com/economy/thailand-s-q1-gdp-growth-picks-up-bucking-trend-among-asean-peers"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Bulgaria wins Eurovision Song Contest for the first time with Dara's 'Bangaranga,' with Israel finishing second amid boycott protests over Gaza",
-      "source": "France 24, RFI, Globe and Mail",
-      "url": "https://www.france24.com/en/culture/20260517-bulgaria-s-bangaranga-wins-eurovision-with-israel-second"
+      "headline": "US and Nigerian forces killed Islamic State's global second-in-command Abu-Bilal al-Minuki in joint operation",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/may/16/islamic-state-abu-bilal-al-minuki-killed-by-us-nigerian-forces-trump-says"
     },
     {
-      "headline": "Man drives car into pedestrians in Modena, Italy, injuring eight people before emerging with a knife; suspect identified as Italian national with prior mental health referral",
-      "source": "BBC World, BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cyv28pd4n22o"
-    },
-    {
-      "headline": "Israel launches airstrikes on southern Lebanon despite ceasefire extension, preceded by evacuation warnings covering nine villages",
-      "source": "The Hindu, Al Jazeera",
-      "url": "https://www.thehindu.com/news/international/us-israel-iran-war-live-updates-lebanon-airstrikes-ceasefire-hezbollah-strait-of-hormuz/article70989557.ece"
-    },
-    {
-      "headline": "Iran announces plan to manage Strait of Hormuz traffic including tolls, will ban 'enemy' military equipment from passing through",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/5/17/iran-war-day-79-tehran-to-unveil-hormuz-toll-plan-israel-bombs-lebanon"
-    },
-    {
-      "headline": "Nepal's Kami Rita Sherpa summits Mount Everest for record 32nd time at age 56",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/nepals-mountaineer-kami-rita-sherpa-climbs-mt-everest-for-32nd-time-beats-own-record/article70989806.ece"
-    },
-    {
-      "headline": "Tata Electronics signs deal with Dutch chip equipment giant ASML to build semiconductor plant in Gujarat during PM Modi's Netherlands visit",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/5/17/indias-tata-and-dutch-giant-asml-sign-semiconductor-deal-during-modi-visit"
-    },
-    {
-      "headline": "Philippines government asks Supreme Court to allow ICC arrest of Senator Ronald Dela Rosa for drug war crimes against humanity",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/philippines-asks-top-court-to-allow-icc-drug-war-arrest-of-senator/article70989714.ece"
-    },
-    {
-      "headline": "Tens of thousands march in London in rival demonstrations over immigration and Palestinian solidarity, with 4,000 police deployed",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-thousands-march-in-london-at-rival-immigration-pro-palestinian-rallies/"
-    },
-    {
-      "headline": "Pope Leo XIV to make first official papal state visit to France in 18 years in September, including stop at UNESCO headquarters",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20260516-pope-leo-to-visit-france-in-september-in-first-official-papal-trip-in-18-years"
-    },
-    {
-      "headline": "Switzerland announces it will open long-sealed intelligence files on Nazi war criminal Josef Mengele, without specifying a date",
+      "headline": "Ukrainian drones kill three in large-scale overnight attack on Moscow region, Russia reports",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cgjpyqjj8y4o"
+      "url": "https://www.bbc.com/news/articles/c5ye480kxpmo"
+    },
+    {
+      "headline": "California jury begins deliberations in Elon Musk's lawsuit against OpenAI over nonprofit mission breach",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260518-california-jury-set-to-deliberate-on-silicon-valley-s-first-major-ai-trial"
+    },
+    {
+      "headline": "Amnesty International reports global executions at highest level since 1981, driven by surge in Iran",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/05/18/staggering-iran-toll-drives-up-global-executions-to-their-highest-since-1981-says-amnesty-international_6753549_4.html"
+    },
+    {
+      "headline": "France's Justice Minister visits Algeria to discuss judicial cooperation and detained journalist Christophe Gleizes",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/france/20260518-france-justice-minister-to-visit-algeria-amid-diplomatic-thaw-jailed-journalist-christophe-gleizes"
+    },
+    {
+      "headline": "Canal+ chief announces company will no longer work with 600 industry professionals who signed anti-Bollor\u00e9 petition",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260517-shock-threat-by-billionaire-bollore-s-canal-group-rocks-french-cinema"
+    },
+    {
+      "headline": "Mali's military junta launches airstrikes against rebel alliance as Russian mercenaries support counteroffensive",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/may/15/mali-airstrikes-rebel-alliance-separatists"
+    },
+    {
+      "headline": "Magnitude 5.2 earthquake in China's Guangxi region kills two and forces 7,000 evacuations",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/earthquake-hits-southwest-china-thousands-evacuate-buildings-collapse/article70992407.ece"
+    },
+    {
+      "headline": "Ukraine approaches New Zealand about partnership to build military drones",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/political/595494/ukraine-offers-nz-deal-to-build-military-drones"
+    },
+    {
+      "headline": "Shai Gilgeous-Alexander named NBA MVP for second consecutive season",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/sports/20260518-gilgeous-alexander-wins-nba-s-top-player-title-ahead-of-french-star-wembanyama"
     }
   ]
 }
