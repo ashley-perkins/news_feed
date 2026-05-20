@@ -1,214 +1,232 @@
 {
-  "date": "Tuesday, May 19, 2026",
-  "daily_brief": "The day's headlines are dominated by volatile developments in the Iran conflict, with President Trump announcing he has called off a planned major assault on Iran at the request of Gulf states, citing ongoing negotiations [BBC, Globe and Mail]. This comes as his approval rating has dropped to 37%, with 64% of Americans now opposing the war [BBC]. In public health, the Ebola outbreak in the Democratic Republic of Congo has escalated sharply, with at least 131 deaths and over 500 suspected cases prompting the WHO to declare an international emergency and the Africa CDC to declare a continental emergency [BBC, France 24, RFI, Guardian]. The outbreak has spread to Uganda and reached the city of Goma, with experts warning the true scale remains unknown. On the diplomatic front, Russian President Putin arrived in Beijing for talks with Xi Jinping, seeking to demonstrate the strength of the Russia-China partnership just days after Trump's high-profile visit to China produced trade headlines but no breakthrough on Ukraine [France 24, RFI, BBC]. In the United States, a suspected hate crime at a San Diego mosque left three dead after two teenage gunmen opened fire before taking their own lives [BBC, Al Jazeera, Globe and Mail]. Meanwhile, Japan and South Korea agreed to strengthen energy cooperation amid Iran war disruptions at a summit in Andong [Nikkei Asia, The Hindu].",
+  "date": "Wednesday, May 20, 2026",
+  "daily_brief": "The day's global developments center on intensifying diplomatic maneuvering across multiple fronts. In Beijing, Presidents Xi Jinping and Vladimir Putin reaffirmed their 'unyielding' strategic partnership [RFI, France 24, Al Jazeera, ABC Australia], signing over 20 agreements just days after President Trump's visit yielded no formal deals\u2014a contrast closely noted by analysts. The EU moved to implement its trade pact with the United States ahead of Trump's July 4 deadline, with lawmakers agreeing to cut duties on US industrial goods in exchange for maintaining 15 percent tariffs on European exports [RFI, Le Monde]. The WHO declared a public health emergency of international concern as the Ebola outbreak in the Democratic Republic of Congo reached 131 deaths and over 500 suspected cases, with cross-border spread reported [RFI, Guardian, BBC]. US Secretary of State Rubio criticized the WHO's response timing while defending America's reduced engagement following its withdrawal from the organization [Guardian]. Meanwhile, the US-Iran conflict entered its 82nd day with Trump claiming a deal is imminent, as Chinese tankers finally exited the Strait of Hormuz [Al Jazeera, Globe and Mail, The Hindu]. G7 finance ministers meeting in Paris pledged cooperation despite visible strains over trade policy and Russia [RFI].",
   "top_stories": [
     {
-      "headline": "Trump Calls Off Planned Iran Attack, Citing Gulf State Request and Ongoing Negotiations",
-      "category": "Conflict",
-      "bullets": [
-        "President Trump announced on Truth Social that he has paused a 'large scale assault' on Iran planned for Tuesday at the request of Qatar, Saudi Arabia, and UAE leaders, who indicated a deal would be reached",
-        "Iran submitted a new peace proposal to Washington; Iranian Foreign Ministry confirmed their views had been conveyed to the US",
-        "Trump warned the US remains ready to attack 'on a moment's notice' if no acceptable deal is reached, demanding 'NO NUCLEAR WEAPONS FOR IRAN'",
-        "A New York Times/Siena poll shows 64% of voters believe the war was wrong and Trump's approval has fallen to 37%"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasizes domestic political pressure on Trump, leads with polling showing war unpopularity",
-          "url": "https://www.bbc.com/news/articles/cz924g45530o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focuses on negotiation mechanics and Strait of Hormuz pressure, more neutral diplomatic framing",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-irs-lawsuit-tax-returns/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Provides regional context including UAE economic damage from the war",
-          "url": "https://www.thehindu.com/news/national/narendra-modi-five-nation-tour-india-nordic-summit-live-updates/article70996679.ece"
-        }
-      ]
-    },
-    {
-      "headline": "DRC Ebola Outbreak Kills at Least 131 as WHO and Africa CDC Declare Emergencies",
-      "category": "Policy",
-      "bullets": [
-        "At least 131 deaths reported from 513 suspected cases of the Bundibugyo strain of Ebola in Democratic Republic of Congo",
-        "WHO declared a 'public health emergency of international concern'; Africa CDC declared a Continental Public Health Emergency",
-        "Outbreak has spread beyond initial area to Goma, Butembo, and into Uganda (2 confirmed cases, 1 death)",
-        "No approved vaccine or specific treatment exists for this strain; an American doctor working in DRC has tested positive"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage including American doctor case and WHO response",
-          "url": "https://www.bbc.com/news/articles/cz924g45530o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasizes rising death toll and emergency meeting preparations",
-          "url": "https://www.france24.com/en/asia-pacific/20260519-putin-seeks-to-reinforce-china-ties-after-trump-pageantry"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Features interview with Ebola co-discoverer warning authorities may have detected outbreak too late",
-          "url": "https://www.rfi.fr/en/france/20260518-france-s-justice-minister-darmanin-enlists-algeria-s-aid-in-fight-against-crime"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Focuses on ground-level panic and economic impacts in affected communities",
-          "url": "https://www.theguardian.com/global-development/2026/may/18/infectious-diseases-hantavirus-ebola-more-frequent-damaging-pandemic-outbreak"
-        }
-      ]
-    },
-    {
-      "headline": "Putin Arrives in Beijing to Reinforce China Ties Days After Trump's Visit",
+      "headline": "Xi and Putin Reaffirm Strategic Partnership in Beijing, Contrast with Trump Visit Evident",
       "category": "Geopolitics",
       "bullets": [
-        "Russian President Putin began a two-day state visit to China for talks with Xi Jinping, marking his annual visit since the 2022 Ukraine invasion",
-        "Visit coincides with 25th anniversary of China-Russia strategic partnership treaty and comes just four days after Trump left Beijing",
-        "Kremlin stated leaders will discuss strengthening comprehensive partnership and sign a joint declaration",
-        "Russia remains diplomatically isolated and economically dependent on China as the main buyer of sanctioned Russian oil"
+        "Chinese President Xi Jinping welcomed Russian President Vladimir Putin to Beijing with full state honors, where the two leaders signed more than 20 agreements covering trade, technology, and energy cooperation",
+        "Xi described China-Russia relations as demonstrating 'unyielding' resilience, while Putin praised the 'unprecedented' level of bilateral ties despite 'unfavourable external factors'",
+        "The summit follows Trump's visit to Beijing last week, which produced no formal deals, press conference, or joint communique\u2014a contrast highlighted by multiple outlets",
+        "Energy security dominated discussions, with analysts expecting progress on the Power of Siberia 2 natural gas pipeline as an alternative to disrupted Middle East supplies"
       ],
       "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Notes the 'unshakeable' ties narrative Putin seeks to project",
-          "url": "https://www.france24.com/en/asia-pacific/20260519-putin-seeks-to-reinforce-china-ties-after-trump-pageantry"
-        },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasizes that Trump's visit produced no breakthrough on Ukraine",
-          "url": "https://www.rfi.fr/en/france/20260518-france-s-justice-minister-darmanin-enlists-algeria-s-aid-in-fight-against-crime"
+          "framing_note": "Emphasized Putin's weakened position due to sanctions and dependence on China",
+          "url": "https://www.rfi.fr/en/africa/20260519-who-declares-global-emergency-as-ebola-death-toll-climbs-in-drc"
         },
         {
-          "name": "BBC Europe",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Provides analysis of the 'misunderstood partnership' and power dynamics between leaders",
-          "url": "https://www.bbc.com/news/articles/cd9pzd14vj5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline emphasizes 'deeply unbalanced relations' favoring China",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/05/19/as-israeli-legislative-elections-approach-the-opposition-focuses-on-rejecting-netanyahu-rather-than-the-peace-process_6753588_23.html"
-        }
-      ]
-    },
-    {
-      "headline": "Three Killed in Suspected Hate Crime Shooting at San Diego Mosque",
-      "category": "Society",
-      "bullets": [
-        "Two teenage gunmen (ages 17 and 18) fatally shot three men at the Islamic Center of San Diego before killing themselves blocks away",
-        "Attack occurred two hours after one suspect's mother called police reporting her son had run away with weapons and was possibly suicidal",
-        "A security guard among the victims 'played a pivotal role' in preventing worse casualties; police called his actions 'heroic'",
-        "Investigators found 'hate rhetoric' in writings attributed to one suspect; attack being investigated as a hate crime"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward factual account emphasizing security guard's heroism",
-          "url": "https://www.bbc.com/news/articles/cz924g45530o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on the ceremonial aspects and direct comparison with Trump visit",
+          "url": "https://www.france24.com/en/business/20260520-union-calls-strike-at-south-korea-chip-giant-samsung-electronics"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Provides context of attack occurring before Eid al-Adha holiday",
-          "url": "https://www.aljazeera.com/news/2026/5/19/palestine-weekly-wrap-jerusalem-day-nakba-surging-attacks?traffic_source=rss"
+          "framing_note": "Highlighted the 'comprehensive partnership' language and strategic coordination",
+          "url": "https://www.aljazeera.com/news/2026/5/20/taiwans-president-says-future-will-not-be-decided-by-external-forces?traffic_source=rss"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Explicitly contrasted the number of deals signed versus Trump's visit, noting Xi's 'balancing act'",
+          "url": "https://www.abc.net.au/news/2026-05-20/queensland-new-mater-hospital-springfield-opens/106702558"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": null,
+          "url": "https://www.lemonde.fr/en/environment/article/2026/05/20/heat-strokes-are-part-of-the-job-in-delhi-construction-workers-endure-43-c-heat_6753631_114.html"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Details police timeline and mother's warning call",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-irs-lawsuit-tax-returns/"
-        }
-      ]
-    },
-    {
-      "headline": "Japan and South Korea Strengthen Energy Cooperation Amid Iran War Disruptions",
-      "category": "Economics",
-      "bullets": [
-        "Japanese PM Sanae Takaichi and South Korean President Lee Jae Myung held their fourth meeting in six months at a summit in Andong, South Korea",
-        "Leaders agreed to strengthen supply chain cooperation to mitigate energy disruptions caused by the US-Israeli war with Iran",
-        "Meeting is part of 'hometown summits' series marking first time sitting leaders have visited each other's hometowns",
-        "Summit agenda includes economic cooperation, Iran war impacts, and bilateral ties development"
-      ],
-      "sources": [
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Leads with energy supply chain cooperation as primary outcome",
-          "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-s-lai-marks-midpoint-of-term-as-trump-and-china-worries-loom"
+          "framing_note": "Emphasized China propping up Russia's economy amid Western sanctions",
+          "url": "https://www.theglobeandmail.com/world/article-san-diego-mosque-shooting-suspects-police/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasizes geopolitical context and positive trajectory of relationship",
-          "url": "https://www.thehindu.com/news/national/narendra-modi-five-nation-tour-india-nordic-summit-live-updates/article70996679.ece"
+          "framing_note": "Noted Xi's call for ceasefire in West Asia during the talks",
+          "url": "https://www.thehindu.com/news/international/iran-israel-war-live-strait-of-hormuz-updates-us-putin-trump-may-20-2026/article71000732.ece"
+        }
+      ]
+    },
+    {
+      "headline": "WHO Declares Global Emergency as DRC Ebola Outbreak Reaches 131 Deaths, Crosses Borders",
+      "category": "Climate",
+      "bullets": [
+        "The World Health Organization declared a public health emergency of international concern as the Ebola outbreak in the Democratic Republic of Congo reached 131 confirmed deaths and over 500 suspected cases",
+        "The outbreak, driven by the Bundibugyo strain for which no approved vaccine exists, has spread beyond its original hotspot in Ituri province and crossed into Uganda, where one death has been reported",
+        "US Secretary of State Marco Rubio criticized the WHO for being 'a little late' to identify the outbreak, while experts noted the WHO is operating with severely reduced capacity following US withdrawal",
+        "Health officials acknowledge they are playing catch-up with a virus that may have been circulating undetected before the April 24 discovery; severe shortages of basic protective equipment persist"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on WHO declaration and case numbers",
+          "url": "https://www.rfi.fr/en/africa/20260519-who-declares-global-emergency-as-ebola-death-toll-climbs-in-drc"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Rubio's criticism while noting US withdrawal gutted WHO capacity; emphasized expert rebuttals",
+          "url": "https://www.theguardian.com/global-development/2026/may/19/calls-for-release-of-sierra-leonean-singer-jailed-in-crackdown-on-free-speech"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Featured ground-level reporting from affected areas, focusing on local fear and response challenges",
+          "url": "https://www.bbc.com/news/articles/c0m2pg1z4x8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized weak infrastructure hampering response in war-torn region",
+          "url": "https://www.france24.com/en/business/20260520-union-calls-strike-at-south-korea-chip-giant-samsung-electronics"
+        }
+      ]
+    },
+    {
+      "headline": "EU Agrees to Implement US Trade Pact Ahead of Trump's July 4 Deadline",
+      "category": "Economics",
+      "bullets": [
+        "The European Parliament and Council reached provisional agreement to remove duties on US industrial goods and grant preferential access to American agricultural and seafood products",
+        "In exchange, the United States will maintain tariffs of 15 percent on most EU exports under the framework agreed at Trump's Turnberry resort last July",
+        "Trump had threatened to raise tariffs on European car imports from 15 to 25 percent if the bloc failed to implement the agreement by July 4",
+        "The legislation had been delayed twice\u2014once after Trump threatened tariffs on allies opposing his Greenland acquisition proposal, and again after the US Supreme Court struck down earlier global tariffs"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Detailed the negotiation history and Trump's deadline pressure",
+          "url": "https://www.rfi.fr/en/africa/20260519-who-declares-global-emergency-as-ebola-death-toll-climbs-in-drc"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": null,
+          "url": "https://www.lemonde.fr/en/environment/article/2026/05/20/heat-strokes-are-part-of-the-job-in-delhi-construction-workers-endure-43-c-heat_6753631_114.html"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Claims Iran Deal Imminent as Chinese Tankers Exit Strait of Hormuz",
+      "category": "Conflict",
+      "bullets": [
+        "Two Chinese oil supertankers carrying approximately 4 million barrels of crude navigated out of the Strait of Hormuz after waiting more than two months, shipping data showed",
+        "President Trump told lawmakers the 82-day US-Israel war on Iran will end 'very quickly,' claiming he was 'an hour away' from ordering new strikes before pausing",
+        "Vice President Vance said negotiations have made 'a lot of progress' but acknowledged difficulties dealing with Iran's fractured leadership",
+        "The US Senate advanced a war-powers resolution 50-47 to end the Iran war without Congressional authorization, with four Republicans joining Democrats"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Detailed Iranian military warnings of 'new fronts' and Tehran's peace proposal terms",
+          "url": "https://www.aljazeera.com/news/2026/5/20/taiwans-president-says-future-will-not-be-decided-by-external-forces?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized Senate rebuke of Trump and Constitutional war powers debate",
+          "url": "https://www.theglobeandmail.com/world/article-san-diego-mosque-shooting-suspects-police/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Included Xi's call for 'comprehensive ceasefire' during Putin talks",
+          "url": "https://www.thehindu.com/news/international/iran-israel-war-live-strait-of-hormuz-updates-us-putin-trump-may-20-2026/article71000732.ece"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief coverage noting Iran says it's 'ready' if diplomacy fails",
+          "url": "https://www.france24.com/en/business/20260520-union-calls-strike-at-south-korea-chip-giant-samsung-electronics"
+        }
+      ]
+    },
+    {
+      "headline": "G7 Finance Ministers Pledge Cooperation Amid Visible US-Allied Strains Over Russia and Trade",
+      "category": "Economics",
+      "bullets": [
+        "G7 finance ministers and central bank governors met in Paris, pledging renewed multilateral cooperation to address threats to global economic stability from the Middle East war",
+        "French Finance Minister Roland Lescure described discussions with US Treasury Secretary Scott Bessent as 'frank, sometimes difficult' but productive",
+        "European nations expressed growing unease over Trump administration tariffs and what some perceive as a softening US stance toward Russia",
+        "The final communiqu\u00e9 reaffirmed commitment to impose 'severe costs' on Russia, though the UK simultaneously loosened Russian oil sanctions citing supply concerns"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized tensions between US and allies while noting productive outcome",
+          "url": "https://www.rfi.fr/en/africa/20260519-who-declares-global-emergency-as-ebola-death-toll-climbs-in-drc"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Reported UK sanctions loosening as separate story, noting contradiction with G7 statement",
+          "url": "https://www.bbc.com/news/articles/c0m2pg1z4x8o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Russia begins three-day nuclear weapons drills involving 65,000 troops as Putin visits China",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260519-russia-to-conduct-three-day-nuclear-drills-on-may-19-21"
-    },
-    {
-      "headline": "US suspends joint defence advisory board with Canada, citing failure to meet military commitments",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-us-pauses-defence-advisory-board-canada/"
-    },
-    {
-      "headline": "EU-China SMILE spacecraft launches successfully from French Guiana on solar exploration mission",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260519-eu-china-solar-exploration-spaceship-launches-successfully-from-french-guiana"
-    },
-    {
-      "headline": "Gunmen abduct 39 students and 7 teachers in coordinated attacks on three schools in Nigeria's Oyo State",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/5/19/gunmen-abduct-39-students-7-teachers-in-attacks-on-nigeria-schools"
-    },
-    {
-      "headline": "Libyan militia commander accused of torture of refugees to appear at ICC in landmark hearing",
+      "headline": "US increases white South African refugee admissions to 17,500, claiming 'emergency situation'",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/may/19/libya-militia-commander-refugees-international-criminal-court"
+      "url": "https://www.theguardian.com/us-news/2026/may/19/us-government-increase-white-south-africa-refugees"
     },
     {
-      "headline": "Australia scales back planned upgrades to Collins Class submarines, will not replace diesel engines",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-05-19/planned-upgrades-to-collins-class-submarines-scaled-back/106698460"
+      "headline": "Trump's Greenland envoy Jeff Landry begins first visit to Arctic territory amid continued tensions over acquisition threats",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cze28ex3lexo"
     },
     {
-      "headline": "Undersea volcano erupts in Papua New Guinea's Bismarck Sea, prompting tsunami warnings",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-05-19/papua-new-guinea-volcanic-eruption-bismarck-sea/106697688"
-    },
-    {
-      "headline": "Louvre selects architects for \u20ac800 million renovation including new dedicated space for Mona Lisa",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260518-louvre-picks-architects-for-%E2%82%AC800m-overhaul-and-new-mona-lisa-space"
-    },
-    {
-      "headline": "Los Angeles World Cup stadium workers threaten strike if ICE agents deployed during matches",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/5/19/los-angeles-world-cup-stadium-workers-threaten-strike-over-ice-deployment"
-    },
-    {
-      "headline": "Shakira wins \u20ac55 million tax refund from Spain after court rules she was not a resident in 2011",
+      "headline": "UK loosens Russian oil sanctions as jet fuel and diesel prices rise due to Strait of Hormuz disruption",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cd9pzd14vj5o"
+      "url": "https://www.bbc.com/news/articles/cy42x3g7r89o"
+    },
+    {
+      "headline": "Samsung Electronics faces major strike threat as South Korean labor minister intervenes in bonus dispute",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/business/20260520-union-calls-strike-at-south-korea-chip-giant-samsung-electronics"
+    },
+    {
+      "headline": "Taiwan's President Lai marks second anniversary, says island's future will not be decided by 'external forces'",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/5/20/taiwans-president-says-future-will-not-be-decided-by-external-forces"
+    },
+    {
+      "headline": "Estonia says NATO fighter jet shot down drone over its territory, suspects Ukrainian projectile redirected by Russian jamming",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c302jy8z4vro"
+    },
+    {
+      "headline": "San Diego mosque shooting suspects identified as radicalized white supremacists who met online",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-san-diego-mosque-shooting-suspects-police/"
+    },
+    {
+      "headline": "Indonesia creates new state enterprise to control exports of palm oil, coal, and key minerals",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/commodities/indonesia-takes-control-of-strategic-exports-with-new-body"
+    },
+    {
+      "headline": "Trump-backed challenger defeats Rep. Thomas Massie in Kentucky GOP primary",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-kentucky-thomas-massie-gop-primary-trump-gallrein/"
+    },
+    {
+      "headline": "Arsenal win Premier League title for first time since 2004 after Manchester City draw",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260520-arsenal-win-premier-league-title-for-first-time-since-2004"
     }
   ]
 }
