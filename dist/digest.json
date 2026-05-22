@@ -1,202 +1,184 @@
 {
-  "date": "Thursday, May 21, 2026",
-  "daily_brief": "The day's news is dominated by a rapidly expanding Ebola outbreak in the Democratic Republic of Congo, where WHO officials warned that vaccine development could take nine months and confirmed cases continue to rise, with at least 600 suspected infections and 139 deaths [BBC, Guardian, France 24]. US Secretary of State Rubio criticized the WHO's response while the US continues sweeping public health cuts following its withdrawal from the organization [Guardian]. In Beijing, Vladimir Putin concluded talks with Xi Jinping without securing the long-sought Power of Siberia 2 pipeline deal, though both leaders emphasized their strategic partnership and criticized US nuclear policy [BBC, Le Monde, Globe and Mail]. International condemnation mounted against Israeli National Security Minister Itamar Ben-Gvir after he posted video taunting handcuffed Gaza flotilla activists, drawing rare criticism from PM Netanyahu and prompting several nations to summon Israeli ambassadors [BBC, RFI, RNZ, France 24]. The Trump administration escalated pressure on Cuba by charging former president Ra\u00fal Castro with murder over the 1996 downing of two planes [BBC, Globe and Mail]. Meanwhile, German Chancellor Merz proposed a new 'associate member' status for Ukraine in the EU, offering representation without voting rights as a bridge toward full membership [France 24].",
+  "date": "Friday, May 22, 2026",
+  "daily_brief": "The day's most consequential developments center on escalating US tensions with Cuba and shifting American defense postures. Secretary of State Marco Rubio warned that diplomatic resolution with Cuba is unlikely, raising the specter of military action following this week's indictment of Ra\u00fal Castro [BBC, Al Jazeera]. Meanwhile, the US paused a $14 billion arms sale to Taiwan to preserve munitions for operations in Iran, a move that signals competing strategic priorities and drew no advance notice to Taipei [BBC, Nikkei Asia]. NATO dynamics remain in flux as President Trump announced 5,000 additional troops for Poland while broader US-Europe tensions persist over burden-sharing [BBC Europe]. In public health, the Ebola outbreak in central Africa prompted India to postpone a major summit with African nations, while US critics warn that gutted public health infrastructure is hampering response efforts [BBC, The Guardian]. A Paris appeals court found Air France and Airbus guilty of manslaughter over the 2009 crash that killed 228 people, overturning a previous acquittal [BBC, RFI]. In Canada, Alberta announced an October referendum on whether to begin the constitutional process toward separation, though Premier Danielle Smith herself opposes independence [BBC, France 24].",
   "top_stories": [
     {
-      "headline": "Ebola Outbreak in DRC Grows Rapidly as WHO Warns Vaccine Could Take Nine Months",
-      "category": "Climate",
+      "headline": "US Pauses $14 Billion Taiwan Arms Sale to Preserve Munitions for Iran War",
+      "category": "Geopolitics",
       "bullets": [
-        "WHO reports 600 suspected Ebola cases and 139 suspected deaths in DRC, with 51 confirmed cases in Ituri and North Kivu provinces and 2 confirmed in Uganda",
-        "Two candidate vaccines against the Bundibugyo strain are in development but have not completed clinical trials; WHO declared a public health emergency of international concern but assessed global risk as low",
-        "An American missionary doctor who contracted Ebola was evacuated to Germany along with his wife and four children for treatment and monitoring",
-        "US Secretary of State Rubio criticized WHO for being 'a little late' in identifying the outbreak, while the US has committed $13 million in assistance following its withdrawal from WHO last year"
+        "Acting Navy Secretary Hung Cao confirmed at a Senate hearing that US arms sales to Taiwan are on 'pause' to ensure sufficient munitions for Operation Epic Fury, the US-Israel joint military campaign in Iran",
+        "The $14 billion package includes Lockheed Martin PAC-3 air defense missiles and surface-to-air missile systems, and has been awaiting President Trump's approval for months",
+        "Taiwan's presidential office stated it had received no information about US adjustments to the arms sale",
+        "The pause comes days after Trump appeared non-committal about the sale following meetings with Chinese leader Xi Jinping"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on WHO timeline and vaccine development challenges",
-          "url": "https://www.bbc.com/news/articles/cwy2g197dp8o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasizes the geopolitical context of Trump-Xi meetings and Taiwan's lack of advance notice",
+          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Focuses on questions this raises about Trump's commitment to Taiwan and regional security implications",
+          "url": "https://asia.nikkei.com/business/markets/japanese-stocks-hit-record-high-on-hopes-for-iran-resolution"
+        }
+      ]
+    },
+    {
+      "headline": "US Raises Military Threat Against Cuba as Rubio Says Diplomacy 'Not High' Priority",
+      "category": "Geopolitics",
+      "bullets": [
+        "Secretary of State Marco Rubio declared Cuba a 'national security threat' due to ties with Russia and China, and said the likelihood of diplomatic resolution is 'not high'",
+        "The statements follow this week's US indictment of former Cuban President Ra\u00fal Castro on murder charges related to the 1996 downing of two civilian aircraft",
+        "Cuba is experiencing severe fuel shortages exacerbated by an effective US oil blockade, with extended blackouts and food shortages reported",
+        "Cuban Foreign Minister Bruno Rodr\u00edguez accused Rubio of 'lies' and attempting to 'instigate a military aggression'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provides balanced coverage of both US and Cuban government positions",
+          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasizes the 'regime change' framing and impact of US pressure on Cuban civilians",
+          "url": "https://www.aljazeera.com/sports/2026/5/22/two-time-nascar-champ-kyle-busch-dies-at-41-after-severe-illness?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Air France and Airbus Found Guilty of Manslaughter in 2009 Crash That Killed 228",
+      "category": "Society",
+      "bullets": [
+        "A Paris appeals court overturned a 2023 acquittal and found both companies 'solely and entirely responsible' for the AF447 crash that killed all 228 people aboard",
+        "Flight AF447 from Rio de Janeiro to Paris stalled during a storm and plunged into the Atlantic Ocean on June 1, 2009",
+        "Both companies were fined the maximum \u20ac225,000 each for corporate manslaughter; victims' families criticized the amount as a token penalty",
+        "Air France and Airbus denied criminal liability and announced they will appeal the verdict"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage of verdict and victim family reactions",
+          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasizes the legal history and the overturning of the previous acquittal",
+          "url": "https://www.rfi.fr/en/france/20260521-french-court-to-rule-on-air-france-and-airbus-appeal-over-2009-rio-paris-crash"
+        }
+      ]
+    },
+    {
+      "headline": "Alberta to Hold October Referendum on Beginning Process Toward Separation from Canada",
+      "category": "Policy",
+      "bullets": [
+        "Premier Danielle Smith announced Alberta will hold a referendum on October 19 asking whether the province should commence the constitutional process for a binding vote on separation",
+        "The referendum follows citizen petitions gathering over 300,000 signatures for separation and over 400,000 for remaining in Canada",
+        "Smith stated she personally supports Alberta remaining in Canada and this is also her government's position",
+        "Opinion polls suggest a majority of Albertans would vote against separating; the vote would not directly decide independence but whether to pursue a future binding referendum"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Frames as first significant test of Canadian unity in decades",
+          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasizes the careful, multi-step nature of the process Smith has chosen",
+          "url": "https://www.france24.com/en/middle-east/20260522-middle-east-live-nato-allies-to-sound-out-us-top-diplomat-after-trump-iran-ire"
+        }
+      ]
+    },
+    {
+      "headline": "India Postpones Africa Summit Over Ebola Outbreak as US Response Draws Criticism",
+      "category": "Climate",
+      "bullets": [
+        "The India-Africa Forum Summit scheduled for May 28-31 in Delhi was cancelled due to the Ebola outbreak in the Democratic Republic of Congo and Uganda",
+        "WHO has declared the outbreak a public health emergency of international concern, with 600 suspected cases and 139 suspected deaths reported",
+        "The outbreak involves a rare Bundibugyo strain of Ebola for which no vaccine exists, centered in a conflict-affected area",
+        "Critics including Africa CDC warned that the US travel ban on people from DRC, Uganda, and South Sudan could worsen the situation by pushing movement toward unmonitored routes"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focuses on the summit cancellation and WHO declaration",
+          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasized US public health cuts and criticism of Rubio's comments; highlighted weak health infrastructure",
-          "url": "https://www.theguardian.com/us-news/2026/may/19/us-government-increase-white-south-africa-refugees"
+          "framing_note": "Emphasizes US public health cuts and criticism of inadequate American response",
+          "url": "https://www.theguardian.com/us-news/2026/may/19/marco-rubio-who-ebola"
         },
         {
-          "name": "France 24",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Framed around global health defunding and pandemic preparedness concerns",
-          "url": "https://www.france24.com/en/middle-east/20260521-middle-east-war-live-trump-says-willing-to-wait-a-few-days-for-right-answer-on-iran-peace-deal"
-        }
-      ]
-    },
-    {
-      "headline": "Putin Visits Beijing, Deepens Ties with Xi but Leaves Without Pipeline Deal",
-      "category": "Geopolitics",
-      "bullets": [
-        "Putin and Xi met in Beijing, describing their partnership as at an 'unprecedented level' and jointly criticized US nuclear policy and Trump's Golden Dome missile defense plan",
-        "The Power of Siberia 2 natural gas pipeline deal, long sought by Russia, was not finalized during the visit",
-        "Western sanctions have pushed Russia further into economic dependence on China; analysts note Putin negotiates from relative weakness",
-        "The visit followed Trump's China trip last week, with Russian state media contrasting imagery of Putin-Xi closeness against Trump's departure"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Analysis emphasized geopolitical theater versus substantive outcomes; noted Putin's weaker negotiating position",
-          "url": "https://www.bbc.com/news/articles/cwy2g197dp8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline emphasized Xi keeping Putin waiting on pipeline",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/05/21/gaza-has-become-a-diplomatic-political-and-military-black-hole_6753673_23.html"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Highlighted how Trump's return has scrambled geopolitics and pushed countries toward China",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-republican-primaries-elections/"
-        }
-      ]
-    },
-    {
-      "headline": "International Outcry Over Israeli Minister's Video Taunting Detained Gaza Flotilla Activists",
-      "category": "Conflict",
-      "bullets": [
-        "Israeli forces intercepted a 50-boat Gaza-bound aid flotilla off Cyprus; 430 activists from over 40 countries were detained and transferred to Israeli vessels",
-        "National Security Minister Itamar Ben-Gvir posted video showing himself taunting activists kneeling with hands bound, drawing condemnation from the US, UK, France, Italy, Canada, Australia, and New Zealand",
-        "PM Netanyahu issued rare criticism saying Ben-Gvir's actions were 'not in line with Israel's values'; rights group Adalah documented injuries including suspected broken ribs and alleged sexual harassment",
-        "Multiple countries summoned Israeli ambassadors; New Zealand had previously banned Ben-Gvir from travel for undermining peace prospects"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced reporting on international reactions and rights group allegations",
-          "url": "https://www.bbc.com/news/articles/cwy2g197dp8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on French diplomatic response and video details",
-          "url": "https://www.france24.com/en/middle-east/20260521-middle-east-war-live-trump-says-willing-to-wait-a-few-days-for-right-answer-on-iran-peace-deal"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Emphasized French foreign minister's condemnation",
-          "url": "#"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Highlighted New Zealand's prior travel ban on Ben-Gvir and strong government response",
-          "url": "https://www.rnz.co.nz/news/pacific/595786/could-the-rare-submarine-volcano-erupting-in-png-blow-big"
-        }
-      ]
-    },
-    {
-      "headline": "US Charges Former Cuban President Ra\u00fal Castro with Murder Over 1996 Plane Shootdown",
-      "category": "Geopolitics",
-      "bullets": [
-        "The US indicted Ra\u00fal Castro, 94, on charges including conspiracy to kill US nationals, four counts of murder, and destruction of aircraft over the 1996 downing of two Brothers to the Rescue planes that killed four people",
-        "Castro and five Cuban military pilots were charged; murder counts carry maximum penalties of death or life imprisonment",
-        "Cuban President D\u00edaz-Canel called the charges 'a political manoeuvre devoid of any legal foundation'",
-        "The indictment represents a major escalation in US pressure on Cuba's communist government as Trump pushes for regime change"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on charges and Cuban response",
-          "url": "https://www.bbc.com/news/articles/cwy2g197dp8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Contextualized within broader Trump administration pressure campaign and hemispheric influence efforts",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-republican-primaries-elections/"
-        }
-      ]
-    },
-    {
-      "headline": "Germany Proposes 'Associate Member' Status for Ukraine in EU Without Voting Rights",
-      "category": "Policy",
-      "bullets": [
-        "Chancellor Friedrich Merz proposed granting Ukraine 'associate member' status allowing attendance at EU summits, representation in the Commission and Parliament, but without voting rights",
-        "The EU's mutual defense clause would apply to Ukraine under the proposal, and Kyiv could access parts of the EU budget",
-        "Merz acknowledged full accession cannot be completed soon due to 'countless hurdles' and ratification complexities",
-        "The proposal was outlined in a letter to EU Commission President von der Leyen and European Council President Costa"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Neutral reporting on proposal details and rationale",
-          "url": "https://www.france24.com/en/middle-east/20260521-middle-east-war-live-trump-says-willing-to-wait-a-few-days-for-right-answer-on-iran-peace-deal"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Article behind paywall; headline indicates coverage of Germany's enlargement push",
-          "url": "https://www.ft.com/content/1fca05bc-7927-4bdb-a883-dc280792115b"
+          "framing_note": "Notes the UN General Assembly climate vote in same period, contextualizing international cooperation challenges",
+          "url": "https://www.rfi.fr/en/france/20260521-french-court-to-rule-on-air-france-and-airbus-appeal-over-2009-rio-paris-crash"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "US increases white South African refugee admissions to 17,500 citing 'emergency refugee situation'",
+      "headline": "Trump announces 5,000 additional US troops for Poland, reversing course after Pentagon cancelled earlier deployment",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cedpz9669deo"
+    },
+    {
+      "headline": "Hundreds of Greenlanders protest outside new US consulate in Nuuk against Trump's territorial ambitions",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cwy2gxvnq1zo"
+    },
+    {
+      "headline": "Macron says France must address reparations for its role in transatlantic slave trade, breaking historic taboo",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/may/19/us-government-increase-white-south-africa-refugees"
+      "url": "https://www.theguardian.com/news/2026/may/21/macron-pressure-reparatory-justice-france-slave-trade-legacies-enslavement"
     },
     {
-      "headline": "Austrian former intelligence officer Egisto Ott convicted of spying for Russia and Wirecard fugitive Jan Marsalek",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cwy21541dz4o"
+      "headline": "Stephen Colbert's Late Show ends after CBS cancellation amid Trump administration pressure",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/culture/20260522-late-show-host-colbert-bows-out-with-a-little-help-from-paul-mccartney-trump-exults"
     },
     {
-      "headline": "Sierra Leone receives nine deportees from US under agreement to accept up to 300 annually",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cn9pzjvly53o"
-    },
-    {
-      "headline": "Lithuania's president and prime minister forced into shelters during drone alert over Vilnius",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c9d3vpqqqpeo"
-    },
-    {
-      "headline": "UN General Assembly passes resolution backing ICJ climate change ruling with 141 votes in favor; US votes against",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/environment_climate/595879/un-resolution-backing-landmark-climate-change-ruling-passes"
-    },
-    {
-      "headline": "SpaceX files IPO prospectus in what is expected to be the most spectacular public offering ever",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/economy/article/2026/05/21/with-spacex-elon-musk-launches-the-most-spectacular-ipo-ever_6753682_19.html"
-    },
-    {
-      "headline": "South Korea's KOSPI jumps 8.4% after Samsung union suspends planned strike",
+      "headline": "Japanese stocks hit record high on optimism over potential US-Iran peace deal",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/kospi-jumps-8.4-on-samsung-strike-suspension-nvidia-results"
+      "url": "https://asia.nikkei.com/business/markets/japanese-stocks-hit-record-high-on-hopes-for-iran-resolution"
     },
     {
-      "headline": "Paris appeals court to rule on Air France and Airbus appeal over 2009 Rio-Paris crash that killed 228",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20260521-french-court-to-rule-on-air-france-and-airbus-appeal-over-2009-rio-paris-crash"
+      "headline": "Ukraine's drone campaign causes repeated airspace incursions in Baltic states, triggering NATO scrambles and political tensions",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cp3pzg491ypo"
     },
     {
-      "headline": "Cluster bombs used for first time in Mali conflict by army and Russian allies",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/africa/20260520-mali-conflict-enters-dangerous-new-phase-with-banned-cluster-bombs-russia"
+      "headline": "US froze joint defense board with Canada over lack of detailed military spending plan, Pentagon official confirms",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-joint-defence-board-military-spending-pentagon-official/"
     },
     {
-      "headline": "Chinese FDI in Europe reaches seven-year high at \u20ac16.8 billion in 2025, led by Hungary",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/international/20260521-chinese-investment-in-europe-hits-seven-year-high-but-recovery-may-be-short"
+      "headline": "House Republicans delay vote on war powers resolution that would compel Trump withdrawal from Iran conflict",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-iran-war-resolution-vote-trump-gop/"
+    },
+    {
+      "headline": "UN General Assembly passes resolution endorsing ICJ opinion on states' legal obligations to combat climate change",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/environment/20260521-un-backs-stronger-climate-obligations-following-landmark-court-ruling-icj"
+    },
+    {
+      "headline": "NASCAR champion Kyle Busch dies at 41 after severe illness, three days before scheduled Coca-Cola 600 race",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/5/22/two-time-nascar-champ-kyle-busch-dies-at-41-after-severe-illness"
     }
   ]
 }
