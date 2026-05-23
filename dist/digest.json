@@ -1,184 +1,202 @@
 {
-  "date": "Friday, May 22, 2026",
-  "daily_brief": "The day's most consequential developments center on escalating US tensions with Cuba and shifting American defense postures. Secretary of State Marco Rubio warned that diplomatic resolution with Cuba is unlikely, raising the specter of military action following this week's indictment of Ra\u00fal Castro [BBC, Al Jazeera]. Meanwhile, the US paused a $14 billion arms sale to Taiwan to preserve munitions for operations in Iran, a move that signals competing strategic priorities and drew no advance notice to Taipei [BBC, Nikkei Asia]. NATO dynamics remain in flux as President Trump announced 5,000 additional troops for Poland while broader US-Europe tensions persist over burden-sharing [BBC Europe]. In public health, the Ebola outbreak in central Africa prompted India to postpone a major summit with African nations, while US critics warn that gutted public health infrastructure is hampering response efforts [BBC, The Guardian]. A Paris appeals court found Air France and Airbus guilty of manslaughter over the 2009 crash that killed 228 people, overturning a previous acquittal [BBC, RFI]. In Canada, Alberta announced an October referendum on whether to begin the constitutional process toward separation, though Premier Danielle Smith herself opposes independence [BBC, France 24].",
+  "date": "Saturday, May 23, 2026",
+  "daily_brief": "The deadliest mining disaster in China in 17 years dominated headlines today as a gas explosion at the Liushenyu coal mine in Shanxi province killed at least 90 workers, with nine still missing [BBC World, France 24, Al Jazeera, ABC Australia]. The WHO raised its risk assessment for the Ebola outbreak in the Democratic Republic of Congo to 'very high' as suspected cases tripled to 750 with 177 deaths, prompting Oxford University to accelerate vaccine development [The Guardian, BBC World]. Diplomatic efforts to broker a US-Iran peace deal intensified as Pakistan's army chief Asim Munir held talks in Tehran, though Iranian officials cited 'excessive demands' from Washington and US media reported President Trump is 'seriously considering' new strikes [France 24, The Hindu, Financial Times]. Secretary of State Marco Rubio arrived in India for a four-day visit including Quad talks, seeking to reinforce ties following Trump's recent summit with China [France 24, The Hindu]. In Africa, Senegal's President Bassirou Diomaye Faye sacked Prime Minister Ousmane Sonko, deepening political crisis in the debt-laden nation [France 24], while SpaceX successfully launched its massive Starship V3 rocket, deploying 20 dummy satellites before a planned splashdown in the Indian Ocean [BBC World, Le Monde].",
   "top_stories": [
     {
-      "headline": "US Pauses $14 Billion Taiwan Arms Sale to Preserve Munitions for Iran War",
-      "category": "Geopolitics",
-      "bullets": [
-        "Acting Navy Secretary Hung Cao confirmed at a Senate hearing that US arms sales to Taiwan are on 'pause' to ensure sufficient munitions for Operation Epic Fury, the US-Israel joint military campaign in Iran",
-        "The $14 billion package includes Lockheed Martin PAC-3 air defense missiles and surface-to-air missile systems, and has been awaiting President Trump's approval for months",
-        "Taiwan's presidential office stated it had received no information about US adjustments to the arms sale",
-        "The pause comes days after Trump appeared non-committal about the sale following meetings with Chinese leader Xi Jinping"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasizes the geopolitical context of Trump-Xi meetings and Taiwan's lack of advance notice",
-          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focuses on questions this raises about Trump's commitment to Taiwan and regional security implications",
-          "url": "https://asia.nikkei.com/business/markets/japanese-stocks-hit-record-high-on-hopes-for-iran-resolution"
-        }
-      ]
-    },
-    {
-      "headline": "US Raises Military Threat Against Cuba as Rubio Says Diplomacy 'Not High' Priority",
-      "category": "Geopolitics",
-      "bullets": [
-        "Secretary of State Marco Rubio declared Cuba a 'national security threat' due to ties with Russia and China, and said the likelihood of diplomatic resolution is 'not high'",
-        "The statements follow this week's US indictment of former Cuban President Ra\u00fal Castro on murder charges related to the 1996 downing of two civilian aircraft",
-        "Cuba is experiencing severe fuel shortages exacerbated by an effective US oil blockade, with extended blackouts and food shortages reported",
-        "Cuban Foreign Minister Bruno Rodr\u00edguez accused Rubio of 'lies' and attempting to 'instigate a military aggression'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provides balanced coverage of both US and Cuban government positions",
-          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasizes the 'regime change' framing and impact of US pressure on Cuban civilians",
-          "url": "https://www.aljazeera.com/sports/2026/5/22/two-time-nascar-champ-kyle-busch-dies-at-41-after-severe-illness?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Air France and Airbus Found Guilty of Manslaughter in 2009 Crash That Killed 228",
+      "headline": "China Coal Mine Explosion Kills at Least 90 in Deadliest Disaster Since 2009",
       "category": "Society",
       "bullets": [
-        "A Paris appeals court overturned a 2023 acquittal and found both companies 'solely and entirely responsible' for the AF447 crash that killed all 228 people aboard",
-        "Flight AF447 from Rio de Janeiro to Paris stalled during a storm and plunged into the Atlantic Ocean on June 1, 2009",
-        "Both companies were fined the maximum \u20ac225,000 each for corporate manslaughter; victims' families criticized the amount as a token penalty",
-        "Air France and Airbus denied criminal liability and announced they will appeal the verdict"
+        "Gas explosion occurred at 7:29 PM local time Friday at the Liushenyu coal mine in Shanxi province, with 247 workers underground at the time",
+        "At least 90 confirmed dead, nine still missing as of Saturday morning; more than 100 hospitalized and 345 rescue personnel deployed",
+        "President Xi Jinping ordered 'all-out efforts' to treat injured and called for thorough investigation; mine executives have been detained",
+        "Carbon monoxide levels were found to have 'exceeded limits' prior to the blast; it is China's worst mining disaster since 108 died in Heilongjiang in 2009"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Comprehensive coverage of verdict and victim family reactions",
-          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasizes the legal history and the overturning of the previous acquittal",
-          "url": "https://www.rfi.fr/en/france/20260521-french-court-to-rule-on-air-france-and-airbus-appeal-over-2009-rio-paris-crash"
-        }
-      ]
-    },
-    {
-      "headline": "Alberta to Hold October Referendum on Beginning Process Toward Separation from Canada",
-      "category": "Policy",
-      "bullets": [
-        "Premier Danielle Smith announced Alberta will hold a referendum on October 19 asking whether the province should commence the constitutional process for a binding vote on separation",
-        "The referendum follows citizen petitions gathering over 300,000 signatures for separation and over 400,000 for remaining in Canada",
-        "Smith stated she personally supports Alberta remaining in Canada and this is also her government's position",
-        "Opinion polls suggest a majority of Albertans would vote against separating; the vote would not directly decide independence but whether to pursue a future binding referendum"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Frames as first significant test of Canadian unity in decades",
-          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized Xi's call for accountability and historical context of China's mining safety improvements",
+          "url": "https://www.bbc.com/news/articles/cr7p30m1dn1o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasizes the careful, multi-step nature of the process Smith has chosen",
-          "url": "https://www.france24.com/en/middle-east/20260522-middle-east-live-nato-allies-to-sound-out-us-top-diplomat-after-trump-iran-ire"
+          "framing_note": "Provided similar factual coverage with details on rescue operations",
+          "url": "https://www.france24.com/en/africa/20260523-senegal-s-president-sacks-pm-after-months-of-tensions"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted poor safety standards and corruption as systemic issues in Chinese mining",
+          "url": "https://www.aljazeera.com/sports/2026/5/23/gilgeous-alexander-leads-thunder-past-spurs-for-2-1-nba-playoff-lead?traffic_source=rss"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Focused on rescue operations and government response",
+          "url": "https://www.abc.net.au/news/2026-05-23/nazi-art-charges-dropped/106714408"
         }
       ]
     },
     {
-      "headline": "India Postpones Africa Summit Over Ebola Outbreak as US Response Draws Criticism",
+      "headline": "WHO Raises Ebola Risk to 'Very High' in DRC as Cases Triple in One Week",
       "category": "Climate",
       "bullets": [
-        "The India-Africa Forum Summit scheduled for May 28-31 in Delhi was cancelled due to the Ebola outbreak in the Democratic Republic of Congo and Uganda",
-        "WHO has declared the outbreak a public health emergency of international concern, with 600 suspected cases and 139 suspected deaths reported",
-        "The outbreak involves a rare Bundibugyo strain of Ebola for which no vaccine exists, centered in a conflict-affected area",
-        "Critics including Africa CDC warned that the US travel ban on people from DRC, Uganda, and South Sudan could worsen the situation by pushing movement toward unmonitored routes"
+        "Suspected cases jumped from 246 to 750 and deaths from 65 to 177 in one week; outbreak involves rare Bundibugyo strain with no approved vaccine or treatment",
+        "WHO raised DRC risk assessment from 'high' to 'very high'; regional risk rated 'high' but global risk remains 'low'",
+        "Medical facility in Rwampara, Ituri province, was attacked and set on fire Thursday by crowd angry over burial protocols, hampering response efforts",
+        "Oxford University developing vaccine using AstraZeneca Covid technology that could be ready for clinical trials in 2-3 months; US travel ban on DRC, Uganda, South Sudan criticized by Africa CDC"
       ],
       "sources": [
         {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized US public health cuts and USAID dismantling as factors limiting response capacity",
+          "url": "https://www.theguardian.com/world/2026/may/20/ebola-outbreak-us-doctor-germany"
+        },
+        {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focuses on the summit cancellation and WHO declaration",
-          "url": "https://www.bbc.com/news/articles/cp8p1l7gp1po?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on vaccine development efforts and WHO risk assessment upgrade",
+          "url": "https://www.bbc.com/news/articles/cr7p30m1dn1o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasizes US public health cuts and criticism of inadequate American response",
-          "url": "https://www.theguardian.com/us-news/2026/may/19/marco-rubio-who-ebola"
+          "framing_note": "Criticized US travel ban as potentially counterproductive; highlighted 'structural injustice in global health innovation'",
+          "url": "https://www.theguardian.com/world/2026/may/20/ebola-outbreak-us-doctor-germany"
+        }
+      ]
+    },
+    {
+      "headline": "US-Iran Peace Talks at Critical Juncture as Pakistan Mediates and Trump Weighs New Strikes",
+      "category": "Geopolitics",
+      "bullets": [
+        "Pakistan Army Chief Asim Munir held talks with Iranian Foreign Minister Abbas Araqchi in Tehran Friday as mediation efforts intensify",
+        "Iran accused US of 'excessive demands' while describing gaps in negotiations as 'deep and significant'",
+        "President Trump convened senior national security team Friday and is 'seriously considering' new strikes if negotiations fail",
+        "Trump changed plans to skip son's wedding to remain in Washington due to 'circumstances pertaining to government,' fueling speculation about sensitive developments"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Presented balanced liveblog coverage noting EU sanctions discussions",
+          "url": "https://www.france24.com/en/africa/20260523-senegal-s-president-sacks-pm-after-months-of-tensions"
         },
         {
-          "name": "RFI English",
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Detailed Pakistani mediation role and Qatari involvement",
+          "url": "https://www.thehindu.com/news/international/trump-seriously-considering-launching-new-strikes-against-iran-report/article71013391.ece"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Article paywalled but headline emphasized Pakistan's push for deal",
+          "url": "https://www.ft.com/content/f4da6ec3-c56b-4b0b-b8a1-62ca7b0e6bed"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Iranian position that stopping war 'on all fronts' is precondition for talks",
+          "url": "https://www.aljazeera.com/sports/2026/5/23/gilgeous-alexander-leads-thunder-past-spurs-for-2-1-nba-playoff-lead?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Rubio Begins India Visit to Strengthen Ties After Trump-Xi Summit",
+      "category": "Geopolitics",
+      "bullets": [
+        "Secretary of State Marco Rubio arrived in India Saturday for four-day, four-city visit including Kolkata, New Delhi, Agra, and Jaipur",
+        "Visit begins one week after Trump's 'warm summit' with Chinese leader Xi Jinping; aimed at reassuring key strategic partner",
+        "Rubio visited Mother Teresa's Missionaries of Charity headquarters in Kolkata before flying to New Delhi for meetings with PM Modi",
+        "Visit includes Quad Foreign Ministers' summit and energy talks amid concerns over Strait of Hormuz closure affecting Indian energy security"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Notes the UN General Assembly climate vote in same period, contextualizing international cooperation challenges",
-          "url": "https://www.rfi.fr/en/france/20260521-french-court-to-rule-on-air-france-and-airbus-appeal-over-2009-rio-paris-crash"
+          "framing_note": "Emphasized visit as effort to renew ties with 'usually like-minded partner' after China engagement",
+          "url": "https://www.france24.com/en/africa/20260523-senegal-s-president-sacks-pm-after-months-of-tensions"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Focused on energy security implications and Quad summit significance",
+          "url": "https://www.thehindu.com/news/international/trump-seriously-considering-launching-new-strikes-against-iran-report/article71013391.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Senegal President Sacks Prime Minister Sonko Amid Political Crisis",
+      "category": "Geopolitics",
+      "bullets": [
+        "President Bassirou Diomaye Faye dismissed Prime Minister Ousmane Sonko and dissolved entire government Friday via decree on state television",
+        "Sonko responded on Facebook saying he would 'sleep soundly' and was greeted by hundreds of supporters at his home after midnight",
+        "Unusual political situation: Faye owes presidency largely to Sonko, who was barred from running due to defamation conviction",
+        "Their Pastef party won 2024 elections promising political reform in the debt-laden West African nation; relationship has soured in recent months"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Provided detailed context on the unusual political dynamic between the two leaders",
+          "url": "https://www.france24.com/en/africa/20260523-senegal-s-president-sacks-pm-after-months-of-tensions"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Trump announces 5,000 additional US troops for Poland, reversing course after Pentagon cancelled earlier deployment",
-      "source": "BBC Europe",
+      "headline": "SpaceX successfully launches Starship V3, largest rocket in history, deploying 20 dummy satellites before Indian Ocean splashdown",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c62d65y16nno"
+    },
+    {
+      "headline": "Putin vows retaliation after accusing Ukraine of deadly strike on student dormitory in occupied Luhansk; Ukraine says it hit military drone unit",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c5y74lwx395o"
+    },
+    {
+      "headline": "Rubio attempts to reassure NATO allies over confusing US troop deployment announcements after Trump says 5,000 troops will go to Poland",
+      "source": "BBC World",
       "url": "https://www.bbc.com/news/articles/cedpz9669deo"
     },
     {
-      "headline": "Hundreds of Greenlanders protest outside new US consulate in Nuuk against Trump's territorial ambitions",
+      "headline": "Turkish opposition leader vows to fight court ruling removing him and fellow party leaders in move that strengthens Erdo\u011fan's power",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cwy2gxvnq1zo"
+      "url": "https://www.bbc.com/news/articles/c62egj12026o"
     },
     {
-      "headline": "Macron says France must address reparations for its role in transatlantic slave trade, breaking historic taboo",
+      "headline": "US announces Green Card applicants must now return to home countries to apply, affecting Indian and other immigrants",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/us-green-card-seekers-must-now-apply-from-home-countries/article71013432.ece"
+    },
+    {
+      "headline": "Tulsi Gabbard resigns as Director of National Intelligence, citing husband's cancer diagnosis",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-tulsi-gabbard-resigns-as-trumps-director-of-national-intelligence/"
+    },
+    {
+      "headline": "Macron says France must address reparations for its role in slave trade, breaking historic taboo but stopping short of concrete proposals",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/news/2026/may/21/macron-pressure-reparatory-justice-france-slave-trade-legacies-enslavement"
     },
     {
-      "headline": "Stephen Colbert's Late Show ends after CBS cancellation amid Trump administration pressure",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/culture/20260522-late-show-host-colbert-bows-out-with-a-little-help-from-paul-mccartney-trump-exults"
+      "headline": "Poll predicts One Nation would become Australia's federal opposition if election held today, potentially wiping out Coalition",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-05-23/poll-predicts-one-nation-federal-opposition/106714586"
     },
     {
-      "headline": "Japanese stocks hit record high on optimism over potential US-Iran peace deal",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/japanese-stocks-hit-record-high-on-hopes-for-iran-resolution"
-    },
-    {
-      "headline": "Ukraine's drone campaign causes repeated airspace incursions in Baltic states, triggering NATO scrambles and political tensions",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cp3pzg491ypo"
-    },
-    {
-      "headline": "US froze joint defense board with Canada over lack of detailed military spending plan, Pentagon official confirms",
+      "headline": "India reeling under severe heat waves with temperatures above 46\u00b0C as hospitals report rise in heat-related illnesses",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-joint-defence-board-military-spending-pentagon-official/"
+      "url": "https://www.theglobeandmail.com/world/article-india-heat-waves-temperatures-new-delhi/"
     },
     {
-      "headline": "House Republicans delay vote on war powers resolution that would compel Trump withdrawal from Iran conflict",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-iran-war-resolution-vote-trump-gop/"
-    },
-    {
-      "headline": "UN General Assembly passes resolution endorsing ICJ opinion on states' legal obligations to combat climate change",
+      "headline": "Olympique Lyonnais and Barcelona meet in Women's Champions League final in Oslo, with Lyon seeking record-extending ninth title",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20260521-un-backs-stronger-climate-obligations-following-landmark-court-ruling-icj"
-    },
-    {
-      "headline": "NASCAR champion Kyle Busch dies at 41 after severe illness, three days before scheduled Coca-Cola 600 race",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/5/22/two-time-nascar-champ-kyle-busch-dies-at-41-after-severe-illness"
+      "url": "https://www.rfi.fr/en/sports/20260523-olympique-lyonnes-and-barcelona-vie-for-women-s-champions-league-glory"
     }
   ]
 }
