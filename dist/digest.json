@@ -1,202 +1,202 @@
 {
-  "date": "Saturday, May 23, 2026",
-  "daily_brief": "The deadliest mining disaster in China in 17 years dominated headlines today as a gas explosion at the Liushenyu coal mine in Shanxi province killed at least 90 workers, with nine still missing [BBC World, France 24, Al Jazeera, ABC Australia]. The WHO raised its risk assessment for the Ebola outbreak in the Democratic Republic of Congo to 'very high' as suspected cases tripled to 750 with 177 deaths, prompting Oxford University to accelerate vaccine development [The Guardian, BBC World]. Diplomatic efforts to broker a US-Iran peace deal intensified as Pakistan's army chief Asim Munir held talks in Tehran, though Iranian officials cited 'excessive demands' from Washington and US media reported President Trump is 'seriously considering' new strikes [France 24, The Hindu, Financial Times]. Secretary of State Marco Rubio arrived in India for a four-day visit including Quad talks, seeking to reinforce ties following Trump's recent summit with China [France 24, The Hindu]. In Africa, Senegal's President Bassirou Diomaye Faye sacked Prime Minister Ousmane Sonko, deepening political crisis in the debt-laden nation [France 24], while SpaceX successfully launched its massive Starship V3 rocket, deploying 20 dummy satellites before a planned splashdown in the Indian Ocean [BBC World, Le Monde].",
+  "date": "Sunday, May 24, 2026",
+  "daily_brief": "Sunday saw major developments across multiple fronts. In Washington, a gunman was killed by Secret Service agents after opening fire near the White House; President Trump was unharmed but the incident marks the third shooting near him in a month [BBC, France 24, Globe and Mail]. The US-Iran diplomatic track appears close to resolution, with Secretary of State Rubio indicating an announcement could come within hours, though Tehran disputes reports it has agreed to surrender enriched uranium stockpiles [France 24, Le Monde]. In Ukraine, Russia launched its largest strike on Kyiv in months, killing at least four and injuring over 80, with President Zelensky confirming the use of an Oreshnik hypersonic missile; the attack followed Putin's vow of retaliation for a strike on a dormitory in occupied Luhansk [BBC, France 24]. China's deadliest mining disaster since 2009 claimed at least 82 lives in Shanxi province after a gas explosion [BBC]. Meanwhile, the DRC's Ebola outbreak is accelerating rapidly, with suspected cases nearly tripling in a week to 750, prompting the WHO to raise its risk assessment and the Trump administration to pause deportations to the country [Guardian, Al Jazeera, WHO].",
   "top_stories": [
     {
-      "headline": "China Coal Mine Explosion Kills at Least 90 in Deadliest Disaster Since 2009",
-      "category": "Society",
+      "headline": "Gunman Killed by Secret Service After Opening Fire Near White House",
+      "category": "Conflict",
       "bullets": [
-        "Gas explosion occurred at 7:29 PM local time Friday at the Liushenyu coal mine in Shanxi province, with 247 workers underground at the time",
-        "At least 90 confirmed dead, nine still missing as of Saturday morning; more than 100 hospitalized and 345 rescue personnel deployed",
-        "President Xi Jinping ordered 'all-out efforts' to treat injured and called for thorough investigation; mine executives have been detained",
-        "Carbon monoxide levels were found to have 'exceeded limits' prior to the blast; it is China's worst mining disaster since 108 died in Heilongjiang in 2009"
+        "A 21-year-old man identified as Nasire Best opened fire at a White House checkpoint at approximately 6pm local time on Saturday before being shot and killed by Secret Service agents",
+        "One bystander was wounded; no Secret Service officers were injured; President Trump was inside the White House but was not affected",
+        "The suspect was known to the Secret Service and had documented mental health issues; Trump stated the gunman had a 'violent history'",
+        "This marks the third shooting incident near President Trump in the past month, following incidents at the White House Correspondents' Dinner and near the Washington Monument"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Xi's call for accountability and historical context of China's mining safety improvements",
-          "url": "https://www.bbc.com/news/articles/cr7p30m1dn1o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized the suspect's mental health history and prior incidents",
+          "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Provided similar factual coverage with details on rescue operations",
-          "url": "https://www.france24.com/en/africa/20260523-senegal-s-president-sacks-pm-after-months-of-tensions"
+          "framing_note": "Focused on the timing amid Iran negotiations",
+          "url": "https://www.france24.com/en/europe/20260524-russian-ballistic-missile-attack-hits-kyiv-after-moscow-vows-retaliation"
         },
         {
-          "name": "Al Jazeera",
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted this as third shooting near Trump in a month",
+          "url": "https://www.theglobeandmail.com/world/article-with-fewer-barriers-to-entry-military-enlistment-is-higher-than-its/"
+        },
+        {
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Highlighted poor safety standards and corruption as systemic issues in Chinese mining",
-          "url": "https://www.aljazeera.com/sports/2026/5/23/gilgeous-alexander-leads-thunder-past-spurs-for-2-1-nba-playoff-lead?traffic_source=rss"
+          "framing_note": "Content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/23/cubans-on-the-specter-of-us-intervention-on-what-grounds-would-a-foreign-government-have-the-right-to-decide-for-us_6753760_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Launches Massive Missile and Drone Attack on Kyiv, Confirms Use of Oreshnik Hypersonic Missile",
+      "category": "Conflict",
+      "bullets": [
+        "Russia struck Kyiv with approximately 600 drones and 90 missiles overnight Sunday, killing at least four people and injuring more than 80",
+        "President Zelensky confirmed Russia used the nuclear-capable Oreshnik intermediate-range hypersonic ballistic missile in the strikes",
+        "Mayor Klitschko reported damage across all districts of Kyiv including residential buildings, schools, and historic Independence Square",
+        "The attack followed Putin's vow to retaliate after accusing Ukraine of striking a student dormitory in Starobilsk, Luhansk, killing 21 people on Friday"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provided detailed context on the Starobilsk strike dispute and Russian accusations",
+          "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Led with casualty figures and Oreshnik confirmation",
+          "url": "https://www.france24.com/en/europe/20260524-russian-ballistic-missile-attack-hits-kyiv-after-moscow-vows-retaliation"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/23/cubans-on-the-specter-of-us-intervention-on-what-grounds-would-a-foreign-government-have-the-right-to-decide-for-us_6753760_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "At Least 82 Dead in China's Worst Coal Mine Disaster Since 2009",
+      "category": "Society",
+      "bullets": [
+        "A gas explosion at the Liushenyu Coal Mine in Shanxi province killed at least 82 workers, with 2 still missing",
+        "247 workers were on duty when the blast occurred at 7:29pm local time Friday; over 100 were rescued",
+        "128 people remain hospitalized, most suffering from inhaling poisonous gas, with two in critical condition",
+        "President Xi Jinping ordered maximum rescue efforts; the state council announced a 'rigorous' investigation with those responsible to be 'severely punished'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Noted confusion over initial death toll figures and deployed mine inspection robots",
+          "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "US-Iran Deal Reported Near Completion as Rubio Signals Imminent Announcement",
+      "category": "Geopolitics",
+      "bullets": [
+        "Secretary of State Rubio stated an announcement on Iran was possible 'in the next few hours' while speaking in New Delhi",
+        "A potential deal reportedly includes restoration of Strait of Hormuz shipping traffic to pre-war levels within 30 days",
+        "US media reported the deal would include Iran handing over highly enriched uranium stockpiles, but an Iranian source denied any such agreement",
+        "Trump cited the Iran negotiations as reason for remaining in Washington and missing his son's wedding in the Bahamas"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Detailed both US and Iranian positions, noted Iranian denial of uranium handover",
+          "url": "https://www.france24.com/en/europe/20260524-russian-ballistic-missile-attack-hits-kyiv-after-moscow-vows-retaliation"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Content unavailable but headline referenced deal as 'largely negotiated'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/23/cubans-on-the-specter-of-us-intervention-on-what-grounds-would-a-foreign-government-have-the-right-to-decide-for-us_6753760_4.html"
         },
         {
           "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Focused on rescue operations and government response",
-          "url": "https://www.abc.net.au/news/2026-05-23/nazi-art-charges-dropped/106714408"
+          "framing_note": "Focused on Trump missing his son's wedding due to negotiations",
+          "url": "https://www.abc.net.au/news/2026-05-24/nt-search-missing-person-marius-arnhem-land-yirrkala/106715938"
         }
       ]
     },
     {
-      "headline": "WHO Raises Ebola Risk to 'Very High' in DRC as Cases Triple in One Week",
-      "category": "Climate",
+      "headline": "Ebola Outbreak Accelerates in DRC as WHO Raises Risk Assessment",
+      "category": "Society",
       "bullets": [
-        "Suspected cases jumped from 246 to 750 and deaths from 65 to 177 in one week; outbreak involves rare Bundibugyo strain with no approved vaccine or treatment",
-        "WHO raised DRC risk assessment from 'high' to 'very high'; regional risk rated 'high' but global risk remains 'low'",
-        "Medical facility in Rwampara, Ituri province, was attacked and set on fire Thursday by crowd angry over burial protocols, hampering response efforts",
-        "Oxford University developing vaccine using AstraZeneca Covid technology that could be ready for clinical trials in 2-3 months; US travel ban on DRC, Uganda, South Sudan criticized by Africa CDC"
+        "Suspected Ebola cases in the Democratic Republic of Congo have nearly tripled in one week to approximately 750, with 177 suspected deaths",
+        "The WHO raised its risk assessment for DRC to 'very high' and warned the outbreak is spreading rapidly across multiple areas",
+        "Health facilities have come under attack from residents angry about Ebola burial protocols, with a treatment center in Rwampara stormed and tents set on fire in Mongbwalu",
+        "The Trump administration announced a temporary pause on deportations to DRC due to the outbreak, though one deportee remains stranded in Kinshasa"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasized US public health cuts and USAID dismantling as factors limiting response capacity",
-          "url": "https://www.theguardian.com/world/2026/may/20/ebola-outbreak-us-doctor-germany"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on vaccine development efforts and WHO risk assessment upgrade",
-          "url": "https://www.bbc.com/news/articles/cr7p30m1dn1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Criticized US travel ban as potentially counterproductive; highlighted 'structural injustice in global health innovation'",
-          "url": "https://www.theguardian.com/world/2026/may/20/ebola-outbreak-us-doctor-germany"
-        }
-      ]
-    },
-    {
-      "headline": "US-Iran Peace Talks at Critical Juncture as Pakistan Mediates and Trump Weighs New Strikes",
-      "category": "Geopolitics",
-      "bullets": [
-        "Pakistan Army Chief Asim Munir held talks with Iranian Foreign Minister Abbas Araqchi in Tehran Friday as mediation efforts intensify",
-        "Iran accused US of 'excessive demands' while describing gaps in negotiations as 'deep and significant'",
-        "President Trump convened senior national security team Friday and is 'seriously considering' new strikes if negotiations fail",
-        "Trump changed plans to skip son's wedding to remain in Washington due to 'circumstances pertaining to government,' fueling speculation about sensitive developments"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Presented balanced liveblog coverage noting EU sanctions discussions",
-          "url": "https://www.france24.com/en/africa/20260523-senegal-s-president-sacks-pm-after-months-of-tensions"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Detailed Pakistani mediation role and Qatari involvement",
-          "url": "https://www.thehindu.com/news/international/trump-seriously-considering-launching-new-strikes-against-iran-report/article71013391.ece"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Article paywalled but headline emphasized Pakistan's push for deal",
-          "url": "https://www.ft.com/content/f4da6ec3-c56b-4b0b-b8a1-62ca7b0e6bed"
+          "framing_note": "Emphasized healthcare system strain and deportation policy implications",
+          "url": "https://www.theguardian.com/global-development/2026/may/22/suspected-ebola-cases-triple-in-a-week-as-who-warns-of-rapid-spread-in-drc"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Iranian position that stopping war 'on all fronts' is precondition for talks",
-          "url": "https://www.aljazeera.com/sports/2026/5/23/gilgeous-alexander-leads-thunder-past-spurs-for-2-1-nba-playoff-lead?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Rubio Begins India Visit to Strengthen Ties After Trump-Xi Summit",
-      "category": "Geopolitics",
-      "bullets": [
-        "Secretary of State Marco Rubio arrived in India Saturday for four-day, four-city visit including Kolkata, New Delhi, Agra, and Jaipur",
-        "Visit begins one week after Trump's 'warm summit' with Chinese leader Xi Jinping; aimed at reassuring key strategic partner",
-        "Rubio visited Mother Teresa's Missionaries of Charity headquarters in Kolkata before flying to New Delhi for meetings with PM Modi",
-        "Visit includes Quad Foreign Ministers' summit and energy talks amid concerns over Strait of Hormuz closure affecting Indian energy security"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized visit as effort to renew ties with 'usually like-minded partner' after China engagement",
-          "url": "https://www.france24.com/en/africa/20260523-senegal-s-president-sacks-pm-after-months-of-tensions"
+          "framing_note": "Focused on attacks against health workers and community mistrust",
+          "url": "https://www.aljazeera.com/news/2026/5/24/want-equal-respect-pakistan-females-galloping-to-glory-in-tent-pegging?traffic_source=rss"
         },
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Focused on energy security implications and Quad summit significance",
-          "url": "https://www.thehindu.com/news/international/trump-seriously-considering-launching-new-strikes-against-iran-report/article71013391.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Senegal President Sacks Prime Minister Sonko Amid Political Crisis",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Bassirou Diomaye Faye dismissed Prime Minister Ousmane Sonko and dissolved entire government Friday via decree on state television",
-        "Sonko responded on Facebook saying he would 'sleep soundly' and was greeted by hundreds of supporters at his home after midnight",
-        "Unusual political situation: Faye owes presidency largely to Sonko, who was barred from running due to defamation conviction",
-        "Their Pastef party won 2024 elections promising political reform in the debt-laden West African nation; relationship has soured in recent months"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Provided detailed context on the unusual political dynamic between the two leaders",
-          "url": "https://www.france24.com/en/africa/20260523-senegal-s-president-sacks-pm-after-months-of-tensions"
+          "name": "WHO via Guardian",
+          "lean": "N/A",
+          "framing_note": "Official risk assessment upgrade",
+          "url": "#"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "SpaceX successfully launches Starship V3, largest rocket in history, deploying 20 dummy satellites before Indian Ocean splashdown",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c62d65y16nno"
+      "headline": "Romanian director Cristian Mungiu wins second Cannes Palme d'Or for polarization drama 'Fjord'",
+      "source": "RFI English, Globe and Mail",
+      "url": "https://www.rfi.fr/en/culture/20260524-romanian-director-wins-palme-d-or-at-emotional-cannes-ceremony"
     },
     {
-      "headline": "Putin vows retaliation after accusing Ukraine of deadly strike on student dormitory in occupied Luhansk; Ukraine says it hit military drone unit",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c5y74lwx395o"
+      "headline": "California declares emergency as crews race to prevent explosion of overheating chemical tank in Orange County",
+      "source": "BBC World, RNZ",
+      "url": "https://www.bbc.com/news/articles/c3w2l249j8go"
     },
     {
-      "headline": "Rubio attempts to reassure NATO allies over confusing US troop deployment announcements after Trump says 5,000 troops will go to Poland",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cedpz9669deo"
+      "headline": "China to launch astronaut on year-long space station mission as it accelerates moon landing timeline",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-china-to-send-astronaut-on-year-long-space-mission-as-it-targets-2030/"
     },
     {
-      "headline": "Turkish opposition leader vows to fight court ruling removing him and fellow party leaders in move that strengthens Erdo\u011fan's power",
+      "headline": "France bans Israeli minister Ben-Gvir over treatment of detained Gaza flotilla activists",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260523-france-bars-israeli-minister-itamar-ben-gvir-over-gaza-flotilla-activists"
+    },
+    {
+      "headline": "Turkey hosts joint military exercises with both Libyan factions in bid to unify country's forces",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/podcasts/international-report/20260523-turkey-courts-libya-s-rival-factions-in-bid-to-further-mediterranean-ambitions"
+    },
+    {
+      "headline": "Turkish appeals court nullifies opposition CHP leadership election in ruling seen as boosting Erdo\u011fan",
       "source": "BBC Europe",
       "url": "https://www.bbc.com/news/articles/c62egj12026o"
     },
     {
-      "headline": "US announces Green Card applicants must now return to home countries to apply, affecting Indian and other immigrants",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/us-green-card-seekers-must-now-apply-from-home-countries/article71013432.ece"
+      "headline": "Over 1.5 million foreign pilgrims arrive in Saudi Arabia for hajj despite Middle East conflict disruptions",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260524-despite-middle-east-war-foreign-pilgrims-flock-to-mecca-for-hajj"
     },
     {
-      "headline": "Tulsi Gabbard resigns as Director of National Intelligence, citing husband's cancer diagnosis",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-tulsi-gabbard-resigns-as-trumps-director-of-national-intelligence/"
+      "headline": "Bomb blast near railway track in Quetta, Pakistan injures more than 30 passengers",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/transportation/pakistan-train-blast-in-quetta-injures-more-than-30"
     },
     {
-      "headline": "Macron says France must address reparations for its role in slave trade, breaking historic taboo but stopping short of concrete proposals",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/news/2026/may/21/macron-pressure-reparatory-justice-france-slave-trade-legacies-enslavement"
-    },
-    {
-      "headline": "Poll predicts One Nation would become Australia's federal opposition if election held today, potentially wiping out Coalition",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-05-23/poll-predicts-one-nation-federal-opposition/106714586"
-    },
-    {
-      "headline": "India reeling under severe heat waves with temperatures above 46\u00b0C as hospitals report rise in heat-related illnesses",
+      "headline": "India reels under severe heat wave with temperatures exceeding 46\u00b0C across multiple states",
       "source": "Globe and Mail",
       "url": "https://www.theglobeandmail.com/world/article-india-heat-waves-temperatures-new-delhi/"
     },
     {
-      "headline": "Olympique Lyonnais and Barcelona meet in Women's Champions League final in Oslo, with Lyon seeking record-extending ninth title",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/sports/20260523-olympique-lyonnes-and-barcelona-vie-for-women-s-champions-league-glory"
+      "headline": "New York Knicks take commanding 3-0 lead over Cleveland Cavaliers in NBA Eastern Conference finals",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/5/24/knicks-beat-cavaliers-to-reach-brink-of-nba-finals"
     }
   ]
 }
