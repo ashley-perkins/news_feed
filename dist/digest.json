@@ -1,202 +1,220 @@
 {
-  "date": "Sunday, May 24, 2026",
-  "daily_brief": "Sunday saw major developments across multiple fronts. In Washington, a gunman was killed by Secret Service agents after opening fire near the White House; President Trump was unharmed but the incident marks the third shooting near him in a month [BBC, France 24, Globe and Mail]. The US-Iran diplomatic track appears close to resolution, with Secretary of State Rubio indicating an announcement could come within hours, though Tehran disputes reports it has agreed to surrender enriched uranium stockpiles [France 24, Le Monde]. In Ukraine, Russia launched its largest strike on Kyiv in months, killing at least four and injuring over 80, with President Zelensky confirming the use of an Oreshnik hypersonic missile; the attack followed Putin's vow of retaliation for a strike on a dormitory in occupied Luhansk [BBC, France 24]. China's deadliest mining disaster since 2009 claimed at least 82 lives in Shanxi province after a gas explosion [BBC]. Meanwhile, the DRC's Ebola outbreak is accelerating rapidly, with suspected cases nearly tripling in a week to 750, prompting the WHO to raise its risk assessment and the Trump administration to pause deportations to the country [Guardian, Al Jazeera, WHO].",
+  "date": "Monday, May 25, 2026",
+  "daily_brief": "Hopes for an end to the US-Israel war with Iran dominated markets and diplomacy today, with oil prices falling sharply as Secretary of State Marco Rubio indicated a deal could be announced imminently [BBC, Financial Times]. However, Iran's foreign ministry cautioned that an agreement 'is not imminent,' and President Trump urged negotiators not to rush [BBC, Le Monde]. The potential reopening of the Strait of Hormuz, closed since February, would significantly ease global energy pressures. Meanwhile, Russia launched one of its heaviest attacks on Ukraine since the invasion began, firing hundreds of drones and the nuclear-capable Oreshnik hypersonic missile at Kyiv, killing four and injuring approximately 100 [BBC, RFI]. In Turkey, riot police stormed the headquarters of the main opposition CHP party following a court ruling that ousted its leadership, deepening concerns about democratic erosion under President Erdo\u011fan [BBC, France 24]. The Ebola outbreak in the Democratic Republic of Congo continues to escalate rapidly, with suspected cases now exceeding 900 and the WHO warning of severe impediments to containment due to ongoing conflict in Ituri province [Guardian, RFI, RNZ]. Asian markets rallied on Iran deal optimism, with Japan's Topix reaching an all-time high [Nikkei Asia].",
   "top_stories": [
     {
-      "headline": "Gunman Killed by Secret Service After Opening Fire Near White House",
-      "category": "Conflict",
-      "bullets": [
-        "A 21-year-old man identified as Nasire Best opened fire at a White House checkpoint at approximately 6pm local time on Saturday before being shot and killed by Secret Service agents",
-        "One bystander was wounded; no Secret Service officers were injured; President Trump was inside the White House but was not affected",
-        "The suspect was known to the Secret Service and had documented mental health issues; Trump stated the gunman had a 'violent history'",
-        "This marks the third shooting incident near President Trump in the past month, following incidents at the White House Correspondents' Dinner and near the Washington Monument"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized the suspect's mental health history and prior incidents",
-          "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on the timing amid Iran negotiations",
-          "url": "https://www.france24.com/en/europe/20260524-russian-ballistic-missile-attack-hits-kyiv-after-moscow-vows-retaliation"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Highlighted this as third shooting near Trump in a month",
-          "url": "https://www.theglobeandmail.com/world/article-with-fewer-barriers-to-entry-military-enlistment-is-higher-than-its/"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Content unavailable due to technical issues",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/23/cubans-on-the-specter-of-us-intervention-on-what-grounds-would-a-foreign-government-have-the-right-to-decide-for-us_6753760_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Russia Launches Massive Missile and Drone Attack on Kyiv, Confirms Use of Oreshnik Hypersonic Missile",
-      "category": "Conflict",
-      "bullets": [
-        "Russia struck Kyiv with approximately 600 drones and 90 missiles overnight Sunday, killing at least four people and injuring more than 80",
-        "President Zelensky confirmed Russia used the nuclear-capable Oreshnik intermediate-range hypersonic ballistic missile in the strikes",
-        "Mayor Klitschko reported damage across all districts of Kyiv including residential buildings, schools, and historic Independence Square",
-        "The attack followed Putin's vow to retaliate after accusing Ukraine of striking a student dormitory in Starobilsk, Luhansk, killing 21 people on Friday"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided detailed context on the Starobilsk strike dispute and Russian accusations",
-          "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Led with casualty figures and Oreshnik confirmation",
-          "url": "https://www.france24.com/en/europe/20260524-russian-ballistic-missile-attack-hits-kyiv-after-moscow-vows-retaliation"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Content unavailable due to technical issues",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/23/cubans-on-the-specter-of-us-intervention-on-what-grounds-would-a-foreign-government-have-the-right-to-decide-for-us_6753760_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "At Least 82 Dead in China's Worst Coal Mine Disaster Since 2009",
-      "category": "Society",
-      "bullets": [
-        "A gas explosion at the Liushenyu Coal Mine in Shanxi province killed at least 82 workers, with 2 still missing",
-        "247 workers were on duty when the blast occurred at 7:29pm local time Friday; over 100 were rescued",
-        "128 people remain hospitalized, most suffering from inhaling poisonous gas, with two in critical condition",
-        "President Xi Jinping ordered maximum rescue efforts; the state council announced a 'rigorous' investigation with those responsible to be 'severely punished'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Noted confusion over initial death toll figures and deployed mine inspection robots",
-          "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "US-Iran Deal Reported Near Completion as Rubio Signals Imminent Announcement",
+      "headline": "US-Iran Peace Deal Talks Intensify as Oil Prices Slide, but Tehran Cautions Agreement Not Imminent",
       "category": "Geopolitics",
       "bullets": [
-        "Secretary of State Rubio stated an announcement on Iran was possible 'in the next few hours' while speaking in New Delhi",
-        "A potential deal reportedly includes restoration of Strait of Hormuz shipping traffic to pre-war levels within 30 days",
-        "US media reported the deal would include Iran handing over highly enriched uranium stockpiles, but an Iranian source denied any such agreement",
-        "Trump cited the Iran negotiations as reason for remaining in Washington and missing his son's wedding in the Bahamas"
+        "US Secretary of State Marco Rubio stated from New Delhi that negotiators have a 'pretty solid thing on the table' and an agreement could be reached Monday, while President Trump said he instructed negotiators 'not to rush into' a deal",
+        "Iran's foreign ministry confirmed progress on 'a large portion of the issues' but stated no one can claim an agreement is imminent; reports indicate Supreme Leader Mojtaba Khamenei's location is undisclosed, complicating communications",
+        "The proposed memorandum of understanding reportedly includes a 60-day ceasefire extension, reopening of the Strait of Hormuz, and further negotiations on Iran's nuclear program",
+        "Brent crude fell 5.5% to $97.90/barrel and US crude dropped 5.9% to $90.93 on Monday morning; Asian stock markets rose on the news"
       ],
       "sources": [
         {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed coverage of both US and Iranian positions, noted intelligence reports about Khamenei's location",
+          "url": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Detailed both US and Iranian positions, noted Iranian denial of uranium handover",
-          "url": "https://www.france24.com/en/europe/20260524-russian-ballistic-missile-attack-hits-kyiv-after-moscow-vows-retaliation"
+          "framing_note": "Focused on oil price movements and market reaction",
+          "url": "https://www.france24.com/en/donald-trump-slows-momentum-towards-an-iran-agreement"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Emphasized Rubio's warning that US would find 'another way' if talks fail",
+          "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Content unavailable but headline referenced deal as 'largely negotiated'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/23/cubans-on-the-specter-of-us-intervention-on-what-grounds-would-a-foreign-government-have-the-right-to-decide-for-us_6753760_4.html"
+          "framing_note": "Highlighted Trump tempering expectations",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/25/senegalese-president-fires-longtime-ally-ousmane-sonko-plunging-country-into-political-instability_6753785_4.html"
         },
         {
-          "name": "ABC Australia",
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Iran's position that negotiations concern ending war, not nuclear issues",
+          "url": "https://www.thehindu.com/news/international/truck-overturns-in-central-bangladesh-casualities/article71020161.ece"
+        },
+        {
+          "name": "Nikkei Asia",
           "lean": "Center",
-          "framing_note": "Focused on Trump missing his son's wedding due to negotiations",
-          "url": "https://www.abc.net.au/news/2026-05-24/nt-search-missing-person-marius-arnhem-land-yirrkala/106715938"
+          "framing_note": "Focused on market impacts including Japan stocks hitting all-time high",
+          "url": "https://asia.nikkei.com/business/energy/malaysia-japan-hydrogen-project-scales-back-due-to-funding-constraints"
         }
       ]
     },
     {
-      "headline": "Ebola Outbreak Accelerates in DRC as WHO Raises Risk Assessment",
+      "headline": "Russia Launches Massive Missile and Drone Barrage on Kyiv, Deploys Nuclear-Capable Oreshnik",
+      "category": "Conflict",
+      "bullets": [
+        "Russia fired hundreds of drones and dozens of missiles at Ukraine Saturday night, with Kyiv as the main target; four killed and approximately 100 injured",
+        "Russia's defense ministry confirmed use of the Oreshnik hypersonic missile, capable of carrying nuclear warheads, marking only the third use of this weapon system in the war",
+        "Damage reported at approximately 50 locations including residential buildings, schools, an opera house, and a museum across Kyiv",
+        "EU foreign policy chief Kaja Kallas called the Oreshnik use 'reckless nuclear brinkmanship' and announced EU diplomats would meet to discuss increasing pressure on Russia"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced coverage including Russia's claim the strikes responded to Ukrainian attacks on civilian infrastructure",
+          "url": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Additional coverage of Luhansk dormitory strike that Russia claims killed 21, which Ukraine denies targeting",
+          "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized European condemnation and nuclear implications of Oreshnik use",
+          "url": "https://www.rfi.fr/en/africa/20260524-juliana-lumumba-oif-i-want-a-francophonie-of-the-people"
+        }
+      ]
+    },
+    {
+      "headline": "Turkish Riot Police Storm Opposition Party Headquarters After Court Ousts Leadership",
       "category": "Society",
       "bullets": [
-        "Suspected Ebola cases in the Democratic Republic of Congo have nearly tripled in one week to approximately 750, with 177 suspected deaths",
-        "The WHO raised its risk assessment for DRC to 'very high' and warned the outbreak is spreading rapidly across multiple areas",
-        "Health facilities have come under attack from residents angry about Ebola burial protocols, with a treatment center in Rwampara stormed and tents set on fire in Mongbwalu",
-        "The Trump administration announced a temporary pause on deportations to DRC due to the outbreak, though one deportee remains stranded in Kinshasa"
+        "Turkish riot police used tear gas to force entry into Republican People's Party (CHP) headquarters in Ankara on Sunday after party members barricaded entrances",
+        "An appeals court ruling Thursday declared party leader \u00d6zg\u00fcr \u00d6zel's election null and void, ordering replacement by Kemal Kilicdaro\u011flu, who lost to Erdo\u011fan in 2023 presidential election",
+        "Ankara's governor ordered police to 'implement the court decision' after Kilicdaro\u011flu's representatives requested 'necessary procedures' to take control of headquarters",
+        "\u00d6zel declared 'We are under attack' via social media as security forces entered; clashes reported between supporters of both leaders"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Described move as 'further cementing President Erdo\u011fan's grip on power'",
+          "url": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief video coverage characterizing situation as 'political crisis'",
+          "url": "https://www.france24.com/en/donald-trump-slows-momentum-towards-an-iran-agreement"
+        }
+      ]
+    },
+    {
+      "headline": "DRC Ebola Outbreak Surpasses 900 Suspected Cases as Violence Impedes Response",
+      "category": "Climate",
+      "bullets": [
+        "WHO Director-General confirmed more than 900 suspected Ebola cases including 101 confirmed cases; DRC health ministry reported 204 deaths",
+        "Outbreak centered in Ituri province where nearly 5 million people live amid ongoing conflict; 1 in 4 need humanitarian assistance and 1 in 5 are internally displaced",
+        "Arson attacks destroyed two Ebola treatment centers last week, reflecting community distrust and anger in conflict-affected region",
+        "The outbreak involves the rarer Bundibugyo strain for which no approved vaccines or treatments exist; contact tracing and isolation are only proven containment methods"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasized healthcare system strain and deportation policy implications",
-          "url": "https://www.theguardian.com/global-development/2026/may/22/suspected-ebola-cases-triple-in-a-week-as-who-warns-of-rapid-spread-in-drc"
+          "framing_note": "Emphasized attacks on health workers and impact of aid cuts on vulnerable communities",
+          "url": "https://www.theguardian.com/world/2026/may/23/ebola-virus-spread-drc-democratic-republic-of-congo"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on WHO statements and surveillance scaling efforts",
+          "url": "https://www.rfi.fr/en/africa/20260524-juliana-lumumba-oif-i-want-a-francophonie-of-the-people"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Highlighted community fear, distrust, and the burning of health centers",
+          "url": "https://www.rnz.co.nz/news/world/596164/temperature-rising-in-chemical-tank-at-risk-of-exploding-in-california"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Focused on attacks against health workers and community mistrust",
-          "url": "https://www.aljazeera.com/news/2026/5/24/want-equal-respect-pakistan-females-galloping-to-glory-in-tent-pegging?traffic_source=rss"
-        },
+          "framing_note": "Questioned how the rare strain 'outran doctors'",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/timelapse-shows-hajj-pilgrims-performing-tawaf-in-mecca?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "NATO Allies Seek Clarity as US Announces Contradictory Troop Deployment Decisions",
+      "category": "Geopolitics",
+      "bullets": [
+        "President Trump announced 5,000 additional troops for Poland one week after cancelling a planned 4,000-troop deployment to the same country",
+        "Earlier this month, the US announced troops would be pulled out of Germany; some US forces are currently deployed to the Middle East for the Iran conflict",
+        "Secretary of State Rubio told NATO foreign ministers in Sweden that the US constantly reevaluates troop presence based on global commitments",
+        "Trump said the Poland decision was based on his relationship with Polish President Karol Nawrocki, whom he backed in last year's election"
+      ],
+      "sources": [
         {
-          "name": "WHO via Guardian",
-          "lean": "N/A",
-          "framing_note": "Official risk assessment upgrade",
-          "url": "#"
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Noted the announcements 'have caused confusion among allies' of the trans-Atlantic defense organization",
+          "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Romanian director Cristian Mungiu wins second Cannes Palme d'Or for polarization drama 'Fjord'",
-      "source": "RFI English, Globe and Mail",
-      "url": "https://www.rfi.fr/en/culture/20260524-romanian-director-wins-palme-d-or-at-emotional-cannes-ceremony"
+      "headline": "Israel military issues evacuation warnings to 10 Lebanon villages citing Hezbollah ceasefire violations",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/israel-military-issues-new-evacuation-warning-to-10-lebanon-villages/article71020141.ece"
     },
     {
-      "headline": "California declares emergency as crews race to prevent explosion of overheating chemical tank in Orange County",
-      "source": "BBC World, RNZ",
-      "url": "https://www.bbc.com/news/articles/c3w2l249j8go"
-    },
-    {
-      "headline": "China to launch astronaut on year-long space station mission as it accelerates moon landing timeline",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-china-to-send-astronaut-on-year-long-space-mission-as-it-targets-2030/"
-    },
-    {
-      "headline": "France bans Israeli minister Ben-Gvir over treatment of detained Gaza flotilla activists",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260523-france-bars-israeli-minister-itamar-ben-gvir-over-gaza-flotilla-activists"
-    },
-    {
-      "headline": "Turkey hosts joint military exercises with both Libyan factions in bid to unify country's forces",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/podcasts/international-report/20260523-turkey-courts-libya-s-rival-factions-in-bid-to-further-mediterranean-ambitions"
-    },
-    {
-      "headline": "Turkish appeals court nullifies opposition CHP leadership election in ruling seen as boosting Erdo\u011fan",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c62egj12026o"
-    },
-    {
-      "headline": "Over 1.5 million foreign pilgrims arrive in Saudi Arabia for hajj despite Middle East conflict disruptions",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260524-despite-middle-east-war-foreign-pilgrims-flock-to-mecca-for-hajj"
-    },
-    {
-      "headline": "Bomb blast near railway track in Quetta, Pakistan injures more than 30 passengers",
+      "headline": "Toyota to cut overseas production by 83,000 vehicles through November due to prolonged Strait of Hormuz blockade",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/transportation/pakistan-train-blast-in-quetta-injures-more-than-30"
+      "url": "https://asia.nikkei.com/business/automobiles/toyota-to-cut-more-production-abroad-due-to-iran-war"
     },
     {
-      "headline": "India reels under severe heat wave with temperatures exceeding 46\u00b0C across multiple states",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-india-heat-waves-temperatures-new-delhi/"
+      "headline": "Trump administration pauses deportations to DRC over Ebola but strands woman in Kinshasa despite judge's return order",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/may/23/white-house-pauses-detainee-removal-drc-ebola"
     },
     {
-      "headline": "New York Knicks take commanding 3-0 lead over Cleveland Cavaliers in NBA Eastern Conference finals",
+      "headline": "Pacific Ocean temperatures rising fast, raising 80% chance of El Ni\u00f1o by July with potential for rare 'super' event",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/environment/20260525-pacific-ocean-warming-fuels-fears-of-powerful-super-el-nino"
+    },
+    {
+      "headline": "SpaceX prepares for largest IPO in history as Musk's rocket company plans Nasdaq listing",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/5/24/knicks-beat-cavaliers-to-reach-brink-of-nba-finals"
+      "url": "https://www.aljazeera.com/news/2026/5/25/why-the-spacex-ipo-is-the-talk-of-wall-street-and-beyond"
+    },
+    {
+      "headline": "Messi substituted with apparent hamstring issue three weeks before Argentina's World Cup title defense begins",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/5/25/messi-at-the-world-cup-inter-miami-injury-update-substitution"
+    },
+    {
+      "headline": "Chemical tank heating up in California evacuation zone as 40,000 residents remain displaced",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/world/596164/temperature-rising-in-chemical-tank-at-risk-of-exploding-in-california"
+    },
+    {
+      "headline": "Senegalese president fires longtime ally Prime Minister Ousmane Sonko, triggering political instability",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/05/25/senegalese-president-fires-longtime-ally-ousmane-sonko-plunging-country-into-political-instability_6753785_4.html"
+    },
+    {
+      "headline": "Myanmar military launches renewed offensives to reclaim rare earth mining regions and border trade routes",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/myanmar-military-steps-up-fight-for-rare-earth-area-and-border-routes/article71020257.ece"
+    },
+    {
+      "headline": "Around 20 injured after man sprays unknown substance at Tokyo luxury mall ATM",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/around-20-injured-in-spraying-incident-in-tokyo-mall/article71020183.ece"
     }
   ]
 }
