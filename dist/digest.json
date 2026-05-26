@@ -1,220 +1,208 @@
 {
-  "date": "Monday, May 25, 2026",
-  "daily_brief": "Hopes for an end to the US-Israel war with Iran dominated markets and diplomacy today, with oil prices falling sharply as Secretary of State Marco Rubio indicated a deal could be announced imminently [BBC, Financial Times]. However, Iran's foreign ministry cautioned that an agreement 'is not imminent,' and President Trump urged negotiators not to rush [BBC, Le Monde]. The potential reopening of the Strait of Hormuz, closed since February, would significantly ease global energy pressures. Meanwhile, Russia launched one of its heaviest attacks on Ukraine since the invasion began, firing hundreds of drones and the nuclear-capable Oreshnik hypersonic missile at Kyiv, killing four and injuring approximately 100 [BBC, RFI]. In Turkey, riot police stormed the headquarters of the main opposition CHP party following a court ruling that ousted its leadership, deepening concerns about democratic erosion under President Erdo\u011fan [BBC, France 24]. The Ebola outbreak in the Democratic Republic of Congo continues to escalate rapidly, with suspected cases now exceeding 900 and the WHO warning of severe impediments to containment due to ongoing conflict in Ituri province [Guardian, RFI, RNZ]. Asian markets rallied on Iran deal optimism, with Japan's Topix reaching an all-time high [Nikkei Asia].",
+  "date": "Tuesday, May 26, 2026",
+  "daily_brief": "The fragile US-Iran ceasefire faces renewed strain after American forces struck missile sites and mine-laying boats in southern Iran, even as Iranian negotiators met with Qatari officials in Doha to advance peace talks [BBC, Reuters, Al Jazeera]. President Trump complicated the diplomatic picture by demanding that Saudi Arabia, Pakistan, Turkey, and others join the Abraham Accords as a condition of any final agreement [France 24]. Meanwhile, Russia escalated tensions with Ukraine by threatening 'systematic strikes' on Kyiv and urging foreign nationals to leave the capital, drawing sharp condemnation from Ukrainian and EU officials [BBC, Globe and Mail]. Europe contends with a dangerous 'heat dome' that pushed France to its hottest May day on record, with seven heat-related deaths reported and emergency measures being activated across the continent [RFI, France 24]. In a significant intervention on technology governance, Pope Leo XIV issued his first encyclical calling for AI to be 'disarmed,' warning of 'new digital slaveries' and urging governments to slow development while strengthening oversight [BBC, RFI]. The WHO warned that Ebola in the DRC is 'outpacing' response efforts, with attacks on treatment centers hampering containment as suspected cases surpass 900 [Guardian, WHO].",
   "top_stories": [
     {
-      "headline": "US-Iran Peace Deal Talks Intensify as Oil Prices Slide, but Tehran Cautions Agreement Not Imminent",
-      "category": "Geopolitics",
-      "bullets": [
-        "US Secretary of State Marco Rubio stated from New Delhi that negotiators have a 'pretty solid thing on the table' and an agreement could be reached Monday, while President Trump said he instructed negotiators 'not to rush into' a deal",
-        "Iran's foreign ministry confirmed progress on 'a large portion of the issues' but stated no one can claim an agreement is imminent; reports indicate Supreme Leader Mojtaba Khamenei's location is undisclosed, complicating communications",
-        "The proposed memorandum of understanding reportedly includes a 60-day ceasefire extension, reopening of the Strait of Hormuz, and further negotiations on Iran's nuclear program",
-        "Brent crude fell 5.5% to $97.90/barrel and US crude dropped 5.9% to $90.93 on Monday morning; Asian stock markets rose on the news"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of both US and Iranian positions, noted intelligence reports about Khamenei's location",
-          "url": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on oil price movements and market reaction",
-          "url": "https://www.france24.com/en/donald-trump-slows-momentum-towards-an-iran-agreement"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Emphasized Rubio's warning that US would find 'another way' if talks fail",
-          "url": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Trump tempering expectations",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/25/senegalese-president-fires-longtime-ally-ousmane-sonko-plunging-country-into-political-instability_6753785_4.html"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Iran's position that negotiations concern ending war, not nuclear issues",
-          "url": "https://www.thehindu.com/news/international/truck-overturns-in-central-bangladesh-casualities/article71020161.ece"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focused on market impacts including Japan stocks hitting all-time high",
-          "url": "https://asia.nikkei.com/business/energy/malaysia-japan-hydrogen-project-scales-back-due-to-funding-constraints"
-        }
-      ]
-    },
-    {
-      "headline": "Russia Launches Massive Missile and Drone Barrage on Kyiv, Deploys Nuclear-Capable Oreshnik",
+      "headline": "US Strikes Iranian Targets Near Hormuz Despite Ongoing Ceasefire Talks",
       "category": "Conflict",
       "bullets": [
-        "Russia fired hundreds of drones and dozens of missiles at Ukraine Saturday night, with Kyiv as the main target; four killed and approximately 100 injured",
-        "Russia's defense ministry confirmed use of the Oreshnik hypersonic missile, capable of carrying nuclear warheads, marking only the third use of this weapon system in the war",
-        "Damage reported at approximately 50 locations including residential buildings, schools, an opera house, and a museum across Kyiv",
-        "EU foreign policy chief Kaja Kallas called the Oreshnik use 'reckless nuclear brinkmanship' and announced EU diplomats would meet to discuss increasing pressure on Russia"
+        "US Central Command struck Iranian missile sites and boats attempting to lay mines in southern Iran, describing the action as 'self-defense'",
+        "Iranian negotiators, including the foreign minister, were in Doha meeting with Qatar's prime minister as part of ongoing peace talks",
+        "Secretary of State Rubio said a deal could take 'a few days' and that Trump wants either 'a good deal or no deal'",
+        "Oil prices rose over 3% following the strikes after falling sharply the previous day on peace optimism"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Balanced coverage including Russia's claim the strikes responded to Ukrainian attacks on civilian infrastructure",
-          "url": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Additional coverage of Luhansk dormitory strike that Russia claims killed 21, which Ukraine denies targeting",
-          "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized European condemnation and nuclear implications of Oreshnik use",
-          "url": "https://www.rfi.fr/en/africa/20260524-juliana-lumumba-oif-i-want-a-francophonie-of-the-people"
-        }
-      ]
-    },
-    {
-      "headline": "Turkish Riot Police Storm Opposition Party Headquarters After Court Ousts Leadership",
-      "category": "Society",
-      "bullets": [
-        "Turkish riot police used tear gas to force entry into Republican People's Party (CHP) headquarters in Ankara on Sunday after party members barricaded entrances",
-        "An appeals court ruling Thursday declared party leader \u00d6zg\u00fcr \u00d6zel's election null and void, ordering replacement by Kemal Kilicdaro\u011flu, who lost to Erdo\u011fan in 2023 presidential election",
-        "Ankara's governor ordered police to 'implement the court decision' after Kilicdaro\u011flu's representatives requested 'necessary procedures' to take control of headquarters",
-        "\u00d6zel declared 'We are under attack' via social media as security forces entered; clashes reported between supporters of both leaders"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Described move as 'further cementing President Erdo\u011fan's grip on power'",
-          "url": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
-          "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief video coverage characterizing situation as 'political crisis'",
-          "url": "https://www.france24.com/en/donald-trump-slows-momentum-towards-an-iran-agreement"
-        }
-      ]
-    },
-    {
-      "headline": "DRC Ebola Outbreak Surpasses 900 Suspected Cases as Violence Impedes Response",
-      "category": "Climate",
-      "bullets": [
-        "WHO Director-General confirmed more than 900 suspected Ebola cases including 101 confirmed cases; DRC health ministry reported 204 deaths",
-        "Outbreak centered in Ituri province where nearly 5 million people live amid ongoing conflict; 1 in 4 need humanitarian assistance and 1 in 5 are internally displaced",
-        "Arson attacks destroyed two Ebola treatment centers last week, reflecting community distrust and anger in conflict-affected region",
-        "The outbreak involves the rarer Bundibugyo strain for which no approved vaccines or treatments exist; contact tracing and isolation are only proven containment methods"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized attacks on health workers and impact of aid cuts on vulnerable communities",
-          "url": "https://www.theguardian.com/world/2026/may/23/ebola-virus-spread-drc-democratic-republic-of-congo"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on WHO statements and surveillance scaling efforts",
-          "url": "https://www.rfi.fr/en/africa/20260524-juliana-lumumba-oif-i-want-a-francophonie-of-the-people"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Highlighted community fear, distrust, and the burning of health centers",
-          "url": "https://www.rnz.co.nz/news/world/596164/temperature-rising-in-chemical-tank-at-risk-of-exploding-in-california"
+          "framing_note": "Emphasized US defensive framing and quoted Rubio on deal prospects",
+          "url": "https://www.bbc.com/news/articles/cg5ppg50gplo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Questioned how the rare strain 'outran doctors'",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/timelapse-shows-hajj-pilgrims-performing-tawaf-in-mecca?traffic_source=rss"
+          "framing_note": "Led with question of whether ceasefire is over; noted Iran's position that deal is 'not imminent'",
+          "url": "https://www.aljazeera.com/sports/2026/5/26/miami-says-messi-diagnosed-with-hamstring-fatigue-ahead-of-argentina-camp?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on oil market impact and economic dimensions",
+          "url": "https://www.theglobeandmail.com/world/article-israel-hezbollah-lebanon-netanyahu/"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline focused on strikes; full content paywalled",
+          "url": "https://www.ft.com/content/557561df-4b72-48e8-89cb-239829de694a"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Content unavailable but headline referenced continued attacks despite talks",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/26/us-attacks-missile-sites-in-southern-iran-despite-ceasefire_6753816_4.html"
         }
       ]
     },
     {
-      "headline": "NATO Allies Seek Clarity as US Announces Contradictory Troop Deployment Decisions",
+      "headline": "Trump Demands Abraham Accords Expansion as Condition of Iran Deal",
       "category": "Geopolitics",
       "bullets": [
-        "President Trump announced 5,000 additional troops for Poland one week after cancelling a planned 4,000-troop deployment to the same country",
-        "Earlier this month, the US announced troops would be pulled out of Germany; some US forces are currently deployed to the Middle East for the Iran conflict",
-        "Secretary of State Rubio told NATO foreign ministers in Sweden that the US constantly reevaluates troop presence based on global commitments",
-        "Trump said the Poland decision was based on his relationship with Polish President Karol Nawrocki, whom he backed in last year's election"
+        "President Trump said Saudi Arabia, Pakistan, Turkey, Egypt, and Jordan should 'immediately' sign the Abraham Accords normalizing ties with Israel",
+        "Trump characterized the demand as 'mandatory' for any agreement ending the Iran war",
+        "The move drew criticism from some Republicans who favor a harder line on Iran",
+        "Gulf states remain divided, with UAE closer to Israel and Oman leading diplomatic efforts"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Noted the move could 'further complicate negotiations'",
+          "url": "https://www.france24.com/en/france/20260526-europe-sizzles-under-heat-dome-as-france-logs-hottest-may-day-on-record"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Headline framed as Trump 'surprising' Gulf states",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/26/us-attacks-missile-sites-in-southern-iran-despite-ceasefire_6753816_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Threatens 'Systematic Strikes' on Kyiv, Urges Foreigners to Leave",
+      "category": "Conflict",
+      "bullets": [
+        "Russia announced plans to target 'decision-making centres,' command posts, and drone manufacturing facilities in the Ukrainian capital",
+        "Moscow urged foreign nationals and diplomats to leave Kyiv 'as soon as possible'",
+        "Ukraine dismissed the warning as 'shameless blackmail'; the EU mission head said the bloc is 'not going anywhere'",
+        "The threat follows Saturday's large-scale strikes that killed four and injured approximately 100 in Kyiv"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of both Russian threats and Ukrainian/EU response",
+          "url": "https://www.bbc.com/news/articles/cg5ppg50gplo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same content as BBC World feed",
+          "url": "https://www.bbc.com/news/articles/cx2117685lwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized diplomatic defiance from Ukraine and EU",
+          "url": "https://www.theglobeandmail.com/world/article-israel-hezbollah-lebanon-netanyahu/"
+        }
+      ]
+    },
+    {
+      "headline": "Record Heat Dome Grips Europe; France Reports Hottest May Day Ever",
+      "category": "Climate",
+      "bullets": [
+        "France recorded its hottest May day since measurements began, with temperatures reaching 33-36\u00b0C across regions",
+        "Seven heat-related deaths were reported in France, including five drownings and one during a Paris running race",
+        "A 'heat dome' of warm air from North Africa trapped under high pressure is causing unseasonable temperatures across Western Europe",
+        "French Prime Minister will convene ministers Thursday to review emergency response; outdoor work restrictions imposed in parts of Italy"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Led with death toll and public health concerns",
+          "url": "https://www.rfi.fr/en/france/20260525-cgt-chief-faces-defamation-probe-warns-french-union-freedom-is-at-risk"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized climate change connection and record-breaking nature of event",
+          "url": "https://www.france24.com/en/france/20260526-europe-sizzles-under-heat-dome-as-france-logs-hottest-may-day-on-record"
+        }
+      ]
+    },
+    {
+      "headline": "Pope Leo XIV Issues First Encyclical, Calls for AI to Be 'Disarmed'",
+      "category": "Technology",
+      "bullets": [
+        "Pope Leo's encyclical 'Magnifica Humanitas' urges governments to slow AI development and strengthen oversight",
+        "The Pope warned of 'new digital slaveries' and drew parallels between AI exploitation and historical slavery",
+        "The document included one of the Vatican's strongest apologies for the Catholic Church's role in the slave trade",
+        "Leo called for AI data ownership not to be left solely in private hands and urged developers not to use AI for war"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Noted the announcements 'have caused confusion among allies' of the trans-Atlantic defense organization",
-          "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Highlighted the slavery apology as significant element alongside AI warnings",
+          "url": "https://www.bbc.com/news/articles/cx2117685lwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on challenge to Silicon Valley and calls for political intervention",
+          "url": "https://www.rfi.fr/en/france/20260525-cgt-chief-faces-defamation-probe-warns-french-union-freedom-is-at-risk"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Content unavailable but headline suggested emphasis on call to action",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/26/us-attacks-missile-sites-in-southern-iran-despite-ceasefire_6753816_4.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Israel military issues evacuation warnings to 10 Lebanon villages citing Hezbollah ceasefire violations",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/israel-military-issues-new-evacuation-warning-to-10-lebanon-villages/article71020141.ece"
-    },
-    {
-      "headline": "Toyota to cut overseas production by 83,000 vehicles through November due to prolonged Strait of Hormuz blockade",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/automobiles/toyota-to-cut-more-production-abroad-due-to-iran-war"
-    },
-    {
-      "headline": "Trump administration pauses deportations to DRC over Ebola but strands woman in Kinshasa despite judge's return order",
+      "headline": "WHO warns Ebola outbreak in DRC is 'outpacing' response as suspected cases pass 900 and treatment centers face attacks",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/may/23/white-house-pauses-detainee-removal-drc-ebola"
+      "url": "https://www.theguardian.com/world/2026/may/25/spread-of-ebola-in-drc-outpacing-response-efforts-warns-who"
     },
     {
-      "headline": "Pacific Ocean temperatures rising fast, raising 80% chance of El Ni\u00f1o by July with potential for rare 'super' event",
+      "headline": "Netanyahu announces Israel will intensify strikes against Hezbollah in Lebanon despite extended ceasefire",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cewppdk1187o"
+    },
+    {
+      "headline": "UK prepares mine-sweeping mission for Strait of Hormuz as part of Franco-British coalition contingent on peace deal",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260526-uk-prepares-mine-sweeper-for-hormuz-as-part-of-wider-franco-british-coalition"
+    },
+    {
+      "headline": "Quad foreign ministers meet in New Delhi to discuss Indo-Pacific cooperation, supply chains, and critical minerals amid Middle East turmoil",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/indo-pacific/quad-ministers-hold-strategic-talks-amid-mideast-turmoil"
+    },
+    {
+      "headline": "Australia confirms first diphtheria death in nearly a decade amid worst outbreak since 1991, mainly in remote Indigenous communities",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c759q6y26w3o"
+    },
+    {
+      "headline": "Bolivian President Paz slashes own salary by 50% in failed bid to end weeks of anti-government protests blocking La Paz",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260526-bolivian-leader-slash-own-salary-fails-appease-protesters-la-paz"
+    },
+    {
+      "headline": "Pacific Ocean temperatures rising fast, with 80% chance of El Ni\u00f1o developing by July and potential for 'super El Ni\u00f1o' conditions",
       "source": "RFI English",
       "url": "https://www.rfi.fr/en/environment/20260525-pacific-ocean-warming-fuels-fears-of-powerful-super-el-nino"
     },
     {
-      "headline": "SpaceX prepares for largest IPO in history as Musk's rocket company plans Nasdaq listing",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/5/25/why-the-spacex-ipo-is-the-talk-of-wall-street-and-beyond"
+      "headline": "Wave of child abuse cases involving school assistants shakes Paris education system, with trials scheduled through summer",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c8e8gx2d7j4o"
     },
     {
-      "headline": "Messi substituted with apparent hamstring issue three weeks before Argentina's World Cup title defense begins",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/5/25/messi-at-the-world-cup-inter-miami-injury-update-substitution"
+      "headline": "ECB signals likely June interest rate hike as chief economist flags upward revision to inflation forecast",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/editor-s-picks/interview/ecb-eyes-june-rate-hike-as-chief-economist-flags-forecast-upgrade"
     },
     {
-      "headline": "Chemical tank heating up in California evacuation zone as 40,000 residents remain displaced",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/world/596164/temperature-rising-in-chemical-tank-at-risk-of-exploding-in-california"
-    },
-    {
-      "headline": "Senegalese president fires longtime ally Prime Minister Ousmane Sonko, triggering political instability",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/05/25/senegalese-president-fires-longtime-ally-ousmane-sonko-plunging-country-into-political-instability_6753785_4.html"
-    },
-    {
-      "headline": "Myanmar military launches renewed offensives to reclaim rare earth mining regions and border trade routes",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/myanmar-military-steps-up-fight-for-rare-earth-area-and-border-routes/article71020257.ece"
-    },
-    {
-      "headline": "Around 20 injured after man sprays unknown substance at Tokyo luxury mall ATM",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/around-20-injured-in-spraying-incident-in-tokyo-mall/article71020183.ece"
+      "headline": "Canada's foreign minister says Israel violated Vienna Convention by denying consular access to detained flotilla activists",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/article-israel-violated-vienna-convention-with-its-treatment-of-canadian/"
     }
   ]
 }
