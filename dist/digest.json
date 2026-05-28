@@ -1,196 +1,184 @@
 {
-  "date": "Wednesday, May 27, 2026",
-  "daily_brief": "The day's headlines are dominated by intensifying conflict across multiple theaters. In Lebanon, Israeli strikes killed at least 31 people, including children, as Prime Minister Netanyahu announced expanded ground operations despite an April ceasefire with Hezbollah [BBC, France 24, Le Monde]. Separately, Israel claimed to have killed Hamas military wing commander Mohammed Odeh in a Gaza City strike [BBC, Financial Times]. The US-Iran ceasefire, in place since April, faces new strains after Washington conducted strikes near Bandar Abbas that Tehran condemned as a 'gross violation' [BBC, The Hindu]. In the Democratic Republic of Congo, the WHO warned that Ebola is 'outpacing' response efforts, with suspected cases surpassing 900 and flights to Bunia suspended; attacks on health facilities have complicated containment [Guardian, Al Jazeera]. On the diplomatic front, Ukraine is urging the EU to appoint a mediator\u2014with names like Angela Merkel and Mario Draghi floated\u2014as US-led peace efforts stall and Russia escalates strikes on Kyiv [BBC]. Meanwhile, NASA unveiled contracts for lunar landers and rovers as part of its plan to establish a permanent moon base by 2032 [BBC, Globe and Mail].",
+  "date": "Thursday, May 28, 2026",
+  "daily_brief": "Tensions in the Middle East dominated Thursday's news cycle as the US and Iran exchanged fire despite a fragile ceasefire, with US forces striking an Iranian military site near Bandar Abbas and Iran's Revolutionary Guard retaliating against a US airbase [BBC, Globe and Mail, Financial Times]. President Trump dismissed reports of a Strait of Hormuz deal and appeared to threaten US ally Oman, adding uncertainty to ongoing negotiations [The Hindu, Globe and Mail]. In a significant shift for European security architecture, Norway announced it would join France's nuclear deterrence umbrella, reflecting growing concern about reliance on US protection [RFI]. The WHO warned of a 'catastrophic collision' of Ebola and conflict in the DRC, with nearly 1,000 suspected cases and Uganda closing its border [BBC, Guardian, Globe and Mail]. The Trump administration's decision to quarantine Americans exposed to Ebola in Kenya rather than repatriating them sparked controversy [Guardian, Globe and Mail]. In Kenya, at least 16 students were killed in a boarding school dormitory fire [BBC, Guardian]. Meanwhile, EU member states approved a compromise to implement a trade deal with the US ahead of a July 4 deadline [RFI], and the UN warned that global temperatures will likely remain at record levels through 2030 [RFI].",
   "top_stories": [
     {
-      "headline": "Israeli Strikes Kill Dozens in Lebanon as Netanyahu Expands Ground Operations",
+      "headline": "US and Iran Exchange Fire as Ceasefire Strains Near Breaking Point",
       "category": "Conflict",
       "bullets": [
-        "Israeli airstrikes killed at least 31 people in southern Lebanon on Tuesday, including four children and three women, according to Lebanon's health ministry.",
-        "The Israeli military said it struck over 100 Hezbollah infrastructure sites in one of the heaviest bombardments since the mid-April ceasefire.",
-        "Prime Minister Netanyahu stated Israel is 'deepening' operations and 'fortifying the security zone' in Lebanon.",
-        "Hezbollah reported facing Israeli ground troops entering the town of Zawtar al-Sharqiyah; a strike near a public hospital in Nabatieh caused significant damage."
+        "US forces shot down four Iranian drones and struck a military site in Bandar Abbas that was preparing to launch a fifth drone, describing the action as 'measured, purely defensive'",
+        "Iran's Revolutionary Guard Corps said it targeted a US airbase in response, without identifying the location; Kuwait reported intercepting hostile missile and drone threats",
+        "President Trump dismissed reports of a draft agreement on the Strait of Hormuz and appeared to threaten US ally Oman, saying it must 'behave' or 'we'll have to blow them up'",
+        "This marks the second exchange of fire in three days, threatening the fragile ceasefire established in early April"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Netanyahu's statements and the ceasefire's fragility.",
-          "url": "https://www.bbc.com/news/articles/cqxpp73wqero?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized ceasefire violations and defensive framing from US",
+          "url": "https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on casualty details and hospital damage.",
-          "url": "https://www.france24.com/en/middle-east/20260527-israeli-strikes-kill-31-southern-lebanon-netanyahu-expands-ground-campaign"
+          "framing_note": "Highlighted oil price implications and detailed the diplomatic context",
+          "url": "https://www.theglobeandmail.com/world/article-matthew-perry-death-personal-assistant-drug-overdose/"
         },
         {
-          "name": "Le Monde",
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Article paywalled; headline emphasized strained truce",
+          "url": "https://www.ft.com/content/96c8fa0f-d274-4a38-b417-a6e1864fc4a8"
+        },
+        {
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Headline emphasized expanded ground operations.",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/27/israeli-strikes-kill-at-least-31-in-south-lebanon-as-israel-expands-ground-operations_6753846_4.html"
+          "framing_note": "Focused on Trump's comments about Oman and confusion with Venezuela",
+          "url": "https://www.thehindu.com/business/Industry/indias-energy-investment-to-hit-170-billion-in-2026-on-solar-grid-and-refining-push-international-energy-agency/article71032005.ece"
         }
       ]
     },
     {
-      "headline": "WHO Warns Ebola Outbreak in DRC Is 'Outpacing' Response Amid Attacks on Health Workers",
-      "category": "Society",
+      "headline": "Norway Joins France's Nuclear Deterrence Umbrella in Historic European Defense Shift",
+      "category": "Geopolitics",
       "bullets": [
-        "The WHO Director-General said the Ebola outbreak in the DRC is outpacing response efforts, with 904 suspected cases and over 220 suspected deaths reported.",
-        "Attacks by residents on health facilities in Ituri province forced Ebola patients to flee; tents erected by M\u00e9decins Sans Fronti\u00e8res were burned.",
-        "The DRC suspended all flights to and from Bunia to contain the spread; Uganda has imposed border restrictions.",
-        "The Trump administration paused deportations to the DRC due to the outbreak, though at least one deportee remains stranded in Kinshasa."
+        "Norway signed a defense agreement with France that includes joining a French-led nuclear weapons initiative, a significant shift for the NATO member",
+        "Norwegian PM Store said France's nuclear capabilities are 'an important contribution to NATO's deterrence posture' while maintaining Norway will continue to rely on NATO and US protection",
+        "The agreement enables 'swift and coordinated response' and allows temporary hosting of French strategic air forces under the 'forward deterrence' scheme",
+        "The move reflects growing European concern about security dependence on the United States amid what Store called 'the most serious security situation since the Second World War'"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Detailed the strategic implications and quoted both leaders extensively",
+          "url": "https://www.rfi.fr/en/international/20260527-meta-accused-of-restricting-sexual-health-and-queer-instagram-accounts"
+        }
+      ]
+    },
+    {
+      "headline": "WHO Warns Ebola Outbreak 'Outpacing' Response as Conflict Hampers Containment in DRC",
+      "category": "Climate",
+      "bullets": [
+        "Nearly 1,000 suspected Ebola cases and at least 220-263 suspected deaths reported in DRC's Ituri province; 101 cases confirmed with over 3,000 contacts being traced",
+        "Uganda closed its border with DRC for four weeks except for response teams and humanitarian operations after confirming seven cases and one death",
+        "WHO Director-General Tedros called for an immediate ceasefire, saying the region faces a 'catastrophic collision of disease and conflict' and that response workers cannot function 'while bombs are falling'",
+        "Health facilities have come under attack from residents, with 18 patients fleeing after tents were burned; Save the Children reported a quarter of confirmed deaths were children"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized WHO statements and conflict hampering response",
+          "url": "https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted attacks on health facilities and community distrust",
+          "url": "https://www.theguardian.com/world/2026/may/25/same-sex-marriage-botswana-couple-court"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on US quarantine controversy alongside outbreak details",
+          "url": "https://www.theglobeandmail.com/world/article-matthew-perry-death-personal-assistant-drug-overdose/"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Administration to Quarantine Ebola-Exposed Americans in Kenya, Not US",
+      "category": "Policy",
+      "bullets": [
+        "The White House confirmed it is building a quarantine and treatment center in Kenya for Americans exposed to Ebola in the DRC rather than bringing them home",
+        "The US has banned green card holders who recently traveled to DRC, Uganda, and South Sudan from returning; other recent travelers are also barred from entry",
+        "Secretary of State Rubio stated 'we cannot and will not allow any cases of Ebola to enter the United States'",
+        "The decision sparked anger in Kenya, with many accusing the US of using their country as a 'dumping ground'; the Kenyan government declined to comment, saying negotiations were ongoing"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Detailed the attacks on health facilities and community mistrust.",
-          "url": "https://www.theguardian.com/world/2026/may/23/white-house-pauses-detainee-removal-drc-ebola"
+          "framing_note": "Critical tone, quoted concerns about preventing Americans from receiving US-based care",
+          "url": "https://www.theguardian.com/world/2026/may/25/same-sex-marriage-botswana-couple-court"
         },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Focused on the isolation of Bunia and economic impact of flight suspensions.",
-          "url": "https://www.aljazeera.com/news/2026/5/27/how-badly-is-europe-affected-by-fertiliser-shortages-due-to-the-iran-war?traffic_source=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article body unavailable; headline referenced community mistrust of medical workers.",
-          "url": "https://www.lemonde.fr/en/international/article/2026/05/27/israeli-strikes-kill-at-least-31-in-south-lebanon-as-israel-expands-ground-operations_6753846_4.html"
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized Kenyan backlash and political sensitivity of the plan",
+          "url": "https://www.theglobeandmail.com/world/article-matthew-perry-death-personal-assistant-drug-overdose/"
         }
       ]
     },
     {
-      "headline": "Iran Condemns US Strikes Near Strait of Hormuz as 'Gross Violation' of Ceasefire",
-      "category": "Geopolitics",
+      "headline": "EU Member States Approve Compromise to Implement US Trade Deal Before July Deadline",
+      "category": "Economics",
       "bullets": [
-        "The US conducted strikes on Iranian missile sites and boats near Bandar Abbas on Monday, which Centcom described as 'self-defense strikes.'",
-        "Iran's foreign ministry condemned the action as a breach of the April ceasefire and warned of retaliation.",
-        "Iran's Revolutionary Guards claimed to have downed a US drone and fired at an F-35 fighter jet.",
-        "The strikes raise questions about the durability of ongoing ceasefire negotiations; the Financial Times reported ECB warnings that the conflict risks triggering a financial crisis."
+        "EU's 27 member states formally approved a compromise with the European Parliament to implement a trade deal capping US levies on most European goods at 15 percent",
+        "The deal requires the EU to scrap levies on most American imports; MEPs are expected to officially back the text when they meet in Strasbourg in mid-June",
+        "Safeguards were attached including a 'sunset clause' pushing the deal's expiry to end of 2029, after Trump's term ends",
+        "The US has until year-end to drop extra taxes above 15 percent on steel components; initial MEP demands were scaled back to avoid rekindling White House tensions"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Presented both US and Iranian statements neutrally.",
-          "url": "https://www.bbc.com/news/articles/cqxpp73wqero?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Pakistan's mediation role and China's supportive stance.",
-          "url": "https://www.thehindu.com/news/international/donald-trump-declares-himself-in-perfect-health-as-80th-birthday-looms/article71027895.ece"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline focused on economic risks; article paywalled.",
-          "url": "https://www.ft.com/content/080db498-9e03-456f-a6e2-dae19f73552c"
-        }
-      ]
-    },
-    {
-      "headline": "Israel Says It Killed New Hamas Military Wing Commander in Gaza Strike",
-      "category": "Conflict",
-      "bullets": [
-        "Israel announced it killed Mohammed Odeh, the commander of Hamas's military wing, in a strike on a residential building in Gaza City on Tuesday.",
-        "At least three Palestinians were killed and dozens injured in the strike, which hit a busy market area ahead of Eid al-Adha.",
-        "Odeh had only recently assumed the role after his predecessor was killed in a similar strike days earlier.",
-        "Hamas has not commented; the strike occurred despite a ceasefire that began in October."
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced account of Israeli claims and Palestinian casualties.",
-          "url": "https://www.bbc.com/news/articles/cqxpp73wqero?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline-only coverage; article paywalled.",
-          "url": "https://www.ft.com/content/080db498-9e03-456f-a6e2-dae19f73552c"
-        }
-      ]
-    },
-    {
-      "headline": "Ukraine Urges EU to Appoint Mediator as US Peace Efforts Stall",
-      "category": "Geopolitics",
-      "bullets": [
-        "Ukraine's Foreign Minister Andrii Sybiha called for 'more active participation by the European side' in peace negotiations with Russia.",
-        "Names floated for a potential EU envoy role include former German Chancellor Angela Merkel and former Italian PM Mario Draghi; neither has confirmed interest.",
-        "Russia has intensified strikes on Kyiv and threatened 'systematic' attacks, warning foreigners to leave the city.",
-        "EU foreign ministers are set to discuss re-engagement with Moscow at an informal meeting in Cyprus."
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on diplomatic dynamics and potential envoy candidates.",
-          "url": "https://www.bbc.com/news/articles/cqxpp73wqero?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Duplicate coverage; same framing.",
-          "url": "https://www.bbc.com/news/articles/c3v22ylzpqzo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed the compromise negotiations and MEP concerns about unfavorable terms",
+          "url": "https://www.rfi.fr/en/international/20260527-meta-accused-of-restricting-sexual-health-and-queer-instagram-accounts"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "NASA unveils contracts for lunar landers, rovers, and drones as part of plan to build permanent moon base by 2032",
-      "source": "BBC World, Globe and Mail",
-      "url": "https://www.bbc.com/news/articles/c39228nxyr4o"
+      "headline": "At least 16 students killed in dormitory fire at Kenyan boarding school in Gilgil",
+      "source": "BBC World, The Guardian",
+      "url": "https://www.bbc.com/news/articles/cx21kkxq81po"
     },
     {
-      "headline": "Ken Paxton defeats John Cornyn in Texas GOP Senate primary runoff after Trump endorsement",
-      "source": "Globe and Mail, Le Monde",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-texas-republican-primary-runoff-election/"
+      "headline": "Heavy Israeli strikes hit southern Lebanon after IDF issues large-scale evacuation orders north of Zahrani River",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cj3pgrpmlklo"
     },
     {
-      "headline": "Ousted Senegalese PM Ousmane Sonko elected speaker of National Assembly days after dismissal",
+      "headline": "UN warns global temperatures likely to remain at record levels through 2030, with 75% chance of exceeding 1.5\u00b0C threshold",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260526-ousted-pm-sonko-returns-to-centre-stage-as-senegal-parliament-speaker"
+      "url": "https://www.rfi.fr/en/environment/20260528-temperatures-likely-to-remain-at-record-levels-until-2030-un-warns"
     },
     {
-      "headline": "Record May heatwave sweeps western Europe as scientists link extreme temperatures to rapid continental warming",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20260527-how-europe-s-rapid-warming-has-fuelled-a-record-may-heatwave"
-    },
-    {
-      "headline": "Deforestation in Brazilian Amazon falls to lowest level since 2019, down 20.6% from 2024",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/environment/20260527-deforestation-in-brazilian-amazon-falls-to-lowest-level-since-2019"
-    },
-    {
-      "headline": "GCHQ Director warns Russia is 'relentlessly targeting' UK critical infrastructure and democratic processes",
+      "headline": "GCHQ director reveals nearly 500,000 Russian soldiers killed since 2022 invasion of Ukraine began",
       "source": "BBC Europe",
       "url": "https://www.bbc.com/news/articles/c4g44gprnnvo"
     },
     {
-      "headline": "Japan's upper house approves legislation to create centralized national intelligence agency",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/japan-s-biggest-intelligence-reform-since-wwii-5-things-to-know2"
-    },
-    {
-      "headline": "Ferrari shares fall over 8% after unveiling $640,000 electric car designed with Jony Ive's LoveFrom agency",
+      "headline": "Spanish police raid Socialist Party headquarters in Madrid as corruption probe escalates against PM S\u00e1nchez's government",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cwy22rddy5no"
+      "url": "https://www.bbc.com/news/articles/c78qy78dlj1o"
     },
     {
-      "headline": "Samsung semiconductor workers secure average $400,000 bonuses after union deal averts strike",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/tech/semiconductors/samsung-semiconductor-workers-400-000-bonus-deal-4-things-to-know"
+      "headline": "Ukraine urges EU to take more active role in peace negotiations as US mediation efforts stall",
+      "source": "BBC Europe, The Hindu",
+      "url": "https://www.bbc.com/news/articles/cqxpp73wqero"
     },
     {
-      "headline": "Former Scottish National Party CEO Peter Murrell pleads guilty to embezzling \u00a3400,000 in party funds",
+      "headline": "India's energy investment set to reach record $170 billion in 2026, driven by solar and refining expansion",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/business/Industry/indias-energy-investment-to-hit-170-billion-in-2026-on-solar-grid-and-refining-push-international-energy-agency/article71032005.ece"
+    },
+    {
+      "headline": "DRC football team cleared for World Cup after meeting US Ebola protocols, relocating training abroad",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/5/28/world-cup-delegation-compliant-with-us-ebola-protocols-dr-congo-says"
+    },
+    {
+      "headline": "Former Red Army Faction member Daniela Klette sentenced to 13 years for armed robberies after decades on the run",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cx21dr3lekpo"
+    },
+    {
+      "headline": "Matthew Perry's personal assistant sentenced to 41 months in prison for injecting actor with fatal ketamine dose",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-former-scottish-national-party-ceo-pleads-guilty-to-embezzling-party/"
+      "url": "https://www.theglobeandmail.com/world/article-matthew-perry-death-personal-assistant-drug-overdose/"
     }
   ]
 }
