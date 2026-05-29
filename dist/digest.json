@@ -1,184 +1,214 @@
 {
-  "date": "Thursday, May 28, 2026",
-  "daily_brief": "Tensions in the Middle East dominated Thursday's news cycle as the US and Iran exchanged fire despite a fragile ceasefire, with US forces striking an Iranian military site near Bandar Abbas and Iran's Revolutionary Guard retaliating against a US airbase [BBC, Globe and Mail, Financial Times]. President Trump dismissed reports of a Strait of Hormuz deal and appeared to threaten US ally Oman, adding uncertainty to ongoing negotiations [The Hindu, Globe and Mail]. In a significant shift for European security architecture, Norway announced it would join France's nuclear deterrence umbrella, reflecting growing concern about reliance on US protection [RFI]. The WHO warned of a 'catastrophic collision' of Ebola and conflict in the DRC, with nearly 1,000 suspected cases and Uganda closing its border [BBC, Guardian, Globe and Mail]. The Trump administration's decision to quarantine Americans exposed to Ebola in Kenya rather than repatriating them sparked controversy [Guardian, Globe and Mail]. In Kenya, at least 16 students were killed in a boarding school dormitory fire [BBC, Guardian]. Meanwhile, EU member states approved a compromise to implement a trade deal with the US ahead of a July 4 deadline [RFI], and the UN warned that global temperatures will likely remain at record levels through 2030 [RFI].",
+  "date": "Friday, May 29, 2026",
+  "daily_brief": "Friday's developments center on two critical diplomatic flashpoints with global implications. In the Gulf, US and Iranian negotiators have agreed on a framework to extend their fragile ceasefire by 60 days, though President Trump has not yet signed off on the deal [BBC, Financial Times, The Hindu]. The proposed agreement would reopen the Strait of Hormuz and lift oil sanctions on Iran, with markets in Tokyo and Seoul surging to record highs on the news [Nikkei Asia]. Meanwhile, NATO territory was directly impacted when a Russian drone struck an apartment building in Romania, injuring two people\u2014the first time citizens of the alliance have been hurt by such incursions since the Ukraine war began [BBC, Al Jazeera, France 24, Financial Times]. NATO Secretary General Mark Rutte condemned Russia's 'reckless behaviour,' while Romania called for accelerated anti-drone capabilities. In Gaza, Prime Minister Netanyahu announced plans to expand Israeli territorial control to 70%, contradicting the October 2025 ceasefire terms [BBC]. A Kenyan court suspended US plans to establish an Ebola quarantine facility on its soil [RFI, The Guardian], as the WHO chief arrived in the DRC to coordinate response to an outbreak that has killed over 220 people. In Austria, a man was sentenced to 15 years for plotting an attack on Taylor Swift's Vienna concert [BBC].",
   "top_stories": [
     {
-      "headline": "US and Iran Exchange Fire as Ceasefire Strains Near Breaking Point",
-      "category": "Conflict",
+      "headline": "US and Iran Near 60-Day Ceasefire Extension, Awaiting Trump Approval",
+      "category": "Geopolitics",
       "bullets": [
-        "US forces shot down four Iranian drones and struck a military site in Bandar Abbas that was preparing to launch a fifth drone, describing the action as 'measured, purely defensive'",
-        "Iran's Revolutionary Guard Corps said it targeted a US airbase in response, without identifying the location; Kuwait reported intercepting hostile missile and drone threats",
-        "President Trump dismissed reports of a draft agreement on the Strait of Hormuz and appeared to threaten US ally Oman, saying it must 'behave' or 'we'll have to blow them up'",
-        "This marks the second exchange of fire in three days, threatening the fragile ceasefire established in early April"
+        "US and Iranian negotiators have agreed on a memorandum of understanding to extend the ceasefire for 60 days and begin talks on Iran's nuclear program, though President Trump has not yet approved the deal",
+        "The proposed framework would allow unrestricted passage through the Strait of Hormuz, give Iran 30 days to remove mines from the waterway, lift the US blockade, and issue sanction waivers for Iranian oil sales",
+        "Iran's semi-official Tasnim news agency said the deal has not been finalized or confirmed by Tehran",
+        "Vice President Vance stated the sides are 'very close' but 'not there yet,' with several sticking points remaining"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized ceasefire violations and defensive framing from US",
-          "url": "https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Highlighted oil price implications and detailed the diplomatic context",
-          "url": "https://www.theglobeandmail.com/world/article-matthew-perry-death-personal-assistant-drug-overdose/"
+          "framing_note": "Detailed focus on diplomatic process and both sides' positions",
+          "url": "https://www.bbc.com/news/videos/cvgz0pdg32mo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Article paywalled; headline emphasized strained truce",
-          "url": "https://www.ft.com/content/96c8fa0f-d274-4a38-b417-a6e1864fc4a8"
+          "framing_note": "Headline framing emphasizes US progress toward deal",
+          "url": "https://www.ft.com/content/170121bb-9831-4eda-b94d-52679b6a69e6"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Focused on Trump's comments about Oman and confusion with Venezuela",
-          "url": "https://www.thehindu.com/business/Industry/indias-energy-investment-to-hit-170-billion-in-2026-on-solar-grid-and-refining-push-international-energy-agency/article71032005.ece"
+          "framing_note": "Provides live updates emphasizing volatility of talks and mutual accusations of violations",
+          "url": "https://www.thehindu.com/news/international/bangladesh-saves-buffalo-named-donald-trump-from-eid-sacrifice/article71036376.ece"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Focuses on market reaction, with Japanese and Korean stocks hitting record highs",
+          "url": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-when-sanctions-drive-innovation-huawei-s-her-s-law-challenge"
         }
       ]
     },
     {
-      "headline": "Norway Joins France's Nuclear Deterrence Umbrella in Historic European Defense Shift",
-      "category": "Geopolitics",
+      "headline": "Russian Drone Strikes Romanian Apartment Building, Injuring Two in First NATO Casualty Incident",
+      "category": "Conflict",
       "bullets": [
-        "Norway signed a defense agreement with France that includes joining a French-led nuclear weapons initiative, a significant shift for the NATO member",
-        "Norwegian PM Store said France's nuclear capabilities are 'an important contribution to NATO's deterrence posture' while maintaining Norway will continue to rely on NATO and US protection",
-        "The agreement enables 'swift and coordinated response' and allows temporary hosting of French strategic air forces under the 'forward deterrence' scheme",
-        "The move reflects growing European concern about security dependence on the United States amid what Store called 'the most serious security situation since the Second World War'"
+        "A Russian drone crashed into a 10th-floor apartment in Galati, eastern Romania, near the Ukrainian border, injuring two people and triggering a fire that required evacuation of approximately 70 residents",
+        "This marks the first time citizens of a NATO member state have been injured by Russian drone incursions during the Ukraine war",
+        "NATO Secretary General Mark Rutte condemned 'Russia's reckless behaviour' and said the alliance 'stands ready to defend every inch of Allied territory'",
+        "Romania requested NATO accelerate transfer of anti-drone capabilities and convened an emergency Supreme Defence Council meeting"
       ],
       "sources": [
         {
-          "name": "RFI English",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Detailed the strategic implications and quoted both leaders extensively",
-          "url": "https://www.rfi.fr/en/international/20260527-meta-accused-of-restricting-sexual-health-and-queer-instagram-accounts"
+          "framing_note": "Emphasizes NATO and EU official responses",
+          "url": "https://www.bbc.com/news/articles/cddpllqv49qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Notes pattern of incursions across Baltic and Nordic NATO states",
+          "url": "https://www.aljazeera.com/sports/2026/5/29/israel-football-dispute-to-heat-up-further-from-ireland-qatar-protests?traffic_source=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Includes Ukrainian foreign ministry statement on broader regional threat",
+          "url": "https://www.france24.com/en/technology/20260529-blue-origin-rocket-explodes-during-launch-pad-test-in-florida"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline treatment without accessible full article",
+          "url": "https://www.ft.com/content/170121bb-9831-4eda-b94d-52679b6a69e6"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": null,
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/29/israel-and-russia-added-to-un-blacklist-on-sexual-violence-in-conflicts_6753926_4.html"
         }
       ]
     },
     {
-      "headline": "WHO Warns Ebola Outbreak 'Outpacing' Response as Conflict Hampers Containment in DRC",
-      "category": "Climate",
+      "headline": "Netanyahu Orders IDF to Expand Gaza Control to 70%, Contradicting Ceasefire Terms",
+      "category": "Conflict",
       "bullets": [
-        "Nearly 1,000 suspected Ebola cases and at least 220-263 suspected deaths reported in DRC's Ituri province; 101 cases confirmed with over 3,000 contacts being traced",
-        "Uganda closed its border with DRC for four weeks except for response teams and humanitarian operations after confirming seven cases and one death",
-        "WHO Director-General Tedros called for an immediate ceasefire, saying the region faces a 'catastrophic collision of disease and conflict' and that response workers cannot function 'while bombs are falling'",
-        "Health facilities have come under attack from residents, with 18 patients fleeing after tents were burned; Save the Children reported a quarter of confirmed deaths were children"
+        "Israeli Prime Minister Benjamin Netanyahu announced he has directed the IDF to increase territorial control of Gaza from 60% to 70%",
+        "The expansion contradicts the October 2025 Trump-brokered ceasefire, under which Israel agreed to withdraw to a demarcation line at 53% control",
+        "At least 738 Palestinians have been killed since the ceasefire took effect, according to the Hamas-run health ministry",
+        "Indirect US-brokered talks between Israel and Hamas on advancing Trump's peace plan remain deadlocked"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized WHO statements and conflict hampering response",
-          "url": "https://www.bbc.com/news/articles/cdxpdex062yo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straightforward reporting of Netanyahu's statements and ceasefire context",
+          "url": "https://www.bbc.com/news/videos/cvgz0pdg32mo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "The Guardian",
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Highlighted attacks on health facilities and community distrust",
-          "url": "https://www.theguardian.com/world/2026/may/25/same-sex-marriage-botswana-couple-court"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on US quarantine controversy alongside outbreak details",
-          "url": "https://www.theglobeandmail.com/world/article-matthew-perry-death-personal-assistant-drug-overdose/"
+          "framing_note": "Companion piece focuses on humanitarian conditions, specifically healthcare access in Gaza",
+          "url": "https://www.aljazeera.com/sports/2026/5/29/israel-football-dispute-to-heat-up-further-from-ireland-qatar-protests?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Trump Administration to Quarantine Ebola-Exposed Americans in Kenya, Not US",
-      "category": "Policy",
+      "headline": "Blue Origin's New Glenn Rocket Explodes During Test at Cape Canaveral",
+      "category": "Technology",
       "bullets": [
-        "The White House confirmed it is building a quarantine and treatment center in Kenya for Americans exposed to Ebola in the DRC rather than bringing them home",
-        "The US has banned green card holders who recently traveled to DRC, Uganda, and South Sudan from returning; other recent travelers are also barred from entry",
-        "Secretary of State Rubio stated 'we cannot and will not allow any cases of Ebola to enter the United States'",
-        "The decision sparked anger in Kenya, with many accusing the US of using their country as a 'dumping ground'; the Kenyan government declined to comment, saying negotiations were ongoing"
+        "Blue Origin's New Glenn heavy-lift rocket exploded during a hotfire test on the launch pad at Cape Canaveral, Florida, on Thursday evening",
+        "The company confirmed no injuries occurred and all personnel were accounted for",
+        "Jeff Bezos stated the company would 'rebuild whatever needs rebuilding' while acknowledging it was a 'very rough day'",
+        "The New Glenn rocket is central to Blue Origin's commercial spaceflight and lunar mission ambitions"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Critical tone, quoted concerns about preventing Americans from receiving US-based care",
-          "url": "https://www.theguardian.com/world/2026/may/25/same-sex-marriage-botswana-couple-court"
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Brief factual report with video",
+          "url": "https://www.bbc.com/news/videos/cvgz0pdg32mo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Globe and Mail",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized Kenyan backlash and political sensitivity of the plan",
-          "url": "https://www.theglobeandmail.com/world/article-matthew-perry-death-personal-assistant-drug-overdose/"
+          "framing_note": "Contextualizes as setback for Bezos's space ambitions, notes Elon Musk's condolences",
+          "url": "https://www.france24.com/en/technology/20260529-blue-origin-rocket-explodes-during-launch-pad-test-in-florida"
         }
       ]
     },
     {
-      "headline": "EU Member States Approve Compromise to Implement US Trade Deal Before July Deadline",
-      "category": "Economics",
+      "headline": "Kenyan Court Suspends US Plan for Ebola Quarantine Facility as Outbreak Spreads",
+      "category": "Policy",
       "bullets": [
-        "EU's 27 member states formally approved a compromise with the European Parliament to implement a trade deal capping US levies on most European goods at 15 percent",
-        "The deal requires the EU to scrap levies on most American imports; MEPs are expected to officially back the text when they meet in Strasbourg in mid-June",
-        "Safeguards were attached including a 'sunset clause' pushing the deal's expiry to end of 2029, after Trump's term ends",
-        "The US has until year-end to drop extra taxes above 15 percent on steel components; initial MEP demands were scaled back to avoid rekindling White House tensions"
+        "A Kenyan high court ordered temporary suspension of US plans to open a 50-bed Ebola quarantine facility at Laikipia Air Base for American citizens exposed to the virus",
+        "The Katiba Institute challenged the plan, citing constitutional concerns over rights to life, health, and lack of parliamentary oversight",
+        "The WHO has recorded over 220 suspected Ebola deaths in the DRC since the outbreak was declared on May 15, with WHO Director-General Tedros arriving in the country to support containment efforts",
+        "Uganda has closed its border with DRC for four weeks; the US has banned recent travelers from DRC, Uganda, and South Sudan from entering the country"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Detailed the compromise negotiations and MEP concerns about unfavorable terms",
-          "url": "https://www.rfi.fr/en/international/20260527-meta-accused-of-restricting-sexual-health-and-queer-instagram-accounts"
+          "framing_note": "Focuses on Kenyan court ruling and constitutional concerns",
+          "url": "https://www.rfi.fr/en/france/20260528-france-moves-towards-symbolic-repealing-of-slavery-legislation"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasizes Trump administration policy of not bringing exposed Americans home and impact of aid cuts on outbreak response",
+          "url": "https://www.theguardian.com/world/2026/may/27/who-chief-tedros-calls-for-drc-ceasefire-ebola"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Additional coverage of WHO chief's visit and ceasefire call",
+          "url": "https://www.theguardian.com/world/2026/may/27/who-chief-tedros-calls-for-drc-ceasefire-ebola"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "At least 16 students killed in dormitory fire at Kenyan boarding school in Gilgil",
-      "source": "BBC World, The Guardian",
-      "url": "https://www.bbc.com/news/articles/cx21kkxq81po"
+      "headline": "Austrian man sentenced to 15 years for plotting jihadist attack on Taylor Swift's Vienna concert",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cgrp7y05l9do"
     },
     {
-      "headline": "Heavy Israeli strikes hit southern Lebanon after IDF issues large-scale evacuation orders north of Zahrani River",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cj3pgrpmlklo"
-    },
-    {
-      "headline": "UN warns global temperatures likely to remain at record levels through 2030, with 75% chance of exceeding 1.5\u00b0C threshold",
+      "headline": "France's National Assembly unanimously votes to formally repeal the Code Noir, the 1685 slavery law",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20260528-temperatures-likely-to-remain-at-record-levels-until-2030-un-warns"
+      "url": "https://www.rfi.fr/en/france/20260528-france-moves-towards-symbolic-repealing-of-slavery-legislation"
     },
     {
-      "headline": "GCHQ director reveals nearly 500,000 Russian soldiers killed since 2022 invasion of Ukraine began",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c4g44gprnnvo"
+      "headline": "Hungary's new PM Peter Magyar meets EU leaders in Brussels seeking release of \u20ac18 billion in frozen funds",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260529-hungarian-pm-peter-magyar-seeks-release-of-frozen-eu-funds-in-brussels-talks"
     },
     {
-      "headline": "Spanish police raid Socialist Party headquarters in Madrid as corruption probe escalates against PM S\u00e1nchez's government",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c78qy78dlj1o"
-    },
-    {
-      "headline": "Ukraine urges EU to take more active role in peace negotiations as US mediation efforts stall",
-      "source": "BBC Europe, The Hindu",
-      "url": "https://www.bbc.com/news/articles/cqxpp73wqero"
-    },
-    {
-      "headline": "India's energy investment set to reach record $170 billion in 2026, driven by solar and refining expansion",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/business/Industry/indias-energy-investment-to-hit-170-billion-in-2026-on-solar-grid-and-refining-push-international-energy-agency/article71032005.ece"
-    },
-    {
-      "headline": "DRC football team cleared for World Cup after meeting US Ebola protocols, relocating training abroad",
+      "headline": "South Korea's SK Hynix becomes third Asian company to reach $1 trillion market capitalization amid AI chip boom",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/5/28/world-cup-delegation-compliant-with-us-ebola-protocols-dr-congo-says"
+      "url": "https://www.aljazeera.com/economy/2026/5/29/south-koreas-sk-hynix-enters-exclusive-1-trillion-club"
     },
     {
-      "headline": "Former Red Army Faction member Daniela Klette sentenced to 13 years for armed robberies after decades on the run",
+      "headline": "France to investigate reports of abuse including sexual violence against nationals detained on Gaza flotilla",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260529-france-to-investigate-treatment-of-nationals-on-gaza-flotilla-after-reports-of-abuse"
+    },
+    {
+      "headline": "Man arrested after stabbing attack injures three at Swiss train station in Winterthur; authorities cite extremism concerns",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cx21dr3lekpo"
+      "url": "https://www.bbc.com/news/articles/cddpllqv49qo"
     },
     {
-      "headline": "Matthew Perry's personal assistant sentenced to 41 months in prison for injecting actor with fatal ketamine dose",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-matthew-perry-death-personal-assistant-drug-overdose/"
+      "headline": "Documentary 'Prime Minister' about former New Zealand PM Jacinda Ardern wins top Emmy for best documentary",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/life/screens/movies/ardern-documentary-prime-minister-wins-emmy-award"
+    },
+    {
+      "headline": "Dormitory fire at Kenyan girls' school kills at least 16 students in Nakuru county",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/may/28/dormitory-fire-at-kenya-school-students-utumishi-girls-academy-gilgil"
+    },
+    {
+      "headline": "Former Hong Kong Journalists Association chairman begins five-day prison sentence for obstructing police officer",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/former-leader-of-hong-kong-journalist-group-sent-to-prison-after-obstruction-conviction/article71036518.ece"
+    },
+    {
+      "headline": "Canadian PM Mark Carney calls for new US partnership ahead of USMCA review, emphasizes Canadian 'strategic autonomy'",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/mark-carney-calls-for-new-partnership-with-us-as-trump-mulls-whether-to-renew-free-trade-agreement/article71036377.ece"
     }
   ]
 }
