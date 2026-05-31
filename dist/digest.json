@@ -1,190 +1,203 @@
 {
-  "date": "Saturday, May 30, 2026",
-  "daily_brief": "Uncertainty persists over the fate of a US-Iran ceasefire extension, with President Trump holding a Situation Room meeting that concluded without a final decision, while Tehran insists no agreement has been finalized [BBC, Al Jazeera, Globe and Mail]. Defense Secretary Hegseth, speaking at the Shangri-La Dialogue in Singapore, sought to reassure Asian allies of continued US commitment to the region while warning the US remains 'more than capable' of resuming hostilities with Iran [BBC, France 24, Financial Times]. In Europe, the EU announced it would unlock \u20ac16.4 billion in frozen funds for Hungary following early reform progress under new Prime Minister P\u00e9ter Magyar, marking a significant shift in Budapest's relationship with Brussels [BBC, RFI]. A Russian drone struck a residential building in Romania, injuring two people in the first such incident to harm NATO citizens during the Ukraine war, prompting condemnation from both NATO and the EU [BBC]. Meanwhile, the WHO has revised the Ebola death rate in the DRC to 30-50% as the outbreak nears 1,000 suspected cases, with the agency's director arriving in the country amid concerns over reduced Western aid capacity [Guardian, WHO].",
+  "date": "Sunday, May 31, 2026",
+  "daily_brief": "The Ebola outbreak in the Democratic Republic of Congo continues to dominate global health concerns, with the WHO reporting a 30-50% mortality rate among confirmed cases and over 1,000 suspected infections two weeks after declaration [BBC, Guardian, RFI]. MSF has warned this is the fastest-spreading Ebola outbreak on record, while WHO Director-General Tedros visited Ituri province to oversee containment efforts complicated by ongoing conflict and Western aid cuts. In European security developments, a Russian drone struck a residential building in the Romanian city of Galati, injuring two civilians and raising concerns about NATO's air defense capabilities along Ukraine's border [BBC]. At the Shangri-La Dialogue in Singapore, Japan's Defence Minister Koizumi firmly rejected Chinese accusations of 'new militarism,' pointing to China's own nuclear arsenal and military expansion [BBC, Financial Times, The Hindu]. Israel announced its deepest incursion into Lebanon in over 25 years, capturing the strategic Beaufort Castle near Nabatiyeh as fighting with Hezbollah intensifies [France 24, The Hindu]. In Paris, over 400 people were detained following violent celebrations of PSG's Champions League victory over Arsenal, with 22,000 police deployed across France after similar unrest last year [BBC, RFI, France 24, Al Jazeera].",
   "top_stories": [
     {
-      "headline": "Trump Holds Situation Room Meeting on Iran But Makes No Final Decision on Ceasefire Extension",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Trump convened a roughly two-hour Situation Room meeting Friday to consider a tentative framework to extend the US-Iran ceasefire by 60 days, but no decision was announced",
-        "Trump stated Iran must agree to never possess nuclear weapons, reopen the Strait of Hormuz for unrestricted shipping, and destroy any sea mines in the waterway",
-        "Iran's Foreign Ministry said negotiations continue but emphasized no final agreement exists, stating Tehran will judge any deal by US actions rather than words",
-        "Defense Secretary Hegseth said at the Shangri-La Dialogue that the US remains 'more than capable' of restarting attacks on Iran if talks fail"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Focused on the lack of clarity and Trump's stated red lines",
-          "url": "#"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Iranian skepticism and the 'actions not words' stance from Tehran",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/aje-onl-nf_frustration-in-lebanon-as-israel-expands-invasion-300526?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on the meeting's inconclusive outcome",
-          "url": "https://www.theglobeandmail.com/sports/football/article-giants-abdul-carter-felt-the-need-to-call-out-jaxson-dart-to-show-he/"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Highlighted Hegseth's warning about US military capability",
-          "url": "https://www.france24.com/en/sport/20260530-decided-on-moments-psg-arsenal-in-knife-edge-champions-league-final"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Noted Trump's patience but focused on continued uncertainty",
-          "url": "https://www.ft.com/content/f49b6f10-e559-45f7-943a-0b0baf3ddcd9"
-        }
-      ]
-    },
-    {
-      "headline": "EU Unlocks \u20ac16.4 Billion for Hungary as Von der Leyen Hails 'Wind of Change' Under New PM Magyar",
-      "category": "Economics",
-      "bullets": [
-        "European Commission President Ursula von der Leyen announced the release of \u20ac16.4 billion in previously frozen EU funds for Hungary",
-        "The funds had been blocked due to democratic backsliding and corruption concerns under former PM Viktor Orb\u00e1n's government",
-        "New Prime Minister P\u00e9ter Magyar, who defeated Orb\u00e1n in April elections, secured the deal less than three weeks into his term",
-        "The bulk of the funding\u2014\u20ac10 billion\u2014comes from a COVID-19 recovery fund with an August deadline, conditional on anti-corruption and rule-of-law reforms"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Described it as a 'significant boost' for Magyar and emphasized reform conditions",
-          "url": "#"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Focused on Magyar's claim they 'fought for each cent' and the historic nature of the breakthrough",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Drone Strikes Romanian Apartment Block, Injuring Two in First NATO Civilian Casualties",
+      "headline": "Ebola Outbreak in DRC Becomes Fastest-Spreading on Record as WHO Chief Visits Epicenter",
       "category": "Conflict",
       "bullets": [
-        "A Russian Geran-2 drone (Shahed 136) struck a residential building in Gala\u021bi, eastern Romania, causing a fire on the 10th floor and injuring two people",
-        "Romanian President Nicu\u0219or Dan said the drone was likely hit by Ukrainian air defenses, altering its trajectory; Putin questioned whether it was Russian",
-        "NATO and EU officials condemned the incident; Ukraine stated it proved Russia poses 'a real threat' to Europe",
-        "This marks the first time Romanians have been injured by Russian drones straying into NATO territory during the four-year Ukraine war"
+        "WHO reports 30-50% death rate among confirmed Ebola cases, with over 1,000 suspected cases and at least 246 deaths two weeks after outbreak declaration",
+        "MSF warns this is the fastest-spreading Ebola outbreak ever recorded, with the response 'not yet caught up to the rapid spread'",
+        "WHO Director-General Tedros Adhanom Ghebreyesus visited Bunia in Ituri province to inaugurate a treatment center and meet with officials",
+        "Trump administration building quarantine facility in Kenya for Americans rather than allowing them to return to the US; green card holders from DRC, Uganda, and South Sudan banned from entering US"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized impact of Western aid cuts on outbreak response capacity",
+          "url": "https://www.theguardian.com/us-news/2026/may/27/trump-administration-ebola-quarantine-kenya"
+        },
+        {
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Provided detailed operational information and NATO/EU reactions",
-          "url": "#"
+          "framing_note": "Focused on MSF warnings and scale of outbreak",
+          "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Highlighted WHO chief's visit and community engagement efforts",
+          "url": "https://www.rfi.fr/en/france/20260530-french-singer-patrick-bruel-cancels-slew-of-concerts-over-rape-allegations"
+        }
+      ]
+    },
+    {
+      "headline": "Russian Drone Strikes Residential Building in Romanian NATO Member State",
+      "category": "Conflict",
+      "bullets": [
+        "Attack drone hit apartment building in Galati, Romania early Friday morning while residents slept, punching hole in roof",
+        "Woman and teenage son hospitalized with bruises and minor burns; building damage limited because drone struck lift shaft",
+        "Residents express frustration that Romania's air force could not intercept the drone despite advance warning alerts",
+        "Incident highlights growing danger to NATO countries bordering Ukraine from Russian drone attacks"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on resident experiences and NATO protection concerns",
+          "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Duplicate coverage with identical framing",
-          "url": "https://www.bbc.com/sport/tennis/articles/clypv6819xyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": null,
+          "url": "https://www.bbc.com/news/articles/c1l2y7j7454o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "WHO Reports 30-50% Death Rate in DRC Ebola Outbreak as Director Arrives Amid Aid Concerns",
-      "category": "Policy",
+      "headline": "Japan Rejects China's 'New Militarism' Accusations at Singapore Security Summit",
+      "category": "Geopolitics",
       "bullets": [
-        "The WHO revised the Ebola death rate estimate to 30-50% based on confirmed cases, with 10 confirmed and 223 suspected deaths among over 1,000 confirmed and suspected cases",
-        "WHO Director-General Tedros Adhanom Ghebreyesus arrived in Kinshasa and called for an immediate ceasefire in eastern DRC to facilitate outbreak response",
-        "Uganda closed its border with DRC for four weeks; the virus has spread from Ituri province to other regions including the Ugandan capital Kampala",
-        "The outbreak is the first major Ebola crisis since Western aid cuts, with experts warning rapid response infrastructure has been significantly weakened"
+        "Japanese Defence Minister Shinjiro Koizumi rejected Beijing's accusations of 'new militarism' at Shangri-La Dialogue",
+        "Koizumi pointed to China's nuclear arsenal and military expansion as 'serious concern' to international community",
+        "Japan has set defense spending records for 12 consecutive years, with latest budget exceeding $57 billion",
+        "China's defense ministry had warned days earlier that 'the grey rhino of a remilitarised Japan is gathering speed'"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized the impact of Western aid cuts on response capacity and used 'catastrophic collision' language",
-          "url": "https://www.theguardian.com/world/2026/may/27/who-chief-tedros-calls-for-drc-ceasefire-ebola"
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provided historical context of WWII tensions",
+          "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "The Guardian",
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Article paywalled",
+          "url": "https://www.ft.com/content/ca3d9345-7f22-42f6-897d-d4b3f31acff7"
+        },
+        {
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Second article focused specifically on US quarantine facility in Kenya rather than bringing Americans home",
-          "url": "https://www.theguardian.com/world/2026/may/27/who-chief-tedros-calls-for-drc-ceasefire-ebola"
+          "framing_note": "Emphasized Japan's pivot under PM Takaichi and Taiwan intervention comments",
+          "url": "https://www.thehindu.com/news/international/japan-defence-chief-takes-swipe-at-china-at-security-meet/article71043857.ece"
         }
       ]
     },
     {
-      "headline": "US Demands 50% American Content in North American Autos as USMCA Renegotiations Begin",
-      "category": "Economics",
+      "headline": "Israel Captures Beaufort Castle in Deepest Lebanon Incursion in 26 Years",
+      "category": "Conflict",
       "bullets": [
-        "US negotiators demanded at least 50% US content in vehicles made under USMCA to qualify for preferential tariffs, with overall North American content at 82%",
-        "Current USMCA rules require 75% North American content with no specific US content provision",
-        "Bilateral US-Mexico talks began in Mexico City this week, with two additional rounds planned that do not include Canada",
-        "Canadian Intergovernmental Affairs Minister Dominic LeBlanc is planning a trip to Washington as early as next week"
+        "Israeli forces captured strategic medieval Beaufort Castle near Nabatiyeh in southern Lebanon after days of intense fighting",
+        "Capture represents Israel's deepest ground incursion into Lebanon since withdrawal in 2000",
+        "Israeli military announced forces are 'expanding to additional areas' in Lebanon; one soldier killed by Hezbollah drone",
+        "25 Israelis killed since hostilities resumed March 2 when Hezbollah reopened front following Israeli-US strikes on Iran"
       ],
       "sources": [
         {
-          "name": "Globe and Mail",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Framed as 'firing the opening salvo' in a battle over continental trade; noted Canada's exclusion from bilateral talks",
-          "url": "https://www.theglobeandmail.com/sports/football/article-giants-abdul-carter-felt-the-need-to-call-out-jaxson-dart-to-show-he/"
+          "framing_note": "Provided liveblog format with multiple updates",
+          "url": "https://www.france24.com/en/video/20260530-champions-league-final-psg-s-players-and-fans-kept-on-believing"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Noted direct talks between Israel and Lebanon occurring in Washington simultaneously",
+          "url": "https://www.thehindu.com/news/international/japan-defence-chief-takes-swipe-at-china-at-security-meet/article71043857.ece"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Hezbollah rocket attacks on northern Israel beaches",
+          "url": "https://www.aljazeera.com/sports/2026/5/31/wembanyamas-spurs-dethrone-thunder-to-reach-nba-finals-against-knicks?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Over 400 Arrested Across France Following Violent PSG Champions League Celebrations",
+      "category": "Society",
+      "bullets": [
+        "416 people detained nationwide including 283 in Paris after PSG defeated Arsenal on penalties to retain Champions League title",
+        "22,000 police deployed across France including 8,000 in Paris; tram lines halted and metro stations closed preventatively",
+        "Seven police officers injured; six vehicles, two businesses, and bus shelter damaged; fans stormed Paris ring road with flares",
+        "Interior Minister Nunez called unrest 'absolutely unacceptable'; authorities better prepared than last year when celebrations turned deadly"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Noted last year's celebrations turned deadly",
+          "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Detailed police deployment numbers and preventive measures",
+          "url": "https://www.rfi.fr/en/france/20260530-french-singer-patrick-bruel-cancels-slew-of-concerts-over-rape-allegations"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Similar factual coverage",
+          "url": "https://www.france24.com/en/video/20260530-champions-league-final-psg-s-players-and-fans-kept-on-believing"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": null,
+          "url": "https://www.aljazeera.com/sports/2026/5/31/wembanyamas-spurs-dethrone-thunder-to-reach-nba-finals-against-knicks?traffic_source=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Defense Secretary Hegseth reassures Asian allies of US commitment at Shangri-La Dialogue while urging increased defense spending",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/articles/c5ye34k7yejo"
+      "headline": "Death toll from Washington state chemical plant implosion rises to 11 as all missing workers recovered",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/us-chemical-spill-death-casualty-on-may-31/article71044100.ece"
     },
     {
-      "headline": "First of five men trapped in flooded Laos cave for over a week rescued by Thai dive team",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/articles/cvgzxjrkvn8o"
-    },
-    {
-      "headline": "French philosopher and 'cinema v\u00e9rit\u00e9' pioneer Edgar Morin dies at 104",
+      "headline": "San Antonio Spurs defeat Oklahoma City Thunder to reach NBA Finals, with Victor Wembanyama scoring 22 points",
       "source": "France 24",
-      "url": "https://www.france24.com/en/live-news/20260530-edgar-morin-france-s-intellectual-grandfather-dies-at-104"
+      "url": "https://www.france24.com/en/sport/20260531-wembanyama-within-sight-of-childhood-dream-after-spurs-stun-thunder"
     },
     {
-      "headline": "Malta holds parliamentary elections with Labour government expected to win historic fourth consecutive term",
+      "headline": "Australia to receive only used nuclear submarines from US under amended AUKUS deal, defense minister calls it 'cost-effective'",
       "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260530-malta-parliamentary-elections-begin-as-ruling-party-set-to-win"
+      "url": "https://www.france24.com/en/australia/20260531-australia-to-receive-only-used-nuclear-submarines-from-us-in-amended-defence-deal"
     },
     {
-      "headline": "Trump administration selects nuclear startups to use Cold War-era military plutonium for small modular reactors",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260530-why-does-trump-want-to-transfer-cold-war-era-plutonium-to-nuclear-start-ups"
+      "headline": "Trump claims Iran has agreed to no nuclear weapons development amid reports he sent back 'tougher' peace proposal",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/trump-says-iran-has-agreed-to-no-nuclear-weapons/article71044082.ece"
     },
     {
-      "headline": "Paris Saint-Germain faces Arsenal in Champions League final in Budapest as defending champions",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/sport/20260530-decided-on-moments-psg-arsenal-in-knife-edge-champions-league-final"
+      "headline": "Italy bans Kanye West and Travis Scott concerts over security concerns following Jewish community request",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo"
     },
     {
-      "headline": "France opens investigation into alleged sexual violence and abuse of nationals detained on Gaza flotilla",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/international/20260529-france-to-investigate-treatment-of-nationals-on-gaza-flotilla-after-reports-of-abuse"
+      "headline": "US demands 50% American content requirement for North American autos in USMCA renegotiation talks with Mexico",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-us-mexico-auto-demands-usmca-talks-canada/"
     },
     {
-      "headline": "Dormitory fire at Kenyan girls' school kills at least 16 students in Nakuru County",
+      "headline": "Dormitory fire at Kenyan girls' school kills at least 16 students; survivors report student lit mattress with match",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/may/28/dormitory-fire-at-kenya-school-students-utumishi-girls-academy-gilgil"
     },
     {
-      "headline": "Israeli forces cross Litani River in Lebanon as Hezbollah fires rockets at northern Israeli town",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260530-middle-east-live-pentagon-chief-says-us-more-than-capable-of-restarting-war-with-iran"
+      "headline": "Ardern documentary 'Prime Minister' wins top prize at 2026 News & Documentary Emmy Awards",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/life/screens/movies/ardern-documentary-prime-minister-wins-emmy-award"
     },
     {
-      "headline": "Canadian Kenneth Law pleads guilty to 14 counts of aiding suicides after selling toxic chemicals online to 40 countries",
-      "source": "BBC",
-      "url": "https://www.bbc.com/news/articles/c70vg7glglyo"
+      "headline": "Trump to headline America's 250th anniversary celebration after musical artists drop out over event's ties to president",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-great-american-state-fair-250th-anniversary/"
     }
   ]
 }
