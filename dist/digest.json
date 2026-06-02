@@ -1,203 +1,202 @@
 {
-  "date": "Sunday, May 31, 2026",
-  "daily_brief": "The Ebola outbreak in the Democratic Republic of Congo continues to dominate global health concerns, with the WHO reporting a 30-50% mortality rate among confirmed cases and over 1,000 suspected infections two weeks after declaration [BBC, Guardian, RFI]. MSF has warned this is the fastest-spreading Ebola outbreak on record, while WHO Director-General Tedros visited Ituri province to oversee containment efforts complicated by ongoing conflict and Western aid cuts. In European security developments, a Russian drone struck a residential building in the Romanian city of Galati, injuring two civilians and raising concerns about NATO's air defense capabilities along Ukraine's border [BBC]. At the Shangri-La Dialogue in Singapore, Japan's Defence Minister Koizumi firmly rejected Chinese accusations of 'new militarism,' pointing to China's own nuclear arsenal and military expansion [BBC, Financial Times, The Hindu]. Israel announced its deepest incursion into Lebanon in over 25 years, capturing the strategic Beaufort Castle near Nabatiyeh as fighting with Hezbollah intensifies [France 24, The Hindu]. In Paris, over 400 people were detained following violent celebrations of PSG's Champions League victory over Arsenal, with 22,000 police deployed across France after similar unrest last year [BBC, RFI, France 24, Al Jazeera].",
+  "date": "Tuesday, June 02, 2026",
+  "daily_brief": "Russia launched one of its largest aerial assaults on Ukraine in months overnight, killing at least 16 civilians across multiple cities including Kyiv and Dnipro with 656 drones and 73 missiles targeting civilian and energy infrastructure [BBC, Globe and Mail, The Hindu]. President Zelensky urgently appealed for additional US Patriot missile supplies. Meanwhile, fragile diplomatic efforts continue in the Middle East: despite President Trump announcing that Israel and Hezbollah had agreed to cease hostilities, clashes persisted in southern Lebanon overnight, with both sides exchanging fire [BBC, France 24, The Hindu]. Reports emerged of Trump-Netanyahu tensions over the arrangement's implementation. In technology, AI firm Anthropic filed for an IPO at a valuation approaching $1 trillion [France 24], while SoftBank announced \u20ac75 billion in AI infrastructure investment in France at the Choose France summit [RFI]. Denmark's Mette Frederiksen secured a third term as prime minister after months of coalition negotiations, forming a centre-left minority government amid ongoing US pressure over Greenland [BBC]. In East Africa, Kenya's proposed US Ebola quarantine facility sparked deadly protests in Nanyuki, with two people killed and courts ordering disclosure of facility details [BBC, Al Jazeera].",
   "top_stories": [
     {
-      "headline": "Ebola Outbreak in DRC Becomes Fastest-Spreading on Record as WHO Chief Visits Epicenter",
+      "headline": "Russia Launches Massive Overnight Strike on Ukrainian Cities, Killing at Least 16",
       "category": "Conflict",
       "bullets": [
-        "WHO reports 30-50% death rate among confirmed Ebola cases, with over 1,000 suspected cases and at least 246 deaths two weeks after outbreak declaration",
-        "MSF warns this is the fastest-spreading Ebola outbreak ever recorded, with the response 'not yet caught up to the rapid spread'",
-        "WHO Director-General Tedros Adhanom Ghebreyesus visited Bunia in Ituri province to inaugurate a treatment center and meet with officials",
-        "Trump administration building quarantine facility in Kenya for Americans rather than allowing them to return to the US; green card holders from DRC, Uganda, and South Sudan banned from entering US"
+        "Russia fired 656 drones and 73 missiles (ballistic, cruise, and anti-ship) at cities across Ukraine, killing at least 16 people including two children",
+        "Dnipro suffered 11 deaths including an 8-year-old boy; Kyiv reported 5 deaths with a 24-storey apartment building collapse trapping residents",
+        "Russia's defence ministry said strikes targeted civilian infrastructure and energy facilities as retaliation for Ukrainian attacks on occupied territory",
+        "President Zelensky urgently called for US Patriot missile supplies, noting shortages exacerbated by the US-Israeli war against Iran"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized impact of Western aid cuts on outbreak response capacity",
-          "url": "https://www.theguardian.com/us-news/2026/may/27/trump-administration-ebola-quarantine-kenya"
-        },
-        {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on MSF warnings and scale of outbreak",
-          "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed casualty reporting with Zelensky quotes on need for Western support",
+          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RFI English",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Highlighted WHO chief's visit and community engagement efforts",
-          "url": "https://www.rfi.fr/en/france/20260530-french-singer-patrick-bruel-cancels-slew-of-concerts-over-rape-allegations"
+          "framing_note": "Emphasized days of Russian warnings and foreign diplomats ignoring evacuation calls",
+          "url": "https://www.theglobeandmail.com/world/article-five-dead-dozens-wounded-as-russia-launches-major-attack-across/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Ukrainian Foreign Minister calling Putin a 'war criminal and loser'",
+          "url": "https://www.thehindu.com/news/international/russia-ukraine-war-missile-attack-on-kyiv-deaths-injuries-june-2-2026/article71051018.ece"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Focused on Putin facing setbacks and discontent in Russia",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/06/02/french-government-restricts-israel-s-official-participation-in-the-eurosatory-defense-trade-show_6754035_19.html"
         }
       ]
     },
     {
-      "headline": "Russian Drone Strikes Residential Building in Romanian NATO Member State",
-      "category": "Conflict",
+      "headline": "Israel-Hezbollah Clashes Continue Despite Trump-Brokered Partial Ceasefire Agreement",
+      "category": "Geopolitics",
       "bullets": [
-        "Attack drone hit apartment building in Galati, Romania early Friday morning while residents slept, punching hole in roof",
-        "Woman and teenage son hospitalized with bruises and minor burns; building damage limited because drone struck lift shaft",
-        "Residents express frustration that Romania's air force could not intercept the drone despite advance warning alerts",
-        "Incident highlights growing danger to NATO countries bordering Ukraine from Russian drone attacks"
+        "President Trump announced Israel and Hezbollah agreed to stop fighting after he spoke with both sides; Lebanon confirmed Hezbollah accepted US proposal for mutual cessation of attacks",
+        "Israeli PM Netanyahu confirmed agreement but warned strikes on Beirut would continue if Hezbollah attacks persist; Israeli forces would still operate in south Lebanon",
+        "Overnight clashes continued with Hezbollah targeting Israeli tanks and Israel intercepting two projectiles from Lebanon",
+        "Axios reported Trump called Netanyahu 'crazy' and accused him of putting Iran peace talks at risk"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on resident experiences and NATO protection concerns",
-          "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Factual reporting on ceasefire terms and ongoing violations",
+          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized Trump-Netanyahu tensions and 'crazy' comment from Axios report",
+          "url": "https://www.france24.com/en/tv-shows/business/20260602-ai-startup-anthropic-files-for-ipo-after-reaching-965-billion-valuation"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Detailed diplomatic process through Lebanese president's office",
+          "url": "https://www.thehindu.com/news/international/russia-ukraine-war-missile-attack-on-kyiv-deaths-injuries-june-2-2026/article71051018.ece"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Framed as Trump weakening Netanyahu by forcing delay of Beirut attack",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/06/02/french-government-restricts-israel-s-official-participation-in-the-eurosatory-defense-trade-show_6754035_19.html"
+        }
+      ]
+    },
+    {
+      "headline": "Two Killed in Kenya Protests Against US Ebola Quarantine Facility",
+      "category": "Society",
+      "bullets": [
+        "Two people died from gunshot wounds during protests in Nanyuki against a planned 50-bed US Ebola isolation centre at nearby Laikipia Airbase",
+        "The facility would treat US citizens affected by the DRC Ebola outbreak; Kenya has recorded no cases",
+        "High Court extended orders halting the facility and ordered the government to disclose agreement details, health assessments, and protocols",
+        "President Ruto defended the plan, saying Kenya had 'deployed every arsenal' to protect the country"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed on-ground reporting of deaths and protest circumstances",
+          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized court orders requiring government transparency on facility details",
+          "url": "https://www.aljazeera.com/sports/2026/6/2/france-world-cup-2026-preview-players-to-watch-group-matches-and-squad?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic Files for IPO at Nearly $1 Trillion Valuation Amid AI Investment Surge",
+      "category": "Technology",
+      "bullets": [
+        "Anthropic, maker of AI assistant Claude, submitted confidential IPO filing to the SEC and could debut on markets by year-end",
+        "The company is valued at approximately $965 billion, making it one of the largest tech IPOs in history",
+        "Filing comes as SoftBank announced \u20ac75 billion AI infrastructure investment in France at Choose France summit",
+        "France secured total of \u20ac93 billion in foreign investment pledges with AI and data centres accounting for bulk of commitments"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Straightforward business reporting on valuation and timeline",
+          "url": "https://www.france24.com/en/tv-shows/business/20260602-ai-startup-anthropic-files-for-ipo-after-reaching-965-billion-valuation"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Contextualized within broader Choose France summit and Macron's economic strategy",
+          "url": "https://www.rfi.fr/en/international/20260601-court-rejects-rwanda-%E2%82%AC115mn-claim-against-britain-over-migrant-deal"
+        }
+      ]
+    },
+    {
+      "headline": "Denmark's Frederiksen Forms Coalition Government After Months of Negotiations",
+      "category": "Policy",
+      "bullets": [
+        "Social Democrat leader Mette Frederiksen will form centre-left minority coalition with Socialist People's Party, Radikale Venstre, and Moderates",
+        "Coalition follows inconclusive March election where Social Democrats won most votes but their weakest result since 1903 (21.9%, 38 seats)",
+        "Frederiksen secures third term as prime minister amid ongoing US pressure over Greenland",
+        "New cabinet to be presented Wednesday after meeting with King Frederik X"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized Trump's Greenland ambitions as context for coalition timing",
+          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
           "framing_note": null,
-          "url": "https://www.bbc.com/news/articles/c1l2y7j7454o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Japan Rejects China's 'New Militarism' Accusations at Singapore Security Summit",
-      "category": "Geopolitics",
-      "bullets": [
-        "Japanese Defence Minister Shinjiro Koizumi rejected Beijing's accusations of 'new militarism' at Shangri-La Dialogue",
-        "Koizumi pointed to China's nuclear arsenal and military expansion as 'serious concern' to international community",
-        "Japan has set defense spending records for 12 consecutive years, with latest budget exceeding $57 billion",
-        "China's defense ministry had warned days earlier that 'the grey rhino of a remilitarised Japan is gathering speed'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided historical context of WWII tensions",
-          "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Article paywalled",
-          "url": "https://www.ft.com/content/ca3d9345-7f22-42f6-897d-d4b3f31acff7"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Japan's pivot under PM Takaichi and Taiwan intervention comments",
-          "url": "https://www.thehindu.com/news/international/japan-defence-chief-takes-swipe-at-china-at-security-meet/article71043857.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Israel Captures Beaufort Castle in Deepest Lebanon Incursion in 26 Years",
-      "category": "Conflict",
-      "bullets": [
-        "Israeli forces captured strategic medieval Beaufort Castle near Nabatiyeh in southern Lebanon after days of intense fighting",
-        "Capture represents Israel's deepest ground incursion into Lebanon since withdrawal in 2000",
-        "Israeli military announced forces are 'expanding to additional areas' in Lebanon; one soldier killed by Hezbollah drone",
-        "25 Israelis killed since hostilities resumed March 2 when Hezbollah reopened front following Israeli-US strikes on Iran"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Provided liveblog format with multiple updates",
-          "url": "https://www.france24.com/en/video/20260530-champions-league-final-psg-s-players-and-fans-kept-on-believing"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Noted direct talks between Israel and Lebanon occurring in Washington simultaneously",
-          "url": "https://www.thehindu.com/news/international/japan-defence-chief-takes-swipe-at-china-at-security-meet/article71043857.ece"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Hezbollah rocket attacks on northern Israel beaches",
-          "url": "https://www.aljazeera.com/sports/2026/5/31/wembanyamas-spurs-dethrone-thunder-to-reach-nba-finals-against-knicks?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Over 400 Arrested Across France Following Violent PSG Champions League Celebrations",
-      "category": "Society",
-      "bullets": [
-        "416 people detained nationwide including 283 in Paris after PSG defeated Arsenal on penalties to retain Champions League title",
-        "22,000 police deployed across France including 8,000 in Paris; tram lines halted and metro stations closed preventatively",
-        "Seven police officers injured; six vehicles, two businesses, and bus shelter damaged; fans stormed Paris ring road with flares",
-        "Interior Minister Nunez called unrest 'absolutely unacceptable'; authorities better prepared than last year when celebrations turned deadly"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Noted last year's celebrations turned deadly",
-          "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Detailed police deployment numbers and preventive measures",
-          "url": "https://www.rfi.fr/en/france/20260530-french-singer-patrick-bruel-cancels-slew-of-concerts-over-rape-allegations"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Similar factual coverage",
-          "url": "https://www.france24.com/en/video/20260530-champions-league-final-psg-s-players-and-fans-kept-on-believing"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": null,
-          "url": "https://www.aljazeera.com/sports/2026/5/31/wembanyamas-spurs-dethrone-thunder-to-reach-nba-finals-against-knicks?traffic_source=rss"
+          "url": "https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Death toll from Washington state chemical plant implosion rises to 11 as all missing workers recovered",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/us-chemical-spill-death-casualty-on-may-31/article71044100.ece"
-    },
-    {
-      "headline": "San Antonio Spurs defeat Oklahoma City Thunder to reach NBA Finals, with Victor Wembanyama scoring 22 points",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/sport/20260531-wembanyama-within-sight-of-childhood-dream-after-spurs-stun-thunder"
-    },
-    {
-      "headline": "Australia to receive only used nuclear submarines from US under amended AUKUS deal, defense minister calls it 'cost-effective'",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/australia/20260531-australia-to-receive-only-used-nuclear-submarines-from-us-in-amended-defence-deal"
-    },
-    {
-      "headline": "Trump claims Iran has agreed to no nuclear weapons development amid reports he sent back 'tougher' peace proposal",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/trump-says-iran-has-agreed-to-no-nuclear-weapons/article71044082.ece"
-    },
-    {
-      "headline": "Italy bans Kanye West and Travis Scott concerts over security concerns following Jewish community request",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo"
-    },
-    {
-      "headline": "US demands 50% American content requirement for North American autos in USMCA renegotiation talks with Mexico",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-us-mexico-auto-demands-usmca-talks-canada/"
-    },
-    {
-      "headline": "Dormitory fire at Kenyan girls' school kills at least 16 students; survivors report student lit mattress with match",
+      "headline": "Ghana passes sweeping law criminalising LGBTQ+ activity with 3-10 year prison sentences, prompting community fears",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/may/28/dormitory-fire-at-kenya-school-students-utumishi-girls-academy-gilgil"
+      "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity"
     },
     {
-      "headline": "Ardern documentary 'Prime Minister' wins top prize at 2026 News & Documentary Emmy Awards",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/life/screens/movies/ardern-documentary-prime-minister-wins-emmy-award"
+      "headline": "Five Mozambicans killed in xenophobic attacks in South Africa's Mossel Bay, prompting repatriation of hundreds",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jun/02/mozambique-citizens-killed-xenophobic-attacks-south-africa"
     },
     {
-      "headline": "Trump to headline America's 250th anniversary celebration after musical artists drop out over event's ties to president",
+      "headline": "Hungary's new PM Peter Magyar moves to oust Orb\u00e1n-era president Tam\u00e1s Sulyok through constitutional amendment",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c3w2vdd6jj3o"
+    },
+    {
+      "headline": "UK wins international arbitration case, will not pay Rwanda \u00a3100m over failed asylum deportation scheme",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/uk-news/2026/jun/01/uk-will-not-pay-rwanda-over-failed-asylum-scheme"
+    },
+    {
+      "headline": "Myanmar president Min Aung Hlaing makes first foreign visit to India, meeting PM Modi on trade and border security",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/ckgplnj1wexo"
+    },
+    {
+      "headline": "WHO Director-General visits DRC as Ebola outbreak reaches 321 confirmed cases, calls for community cooperation",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/may/31/who-calls-for-community-cooperation-to-contain-drc-ebola-outbreak"
+    },
+    {
+      "headline": "Gulf states arrested over 1,000 people for Iran war-related social media posts, Amnesty International reports",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260602-gulf-states-arrested-over-1-000-for-iran-war-social-media-posts-amnesty"
+    },
+    {
+      "headline": "French astronauts Thomas Pesquet and Arnaud Prost set for 2027 space missions including first crewed visit to commercial station",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/france/20260602-french-astronauts-set-for-2027-voyages-to-iss-and-first-commercial-space-station"
+    },
+    {
+      "headline": "SK Hynix announces plans to double wafer capacity within five years to meet surging AI chip demand",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/chipmaker-sk-hynix-to-double-wafer-capacity-in-5-years-to-meet-ai-demand"
+    },
+    {
+      "headline": "Trump signs proclamation adjusting Section 232 tariffs on steel, aluminum and copper derivative products",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-great-american-state-fair-250th-anniversary/"
+      "url": "https://www.theglobeandmail.com/world/article-trump-signs-proclamation-amending-tariffs-on-steel-aluminum-and-copper/"
     }
   ]
 }
