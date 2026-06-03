@@ -1,202 +1,208 @@
 {
-  "date": "Tuesday, June 02, 2026",
-  "daily_brief": "Russia launched one of its largest aerial assaults on Ukraine in months overnight, killing at least 16 civilians across multiple cities including Kyiv and Dnipro with 656 drones and 73 missiles targeting civilian and energy infrastructure [BBC, Globe and Mail, The Hindu]. President Zelensky urgently appealed for additional US Patriot missile supplies. Meanwhile, fragile diplomatic efforts continue in the Middle East: despite President Trump announcing that Israel and Hezbollah had agreed to cease hostilities, clashes persisted in southern Lebanon overnight, with both sides exchanging fire [BBC, France 24, The Hindu]. Reports emerged of Trump-Netanyahu tensions over the arrangement's implementation. In technology, AI firm Anthropic filed for an IPO at a valuation approaching $1 trillion [France 24], while SoftBank announced \u20ac75 billion in AI infrastructure investment in France at the Choose France summit [RFI]. Denmark's Mette Frederiksen secured a third term as prime minister after months of coalition negotiations, forming a centre-left minority government amid ongoing US pressure over Greenland [BBC]. In East Africa, Kenya's proposed US Ebola quarantine facility sparked deadly protests in Nanyuki, with two people killed and courts ordering disclosure of facility details [BBC, Al Jazeera].",
+  "date": "Wednesday, June 03, 2026",
+  "daily_brief": "Escalating hostilities between the US and Iran dominated headlines Wednesday, with Iranian drones striking Kuwait's international airport and killing one person, while US forces conducted retaliatory strikes on Iran's Qeshm Island and intercepted missiles targeting Bahrain and Kuwait [BBC World], [France 24], [Le Monde]. The OECD warned of a 'dark scenario' if the Gulf energy crisis persists [Financial Times]. Meanwhile, Russia launched one of its deadliest attacks on Ukraine in months, killing at least 22 civilians across Kyiv, Dnipro, and other cities with a barrage of 656 drones and 73 missiles [BBC Europe], [Globe and Mail]. Ukraine responded with drone strikes on St Petersburg's oil terminal during Putin's economic forum [ABC Australia]. In Europe, the EU unveiled an ambitious technology sovereignty strategy aimed at reducing dependence on US and Asian suppliers [RFI English], [Le Monde], while also reaching agreement on new migration rules permitting 'return hubs' outside the bloc [RFI English]. The Ebola outbreak in DRC and Uganda continues to generate international concern, with 60 deaths reported and controversy erupting over US plans for a quarantine facility in Kenya [The Guardian], [Le Monde].",
   "top_stories": [
     {
-      "headline": "Russia Launches Massive Overnight Strike on Ukrainian Cities, Killing at Least 16",
+      "headline": "US and Iran Exchange Strikes as Gulf Hostilities Intensify; Kuwait Airport Hit",
       "category": "Conflict",
       "bullets": [
-        "Russia fired 656 drones and 73 missiles (ballistic, cruise, and anti-ship) at cities across Ukraine, killing at least 16 people including two children",
-        "Dnipro suffered 11 deaths including an 8-year-old boy; Kyiv reported 5 deaths with a 24-storey apartment building collapse trapping residents",
-        "Russia's defence ministry said strikes targeted civilian infrastructure and energy facilities as retaliation for Ukrainian attacks on occupied territory",
-        "President Zelensky urgently called for US Patriot missile supplies, noting shortages exacerbated by the US-Israeli war against Iran"
+        "Iranian drones struck Kuwait's international airport and other infrastructure, killing one person and injuring several others, according to Kuwait's foreign ministry",
+        "US Central Command said it conducted 'self-defence' strikes on Iran's Qeshm Island targeting a military ground control station, and intercepted Iranian missiles fired at Kuwait and Bahrain",
+        "Iran claimed it attacked US bases and helicopters in a 'regional country' using missiles and drones in retaliation",
+        "The escalation comes as US-Iran diplomatic talks show little sign of progress, with the OECD warning of economic consequences if the crisis continues"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed casualty reporting with Zelensky quotes on need for Western support",
-          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed factual account emphasizing both sides' military actions",
+          "url": "https://www.bbc.com/news/articles/cdrp8v7407ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief coverage noting stalled peace talks",
+          "url": "https://www.france24.com/en/frederiksen-to-remain-denmark-s-pm-leading-centre-left-coalition-government"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article inaccessible but headline confirms US claims of thwarting attacks",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/03/us-says-thwarts-iranian-missile-and-drone-attacks-after-strikes-on-target-in-strait-of-hormuz_6754071_4.html"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized days of Russian warnings and foreign diplomats ignoring evacuation calls",
-          "url": "https://www.theglobeandmail.com/world/article-five-dead-dozens-wounded-as-russia-launches-major-attack-across/"
+          "framing_note": "Emphasized diplomatic stalemate",
+          "url": "https://www.theglobeandmail.com/world/article-usmca-renewal-leblanc-canada-us-mexico/"
         },
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Ukrainian Foreign Minister calling Putin a 'war criminal and loser'",
-          "url": "https://www.thehindu.com/news/international/russia-ukraine-war-missile-attack-on-kyiv-deaths-injuries-june-2-2026/article71051018.ece"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Focused on Putin facing setbacks and discontent in Russia",
-          "url": "https://www.lemonde.fr/en/economy/article/2026/06/02/french-government-restricts-israel-s-official-participation-in-the-eurosatory-defense-trade-show_6754035_19.html"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on economic implications with OECD warning",
+          "url": "https://www.ft.com/content/c9d562d6-1448-4a40-8198-0cb1f0dc2032"
         }
       ]
     },
     {
-      "headline": "Israel-Hezbollah Clashes Continue Despite Trump-Brokered Partial Ceasefire Agreement",
-      "category": "Geopolitics",
+      "headline": "Russia Launches Massive Strike on Ukraine, Killing at Least 22 Civilians",
+      "category": "Conflict",
       "bullets": [
-        "President Trump announced Israel and Hezbollah agreed to stop fighting after he spoke with both sides; Lebanon confirmed Hezbollah accepted US proposal for mutual cessation of attacks",
-        "Israeli PM Netanyahu confirmed agreement but warned strikes on Beirut would continue if Hezbollah attacks persist; Israeli forces would still operate in south Lebanon",
-        "Overnight clashes continued with Hezbollah targeting Israeli tanks and Israel intercepting two projectiles from Lebanon",
-        "Axios reported Trump called Netanyahu 'crazy' and accused him of putting Iran peace talks at risk"
+        "Russia fired 656 drones and 73 missiles at Ukrainian cities including Kyiv and Dnipro in one of its largest overnight assaults in months",
+        "At least 22 people were killed including children, with 16 deaths in Dnipro alone where residential buildings were struck",
+        "Ukraine's air force intercepted over 90% of drones and most cruise missiles but only 11 of 33 Iskander-M ballistic missiles",
+        "The Kremlin described the attacks as 'systematic strikes' in response to Ukrainian attacks, pledging continuation"
       ],
       "sources": [
         {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Emphasized civilian toll and included ground-level reporting from affected neighborhoods",
+          "url": "https://www.bbc.com/sport/tennis/articles/clypkqpe3d2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Contextualized strikes as part of pattern when Russian military is struggling",
+          "url": "https://www.theglobeandmail.com/world/article-usmca-renewal-leblanc-canada-us-mexico/"
+        },
+        {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Factual reporting on ceasefire terms and ongoing violations",
-          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized Trump-Netanyahu tensions and 'crazy' comment from Axios report",
-          "url": "https://www.france24.com/en/tv-shows/business/20260602-ai-startup-anthropic-files-for-ipo-after-reaching-965-billion-valuation"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Detailed diplomatic process through Lebanese president's office",
-          "url": "https://www.thehindu.com/news/international/russia-ukraine-war-missile-attack-on-kyiv-deaths-injuries-june-2-2026/article71051018.ece"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Framed as Trump weakening Netanyahu by forcing delay of Beirut attack",
-          "url": "https://www.lemonde.fr/en/economy/article/2026/06/02/french-government-restricts-israel-s-official-participation-in-the-eurosatory-defense-trade-show_6754035_19.html"
+          "framing_note": "Included Ukrainian drone counterattack on bus in Russian-controlled territory",
+          "url": "https://www.bbc.com/news/articles/cdrp8v7407ro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Two Killed in Kenya Protests Against US Ebola Quarantine Facility",
-      "category": "Society",
-      "bullets": [
-        "Two people died from gunshot wounds during protests in Nanyuki against a planned 50-bed US Ebola isolation centre at nearby Laikipia Airbase",
-        "The facility would treat US citizens affected by the DRC Ebola outbreak; Kenya has recorded no cases",
-        "High Court extended orders halting the facility and ordered the government to disclose agreement details, health assessments, and protocols",
-        "President Ruto defended the plan, saying Kenya had 'deployed every arsenal' to protect the country"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed on-ground reporting of deaths and protest circumstances",
-          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized court orders requiring government transparency on facility details",
-          "url": "https://www.aljazeera.com/sports/2026/6/2/france-world-cup-2026-preview-players-to-watch-group-matches-and-squad?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Anthropic Files for IPO at Nearly $1 Trillion Valuation Amid AI Investment Surge",
+      "headline": "EU Unveils Major Strategy to Reduce Dependence on US and Asian Technology",
       "category": "Technology",
       "bullets": [
-        "Anthropic, maker of AI assistant Claude, submitted confidential IPO filing to the SEC and could debut on markets by year-end",
-        "The company is valued at approximately $965 billion, making it one of the largest tech IPOs in history",
-        "Filing comes as SoftBank announced \u20ac75 billion AI infrastructure investment in France at Choose France summit",
-        "France secured total of \u20ac93 billion in foreign investment pledges with AI and data centres accounting for bulk of commitments"
+        "European Commission to announce plan targeting 'technological sovereignty' with investment in homegrown chips, cloud computing, and AI",
+        "Over 80% of the EU's digital products, services, and infrastructure currently come from foreign providers",
+        "Package includes new laws on cloud computing and AI to triple EU data center capacity within 5-7 years",
+        "Initiative risks tensions with Washington, which has opposed EU regulations targeting US tech firms"
       ],
       "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Straightforward business reporting on valuation and timeline",
-          "url": "https://www.france24.com/en/tv-shows/business/20260602-ai-startup-anthropic-files-for-ipo-after-reaching-965-billion-valuation"
-        },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Contextualized within broader Choose France summit and Macron's economic strategy",
-          "url": "https://www.rfi.fr/en/international/20260601-court-rejects-rwanda-%E2%82%AC115mn-claim-against-britain-over-migrant-deal"
+          "framing_note": "Detailed coverage of specific measures including chips law and data center plans",
+          "url": "https://www.rfi.fr/en/france/20260602-france-bans-israeli-offensive-weapons-on-europe-s-largest-arms-trade-show"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article inaccessible but headline confirms focus on distancing from US and Asia",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/03/us-says-thwarts-iranian-missile-and-drone-attacks-after-strikes-on-target-in-strait-of-hormuz_6754071_4.html"
         }
       ]
     },
     {
-      "headline": "Denmark's Frederiksen Forms Coalition Government After Months of Negotiations",
-      "category": "Policy",
+      "headline": "Ukraine Strikes St Petersburg Oil Terminal as NATO Chief Visits Kyiv",
+      "category": "Conflict",
       "bullets": [
-        "Social Democrat leader Mette Frederiksen will form centre-left minority coalition with Socialist People's Party, Radikale Venstre, and Moderates",
-        "Coalition follows inconclusive March election where Social Democrats won most votes but their weakest result since 1903 (21.9%, 38 seats)",
-        "Frederiksen secures third term as prime minister amid ongoing US pressure over Greenland",
-        "New cabinet to be presented Wednesday after meeting with King Frederik X"
+        "Ukrainian drones hit an oil export terminal in St Petersburg hours before Putin's annual economic forum began",
+        "Leningrad region governor reported 59 drones shot down overnight; airport temporarily restricted operations",
+        "President Zelensky confirmed strikes on the fuel terminal and a military facility near Russia's second-largest city",
+        "NATO Secretary General Mark Rutte made an unannounced visit to Kyiv amid the escalating attacks"
       ],
       "sources": [
         {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Emphasized timing relative to Putin's economic showcase forum",
+          "url": "https://www.abc.net.au/news/2026-06-03/alice-springs-tangentyere-ceo-defends-town-camp-housing/106753260"
+        },
+        {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's Greenland ambitions as context for coalition timing",
-          "url": "https://www.bbc.com/news/articles/cn7p3e34x5no?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Covered within broader context of Russian strikes and counterclaims",
+          "url": "https://www.bbc.com/news/articles/cdrp8v7407ro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Ebola Outbreak Declared International Emergency; Controversy Over US Quarantine Plan in Kenya",
+      "category": "Society",
+      "bullets": [
+        "WHO declared the Bundibugyo Ebola outbreak a public health emergency of international concern, with 60 deaths and 344 confirmed cases in DRC, one death and nine cases in Uganda",
+        "Two people killed in Kenya during protests against US plan to establish an Ebola quarantine facility at Laikipia Air Base for American citizens",
+        "Nobel laureate Denis Mukwege warned the outbreak 'could become the deadliest ever'",
+        "DR Congo's football friendly against Chile in Spain cancelled by local authorities over health concerns"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Kenyan anger and accusations of double standards by US",
+          "url": "https://www.theguardian.com/world/2026/jun/01/wildfires-devastating-richer-areas-but-fewer-hectares-burned-globally-study"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Featured Mukwege warning about severity",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/03/us-says-thwarts-iranian-missile-and-drone-attacks-after-strikes-on-target-in-strait-of-hormuz_6754071_4.html"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Reported on Spanish mayor canceling football match as precautionary measure",
+          "url": "https://www.bbc.com/sport/tennis/articles/clypkqpe3d2o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ghana passes sweeping law criminalising LGBTQ+ activity with 3-10 year prison sentences, prompting community fears",
+      "headline": "Ghana passes sweeping law criminalizing LGBTQ+ activity with prison sentences of 3-10 years, sparking fear among community members",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity"
     },
     {
-      "headline": "Five Mozambicans killed in xenophobic attacks in South Africa's Mossel Bay, prompting repatriation of hundreds",
+      "headline": "Five Mozambican nationals killed in xenophobic attacks in South Africa as anti-migrant protests sweep the country",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jun/02/mozambique-citizens-killed-xenophobic-attacks-south-africa"
     },
     {
-      "headline": "Hungary's new PM Peter Magyar moves to oust Orb\u00e1n-era president Tam\u00e1s Sulyok through constitutional amendment",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c3w2vdd6jj3o"
-    },
-    {
-      "headline": "UK wins international arbitration case, will not pay Rwanda \u00a3100m over failed asylum deportation scheme",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/uk-news/2026/jun/01/uk-will-not-pay-rwanda-over-failed-asylum-scheme"
-    },
-    {
-      "headline": "Myanmar president Min Aung Hlaing makes first foreign visit to India, meeting PM Modi on trade and border security",
+      "headline": "Israel-Hezbollah partial ceasefire holds as Israel agrees not to bomb Beirut in exchange for Hezbollah not attacking Israel",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/ckgplnj1wexo"
+      "url": "https://www.bbc.com/news/articles/c936zvne0l6o"
     },
     {
-      "headline": "WHO Director-General visits DRC as Ebola outbreak reaches 321 confirmed cases, calls for community cooperation",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/may/31/who-calls-for-community-cooperation-to-contain-drc-ebola-outbreak"
-    },
-    {
-      "headline": "Gulf states arrested over 1,000 people for Iran war-related social media posts, Amnesty International reports",
+      "headline": "EU reaches deal on migration rules allowing 'return hubs' outside the bloc for deportees while advancing Western Balkans enlargement",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260602-gulf-states-arrested-over-1-000-for-iran-war-social-media-posts-amnesty"
+      "url": "https://www.rfi.fr/en/international/20260602-eu-tightens-migration-rules-eyes-strategic-enlargement-in-balkans"
     },
     {
-      "headline": "French astronauts Thomas Pesquet and Arnaud Prost set for 2027 space missions including first crewed visit to commercial station",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/france/20260602-french-astronauts-set-for-2027-voyages-to-iss-and-first-commercial-space-station"
-    },
-    {
-      "headline": "SK Hynix announces plans to double wafer capacity within five years to meet surging AI chip demand",
+      "headline": "Japan's fertility rate hits record low for tenth consecutive year with only 671,236 births in 2025",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/chipmaker-sk-hynix-to-double-wafer-capacity-in-5-years-to-meet-ai-demand"
+      "url": "https://asia.nikkei.com/economy/demography/japan-s-fertility-rate-at-record-low-10th-straight-year-of-decline"
     },
     {
-      "headline": "Trump signs proclamation adjusting Section 232 tariffs on steel, aluminum and copper derivative products",
+      "headline": "US Supreme Court allows Alabama to use pro-Republican congressional map eliminating one majority-Black district",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-trump-signs-proclamation-amending-tariffs-on-steel-aluminum-and-copper/"
+      "url": "https://www.theglobeandmail.com/world/article-us-supreme-court-clears-way-for-alabama-to-use-pro-republican-voting/"
+    },
+    {
+      "headline": "Fire at New Delhi hotel kills at least 21 people, including foreign medical tourists from African countries",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/6/3/fire-at-new-delhi-hotel-kills-at-least-21-people"
+    },
+    {
+      "headline": "France bans Israeli offensive weapons from Eurosatory defense exhibition, allowing only anti-ballistic and air defense systems",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260602-france-bans-israeli-offensive-weapons-on-europe-s-largest-arms-trade-show"
+    },
+    {
+      "headline": "US Trade Representative recommends new tariffs of up to 12.5% on 60 economies including China, Japan, and South Korea over forced labor concerns",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-floats-new-tariffs-on-60-economies-over-forced-labor-including-china"
+    },
+    {
+      "headline": "Hungary's new PM Peter Magyar meets Macron to discuss Ukraine support and European defense after defeating Viktor Orb\u00e1n",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260603-macron-to-meet-hungary-s-pm-magyar-to-discuss-ukraine-european-defence"
     }
   ]
 }
