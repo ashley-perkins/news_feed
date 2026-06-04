@@ -1,208 +1,196 @@
 {
-  "date": "Wednesday, June 03, 2026",
-  "daily_brief": "Escalating hostilities between the US and Iran dominated headlines Wednesday, with Iranian drones striking Kuwait's international airport and killing one person, while US forces conducted retaliatory strikes on Iran's Qeshm Island and intercepted missiles targeting Bahrain and Kuwait [BBC World], [France 24], [Le Monde]. The OECD warned of a 'dark scenario' if the Gulf energy crisis persists [Financial Times]. Meanwhile, Russia launched one of its deadliest attacks on Ukraine in months, killing at least 22 civilians across Kyiv, Dnipro, and other cities with a barrage of 656 drones and 73 missiles [BBC Europe], [Globe and Mail]. Ukraine responded with drone strikes on St Petersburg's oil terminal during Putin's economic forum [ABC Australia]. In Europe, the EU unveiled an ambitious technology sovereignty strategy aimed at reducing dependence on US and Asian suppliers [RFI English], [Le Monde], while also reaching agreement on new migration rules permitting 'return hubs' outside the bloc [RFI English]. The Ebola outbreak in DRC and Uganda continues to generate international concern, with 60 deaths reported and controversy erupting over US plans for a quarantine facility in Kenya [The Guardian], [Le Monde].",
+  "date": "Thursday, June 04, 2026",
+  "daily_brief": "The US House of Representatives passed a war powers resolution seeking to halt military action in Iran, with four Republicans joining Democrats in a 215-208 vote that marks growing bipartisan opposition to President Trump's conduct of the conflict [BBC, Globe and Mail, The Hindu]. Meanwhile, Israel and Lebanon announced a conditional ceasefire agreement following US-mediated talks in Washington, though Israeli Defense Minister Katz immediately stated military operations would continue in southern Lebanon, and strikes resumed Thursday morning [RFI, BBC, France 24, Le Monde, Financial Times]. In eastern DRC, rebel attacks by the Islamic State-affiliated ADF killed over 30 people near Beni, severely complicating the Ebola outbreak response that has now claimed 60 lives with 344 confirmed cases [The Guardian]. The WHO revealed the outbreak may have begun as early as January, giving it a 'big head start.' Germany suffered a setback at the UN, losing its Security Council bid to Portugal and Austria, with Foreign Minister Wadephul citing Russian opposition and Germany's support for Ukraine and Israel as factors [BBC, The Hindu]. Russia increased pressure on Armenia ahead of Sunday's parliamentary elections, threatening gas price hikes and trade restrictions as Yerevan pursues closer EU ties [France 24].",
   "top_stories": [
     {
-      "headline": "US and Iran Exchange Strikes as Gulf Hostilities Intensify; Kuwait Airport Hit",
-      "category": "Conflict",
+      "headline": "US House Passes War Powers Resolution to Halt Iran Conflict in Rebuke to Trump",
+      "category": "Geopolitics",
       "bullets": [
-        "Iranian drones struck Kuwait's international airport and other infrastructure, killing one person and injuring several others, according to Kuwait's foreign ministry",
-        "US Central Command said it conducted 'self-defence' strikes on Iran's Qeshm Island targeting a military ground control station, and intercepted Iranian missiles fired at Kuwait and Bahrain",
-        "Iran claimed it attacked US bases and helicopters in a 'regional country' using missiles and drones in retaliation",
-        "The escalation comes as US-Iran diplomatic talks show little sign of progress, with the OECD warning of economic consequences if the crisis continues"
+        "The House voted 215-208 to pass a resolution requiring Trump to withdraw forces from Iran or seek congressional approval, with four Republicans joining all Democrats",
+        "This marks the fourth House attempt to curb Trump's war powers and the first successful vote; the Senate advanced a similar resolution in May but has not held a full floor vote",
+        "Iran-US ceasefire talks remain stalled, with Tehran saying 'no tangible progress' was made while an Iranian drone struck Kuwait airport Wednesday, killing one person",
+        "The resolution is largely symbolic as Trump can veto it, but it signals growing bipartisan opposition amid high gas prices and public disapproval of the war"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed factual account emphasizing both sides' military actions",
-          "url": "https://www.bbc.com/news/articles/cdrp8v7407ro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized the political significance and divisions within the Republican Party",
+          "url": "https://www.bbc.com/news/articles/c0r2klj0nyxo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Brief coverage noting stalled peace talks",
-          "url": "https://www.france24.com/en/frederiksen-to-remain-denmark-s-pm-leading-centre-left-coalition-government"
+          "framing_note": "Focused on implications for US negotiating position with Iran and historical parallels to Vietnam",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-military-strike-boat-pacific/"
         },
         {
-          "name": "Le Monde",
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Article inaccessible but headline confirms US claims of thwarting attacks",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/03/us-says-thwarts-iranian-missile-and-drone-attacks-after-strikes-on-target-in-strait-of-hormuz_6754071_4.html"
+          "framing_note": "Highlighted the symbolic nature and linked to ongoing violence including Kuwait airport strike",
+          "url": "https://www.thehindu.com/news/international/portugal-austria-among-five-nations-elected-to-un-security-council-germany-suffers-setback/article71059897.ece"
         },
         {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized diplomatic stalemate",
-          "url": "https://www.theglobeandmail.com/world/article-usmca-renewal-leblanc-canada-us-mexico/"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on economic implications with OECD warning",
-          "url": "https://www.ft.com/content/c9d562d6-1448-4a40-8198-0cb1f0dc2032"
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage emphasizing Trump's ability to veto",
+          "url": "https://www.aljazeera.com/sports/2026/6/4/brunson-scores-30-as-knicks-upset-spurs-in-nba-finals-opener?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Russia Launches Massive Strike on Ukraine, Killing at Least 22 Civilians",
+      "headline": "Israel-Lebanon Ceasefire Announced but Israeli Military Operations Continue",
       "category": "Conflict",
       "bullets": [
-        "Russia fired 656 drones and 73 missiles at Ukrainian cities including Kyiv and Dnipro in one of its largest overnight assaults in months",
-        "At least 22 people were killed including children, with 16 deaths in Dnipro alone where residential buildings were struck",
-        "Ukraine's air force intercepted over 90% of drones and most cruise missiles but only 11 of 33 Iskander-M ballistic missiles",
-        "The Kremlin described the attacks as 'systematic strikes' in response to Ukrainian attacks, pledging continuation"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasized civilian toll and included ground-level reporting from affected neighborhoods",
-          "url": "https://www.bbc.com/sport/tennis/articles/clypkqpe3d2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Contextualized strikes as part of pattern when Russian military is struggling",
-          "url": "https://www.theglobeandmail.com/world/article-usmca-renewal-leblanc-canada-us-mexico/"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Included Ukrainian drone counterattack on bus in Russian-controlled territory",
-          "url": "https://www.bbc.com/news/articles/cdrp8v7407ro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "EU Unveils Major Strategy to Reduce Dependence on US and Asian Technology",
-      "category": "Technology",
-      "bullets": [
-        "European Commission to announce plan targeting 'technological sovereignty' with investment in homegrown chips, cloud computing, and AI",
-        "Over 80% of the EU's digital products, services, and infrastructure currently come from foreign providers",
-        "Package includes new laws on cloud computing and AI to triple EU data center capacity within 5-7 years",
-        "Initiative risks tensions with Washington, which has opposed EU regulations targeting US tech firms"
+        "Israel and Lebanon agreed to implement a conditional ceasefire after fourth round of US-mediated talks in Washington, contingent on Hezbollah halting attacks",
+        "The agreement includes creating 'pilot zones' where Lebanese armed forces would take exclusive control, excluding all non-state actors",
+        "Israeli Defense Minister Katz announced Thursday that military operations would continue and forces would remain in southern Lebanon's 'security zone'",
+        "Israeli strikes hit southern Lebanon Thursday morning despite the agreement; Hezbollah has not commented on the deal and continues to reject direct Israel-Lebanon talks"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Detailed coverage of specific measures including chips law and data center plans",
-          "url": "https://www.rfi.fr/en/france/20260602-france-bans-israeli-offensive-weapons-on-europe-s-largest-arms-trade-show"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article inaccessible but headline confirms focus on distancing from US and Asia",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/03/us-says-thwarts-iranian-missile-and-drone-attacks-after-strikes-on-target-in-strait-of-hormuz_6754071_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Ukraine Strikes St Petersburg Oil Terminal as NATO Chief Visits Kyiv",
-      "category": "Conflict",
-      "bullets": [
-        "Ukrainian drones hit an oil export terminal in St Petersburg hours before Putin's annual economic forum began",
-        "Leningrad region governor reported 59 drones shot down overnight; airport temporarily restricted operations",
-        "President Zelensky confirmed strikes on the fuel terminal and a military facility near Russia's second-largest city",
-        "NATO Secretary General Mark Rutte made an unannounced visit to Kyiv amid the escalating attacks"
-      ],
-      "sources": [
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Emphasized timing relative to Putin's economic showcase forum",
-          "url": "https://www.abc.net.au/news/2026-06-03/alice-springs-tangentyere-ceo-defends-town-camp-housing/106753260"
+          "framing_note": "Led with strikes continuing despite truce announcement",
+          "url": "https://www.rfi.fr/en/international/20260602-eu-tightens-migration-rules-eyes-strategic-enlargement-in-balkans"
         },
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Covered within broader context of Russian strikes and counterclaims",
-          "url": "https://www.bbc.com/news/articles/cdrp8v7407ro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Provided detailed background on Hezbollah and comprehensive coverage of agreement terms",
+          "url": "https://www.bbc.com/news/articles/c0r2klj0nyxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized Katz's statement on continued operations",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260604-french-open-arnaldi-advances-semi-finals-after-berrettini-retires"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Headline focused on agreement reached",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/04/israel-and-lebanon-agree-to-implement-conditional-ceasefire_6754114_4.html"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Brief coverage behind paywall",
+          "url": "https://www.ft.com/content/468ce636-1a7e-4a14-9be1-6d0f48b6b48f"
         }
       ]
     },
     {
-      "headline": "Ebola Outbreak Declared International Emergency; Controversy Over US Quarantine Plan in Kenya",
-      "category": "Society",
+      "headline": "Rebel Attacks Kill Over 30 in Eastern DRC, Disrupting Ebola Response",
+      "category": "Conflict",
       "bullets": [
-        "WHO declared the Bundibugyo Ebola outbreak a public health emergency of international concern, with 60 deaths and 344 confirmed cases in DRC, one death and nine cases in Uganda",
-        "Two people killed in Kenya during protests against US plan to establish an Ebola quarantine facility at Laikipia Air Base for American citizens",
-        "Nobel laureate Denis Mukwege warned the outbreak 'could become the deadliest ever'",
-        "DR Congo's football friendly against Chile in Spain cancelled by local authorities over health concerns"
+        "Allied Democratic Forces (ADF), an Islamic State-affiliated militia, killed over 30 people in attacks on villages around Beni in North Kivu province over several days",
+        "The attacks included beheadings, shootings, burning of homes and motorcycles, and kidnappings of civilians; hundreds fled into the bush",
+        "The Ebola outbreak has reached 344 confirmed cases and 60 deaths in DRC, plus 15 cases and one death in Uganda",
+        "WHO chief Tedros said the outbreak may have begun in January, and contact tracing remains critically low at 45% due to insecurity and displacement"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Kenyan anger and accusations of double standards by US",
-          "url": "https://www.theguardian.com/world/2026/jun/01/wildfires-devastating-richer-areas-but-fewer-hectares-burned-globally-study"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Featured Mukwege warning about severity",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/03/us-says-thwarts-iranian-missile-and-drone-attacks-after-strikes-on-target-in-strait-of-hormuz_6754071_4.html"
-        },
+          "framing_note": "Comprehensive coverage linking security crisis to public health emergency; also covered WHO statements and US quarantine controversy in Kenya",
+          "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity"
+        }
+      ]
+    },
+    {
+      "headline": "Germany Loses UN Security Council Bid to Portugal and Austria",
+      "category": "Geopolitics",
+      "bullets": [
+        "Germany secured only 104 votes in the UN General Assembly election for non-permanent Security Council seats, losing to Portugal (134 votes) and Austria (131 votes)",
+        "Foreign Minister Johann Wadephul blamed Russia for lobbying against Germany, citing Berlin's firm support for Ukraine",
+        "Wadephul also suggested Germany's special responsibility toward Israel in the Middle East conflict may have cost votes among UN member states",
+        "Austria, Kyrgyzstan, Portugal, Trinidad and Tobago, and Zimbabwe were elected for 2027-28 terms"
+      ],
+      "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Reported on Spanish mayor canceling football match as precautionary measure",
-          "url": "https://www.bbc.com/sport/tennis/articles/clypkqpe3d2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on Wadephul's attribution of blame to Russia and Germany's support positions",
+          "url": "https://www.bbc.com/news/articles/cm2pjk8ggrdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized the competitive nature of the election and included India's congratulatory statement",
+          "url": "https://www.thehindu.com/news/international/portugal-austria-among-five-nations-elected-to-un-security-council-germany-suffers-setback/article71059897.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Escalates Pressure on Armenia Ahead of Crucial Parliamentary Election",
+      "category": "Geopolitics",
+      "bullets": [
+        "Russia threatened to raise gas prices, restrict Armenian product imports, and suspend Armenia from the Eurasian Economic Union ahead of June 7 elections",
+        "Armenia currently pays $177.50 per 1,000 cubic meters of Russian gas versus over $600 in Europe; 82% of Armenian gas comes from Russia",
+        "Prime Minister Nikol Pashinyan's government has publicly criticized Moscow and pursued closer ties with the EU and Washington",
+        "The election pits Pashinyan's Civil Contract party against multiple opposition voices, many of them pro-Russian"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Detailed coverage of specific Russian trade threats and their timing relative to the election",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260604-french-open-arnaldi-advances-semi-finals-after-berrettini-retires"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ghana passes sweeping law criminalizing LGBTQ+ activity with prison sentences of 3-10 years, sparking fear among community members",
+      "headline": "French-Iranian author Marjane Satrapi, creator of 'Persepolis,' dies at 56",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/culture/20260604-french-iranian-author-marjane-satrapi-author-of-persepolis-dies-at-56"
+    },
+    {
+      "headline": "France's parliament unanimously acknowledges state responsibility for chlordecone pesticide contamination in Caribbean territories",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260604-france-recognises-role-in-pesticide-harm-across-caribbean-islands"
+    },
+    {
+      "headline": "Ghana passes sweeping law criminalizing LGBTQ+ activity with prison sentences of 3-10 years",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity"
     },
     {
-      "headline": "Five Mozambican nationals killed in xenophobic attacks in South Africa as anti-migrant protests sweep the country",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jun/02/mozambique-citizens-killed-xenophobic-attacks-south-africa"
-    },
-    {
-      "headline": "Israel-Hezbollah partial ceasefire holds as Israel agrees not to bomb Beirut in exchange for Hezbollah not attacking Israel",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c936zvne0l6o"
-    },
-    {
-      "headline": "EU reaches deal on migration rules allowing 'return hubs' outside the bloc for deportees while advancing Western Balkans enlargement",
+      "headline": "Corsica autonomy plan clears first parliamentary hurdle in French National Assembly",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260602-eu-tightens-migration-rules-eyes-strategic-enlargement-in-balkans"
+      "url": "https://www.rfi.fr/en/france/20260603-corsica-autonomy-plan-clears-first-hurdle-in-divided-french-parliament"
     },
     {
-      "headline": "Japan's fertility rate hits record low for tenth consecutive year with only 671,236 births in 2025",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/demography/japan-s-fertility-rate-at-record-low-10th-straight-year-of-decline"
-    },
-    {
-      "headline": "US Supreme Court allows Alabama to use pro-Republican congressional map eliminating one majority-Black district",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-us-supreme-court-clears-way-for-alabama-to-use-pro-republican-voting/"
-    },
-    {
-      "headline": "Fire at New Delhi hotel kills at least 21 people, including foreign medical tourists from African countries",
+      "headline": "China bans four New Zealand lawmakers over visit to Taiwan, calling it interference in internal affairs",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/6/3/fire-at-new-delhi-hotel-kills-at-least-21-people"
+      "url": "https://www.aljazeera.com/news/2026/6/4/china-bans-four-new-zealand-lawmakers-over-visit-to-taiwan"
     },
     {
-      "headline": "France bans Israeli offensive weapons from Eurosatory defense exhibition, allowing only anti-ballistic and air defense systems",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260602-france-bans-israeli-offensive-weapons-on-europe-s-largest-arms-trade-show"
+      "headline": "Five Eyes intelligence alliance warns China's military is recruiting through job sites and LinkedIn to extract sensitive information",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/world/597256/sis-warns-china-is-using-job-sites-to-extract-sensitive-information-from-kiwis"
     },
     {
-      "headline": "US Trade Representative recommends new tariffs of up to 12.5% on 60 economies including China, Japan, and South Korea over forced labor concerns",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-floats-new-tariffs-on-60-economies-over-forced-labor-including-china"
+      "headline": "US proposes 12.5% tariff on 54 countries including New Zealand and Australia over alleged failure to prevent forced labor imports",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/world/597163/nz-could-face-12-point-5-percent-tariff-in-us-crackdown-on-forced-labour-imports"
     },
     {
-      "headline": "Hungary's new PM Peter Magyar meets Macron to discuss Ukraine support and European defense after defeating Viktor Orb\u00e1n",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260603-macron-to-meet-hungary-s-pm-magyar-to-discuss-ukraine-european-defence"
+      "headline": "Ukraine strikes St. Petersburg oil terminal and naval base hours before opening of major Russian economic forum",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c0r2klj0nyxo"
+    },
+    {
+      "headline": "At least 11 killed in fire at elderly care home in Sri Lanka's Kalutara district",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/sri-lanka-elderly-care-home-fire-death-toll/article71060119.ece"
+    },
+    {
+      "headline": "Bangladesh Foreign Minister Khalilur Rahman elected 81st UN General Assembly president, defeating Cyprus",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/6/4/who-is-khalilur-rahman-bangladesh-fm-who-beat-cyprus-to-unga-presidency"
     }
   ]
 }
