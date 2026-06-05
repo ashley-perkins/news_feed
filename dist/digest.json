@@ -1,196 +1,190 @@
 {
-  "date": "Thursday, June 04, 2026",
-  "daily_brief": "The US House of Representatives passed a war powers resolution seeking to halt military action in Iran, with four Republicans joining Democrats in a 215-208 vote that marks growing bipartisan opposition to President Trump's conduct of the conflict [BBC, Globe and Mail, The Hindu]. Meanwhile, Israel and Lebanon announced a conditional ceasefire agreement following US-mediated talks in Washington, though Israeli Defense Minister Katz immediately stated military operations would continue in southern Lebanon, and strikes resumed Thursday morning [RFI, BBC, France 24, Le Monde, Financial Times]. In eastern DRC, rebel attacks by the Islamic State-affiliated ADF killed over 30 people near Beni, severely complicating the Ebola outbreak response that has now claimed 60 lives with 344 confirmed cases [The Guardian]. The WHO revealed the outbreak may have begun as early as January, giving it a 'big head start.' Germany suffered a setback at the UN, losing its Security Council bid to Portugal and Austria, with Foreign Minister Wadephul citing Russian opposition and Germany's support for Ukraine and Israel as factors [BBC, The Hindu]. Russia increased pressure on Armenia ahead of Sunday's parliamentary elections, threatening gas price hikes and trade restrictions as Yerevan pursues closer EU ties [France 24].",
+  "date": "Friday, June 05, 2026",
+  "daily_brief": "The Middle East conflict remains the dominant global story, with Israel continuing strikes in southern Lebanon despite a newly announced US-brokered ceasefire that Hezbollah has emphatically rejected [BBC], [France 24], [The Hindu]. The strikes killed seven overnight in Tyre, including near a hospital, as the UN doubled its Lebanon aid appeal to $640 million [France 24]. Meanwhile, Ukraine's President Zelensky issued an open letter proposing direct talks with Putin, acknowledging that US attention is 'fully focused on Iran' [BBC]. In East Africa, the Ebola outbreak in DRC continues to strain response efforts, with WHO confirming the outbreak may have begun as early as January and rebel attacks near Beni killing over 30 people [The Guardian]. The crisis has prompted controversy over US plans for an American-only quarantine facility in Kenya. On technology, AI company Anthropic called for a global pause on frontier AI development, warning that cutting-edge systems are showing signs they could escape human control [France 24]. In the Balkans, EU leaders gathered in Montenegro to advance Western Balkans enlargement amid protests in Albania over a Kushner-linked resort development [RFI], [BBC], [Al Jazeera].",
   "top_stories": [
     {
-      "headline": "US House Passes War Powers Resolution to Halt Iran Conflict in Rebuke to Trump",
-      "category": "Geopolitics",
+      "headline": "Israel Continues Lebanon Strikes Despite Ceasefire; Hezbollah Rejects US-Brokered Deal",
+      "category": "Conflict",
       "bullets": [
-        "The House voted 215-208 to pass a resolution requiring Trump to withdraw forces from Iran or seek congressional approval, with four Republicans joining all Democrats",
-        "This marks the fourth House attempt to curb Trump's war powers and the first successful vote; the Senate advanced a similar resolution in May but has not held a full floor vote",
-        "Iran-US ceasefire talks remain stalled, with Tehran saying 'no tangible progress' was made while an Iranian drone struck Kuwait airport Wednesday, killing one person",
-        "The resolution is largely symbolic as Trump can veto it, but it signals growing bipartisan opposition amid high gas prices and public disapproval of the war"
+        "Israeli strikes overnight in Tyre killed seven people, including four near Jabal Amel hospital, despite a ceasefire agreement announced by Israeli and Lebanese envoys in Washington",
+        "Hezbollah leader Naim Qassem rejected the conditional truce as 'absurd, humiliating and insulting,' demanding a full Israeli withdrawal and comprehensive ceasefire",
+        "The UN doubled its Lebanon aid appeal to $640 million over six months, citing a 'severe and deteriorating' humanitarian crisis with over one million displaced",
+        "President Trump said he spoke with both Hezbollah and Netanyahu, claiming 'progress was being made'"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized the political significance and divisions within the Republican Party",
-          "url": "https://www.bbc.com/news/articles/c0r2klj0nyxo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized humanitarian impact and WFP hunger warnings",
+          "url": "https://www.france24.com/en/technology/20260605-anthropic-calls-for-global-ai-slowdown-says-systems-may-outpace-human-control"
         },
         {
-          "name": "Globe and Mail",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on implications for US negotiating position with Iran and historical parallels to Vietnam",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-military-strike-boat-pacific/"
+          "framing_note": "Focused on Hezbollah rejection and Trump's diplomatic claims",
+          "url": "https://www.bbc.com/news/articles/cn4pk07npvvo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Highlighted the symbolic nature and linked to ongoing violence including Kuwait airport strike",
-          "url": "https://www.thehindu.com/news/international/portugal-austria-among-five-nations-elected-to-un-security-council-germany-suffers-setback/article71059897.ece"
+          "framing_note": "Provided detailed casualty figures and hospital damage",
+          "url": "https://www.thehindu.com/news/international/pakistan-forever-grateful-to-trump-for-india-ceasefire-intervention-pm-sharif/article71064335.ece"
         },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief coverage emphasizing Trump's ability to veto",
-          "url": "https://www.aljazeera.com/sports/2026/6/4/brunson-scores-30-as-knicks-upset-spurs-in-nba-finals-opener?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Israel-Lebanon Ceasefire Announced but Israeli Military Operations Continue",
-      "category": "Conflict",
-      "bullets": [
-        "Israel and Lebanon agreed to implement a conditional ceasefire after fourth round of US-mediated talks in Washington, contingent on Hezbollah halting attacks",
-        "The agreement includes creating 'pilot zones' where Lebanese armed forces would take exclusive control, excluding all non-state actors",
-        "Israeli Defense Minister Katz announced Thursday that military operations would continue and forces would remain in southern Lebanon's 'security zone'",
-        "Israeli strikes hit southern Lebanon Thursday morning despite the agreement; Hezbollah has not commented on the deal and continues to reject direct Israel-Lebanon talks"
-      ],
-      "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Led with strikes continuing despite truce announcement",
-          "url": "https://www.rfi.fr/en/international/20260602-eu-tightens-migration-rules-eyes-strategic-enlargement-in-balkans"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided detailed background on Hezbollah and comprehensive coverage of agreement terms",
-          "url": "https://www.bbc.com/news/articles/c0r2klj0nyxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized Katz's statement on continued operations",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260604-french-open-arnaldi-advances-semi-finals-after-berrettini-retires"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline focused on agreement reached",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/04/israel-and-lebanon-agree-to-implement-conditional-ceasefire_6754114_4.html"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief coverage behind paywall",
-          "url": "https://www.ft.com/content/468ce636-1a7e-4a14-9be1-6d0f48b6b48f"
+          "framing_note": "Highlighted internal Lebanese divisions and federalism debates",
+          "url": "https://www.rfi.fr/en/international/20260604-hungary-drops-charges-against-organisers-of-banned-pride-marches"
         }
       ]
     },
     {
-      "headline": "Rebel Attacks Kill Over 30 in Eastern DRC, Disrupting Ebola Response",
-      "category": "Conflict",
-      "bullets": [
-        "Allied Democratic Forces (ADF), an Islamic State-affiliated militia, killed over 30 people in attacks on villages around Beni in North Kivu province over several days",
-        "The attacks included beheadings, shootings, burning of homes and motorcycles, and kidnappings of civilians; hundreds fled into the bush",
-        "The Ebola outbreak has reached 344 confirmed cases and 60 deaths in DRC, plus 15 cases and one death in Uganda",
-        "WHO chief Tedros said the outbreak may have begun in January, and contact tracing remains critically low at 45% due to insecurity and displacement"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Comprehensive coverage linking security crisis to public health emergency; also covered WHO statements and US quarantine controversy in Kenya",
-          "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity"
-        }
-      ]
-    },
-    {
-      "headline": "Germany Loses UN Security Council Bid to Portugal and Austria",
+      "headline": "Zelensky Proposes Direct Putin Meeting, Acknowledges US Focus on Iran",
       "category": "Geopolitics",
       "bullets": [
-        "Germany secured only 104 votes in the UN General Assembly election for non-permanent Security Council seats, losing to Portugal (134 votes) and Austria (131 votes)",
-        "Foreign Minister Johann Wadephul blamed Russia for lobbying against Germany, citing Berlin's firm support for Ukraine",
-        "Wadephul also suggested Germany's special responsibility toward Israel in the Middle East conflict may have cost votes among UN member states",
-        "Austria, Kyrgyzstan, Portugal, Trinidad and Tobago, and Zimbabwe were elected for 2027-28 terms"
+        "Ukrainian President Zelensky sent an open letter to Putin proposing face-to-face talks and a full ceasefire during negotiations",
+        "The letter acknowledged that the US 'is fully focused on the issue of Iran' and said it would be 'wrong to simply wait' for European attention to return",
+        "Putin rejected a ceasefire during negotiations; Kremlin said Zelensky was welcome to meet in Moscow",
+        "Trump endorsed the idea of a meeting, saying 'it would be great' if the two leaders met"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Focused on Wadephul's attribution of blame to Russia and Germany's support positions",
-          "url": "https://www.bbc.com/news/articles/cm2pjk8ggrdo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Noted the defiant, mocking tone of Zelensky's letter",
+          "url": "https://www.bbc.com/news/articles/c3r2rdjv2n1o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized the competitive nature of the election and included India's congratulatory statement",
-          "url": "https://www.thehindu.com/news/international/portugal-austria-among-five-nations-elected-to-un-security-council-germany-suffers-setback/article71059897.ece"
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Duplicated coverage with identical framing",
+          "url": "https://www.bbc.com/news/articles/cn4pk07npvvo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Russia Escalates Pressure on Armenia Ahead of Crucial Parliamentary Election",
-      "category": "Geopolitics",
+      "headline": "DRC Ebola Outbreak May Have Started in January; Rebel Attacks Kill 30 Near Outbreak Zone",
+      "category": "Conflict",
       "bullets": [
-        "Russia threatened to raise gas prices, restrict Armenian product imports, and suspend Armenia from the Eurasian Economic Union ahead of June 7 elections",
-        "Armenia currently pays $177.50 per 1,000 cubic meters of Russian gas versus over $600 in Europe; 82% of Armenian gas comes from Russia",
-        "Prime Minister Nikol Pashinyan's government has publicly criticized Moscow and pursued closer ties with the EU and Washington",
-        "The election pits Pashinyan's Civil Contract party against multiple opposition voices, many of them pro-Russian"
+        "WHO chief Tedros said the Ebola outbreak could have begun as early as January, giving the virus 'a big head start' with 344 confirmed cases and 60 deaths in DRC",
+        "ADF militia attacks around Beni killed over 30 people in recent days, with beheadings reported and hundreds displaced",
+        "Contact tracing is at only 45% due to insecurity; WHO says it needs to reach 90% to control the outbreak",
+        "US plans for an American-only Ebola quarantine facility in Kenya drew criticism from former CDC officials and the CDC workers' union"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Provided extensive coverage across multiple articles on outbreak origins, rebel attacks, and US quarantine controversy",
+          "url": "https://www.theguardian.com/global-development/2026/jun/03/drc-ebola-outbreak-could-have-begun-as-early-as-january-who-chief-says"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": null,
+          "url": "https://www.france24.com/en/technology/20260605-anthropic-calls-for-global-ai-slowdown-says-systems-may-outpace-human-control"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic Calls for Global Pause on Frontier AI Development",
+      "category": "Technology",
+      "bullets": [
+        "AI company Anthropic warned that cutting-edge AI models are showing signs they could escape human control",
+        "The company said a global slowdown would 'likely be a good thing' but acknowledged unilateral action would simply let rivals race ahead",
+        "Anthropic called for coordination among major AI companies in the US and China with verifiable rules",
+        "The company has faced pushback from industry rivals and White House officials"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Detailed coverage of specific Russian trade threats and their timing relative to the election",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260604-french-open-arnaldi-advances-semi-finals-after-berrettini-retires"
+          "framing_note": "Emphasized the 'narrowing human role' and control concerns",
+          "url": "https://www.france24.com/en/technology/20260605-anthropic-calls-for-global-ai-slowdown-says-systems-may-outpace-human-control"
+        }
+      ]
+    },
+    {
+      "headline": "EU-Western Balkans Summit Advances Enlargement Amid Albania Kushner Resort Protests",
+      "category": "Geopolitics",
+      "bullets": [
+        "EU and Western Balkan leaders gathered in Tivat, Montenegro for a summit focused on enlargement for six candidate countries",
+        "European Council President Costa said 'the momentum is there' for enlargement, with discussions on economic reforms and security",
+        "Protests erupted in Albania over a luxury resort development on Sazan island linked to Jared Kushner's investment firm",
+        "Protesters cited environmental concerns for protected wetlands and flamingo habitats; demonstrations targeted both the government and the project"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on summit diplomacy and enlargement timeline",
+          "url": "https://www.rfi.fr/en/international/20260604-hungary-drops-charges-against-organisers-of-banned-pride-marches"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Emphasized protest angle and environmental concerns",
+          "url": "https://www.bbc.com/news/articles/c3r2rdjv2n1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Ivanka Trump's comments and local opposition narrative",
+          "url": "https://www.aljazeera.com/news/2026/6/5/why-the-kushners-plan-to-build-an-albanian-resort-has-sparked-protests?traffic_source=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "French-Iranian author Marjane Satrapi, creator of 'Persepolis,' dies at 56",
+      "headline": "Forty-nine people died of thirst in Niger's Sahara desert after their truck broke down en route from Mali",
+      "source": "France 24, Le Monde",
+      "url": "https://www.france24.com/en/africa/20260605-nearly-50-die-of-thirst-in-niger-after-truck-breaks-down-in-remote-sahara-desert"
+    },
+    {
+      "headline": "French-Iranian author and filmmaker Marjane Satrapi, creator of Persepolis, died at age 56",
+      "source": "BBC Europe, Al Jazeera",
+      "url": "https://www.bbc.com/news/articles/c4g0nnj51jyo"
+    },
+    {
+      "headline": "Chinese President Xi Jinping will visit North Korea June 8-9, his first trip in seven years",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/6/5/chinas-xi-headed-to-north-korea-in-bid-to-shore-up-ties"
+    },
+    {
+      "headline": "A maritime drone 'of the type used in Ukraine' self-detonated in Romania's Constanta port without casualties",
       "source": "France 24",
-      "url": "https://www.france24.com/en/culture/20260604-french-iranian-author-marjane-satrapi-author-of-persepolis-dies-at-56"
+      "url": "https://www.france24.com/en/europe/20260605-live-us-house-passes-bill-in-support-of-ukraine-sanctions-russia"
     },
     {
-      "headline": "France's parliament unanimously acknowledges state responsibility for chlordecone pesticide contamination in Caribbean territories",
+      "headline": "UK military chief warns Britain faces most dangerous period since Cold War with increased Russian incursions",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/c1m2mryg0k7o"
+    },
+    {
+      "headline": "Hungary dropped charges against Pride march organizers following EU court ruling against anti-LGBTQ law",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260604-france-recognises-role-in-pesticide-harm-across-caribbean-islands"
+      "url": "https://www.rfi.fr/en/international/20260604-hungary-drops-charges-against-organisers-of-banned-pride-marches"
     },
     {
-      "headline": "Ghana passes sweeping law criminalizing LGBTQ+ activity with prison sentences of 3-10 years",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity"
+      "headline": "South Korean stocks fell over 5% as Samsung and SK Hynix shares dropped following Broadcom's $285 billion market value loss",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/south-korean-stocks-fall-currency-slips-as-foreigners-dump-shares"
     },
     {
-      "headline": "Corsica autonomy plan clears first parliamentary hurdle in French National Assembly",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260603-corsica-autonomy-plan-clears-first-hurdle-in-divided-french-parliament"
+      "headline": "Reserve Bank of India held rates at 5.25% but raised inflation forecast amid energy crisis concerns",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/currencies/indian-central-bank-holds-firm-on-key-rate-but-raises-inflation-forecast"
     },
     {
-      "headline": "China bans four New Zealand lawmakers over visit to Taiwan, calling it interference in internal affairs",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/6/4/china-bans-four-new-zealand-lawmakers-over-visit-to-taiwan"
-    },
-    {
-      "headline": "Five Eyes intelligence alliance warns China's military is recruiting through job sites and LinkedIn to extract sensitive information",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/world/597256/sis-warns-china-is-using-job-sites-to-extract-sensitive-information-from-kiwis"
-    },
-    {
-      "headline": "US proposes 12.5% tariff on 54 countries including New Zealand and Australia over alleged failure to prevent forced labor imports",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/world/597163/nz-could-face-12-point-5-percent-tariff-in-us-crackdown-on-forced-labour-imports"
-    },
-    {
-      "headline": "Ukraine strikes St. Petersburg oil terminal and naval base hours before opening of major Russian economic forum",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c0r2klj0nyxo"
-    },
-    {
-      "headline": "At least 11 killed in fire at elderly care home in Sri Lanka's Kalutara district",
+      "headline": "Putin pledged non-interference in India-China border disputes, expressing confidence Modi and Xi will resolve issues",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/sri-lanka-elderly-care-home-fire-death-toll/article71060119.ece"
+      "url": "https://www.thehindu.com/news/international/russian-president-vladimir-putin-press-conference-with-pti/article71064672.ece"
     },
     {
-      "headline": "Bangladesh Foreign Minister Khalilur Rahman elected 81st UN General Assembly president, defeating Cyprus",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/6/4/who-is-khalilur-rahman-bangladesh-fm-who-beat-cyprus-to-unga-presidency"
+      "headline": "Dutch police arrested four men investigating suspected drugging and sexual assaults of multiple women filmed on camera",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.com/news/articles/cp8p8e1gnx7o"
     }
   ]
 }
