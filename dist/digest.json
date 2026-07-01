@@ -1,190 +1,190 @@
 {
-  "date": "Friday, June 05, 2026",
-  "daily_brief": "The Middle East conflict remains the dominant global story, with Israel continuing strikes in southern Lebanon despite a newly announced US-brokered ceasefire that Hezbollah has emphatically rejected [BBC], [France 24], [The Hindu]. The strikes killed seven overnight in Tyre, including near a hospital, as the UN doubled its Lebanon aid appeal to $640 million [France 24]. Meanwhile, Ukraine's President Zelensky issued an open letter proposing direct talks with Putin, acknowledging that US attention is 'fully focused on Iran' [BBC]. In East Africa, the Ebola outbreak in DRC continues to strain response efforts, with WHO confirming the outbreak may have begun as early as January and rebel attacks near Beni killing over 30 people [The Guardian]. The crisis has prompted controversy over US plans for an American-only quarantine facility in Kenya. On technology, AI company Anthropic called for a global pause on frontier AI development, warning that cutting-edge systems are showing signs they could escape human control [France 24]. In the Balkans, EU leaders gathered in Montenegro to advance Western Balkans enlargement amid protests in Albania over a Kushner-linked resort development [RFI], [BBC], [Al Jazeera].",
+  "date": "Wednesday, July 01, 2026",
+  "daily_brief": "The US Supreme Court delivered a significant blow to President Trump's immigration agenda on Tuesday, ruling 6-3 to uphold birthright citizenship and reject the administration's executive order targeting children of undocumented immigrants and temporary visitors [BBC, Globe and Mail, Al Jazeera]. Meanwhile, Trump's financial disclosures revealed he earned over $1.2 billion from cryptocurrency ventures in 2025, including $550 million from World Liberty Financial and $635 million from his meme coin [France 24, BBC, Le Monde]. The US lifted export restrictions on Anthropic's most powerful AI models, Claude Fable 5 and Mythos 5, restoring access for users in allied nations including New Zealand [RNZ, Le Monde]. In Myanmar, conflict monitoring group ACLED reported that deaths since the 2021 military coup have surpassed 100,000, marking it as Asia's deadliest active conflict [France 24]. Tensions remain high in South Africa as anti-immigration protests drew thousands of demonstrators, with authorities deploying police nationwide to prevent violence after weeks of unrest that has already displaced tens of thousands of foreign nationals [Guardian, Globe and Mail]. On the diplomatic front, Iran declined to meet directly with US envoys in Qatar, complicating ceasefire negotiations [Globe and Mail].",
   "top_stories": [
     {
-      "headline": "Israel Continues Lebanon Strikes Despite Ceasefire; Hezbollah Rejects US-Brokered Deal",
-      "category": "Conflict",
+      "headline": "US Supreme Court Upholds Birthright Citizenship, Rejects Trump Executive Order",
+      "category": "Policy",
       "bullets": [
-        "Israeli strikes overnight in Tyre killed seven people, including four near Jabal Amel hospital, despite a ceasefire agreement announced by Israeli and Lebanese envoys in Washington",
-        "Hezbollah leader Naim Qassem rejected the conditional truce as 'absurd, humiliating and insulting,' demanding a full Israeli withdrawal and comprehensive ceasefire",
-        "The UN doubled its Lebanon aid appeal to $640 million over six months, citing a 'severe and deteriorating' humanitarian crisis with over one million displaced",
-        "President Trump said he spoke with both Hezbollah and Netanyahu, claiming 'progress was being made'"
+        "Supreme Court ruled 6-3 that children born in the US to undocumented immigrants or temporary visitors are citizens under the 14th Amendment",
+        "Chief Justice Roberts joined the liberal justices in finding Trump's executive order unconstitutional; Justice Kavanaugh found it violated federal law rather than the Constitution",
+        "Justices Thomas, Alito, and Gorsuch dissented; Thomas wrote a 91-page dissent arguing the court misinterpreted the 14th Amendment",
+        "Trump called the decision 'too bad' and urged Congress to pass legislation ending birthright citizenship"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized this as a 'major setback' for Trump and noted his 'tepid' response compared to usual standards",
+          "url": "https://www.bbc.co.uk/news/articles/crlwe28dz44o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on constitutional analysis and noted Trump personally attended oral arguments - first sitting president to do so",
+          "url": "https://www.theglobeandmail.com/world/article-us-supreme-court-birthright-citizenship-rejects-trumps-executive-order/"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted 'MAGA meltdown' reaction to the ruling",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/tutoring-centre-roof-collapses-killing-14-children-in-pakistan?traffic_source=rss"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": null,
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/01/us-supreme-court-blocks-white-house-move-upholds-birthright-citizenship-of-children-of-undocumented-migrants_6755029_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Earned $1.2 Billion from Cryptocurrency Ventures in 2025, Disclosure Shows",
+      "category": "Economics",
+      "bullets": [
+        "Financial disclosure reveals $550 million from World Liberty Financial, co-founded by Trump's sons and the son of envoy Steve Witkoff",
+        "$635 million came from royalties related to the $TRUMP meme coin launched days before his January 2025 inauguration",
+        "Trump's personal fortune reportedly tripled from $2.3 billion to $6.5 billion between 2024 and 2026",
+        "White House denied any conflict of interest, stating Trump made the US 'the crypto capital of the world'"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized humanitarian impact and WFP hunger warnings",
-          "url": "https://www.france24.com/en/technology/20260605-anthropic-calls-for-global-ai-slowdown-says-systems-may-outpace-human-control"
+          "framing_note": "Noted Trump is 'regularly accused of conflicts of interest' and detailed the timing of crypto investments",
+          "url": "https://www.france24.com/en/americas/20260701-trump-earned-over-1-bn-from-crypto-ventures-in-2025"
         },
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on Hezbollah rejection and Trump's diplomatic claims",
-          "url": "https://www.bbc.com/news/articles/cn4pk07npvvo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Included White House denial and noted businesses are in trust managed by his sons",
+          "url": "https://www.bbc.co.uk/news/articles/crlwe28dz44o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "The Hindu",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Provided detailed casualty figures and hospital damage",
-          "url": "https://www.thehindu.com/news/international/pakistan-forever-grateful-to-trump-for-india-ceasefire-intervention-pm-sharif/article71064335.ece"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Highlighted internal Lebanese divisions and federalism debates",
-          "url": "https://www.rfi.fr/en/international/20260604-hungary-drops-charges-against-organisers-of-banned-pride-marches"
+          "framing_note": null,
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/01/us-supreme-court-blocks-white-house-move-upholds-birthright-citizenship-of-children-of-undocumented-migrants_6755029_4.html"
         }
       ]
     },
     {
-      "headline": "Zelensky Proposes Direct Putin Meeting, Acknowledges US Focus on Iran",
-      "category": "Geopolitics",
+      "headline": "US Lifts Export Restrictions on Anthropic's Most Powerful AI Models",
+      "category": "Technology",
       "bullets": [
-        "Ukrainian President Zelensky sent an open letter to Putin proposing face-to-face talks and a full ceasefire during negotiations",
-        "The letter acknowledged that the US 'is fully focused on the issue of Iran' and said it would be 'wrong to simply wait' for European attention to return",
-        "Putin rejected a ceasefire during negotiations; Kremlin said Zelensky was welcome to meet in Moscow",
-        "Trump endorsed the idea of a meeting, saying 'it would be great' if the two leaders met"
+        "Department of Commerce removed export controls on Claude Fable 5 and Mythos 5, Anthropic's most advanced AI systems",
+        "The models had been restricted last month on security grounds, blocking access in allied nations including New Zealand",
+        "Claude Fable 5 is Anthropic's most powerful model cleared for general use; Mythos 5 is restricted to trusted companies and governments for cybersecurity purposes",
+        "Anthropic announced it would begin restoring access immediately"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "RNZ",
           "lean": "Center",
-          "framing_note": "Noted the defiant, mocking tone of Zelensky's letter",
-          "url": "https://www.bbc.com/news/articles/c3r2rdjv2n1o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on implications for New Zealand users and noted tech expert criticism of the original ban",
+          "url": "https://www.rnz.co.nz/news/political/643745/nz-sends-condolences-to-victims-of-venezuela-quakes"
         },
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Duplicated coverage with identical framing",
-          "url": "https://www.bbc.com/news/articles/cn4pk07npvvo?at_medium=RSS&at_campaign=rss"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": null,
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/01/us-supreme-court-blocks-white-house-move-upholds-birthright-citizenship-of-children-of-undocumented-migrants_6755029_4.html"
         }
       ]
     },
     {
-      "headline": "DRC Ebola Outbreak May Have Started in January; Rebel Attacks Kill 30 Near Outbreak Zone",
+      "headline": "Myanmar Conflict Death Toll Surpasses 100,000 Since 2021 Coup",
       "category": "Conflict",
       "bullets": [
-        "WHO chief Tedros said the Ebola outbreak could have begun as early as January, giving the virus 'a big head start' with 344 confirmed cases and 60 deaths in DRC",
-        "ADF militia attacks around Beni killed over 30 people in recent days, with beheadings reported and hundreds displaced",
-        "Contact tracing is at only 45% due to insecurity; WHO says it needs to reach 90% to control the outbreak",
-        "US plans for an American-only Ebola quarantine facility in Kenya drew criticism from former CDC officials and the CDC workers' union"
+        "Armed Conflict Location & Event Data (ACLED) reports 100,114 conflict-related fatalities since the military coup in February 2021",
+        "The military ousted the elected government of Aung San Suu Kyi, triggering civil war between junta forces and pro-democracy guerrillas allied with ethnic minority armies",
+        "Analysts regard the five-year civil war as Asia's deadliest active conflict",
+        "No official death toll exists; estimates vary widely based on media reports of violence"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Included personal testimony from widow whose husband was killed in recent airstrike in Rakhine state",
+          "url": "https://www.france24.com/en/americas/20260701-trump-earned-over-1-bn-from-crypto-ventures-in-2025"
+        }
+      ]
+    },
+    {
+      "headline": "Mass Anti-Immigration Protests Sweep South Africa Amid Fears of Violence",
+      "category": "Society",
+      "bullets": [
+        "Thousands demonstrated across South Africa against undocumented immigrants after activist groups set June 30 deadline for migrants to leave",
+        "At least four people have been killed in preceding weeks of anti-foreigner violence; tens of thousands have fled their homes",
+        "More than 25,000 migrants have been repatriated by various African governments; authorities deployed police and military assets nationwide",
+        "Government rejected the arbitrary deadline, stating only authorities can enforce immigration laws"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Provided extensive coverage across multiple articles on outbreak origins, rebel attacks, and US quarantine controversy",
-          "url": "https://www.theguardian.com/global-development/2026/jun/03/drc-ebola-outbreak-could-have-begun-as-early-as-january-who-chief-says"
+          "framing_note": "Extensive coverage of displaced migrants and personal stories of those fleeing violence",
+          "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc"
         },
         {
-          "name": "France 24",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.france24.com/en/technology/20260605-anthropic-calls-for-global-ai-slowdown-says-systems-may-outpace-human-control"
-        }
-      ]
-    },
-    {
-      "headline": "Anthropic Calls for Global Pause on Frontier AI Development",
-      "category": "Technology",
-      "bullets": [
-        "AI company Anthropic warned that cutting-edge AI models are showing signs they could escape human control",
-        "The company said a global slowdown would 'likely be a good thing' but acknowledged unilateral action would simply let rivals race ahead",
-        "Anthropic called for coordination among major AI companies in the US and China with verifiable rules",
-        "The company has faced pushback from industry rivals and White House officials"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized the 'narrowing human role' and control concerns",
-          "url": "https://www.france24.com/en/technology/20260605-anthropic-calls-for-global-ai-slowdown-says-systems-may-outpace-human-control"
-        }
-      ]
-    },
-    {
-      "headline": "EU-Western Balkans Summit Advances Enlargement Amid Albania Kushner Resort Protests",
-      "category": "Geopolitics",
-      "bullets": [
-        "EU and Western Balkan leaders gathered in Tivat, Montenegro for a summit focused on enlargement for six candidate countries",
-        "European Council President Costa said 'the momentum is there' for enlargement, with discussions on economic reforms and security",
-        "Protests erupted in Albania over a luxury resort development on Sazan island linked to Jared Kushner's investment firm",
-        "Protesters cited environmental concerns for protected wetlands and flamingo habitats; demonstrations targeted both the government and the project"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on summit diplomacy and enlargement timeline",
-          "url": "https://www.rfi.fr/en/international/20260604-hungary-drops-charges-against-organisers-of-banned-pride-marches"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasized protest angle and environmental concerns",
-          "url": "https://www.bbc.com/news/articles/c3r2rdjv2n1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Ivanka Trump's comments and local opposition narrative",
-          "url": "https://www.aljazeera.com/news/2026/6/5/why-the-kushners-plan-to-build-an-albanian-resort-has-sparked-protests?traffic_source=rss"
+          "framing_note": "Focused on government response and comparisons to 2008 anti-migrant riots that killed 62",
+          "url": "https://www.theglobeandmail.com/world/article-us-supreme-court-birthright-citizenship-rejects-trumps-executive-order/"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Forty-nine people died of thirst in Niger's Sahara desert after their truck broke down en route from Mali",
-      "source": "France 24, Le Monde",
-      "url": "https://www.france24.com/en/africa/20260605-nearly-50-die-of-thirst-in-niger-after-truck-breaks-down-in-remote-sahara-desert"
+      "headline": "Iran refuses to meet US envoys in Qatar, complicating ceasefire negotiations over Strait of Hormuz",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-us-iran-qatar-meeting/"
     },
     {
-      "headline": "French-Iranian author and filmmaker Marjane Satrapi, creator of Persepolis, died at age 56",
-      "source": "BBC Europe, Al Jazeera",
-      "url": "https://www.bbc.com/news/articles/c4g0nnj51jyo"
+      "headline": "Indonesian tech entrepreneur and former education minister Nadiem Makarim sentenced to 10 years for corruption in Chromebook procurement case",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-07-01/indonesian-former-minister-sentenced-to-jail-in-corruption-case/106865592"
     },
     {
-      "headline": "Chinese President Xi Jinping will visit North Korea June 8-9, his first trip in seven years",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/6/5/chinas-xi-headed-to-north-korea-in-bid-to-shore-up-ties"
-    },
-    {
-      "headline": "A maritime drone 'of the type used in Ukraine' self-detonated in Romania's Constanta port without casualties",
+      "headline": "World's oceans recorded hottest June ever as El Ni\u00f1o threatens to push temperatures to new records",
       "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260605-live-us-house-passes-bill-in-support-of-ukraine-sanctions-russia"
+      "url": "https://www.france24.com/en/environment/20260701-oceans-reach-hottest-june-on-record-as-el-ni%C3%B1o-threatens-more-heat"
     },
     {
-      "headline": "UK military chief warns Britain faces most dangerous period since Cold War with increased Russian incursions",
+      "headline": "Three-year-old boy rescued alive six days after Venezuela earthquakes that have killed nearly 2,000 people",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c1jykwk8n18o"
+    },
+    {
+      "headline": "Democratic socialist Melat Kiros defeats 15-term incumbent Diana DeGette in Colorado congressional primary",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/1/democratic-socialist-kiros-defeats-longtime-incumbent-in-colorado-primary"
+    },
+    {
+      "headline": "Six people shot dead at mothers and children center in Germany in custody dispute",
       "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/c1m2mryg0k7o"
+      "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo"
     },
     {
-      "headline": "Hungary dropped charges against Pride march organizers following EU court ruling against anti-LGBTQ law",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260604-hungary-drops-charges-against-organisers-of-banned-pride-marches"
-    },
-    {
-      "headline": "South Korean stocks fell over 5% as Samsung and SK Hynix shares dropped following Broadcom's $285 billion market value loss",
+      "headline": "South Korea exports surge past $100 billion for first time in June, driven by record semiconductor shipments",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/south-korean-stocks-fall-currency-slips-as-foreigners-dump-shares"
+      "url": "https://asia.nikkei.com/economy/south-korea-exports-in-june-soar-past-100bn-for-first-time-on-chip-demand"
     },
     {
-      "headline": "Reserve Bank of India held rates at 5.25% but raised inflation forecast amid energy crisis concerns",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/currencies/indian-central-bank-holds-firm-on-key-rate-but-raises-inflation-forecast"
+      "headline": "Germany's domestic intelligence agency reports far-right extremist numbers rose to 58,700 in 2025",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/crlw4ng79wzo"
     },
     {
-      "headline": "Putin pledged non-interference in India-China border disputes, expressing confidence Modi and Xi will resolve issues",
+      "headline": "US removes four Indian companies from Russia-related sanctions list",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/russian-president-vladimir-putin-press-conference-with-pti/article71064672.ece"
+      "url": "https://www.thehindu.com/news/international/us-removes-four-indian-companies-from-russia-related-sanctions-list/article71169202.ece"
     },
     {
-      "headline": "Dutch police arrested four men investigating suspected drugging and sexual assaults of multiple women filmed on camera",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.com/news/articles/cp8p8e1gnx7o"
+      "headline": "Canada signals no USMCA extension expected as trade deal enters annual review period",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-us-renew-trade-deal-canada-mexico-usmca/"
     }
   ]
 }
