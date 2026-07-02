@@ -1,190 +1,196 @@
 {
-  "date": "Wednesday, July 01, 2026",
-  "daily_brief": "The US Supreme Court delivered a significant blow to President Trump's immigration agenda on Tuesday, ruling 6-3 to uphold birthright citizenship and reject the administration's executive order targeting children of undocumented immigrants and temporary visitors [BBC, Globe and Mail, Al Jazeera]. Meanwhile, Trump's financial disclosures revealed he earned over $1.2 billion from cryptocurrency ventures in 2025, including $550 million from World Liberty Financial and $635 million from his meme coin [France 24, BBC, Le Monde]. The US lifted export restrictions on Anthropic's most powerful AI models, Claude Fable 5 and Mythos 5, restoring access for users in allied nations including New Zealand [RNZ, Le Monde]. In Myanmar, conflict monitoring group ACLED reported that deaths since the 2021 military coup have surpassed 100,000, marking it as Asia's deadliest active conflict [France 24]. Tensions remain high in South Africa as anti-immigration protests drew thousands of demonstrators, with authorities deploying police nationwide to prevent violence after weeks of unrest that has already displaced tens of thousands of foreign nationals [Guardian, Globe and Mail]. On the diplomatic front, Iran declined to meet directly with US envoys in Qatar, complicating ceasefire negotiations [Globe and Mail].",
+  "date": "Thursday, July 02, 2026",
+  "daily_brief": "Russia launched its largest combined drone and missile attack on Kyiv overnight, killing at least 13 civilians including children and striking dozens of residential locations across the Ukrainian capital [BBC], [France 24], [Financial Times]. The assault, which involved 74 missiles and 496 drones according to Ukrainian officials, came hours after President Zelensky warned of an imminent 'massive attack' and cut short a visit to Dublin [Globe and Mail]. Meanwhile, US-Iran negotiations in Qatar showed 'positive progress' according to Pakistani and Qatari mediators, with Tehran announcing plans to access frozen assets under the ceasefire memorandum while warning against attacks ahead of Ayatollah Khamenei's funeral procession beginning July 4 [France 24], [The Hindu]. In Africa, Amnesty International accused Sudan's Rapid Support Forces of crimes against humanity during the siege of El Fasher, documenting systematic killings, torture, and sexual violence that a UN mission previously described as bearing 'hallmarks of genocide' [The Guardian], [RFI]. South Africa saw over 900 arrests during largely peaceful but occasionally violent anti-migrant protests, as xenophobic tensions continue to displace thousands of foreign nationals [Al Jazeera]. German prosecutors have charged a Ukrainian national over the 2022 Nord Stream pipeline explosions, potentially complicating Kyiv's relationship with Berlin [BBC].",
   "top_stories": [
     {
-      "headline": "US Supreme Court Upholds Birthright Citizenship, Rejects Trump Executive Order",
-      "category": "Policy",
+      "headline": "Russia Launches Largest Drone and Missile Attack on Kyiv, Killing at Least 13 Civilians",
+      "category": "Conflict",
       "bullets": [
-        "Supreme Court ruled 6-3 that children born in the US to undocumented immigrants or temporary visitors are citizens under the 14th Amendment",
-        "Chief Justice Roberts joined the liberal justices in finding Trump's executive order unconstitutional; Justice Kavanaugh found it violated federal law rather than the Constitution",
-        "Justices Thomas, Alito, and Gorsuch dissented; Thomas wrote a 91-page dissent arguing the court misinterpreted the 14th Amendment",
-        "Trump called the decision 'too bad' and urged Congress to pass legislation ending birthright citizenship"
+        "Russian forces launched 74 missiles and 496 drones overnight targeting Kyiv, with 25 ballistic missiles and 12 drones striking 33 locations across the city",
+        "At least 13 people killed including children, with dozens wounded; apartment buildings collapsed and fires broke out across residential areas",
+        "Attack came hours after President Zelensky warned of imminent 'massive attack' and cut short his visit to Dublin for Ireland's EU presidency inauguration",
+        "Russia's Defense Ministry claimed strikes targeted energy facilities in response to recent Ukrainian attacks on Russian territory"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized this as a 'major setback' for Trump and noted his 'tepid' response compared to usual standards",
-          "url": "https://www.bbc.co.uk/news/articles/crlwe28dz44o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized civilian casualties and included on-the-ground reporting from BBC team in Kyiv",
+          "url": "https://www.bbc.co.uk/news/articles/c70yk07vq0po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Led with liveblog format and included secondary story on IISS report about Russian drone campaign across Europe",
+          "url": "https://www.france24.com/en/middle-east/20260702-middle-east-live-iran-says-to-use-frozen-funds-in-qatar-to-buy-required-goods"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline focused on 'bombardment' framing; full content paywalled",
+          "url": "https://www.ft.com/content/3b13f052-a045-41aa-950b-12e7f90ce7b9"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on constitutional analysis and noted Trump personally attended oral arguments - first sitting president to do so",
-          "url": "https://www.theglobeandmail.com/world/article-us-supreme-court-birthright-citizenship-rejects-trumps-executive-order/"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted 'MAGA meltdown' reaction to the ruling",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/tutoring-centre-roof-collapses-killing-14-children-in-pakistan?traffic_source=rss"
+          "framing_note": "Reported initial death toll of 8; lower figure likely due to earlier filing time",
+          "url": "https://www.theglobeandmail.com/world/article-four-adults-charged-after-16-children-found-confined-in-dilapidated/"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": null,
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/01/us-supreme-court-blocks-white-house-move-upholds-birthright-citizenship-of-children-of-undocumented-migrants_6755029_4.html"
+          "framing_note": "Described as 'biggest ever' attack in headline",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/02/war-in-ukraine-exceeds-two-million-casualties-study_6755059_4.html"
         }
       ]
     },
     {
-      "headline": "Trump Earned $1.2 Billion from Cryptocurrency Ventures in 2025, Disclosure Shows",
-      "category": "Economics",
+      "headline": "US-Iran Talks in Qatar Show 'Positive Progress' as Tehran Plans to Access Frozen Assets",
+      "category": "Geopolitics",
       "bullets": [
-        "Financial disclosure reveals $550 million from World Liberty Financial, co-founded by Trump's sons and the son of envoy Steve Witkoff",
-        "$635 million came from royalties related to the $TRUMP meme coin launched days before his January 2025 inauguration",
-        "Trump's personal fortune reportedly tripled from $2.3 billion to $6.5 billion between 2024 and 2026",
-        "White House denied any conflict of interest, stating Trump made the US 'the crypto capital of the world'"
+        "Pakistani and Qatari mediators reported 'positive progress' on implementing the June 18 Islamabad MoU after separate meetings with US and Iranian negotiators in Doha",
+        "Iran announced it will use frozen assets in Qatar to purchase 'required goods' under terms of the ceasefire agreement",
+        "President Trump stated the US is 'getting along very well' with Iran and that denuclearization talks are 'moving along well'",
+        "Iranian military warned US and Israel against any attacks ahead of Ayatollah Khamenei's state funeral procession beginning July 4"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Noted Trump is 'regularly accused of conflicts of interest' and detailed the timing of crypto investments",
-          "url": "https://www.france24.com/en/americas/20260701-trump-earned-over-1-bn-from-crypto-ventures-in-2025"
+          "framing_note": "Focused on Iran's warnings and funeral preparations alongside asset access announcement",
+          "url": "https://www.france24.com/en/middle-east/20260702-middle-east-live-iran-says-to-use-frozen-funds-in-qatar-to-buy-required-goods"
         },
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Included White House denial and noted businesses are in trust managed by his sons",
-          "url": "https://www.bbc.co.uk/news/articles/crlwe28dz44o?at_medium=RSS&at_campaign=rss"
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Pakistani mediation role and provided technical details on negotiations",
+          "url": "https://www.thehindu.com/business/Economy/sri-lanka-upgraded-to-upper-middle-income-economy-by-world-bank/article71173142.ece"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": null,
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/01/us-supreme-court-blocks-white-house-move-upholds-birthright-citizenship-of-children-of-undocumented-migrants_6755029_4.html"
+          "framing_note": "Headline focused on Trump seeing 'progress'; content unavailable",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/02/war-in-ukraine-exceeds-two-million-casualties-study_6755059_4.html"
         }
       ]
     },
     {
-      "headline": "US Lifts Export Restrictions on Anthropic's Most Powerful AI Models",
-      "category": "Technology",
-      "bullets": [
-        "Department of Commerce removed export controls on Claude Fable 5 and Mythos 5, Anthropic's most advanced AI systems",
-        "The models had been restricted last month on security grounds, blocking access in allied nations including New Zealand",
-        "Claude Fable 5 is Anthropic's most powerful model cleared for general use; Mythos 5 is restricted to trusted companies and governments for cybersecurity purposes",
-        "Anthropic announced it would begin restoring access immediately"
-      ],
-      "sources": [
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Focused on implications for New Zealand users and noted tech expert criticism of the original ban",
-          "url": "https://www.rnz.co.nz/news/political/643745/nz-sends-condolences-to-victims-of-venezuela-quakes"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": null,
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/01/us-supreme-court-blocks-white-house-move-upholds-birthright-citizenship-of-children-of-undocumented-migrants_6755029_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Myanmar Conflict Death Toll Surpasses 100,000 Since 2021 Coup",
+      "headline": "Amnesty International Accuses Sudan's RSF of Crimes Against Humanity in El Fasher Campaign",
       "category": "Conflict",
       "bullets": [
-        "Armed Conflict Location & Event Data (ACLED) reports 100,114 conflict-related fatalities since the military coup in February 2021",
-        "The military ousted the elected government of Aung San Suu Kyi, triggering civil war between junta forces and pro-democracy guerrillas allied with ethnic minority armies",
-        "Analysts regard the five-year civil war as Asia's deadliest active conflict",
-        "No official death toll exists; estimates vary widely based on media reports of violence"
+        "Report documents killings, torture, rape, sexual slavery, and forced displacement by RSF forces between early 2024 and October 2025",
+        "Investigation based on interviews with 247 people including 208 survivors, plus analysis of 89 videos and satellite imagery",
+        "RSF accused of deliberately targeting children and using dehumanizing language against non-Arab civilians",
+        "Amnesty called for immediate nationwide ceasefire and deployment of international force to protect civilians"
       ],
       "sources": [
         {
-          "name": "France 24",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Included personal testimony from widow whose husband was killed in recent airstrike in Rakhine state",
-          "url": "https://www.france24.com/en/americas/20260701-trump-earned-over-1-bn-from-crypto-ventures-in-2025"
-        }
-      ]
-    },
-    {
-      "headline": "Mass Anti-Immigration Protests Sweep South Africa Amid Fears of Violence",
-      "category": "Society",
-      "bullets": [
-        "Thousands demonstrated across South Africa against undocumented immigrants after activist groups set June 30 deadline for migrants to leave",
-        "At least four people have been killed in preceding weeks of anti-foreigner violence; tens of thousands have fled their homes",
-        "More than 25,000 migrants have been repatriated by various African governments; authorities deployed police and military assets nationwide",
-        "Government rejected the arbitrary deadline, stating only authorities can enforce immigration laws"
-      ],
-      "sources": [
+          "framing_note": "Straightforward factual reporting; noted UN fact-finding mission's February genocide assessment",
+          "url": "https://www.rfi.fr/en/africa/20260701-sudan-rsf-accused-of-crimes-against-humanity-in-el-fasher-amnesty"
+        },
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Extensive coverage of displaced migrants and personal stories of those fleeing violence",
-          "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc"
+          "framing_note": "Provided additional context on October 2025 capture of El Fasher and 'tens of thousands' killed during takeover",
+          "url": "https://www.theguardian.com/world/2026/jun/30/south-africa-police-anti-immigrant-protests"
+        }
+      ]
+    },
+    {
+      "headline": "German Prosecutors Charge Ukrainian National Over Nord Stream Pipeline Explosions",
+      "category": "Geopolitics",
+      "bullets": [
+        "Suspect identified only as Serhii K under German privacy laws; allegedly led and coordinated the 2022 attack on pipelines",
+        "Man was arrested in Italy in summer 2025 and extradited to Germany in November; he has denied involvement",
+        "Charges include attacking civil energy infrastructure, causing an explosion, and destroying infrastructure",
+        "Case may have serious implications for Ukraine's relationship with Germany; Ukraine has denied state involvement"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Noted potential diplomatic implications for Ukraine-Germany relations; included denial from suspect's lawyers",
+          "url": "https://www.bbc.co.uk/news/articles/c74y7k8wyz8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "South Africa Arrests Over 900 During Nationwide Anti-Migrant Protests",
+      "category": "Society",
+      "bullets": [
+        "More than 900 people arrested across 120 marches held Tuesday, with 108 peaceful and 12 requiring police intervention",
+        "One person shot dead during protests; arrests ranged from public violence and robbery to immigration violations",
+        "Demonstrations marked unofficial 'deadline' set by civil society groups for undocumented migrants to leave the country",
+        "President Ramaphosa held emergency meeting with protest organizers; over 25,000 foreign nationals repatriated in recent weeks"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Described protests as 'antimigrant' and 'xenophobic'; included government response details",
+          "url": "https://www.aljazeera.com/news/2026/7/2/more-than-900-arrested-during-south-africas-antimigrant-protests?traffic_source=rss"
         },
         {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on government response and comparisons to 2008 anti-migrant riots that killed 62",
-          "url": "https://www.theglobeandmail.com/world/article-us-supreme-court-birthright-citizenship-rejects-trumps-executive-order/"
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Earlier coverage focused on displaced immigrants fleeing violence and fear ahead of protests",
+          "url": "https://www.theguardian.com/world/2026/jun/30/south-africa-police-anti-immigrant-protests"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Iran refuses to meet US envoys in Qatar, complicating ceasefire negotiations over Strait of Hormuz",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-us-iran-qatar-meeting/"
+      "headline": "France's National Assembly approves assisted dying bill with strict safeguards, expected to receive final adoption July 15",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260702-france-advances-assisted-dying-law-with-safeguards-and-strict-rules"
     },
     {
-      "headline": "Indonesian tech entrepreneur and former education minister Nadiem Makarim sentenced to 10 years for corruption in Chromebook procurement case",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-07-01/indonesian-former-minister-sentenced-to-jail-in-corruption-case/106865592"
-    },
-    {
-      "headline": "World's oceans recorded hottest June ever as El Ni\u00f1o threatens to push temperatures to new records",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/environment/20260701-oceans-reach-hottest-june-on-record-as-el-ni%C3%B1o-threatens-more-heat"
-    },
-    {
-      "headline": "Three-year-old boy rescued alive six days after Venezuela earthquakes that have killed nearly 2,000 people",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c1jykwk8n18o"
-    },
-    {
-      "headline": "Democratic socialist Melat Kiros defeats 15-term incumbent Diana DeGette in Colorado congressional primary",
+      "headline": "Venezuela earthquake death toll rises to at least 2,295 with 50,000 missing; rescuers work to free man trapped for eight days",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/1/democratic-socialist-kiros-defeats-longtime-incumbent-in-colorado-primary"
+      "url": "https://www.aljazeera.com/gallery/2026/7/2/in-pictures-hunger-despair-as-venezuela-quake-death-toll-rises"
     },
     {
-      "headline": "Six people shot dead at mothers and children center in Germany in custody dispute",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo"
+      "headline": "Burkina Faso severs diplomatic ties with France in sudden move with far-reaching consequences",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/07/02/burkina-faso-severs-diplomatic-ties-with-france-a-sudden-move-with-far-reaching-consequences_6755062_124.html"
     },
     {
-      "headline": "South Korea exports surge past $100 billion for first time in June, driven by record semiconductor shipments",
+      "headline": "Chinese automakers surpass Japanese rivals in European passenger car sales for first time, driven by BYD's 70% overseas growth",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/south-korea-exports-in-june-soar-past-100bn-for-first-time-on-chip-demand"
+      "url": "https://asia.nikkei.com/business/automobiles/chinese-automakers-overtake-japanese-rivals-in-europe-despite-ev-tariffs"
     },
     {
-      "headline": "Germany's domestic intelligence agency reports far-right extremist numbers rose to 58,700 in 2025",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/crlw4ng79wzo"
-    },
-    {
-      "headline": "US removes four Indian companies from Russia-related sanctions list",
+      "headline": "World Bank upgrades Sri Lanka to upper-middle-income economy three years after severe economic crisis",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/us-removes-four-indian-companies-from-russia-related-sanctions-list/article71169202.ece"
+      "url": "https://www.thehindu.com/business/Economy/sri-lanka-upgraded-to-upper-middle-income-economy-by-world-bank/article71173142.ece"
     },
     {
-      "headline": "Canada signals no USMCA extension expected as trade deal enters annual review period",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-us-renew-trade-deal-canada-mexico-usmca/"
+      "headline": "Society of Saint Pius X defies Pope Leo XIV's appeal, ordains four bishops in Switzerland in 'schismatic act'",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c74y7k8wyz8o"
+    },
+    {
+      "headline": "Algeria holds parliamentary elections amid public apathy and distraction of World Cup knockout match against Switzerland",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260702-algeria-votes-in-parliamentary-elections-amid-public-apathy-and-football-fever"
+    },
+    {
+      "headline": "Maltese businessman Yorgen Fenech goes on trial for 2017 car bomb assassination of journalist Daphne Caruana Galizia",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c1ey95gl5j5o"
+    },
+    {
+      "headline": "Trump financial disclosure reveals $2.2 billion earned in first year back in office, unprecedented for sitting president",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c70yk07vq0po"
+    },
+    {
+      "headline": "Russia faces severe fuel deficit as Ukrainian drone strikes knock out significant refining capacity",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/2/the-crisis-is-deep-the-view-from-russia-as-fuel-shortages-worsen"
     }
   ]
 }
