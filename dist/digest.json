@@ -1,196 +1,190 @@
 {
-  "date": "Thursday, July 02, 2026",
-  "daily_brief": "Russia launched its largest combined drone and missile attack on Kyiv overnight, killing at least 13 civilians including children and striking dozens of residential locations across the Ukrainian capital [BBC], [France 24], [Financial Times]. The assault, which involved 74 missiles and 496 drones according to Ukrainian officials, came hours after President Zelensky warned of an imminent 'massive attack' and cut short a visit to Dublin [Globe and Mail]. Meanwhile, US-Iran negotiations in Qatar showed 'positive progress' according to Pakistani and Qatari mediators, with Tehran announcing plans to access frozen assets under the ceasefire memorandum while warning against attacks ahead of Ayatollah Khamenei's funeral procession beginning July 4 [France 24], [The Hindu]. In Africa, Amnesty International accused Sudan's Rapid Support Forces of crimes against humanity during the siege of El Fasher, documenting systematic killings, torture, and sexual violence that a UN mission previously described as bearing 'hallmarks of genocide' [The Guardian], [RFI]. South Africa saw over 900 arrests during largely peaceful but occasionally violent anti-migrant protests, as xenophobic tensions continue to displace thousands of foreign nationals [Al Jazeera]. German prosecutors have charged a Ukrainian national over the 2022 Nord Stream pipeline explosions, potentially complicating Kyiv's relationship with Berlin [BBC].",
+  "date": "Friday, July 03, 2026",
+  "daily_brief": "The day's most significant developments center on escalating conflict and humanitarian crises across multiple regions. Russia launched what Kyiv's mayor called the 'most massive attack' on the Ukrainian capital, killing at least 30 and injuring 91 in overnight drone and missile strikes [BBC, Al Jazeera]. Meanwhile, rescue efforts in Venezuela yielded a rare success as a survivor was pulled from rubble eight days after twin earthquakes that have now claimed at least 2,595 lives [BBC, Le Monde]. In France, authorities confirmed the June heatwave caused approximately 2,025 excess deaths\u2014a 29% spike\u2014with Paris seeing a 62% increase, prompting political fallout including a Green party no-confidence motion [France 24, RFI, The Hindu]. Geopolitically, NATO leaders prepare for next week's summit in Ankara amid transatlantic tensions over defense spending and US commitments [The Hindu], while China's expanded maritime activities east of Taiwan draw concern from Australia and signal a strategic shift in Beijing's approach to the contested waters [ABC Australia, Financial Times]. Iran prepares for Supreme Leader Khamenei's funeral, with representatives from over 100 countries expected to attend the seven-day commemoration [Al Jazeera, The Hindu].",
   "top_stories": [
     {
-      "headline": "Russia Launches Largest Drone and Missile Attack on Kyiv, Killing at Least 13 Civilians",
+      "headline": "Russia Launches 'Most Massive' Drone and Missile Attack on Kyiv, Killing at Least 30",
       "category": "Conflict",
       "bullets": [
-        "Russian forces launched 74 missiles and 496 drones overnight targeting Kyiv, with 25 ballistic missiles and 12 drones striking 33 locations across the city",
-        "At least 13 people killed including children, with dozens wounded; apartment buildings collapsed and fires broke out across residential areas",
-        "Attack came hours after President Zelensky warned of imminent 'massive attack' and cut short his visit to Dublin for Ireland's EU presidency inauguration",
-        "Russia's Defense Ministry claimed strikes targeted energy facilities in response to recent Ukrainian attacks on Russian territory"
+        "Russian forces launched a combined drone and missile attack on Kyiv overnight Thursday, killing at least 30 people and injuring 91 in what Mayor Vitaly Klitschko called the 'most massive attack' on the capital",
+        "The attack deployed the largest number of weapons ever used against Kyiv, hitting multiple neighborhoods including a high-rise residential building and an ambulance station",
+        "Approximately 52,500 people, including 4,500 children, sheltered in metro stations overnight\u2014the highest number in recent years",
+        "Moscow claimed it targeted military plants in retaliation for Ukrainian strikes on Russian civilian infrastructure; Ukraine accused Russia of deliberately targeting civilian areas"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized civilian casualties and included on-the-ground reporting from BBC team in Kyiv",
-          "url": "https://www.bbc.co.uk/news/articles/c70yk07vq0po?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized scale of attack and civilian impact, included Kremlin justification",
+          "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Led with liveblog format and included secondary story on IISS report about Russian drone campaign across Europe",
-          "url": "https://www.france24.com/en/middle-east/20260702-middle-east-live-iran-says-to-use-frozen-funds-in-qatar-to-buy-required-goods"
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c33yjk0ldkdo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline focused on 'bombardment' framing; full content paywalled",
-          "url": "https://www.ft.com/content/3b13f052-a045-41aa-950b-12e7f90ce7b9"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Reported initial death toll of 8; lower figure likely due to earlier filing time",
-          "url": "https://www.theglobeandmail.com/world/article-four-adults-charged-after-16-children-found-confined-in-dilapidated/"
-        },
-        {
-          "name": "Le Monde",
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Described as 'biggest ever' attack in headline",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/02/war-in-ukraine-exceeds-two-million-casualties-study_6755059_4.html"
+          "framing_note": "Brief video coverage noting Ukrainian retaliatory strike on Belgorod",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/ukraine-strike-hits-belgorod-causing-fire-and-power-outages?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "US-Iran Talks in Qatar Show 'Positive Progress' as Tehran Plans to Access Frozen Assets",
-      "category": "Geopolitics",
+      "headline": "France Records Over 2,000 Excess Deaths During Record June Heatwave",
+      "category": "Climate",
       "bullets": [
-        "Pakistani and Qatari mediators reported 'positive progress' on implementing the June 18 Islamabad MoU after separate meetings with US and Iranian negotiators in Doha",
-        "Iran announced it will use frozen assets in Qatar to purchase 'required goods' under terms of the ceasefire agreement",
-        "President Trump stated the US is 'getting along very well' with Iran and that denuclearization talks are 'moving along well'",
-        "Iranian military warned US and Israel against any attacks ahead of Ayatollah Khamenei's state funeral procession beginning July 4"
+        "Public Health France reported 2,025 additional deaths during the week of June 22-28, representing a 29.1% increase compared to the previous week",
+        "The Paris region saw deaths spike by 62% during the peak heatwave period, with similar increases in Pays de la Loire",
+        "Health Minister Stephanie Rist indicated the figure is likely an underestimate and the final tally remains incomplete",
+        "The Green party filed a no-confidence motion against the Lecornu government, accusing authorities of inadequate protective measures"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on Iran's warnings and funeral preparations alongside asset access announcement",
-          "url": "https://www.france24.com/en/middle-east/20260702-middle-east-live-iran-says-to-use-frozen-funds-in-qatar-to-buy-required-goods"
+          "framing_note": "Focused on mortality statistics and government response",
+          "url": "https://www.france24.com/en/sport/20260703-switzerland-beat-algeria-2-0-to-move-into-world-cup-last-16"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Compared French response to Spanish worker protection laws, discussed proposed climate leave legislation",
+          "url": "https://www.rfi.fr/en/france/20260702-wildfires-spread-across-southern-france-as-heatwave-reignites-forest-concerns"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Pakistani mediation role and provided technical details on negotiations",
-          "url": "https://www.thehindu.com/business/Economy/sri-lanka-upgraded-to-upper-middle-income-economy-by-world-bank/article71173142.ece"
+          "framing_note": "Straightforward coverage of statistics, noted comparison to 2003 heatwave deaths",
+          "url": "https://www.thehindu.com/news/international/myanmar-ex-junta-chief-makes-first-asean-outing-as-civilian-leader/article71177501.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Venezuela Earthquake Death Toll Reaches 2,595 as Survivor Rescued After Eight Days",
+      "category": "Society",
+      "bullets": [
+        "Hern\u00e1n Gil was rescued alive after being trapped for eight days under 140 tonnes of rubble following twin earthquakes on June 24",
+        "Venezuelan Acting President Delcy Rodr\u00edguez called Gil a 'living miracle' and described the disaster as 'a natural tragedy on a scale we never imagined'",
+        "Tens of thousands remain missing as rescue operations continue with international assistance from Chile and Costa Rica",
+        "Rodr\u00edguez rejected criticism of slow government response, stating authorities deployed thousands of officials after the quakes"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on rescue operation details and survivor story",
+          "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Headline focused on Trump seeing 'progress'; content unavailable",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/02/war-in-ukraine-exceeds-two-million-casualties-study_6755059_4.html"
+          "framing_note": "Title visible but full article content unavailable",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/07/03/250-years-of-american-independence-enslaved-and-freed-black-people-were-not-merely-witnesses-to-the-atlantic-revolutions-they-were-active-participants_6755100_23.html"
         }
       ]
     },
     {
-      "headline": "Amnesty International Accuses Sudan's RSF of Crimes Against Humanity in El Fasher Campaign",
-      "category": "Conflict",
-      "bullets": [
-        "Report documents killings, torture, rape, sexual slavery, and forced displacement by RSF forces between early 2024 and October 2025",
-        "Investigation based on interviews with 247 people including 208 survivors, plus analysis of 89 videos and satellite imagery",
-        "RSF accused of deliberately targeting children and using dehumanizing language against non-Arab civilians",
-        "Amnesty called for immediate nationwide ceasefire and deployment of international force to protect civilians"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Straightforward factual reporting; noted UN fact-finding mission's February genocide assessment",
-          "url": "https://www.rfi.fr/en/africa/20260701-sudan-rsf-accused-of-crimes-against-humanity-in-el-fasher-amnesty"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Provided additional context on October 2025 capture of El Fasher and 'tens of thousands' killed during takeover",
-          "url": "https://www.theguardian.com/world/2026/jun/30/south-africa-police-anti-immigrant-protests"
-        }
-      ]
-    },
-    {
-      "headline": "German Prosecutors Charge Ukrainian National Over Nord Stream Pipeline Explosions",
+      "headline": "China Expands Maritime Claims East of Taiwan, Drawing Australian Concern",
       "category": "Geopolitics",
       "bullets": [
-        "Suspect identified only as Serhii K under German privacy laws; allegedly led and coordinated the 2022 attack on pipelines",
-        "Man was arrested in Italy in summer 2025 and extradited to Germany in November; he has denied involvement",
-        "Charges include attacking civil energy infrastructure, causing an explosion, and destroying infrastructure",
-        "Case may have serious implications for Ukraine's relationship with Germany; Ukraine has denied state involvement"
+        "Chinese coast guard ships conducted 'special maritime traffic law-enforcement operations' off Taiwan's east coast in June, inspecting 198 vessels",
+        "Beijing claimed the operation was in response to Japan-Philippines talks on maritime boundaries, which China views as involving Chinese waters",
+        "Chinese state media reported the operation demonstrated strengthened 'traffic control capabilities' in the area",
+        "Australia raised concerns directly with Beijing officials, stating opposition to 'any unilateral action to change the status quo'"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Noted potential diplomatic implications for Ukraine-Germany relations; included denial from suspect's lawyers",
-          "url": "https://www.bbc.co.uk/news/articles/c74y7k8wyz8o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized Australian diplomatic response and strategic implications",
+          "url": "https://www.abc.net.au/news/2026-07-03/mona-darklab-pulls-pin-on-transformer-art-installation/106877998"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline indicates coverage but full article behind paywall",
+          "url": "https://www.ft.com/content/a30da432-910f-4879-ad8f-845970d3cce3"
         }
       ]
     },
     {
-      "headline": "South Africa Arrests Over 900 During Nationwide Anti-Migrant Protests",
-      "category": "Society",
+      "headline": "NATO Summit in Ankara Next Week Amid Transatlantic Tensions Over Defense Spending",
+      "category": "Geopolitics",
       "bullets": [
-        "More than 900 people arrested across 120 marches held Tuesday, with 108 peaceful and 12 requiring police intervention",
-        "One person shot dead during protests; arrests ranged from public violence and robbery to immigration violations",
-        "Demonstrations marked unofficial 'deadline' set by civil society groups for undocumented migrants to leave the country",
-        "President Ramaphosa held emergency meeting with protest organizers; over 25,000 foreign nationals repatriated in recent weeks"
+        "NATO leaders will gather in Ankara on July 7-8, with Europeans seeking to demonstrate increased defense commitments as the US scales back alliance involvement",
+        "Arms deals worth tens of billions of dollars are expected to be signed, and leaders will pledge continued weapons funding for Ukraine",
+        "Ukrainian President Volodymyr Zelensky will attend a dinner hosted by Turkish President Erdogan, who will also hold bilateral talks with President Trump",
+        "Trump criticized NATO on Truth Social Thursday, complaining the US spends money protecting members 'without getting any benefit'"
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Described protests as 'antimigrant' and 'xenophobic'; included government response details",
-          "url": "https://www.aljazeera.com/news/2026/7/2/more-than-900-arrested-during-south-africas-antimigrant-protests?traffic_source=rss"
+          "framing_note": "Balanced coverage of European efforts to demonstrate commitment while noting Trump's criticism",
+          "url": "https://www.thehindu.com/news/international/myanmar-ex-junta-chief-makes-first-asean-outing-as-civilian-leader/article71177501.ece"
         },
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Earlier coverage focused on displaced immigrants fleeing violence and fear ahead of protests",
-          "url": "https://www.theguardian.com/world/2026/jun/30/south-africa-police-anti-immigrant-protests"
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Headline suggests focus on European defense posture as America 'pulls back'",
+          "url": "https://www.economist.com/international/2026/06/16/asian-allies-are-doomed-to-hug-donald-trump-close"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "France's National Assembly approves assisted dying bill with strict safeguards, expected to receive final adoption July 15",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260702-france-advances-assisted-dying-law-with-safeguards-and-strict-rules"
+      "headline": "World leaders gather in Tehran for seven-day funeral of Supreme Leader Khamenei, killed in February US-Israeli strikes",
+      "source": "Al Jazeera, The Hindu",
+      "url": "https://www.aljazeera.com/news/2026/7/3/irans-khamenei-funeral-which-world-leaders-are-attending"
     },
     {
-      "headline": "Venezuela earthquake death toll rises to at least 2,295 with 50,000 missing; rescuers work to free man trapped for eight days",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/gallery/2026/7/2/in-pictures-hunger-despair-as-venezuela-quake-death-toll-rises"
+      "headline": "West African floods kill at least 59 in C\u00f4te d'Ivoire and 13 in Ghana as torrential rains continue",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/02/cote-d-ivoire-floods-dead-west-africa-rains"
     },
     {
-      "headline": "Burkina Faso severs diplomatic ties with France in sudden move with far-reaching consequences",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/07/02/burkina-faso-severs-diplomatic-ties-with-france-a-sudden-move-with-far-reaching-consequences_6755062_124.html"
-    },
-    {
-      "headline": "Chinese automakers surpass Japanese rivals in European passenger car sales for first time, driven by BYD's 70% overseas growth",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/automobiles/chinese-automakers-overtake-japanese-rivals-in-europe-despite-ev-tariffs"
-    },
-    {
-      "headline": "World Bank upgrades Sri Lanka to upper-middle-income economy three years after severe economic crisis",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/business/Economy/sri-lanka-upgraded-to-upper-middle-income-economy-by-world-bank/article71173142.ece"
-    },
-    {
-      "headline": "Society of Saint Pius X defies Pope Leo XIV's appeal, ordains four bishops in Switzerland in 'schismatic act'",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c74y7k8wyz8o"
-    },
-    {
-      "headline": "Algeria holds parliamentary elections amid public apathy and distraction of World Cup knockout match against Switzerland",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260702-algeria-votes-in-parliamentary-elections-amid-public-apathy-and-football-fever"
-    },
-    {
-      "headline": "Maltese businessman Yorgen Fenech goes on trial for 2017 car bomb assassination of journalist Daphne Caruana Galizia",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c1ey95gl5j5o"
-    },
-    {
-      "headline": "Trump financial disclosure reveals $2.2 billion earned in first year back in office, unprecedented for sitting president",
+      "headline": "BBC investigation finds Instagram running paid ads promoting child sexual abuse material in India",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c70yk07vq0po"
+      "url": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo"
     },
     {
-      "headline": "Russia faces severe fuel deficit as Ukrainian drone strikes knock out significant refining capacity",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/2/the-crisis-is-deep-the-view-from-russia-as-fuel-shortages-worsen"
+      "headline": "Amnesty International accuses Sudan's RSF of crimes against humanity and ethnic cleansing in El Fasher campaign",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/01/sudan-rsf-rapid-support-forces-crimes-against-humanity-el-fasher-amnesty-ethnic-cleansing"
+    },
+    {
+      "headline": "At least 40 killed when bus falls into ravine in Pakistan's Khyber Pakhtunkhwa province",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/pakistan-khyber-pakhtunkhwa-bus-accident-several-death-injured-updates/article71177806.ece"
+    },
+    {
+      "headline": "Vatican excommunicates followers of Society of Saint Pius X after unauthorized bishop consecrations",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c5yz95188jjo"
+    },
+    {
+      "headline": "Ukrainian national charged in Germany over 2022 Nord Stream pipeline explosions",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c33yjk0ldkdo"
+    },
+    {
+      "headline": "Niger military regime arrests dozens in LGBTQ+ crackdown under new penal code criminalizing homosexuality",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/01/witch-hunt-in-niger-as-military-regime-rounds-up-lgbtq-population"
+    },
+    {
+      "headline": "Portugal defeats Croatia 2-1 in World Cup knockout round after controversial VAR decision denies late Croatian equalizer",
+      "source": "France 24, BBC Europe",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260703-world-cup-2026-portugal-knock-out-croatia-with-added-time-winner"
+    },
+    {
+      "headline": "Japanese yen falls to 39-year low against dollar as markets anticipate cautious BOJ monetary policy",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/yen-weakness-persists-as-markets-see-boj-falling-behind-the-curve"
     }
   ]
 }
