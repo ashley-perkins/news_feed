@@ -1,220 +1,208 @@
 {
-  "date": "Tuesday, July 07, 2026",
-  "daily_brief": "NATO leaders convene in Ankara today amid sharp tensions over burden-sharing and Ukraine support, with President Trump again questioning the alliance's value while European members prepare to announce \u20ac70 billion in military aid for Kyiv [BBC], [RFI]. The summit follows devastating Russian missile strikes on Kyiv that killed at least 28 civilians, exposing critical gaps in Ukraine's air defense capabilities as Patriot interceptor stocks run low [Globe and Mail], [BBC]. President Zelensky will press allies for urgent air defense systems and hold crucial talks with Trump on pathways to peace negotiations. In France, Marine Le Pen awaits a Paris appeal court verdict this afternoon that will determine whether she can pursue a fourth presidential bid; a conviction would hand the far-right National Rally candidacy to Jordan Bardella [BBC], [RFI]. Security concerns marked President Macron's historic visit to Syria as explosions struck near his Damascus hotel, injuring 18 people though the French leader was unharmed [BBC], [Al Jazeera], [Globe and Mail]. Meanwhile, a Qatari LNG tanker was attacked in the Strait of Hormuz, with Iranian state media implying Tehran's involvement after the vessel allegedly ignored warnings [Financial Times], [The Hindu].",
+  "date": "Wednesday, July 08, 2026",
+  "daily_brief": "Military tensions dominated today's news as the US and Iran exchanged strikes following attacks on three oil tankers in the Strait of Hormuz, threatening the fragile ceasefire between the two nations [BBC, Globe and Mail, Al Jazeera]. The escalation overshadowed the NATO summit in Ankara, where Secretary-General Mark Rutte backed the US response while leaders unveiled major defense initiatives, including a \u00a337 billion European missile project and a Canada-led defense bank with nine member nations [BBC, France 24, Globe and Mail]. President Trump expressed disappointment with NATO allies and renewed demands for control of Greenland, which Danish Prime Minister Frederiksen firmly rejected [RFI, France 24]. In France, Marine Le Pen announced her 2027 presidential bid hours after an appeals court upheld her embezzlement conviction but allowed her to run while wearing an electronic tag [BBC Europe]. Russia continues to face domestic fuel shortages severe enough to affect Moscow, even as Ukraine struck Russian tankers ahead of the NATO summit [BBC]. Meanwhile, Typhoon Maysak caused widespread devastation in southern China, killing at least 21 people and displacing tens of thousands [BBC].",
   "top_stories": [
     {
-      "headline": "NATO Summit Opens in Ankara Amid Transatlantic Tensions Over Ukraine Support and Burden-Sharing",
-      "category": "Geopolitics",
+      "headline": "US and Iran Exchange Strikes After Tanker Attacks in Strait of Hormuz, Threatening Ceasefire",
+      "category": "Conflict",
       "bullets": [
-        "NATO leaders gather in Ankara for a two-day summit, with European members and Canada preparing to announce \u20ac70 billion in military aid commitments to Ukraine for 2026-2027",
-        "President Trump renewed criticism of NATO, calling the alliance 'ridiculous' and 'not reciprocal,' while Secretary General Mark Rutte emphasized the need for continued U.S. engagement alongside greater European defense spending",
-        "President Zelensky will hold direct talks with Trump to advocate for increased air defense systems and push for Russia to be pressured into peace negotiations",
-        "The summit follows intense Russian strikes on Ukraine and Ukrainian drone counterattacks that have caused fuel shortages in Russia, with Moscow reporting 430 drones intercepted overnight targeting the capital"
+        "Three oil tankers were struck in the Strait of Hormuz, prompting US Central Command to launch strikes on more than 80 targets in southern Iran including Qeshm Island, Bandar Abbas, and Sirik",
+        "Iran's Revolutionary Guards retaliated by firing missiles and drones at US military facilities in Bahrain and Kuwait, claiming to have hit 85 targets",
+        "The US revoked a temporary sanctions waiver that had allowed Iran to sell oil on international markets, and oil prices rose more than 3%",
+        "Both sides accused each other of violating the memorandum of understanding signed last month, with negotiations expected to resume after the funeral of Supreme Leader Ayatollah Ali Khamenei"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasizes Zelensky's appeal for air defenses and the humanitarian toll of Russian strikes",
-          "url": "https://www.bbc.co.uk/news/videos/cq61d22ved2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed factual account with NATO chief Rutte's supportive comments prominently featured",
+          "url": "https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RFI English",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Highlights transatlantic tensions and Trump's critical comments about NATO",
-          "url": "https://www.rfi.fr/en/sports/20260706-european-football-chiefs-hit-out-at-fifa-move-to-lift-ban-on-us-star-balgoun"
-        },
-        {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Focuses on diplomatic strategies including 'Trump flattery' to preserve alliance unity",
-          "url": "https://www.economist.com/international/2026/06/18/meet-the-worlds-new-peacemakers"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Notes European military ramp-up is 'scattered and unsynchronized'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/07/as-us-disengages-from-nato-europe-s-militaries-ramp-up-scattered-and-unsynchronized_6755220_4.html"
+          "framing_note": "Emphasized impact on ceasefire agreement and oil markets",
+          "url": "https://www.theglobeandmail.com/world/article-ice-fatally-shot-man-houston-targeted-enforcement-operation/"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Frames Russia as 'touting war with NATO' amid battlefield challenges",
-          "url": "https://www.aljazeera.com/news/2026/7/7/russia-touts-war-with-nato-amid-losses-in-ukraine?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Missile Barrage Kills at Least 28 in Kyiv, Exposing Critical Air Defense Gaps",
-      "category": "Conflict",
-      "bullets": [
-        "Russian missiles and drones struck Kyiv and surrounding areas overnight Sunday-Monday, killing at least 28 people and damaging residential high-rises",
-        "Ukraine's military was unable to intercept any of the 23 ballistic missiles fired, reflecting depleted stocks of Patriot interceptors\u2014the only system capable of downing ballistic projectiles",
-        "President Zelensky called the situation 'absurd' and requested U.S. licenses to domestically manufacture Patriot systems",
-        "The attack came days after another deadly assault on the capital and on the eve of the NATO summit where air defense will be a central agenda item"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Details civilian casualties and Zelensky's appeals ahead of NATO summit",
-          "url": "https://www.bbc.co.uk/news/videos/cq61d22ved2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasizes the technical vulnerability due to Patriot shortages and Zelensky's production proposals",
-          "url": "https://www.theglobeandmail.com/world/article-tanker-set-ablaze-after-being-struck-by-projectile-in-strait-of-hormuz/"
-        }
-      ]
-    },
-    {
-      "headline": "Marine Le Pen Awaits Appeal Verdict That Will Determine Her Presidential Candidacy",
-      "category": "Policy",
-      "bullets": [
-        "A Paris appeal court will rule at 13:30 local time on whether to uphold Le Pen's March 2025 conviction for embezzling \u20ac1.4 million in European Parliament funds",
-        "The original verdict imposed a five-year ban on holding public office, which would bar her from the April 2027 presidential election where she currently leads polls",
-        "If the ban is upheld, her prot\u00e9g\u00e9 Jordan Bardella, 30, would become the National Rally's presidential candidate",
-        "Le Pen has denied organizing the fake jobs scheme but admitted to 'a mistake'; she plans to announce her intentions on TF1 television the same day as the verdict"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provides comprehensive background on the case and its political implications",
-          "url": "https://www.bbc.co.uk/news/videos/cq61d22ved2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Profiles both Le Pen and Bardella as potential candidates",
-          "url": "https://www.bbc.co.uk/news/articles/cx2kkrx8jeno?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on Iran's economic challenges and longer-term recovery prospects",
+          "url": "https://www.aljazeera.com/news/2026/7/8/at-un-cuba-rallies-support-against-ruthless-us-blockade?traffic_source=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Details the legal proceedings and possible scenarios including acquittal or continued appeal",
-          "url": "https://www.rfi.fr/en/sports/20260706-european-football-chiefs-hit-out-at-fifa-move-to-lift-ban-on-us-star-balgoun"
-        }
-      ]
-    },
-    {
-      "headline": "Explosions Strike Damascus During Macron's Historic Visit to Post-Assad Syria",
-      "category": "Geopolitics",
-      "bullets": [
-        "Two explosive devices detonated approximately 125 meters from the Four Seasons hotel where President Macron was meeting civil society groups, injuring 18 people including four police officers",
-        "Macron did not hear the explosions and proceeded to meet Syrian President Ahmed al-Sharaa at the presidential palace as scheduled",
-        "Macron is the first EU leader to visit Syria since rebels led by al-Sharaa toppled Bashar al-Assad's 24-year regime in 2024",
-        "The French president will travel to Ankara for the NATO summit; his office confirmed the visit 'continues as planned'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasizes security concerns and provides BBC Verify analysis of explosion location",
-          "url": "https://www.bbc.co.uk/news/videos/cq61d22ved2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief video report focusing on the moment of explosion",
-          "url": "https://www.aljazeera.com/news/2026/7/7/russia-touts-war-with-nato-amid-losses-in-ukraine?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Stresses the security challenges facing post-Assad Syria",
-          "url": "https://www.theglobeandmail.com/world/article-tanker-set-ablaze-after-being-struck-by-projectile-in-strait-of-hormuz/"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline focused on explosions during Macron visit",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/07/as-us-disengages-from-nato-europe-s-militaries-ramp-up-scattered-and-unsynchronized_6755220_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Tanker Attacked in Strait of Hormuz as Iran Mourns Khamenei",
-      "category": "Conflict",
-      "bullets": [
-        "A Qatari LNG tanker caught fire after being struck by a projectile near Limah, Oman, while traveling south through the Strait of Hormuz",
-        "Iranian state television reported the tanker was attacked after 'ignoring warnings,' implying Iranian responsibility, though no official claim was made",
-        "The UK Maritime Trade Operations centre confirmed the strike hit the vessel's port side; no environmental impact was reported",
-        "The attack comes amid ongoing funeral ceremonies for Iran's late Supreme Leader Ali Khamenei, killed in a February 28 US-Israeli strike"
-      ],
-      "sources": [
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline-only coverage noting tanker hit in strait",
-          "url": "https://www.ft.com/content/0a1c6329-2be0-4d7a-b7ab-82f81511bde2"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Factual report noting Iran suspected but no claim made",
-          "url": "https://www.theglobeandmail.com/world/article-tanker-set-ablaze-after-being-struck-by-projectile-in-strait-of-hormuz/"
+          "framing_note": "Led with oil price impact and supply fears",
+          "url": "https://www.rfi.fr/en/international/20260708-totalenergies-to-discuss-syria-offshore-exploration-still-wary-of-insecurity"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Includes Iranian state media statement implying Tehran's involvement and context of Khamenei funeral",
-          "url": "https://www.thehindu.com/news/international/china-storm-rains-updates/article71192255.ece"
+          "framing_note": "Provided context on Khamenei funeral and diplomatic timeline",
+          "url": "https://www.thehindu.com/news/international/us-lawrence-bishnoi-bhagwanpuriapunjab-police-extradition-fbi-july-8-2026/article71196945.ece"
+        }
+      ]
+    },
+    {
+      "headline": "NATO Summit in Ankara Reveals Defense Spending Surge and Transatlantic Tensions",
+      "category": "Geopolitics",
+      "bullets": [
+        "Twelve countries including the UK announced a \u00a337 billion ($50 billion) 'Deep Precision Strike' missile project to protect Europe, capable of striking targets up to 1,250 miles away",
+        "Nine countries including Canada, Ukraine, and Turkey formally committed to establishing a new multinational Defense, Security and Resilience Bank to begin operations by 2027",
+        "President Trump expressed disappointment with NATO, criticized UK, France, Germany and Italy for insufficient support in the Iran conflict, and suggested he might have boycotted the summit if not for his relationship with Turkey's Erdogan",
+        "NATO Secretary-General Rutte stated the US remains 'completely committed' to the alliance and that allies increased spending to around 4% of GDP last year"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized UK's leading role in missile project and Starmer's position",
+          "url": "https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Highlighted Rutte's reassurances about US commitment",
+          "url": "https://www.france24.com/en/europe/20260707-russia-moves-closer-to-full-olympic-return-ahead-of-2028-los-angeles-games"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on Canada's defense bank initiative and South Korea's submarine contract loss",
+          "url": "https://www.theglobeandmail.com/world/article-ice-fatally-shot-man-houston-targeted-enforcement-operation/"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": null,
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/08/two-israeli-ngos-warn-of-a-de-facto-annexation-at-an-unprecedented-pace-in-the-west-bank_6755253_4.html"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Analysis pieces on NATO's strategic challenges and flattery of Trump",
+          "url": "https://www.economist.com/international/2026/06/18/meet-the-worlds-new-peacemakers"
+        }
+      ]
+    },
+    {
+      "headline": "Marine Le Pen Announces 2027 Presidential Run Despite Embezzlement Conviction",
+      "category": "Policy",
+      "bullets": [
+        "A Paris appeals court upheld Le Pen's conviction for misusing \u20ac2.8 million in EU funds in a fake jobs scheme but reduced her sentence to wearing an electronic tag for one year",
+        "Le Pen announced her presidential candidacy within hours of the ruling, launching a social media campaign with the slogan 'Pour la France - La Renaissance'",
+        "She declared she will appeal to France's highest civil court, the Court of Cassation, which suspends the tag requirement until a verdict expected early 2027",
+        "Public prosecutors also announced they will appeal the reduced sentence"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on the political gamble and her defiant tone",
+          "url": "https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Provided detailed background on her three previous presidential runs and rivalry dynamics with Jordan Bardella",
+          "url": "https://www.bbc.co.uk/news/articles/cdejj03j9ejo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Typhoon Maysak Kills at Least 21 in China, Triggers Floods and Rare Tornadoes",
+      "category": "Climate",
+      "bullets": [
+        "Typhoon Maysak caused severe flooding in Guangxi province, particularly in Nanning and surrounding villages, with water completely submerging first floors of homes",
+        "At least 17 people died in tornadoes triggered by the typhoon in Hubei province, hundreds of kilometers from the storm's center, with hundreds more injured",
+        "At least four additional deaths occurred in Guangxi, with tens of thousands evacuated and dam walls breaking",
+        "President Xi Jinping ordered 'all out' rescue and relief operations in response to the disaster"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed human interest accounts from affected villagers, noted typhoons are common at this time of year",
+          "url": "https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Faces Severe Fuel Shortages as Ukraine Strikes Continue",
+      "category": "Conflict",
+      "bullets": [
+        "Moscow residents are experiencing widespread fuel shortages with long queues at most petrol stations and many stations closed after running out entirely",
+        "Ukrainian forces struck several Russian tankers overnight ahead of the NATO summit, killing at least seven people in broader strikes",
+        "Residents reported prices rising and hours-long waits to fill up, with some uncertain about planned road trips",
+        "The fuel crisis affects even Russia's wealthy capital despite the country's vast oil resources"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "On-the-ground reporting from Moscow with resident interviews",
+          "url": "https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Mentioned Ukrainian tanker strikes in context of NATO summit",
+          "url": "https://www.france24.com/en/europe/20260707-russia-moves-closer-to-full-olympic-return-ahead-of-2028-los-angeles-games"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Belgium defeat USA 4-1 to reach World Cup quarter-finals after controversial FIFA decision allowed banned striker Balogun to play following Trump intervention",
-      "source": "RFI English, Al Jazeera, Le Monde",
-      "url": "https://www.rfi.fr/en/sports/20260707-de-ketelaere-shines-as-belgium-trump-us-to-advance-to-world-cup-quarter-finals-world-cup-2026"
-    },
-    {
-      "headline": "Severe storms including rare tornadoes kill at least 15 people and injure 275 in China's Hubei and Guangxi provinces, prompting President Xi to call for 'all out' rescue efforts",
-      "source": "BBC World, The Hindu",
-      "url": "https://www.bbc.co.uk/news/videos/cq61d22ved2o"
-    },
-    {
-      "headline": "Indonesia and India sign missile supply deals for BrahMos supersonic cruise missiles and Astra air-to-air missiles during PM Modi's state visit to Jakarta",
-      "source": "Nikkei Asia, The Hindu",
-      "url": "https://asia.nikkei.com/politics/defense/indonesia-and-india-sign-deals-on-supersonic-air-to-air-missiles"
-    },
-    {
-      "headline": "BBC investigation identifies jailers and officials accused of torture and sexual violence at Russia's secret detention facilities in occupied Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2kkrx8jeno"
-    },
-    {
-      "headline": "Microsoft to cut 4,800 jobs as company 'resets' its Xbox gaming division",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/41091f2f-0916-4532-82c9-0634ab8ff64c"
-    },
-    {
-      "headline": "Trump's immigration crackdown causing US companies to relocate jobs abroad as H-1B visa restrictions and $100,000 application fees drive employers to Canada, Mexico and India",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-how-curbing-immigration-is-hurting-the-us-economy/"
-    },
-    {
-      "headline": "Canada selects Germany's TKMS over South Korea's Hanwha for submarine fleet contract, with NATO interoperability cited as deciding factor",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-disappointment-in-south-korea-after-losing-canadian-submarine-contract/"
-    },
-    {
-      "headline": "Landslides triggered by monsoon rains kill at least eight Rohingya refugees including five children in Bangladesh's Cox's Bazar camps",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/landslides-in-bangladeshs-coxs-bazar-kill-several-rohingya-refugees/article71190852.ece"
-    },
-    {
-      "headline": "European Commission warns France that proposed under-15 social media ban would breach EU Digital Services Act",
+      "headline": "Denmark's PM Frederiksen tells Trump that Greenland is 'not for sale' as US president renews demands at NATO summit",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260707-eu-asks-france-to-revise-under-15-social-media-warning-breach-of-bloc-s-law"
+      "url": "https://www.rfi.fr/en/international/20260708-greenland-not-for-sale-danish-pm-says-at-nato-summit"
     },
     {
-      "headline": "Liberia charges five suspects in $19 million cocaine trafficking bust after 200kg found disguised as Maggi seasoning cubes at Monrovia airport",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/07/charged-liberia-200kg-cocaine-seized-drug-bust"
+      "headline": "Hungary halts public TV news broadcasts and suspends state radio in bid to dismantle Orb\u00e1n-era propaganda apparatus",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cgevwq1pndgo"
+    },
+    {
+      "headline": "IOC provisionally lifts Russia's suspension, paving way for full team at 2028 Los Angeles Olympics despite Ukraine objections",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260707-russia-moves-closer-to-full-olympic-return-ahead-of-2028-los-angeles-games"
+    },
+    {
+      "headline": "Twin bomb attacks wound 18 near Damascus hotel where Macron stayed during landmark Syria visit",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260708-macron-says-syria-must-not-be-destabilised-after-bombs-wound-18"
+    },
+    {
+      "headline": "US authorities name 37 wanted individuals including gangster Lawrence Bishnoi and a Punjab police officer for transnational crimes",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/us-lawrence-bishnoi-bhagwanpuriapunjab-police-extradition-fbi-july-8-2026/article71196945.ece"
+    },
+    {
+      "headline": "Argentina complete dramatic World Cup comeback, beating Egypt 3-2 after trailing 2-0 with 15 minutes remaining",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260708-world-cup-argentina-leo-messi-pull-off-miracle-comeback-against-egypt"
+    },
+    {
+      "headline": "China defends South Pacific ballistic missile test as 'routine' after New Zealand and regional nations criticize launch",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/world/683451/missile-test-in-south-pacific-routine-and-consistent-with-international-law-china-insists"
+    },
+    {
+      "headline": "IMF sharply downgrades Cambodia's economic outlook, projecting 3% growth and doubled inflation amid border conflict and energy costs",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/economy/imf-sharply-downgrades-cambodia-economic-forecasts"
+    },
+    {
+      "headline": "Indian UN Mission building in Manhattan evacuated after nearby under-construction high-rise becomes structurally unstable",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/indian-un-mission-building-evacuated-as-nearby-nyc-high-rise-buckles-faces-risk-of-collapse/article71196657.ece"
+    },
+    {
+      "headline": "Two Israeli NGOs warn of 'de facto annexation at unprecedented pace' in the West Bank",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/08/two-israeli-ngos-warn-of-a-de-facto-annexation-at-an-unprecedented-pace-in-the-west-bank_6755253_4.html"
     }
   ]
 }
