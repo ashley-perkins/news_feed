@@ -1,202 +1,220 @@
 {
-  "date": "Thursday, July 09, 2026",
-  "daily_brief": "The NATO summit in Ankara was overshadowed by escalating US-Iran hostilities, with President Trump declaring the ceasefire 'over' after Iranian attacks on ships in the Strait of Hormuz [BBC World, France 24, Globe and Mail]. US forces struck approximately 90 Iranian military targets, prompting Tehran to retaliate against US bases in Kuwait, Bahrain, and Qatar [France 24, The Hindu]. At the summit, Trump lashed out at allies, calling Spain a 'terrible partner' and renewing his push to acquire Greenland from Denmark, while NATO Secretary General Mark Rutte downplayed tensions as a 'family argument' [BBC Europe, RFI]. In a significant development for Ukraine, Trump offered Kyiv a license to produce Patriot missiles domestically [BBC Europe]. South Korea's Supreme Court upheld former president Yoon Suk Yeol's seven-year prison sentence for crimes related to his 2024 martial law declaration [France 24]. Meanwhile, the EU's Copernicus Climate Change Service confirmed Western Europe experienced its hottest June on record, with temperatures more than 3\u00b0C above the 1991-2020 average [RFI, France 24, Le Monde]. Tropical Storm Maysam has killed at least 39 people in southern China's Guangxi region, with Typhoon Bavi now threatening Taiwan and eastern China [Al Jazeera, The Hindu].",
+  "date": "Friday, July 10, 2026",
+  "daily_brief": "The day's news is dominated by escalating US-Iran tensions following the burial of Supreme Leader Khamenei in Mashhad, with renewed strikes threatening to derail the fragile ceasefire [BBC], [Globe and Mail]. Israeli intelligence reportedly shared details of a 'specific' Iranian plot to assassinate President Trump, potentially explaining his unusual plane switch after the NATO summit [France 24], [The Hindu]. In Europe, at least 11 people died in a devastating wildfire in southern Spain's Almer\u00eda province, with four victims believed to be British nationals trapped in their vehicle as temperatures exceeded 40\u00b0C [BBC Europe], [Al Jazeera]. France's climate watchdog warned the country is unprepared for accelerating climate impacts after recording 2.2\u00b0C of warming since 1900 [RFI]. On a lighter note, the Bayeux Tapestry completed a high-security overnight journey to London's British Museum\u2014its first return to English soil in nearly 1,000 years [BBC Europe], [France 24]. In technology and markets, South Korean chipmaker SK Hynix raised $26.5 billion in the largest-ever US listing by a foreign company [BBC], [Financial Times], while China achieved its first successful reusable rocket booster recovery [BBC], [The Hindu].",
   "top_stories": [
     {
-      "headline": "US and Iran Exchange Strikes as Trump Declares Ceasefire 'Over'",
+      "headline": "US-Iran Strikes Resume as Khamenei Buried, Threatening Fragile Ceasefire",
       "category": "Conflict",
       "bullets": [
-        "US forces struck approximately 90 Iranian military targets along Iran's southern coastline, including port facilities in Sirik and Bandar Abbas on the Strait of Hormuz",
-        "Iran's Revolutionary Guard retaliated by targeting US military bases in Kuwait, Bahrain, and Qatar, with Kuwait actively intercepting incoming drones and missiles",
-        "Trump declared the fragile ceasefire 'over' following Iranian attacks on commercial ships in the Strait of Hormuz, but later said he expected the flare-up to end quickly and left the door open for more talks",
-        "Oil prices surged approximately 8% on Wednesday with Brent topping $80 per barrel before stabilizing Thursday, while Washington revoked a temporary sanctions waiver for Iranian oil"
+        "Iran's late Supreme Leader Ayatollah Ali Khamenei was buried at the Imam Reza shrine in Mashhad following six days of funeral processions across Iran and Iraq",
+        "The US launched air strikes against Iran on Thursday, with Tehran responding by targeting Bahrain, Kuwait, and Qatar; Iran accused the US of striking near its sole nuclear power plant",
+        "Iran's Revolutionary Guards claimed the US bombed two bridges on the Tehran-Mashhad railway line overnight",
+        "Mojtaba Khamenei, who succeeded his father as supreme leader, has not appeared publicly since reportedly being seriously wounded in the February 28 strike that killed his father"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on military operational details and Trump's statements",
-          "url": "https://www.bbc.co.uk/news/videos/cpq309jrve4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized oil market impacts and economic implications",
-          "url": "https://www.france24.com/en/europe/20260709-western-europe-records-its-hottest-june-on-record-says-eu-climate-monitor"
+          "framing_note": "Focused on funeral details and succession uncertainty around Mojtaba Khamenei",
+          "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Highlighted the threat to the interim peace deal",
-          "url": "https://www.theglobeandmail.com/world/article-houston-leaders-demand-transparent-independent-investigation-after-ice/"
+          "framing_note": "Emphasized ceasefire collapse and 'Kill Trump' placards at burial ceremony",
+          "url": "https://www.theglobeandmail.com/canada/article-eddie-goldenberg-jean-chretien-death/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Provided regional perspective on Gulf state involvement",
-          "url": "https://www.thehindu.com/news/international/china-taiwan-brace-for-typhoon-bavi/article71201116.ece"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on economic dimensions including China factory prices",
-          "url": "https://www.ft.com/content/c53c1e10-5a0e-41a7-a584-08a6a0068e58"
+          "framing_note": "Provided live coverage format with regional security implications",
+          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-ali-khamenei-funeral-ceremony-burial-military-strikes-donald-trump-mojtaba-khamenei-ceasefire-deal/article71205094.ece"
         }
       ]
     },
     {
-      "headline": "Trump Attacks NATO Allies Over Spain, Greenland at Ankara Summit",
+      "headline": "Israeli Intelligence Reveals 'Specific' Iranian Plot to Assassinate Trump",
       "category": "Geopolitics",
       "bullets": [
-        "Trump called Spain a 'terrible partner in NATO' and a 'wasted cause,' instructing Treasury Secretary Bessent to cut off trade relations over Madrid's refusal to allow US bases for Iran operations",
-        "Trump reiterated his desire for US control of Greenland, calling European resistance 'a big problem' and stating the territory is 'very important for the United States'",
-        "NATO Secretary General Mark Rutte downplayed the tensions, comparing them to a 'family argument' and insisting Trump is 'completely committed to NATO'",
-        "Spanish PM Pedro S\u00e1nchez said relations with the US were 'very positive' after an informal chat with Trump about the World Cup"
+        "Israel shared intelligence with the US this week about a new and 'specific' Iranian plan to assassinate President Trump, according to CNN and Wall Street Journal reports citing unnamed sources",
+        "The intelligence may explain Trump's unusual decision to switch planes when departing the NATO summit in Turkey, sending his new Qatari-gifted jet ahead to Britain",
+        "Tehran has vowed retaliation against Trump since he ordered the assassination of Iranian General Qassem Soleimani in January 2020",
+        "Trump confirmed awareness of threats, stating 'I'm on every single one of their lists'"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Led with Israeli intelligence angle and connected to NATO summit logistics",
+          "url": "https://www.france24.com/en/europe/20260710-bayeux-tapestry-arrives-uk-after-nearly-1-000-years"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Placed story within broader context of West Asia war updates",
+          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-ali-khamenei-funeral-ceremony-burial-military-strikes-donald-trump-mojtaba-khamenei-ceasefire-deal/article71205094.ece"
+        },
+        {
+          "name": "CNN (cited)",
+          "lean": "Center-Left",
+          "framing_note": "Original reporting source on 'steady drumbeat' of assassination intelligence",
+          "url": "#"
+        },
+        {
+          "name": "Wall Street Journal (cited)",
+          "lean": "Center-Right",
+          "framing_note": "Described plot as 'fresh'",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "Deadly Wildfire Kills At Least 11 in Southern Spain Amid Extreme Heatwave",
+      "category": "Climate",
+      "bullets": [
+        "At least 11 people died and 19 remain missing in a wildfire near Los Gallardos in Almer\u00eda province, Andalusia",
+        "Four victims, believed to be British nationals, were found trapped in a right-hand-drive vehicle; seven others were found elsewhere apparently trying to flee",
+        "Regional officials said the fire was likely caused by a downed power line and spread rapidly through wooded areas around the village of B\u00e9dar",
+        "Temperatures of approximately 40\u00b0C have fueled wildfires across southern Europe this summer, with major incidents also reported in France and Portugal"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Balanced coverage of Trump's statements and European responses",
-          "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized the Iran context driving Trump's frustrations",
-          "url": "https://www.rfi.fr/en/international/20260708-trump-lashes-out-at-allies-as-key-nato-summit-begins-targeting-cease-fire-spain-and-greenland"
-        },
-        {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Focused on Rutte's diplomatic flattery strategy to manage Trump",
-          "url": "https://www.economist.com/international/2026/06/18/meet-the-worlds-new-peacemakers"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Highlighted European uncertainty over Greenland messaging",
-          "url": "https://www.ft.com/content/c53c1e10-5a0e-41a7-a584-08a6a0068e58"
-        }
-      ]
-    },
-    {
-      "headline": "Western Europe Records Hottest June on Record Amid Ongoing Heatwave",
-      "category": "Climate",
-      "bullets": [
-        "Average temperature in Western Europe reached 20.74\u00b0C in June, more than 3\u00b0C above the 1991-2020 norm, according to the EU's Copernicus Climate Change Service",
-        "The record broke the previous June high set in 2025, when temperatures were 2.81\u00b0C above average",
-        "A 'heat dome' high-pressure system led to all-time temperature records in multiple countries, with France recording its highest-ever average temperatures on June 24-25",
-        "Europe is identified as the world's fastest-warming continent, with a third heatwave since May currently battering the region"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Provided detailed temperature data and scientific context",
-          "url": "https://www.rfi.fr/en/international/20260708-trump-lashes-out-at-allies-as-key-nato-summit-begins-targeting-cease-fire-spain-and-greenland"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized the ongoing nature of heat extremes",
-          "url": "https://www.france24.com/en/europe/20260709-western-europe-records-its-hottest-june-on-record-says-eu-climate-monitor"
+          "framing_note": "Detailed account of British victims and described it as Andalusia's 'most devastating fire'",
+          "url": "https://www.bbc.co.uk/news/articles/czxqzyggzypo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article available but content could not be fully accessed",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/09/how-ukrainians-are-turning-crimea-the-russians-riviera-into-a-battlefield_6755294_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "South Korea's Supreme Court Upholds Seven-Year Sentence for Former President Yoon",
-      "category": "Policy",
-      "bullets": [
-        "South Korea's highest court upheld ex-president Yoon Suk Yeol's seven-year prison sentence for crimes tied to his botched December 2024 martial law declaration",
-        "Charges included obstructing cabinet deliberations by convening only select ministers, creating and destroying a forged martial law decree with fake prime minister signatures, and using security agents to block his arrest",
-        "Yoon is already in detention while appealing a separate life sentence for leading an insurrection with his martial law declaration",
-        "The disgraced former president maintains his martial law declaration was motivated by the public interest"
-      ],
-      "sources": [
+          "framing_note": "Initial death toll reported as 12",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/10/syria-says-captured-is-linked-cell-behind-damascus-bombings-during-macron-visit_6755319_4.html"
+        },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage of the legal details and charges",
-          "url": "https://www.france24.com/en/europe/20260709-western-europe-records-its-hottest-june-on-record-says-eu-climate-monitor"
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief video report emphasizing bodies found in vehicles",
+          "url": "https://www.aljazeera.com/sports/2026/7/10/england-vs-norway-all-to-know-ahead-of-fifa-world-cup-quarterfinal?traffic_source=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline framed within broader European heatwave context",
+          "url": "https://www.ft.com/content/081cae25-024b-4965-9b7b-450adaf1216c"
         }
       ]
     },
     {
-      "headline": "Trump Offers Ukraine License to Produce Patriot Missiles Domestically",
-      "category": "Geopolitics",
+      "headline": "Bayeux Tapestry Returns to Britain for First Time in Nearly 1,000 Years",
+      "category": "Society",
       "bullets": [
-        "President Trump told Ukraine's Zelensky at the NATO summit that the US would provide a license for Ukraine to manufacture Patriot interceptor missiles",
-        "Trump acknowledged he had not yet informed defense manufacturers Lockheed Martin and Raytheon of his decision",
-        "The US used more than half of its Patriot stockpile during its war with Iran earlier this year, limiting its ability to provide missiles directly",
-        "Ukraine formally requested US authorization for licensed Patriot production in late May amid increased Russian ballistic missile strikes causing dozens of deaths in Kyiv"
+        "The 70-metre medieval tapestry arrived at the British Museum in London early Friday following a secret 11-hour journey through the Channel Tunnel",
+        "The tapestry was transported folded accordion-style in a climate-controlled case inside a shock-absorbing cradle, escorted by police",
+        "It will go on display from September 10, 2026 until July 2027, marking its first time on English soil since it was likely created there after 1066",
+        "The loan is seen as symbolic of improving French-British relations following Brexit"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Detailed coverage of production challenges and US stockpile limitations",
-          "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized historic significance and provided detailed logistics of the journey",
+          "url": "https://www.bbc.co.uk/news/articles/czxqzyggzypo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Highlighted Franco-British diplomatic symbolism post-Brexit",
+          "url": "https://www.france24.com/en/europe/20260710-bayeux-tapestry-arrives-uk-after-nearly-1-000-years"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on the high-security overnight operation",
+          "url": "https://www.rfi.fr/en/sports/20260710-mbapp%C3%A9-plays-down-injury-fear-after-france-beat-morocco-to-reach-world-cup-semis-world-cup-2026"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Used 'smuggled' in headline, emphasized post-Brexit diplomatic context",
+          "url": "https://www.aljazeera.com/sports/2026/7/10/england-vs-norway-all-to-know-ahead-of-fifa-world-cup-quarterfinal?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "SK Hynix Raises $26.5 Billion in Largest-Ever US Listing by Foreign Firm",
+      "category": "Economics",
+      "bullets": [
+        "South Korean memory chip maker SK Hynix sold 177.9 million American depositary shares at $149 each on the Nasdaq",
+        "The company's market value topped $1 trillion in South Korea in May, with shares more than tripling this year amid AI chip demand",
+        "SK Hynix is a key supplier to Nvidia and one of the world's leading memory chip makers",
+        "The listing gives SK Hynix easier access to US investment capital with fewer barriers than South Korea"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized AI boom context and comparison to SpaceX's recent listing",
+          "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Brief market-focused coverage",
+          "url": "https://www.ft.com/content/081cae25-024b-4965-9b7b-450adaf1216c"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Tropical Storm Maysam kills 39 in southern China's Guangxi region as Typhoon Bavi threatens Taiwan",
-      "source": "Al Jazeera, The Hindu",
-      "url": "https://www.aljazeera.com/news/2026/7/9/flooding-from-tropical-storm-maysam-kills-39-in-southern-china"
+      "headline": "China successfully lands reusable rocket booster for the first time, challenging US dominance in space technology",
+      "source": "BBC World, The Hindu",
+      "url": "https://www.bbc.co.uk/news/articles/cm2rmmx86pdo"
     },
     {
-      "headline": "French appeals court shortens Marine Le Pen's public office ban, clearing path for 2027 presidential run",
+      "headline": "France's climate watchdog warns country is unprepared for accelerating warming after temperatures rise 2.2\u00b0C since 1900",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260709-how-appeal-court-verdict-against-le-pen-puts-her-back-in-the-running-for-2027"
+      "url": "https://www.rfi.fr/en/france/20260710-france-must-speed-up-climate-action-as-watchdog-warns-current-efforts-fall-short"
     },
     {
-      "headline": "Democrat Graham Platner suspends Maine Senate campaign after sexual assault allegation, creating crisis for party's Senate hopes",
+      "headline": "Ukraine and US reach political agreement on Patriot missile production licenses, Zelensky announces",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-ukraine-and-us-have-reached-political-agreement-on-patriot-missile/"
+    },
+    {
+      "headline": "Ukrainian intelligence agent reverses confession in murder of Monaco bombing suspect",
+      "source": "BBC World, BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o"
+    },
+    {
+      "headline": "Ukraine claims 25+ Russian ships hit in Sea of Azov over four days in 'logistics lockdown' campaign",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o"
+    },
+    {
+      "headline": "Developing countries spent more on debt repayment than education in 2025, UNESCO reports",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco"
+    },
+    {
+      "headline": "South Sudan marks 15 years of independence amid economic collapse and political deadlock",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260709-fifteen-years-of-independence-for-south-sudan-but-still-little-to-celebrate"
+    },
+    {
+      "headline": "New Zealand considers joining Australia-Fiji Ocean of Peace Alliance amid Pacific security shifts",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/world/695845/nz-must-consider-cost-of-joining-pacific-defence-alliance"
+    },
+    {
+      "headline": "Palestinian aid worker killed in Israeli strike in Gaza mourned as one of territory's most recognized humanitarian figures",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c9v229434p2o"
+      "url": "https://www.bbc.co.uk/news/articles/cwylznzjk04o"
     },
     {
-      "headline": "German palliative care doctor sentenced to life imprisonment for murdering 15 patients between 2021 and 2024",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o"
-    },
-    {
-      "headline": "Australia and India finalize uranium export agreement and adopt new Joint Declaration on Defence and Security Cooperation",
-      "source": "Nikkei Asia, The Hindu",
-      "url": "https://asia.nikkei.com/politics/international-relations/australia-and-india-seal-uranium-export-pact-boost-defense-ties"
-    },
-    {
-      "headline": "Ugandan farmers file UK lawsuit against TotalEnergies' East African Crude Oil Pipeline, seeking to enforce Ugandan environmental law",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260708-ugandan-farmers-launch-uk-case-against-pipeline-oil-project-led-by-totalenergies"
-    },
-    {
-      "headline": "Two 13-year-old girls seriously injured in knife attack at German secondary school; 16-year-old suspect arrested",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo"
-    },
-    {
-      "headline": "France faces Morocco in World Cup quarterfinal as tournament enters knockout stage",
-      "source": "France 24, Al Jazeera",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260709-world-cup-france-face-morocco-place-semi-finals"
-    },
-    {
-      "headline": "Catnip lotion found as effective as Deet for mosquito repellent in Uganda trials, offering affordable malaria prevention option",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/jul/07/catnip-lotion-as-effective-as-deet-at-repelling-mosquitoes-study-finds"
-    },
-    {
-      "headline": "Authorities in Liberia charge five suspects over $19 million cocaine seizure falsely declared as Maggi seasoning cubes",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/07/charged-liberia-200kg-cocaine-seized-drug-bust"
+      "headline": "Australian unions announce strike at world's largest iron ore port, threatening BHP exports to Asia",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/commodities/australian-workers-vow-strike-at-world-s-largest-iron-ore-bulk-export-port"
     }
   ]
 }
