@@ -1,220 +1,184 @@
 {
-  "date": "Friday, July 10, 2026",
-  "daily_brief": "The day's news is dominated by escalating US-Iran tensions following the burial of Supreme Leader Khamenei in Mashhad, with renewed strikes threatening to derail the fragile ceasefire [BBC], [Globe and Mail]. Israeli intelligence reportedly shared details of a 'specific' Iranian plot to assassinate President Trump, potentially explaining his unusual plane switch after the NATO summit [France 24], [The Hindu]. In Europe, at least 11 people died in a devastating wildfire in southern Spain's Almer\u00eda province, with four victims believed to be British nationals trapped in their vehicle as temperatures exceeded 40\u00b0C [BBC Europe], [Al Jazeera]. France's climate watchdog warned the country is unprepared for accelerating climate impacts after recording 2.2\u00b0C of warming since 1900 [RFI]. On a lighter note, the Bayeux Tapestry completed a high-security overnight journey to London's British Museum\u2014its first return to English soil in nearly 1,000 years [BBC Europe], [France 24]. In technology and markets, South Korean chipmaker SK Hynix raised $26.5 billion in the largest-ever US listing by a foreign company [BBC], [Financial Times], while China achieved its first successful reusable rocket booster recovery [BBC], [The Hindu].",
+  "date": "Saturday, July 11, 2026",
+  "daily_brief": "Tensions between the United States and Iran dominate the day's headlines as negotiations resume in Oman following this week's Strait of Hormuz clashes. President Trump issued stark warnings of military action should Iran attempt assassination, while Tehran insisted it had honored ceasefire terms [BBC, Al Jazeera, France 24, The Hindu]. In Spain, emergency crews continue battling one of the country's deadliest wildfires near Almer\u00eda, with at least 12 dead\u2014including four believed to be British nationals\u2014and 23 still missing amid 40\u00b0C temperatures [BBC, The Guardian]. Typhoon Bavi, spanning roughly 1,000km, has forced mass evacuations across Taiwan after killing at least 15 in Philippine landslides, with the storm now bearing down on southeastern China [BBC, France 24]. The EU escalated regulatory pressure on Meta, warning of substantial fines over 'addictive' design features on Facebook and Instagram, while the company separately reversed its controversial AI image-generation tool following global privacy backlash [BBC, Al Jazeera, RNZ]. Meanwhile, developing nations face mounting fiscal strain as UNESCO data reveals 113 countries spent more on foreign debt repayment than education in 2025, with sub-Saharan Africa allocating 3.6 times more to debt servicing [The Guardian].",
   "top_stories": [
     {
-      "headline": "US-Iran Strikes Resume as Khamenei Buried, Threatening Fragile Ceasefire",
-      "category": "Conflict",
-      "bullets": [
-        "Iran's late Supreme Leader Ayatollah Ali Khamenei was buried at the Imam Reza shrine in Mashhad following six days of funeral processions across Iran and Iraq",
-        "The US launched air strikes against Iran on Thursday, with Tehran responding by targeting Bahrain, Kuwait, and Qatar; Iran accused the US of striking near its sole nuclear power plant",
-        "Iran's Revolutionary Guards claimed the US bombed two bridges on the Tehran-Mashhad railway line overnight",
-        "Mojtaba Khamenei, who succeeded his father as supreme leader, has not appeared publicly since reportedly being seriously wounded in the February 28 strike that killed his father"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on funeral details and succession uncertainty around Mojtaba Khamenei",
-          "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized ceasefire collapse and 'Kill Trump' placards at burial ceremony",
-          "url": "https://www.theglobeandmail.com/canada/article-eddie-goldenberg-jean-chretien-death/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Provided live coverage format with regional security implications",
-          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-ali-khamenei-funeral-ceremony-burial-military-strikes-donald-trump-mojtaba-khamenei-ceasefire-deal/article71205094.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Israeli Intelligence Reveals 'Specific' Iranian Plot to Assassinate Trump",
+      "headline": "US-Iran Tensions Escalate as Oman Talks Resume Amid Strait of Hormuz Standoff",
       "category": "Geopolitics",
       "bullets": [
-        "Israel shared intelligence with the US this week about a new and 'specific' Iranian plan to assassinate President Trump, according to CNN and Wall Street Journal reports citing unnamed sources",
-        "The intelligence may explain Trump's unusual decision to switch planes when departing the NATO summit in Turkey, sending his new Qatari-gifted jet ahead to Britain",
-        "Tehran has vowed retaliation against Trump since he ordered the assassination of Iranian General Qassem Soleimani in January 2020",
-        "Trump confirmed awareness of threats, stating 'I'm on every single one of their lists'"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Led with Israeli intelligence angle and connected to NATO summit logistics",
-          "url": "https://www.france24.com/en/europe/20260710-bayeux-tapestry-arrives-uk-after-nearly-1-000-years"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Placed story within broader context of West Asia war updates",
-          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-ali-khamenei-funeral-ceremony-burial-military-strikes-donald-trump-mojtaba-khamenei-ceasefire-deal/article71205094.ece"
-        },
-        {
-          "name": "CNN (cited)",
-          "lean": "Center-Left",
-          "framing_note": "Original reporting source on 'steady drumbeat' of assassination intelligence",
-          "url": "#"
-        },
-        {
-          "name": "Wall Street Journal (cited)",
-          "lean": "Center-Right",
-          "framing_note": "Described plot as 'fresh'",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "Deadly Wildfire Kills At Least 11 in Southern Spain Amid Extreme Heatwave",
-      "category": "Climate",
-      "bullets": [
-        "At least 11 people died and 19 remain missing in a wildfire near Los Gallardos in Almer\u00eda province, Andalusia",
-        "Four victims, believed to be British nationals, were found trapped in a right-hand-drive vehicle; seven others were found elsewhere apparently trying to flee",
-        "Regional officials said the fire was likely caused by a downed power line and spread rapidly through wooded areas around the village of B\u00e9dar",
-        "Temperatures of approximately 40\u00b0C have fueled wildfires across southern Europe this summer, with major incidents also reported in France and Portugal"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed account of British victims and described it as Andalusia's 'most devastating fire'",
-          "url": "https://www.bbc.co.uk/news/articles/czxqzyggzypo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Initial death toll reported as 12",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/10/syria-says-captured-is-linked-cell-behind-damascus-bombings-during-macron-visit_6755319_4.html"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief video report emphasizing bodies found in vehicles",
-          "url": "https://www.aljazeera.com/sports/2026/7/10/england-vs-norway-all-to-know-ahead-of-fifa-world-cup-quarterfinal?traffic_source=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline framed within broader European heatwave context",
-          "url": "https://www.ft.com/content/081cae25-024b-4965-9b7b-450adaf1216c"
-        }
-      ]
-    },
-    {
-      "headline": "Bayeux Tapestry Returns to Britain for First Time in Nearly 1,000 Years",
-      "category": "Society",
-      "bullets": [
-        "The 70-metre medieval tapestry arrived at the British Museum in London early Friday following a secret 11-hour journey through the Channel Tunnel",
-        "The tapestry was transported folded accordion-style in a climate-controlled case inside a shock-absorbing cradle, escorted by police",
-        "It will go on display from September 10, 2026 until July 2027, marking its first time on English soil since it was likely created there after 1066",
-        "The loan is seen as symbolic of improving French-British relations following Brexit"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasized historic significance and provided detailed logistics of the journey",
-          "url": "https://www.bbc.co.uk/news/articles/czxqzyggzypo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Highlighted Franco-British diplomatic symbolism post-Brexit",
-          "url": "https://www.france24.com/en/europe/20260710-bayeux-tapestry-arrives-uk-after-nearly-1-000-years"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on the high-security overnight operation",
-          "url": "https://www.rfi.fr/en/sports/20260710-mbapp%C3%A9-plays-down-injury-fear-after-france-beat-morocco-to-reach-world-cup-semis-world-cup-2026"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Used 'smuggled' in headline, emphasized post-Brexit diplomatic context",
-          "url": "https://www.aljazeera.com/sports/2026/7/10/england-vs-norway-all-to-know-ahead-of-fifa-world-cup-quarterfinal?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "SK Hynix Raises $26.5 Billion in Largest-Ever US Listing by Foreign Firm",
-      "category": "Economics",
-      "bullets": [
-        "South Korean memory chip maker SK Hynix sold 177.9 million American depositary shares at $149 each on the Nasdaq",
-        "The company's market value topped $1 trillion in South Korea in May, with shares more than tripling this year amid AI chip demand",
-        "SK Hynix is a key supplier to Nvidia and one of the world's leading memory chip makers",
-        "The listing gives SK Hynix easier access to US investment capital with fewer barriers than South Korea"
+        "US officials demanded Iran publicly declare the Strait of Hormuz open and pledge to stop firing on commercial ships; Iran privately acknowledged the attacks were a 'mistake' by rogue hardliners, according to US media citing unnamed officials",
+        "President Trump warned the US would 'completely decimate' Iran if it attempted to assassinate him, stating 1,000 missiles were 'locked and loaded'",
+        "VP JD Vance, Secretary of State Marco Rubio, envoy Steve Witkoff, and Jared Kushner are leading Saturday negotiations in Oman; Iranian Foreign Minister Araqchi maintains Iran 'kept its word' on the ceasefire",
+        "An explosion was reported in eastern Tehran province Saturday, though the cause remained unclear"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized AI boom context and comparison to SpaceX's recent listing",
-          "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized diplomatic negotiations and both sides' stated positions",
+          "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief market-focused coverage",
-          "url": "https://www.ft.com/content/081cae25-024b-4965-9b7b-450adaf1216c"
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Framed as questioning whether US and Iran are returning to war",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/are-the-us-and-iran-at-war-again?traffic_source=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Provided detailed liveblog coverage focusing on Trump's threats and regional implications",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260710-iran-forewarnings-and-a-funeral-nato-le-pen"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted funeral context and Trump's inflammatory religious language in threats",
+          "url": "https://www.thehindu.com/news/international/trump-threatens-iran-after-ayatollah-ali-khameneis-funeral-saw-open-calls-for-his-killing/article71209403.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Deadly Spanish Wildfire Kills at Least 12, Including Four Britons, as 23 Remain Missing",
+      "category": "Climate",
+      "bullets": [
+        "At least 12 people died in wildfires near Los Gallardos in Almer\u00eda, Andalusia; four victims found in a burnt-out car with right-hand steering wheel believed to be British nationals",
+        "Authorities attribute the fire's cause to a fallen power line, though electricity companies deny responsibility; local officials warn death toll could rise",
+        "Sustained heatwave with temperatures around 40\u00b0C has fueled wildfires across Southern Europe, particularly in France, Portugal, and Spain",
+        "Belgian Foreign Minister confirmed consular services were attempting to contact Belgian nationals who have second homes in the affected region"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Led with human interest angle featuring survivor testimony",
+          "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Focused on official statements and diplomatic notifications",
+          "url": "https://www.bbc.co.uk/news/articles/cly9r54e5r4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Typhoon Bavi Forces Mass Evacuations in Taiwan, Kills 15 in Philippines",
+      "category": "Climate",
+      "bullets": [
+        "Typhoon Bavi, spanning approximately 1,000km\u2014roughly the width of France\u2014triggered landslides killing at least 15 in the Philippines' Mindanao island",
+        "More than 14,000 people evacuated in Taiwan as authorities warned of up to 1 meter of potential rainfall; 29,000 soldiers placed on standby",
+        "Storm knocked out power to thousands in Japan's Okinawa islands before bearing down on southeastern China, where landfall expected early Sunday",
+        "Bavi is the largest typhoon by size to approach Taiwan since 1987, according to the island's Central Weather Administration"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized regional scope and preparedness measures",
+          "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on evacuations and ground-level impact in Taiwan",
+          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260710-iran-forewarnings-and-a-funeral-nato-le-pen"
+        }
+      ]
+    },
+    {
+      "headline": "EU Warns Meta of Heavy Fines Over 'Addictive' Facebook and Instagram Design",
+      "category": "Technology",
+      "bullets": [
+        "European Commission issued preliminary findings that infinite scroll, autoplaying videos, and personalized recommendations on Facebook and Instagram encourage 'compulsive use,' particularly among minors",
+        "Meta faces potential fines of up to 6% of total global annual turnover if it fails to make suitable changes",
+        "Commission specifically criticized Reels and Stories features, arguing they contribute to excessive use and that Meta's existing safeguards are inadequate",
+        "Meta spokesperson stated the company 'disagreed with the findings' and cited 'significant steps' taken to protect teens"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Balanced presentation of EU position and Meta's response",
+          "url": "https://www.bbc.co.uk/news/articles/cly9r54e5r4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Meta Reverses AI Image Feature After Global Privacy Backlash",
+      "category": "Technology",
+      "bullets": [
+        "Meta removed its 'Muse Image' AI feature that allowed users to generate images of people by mentioning their public Instagram accounts",
+        "Feature was automatically enabled for millions of users by default; only private accounts and those under 18 were excluded",
+        "New Zealand and international experts had criticized the feature as 'entirely unethical,' arguing public content sharing does not constitute consent for AI transformation",
+        "Meta acknowledged it 'missed the mark' and withdrew the feature following coverage by BBC, RNZ, Wired, New York Times and widespread negative feedback"
+      ],
+      "sources": [
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Detailed expert criticism and ethical concerns from academic sources",
+          "url": "https://www.rnz.co.nz/news/political/695758/rehearsals-held-to-test-intense-security-for-narendra-modi-visit"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief video coverage emphasizing swift global backlash",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/are-the-us-and-iran-at-war-again?traffic_source=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "China successfully lands reusable rocket booster for the first time, challenging US dominance in space technology",
-      "source": "BBC World, The Hindu",
-      "url": "https://www.bbc.co.uk/news/articles/cm2rmmx86pdo"
-    },
-    {
-      "headline": "France's climate watchdog warns country is unprepared for accelerating warming after temperatures rise 2.2\u00b0C since 1900",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260710-france-must-speed-up-climate-action-as-watchdog-warns-current-efforts-fall-short"
-    },
-    {
-      "headline": "Ukraine and US reach political agreement on Patriot missile production licenses, Zelensky announces",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-ukraine-and-us-have-reached-political-agreement-on-patriot-missile/"
-    },
-    {
-      "headline": "Ukrainian intelligence agent reverses confession in murder of Monaco bombing suspect",
-      "source": "BBC World, BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o"
-    },
-    {
-      "headline": "Ukraine claims 25+ Russian ships hit in Sea of Azov over four days in 'logistics lockdown' campaign",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o"
-    },
-    {
-      "headline": "Developing countries spent more on debt repayment than education in 2025, UNESCO reports",
+      "headline": "Developing countries spent more on foreign debt repayment than education in 2025, with sub-Saharan Africa allocating 3.6 times more to debt servicing",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco"
     },
     {
-      "headline": "South Sudan marks 15 years of independence amid economic collapse and political deadlock",
+      "headline": "Bayeux Tapestry arrives at British Museum under police guard for first UK display in nearly 1,000 years",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cly9r54e5r4o"
+    },
+    {
+      "headline": "Death toll from Venezuela earthquakes surpasses 4,000 as doctors convert restaurants into emergency clinics",
+      "source": "Le Monde / Al Jazeera",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/11/death-toll-in-venezuela-quakes-rises-past-4-000_6755361_4.html"
+    },
+    {
+      "headline": "Japan's JAXA successfully launches and lands prototype reusable rocket in 40-second test flight",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/japans-jaxa-successfully-launches-lands-reusable-rocket/article71209481.ece"
+    },
+    {
+      "headline": "Passenger nearly sucked out of Ryanair plane window mid-flight; wife held his legs for five minutes before other passengers pulled him back",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo"
+    },
+    {
+      "headline": "Victor Wembanyama signs reported five-year, $252 million contract extension with San Antonio Spurs",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/sport/20260711-wemby-signs-multi-year-contract-with-spurs-tells-fans-i-m-here-to-stay"
+    },
+    {
+      "headline": "EU Parliament backs digital euro development, though rollout remains years away",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260709-fifteen-years-of-independence-for-south-sudan-but-still-little-to-celebrate"
+      "url": "https://www.rfi.fr/en/international/20260710-eu-lawmakers-give-digital-euro-the-green-light-but-rollout-still-years-away"
     },
     {
-      "headline": "New Zealand considers joining Australia-Fiji Ocean of Peace Alliance amid Pacific security shifts",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/world/695845/nz-must-consider-cost-of-joining-pacific-defence-alliance"
+      "headline": "UK police release man arrested in connection with former Conservative MP Ann Widdecombe's death",
+      "source": "ABC Australia / Financial Times",
+      "url": "https://www.abc.net.au/news/2026-07-11/ann-widdecombe-murder-suspect-released/106905454"
     },
     {
-      "headline": "Palestinian aid worker killed in Israeli strike in Gaza mourned as one of territory's most recognized humanitarian figures",
+      "headline": "Marine Le Pen announces 2027 presidential bid after appeal court ends her public office ban",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cwylznzjk04o"
+      "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro"
     },
     {
-      "headline": "Australian unions announce strike at world's largest iron ore port, threatening BHP exports to Asia",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/commodities/australian-workers-vow-strike-at-world-s-largest-iron-ore-bulk-export-port"
+      "headline": "New Zealand considering membership in Australia-Fiji Ocean of Peace defence alliance",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/world/695845/nz-must-consider-cost-of-joining-pacific-defence-alliance-expert"
     }
   ]
 }
