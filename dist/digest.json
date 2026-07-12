@@ -1,184 +1,208 @@
 {
-  "date": "Saturday, July 11, 2026",
-  "daily_brief": "Tensions between the United States and Iran dominate the day's headlines as negotiations resume in Oman following this week's Strait of Hormuz clashes. President Trump issued stark warnings of military action should Iran attempt assassination, while Tehran insisted it had honored ceasefire terms [BBC, Al Jazeera, France 24, The Hindu]. In Spain, emergency crews continue battling one of the country's deadliest wildfires near Almer\u00eda, with at least 12 dead\u2014including four believed to be British nationals\u2014and 23 still missing amid 40\u00b0C temperatures [BBC, The Guardian]. Typhoon Bavi, spanning roughly 1,000km, has forced mass evacuations across Taiwan after killing at least 15 in Philippine landslides, with the storm now bearing down on southeastern China [BBC, France 24]. The EU escalated regulatory pressure on Meta, warning of substantial fines over 'addictive' design features on Facebook and Instagram, while the company separately reversed its controversial AI image-generation tool following global privacy backlash [BBC, Al Jazeera, RNZ]. Meanwhile, developing nations face mounting fiscal strain as UNESCO data reveals 113 countries spent more on foreign debt repayment than education in 2025, with sub-Saharan Africa allocating 3.6 times more to debt servicing [The Guardian].",
+  "date": "Sunday, July 12, 2026",
+  "daily_brief": "Escalating tensions in the Persian Gulf dominated headlines as the US launched strikes on Iran after Tehran attacked a container ship in the Strait of Hormuz and declared the waterway closed [BBC, France 24, Globe and Mail]. Iran subsequently struck targets in the UAE, Qatar, Kuwait, and Bahrain, with the IRGC warning of a 'crushing response' to further US aggression [Al Jazeera]. The crisis comes days after President Trump suggested interim negotiations were 'over.' In Washington, the sudden death of Senator Lindsey Graham at 71 sent shockwaves through the political establishment [France 24, BBC, RNZ]. Graham, who had just returned from Kyiv meeting President Zelensky, was a leading voice on foreign policy and chairman of the Senate Budget Committee. In Asia, Typhoon Bavi made landfall in eastern China after forcing nearly two million evacuations across Zhejiang province [BBC, France 24]. Southern Europe continued to battle extreme heat, with Spain reporting at least 12 deaths in one of its deadliest wildfires near Almer\u00eda, while France's Eiffel Tower and Louvre closed early amid a severe heatwave [BBC Europe, RFI]. At the World Cup, Argentina defeated Switzerland 3-1 in extra time to advance to the semifinals [France 24].",
   "top_stories": [
     {
-      "headline": "US-Iran Tensions Escalate as Oman Talks Resume Amid Strait of Hormuz Standoff",
-      "category": "Geopolitics",
+      "headline": "US Launches Strikes on Iran After Ship Attack; Tehran Closes Strait of Hormuz",
+      "category": "Conflict",
       "bullets": [
-        "US officials demanded Iran publicly declare the Strait of Hormuz open and pledge to stop firing on commercial ships; Iran privately acknowledged the attacks were a 'mistake' by rogue hardliners, according to US media citing unnamed officials",
-        "President Trump warned the US would 'completely decimate' Iran if it attempted to assassinate him, stating 1,000 missiles were 'locked and loaded'",
-        "VP JD Vance, Secretary of State Marco Rubio, envoy Steve Witkoff, and Jared Kushner are leading Saturday negotiations in Oman; Iranian Foreign Minister Araqchi maintains Iran 'kept its word' on the ceasefire",
-        "An explosion was reported in eastern Tehran province Saturday, though the cause remained unclear"
+        "Iran's IRGC attacked a Cyprus-flagged container ship (MV GFS Galaxy) in the Strait of Hormuz, setting it ablaze and forcing crew evacuation; one Indian national remains missing",
+        "US Central Command responded with strikes on 140 Iranian military targets including missile sites, drone facilities, and communication networks",
+        "Iran declared the Strait of Hormuz closed and launched retaliatory strikes against US bases and Gulf Arab states including UAE, Qatar, Kuwait, and Bahrain",
+        "The escalation follows Trump's suggestion that interim Iran deal negotiations were 'over' and marks the third round of US-Iran strikes this week"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized diplomatic negotiations and both sides' stated positions",
-          "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized closure of strait and scale of US response",
+          "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Provided live blog coverage with emphasis on regional spillover to Oman",
+          "url": "https://www.france24.com/en/sport/20260712-world-cup-2026-argentina-reach-semi-finals-after-epic-extra-time-battle-with-10-man-switzerland"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Contextualized within broader energy crisis and failed negotiations",
+          "url": "https://www.theglobeandmail.com/world/article-new-york-times-subpoenas-air-force-one/"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline focused on strait closure",
+          "url": "https://www.ft.com/content/4df50959-1cd6-4d10-a586-9aaf589339e6"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Framed as questioning whether US and Iran are returning to war",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/are-the-us-and-iran-at-war-again?traffic_source=rss"
-        },
+          "framing_note": "Highlighted IRGC's vow of 'crushing response' and framed US actions as aggression",
+          "url": "https://www.aljazeera.com/news/2026/7/12/sheikh-hamad-bin-khalifa-al-thani-architect-of-modern-qatar?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "US Senator Lindsey Graham Dies at 71 After Sudden Illness",
+      "category": "Geopolitics",
+      "bullets": [
+        "Republican Senator Lindsey Graham of South Carolina died Saturday evening from a 'brief and sudden illness' according to his office",
+        "Graham, 71, had just returned from Kyiv where he met President Zelensky on Friday to work on Russia sanctions legislation",
+        "He served as chairman of the Senate Budget Committee and was one of Washington's most influential foreign policy voices",
+        "Graham was a strong supporter of Israel and advocate for US support to Ukraine; Israeli President Herzog called him 'a beacon of moral clarity'"
+      ],
+      "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Provided detailed liveblog coverage focusing on Trump's threats and regional implications",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260710-iran-forewarnings-and-a-funeral-nato-le-pen"
+          "framing_note": "Emphasized his role as Trump ally and Israel supporter",
+          "url": "https://www.france24.com/en/sport/20260712-world-cup-2026-argentina-reach-semi-finals-after-epic-extra-time-battle-with-10-man-switzerland"
         },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted funeral context and Trump's inflammatory religious language in threats",
-          "url": "https://www.thehindu.com/news/international/trump-threatens-iran-after-ayatollah-ali-khameneis-funeral-saw-open-calls-for-his-killing/article71209403.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Deadly Spanish Wildfire Kills at Least 12, Including Four Britons, as 23 Remain Missing",
-      "category": "Climate",
-      "bullets": [
-        "At least 12 people died in wildfires near Los Gallardos in Almer\u00eda, Andalusia; four victims found in a burnt-out car with right-hand steering wheel believed to be British nationals",
-        "Authorities attribute the fire's cause to a fallen power line, though electricity companies deny responsibility; local officials warn death toll could rise",
-        "Sustained heatwave with temperatures around 40\u00b0C has fueled wildfires across Southern Europe, particularly in France, Portugal, and Spain",
-        "Belgian Foreign Minister confirmed consular services were attempting to contact Belgian nationals who have second homes in the affected region"
-      ],
-      "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Led with human interest angle featuring survivor testimony",
-          "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Noted his recent Ukraine trip and evolution from Trump critic to supporter",
+          "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss"
         },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused on official statements and diplomatic notifications",
-          "url": "https://www.bbc.co.uk/news/articles/cly9r54e5r4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Typhoon Bavi Forces Mass Evacuations in Taiwan, Kills 15 in Philippines",
-      "category": "Climate",
-      "bullets": [
-        "Typhoon Bavi, spanning approximately 1,000km\u2014roughly the width of France\u2014triggered landslides killing at least 15 in the Philippines' Mindanao island",
-        "More than 14,000 people evacuated in Taiwan as authorities warned of up to 1 meter of potential rainfall; 29,000 soldiers placed on standby",
-        "Storm knocked out power to thousands in Japan's Okinawa islands before bearing down on southeastern China, where landfall expected early Sunday",
-        "Bavi is the largest typhoon by size to approach Taiwan since 1987, according to the island's Central Weather Administration"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized regional scope and preparedness measures",
-          "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on evacuations and ground-level impact in Taiwan",
-          "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260710-iran-forewarnings-and-a-funeral-nato-le-pen"
-        }
-      ]
-    },
-    {
-      "headline": "EU Warns Meta of Heavy Fines Over 'Addictive' Facebook and Instagram Design",
-      "category": "Technology",
-      "bullets": [
-        "European Commission issued preliminary findings that infinite scroll, autoplaying videos, and personalized recommendations on Facebook and Instagram encourage 'compulsive use,' particularly among minors",
-        "Meta faces potential fines of up to 6% of total global annual turnover if it fails to make suitable changes",
-        "Commission specifically criticized Reels and Stories features, arguing they contribute to excessive use and that Meta's existing safeguards are inadequate",
-        "Meta spokesperson stated the company 'disagreed with the findings' and cited 'significant steps' taken to protect teens"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Balanced presentation of EU position and Meta's response",
-          "url": "https://www.bbc.co.uk/news/articles/cly9r54e5r4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Meta Reverses AI Image Feature After Global Privacy Backlash",
-      "category": "Technology",
-      "bullets": [
-        "Meta removed its 'Muse Image' AI feature that allowed users to generate images of people by mentioning their public Instagram accounts",
-        "Feature was automatically enabled for millions of users by default; only private accounts and those under 18 were excluded",
-        "New Zealand and international experts had criticized the feature as 'entirely unethical,' arguing public content sharing does not constitute consent for AI transformation",
-        "Meta acknowledged it 'missed the mark' and withdrew the feature following coverage by BBC, RNZ, Wired, New York Times and widespread negative feedback"
-      ],
-      "sources": [
         {
           "name": "RNZ",
           "lean": "Center",
-          "framing_note": "Detailed expert criticism and ethical concerns from academic sources",
-          "url": "https://www.rnz.co.nz/news/political/695758/rehearsals-held-to-test-intense-security-for-narendra-modi-visit"
+          "framing_note": "Focused on his defense policy positions",
+          "url": "https://www.rnz.co.nz/news/science-and-technology/700735/missed-the-mark-meta-removes-ai-feature-on-instagram-after-global-backlash"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Brief video coverage emphasizing swift global backlash",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/are-the-us-and-iran-at-war-again?traffic_source=rss"
+          "framing_note": "Headline emphasized his role as 'one of Israel's strongest US Senate allies'",
+          "url": "https://www.aljazeera.com/news/2026/7/12/sheikh-hamad-bin-khalifa-al-thani-architect-of-modern-qatar?traffic_source=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": null,
+          "url": "https://www.ft.com/content/4df50959-1cd6-4d10-a586-9aaf589339e6"
+        }
+      ]
+    },
+    {
+      "headline": "Typhoon Bavi Makes Landfall in Eastern China, Nearly 2 Million Evacuated",
+      "category": "Climate",
+      "bullets": [
+        "Typhoon Bavi made landfall in Zhejiang province Saturday evening with winds of 144 km/h before weakening to a severe tropical storm",
+        "Nearly 1.7 million people were evacuated in Zhejiang with thousands more in neighboring provinces",
+        "The storm previously killed at least 17 people in the Philippines and left tens of thousands without power in Taiwan and Japan",
+        "China had already experienced deadly storms in the past week leaving 39 dead and causing reservoir failures"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized scale of evacuations and prior week's flooding deaths",
+          "url": "https://www.france24.com/en/sport/20260712-world-cup-2026-argentina-reach-semi-finals-after-epic-extra-time-battle-with-10-man-switzerland"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Noted storm's size comparable to width of France; detailed regional impact",
+          "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Spain Battles One of Its Deadliest Wildfires as Heat Grips Southern Europe",
+      "category": "Climate",
+      "bullets": [
+        "At least 12 people killed in wildfire near Bedar in Almer\u00eda region, including four Britons; 23 people still missing",
+        "Fire has burned 6,600 hectares; cause attributed to a fallen power line though electricity companies deny responsibility",
+        "France experiencing its third heatwave since May, with 24 departments under maximum red alert and temperatures reaching 40\u00b0C",
+        "Eiffel Tower, Louvre, and Mus\u00e9e d'Orsay closing early; several towns cancelling Bastille Day fireworks"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Focused on British casualties and search operations",
+          "url": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized impact on Paris tourism and national holiday events",
+          "url": "https://www.rfi.fr/en/france/20260711-eiffel-tower-louvre-close-early-as-france-faces-third-heatwave-in-three-months"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Administration Subpoenas New York Times Reporters Over Air Force One Report",
+      "category": "Policy",
+      "bullets": [
+        "Department of Justice subpoenaed multiple NYT journalists after they reported on security concerns with the new Qatari-gifted Air Force One",
+        "Federal agents delivered subpoenas to reporters' homes; journalists ordered to testify before federal grand jury in Manhattan",
+        "Subpoenas issued after FBI Director Kash Patel and DOJ officials met at White House on Friday",
+        "Trump used older Air Force One model to leave NATO summit in Turkey, citing threats from Iran"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Described it as 'dramatic escalation' of Trump's campaign against media; emphasized erosion of press freedom",
+          "url": "https://www.theglobeandmail.com/world/article-new-york-times-subpoenas-air-force-one/"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Developing countries spent more on foreign debt repayment than education in 2025, with sub-Saharan Africa allocating 3.6 times more to debt servicing",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco"
+      "headline": "Argentina defeats Switzerland 3-1 in extra time to reach World Cup semifinals, setting up clash with England",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/sport/20260712-world-cup-2026-argentina-reach-semi-finals-after-epic-extra-time-battle-with-10-man-switzerland"
     },
     {
-      "headline": "Bayeux Tapestry arrives at British Museum under police guard for first UK display in nearly 1,000 years",
+      "headline": "England beats Norway 2-1 in extra time on Bellingham brace to advance to World Cup semifinals",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/sports/20260711-bellingham-upstages-kane-and-haaland-to-fire-england-into-world-cup-semi-finals-world-cup-2026"
+    },
+    {
+      "headline": "At least two killed in shooting at Toronto salsa festival; police say gunfire exchanged between two individuals",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go"
+    },
+    {
+      "headline": "Polish PM Tusk announces national memorial to victims of WWII 'genocide by Ukrainian nationalists,' urging Ukraine to embrace truth for EU membership",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cly9r54e5r4o"
+      "url": "https://www.bbc.co.uk/news/articles/cze94x4361po"
     },
     {
-      "headline": "Death toll from Venezuela earthquakes surpasses 4,000 as doctors convert restaurants into emergency clinics",
-      "source": "Le Monde / Al Jazeera",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/11/death-toll-in-venezuela-quakes-rises-past-4-000_6755361_4.html"
+      "headline": "Germany agrees deal to buy US Tomahawk missiles as stopgap while Europe develops own defense systems",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260712-as-germany-cuts-a-deal-on-us-missiles-europe-weighs-up-dependence-on-washington-tomahawk"
     },
     {
-      "headline": "Japan's JAXA successfully launches and lands prototype reusable rocket in 40-second test flight",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/japans-jaxa-successfully-launches-lands-reusable-rocket/article71209481.ece"
+      "headline": "Police arrest 28-year-old suspect in killing of UK politician",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/12/police-arrest-28-year-old-suspect-over-killing-of-uk-politician_6755390_4.html"
     },
     {
-      "headline": "Passenger nearly sucked out of Ryanair plane window mid-flight; wife held his legs for five minutes before other passengers pulled him back",
+      "headline": "Man nearly sucked out of Ryanair plane window mid-flight after it dislodged; passenger rescued by wife",
       "source": "BBC Europe",
       "url": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo"
     },
     {
-      "headline": "Victor Wembanyama signs reported five-year, $252 million contract extension with San Antonio Spurs",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/sport/20260711-wemby-signs-multi-year-contract-with-spurs-tells-fans-i-m-here-to-stay"
+      "headline": "Linda Noskova defeats Karolina Muchova in dramatic all-Czech Wimbledon final after recovering from five missed championship points",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/ce37x57gv49o"
     },
     {
-      "headline": "EU Parliament backs digital euro development, though rollout remains years away",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260710-eu-lawmakers-give-digital-euro-the-green-light-but-rollout-still-years-away"
+      "headline": "Russia strikes kill eight across Ukraine including five in Sumy; Zelensky calls for faster weapons deliveries",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-two-dead-19-wounded-as-russia-strikes-ukraine-with-missiles-drones/"
     },
     {
-      "headline": "UK police release man arrested in connection with former Conservative MP Ann Widdecombe's death",
-      "source": "ABC Australia / Financial Times",
-      "url": "https://www.abc.net.au/news/2026-07-11/ann-widdecombe-murder-suspect-released/106905454"
-    },
-    {
-      "headline": "Marine Le Pen announces 2027 presidential bid after appeal court ends her public office ban",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn7558gdvjro"
-    },
-    {
-      "headline": "New Zealand considering membership in Australia-Fiji Ocean of Peace defence alliance",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/world/695845/nz-must-consider-cost-of-joining-pacific-defence-alliance-expert"
+      "headline": "Nigeria says army killed over 300 bandits in two-day operation in Zamfara state",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/11/nigeria-army-kills-bandits-north-western-state-zamfara"
     }
   ]
 }
