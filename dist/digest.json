@@ -1,208 +1,196 @@
 {
-  "date": "Monday, July 13, 2026",
-  "daily_brief": "The fragile ceasefire between the United States and Iran has collapsed into renewed hostilities, with Iran's Revolutionary Guards claiming strikes against Jordan, Bahrain, Kuwait and Oman in retaliation for US attacks on Iranian territory [France 24, Financial Times, Globe and Mail]. The escalation threatens the 60-day interim agreement meant to establish a framework for permanent peace talks, with both sides disputing control of the Strait of Hormuz. In Paris, Ukraine's Western allies convened a 'Coalition of the Willing' meeting with at least 25 leaders seeking to secure additional air-defence commitments for Kyiv following a NATO summit aimed at demonstrating transatlantic unity [France 24, Le Monde]. US Republican Senator Lindsey Graham died at age 71 from an aortic rupture, creating uncertainty in the narrowly-divided Senate where his absence further reduces the GOP's already precarious majority [BBC, Globe and Mail, RNZ]. A devastating fire at a Bangkok pub killed at least 27 people, with survivors describing how rapidly spreading smoke trapped patrons who fled toward bathrooms with no fire escapes [BBC, Globe and Mail, Le Monde]. Meanwhile, extreme heat continues to strain Europe, with a major wildfire burning through 800 hectares of Fontainebleau forest near Paris, prompting the unprecedented deployment of firefighting aircraft from southern France [BBC, RFI].",
+  "date": "Tuesday, July 14, 2026",
+  "daily_brief": "The resumption of US-Iran hostilities dominated global news on Tuesday, with fresh American strikes targeting Iranian military sites and President Trump announcing a controversial 20% toll on ships transiting the Strait of Hormuz [BBC, Al Jazeera, Financial Times, Globe and Mail]. Oil prices surged above $85 as both nations vie for control of the critical waterway, while France, Germany, and the UK condemned Iran's attacks on regional targets [RFI]. In Europe, France's Bastille Day parade showcased European unity on Ukraine, with troops and aircraft from 11 Coalition of the Willing nations participating in what may be President Macron's final national day celebration [France 24, RFI]. Hungary's parliament voted to remove President Tam\u00e1s Sulyok, an Orb\u00e1n loyalist, using its constitutional supermajority in a dramatic consolidation of power by Prime Minister P\u00e9ter Magyar's Tisza party [BBC]. Wildfires continued to ravage Fontainebleau forest near Paris, with over 1,900 hectares destroyed and 59 people arrested nationwide for suspected arson [France 24, RFI, BBC]. In the US, a federal judge voided President Trump's $1.8 billion settlement with the IRS that had granted him immunity from tax audits, referring a Trump lawyer for potential disciplinary action [BBC].",
   "top_stories": [
     {
-      "headline": "US-Iran Ceasefire Collapses as Tehran Strikes Gulf States in Retaliation for American Attacks",
+      "headline": "US Launches Fresh Strikes on Iran, Trump Announces 20% Toll on Strait of Hormuz Shipping",
       "category": "Conflict",
       "bullets": [
-        "Iran's Revolutionary Guards claimed strikes against Jordan, Bahrain, Kuwait and Oman in response to US airstrikes on Iranian territory, with Kuwait confirming its air defenses were firing Monday morning",
-        "The US military's Central Command reported hitting dozens of sites including air defence systems, radar installations, missile and drone equipment, with at least one person killed and seven injured in Isfahan province",
-        "Both sides are disputing control of the Strait of Hormuz, the critical waterway for global oil trade, with the escalation threatening the 60-day interim agreement framework for peace negotiations",
-        "The renewed fighting comes as both parties attempt to shape the terms of a memorandum of understanding, with Iran interpreting it as granting them leverage over the strait while the US and international community disagree"
+        "US Central Command struck Iranian air defence systems, coastal radar, missile and drone sites around Abu Musa, Bandar Abbas, Bushehr, Chahbahar, Jask and Konarak early Tuesday",
+        "Trump announced the US would 'reinstate' a blockade on Iran and charge 20% of cargo value for ships transiting the Strait of Hormuz, breaking with longstanding US freedom of navigation policy",
+        "Iran responded by attacking US facilities in Bahrain and Kuwait, destroying radar systems in Oman, and targeting two UAE-linked tankers, killing one mariner",
+        "Oil prices rose above $84-85 per barrel, a one-month high, as the Pakistan-brokered ceasefire agreement from June appears to be collapsing"
       ],
       "sources": [
         {
-          "name": "France 24",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasizes the threat to the interim agreement and includes EU energy task force assessment of jet fuel supplies",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260713-jannik-sinner-retains-wimbledon-title-after-victory-over-alexander-zverev"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline focuses on ceasefire teetering; limited content accessible",
-          "url": "https://www.ft.com/content/2ea1acd3-fcf2-4b39-98c7-82af6e1a16bb"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of both sides' military actions and diplomatic context",
-          "url": "https://www.theglobeandmail.com/world/article-27-dead-and-22-critically-injured-after-bangkok-pub-fire-officials-say/"
+          "framing_note": "Focused on Trump's legal disputes while covering strikes",
+          "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Includes analysis of internal Iranian politics and blame directed at President Pezeshkian",
-          "url": "https://www.aljazeera.com/news/2026/7/13/jurassic-park-actor-sam-neill-dies-aged-78?traffic_source=rss"
+          "framing_note": "Emphasized Pakistan's failed mediation efforts and questioned whether dialogue remains possible",
+          "url": "https://www.aljazeera.com/sports/2026/7/14/birthday-present-for-spains-yamal-world-cup-semifinal-win-over-france?traffic_source=rss"
         },
         {
-          "name": "RNZ",
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Led with market impact, oil price alarm",
+          "url": "https://www.ft.com/content/cd1fac0e-1e1d-4380-b294-a99708069b96"
+        },
+        {
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Academic expert analysis suggesting Iran may have upper hand in test of wills",
-          "url": "https://www.rnz.co.nz/news/political/695758/rehearsals-held-to-test-intense-security-for-narendra-modi-visit"
+          "framing_note": "Highlighted UAE threat to retaliate and potential for wider regional escalation",
+          "url": "https://www.theglobeandmail.com/world/article-lindsay-graham-dies-us-senator-republican-trump/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Covered from Indian perspective, including MEA summoning Iranian diplomats over killed Indian sailor",
+          "url": "https://www.thehindu.com/news/international/weather-or-human-error-what-led-to-vietnam-boat-tragedy-explained/article71215863.ece"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Emphasized E-3 (France, Germany, UK) joint condemnation of Iran",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "Ukraine's Western Allies Convene in Paris to Bolster Air Defence Support",
+      "headline": "France's Bastille Day Parade Showcases European Military Unity on Ukraine",
       "category": "Geopolitics",
       "bullets": [
-        "At least 25 leaders joined Ukrainian President Volodymyr Zelensky for a 'Coalition of the Willing' meeting focused on air and missile defence cooperation",
-        "The gathering follows a NATO summit aimed at demonstrating transatlantic unity and long-term support for Ukraine",
-        "Russia launched missile and drone attacks on Ukraine on Saturday, killing eight people and wounding dozens, underscoring Kyiv's vulnerability to ballistic missiles",
-        "Western allies are also working to develop a common position for potential talks with Russia and security guarantees for any eventual peace deal"
+        "Aircraft from 11 European countries and approximately 500 troops from Coalition of the Willing nations participated in Tuesday's military parade in Paris",
+        "Around 30 heads of state attended, including Ukrainian President Zelensky, in what the \u00c9lys\u00e9e described as demonstrating 'renewed transatlantic convergence'",
+        "The parade marks President Macron's final Bastille Day in office, intended to signal European military strength to both Russia and the US",
+        "The Kremlin dismissed the gathering as a meeting of 'warmongers' who 'do not want peace'"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasizes air-defence shortages leaving Ukraine exposed despite battlefield momentum shifts",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260713-jannik-sinner-retains-wimbledon-title-after-victory-over-alexander-zverev"
+          "framing_note": "Emphasized European solidarity and support for Ukraine",
+          "url": "https://www.france24.com/en/world-cup-2026-ahead-of-france-spain-in-dallas-supporters-are-confident"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article inaccessible but title confirms coverage of Paris rally for Ukraine support",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/07/12/evacuees-allowed-to-return-home-after-deadly-wildfire-in-spain-stabilizes_6755417_114.html"
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Included Kremlin's dismissive response, noted recent favorable battlefield developments for Kyiv",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "US Senator Lindsey Graham Dies at 71; Preliminary Finding Points to Aortic Rupture",
+      "headline": "Hungary's Parliament Votes to Remove President Sulyok in Constitutional Power Shift",
       "category": "Policy",
       "bullets": [
-        "The South Carolina Republican died Saturday evening after what his office initially described as a 'brief and sudden illness'; medical examiner found aortic dissection related to hardening of arteries",
-        "Graham had just returned from Kyiv where he met President Zelensky on Friday and spoke with President Trump hours before his death",
-        "He served in Congress for over three decades, becoming one of Washington's most influential foreign policy voices and a close Trump ally after initially being a vocal critic",
-        "His death further reduces the already narrow Republican Senate majority, compounding challenges posed by Senator Mitch McConnell's extended absence"
+        "Prime Minister P\u00e9ter Magyar's Tisza party used its two-thirds parliamentary majority to pass a constitutional amendment ending President Tam\u00e1s Sulyok's term",
+        "The amendment also removes Constitutional Court head P\u00e9ter Polt; both officials were seen as Viktor Orb\u00e1n loyalists",
+        "Sulyok has five days to sign the amendment or refer it to the Constitutional Court; if he refers it, Magyar will launch impeachment proceedings",
+        "Opposition Fidesz party walked out before the vote, accusing Tisza of 'building a tyranny' with arbitrary power to dismiss public officials"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Comprehensive biographical coverage including his evolution from Trump critic to ally",
-          "url": "https://www.bbc.co.uk/news/articles/cvge2nd611zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Two articles: one on cause of death, another analyzing his political transformation and Senate implications",
-          "url": "https://www.theglobeandmail.com/world/article-27-dead-and-22-critically-injured-after-bangkok-pub-fire-officials-say/"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Brief factual report on death and career highlights",
-          "url": "https://www.rnz.co.nz/news/political/695758/rehearsals-held-to-test-intense-security-for-narendra-modi-visit"
+          "framing_note": "Balanced coverage noting both the dramatic nature of the move and Fidesz's criticism that Tisza is using Fidesz's own power tactics against them",
+          "url": "https://www.bbc.co.uk/news/articles/clye4z168edo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Bangkok Bar Fire Kills at Least 27 as Lack of Fire Escapes Traps Patrons",
-      "category": "Society",
+      "headline": "Federal Judge Voids Trump's $1.8 Billion IRS Settlement, Refers Lawyer for Discipline",
+      "category": "Policy",
       "bullets": [
-        "Fire broke out near the stage of Rong Beer Na Lat Phrao pub in Bangkok's Chatuchak district just before midnight Sunday, spreading rapidly and cutting power",
-        "At least 27 people died and 22 remain in critical condition; most victims were found in a bathroom where they had sought shelter with no emergency exits available",
-        "Preliminary investigation suggests the fire may have been caused by an electrical short circuit in an air conditioner",
-        "Prime Minister Anutin Charnvirakul visited the scene; the incident highlights ongoing failures to enforce fire and electrical safety standards despite previous deadly fires"
+        "US District Judge Kathleen Williams ruled the lawsuit between Trump and the IRS was filed for improper purpose and voided the settlement",
+        "The May 2026 settlement had created a $1.8 billion 'anti-weaponisation' fund and granted Trump immunity from tax audits in exchange for dropping his $10 billion lawsuit",
+        "Williams wrote the case 'was never about a party seeking judicial resolution' but rather an attempt to 'confer immunity to people and entities affiliated with the President'",
+        "A Trump lawyer was referred to state authorities to determine if ethics rules were violated"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Notes this is not the first such incident and that safety standards are poorly enforced despite official promises",
-          "url": "https://www.bbc.co.uk/news/articles/cvge2nd611zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Detailed account of firefighter response and survivor accounts",
-          "url": "https://www.theglobeandmail.com/world/article-27-dead-and-22-critically-injured-after-bangkok-pub-fire-officials-say/"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article inaccessible but confirms coverage",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/07/12/evacuees-allowed-to-return-home-after-deadly-wildfire-in-spain-stabilizes_6755417_114.html"
+          "framing_note": null,
+          "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Major Wildfire Burns Through 800 Hectares of Fontainebleau Forest Near Paris",
+      "headline": "Wildfires Ravage Fontainebleau Forest Near Paris, 59 Arrested Nationwide for Arson",
       "category": "Climate",
       "bullets": [
-        "Fire in the historic royal hunting forest about 60 kilometers southeast of Paris had burned through 800 hectares by Monday morning and was still spreading",
-        "Nearly 400 firefighters and two water bombing planes deployed; officials described the blaze as 'very virulent' and of 'exceptional scale'",
-        "First time firefighting aircraft have been sent from southern France to tackle fires in the Paris region, reflecting the severity of the third heatwave this year",
-        "The A6 highway, France's main north-south artery, was partially closed, causing significant travel disruption at the start of the Bastille Day holiday weekend"
+        "Over 1,900 hectares of Fontainebleau forest, a UNESCO biosphere reserve 60km southeast of Paris, have been destroyed by wildfires",
+        "A second fire erupted Monday approximately 5km from the original blaze and spread rapidly; Interior Minister Laurent Nu\u00f1ez suggested it may have been intentionally set",
+        "Around 1,000 residents have been evacuated; 850 firefighters and specialized aircraft, including Canadair planes from southern France, are battling the flames",
+        "59 people have been arrested nationwide over suspected deliberate or accidental arson, including 30 adults and 29 minors; seven have been remanded in custody after admitting to setting fires"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Emphasizes unprecedented nature of deploying southern firefighting aircraft to Paris region",
-          "url": "https://www.bbc.co.uk/news/articles/cvge2nd611zo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on the potential deliberate origin and arrests",
+          "url": "https://www.bbc.co.uk/news/articles/clye4z168edo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RFI English",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Details on evacuations, highway closures and firefighting coordination",
-          "url": "https://www.rfi.fr/en/podcasts/international-report/20260713-china-s-missile-test-overshadowed-by-iran-war-but-pacific-nations-are-watching"
+          "framing_note": "Emphasized the UNESCO heritage status and unprecedented deployment of southern firefighting resources to Paris region",
+          "url": "https://www.france24.com/en/world-cup-2026-ahead-of-france-spain-in-dallas-supporters-are-confident"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Detailed breakdown of arrests including age profiles of suspects",
+          "url": "#"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "South Korean court sentences former President Yoon Suk Yeol to two years for receiving illegal polling services",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/asia-pacific/20260713-south-korea-court-sentences-ex-president-yoon-to-two-years-illegal-polling-case"
+      "headline": "ICE agent fatally shoots Colombian national during Maine immigration operation, second deadly force incident in a week",
+      "source": "BBC World, Globe and Mail, Le Monde",
+      "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko"
     },
     {
-      "headline": "Actor Sam Neill, star of Jurassic Park and The Piano, dies at 78 in Sydney",
-      "source": "France 24, ABC Australia, Al Jazeera",
-      "url": "https://www.france24.com/en/culture/20260713-jurassic-park-star-sam-neill-dies-at-78"
+      "headline": "Russian anti-war politician Boris Nadezhdin detained and charged with displaying extremist symbols, barring him from September elections",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cly7epp3jdlo"
     },
     {
-      "headline": "EU expert committee to deliver recommendations on regulating children's access to social media, including potential blanket ban",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260713-experts-to-deliver-verdict-on-eu-social-media-controls-for-children"
+      "headline": "Bangkok bar fire death toll rises to 30 as Thai authorities investigate safety lapses including locked doors and lack of emergency signage",
+      "source": "BBC World, Globe and Mail",
+      "url": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o"
     },
     {
-      "headline": "US Senator Mitch McConnell reveals extended absence was due to fall and mild pneumonia, says he was briefly unconscious",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvge2nd611zo"
+      "headline": "UK signs landmark services trade deal with Switzerland eliminating roaming charges and allowing Britons to use airport e-gates",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo"
     },
     {
-      "headline": "First patients enrolled in record-breaking Ebola treatment trial in DRC, just six weeks after WHO declared public health emergency",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/jul/12/record-breaking-ebola-treatment-trial-drc"
-    },
-    {
-      "headline": "China rebukes New Zealand for supporting South China Sea arbitration ruling on 10th anniversary",
+      "headline": "China rebukes New Zealand for supporting South China Sea arbitration ruling on 10th anniversary, calling it 'seriously undermining' to relations",
       "source": "RNZ",
       "url": "https://www.rnz.co.nz/news/political/709031/nz-s-support-of-ruling-rejecting-maritime-claim-seriously-undermines-relationship-says-china"
     },
     {
-      "headline": "At least 13 killed in Spanish wildfire near B\u00e9dar, including five believed to be British nationals",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo"
+      "headline": "Iran-backed Houthi rebels strike Saudi Arabia's Abha airport in retaliation for airstrikes on Sanaa, marking major escalation",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-iran-backed-houthis-rebels-strike-airport-in-saudi-arabia/"
     },
     {
-      "headline": "More than 2,700 deaths in England and Wales linked to record May and June heatwaves, researchers estimate",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/more-than-2700-deaths-in-uk-linked-to-may-june-heatwaves"
+      "headline": "Australian Signals Directorate warns Russian hackers linked to FSB are actively targeting critical infrastructure including defence and financial services",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-07-14/cyber-warning-russian-hackers-targeting-critical-industries/106913734"
     },
     {
-      "headline": "UK announces \u00a3250 million in funding to protect Jewish community following antisemitic attacks",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/13/uk-announces-250-million-in-funding-to-protect-jewish-community-after-spate-of-anti-semitic-attacks_6755422_4.html"
+      "headline": "British whistleblower reveals US Commerce Secretary Howard Lutnick's undisclosed business relationship with Jeffrey Epstein",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c9q28dlyxrzo"
     },
     {
-      "headline": "Jannik Sinner retains Wimbledon title with four-set victory over Alexander Zverev",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260713-jannik-sinner-retains-wimbledon-title-after-victory-over-alexander-zverev"
+      "headline": "India launches campaign for UN Security Council non-permanent seat for 2028-29, reaffirms support for Palestine UN membership",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/india-supports-un-membership-for-palestine-says-mea/article71220252.ece"
+    },
+    {
+      "headline": "US Senator Lindsey Graham died from aortic rupture related to arterial hardening, medical examiner confirms",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-lindsay-graham-dies-us-senator-republican-trump/"
     }
   ]
 }
