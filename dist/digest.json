@@ -1,196 +1,196 @@
 {
-  "date": "Wednesday, July 15, 2026",
-  "daily_brief": "The escalating US-Iran conflict dominated global headlines as President Trump threatened to strike Iranian bridges and power plants next week while reimposing a naval blockade, with US strikes killing at least seven Iranian military personnel [BBC World, RFI, The Hindu]. Iran retaliated with attacks on US bases in the region and threatened to close additional strategic seaways including the Bab el-Mandeb Strait [The Hindu, RFI]. China reported its weakest quarterly economic growth in over three years at 4.3%, missing Beijing's target as the Iran war's disruption of oil shipping compounds domestic challenges including a property slump and weak consumer spending [BBC World, France 24, Financial Times]. In Europe, Commission President von der Leyen arrived in Kyiv to announce new defence initiatives as a Russian strike killed three in Odesa, while Ukraine claimed strikes on 20 Russian vessels in the Black Sea [France 24]. Spain defeated France 2-0 to reach the 2026 World Cup final in a tactical masterclass that ended Didier Deschamps' tenure as France manager [RFI, France 24, Al Jazeera]. Meanwhile, a second American Ebola patient has been evacuated to Germany for treatment as the DRC outbreak continues to expand with over 1,900 confirmed cases [The Guardian].",
+  "date": "Thursday, July 16, 2026",
+  "daily_brief": "Escalating hostilities between the United States and Iran dominated headlines as both nations exchanged strikes overnight, with Tehran targeting US military bases in Jordan, Kuwait, and Bahrain while Washington conducted waves of attacks on Iranian coastal defenses and missile sites [BBC World], [France 24], [Globe and Mail]. The confrontation, which followed Iran's closure of the Strait of Hormuz, has pushed Brent crude to a one-month high and raised fears of broader regional conflict. In Europe, France's National Assembly passed landmark assisted dying legislation after years of debate, though the law still faces Constitutional Council review [RFI], [BBC Europe]. A major surveillance investigation revealed that Morocco extensively deployed Pegasus spyware against journalists, politicians, and activists across multiple countries, based on testimony from an intelligence whistleblower [The Guardian], [Le Monde]. Argentina's dramatic 2-1 World Cup semifinal victory over England was overshadowed by players displaying a politically charged Falkland Islands banner, prompting FIFA disciplinary scrutiny [BBC World], [Al Jazeera], [France 24]. Meanwhile, TSMC announced an additional $100 billion US investment in Arizona chipmaking facilities [Nikkei Asia], and protests erupted across Ukraine following the surprise removal of Defense Minister Mykhailo Fedorov [France 24].",
   "top_stories": [
     {
-      "headline": "US Escalates Iran Conflict: Trump Threatens Power Plants and Bridges as Strikes Continue",
+      "headline": "US and Iran Exchange Fresh Strikes as Hormuz Crisis Deepens",
       "category": "Conflict",
       "bullets": [
-        "US forces carried out strikes on Iran for a fourth consecutive day, killing at least seven Iranian military personnel at an army barracks near Iranshahr",
-        "Trump reversed his 20% toll threat on Strait of Hormuz shipping but reimposed a naval blockade on Iranian ports effective Tuesday evening",
-        "Trump warned in a Fox News interview that strikes would target power plants and bridges next week if Iran does not return to negotiations",
-        "Iran retaliated with drone attacks on a US military base in Jordan and struck targets in Bahrain and Kuwait, while threatening to close additional strategic waterways"
+        "Iran launched drone attacks on US military bases in Jordan, Kuwait, and Bahrain, targeting radar systems, Patriot air defense installations, and fuel storage facilities",
+        "US Central Command conducted two waves of strikes on Iranian command centers, air defense sites, and coastal surveillance facilities including targets in Bandar Abbas and Greater Tunb Island",
+        "Iran warned it would target regional infrastructure if the US attacks Iranian infrastructure, calling the Strait of Hormuz a 'red line'",
+        "Brent crude closed at a one-month high of $84.95 per barrel as the strait, which carried about a fifth of global oil and gas shipments, remains blocked"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's retreat on Hormuz tolls as sign he is struggling to end the war; noted UN human rights chief's previous warning that targeting civilian infrastructure is a war crime",
-          "url": "https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on military developments and Trump's ultimatum",
-          "url": "https://www.rfi.fr/en/france/20260714-france-marks-10-years-since-bastille-day-terror-attack-in-nice-killed-86"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Iran's IRGC threat to close 'all other export corridors' and potential Houthi involvement in Bab el-Mandeb",
-          "url": "https://www.thehindu.com/news/international/iran-threatens-to-block-more-vital-seaways-as-trump-orders-renewed-iran-blockade/article71224209.ece"
-        }
-      ]
-    },
-    {
-      "headline": "China's Economy Grows at Weakest Pace in Over Three Years, Missing Government Target",
-      "category": "Economics",
-      "bullets": [
-        "GDP expanded 4.3% year-on-year in Q2 2026, below the 4.5-5% target and the slowest growth since Q4 2022",
-        "Strong exports driven by global AI demand were offset by the Iran war's disruption to shipping through the Strait of Hormuz",
-        "Domestic challenges persist including a years-long property sector crisis and weak consumer spending",
-        "New home prices contracted for another month, falling 0.1% in June"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized Iran war impact on oil prices as key external factor",
-          "url": "https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on military actions and Trump's warning to Iran to 'behave'",
+          "url": "https://www.bbc.co.uk/news/articles/cddj7e8v767o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Highlighted AI and EV exports as bright spots amid broader weakness",
-          "url": "https://www.france24.com/en/asia-pacific/20260715-china-s-economic-growth-slows-to-weakest-pace-in-over-three-years"
+          "framing_note": "Emphasized Iranian threats and regional infrastructure warnings",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260716-title-holders-argentina-seal-dramatic-spot-in-world-cup-final"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline emphasized historic nature of low growth rates",
-          "url": "https://www.ft.com/content/1ec6fcd5-da94-4112-af03-2190a142976e"
-        }
-      ]
-    },
-    {
-      "headline": "Von der Leyen Visits Kyiv with Defence Plans as Russia Strikes Odesa, Killing Three",
-      "category": "Conflict",
-      "bullets": [
-        "European Commission President Ursula von der Leyen arrived in Ukraine to announce new initiatives deepening EU-Ukraine defence integration",
-        "A Russian strike on Odesa killed three civilians and hospitalized three others, damaging residential buildings",
-        "Russia confirmed targeting port infrastructure in Odesa and Chornomorsk, hitting fuel storage and vessels",
-        "Ukraine claimed overnight strikes on 20 Russian vessels in the Black Sea including gas tankers"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Led with von der Leyen visit and new defence initiatives",
-          "url": "https://www.france24.com/en/asia-pacific/20260715-china-s-economic-growth-slows-to-weakest-pace-in-over-three-years"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Focused on Ukraine expanding attacks to Sea of Azov as strategic development",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/15/ukraine-expands-attacks-to-the-sea-of-azov-a-crucial-maritime-corridor-for-russia_6755475_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Spain Defeats France 2-0 to Reach 2026 World Cup Final",
-      "category": "Society",
-      "bullets": [
-        "Spain controlled the semifinal in Dallas, with France failing to register a shot on target until after the 75th minute",
-        "Mikel Oyarzabal converted a penalty after Lucas Digne fouled Lamine Yamal; Pedro Porro added a second goal",
-        "France's highly-touted attack of Mbapp\u00e9, Olise, and Demb\u00e9l\u00e9 was neutralized by Spain's midfield trio of Rodri, Olmo, and Ruiz",
-        "Didier Deschamps will end his tenure as France manager after the third-place playoff on Saturday"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Straightforward match reporting emphasizing Spain's composure",
-          "url": "https://www.rfi.fr/en/france/20260714-france-marks-10-years-since-bastille-day-terror-attack-in-nice-killed-86"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "French perspective noting end of 'French dream' of third consecutive final",
-          "url": "https://www.france24.com/en/asia-pacific/20260715-china-s-economic-growth-slows-to-weakest-pace-in-over-three-years"
+          "framing_note": "Highlighted Iran's 'existential war' rhetoric and economic implications",
+          "url": "https://www.theglobeandmail.com/world/article-ice-trump-traffic-stops-fatal-shootings/"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Spain's tactical masterclass and Deschamps' tactical failures",
-          "url": "https://www.aljazeera.com/news/2026/7/15/how-failed-2016-coup-reshaped-turkiyes-and-civil-military-relations?traffic_source=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused on Deschamps' disappointment and Mbapp\u00e9's criticism of France's tactics",
-          "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Featured former US ambassador analysis suggesting Iran miscalculated Trump's resolve",
+          "url": "https://www.aljazeera.com/news/2026/7/16/senior-chinese-delegation-visits-north-korea-for-talks?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Second American Ebola Patient Evacuated to Germany as DRC Outbreak Expands",
-      "category": "Society",
+      "headline": "France Passes Assisted Dying Law After Years of Parliamentary Deadlock",
+      "category": "Policy",
       "bullets": [
-        "A US humanitarian worker in his 60s contracted Ebola in Bunia, DRC and was transferred to Frankfurt's university hospital for treatment",
-        "The Trump administration blocked American citizens in the DRC from traveling to the US on commercial flights",
-        "The outbreak has recorded over 1,900 confirmed cases and more than 700 deaths from the Bundibugyo strain, for which no vaccine or approved treatment exists",
-        "First patients have been enrolled in a record-breaking treatment trial just six weeks after WHO declared the outbreak a public health emergency"
+        "French National Assembly voted 291-241 to approve legislation granting terminally ill adults the right to end their lives with medical assistance",
+        "Law applies to French adults with 'serious and incurable' life-threatening illness in advanced or terminal stage causing unbearable suffering resistant to treatment",
+        "Patients must self-administer lethal substance after 15-day consultation period and two-day reflection period; medical professionals may assist if patient is unable",
+        "Prime Minister Lecornu will refer the text to Constitutional Council for review before it can become law"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Detailed legislative process and constitutional referral concerns",
+          "url": "https://www.rfi.fr/en/france/20260715-firefighters-tackle-flare-ups-in-fontainebleau-forest-after-fires-brought-under-control"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Emphasized strict conditions and placed in context of UK debate on similar legislation",
+          "url": "https://www.bbc.co.uk/news/articles/c1kykx3vnyyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Whistleblower Reveals Morocco's Extensive Use of Pegasus Spyware",
+      "category": "Technology",
+      "bullets": [
+        "Former member of Morocco's domestic intelligence service (DGST) provided testimony that Morocco began using Pegasus spyware in 2017 and deployed it for four years",
+        "Targets allegedly included journalists, human rights defenders, French politicians, and Spanish cabinet ministers and police officers",
+        "Morocco has long denied any relationship with NSO Group, the Israeli manufacturer of Pegasus",
+        "Revelations form basis of multiyear investigation marking five years since original Pegasus Project disclosures"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Provided detailed context on outbreak scale and treatment trial progress; noted worker was employed by Samaritan's Purse",
-          "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco"
+          "framing_note": "Led with whistleblower testimony and detailed targeting of European officials",
+          "url": "https://www.theguardian.com/global-development/2026/jul/12/record-breaking-ebola-treatment-trial-drc"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Multiple articles examining Morocco's surveillance tool purchases and ongoing judicial investigations",
+          "url": "https://www.lemonde.fr/en/pixels/article/2026/07/16/pegasus-project-five-years-after-revelations-about-a-global-phone-surveillance-system-judicial-investigation-continues_6755522_13.html"
+        }
+      ]
+    },
+    {
+      "headline": "Argentina Reaches World Cup Final with Late Comeback Against England; Falklands Banner Sparks Diplomatic Tension",
+      "category": "Society",
+      "bullets": [
+        "Argentina defeated England 2-1 with two goals in final minutes after trailing from the 55th minute, setting up Sunday's final against Spain",
+        "After the match, Argentine players displayed banner reading 'Las Malvinas son Argentinas' (The Falklands are Argentine)",
+        "FIFA previously fined Argentina's Football Association \u00a320,000 in 2014 for similar political display; new disciplinary action expected",
+        "Argentine Vice President Victoria Villarruel posted video appearing to show Argentine soldiers, writing 'it wasn't just another match'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed FIFA rules and 1982 conflict history",
+          "url": "https://www.bbc.co.uk/news/articles/cddj7e8v767o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Sports-focused coverage emphasizing dramatic comeback",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260716-title-holders-argentina-seal-dramatic-spot-in-world-cup-final"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted sovereignty dispute and FIFA's ban on political displays",
+          "url": "https://www.aljazeera.com/news/2026/7/16/senior-chinese-delegation-visits-north-korea-for-talks?traffic_source=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on match details and upcoming final against Spain",
+          "url": "https://www.rfi.fr/en/france/20260715-firefighters-tackle-flare-ups-in-fontainebleau-forest-after-fires-brought-under-control"
+        }
+      ]
+    },
+    {
+      "headline": "TSMC Announces Additional $100 Billion US Investment in Arizona Chip Facilities",
+      "category": "Economics",
+      "bullets": [
+        "Taiwan Semiconductor Manufacturing Co. will invest additional $100 billion to build cutting-edge chipmaking facilities and advanced packaging plants in Arizona",
+        "Investment driven by AI demand; company raised full-year capital expenditure to $64 billion",
+        "Revenue growth forecast increased to 40% for the year",
+        "Expansion follows earlier TSMC commitments to US manufacturing amid geopolitical tensions over Taiwan"
+      ],
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Emphasized AI demand driver and connection to broader US investment strategy",
+          "url": "https://asia.nikkei.com/spotlight/nikkei-asia-forum/nikkei-asia-forum-apac-2026/vietnam-s-rapid-growth-can-benefit-thailand-deputy-pm-sihasak-says"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "France's National Assembly expected to give final approval to assisted dying legislation after years of debate",
+      "headline": "Over 500 feared dead in two suspected shipwrecks off Myanmar coast, UN warns",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/16/over-500-feared-dead-in-two-suspected-shipwrecks-off-myanmar-un-warns_6755526_4.html"
+    },
+    {
+      "headline": "Rare protests erupt across Ukraine demanding reinstatement of removed Defense Minister Mykhailo Fedorov",
       "source": "France 24",
-      "url": "https://www.france24.com/en/france/20260715-france-expected-to-pass-final-vote-on-assisted-dying-after-years-of-debate"
+      "url": "https://www.france24.com/en/europe/20260716-protests-against-removal-of-popular-defence-minister-erupt-across-ukraine"
     },
     {
-      "headline": "Seven Britons among 13 killed in deadly wildfires in Spain's Almer\u00eda province",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cp8l87784ngo"
+      "headline": "Fire at orphanage outside Algiers kills at least 11 amid Algerian heatwave",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/africa/20260716-fire-at-orphanage-in-algeria-kills-11-and-wounds-19"
     },
     {
-      "headline": "Hungary's parliament votes to remove President Tam\u00e1s Sulyok from office using constitutional amendment",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo"
-    },
-    {
-      "headline": "New Zealand detects first case of H5N1 bird flu in migratory seabird found on Wellington beach",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/new-zealand-detects-h5-bird-flu/article71224561.ece"
-    },
-    {
-      "headline": "ICE suspends most vehicle stops nationwide after agents fatally shot two men in Maine and Texas",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-07-15/trump-administration-orders-ice-to-suspend-most-vehicle-stops/106916922"
-    },
-    {
-      "headline": "Taiwan orders dozens of sea drones with US technology to counter China's expanding maritime operations",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-orders-dozens-of-sea-drones-to-fend-off-china-s-maritime-squeeze"
-    },
-    {
-      "headline": "India-UK trade agreement takes effect, eliminating tariffs on 96.8% of UK tariff lines immediately",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/business/what-are-the-gains-from-the-india-uk-trade-deal-explained/article71224212.ece"
-    },
-    {
-      "headline": "French PM Lecornu leads delegation of 12 ministers to Morocco for first high-level meeting since 2019",
+      "headline": "EU and Ukraine sign drone partnership deal to combine European industrial capacity with Ukrainian battlefield expertise",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260715-french-pm-in-morocco-with-a-dozen-ministers-for-a-two-day-visit"
+      "url": "https://www.rfi.fr/en/international/20260715-eu-ukraine-agree-drone-deal-to-pair-industry-with-battlefield-expertise"
     },
     {
-      "headline": "Stripe and Advent make $53 billion bid for PayPal",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/3738e814-9470-4d7d-94a6-ac5e001a968e"
+      "headline": "US Defense Secretary Hegseth orders testosterone deficiency screening for military personnel over 30",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o"
     },
     {
-      "headline": "Australia unveils AI standards for data center construction and model training",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/australia-unveils-ai-standards-to-shape-roll-out-of-technology"
+      "headline": "Second American Ebola patient arrives in Germany for treatment as DRC outbreak continues",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/14/american-ebola-patient-arrives-germany"
+    },
+    {
+      "headline": "Canadian wildfire smoke pushes Toronto air quality to world's worst, drifts into northeastern US ahead of World Cup final",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/environment/20260716-canadian-wildfire-smoke-pushes-toronto-air-quality-to-world-s-worst-reaches-us"
+    },
+    {
+      "headline": "Italy's Meloni coalition loses surprise secret ballot vote on electoral reform amendment",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c1kykx3vnyyo"
+    },
+    {
+      "headline": "Families of 43 victims await first verdict in Genoa bridge collapse trial nearly eight years after disaster",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c20y00712ezo"
+    },
+    {
+      "headline": "New York Times moves to quash subpoenas served to journalists over Air Force One security reporting",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-air-force-one-nyt-subpoenas-journalists-trump/"
     }
   ]
 }
