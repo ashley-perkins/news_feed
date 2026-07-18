@@ -1,196 +1,196 @@
 {
-  "date": "Thursday, July 16, 2026",
-  "daily_brief": "Escalating hostilities between the United States and Iran dominated headlines as both nations exchanged strikes overnight, with Tehran targeting US military bases in Jordan, Kuwait, and Bahrain while Washington conducted waves of attacks on Iranian coastal defenses and missile sites [BBC World], [France 24], [Globe and Mail]. The confrontation, which followed Iran's closure of the Strait of Hormuz, has pushed Brent crude to a one-month high and raised fears of broader regional conflict. In Europe, France's National Assembly passed landmark assisted dying legislation after years of debate, though the law still faces Constitutional Council review [RFI], [BBC Europe]. A major surveillance investigation revealed that Morocco extensively deployed Pegasus spyware against journalists, politicians, and activists across multiple countries, based on testimony from an intelligence whistleblower [The Guardian], [Le Monde]. Argentina's dramatic 2-1 World Cup semifinal victory over England was overshadowed by players displaying a politically charged Falkland Islands banner, prompting FIFA disciplinary scrutiny [BBC World], [Al Jazeera], [France 24]. Meanwhile, TSMC announced an additional $100 billion US investment in Arizona chipmaking facilities [Nikkei Asia], and protests erupted across Ukraine following the surprise removal of Defense Minister Mykhailo Fedorov [France 24].",
+  "date": "Saturday, July 18, 2026",
+  "daily_brief": "The US-Iran conflict dominated global headlines as American forces completed their seventh consecutive night of strikes targeting Iranian military infrastructure, surveillance sites, and maritime capabilities [BBC, France 24, Globe and Mail]. Tehran responded by launching missiles at US allies including Kuwait, where two water and electricity plants were damaged, and Jordan, which intercepted ten Iranian missiles [France 24, The Hindu]. Shipping through the Strait of Hormuz has largely halted, threatening roughly one-fifth of global oil and LNG supplies [BBC]. In Ukraine, President Zelensky's surprise dismissal of popular Defence Minister Mykhailo Fedorov sparked protests across the country and outrage among soldiers, with troops telling the BBC they feel betrayed by the decision amid ongoing conflict with Russia [BBC]. Meanwhile, Canadian wildfires continued to send smoke across the northern United States, prompting President Trump to threaten new tariffs on Canada over what he called 'willful negligence' in forest management [BBC, Globe and Mail, Al Jazeera]. The UK political landscape shifted as Labour confirmed Andy Burnham as party leader and incoming Prime Minister, while in Russia, authorities detained prominent anti-war blogger Ilya Remeslo and moved to bar politician Boris Nadezhdin from parliamentary elections [RFI, BBC].",
   "top_stories": [
     {
-      "headline": "US and Iran Exchange Fresh Strikes as Hormuz Crisis Deepens",
+      "headline": "US Completes Seventh Night of Strikes on Iran as Regional Conflict Expands",
       "category": "Conflict",
       "bullets": [
-        "Iran launched drone attacks on US military bases in Jordan, Kuwait, and Bahrain, targeting radar systems, Patriot air defense installations, and fuel storage facilities",
-        "US Central Command conducted two waves of strikes on Iranian command centers, air defense sites, and coastal surveillance facilities including targets in Bandar Abbas and Greater Tunb Island",
-        "Iran warned it would target regional infrastructure if the US attacks Iranian infrastructure, calling the Strait of Hormuz a 'red line'",
-        "Brent crude closed at a one-month high of $84.95 per barrel as the strait, which carried about a fifth of global oil and gas shipments, remains blocked"
+        "US Central Command struck Iranian surveillance sites, military logistics infrastructure, underground weapons storage, and maritime capabilities overnight",
+        "Iran retaliated by launching missiles at US allies including Kuwait (damaging two water/electricity plants), Jordan (which intercepted 10 missiles), and Bahrain",
+        "Shipping traffic through the Strait of Hormuz has largely stopped; the waterway normally handles about one-fifth of global oil and LNG supplies",
+        "Iran claimed two oil tankers exploded after hitting mines in the strait, which US Central Command denied as false"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on military actions and Trump's warning to Iran to 'behave'",
-          "url": "https://www.bbc.co.uk/news/articles/cddj7e8v767o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on military operations and shipping disruption",
+          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized Iranian threats and regional infrastructure warnings",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260716-title-holders-argentina-seal-dramatic-spot-in-world-cup-final"
+          "framing_note": "Emphasized US media reports of military preparing further escalation",
+          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260717-un-launches-new-refugee-hub-in-ethiopia-offering-legal-aid-and-protection"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Highlighted Iran's 'existential war' rhetoric and economic implications",
-          "url": "https://www.theglobeandmail.com/world/article-ice-trump-traffic-stops-fatal-shootings/"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Featured former US ambassador analysis suggesting Iran miscalculated Trump's resolve",
-          "url": "https://www.aljazeera.com/news/2026/7/16/senior-chinese-delegation-visits-north-korea-for-talks?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "France Passes Assisted Dying Law After Years of Parliamentary Deadlock",
-      "category": "Policy",
-      "bullets": [
-        "French National Assembly voted 291-241 to approve legislation granting terminally ill adults the right to end their lives with medical assistance",
-        "Law applies to French adults with 'serious and incurable' life-threatening illness in advanced or terminal stage causing unbearable suffering resistant to treatment",
-        "Patients must self-administer lethal substance after 15-day consultation period and two-day reflection period; medical professionals may assist if patient is unable",
-        "Prime Minister Lecornu will refer the text to Constitutional Council for review before it can become law"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Detailed legislative process and constitutional referral concerns",
-          "url": "https://www.rfi.fr/en/france/20260715-firefighters-tackle-flare-ups-in-fontainebleau-forest-after-fires-brought-under-control"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasized strict conditions and placed in context of UK debate on similar legislation",
-          "url": "https://www.bbc.co.uk/news/articles/c1kykx3vnyyo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Whistleblower Reveals Morocco's Extensive Use of Pegasus Spyware",
-      "category": "Technology",
-      "bullets": [
-        "Former member of Morocco's domestic intelligence service (DGST) provided testimony that Morocco began using Pegasus spyware in 2017 and deployed it for four years",
-        "Targets allegedly included journalists, human rights defenders, French politicians, and Spanish cabinet ministers and police officers",
-        "Morocco has long denied any relationship with NSO Group, the Israeli manufacturer of Pegasus",
-        "Revelations form basis of multiyear investigation marking five years since original Pegasus Project disclosures"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Led with whistleblower testimony and detailed targeting of European officials",
-          "url": "https://www.theguardian.com/global-development/2026/jul/12/record-breaking-ebola-treatment-trial-drc"
+          "framing_note": "Detailed the tit-for-tat nature of strikes and infrastructure targeting",
+          "url": "https://www.theglobeandmail.com/business/international-business/article-us-networks-licences-revoked-prime-time-speech-donald-trump/"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Multiple articles examining Morocco's surveillance tool purchases and ongoing judicial investigations",
-          "url": "https://www.lemonde.fr/en/pixels/article/2026/07/16/pegasus-project-five-years-after-revelations-about-a-global-phone-surveillance-system-judicial-investigation-continues_6755522_13.html"
+          "framing_note": "Content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/18/why-russia-s-hybrid-warfare-is-forcing-france-to-raise-its-voice_6755588_4.html"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Iranian claims of striking US targets in Kuwait and Jordan",
+          "url": "https://www.thehindu.com/news/international/venezuela-earthquake-death-toll-exceeds-5000-as-imf-releases-funds/article71237122.ece"
         }
       ]
     },
     {
-      "headline": "Argentina Reaches World Cup Final with Late Comeback Against England; Falklands Banner Sparks Diplomatic Tension",
-      "category": "Society",
+      "headline": "Zelensky's Dismissal of Popular Defence Minister Sparks Protests and Military Outrage in Ukraine",
+      "category": "Geopolitics",
       "bullets": [
-        "Argentina defeated England 2-1 with two goals in final minutes after trailing from the 55th minute, setting up Sunday's final against Spain",
-        "After the match, Argentine players displayed banner reading 'Las Malvinas son Argentinas' (The Falklands are Argentine)",
-        "FIFA previously fined Argentina's Football Association \u00a320,000 in 2014 for similar political display; new disciplinary action expected",
-        "Argentine Vice President Victoria Villarruel posted video appearing to show Argentine soldiers, writing 'it wasn't just another match'"
+        "President Zelensky declined to reappoint Defence Minister Mykhailo Fedorov in his cabinet reshuffle, nominating Maj-Gen Yevhenii Khmara as acting replacement",
+        "Fedorov revealed he had suggested Zelensky replace Commander-in-Chief Syrskyi and Chief of General Staff Hnatov; Zelensky acknowledged 'systemic' conflict between the General Staff and defence ministry",
+        "Protests erupted in Kyiv and other Ukrainian cities with demonstrators holding signs reading 'Hands off Fedorov' and 'Stop sabotaging victory'",
+        "Soldiers interviewed by BBC expressed outrage, with one calling it 'a blatant slap in the face to all service members'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed FIFA rules and 1982 conflict history",
-          "url": "https://www.bbc.co.uk/news/articles/cddj7e8v767o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on soldier reactions and quotes describing sense of betrayal",
+          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Sports-focused coverage emphasizing dramatic comeback",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260716-title-holders-argentina-seal-dramatic-spot-in-world-cup-final"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted sovereignty dispute and FIFA's ban on political displays",
-          "url": "https://www.aljazeera.com/news/2026/7/16/senior-chinese-delegation-visits-north-korea-for-talks?traffic_source=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on match details and upcoming final against Spain",
-          "url": "https://www.rfi.fr/en/france/20260715-firefighters-tackle-flare-ups-in-fontainebleau-forest-after-fires-brought-under-control"
+          "framing_note": "Same coverage, emphasized political tensions between military leadership",
+          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "TSMC Announces Additional $100 Billion US Investment in Arizona Chip Facilities",
-      "category": "Economics",
+      "headline": "Trump Threatens New Tariffs on Canada Over Wildfire Smoke Crossing US Border",
+      "category": "Geopolitics",
       "bullets": [
-        "Taiwan Semiconductor Manufacturing Co. will invest additional $100 billion to build cutting-edge chipmaking facilities and advanced packaging plants in Arizona",
-        "Investment driven by AI demand; company raised full-year capital expenditure to $64 billion",
-        "Revenue growth forecast increased to 40% for the year",
-        "Expansion follows earlier TSMC commitments to US manufacturing amid geopolitical tensions over Taiwan"
+        "President Trump accused Canada of 'willful negligence' in forest management as smoke from approximately 888 Canadian wildfires blanketed northern US states",
+        "Trump announced plans to call Prime Minister Mark Carney demanding an explanation and threatened to add costs to existing tariffs",
+        "Over 190 fires are burning in Ontario alone, with the majority out of control",
+        "Republican lawmakers renewed calls to make Canada the 51st US state; Ontario Premier Doug Ford had asked the US for firefighting support rather than complaints"
       ],
       "sources": [
         {
-          "name": "Nikkei Asia",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized AI demand driver and connection to broader US investment strategy",
-          "url": "https://asia.nikkei.com/spotlight/nikkei-asia-forum/nikkei-asia-forum-apac-2026/vietnam-s-rapid-growth-can-benefit-thailand-deputy-pm-sihasak-says"
+          "framing_note": "Balanced coverage noting both Trump's threats and Canadian Premier's request for assistance",
+          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized Supreme Court constraints on Trump's tariff powers and detailed Michigan Republicans' prior complaints",
+          "url": "https://www.theglobeandmail.com/business/international-business/article-us-networks-licences-revoked-prime-time-speech-donald-trump/"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Focused on air quality impact on World Cup final preparations",
+          "url": "https://www.aljazeera.com/news/2026/7/18/england-france-fifa-world-cup-third-place-playoff-tuchel-france?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Intensifies Crackdown on Anti-War Dissent, Detaining Blogger and Barring Politician",
+      "category": "Policy",
+      "bullets": [
+        "Blogger Ilya Remeslo, a former Putin supporter who called the president a 'war criminal and thief' in March, was remanded in custody for two months on suspicion of spreading false military information",
+        "Politician Boris Nadezhdin was convicted of 'displaying extremist symbols,' barring him from collecting signatures for September parliamentary elections",
+        "Nadezhdin had previously attempted to run for president on an anti-war platform in 2024 but was blocked over signature irregularities",
+        "Most genuine opposition figures have fled Russia or, like Alexei Navalny, died in custody"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provided context on broader pattern of opposition suppression",
+          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage",
+          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Andy Burnham Confirmed as UK Labour Leader, Set to Become Prime Minister Monday",
+      "category": "Policy",
+      "bullets": [
+        "The 56-year-old 'King of the North' faced no challengers for Labour leadership after securing backing from 379 of 403 Labour MPs",
+        "Burnham returns as an MP after a nine-year absence, having served as Greater Manchester mayor since 2017",
+        "He replaces Keir Starmer and becomes the UK's seventh prime minister in a decade",
+        "Burnham will meet King Charles III on Monday to formally receive the invitation to form the next government"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized his soft-left positioning and hopes he can communicate better than Starmer",
+          "url": "https://www.rfi.fr/en/france/20260716-macron-toughens-stance-on-arson-as-wildfires-sweep-france"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Over 500 feared dead in two suspected shipwrecks off Myanmar coast, UN warns",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/16/over-500-feared-dead-in-two-suspected-shipwrecks-off-myanmar-un-warns_6755526_4.html"
-    },
-    {
-      "headline": "Rare protests erupt across Ukraine demanding reinstatement of removed Defense Minister Mykhailo Fedorov",
+      "headline": "Ukrainian drone attack kills seven at Moscow logistics centre, wounds 24, as Russia claims 370 drones launched overnight",
       "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260716-protests-against-removal-of-popular-defence-minister-erupt-across-ukraine"
+      "url": "https://www.france24.com/en/europe/20260718-russia-says-ukrainian-drone-attack-killed-several-in-moscow-logistics-centre"
     },
     {
-      "headline": "Fire at orphanage outside Algiers kills at least 11 amid Algerian heatwave",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/africa/20260716-fire-at-orphanage-in-algeria-kills-11-and-wounds-19"
+      "headline": "Venezuela earthquake death toll exceeds 5,000 as IMF releases $346 million in emergency reconstruction funds",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/venezuela-earthquake-death-toll-exceeds-5000-as-imf-releases-funds/article71237122.ece"
     },
     {
-      "headline": "EU and Ukraine sign drone partnership deal to combine European industrial capacity with Ukrainian battlefield expertise",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260715-eu-ukraine-agree-drone-deal-to-pair-industry-with-battlefield-expertise"
-    },
-    {
-      "headline": "US Defense Secretary Hegseth orders testosterone deficiency screening for military personnel over 30",
+      "headline": "White House defends Argentina football team's right to wave Falklands sovereignty banner at World Cup, citing First Amendment",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o"
+      "url": "https://www.bbc.co.uk/news/articles/cx2rmjk0740o"
     },
     {
-      "headline": "Second American Ebola patient arrives in Germany for treatment as DRC outbreak continues",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/14/american-ebola-patient-arrives-germany"
-    },
-    {
-      "headline": "Canadian wildfire smoke pushes Toronto air quality to world's worst, drifts into northeastern US ahead of World Cup final",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/environment/20260716-canadian-wildfire-smoke-pushes-toronto-air-quality-to-world-s-worst-reaches-us"
-    },
-    {
-      "headline": "Italy's Meloni coalition loses surprise secret ballot vote on electoral reform amendment",
+      "headline": "EU proposes relaxing emissions trading rules, allowing some industries until 2038 instead of 2034 to reduce carbon output",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c1kykx3vnyyo"
+      "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo"
     },
     {
-      "headline": "Families of 43 victims await first verdict in Genoa bridge collapse trial nearly eight years after disaster",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c20y00712ezo"
+      "headline": "Gang violence in Haiti expands beyond Port-au-Prince, killing at least 61 people including 14 children in Kenscoff attacks",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260718-as-gang-violence-expands-haiti-s-humanitarian-crisis-worsens"
     },
     {
-      "headline": "New York Times moves to quash subpoenas served to journalists over Air Force One security reporting",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-air-force-one-nyt-subpoenas-journalists-trump/"
+      "headline": "German politician Jens Spahn faces resignation calls after revealing he became a parent via US surrogacy despite party's ban on practice",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cq56ed827peo"
+    },
+    {
+      "headline": "Seven American aid workers quarantining at controversial Kenya Ebola facility after US travel restrictions from Congo",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya"
+    },
+    {
+      "headline": "France and England meet in World Cup third-place match as Didier Deschamps ends 14-year tenure as Les Bleus coach",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/sport/20260718-disappointed-france-and-england-face-off-for-third-place-world-cup-match"
+    },
+    {
+      "headline": "IEA warns critical minerals investment fell 9% in 2025, with supply chains increasingly concentrated in China and Indonesia",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260717-iea-report-flags-critical-minerals-risks-as-france-steps-up-its-strategy"
+    },
+    {
+      "headline": "Flash floods kill four and leave four missing in Vietnam's Lai Chau province after days of heavy rain",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/flash-flood-kills-4-leaves-4-others-missing-in-vietnam/article71237294.ece"
     }
   ]
 }
