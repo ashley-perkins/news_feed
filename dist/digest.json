@@ -1,196 +1,244 @@
 {
-  "date": "Saturday, July 18, 2026",
-  "daily_brief": "The US-Iran conflict dominated global headlines as American forces completed their seventh consecutive night of strikes targeting Iranian military infrastructure, surveillance sites, and maritime capabilities [BBC, France 24, Globe and Mail]. Tehran responded by launching missiles at US allies including Kuwait, where two water and electricity plants were damaged, and Jordan, which intercepted ten Iranian missiles [France 24, The Hindu]. Shipping through the Strait of Hormuz has largely halted, threatening roughly one-fifth of global oil and LNG supplies [BBC]. In Ukraine, President Zelensky's surprise dismissal of popular Defence Minister Mykhailo Fedorov sparked protests across the country and outrage among soldiers, with troops telling the BBC they feel betrayed by the decision amid ongoing conflict with Russia [BBC]. Meanwhile, Canadian wildfires continued to send smoke across the northern United States, prompting President Trump to threaten new tariffs on Canada over what he called 'willful negligence' in forest management [BBC, Globe and Mail, Al Jazeera]. The UK political landscape shifted as Labour confirmed Andy Burnham as party leader and incoming Prime Minister, while in Russia, authorities detained prominent anti-war blogger Ilya Remeslo and moved to bar politician Boris Nadezhdin from parliamentary elections [RFI, BBC].",
+  "date": "Sunday, July 19, 2026",
+  "daily_brief": "Escalating US-Iran hostilities dominated the day's headlines as Washington launched its eighth consecutive night of strikes targeting Iran's Revolutionary Guard following the deaths of two American service members in Jordan [France 24, BBC, Globe and Mail]. Iran retaliated with drone attacks on US bases and infrastructure in Kuwait, threatening a 'full-scale offensive' if strikes continue [RFI, The Hindu]. The conflict over the Strait of Hormuz has collapsed an interim deal signed just weeks ago. In Eastern Europe, Russia launched what Ukraine's foreign minister called the largest ballistic missile attack on Kyiv since the war began, killing one and wounding at least 13, one day after Ukrainian drones struck e-commerce warehouses near Moscow killing eight [Al Jazeera, France 24, BBC]. In a significant political development, Hungary's President Tam\u00e1s Sulyok agreed to step down after parliament passed a constitutional amendment forcing his removal, marking the most dramatic move yet by Prime Minister P\u00e9ter Magyar's new government [BBC]. Meanwhile, controversial influencer Andrew Tate and his brother Tristan were arrested in Miami as British prosecutors seek extradition on 59 charges including rape and sex trafficking [BBC, Globe and Mail, France 24]. On a lighter note, Spain and Argentina prepare to meet in the World Cup final in New York, with wildfire haze from Canadian fires hanging over the eastern US [Le Monde, France 24].",
   "top_stories": [
     {
-      "headline": "US Completes Seventh Night of Strikes on Iran as Regional Conflict Expands",
+      "headline": "US Launches Eighth Night of Strikes on Iran After Two American Soldiers Killed in Jordan",
       "category": "Conflict",
       "bullets": [
-        "US Central Command struck Iranian surveillance sites, military logistics infrastructure, underground weapons storage, and maritime capabilities overnight",
-        "Iran retaliated by launching missiles at US allies including Kuwait (damaging two water/electricity plants), Jordan (which intercepted 10 missiles), and Bahrain",
-        "Shipping traffic through the Strait of Hormuz has largely stopped; the waterway normally handles about one-fifth of global oil and LNG supplies",
-        "Iran claimed two oil tankers exploded after hitting mines in the strait, which US Central Command denied as false"
+        "US Central Command confirmed two American service members were killed and one remains missing after an Iranian drone and missile attack on a base in Jordan on Friday",
+        "The US launched strikes targeting Iran's Revolutionary Guard, coastal surveillance facilities, air defense systems, and missile storage sites overnight Saturday",
+        "Iran retaliated with drone attacks on two US military bases in Kuwait and struck power plants and oil facilities there, threatening a 'full-scale offensive' if US strikes continue",
+        "An interim deal signed June 14 aimed at ending hostilities over the Strait of Hormuz has effectively collapsed, with Iran suspending its commitments"
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on military operations and shipping disruption",
-          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized US media reports of military preparing further escalation",
-          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260717-un-launches-new-refugee-hub-in-ethiopia-offering-legal-aid-and-protection"
+          "framing_note": "Emphasized the live, developing nature of events and Lebanese diplomatic efforts",
+          "url": "https://www.france24.com/en/americas/20260719-radical-misogynist-influencer-andrew-tate-and-brother-arrested-in-miami"
+        },
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Detailed military terminology and infrastructure targets",
+          "url": "#"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Detailed the tit-for-tat nature of strikes and infrastructure targeting",
-          "url": "https://www.theglobeandmail.com/business/international-business/article-us-networks-licences-revoked-prime-time-speech-donald-trump/"
+          "framing_note": "Focused on the collapse of diplomatic efforts and regional implications",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-donald-trump-threatens-tariffs-canada-over-wildfire-smoke/"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Content unavailable due to technical issues",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/18/why-russia-s-hybrid-warfare-is-forcing-france-to-raise-its-voice_6755588_4.html"
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Highlighted Iranian threats and Gulf state responses",
+          "url": "#"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Iranian claims of striking US targets in Kuwait and Jordan",
-          "url": "https://www.thehindu.com/news/international/venezuela-earthquake-death-toll-exceeds-5000-as-imf-releases-funds/article71237122.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Zelensky's Dismissal of Popular Defence Minister Sparks Protests and Military Outrage in Ukraine",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Zelensky declined to reappoint Defence Minister Mykhailo Fedorov in his cabinet reshuffle, nominating Maj-Gen Yevhenii Khmara as acting replacement",
-        "Fedorov revealed he had suggested Zelensky replace Commander-in-Chief Syrskyi and Chief of General Staff Hnatov; Zelensky acknowledged 'systemic' conflict between the General Staff and defence ministry",
-        "Protests erupted in Kyiv and other Ukrainian cities with demonstrators holding signs reading 'Hands off Fedorov' and 'Stop sabotaging victory'",
-        "Soldiers interviewed by BBC expressed outrage, with one calling it 'a blatant slap in the face to all service members'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on soldier reactions and quotes describing sense of betrayal",
-          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Same coverage, emphasized political tensions between military leadership",
-          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Threatens New Tariffs on Canada Over Wildfire Smoke Crossing US Border",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Trump accused Canada of 'willful negligence' in forest management as smoke from approximately 888 Canadian wildfires blanketed northern US states",
-        "Trump announced plans to call Prime Minister Mark Carney demanding an explanation and threatened to add costs to existing tariffs",
-        "Over 190 fires are burning in Ontario alone, with the majority out of control",
-        "Republican lawmakers renewed calls to make Canada the 51st US state; Ontario Premier Doug Ford had asked the US for firefighting support rather than complaints"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced coverage noting both Trump's threats and Canadian Premier's request for assistance",
-          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized Supreme Court constraints on Trump's tariff powers and detailed Michigan Republicans' prior complaints",
-          "url": "https://www.theglobeandmail.com/business/international-business/article-us-networks-licences-revoked-prime-time-speech-donald-trump/"
+          "framing_note": "Provided extensive context on the Strait of Hormuz dispute and historical background",
+          "url": "https://www.thehindu.com/business/how-the-second-phase-of-the-iran-us-war-started-and-why-it-is-raging-explained/article71234575.ece"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Focused on air quality impact on World Cup final preparations",
-          "url": "https://www.aljazeera.com/news/2026/7/18/england-france-fifa-world-cup-third-place-playoff-tuchel-france?traffic_source=rss"
+          "framing_note": "Brief coverage framing strikes as Trump's 'swift punishment'",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/us-bombs-iran-for-eighth-straight-night?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Russia Intensifies Crackdown on Anti-War Dissent, Detaining Blogger and Barring Politician",
-      "category": "Policy",
+      "headline": "Russia Launches Largest Ballistic Missile Attack on Kyiv Since War Began",
+      "category": "Conflict",
       "bullets": [
-        "Blogger Ilya Remeslo, a former Putin supporter who called the president a 'war criminal and thief' in March, was remanded in custody for two months on suspicion of spreading false military information",
-        "Politician Boris Nadezhdin was convicted of 'displaying extremist symbols,' barring him from collecting signatures for September parliamentary elections",
-        "Nadezhdin had previously attempted to run for president on an anti-war platform in 2024 but was blocked over signature irregularities",
-        "Most genuine opposition figures have fled Russia or, like Alexei Navalny, died in custody"
+        "Russian ballistic missiles struck six districts of Kyiv early Sunday, killing at least one person and wounding 13-15 others",
+        "The attack came one day after Ukrainian drones struck two Wildberries e-commerce warehouses near Moscow, killing eight people and injuring 62",
+        "Ukraine's Foreign Minister described it as the largest ballistic missile attack on the capital since the war started",
+        "Ukraine faces acute shortages of Patriot air defense missiles needed to counter ballistic missile threats"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Provided context on broader pattern of opposition suppression",
-          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Noted dual challenge of Russian attacks and domestic political instability over military leadership changes",
+          "url": "https://www.france24.com/en/americas/20260719-radical-misogynist-influencer-andrew-tate-and-brother-arrested-in-miami"
         },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Ukraine's vulnerability due to Patriot missile shortages and domestic tensions over defense minister removal",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/us-bombs-iran-for-eighth-straight-night?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Focused on the warehouse strikes and Wildberries as Russia's largest online retailer",
+          "url": "#"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Straightforward factual coverage of casualties and damage",
+          "url": "https://www.thehindu.com/business/how-the-second-phase-of-the-iran-us-war-started-and-why-it-is-raging-explained/article71234575.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Andrew Tate and Brother Arrested in Miami as UK Seeks Extradition on 59 Charges",
+      "category": "Society",
+      "bullets": [
+        "US Marshals arrested Andrew Tate, 39, and brother Tristan in Miami on Saturday on a sealed warrant",
+        "UK Crown Prosecution Service announced 59 total charges: 42 against Andrew including seven counts of rape, and 17 against Tristan including two counts of rape",
+        "Charges include rape, sex trafficking, assault, tax evasion, money laundering, and offenses related to indecent images of a child",
+        "The alleged offenses occurred between July 2010 and August 2017 in an area north of London; the brothers also face separate charges in Romania"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Described Tate as a 'self-professed misogynist' and 'radical misogynist influencer'",
+          "url": "https://www.france24.com/en/americas/20260719-radical-misogynist-influencer-andrew-tate-and-brother-arrested-in-miami"
+        },
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Comprehensive legal detail, noted brothers' previous denials of wrongdoing",
+          "url": "#"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized their social media empire promoting 'male dominance and misogyny'",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-donald-trump-threatens-tariffs-canada-over-wildfire-smoke/"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article body not accessible",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/18/iran-threatens-unforgettable-lessons-as-two-us-troops-killed_6755608_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Hungary's President Sulyok Steps Down After Parliament Forces His Removal",
+      "category": "Geopolitics",
+      "bullets": [
+        "President Tam\u00e1s Sulyok signed a constitutional amendment ending his presidency at midnight Sunday after parliament passed the measure with an overwhelming majority",
+        "Prime Minister P\u00e9ter Magyar's Tisza party pushed through the 17th amendment citing 'serious loss of confidence' in the president",
+        "Sulyok accused Magyar's government of violating the rule of law, calling it a 'breaking point in Hungarian constitutional democracy'",
+        "The amendment also removes the Constitutional Court head and bars MPs with three terms from standing again, affecting over half of current deputies"
+      ],
+      "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Same coverage",
-          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Balanced coverage noting both the government's justification and Sulyok's accusations of rule-of-law violations",
+          "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC Europe",
+          "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Andy Burnham Confirmed as UK Labour Leader, Set to Become Prime Minister Monday",
-      "category": "Policy",
+      "headline": "Spain and Argentina Set for World Cup Final Showdown in New York",
+      "category": "Society",
       "bullets": [
-        "The 56-year-old 'King of the North' faced no challengers for Labour leadership after securing backing from 379 of 403 Labour MPs",
-        "Burnham returns as an MP after a nine-year absence, having served as Greater Manchester mayor since 2017",
-        "He replaces Keir Starmer and becomes the UK's seventh prime minister in a decade",
-        "Burnham will meet King Charles III on Monday to formally receive the invitation to form the next government"
+        "Spain and Argentina meet in the World Cup 2026 final at New York-New Jersey Stadium on Sunday at 3pm local time (19:00 GMT)",
+        "Spain has conceded just one goal in seven matches; Argentina has twice rallied from behind to reach the final as defending champions",
+        "Wildfire smoke from Canadian fires has created hazy conditions over the eastern US ahead of the match",
+        "England defeated France 6-4 in the third-place match on Saturday, with Bukayo Saka scoring a hat trick"
       ],
       "sources": [
         {
-          "name": "RFI English",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized his soft-left positioning and hopes he can communicate better than Starmer",
-          "url": "https://www.rfi.fr/en/france/20260716-macron-toughens-stance-on-arson-as-wildfires-sweep-france"
+          "framing_note": "Focused on tactical contrast between Spanish control and Argentine resilience, coaching connection",
+          "url": "https://www.france24.com/en/americas/20260719-radical-misogynist-influencer-andrew-tate-and-brother-arrested-in-miami"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized the Messi vs Yamal storyline and 'clash of philosophies'",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/us-bombs-iran-for-eighth-straight-night?traffic_source=rss"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Framed as teamwork versus individual genius",
+          "url": "https://www.economist.com/international/2026/07/06/if-ludicrous-trump-flattery-can-save-nato-bring-it-on"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Detailed coverage of England-France third-place match",
+          "url": "#"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Noted wildfire haze conditions",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/18/iran-threatens-unforgettable-lessons-as-two-us-troops-killed_6755608_4.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ukrainian drone attack kills seven at Moscow logistics centre, wounds 24, as Russia claims 370 drones launched overnight",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260718-russia-says-ukrainian-drone-attack-killed-several-in-moscow-logistics-centre"
+      "headline": "S\u00e3o Tom\u00e9 and Pr\u00edncipe holds presidential election amid political tensions between incumbent and former ruling party",
+      "source": "The Guardian, RFI",
+      "url": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election"
     },
     {
-      "headline": "Venezuela earthquake death toll exceeds 5,000 as IMF releases $346 million in emergency reconstruction funds",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/venezuela-earthquake-death-toll-exceeds-5000-as-imf-releases-funds/article71237122.ece"
-    },
-    {
-      "headline": "White House defends Argentina football team's right to wave Falklands sovereignty banner at World Cup, citing First Amendment",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2rmjk0740o"
-    },
-    {
-      "headline": "EU proposes relaxing emissions trading rules, allowing some industries until 2038 instead of 2034 to reduce carbon output",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo"
-    },
-    {
-      "headline": "Gang violence in Haiti expands beyond Port-au-Prince, killing at least 61 people including 14 children in Kenscoff attacks",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260718-as-gang-violence-expands-haiti-s-humanitarian-crisis-worsens"
-    },
-    {
-      "headline": "German politician Jens Spahn faces resignation calls after revealing he became a parent via US surrogacy despite party's ban on practice",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cq56ed827peo"
-    },
-    {
-      "headline": "Seven American aid workers quarantining at controversial Kenya Ebola facility after US travel restrictions from Congo",
+      "headline": "Seven American aid workers quarantining at controversial Kenya Ebola facility after US travel restrictions",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya"
     },
     {
-      "headline": "France and England meet in World Cup third-place match as Didier Deschamps ends 14-year tenure as Les Bleus coach",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/sport/20260718-disappointed-france-and-england-face-off-for-third-place-world-cup-match"
+      "headline": "Russians increasingly turning to cash as mobile internet shutdowns disrupt card payments, straining wartime economy",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko"
     },
     {
-      "headline": "IEA warns critical minerals investment fell 9% in 2025, with supply chains increasingly concentrated in China and Indonesia",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260717-iea-report-flags-critical-minerals-risks-as-france-steps-up-its-strategy"
+      "headline": "UK aid cuts reduce bilateral support to some African countries by up to 90%, Foreign Office figures show",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries"
     },
     {
-      "headline": "Flash floods kill four and leave four missing in Vietnam's Lai Chau province after days of heavy rain",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/flash-flood-kills-4-leaves-4-others-missing-in-vietnam/article71237294.ece"
+      "headline": "Cuban dissident Luis Manuel Otero Alc\u00e1ntara arrives in US exile after serving five-year prison sentence",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo"
+    },
+    {
+      "headline": "German politician Jens Spahn resigns as parliamentary group leader over use of US surrogate mother",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo"
+    },
+    {
+      "headline": "New Zealand sending firefighters to help battle widespread US wildfires as over 850 fires burn across Canada",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/world/739748/nz-firefighters-heading-to-us-to-battle-wildfires"
+    },
+    {
+      "headline": "Trump threatens new tariffs on Canada over wildfire smoke, calling it 'Willful Negligence'",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-donald-trump-threatens-tariffs-canada-over-wildfire-smoke/"
+    },
+    {
+      "headline": "China's role as 'swing importer' helping cushion oil price spikes despite US-Iran conflict disrupting Strait of Hormuz",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/energy/china-s-role-as-swing-importer-cushions-oil-market-spike"
+    },
+    {
+      "headline": "Israel demolishes Palestinian home in Masafer Yatta days after court order reportedly protected it",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/israel-demolishes-palestinian-home-in-masafer-yatta"
     }
   ]
 }
