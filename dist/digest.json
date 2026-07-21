@@ -1,226 +1,208 @@
 {
-  "date": "Monday, July 20, 2026",
-  "daily_brief": "The escalating US-Iran conflict dominated headlines on Monday as Washington launched its ninth consecutive night of strikes against Iranian military targets, with the US death toll rising to at least three service members [BBC, Al Jazeera, The Hindu]. Oil prices surged above $91 per barrel as Iran targeted tankers in the Strait of Hormuz and extended attacks to Gulf neighbors Kuwait and Bahrain [Financial Times, France 24]. In Britain, Andy Burnham is set to become the country's seventh prime minister in a decade after King Charles III asked him to form a government, following Keir Starmer's resignation amid collapsing poll numbers [France 24, The Hindu]. Spain celebrated their second World Cup title after Ferran Torres's extra-time goal secured a 1-0 victory over Argentina in East Rutherford, with millions expected to greet the team in Madrid [BBC, RFI, Al Jazeera]. Meanwhile, Russia launched one of its most massive ballistic missile attacks on Ukrainian cities since the 2022 invasion, killing at least eight people [BBC, Le Monde]. In India, police baton-charged thousands of protesters from the Cockroach Janta Party movement attempting to march on parliament over examination irregularities [France 24, ABC Australia].",
+  "date": "Tuesday, July 21, 2026",
+  "daily_brief": "The United States continued its tenth consecutive night of strikes against Iran as the conflict over the Strait of Hormuz intensified, with Iran claiming retaliatory attacks on U.S. military assets in Bahrain and Kuwait [BBC, Financial Times, Globe and Mail]. President Trump warned of further retaliation following American military casualties, while Iran declared it was now fighting a 'full-scale war' with the U.S. [BBC]. Adding to regional instability, Yemen's Houthis announced a maritime embargo against Saudi Arabia, threatening to close the Bab al-Mandab Strait to Saudi vessels [BBC]. In North America, Trump imposed 50% tariffs on Canadian goods using an untested Depression-era law, targeting dairy, alcohol, and hundreds of other products in retaliation for Ottawa's counter-tariffs [BBC, Globe and Mail]. Britain saw its seventh prime minister in a decade as Andy Burnham entered Downing Street, promising measures to address the cost-of-living crisis and pledging to remove VAT on household electricity [Le Monde, Financial Times, RFI]. Meanwhile, Spain celebrated its World Cup victory with a royal welcome and parade through Madrid attended by nearly two million fans [BBC, Le Monde].",
   "top_stories": [
     {
-      "headline": "US-Iran Conflict Enters Ninth Day as American Death Toll Rises and Gulf States Come Under Fire",
+      "headline": "U.S. Launches Tenth Night of Strikes on Iran as Both Sides Escalate Toward Full-Scale War",
       "category": "Conflict",
       "bullets": [
-        "US Central Command confirmed a service member was killed in northern Iraq during a controlled detonation of unexploded ordnance from a downed Iranian drone, with a second service member wounded",
-        "The US launched its ninth consecutive night of strikes targeting Iranian military command centers, air defense sites, maritime capabilities, and communications networks",
-        "Iran's Revolutionary Guards reported two oil tankers 'exploded' in the Strait of Hormuz; Kuwait and Bahrain said their air defenses responded to Iranian attacks",
-        "Oil prices surged above $91 per barrel\u2014the highest since June 11\u2014as the US death toll in the conflict reached at least 17"
+        "U.S. Central Command conducted its tenth consecutive night of strikes targeting Iranian military command centers, missile and drone launch sites, maritime capabilities, and air defense systems",
+        "Iran's Revolutionary Guards claimed retaliatory strikes on U.S. military targets in Bahrain and Kuwait, including air defense systems and an Amazon data center in Bahrain",
+        "Iran announced it stopped two oil tankers in the Strait of Hormuz and struck two additional tankers, while President Pezeshkian declared Iran was now fighting a 'full-scale war' with the U.S.",
+        "Nearly 100 U.S. troops have been injured in two weeks since fighting resumed; diplomatic messages continue through intermediaries despite the collapsed ceasefire"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized US military casualties and operational details; reported US death toll at 17",
-          "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized Trump's vow to punish Iran for U.S. soldier deaths and provided detailed account of Iranian counterclaims",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Highlighted diplomatic channels remaining open via mediators; covered Iran's call for IAEA condemnation of strikes on nuclear site",
-          "url": "https://www.france24.com/en/video/20260720-world-cup-2026-argentine-coach-in-tears-after-defeat-to-spain"
-        },
-        {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Focused on Iranian perspective and IRGC statements; detailed attacks on Jordan",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/infantino-tries-to-usher-trump-away-as-spain-lift-world-cup?traffic_source=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized oil price impacts and Secretary Rubio's statements on Strait of Hormuz leverage",
-          "url": "https://www.thehindu.com/news/international/uk-pm-resigns-keir-starmer-leaders-who-have-resigned-full-list-england-united-kingdom/article71132482.ece"
+          "framing_note": "Headline focused on Trump's warning about American soldier deaths",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/21/andy-burnham-enters-downing-street-and-appoints-former-defense-minister-john-healey-as-chancellor-of-the-exchequer_6755671_4.html"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Led with oil prices and economic implications",
-          "url": "https://www.ft.com/content/52e98fc4-32e3-4ed9-90fd-dcbba6188df5?syn-25a6b1a6=1"
+          "framing_note": "Highlighted U.S. troop injury count as primary angle",
+          "url": "https://www.ft.com/content/2e137205-df69-47a2-9674-2f4a9deec0d9?syn-25a6b1a6=1"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized diplomatic glimmers of hope alongside military escalation",
+          "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided comprehensive live coverage of Iranian Guard claims",
+          "url": "https://www.thehindu.com/news/international/iran-israel-war-west-asia-21-july-2026-bahrain-kuwait-donald-trump-live-news/article71247944.ece"
         }
       ]
     },
     {
-      "headline": "Andy Burnham to Become UK's Seventh Prime Minister in a Decade After Starmer's Fall",
+      "headline": "Trump Imposes 50% Tariffs on Canadian Goods Using Untested Depression-Era Law",
+      "category": "Economics",
+      "bullets": [
+        "President Trump signed proclamations invoking Section 338 of the 1930 Tariff Act\u2014never previously used\u2014to impose 50% tariffs on nearly $20 billion worth of Canadian goods",
+        "Targeted products include dairy, alcohol, hockey sticks, cement, electronic equipment, and Christmas ornaments; energy, potash, critical minerals, and fish are exempt",
+        "Tariffs take effect August 19 and will not include USMCA exemptions, representing a major escalation after the Supreme Court ruled many of Trump's emergency tariffs were illegally enacted",
+        "Prime Minister Mark Carney said Canada stands ready to 'intensify' trade talks; Canada had previously maintained 25% retaliatory tariffs on U.S. cars, steel, and aluminum"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on legal context and the untested nature of the tariff law used",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized the escalation narrative and detailed product categories affected; noted Canada was rare in retaliating against earlier tariffs",
+          "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/"
+        }
+      ]
+    },
+    {
+      "headline": "Yemen's Houthis Announce Maritime Embargo Against Saudi Arabia, Threatening Red Sea Shipping",
+      "category": "Geopolitics",
+      "bullets": [
+        "Iran-backed Houthis declared an immediate maritime embargo on Saudi Arabia, claiming they would close the Bab al-Mandab Strait to Saudi vessels",
+        "The move is in retaliation for what Houthis described as a Saudi blockade of ports and airports in Houthi-controlled northwestern Yemen",
+        "Saudi Arabia condemned the allegations and vowed to take all necessary measures to protect its ships under international law",
+        "The Red Sea has become crucial for Saudi oil shipments as the Strait of Hormuz remains effectively closed due to the U.S.-Iran conflict"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provided context on the dormant Saudi-Houthi conflict and previous escalations",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Briefly noted the Houthi announcement as adding to energy market threats",
+          "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Connected the development to India's NSA visit to Saudi Arabia to discuss energy security and maritime corridors",
+          "url": "https://www.thehindu.com/news/international/iran-israel-war-west-asia-21-july-2026-bahrain-kuwait-donald-trump-live-news/article71247944.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Andy Burnham Becomes Britain's Seventh Prime Minister in a Decade, Announces Cost-of-Living Measures",
       "category": "Policy",
       "bullets": [
-        "King Charles III asked former Greater Manchester mayor Andy Burnham to form a government following Keir Starmer's resignation after just two years in office",
-        "Burnham won a by-election in Makerfield on June 18 and was sworn in as MP on June 22, enabling his path to leadership",
-        "Burnham will be the UK's first lifelong Catholic prime minister; he is expected to announce senior cabinet appointments Monday",
-        "Starmer left office with the worst poll ratings of his tenure, having lost confidence of both the public and his own party"
+        "Andy Burnham formally became Prime Minister after King Charles III asked him to form a government at Buckingham Palace following Keir Starmer's resignation",
+        "Burnham appointed former Defense Minister John Healey as Chancellor of the Exchequer and announced plans to remove VAT on household electricity bills",
+        "The new PM pledged a 10-year plan for Britain, promising to end rough sleeping, improve living standards, and provide a 'circuit breaker' for political and economic instability",
+        "Burnham is currently the most popular leader among Britain's main political parties and won Labour leadership unopposed"
       ],
       "sources": [
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on Burnham's incoming priorities: restoring confidence, delivering growth, and devolving power",
-          "url": "https://www.france24.com/en/video/20260720-world-cup-2026-argentine-coach-in-tears-after-defeat-to-spain"
-        },
-        {
-          "name": "The Hindu",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Provided extensive biographical context; noted Burnham is the sixth PM to resign post-Brexit",
-          "url": "https://www.thehindu.com/news/international/uk-pm-resigns-keir-starmer-leaders-who-have-resigned-full-list-england-united-kingdom/article71132482.ece"
+          "framing_note": "Focused on cabinet appointments, particularly Healey as Chancellor",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/21/andy-burnham-enters-downing-street-and-appoints-former-defense-minister-john-healey-as-chancellor-of-the-exchequer_6755671_4.html"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Headline focused on cabinet appointment challenges ahead",
-          "url": "https://www.ft.com/content/52e98fc4-32e3-4ed9-90fd-dcbba6188df5?syn-25a6b1a6=1"
+          "framing_note": "Led with the VAT removal policy as headline news",
+          "url": "https://www.ft.com/content/2e137205-df69-47a2-9674-2f4a9deec0d9?syn-25a6b1a6=1"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized the 'seventh PM in a decade' instability narrative",
+          "url": "https://www.rfi.fr/en/africa/20260720-france-welcomes-gabon-s-oligui-as-mineral-and-military-ties-defy-wider-rift-in-africa"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Detailed Burnham's policy agenda and political challenges from Reform UK",
+          "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/"
         }
       ]
     },
     {
-      "headline": "Spain Win Second World Cup Title with Extra-Time Victory Over Argentina",
-      "category": "Society",
-      "bullets": [
-        "Ferran Torres scored 37 seconds into the second period of extra time to give Spain a 1-0 victory over Argentina in East Rutherford, New Jersey",
-        "Argentina's Enzo Fernandez was sent off in the 93rd minute for a second yellow card; Spain dominated with 65% possession and 20 shots on goal",
-        "Spain conceded only one goal in the entire tournament\u2014the fewest by any World Cup-winning team",
-        "A million fans are expected to greet the team in Madrid; celebrations were marred by the death of a teenager when a fountain collapsed in western Spain"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Emphasized Spain's footballing dominance and called it a 'victory for football'",
-          "url": "#"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Covered homecoming celebrations and reported the death during festivities",
-          "url": "#"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Noted Trump was booed during trophy presentation; detailed tactical analysis",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/infantino-tries-to-usher-trump-away-as-spain-lift-world-cup?traffic_source=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Included Argentine coach's emotional reaction",
-          "url": "https://www.france24.com/en/video/20260720-world-cup-2026-argentine-coach-in-tears-after-defeat-to-spain"
-        }
-      ]
-    },
-    {
-      "headline": "Russia Launches One of Most Massive Ballistic Missile Attacks on Ukraine Since 2022 Invasion",
+      "headline": "Russian Strikes Kill Ten on Cargo Ship Off Odesa as Black Sea Attacks Intensify",
       "category": "Conflict",
       "bullets": [
-        "At least eight people were killed across Kharkiv, Kyiv, Zaporizhzhia, and Sumy in coordinated ballistic missile and drone strikes",
-        "President Zelensky described the raid on Kyiv as 'one of the most massive ballistic attacks' since the full-scale invasion began",
-        "Ukrainian military said air defenses shot down 18 of 41 missiles and intercepted 108 drones; five more died when a Turkish-owned grain ship was hit in the Black Sea",
-        "Ukraine struck back, hitting three Russian oil tankers in the Black Sea and three oil depots in Russia's Stavropol region"
+        "A Guinea-Bissau-flagged cargo ship was struck by Russian cruise missiles off Odesa on Sunday, killing nine crew members and one Ukrainian pilot",
+        "Four Indian nationals were among the dead; India's foreign ministry condemned the endangerment of crew members and impediment of navigation freedom",
+        "Twenty-eight people have died in Russian strikes on the Odesa region in July alone, with attacks on cargo ships increasing significantly",
+        "Maritime exports account for over two-thirds of Ukrainian agricultural exports, worth roughly $9 billion, making the corridor essential for Kyiv's revenue"
       ],
       "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed casualty figures and quoted Zelensky on scale of attack",
-          "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss"
-        },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article accessible but content could not be fully loaded",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/20/hundreds-of-thousands-of-venezuelans-need-aid-after-earthquakes-we-have-no-income-left_6755638_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Indian Police Baton-Charge 'Cockroach Party' Protesters Attempting March on Parliament",
-      "category": "Society",
-      "bullets": [
-        "Thousands of protesters gathered in New Delhi despite a ban on the march, demanding the resignation of Education Minister Dharmendra Pradhan over examination irregularities",
-        "Police in riot gear charged protesters near the Jantar Mantar site; the movement began after national medical exam papers were leaked in May",
-        "Activist Sonam Wangchuk was forcibly moved from a hunger strike to hospital on Saturday, galvanizing thousands more supporters",
-        "The Cockroach Janta Party says government representatives reached out for talks Monday morning; two members were reportedly en route to meet a senior minister"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized police action and protest demands; noted it is biggest challenge to Modi in his third term",
-          "url": "https://www.france24.com/en/video/20260720-world-cup-2026-argentine-coach-in-tears-after-defeat-to-spain"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Described police using canes; highlighted social media mobilization of millions",
-          "url": "https://www.abc.net.au/news/2026-07-20/crows-darcy-fogarty-challenge-three-match-striking-ban-tribunal/106936532"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article headline visible but content could not be fully loaded",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/20/hundreds-of-thousands-of-venezuelans-need-aid-after-earthquakes-we-have-no-income-left_6755638_4.html"
+          "framing_note": "Comprehensive coverage emphasizing the humanitarian toll and economic implications for Ukraine's export corridor",
+          "url": "https://www.bbc.co.uk/news/articles/c89nvnklkpdo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Andrew and Tristan Tate arrested in US after UK authorities issue 38 new charges including rape and sex trafficking, bringing total to 59",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o"
+      "headline": "Tate brothers appear in Miami federal court to fight UK extradition on 38 charges including rape and sex trafficking",
+      "source": "BBC World, Globe and Mail",
+      "url": "https://www.bbc.co.uk/news/articles/c6294y87wk6o"
     },
     {
-      "headline": "Norway unveils new memorial for 77 victims of 2011 Breivik terror attacks ahead of 15th anniversary",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo"
-    },
-    {
-      "headline": "Wildfire north of Madrid scorches 12,000 hectares as Spain battles multiple blazes amid climate-driven heatwaves",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20260719-wildfire-scorches-12-000-hectares-north-of-madrid-say-spanish-authorities"
-    },
-    {
-      "headline": "France's controversial 'Ripost' public disorder law faces final parliamentary committee vote with left opposition united against it",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260720-france-s-controversial-ripost-public-disorder-law-faces-final-test"
-    },
-    {
-      "headline": "Council of Europe urges FIFA to strengthen integrity framework ahead of 2030 World Cup, citing political pressure and betting concerns",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/sports/20260720-europe-rights-body-urges-fifa-to-strengthen-integrity-of-football-ahead-of-2030"
-    },
-    {
-      "headline": "China's state-backed funds buy $9 billion in shares to prop up struggling stock market",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/e6e3acd7-81a2-471c-9be1-a7f7558d639b"
-    },
-    {
-      "headline": "Russians increasingly turn to cash as drone-related internet shutdowns disrupt card payments and businesses dodge taxes",
+      "headline": "Russian warship conducts live-fire artillery exercise 40 nautical miles off Plymouth coast while monitored by Royal Navy",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko"
+      "url": "https://www.bbc.co.uk/news/articles/ce970jryrk3o"
     },
     {
-      "headline": "Vice President J.D. Vance and wife Usha welcome fourth child, first baby born to sitting US VP in over 150 years",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/jd-and-usha-vance-welcome-baby-boy-first-child-born-to-sitting-vp-in-more-than-150-years/article71244125.ece"
-    },
-    {
-      "headline": "Singapore minister Faishal Ibrahim resigns over 'interactions with a woman' as ruling party faces another scandal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/20/singapore-minister-resigns-over-interactions-with-a-woman-pm-says"
-    },
-    {
-      "headline": "Food delivery rider Wang Jibing wins China's prestigious Lu Xun Literary Prize for poetry collection written between deliveries",
+      "headline": "Sinaloa Cartel co-founder Ismael 'El Mayo' Zambada sentenced to life in U.S. prison and ordered to pay $15 billion",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c5ydr3xd0kvo"
+      "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do"
+    },
+    {
+      "headline": "Spain celebrates World Cup victory with royal welcome and Madrid parade attended by nearly two million fans",
+      "source": "BBC Europe, Le Monde",
+      "url": "https://www.bbc.co.uk/news/videos/c78g69nddgeo"
+    },
+    {
+      "headline": "France and Germany push for stronger EU response to China's trade surplus and industrial overcapacity",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260721-france-and-germany-move-to-tackle-eu-s-growing-trade-deficit-with-china"
+    },
+    {
+      "headline": "Ukraine faces fifth day of protests demanding return of dismissed defense minister and removal of commander-in-chief",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260721-ukraine-s-wartime-unity-put-to-test-by-protests-over-military-leadership"
+    },
+    {
+      "headline": "Philippines summons Chinese Ambassador after South China Sea encounter leaves Navy personnel injured",
+      "source": "The Hindu, Nikkei Asia",
+      "url": "https://www.thehindu.com/news/international/china-summons-philippine-ambassador-over-south-china-sea-encounter/article71248297.ece"
+    },
+    {
+      "headline": "Israel constructing 14-mile earthen barrier inside Gaza, entrenching division of the territory",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/israel-is-building-a-miles-long-earthen-barrier-inside-gaza-entrenching-its-division/article71248145.ece"
+    },
+    {
+      "headline": "Lebanon's President Aoun meets Trump in Washington to push for Israeli troop withdrawal from southern Lebanon",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-lebanon-president-joseph-aoun-trump-israel-troops/"
+    },
+    {
+      "headline": "ASEAN foreign ministers gather in Manila amid warnings bloc risks being 'pulled apart' by external pressures",
+      "source": "Nikkei Asia, The Hindu",
+      "url": "https://asia.nikkei.com/politics/philippines-warns-asean-risks-being-pulled-apart-by-external-pressures"
     }
   ]
 }
