@@ -1,208 +1,196 @@
 {
-  "date": "Tuesday, July 21, 2026",
-  "daily_brief": "The United States continued its tenth consecutive night of strikes against Iran as the conflict over the Strait of Hormuz intensified, with Iran claiming retaliatory attacks on U.S. military assets in Bahrain and Kuwait [BBC, Financial Times, Globe and Mail]. President Trump warned of further retaliation following American military casualties, while Iran declared it was now fighting a 'full-scale war' with the U.S. [BBC]. Adding to regional instability, Yemen's Houthis announced a maritime embargo against Saudi Arabia, threatening to close the Bab al-Mandab Strait to Saudi vessels [BBC]. In North America, Trump imposed 50% tariffs on Canadian goods using an untested Depression-era law, targeting dairy, alcohol, and hundreds of other products in retaliation for Ottawa's counter-tariffs [BBC, Globe and Mail]. Britain saw its seventh prime minister in a decade as Andy Burnham entered Downing Street, promising measures to address the cost-of-living crisis and pledging to remove VAT on household electricity [Le Monde, Financial Times, RFI]. Meanwhile, Spain celebrated its World Cup victory with a royal welcome and parade through Madrid attended by nearly two million fans [BBC, Le Monde].",
+  "date": "Wednesday, July 22, 2026",
+  "daily_brief": "The US-Iran conflict dominated international headlines as American forces conducted their 11th consecutive night of strikes against Iranian targets, with Defense Secretary Pete Hegseth revealing the war has cost $37.5 billion to date [BBC, Al Jazeera, Globe and Mail, The Hindu]. President Trump threatened to strike Iran's underground nuclear facility near Natanz, while Secretary of State Rubio stated the US remains open to negotiations but accused Tehran of not being serious [Al Jazeera, BBC]. In Ukraine, President Zelensky dismissed army commander-in-chief Oleksandr Syrskyi following days of street protests triggered by the earlier removal of popular Defense Minister Mykhailo Fedorov, replacing him with General Mykhailo Drapatyi [BBC, Le Monde, RFI]. France became the first European country to pass legislation banning social media for children under 15, with President Macron hailing it as a major step forward in child protection [BBC, RFI]. US-Canada relations deteriorated further as Ottawa cancelled a joint ceremony for the Gordie Howe International Bridge after Trump announced 50% tariffs on most Canadian goods, invoking the 1930 Smoot-Hawley Tariff Act [Globe and Mail, The Hindu]. Meanwhile, Germany and Azerbaijan signed strategic economic agreements as Berlin seeks to diversify energy supplies away from Russia [RFI].",
   "top_stories": [
     {
-      "headline": "U.S. Launches Tenth Night of Strikes on Iran as Both Sides Escalate Toward Full-Scale War",
+      "headline": "US Launches 11th Consecutive Night of Strikes on Iran as War Costs Reach $37.5 Billion",
       "category": "Conflict",
       "bullets": [
-        "U.S. Central Command conducted its tenth consecutive night of strikes targeting Iranian military command centers, missile and drone launch sites, maritime capabilities, and air defense systems",
-        "Iran's Revolutionary Guards claimed retaliatory strikes on U.S. military targets in Bahrain and Kuwait, including air defense systems and an Amazon data center in Bahrain",
-        "Iran announced it stopped two oil tankers in the Strait of Hormuz and struck two additional tankers, while President Pezeshkian declared Iran was now fighting a 'full-scale war' with the U.S.",
-        "Nearly 100 U.S. troops have been injured in two weeks since fighting resumed; diplomatic messages continue through intermediaries despite the collapsed ceasefire"
+        "US Central Command conducted strikes targeting Iranian military operations centres, maritime capabilities, aircraft hangars, drone storage facilities, and military logistics infrastructure",
+        "Defense Secretary Pete Hegseth testified the war has cost $37.5 billion, up from $29 billion in mid-May, and requested $67 billion in supplemental Pentagon funding",
+        "Air defences were activated in Tehran, with explosions reported in Tabriz, Chabahar, Konarak, and Bushehr; Iran warned of reprisals after Trump threatened to strike the underground nuclear site near Natanz",
+        "Secretary of State Rubio stated the US is open to negotiations but accused Iran of not being serious about talks, warning that Iranian control of the Strait of Hormuz would set a dangerous precedent"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's vow to punish Iran for U.S. soldier deaths and provided detailed account of Iranian counterclaims",
-          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on military operations and Trump's threat to nuclear facilities",
+          "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Le Monde",
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Headline focused on Trump's warning about American soldier deaths",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/21/andy-burnham-enters-downing-street-and-appoints-former-defense-minister-john-healey-as-chancellor-of-the-exchequer_6755671_4.html"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Highlighted U.S. troop injury count as primary angle",
-          "url": "https://www.ft.com/content/2e137205-df69-47a2-9674-2f4a9deec0d9?syn-25a6b1a6=1"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized diplomatic glimmers of hope alongside military escalation",
-          "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/"
+          "framing_note": "Emphasized Rubio's comments on negotiations and included Iranian state media reports on air defence activation",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/iran-toll-in-hormuz-would-set-dangerous-precedent-says-rubio?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Provided comprehensive live coverage of Iranian Guard claims",
-          "url": "https://www.thehindu.com/news/international/iran-israel-war-west-asia-21-july-2026-bahrain-kuwait-donald-trump-live-news/article71247944.ece"
+          "framing_note": "Detailed Hegseth's Senate testimony and Democratic criticism of war spending",
+          "url": "https://www.thehindu.com/news/international/mamdani-says-nyc-cant-arrest-netanyahu-but-the-federal-government-should/article71252405.ece"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted congressional pushback and concerns about 'another forever war'",
+          "url": "https://www.theglobeandmail.com/world/article-trump-tariff-list-alcohol-trade-reids-distillery/"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Analysis piece comparing situation to Obama's foreign policy approach",
+          "url": "https://www.economist.com/international/2026/07/09/child-suspects-are-being-prosecuted-at-younger-ages"
         }
       ]
     },
     {
-      "headline": "Trump Imposes 50% Tariffs on Canadian Goods Using Untested Depression-Era Law",
-      "category": "Economics",
+      "headline": "Zelensky Dismisses Army Chief Syrskyi After Days of Street Protests Over Military Leadership",
+      "category": "Conflict",
       "bullets": [
-        "President Trump signed proclamations invoking Section 338 of the 1930 Tariff Act\u2014never previously used\u2014to impose 50% tariffs on nearly $20 billion worth of Canadian goods",
-        "Targeted products include dairy, alcohol, hockey sticks, cement, electronic equipment, and Christmas ornaments; energy, potash, critical minerals, and fish are exempt",
-        "Tariffs take effect August 19 and will not include USMCA exemptions, representing a major escalation after the Supreme Court ruled many of Trump's emergency tariffs were illegally enacted",
-        "Prime Minister Mark Carney said Canada stands ready to 'intensify' trade talks; Canada had previously maintained 25% retaliatory tariffs on U.S. cars, steel, and aluminum"
+        "Ukrainian President Zelensky fired Commander-in-Chief Oleksandr Syrskyi following the earlier dismissal of Defense Minister Mykhailo Fedorov, which triggered nationwide protests",
+        "Syrskyi, 60, was replaced by General Mykhailo Drapatyi, 43, a popular battle-hardened commander who thanked his predecessor for strengthening the Ukrainian army",
+        "Fedorov, 35, had been praised for modernizing the armed forces and fighting corruption, while Syrskyi was seen as a Soviet-school commander resistant to radical changes",
+        "Protests entered their fifth day with demonstrators in Kyiv demanding Syrskyi's removal and Fedorov's return, representing Zelensky's most urgent domestic political challenge since the full-scale invasion"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on legal context and the untested nature of the tariff law used",
-          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Balanced coverage of both commanders' records and Drapatyi's appointment",
+          "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss"
         },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized the escalation narrative and detailed product categories affected; noted Canada was rare in retaliating against earlier tariffs",
-          "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/"
-        }
-      ]
-    },
-    {
-      "headline": "Yemen's Houthis Announce Maritime Embargo Against Saudi Arabia, Threatening Red Sea Shipping",
-      "category": "Geopolitics",
-      "bullets": [
-        "Iran-backed Houthis declared an immediate maritime embargo on Saudi Arabia, claiming they would close the Bab al-Mandab Strait to Saudi vessels",
-        "The move is in retaliation for what Houthis described as a Saudi blockade of ports and airports in Houthi-controlled northwestern Yemen",
-        "Saudi Arabia condemned the allegations and vowed to take all necessary measures to protect its ships under international law",
-        "The Red Sea has become crucial for Saudi oil shipments as the Strait of Hormuz remains effectively closed due to the U.S.-Iran conflict"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided context on the dormant Saudi-Houthi conflict and previous escalations",
-          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Briefly noted the Houthi announcement as adding to energy market threats",
-          "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Connected the development to India's NSA visit to Saudi Arabia to discuss energy security and maritime corridors",
-          "url": "https://www.thehindu.com/news/international/iran-israel-war-west-asia-21-july-2026-bahrain-kuwait-donald-trump-live-news/article71247944.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Andy Burnham Becomes Britain's Seventh Prime Minister in a Decade, Announces Cost-of-Living Measures",
-      "category": "Policy",
-      "bullets": [
-        "Andy Burnham formally became Prime Minister after King Charles III asked him to form a government at Buckingham Palace following Keir Starmer's resignation",
-        "Burnham appointed former Defense Minister John Healey as Chancellor of the Exchequer and announced plans to remove VAT on household electricity bills",
-        "The new PM pledged a 10-year plan for Britain, promising to end rough sleeping, improve living standards, and provide a 'circuit breaker' for political and economic instability",
-        "Burnham is currently the most popular leader among Britain's main political parties and won Labour leadership unopposed"
-      ],
-      "sources": [
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Focused on cabinet appointments, particularly Healey as Chancellor",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/21/andy-burnham-enters-downing-street-and-appoints-former-defense-minister-john-healey-as-chancellor-of-the-exchequer_6755671_4.html"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Led with the VAT removal policy as headline news",
-          "url": "https://www.ft.com/content/2e137205-df69-47a2-9674-2f4a9deec0d9?syn-25a6b1a6=1"
+          "framing_note": "Article headline available but content not accessible",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/21/united-states-sends-first-aid-to-cuba-as-part-of-100-million-commitment_6755703_4.html"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized the 'seventh PM in a decade' instability narrative",
-          "url": "https://www.rfi.fr/en/africa/20260720-france-welcomes-gabon-s-oligui-as-mineral-and-military-ties-defy-wider-rift-in-africa"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Detailed Burnham's policy agenda and political challenges from Reform UK",
-          "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/"
+          "framing_note": "Emphasized the political crisis and pressure on Zelensky, included protester testimonies about personal losses",
+          "url": "https://www.rfi.fr/en/international/20260721-ukraine-s-wartime-unity-put-to-the-test-by-protests-over-military-leadership"
         }
       ]
     },
     {
-      "headline": "Russian Strikes Kill Ten on Cargo Ship Off Odesa as Black Sea Attacks Intensify",
-      "category": "Conflict",
+      "headline": "France Becomes First European Country to Ban Social Media for Under-15s",
+      "category": "Policy",
       "bullets": [
-        "A Guinea-Bissau-flagged cargo ship was struck by Russian cruise missiles off Odesa on Sunday, killing nine crew members and one Ukrainian pilot",
-        "Four Indian nationals were among the dead; India's foreign ministry condemned the endangerment of crew members and impediment of navigation freedom",
-        "Twenty-eight people have died in Russian strikes on the Odesa region in July alone, with attacks on cargo ships increasing significantly",
-        "Maritime exports account for over two-thirds of Ukrainian agricultural exports, worth roughly $9 billion, making the corridor essential for Kyiv's revenue"
+        "French Parliament approved legislation requiring age verification for all social media users, banning those under 15 from accessing platforms from January 2027",
+        "The law will be implemented in two stages: new accounts blocked for under-15s from September 2026, and verification required for all existing accounts by January 2027",
+        "President Macron hailed the move as a major step forward, stating France is leading Europe in protecting children and teenagers",
+        "Critics raised concerns over privacy, the efficacy of age-verification tools, and the risk of young people bypassing restrictions"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Comprehensive coverage emphasizing the humanitarian toll and economic implications for Ukraine's export corridor",
-          "url": "https://www.bbc.co.uk/news/articles/c89nvnklkpdo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed implementation timeline and noted skepticism about viability",
+          "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized France as first EU country to follow Australia's lead, included parliamentary vote count of 279-81",
+          "url": "https://www.rfi.fr/en/international/20260721-ukraine-s-wartime-unity-put-to-the-test-by-protests-over-military-leadership"
+        }
+      ]
+    },
+    {
+      "headline": "Canada Cancels Joint Bridge Ceremony with US After Trump Announces 50% Tariffs",
+      "category": "Economics",
+      "bullets": [
+        "Canada cancelled the planned joint US-Canada ceremony for the Gordie Howe International Bridge connecting Detroit and Windsor after Trump announced 50% tariffs on most Canadian goods",
+        "Trump invoked Section 338 of the 1930 Smoot-Hawley Tariff Act, accusing Canada of discriminating against US automobiles, alcohol, and dairy products",
+        "Canada will hold its own ceremony on July 24, with the bridge still expected to open to traffic on July 27",
+        "The tariff list targets hundreds of Canadian goods including extensive alcohol-related products, prompting observers to note its unusual focus on cocktail ingredients"
+      ],
+      "sources": [
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Straightforward reporting on ceremony cancellation and infrastructure minister's statement",
+          "url": "https://www.thehindu.com/news/international/mamdani-says-nyc-cant-arrest-netanyahu-but-the-federal-government-should/article71252405.ece"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Extensive coverage including historical context of Smoot-Hawley Act and detailed analysis of tariff list contents",
+          "url": "https://www.theglobeandmail.com/world/article-trump-tariff-list-alcohol-trade-reids-distillery/"
+        }
+      ]
+    },
+    {
+      "headline": "Germany and Azerbaijan Sign Strategic Economic Agreements to Deepen Energy and Trade Ties",
+      "category": "Geopolitics",
+      "bullets": [
+        "German Chancellor Friedrich Merz and Azerbaijani President Ilham Aliyev signed a Joint Declaration on Strategic Agenda and established an Azerbaijan-Germany Business Council",
+        "Azerbaijan began supplying gas to Germany this year as the EU moves away from Russian energy imports",
+        "Merz described the South Caucasus as a key connectivity hub linking Europe and Asia, referencing the Middle Corridor trade route that bypasses Russia",
+        "The talks also addressed Azerbaijan's reconciliation process with Armenia, with Merz congratulating Aliyev on progress toward a peace agreement"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage of economic agreements and regional geopolitical context including Armenia relations",
+          "url": "https://www.rfi.fr/en/international/20260721-ukraine-s-wartime-unity-put-to-the-test-by-protests-over-military-leadership"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Tate brothers appear in Miami federal court to fight UK extradition on 38 charges including rape and sex trafficking",
-      "source": "BBC World, Globe and Mail",
-      "url": "https://www.bbc.co.uk/news/articles/c6294y87wk6o"
-    },
-    {
-      "headline": "Russian warship conducts live-fire artillery exercise 40 nautical miles off Plymouth coast while monitored by Royal Navy",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/ce970jryrk3o"
-    },
-    {
-      "headline": "Sinaloa Cartel co-founder Ismael 'El Mayo' Zambada sentenced to life in U.S. prison and ordered to pay $15 billion",
+      "headline": "Ukrainian drones strike Wildberries warehouses in Russia for second time in four days, injuring 15 workers",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do"
+      "url": "https://www.bbc.co.uk/news/articles/c36de9n4pxpo"
     },
     {
-      "headline": "Spain celebrates World Cup victory with royal welcome and Madrid parade attended by nearly two million fans",
-      "source": "BBC Europe, Le Monde",
-      "url": "https://www.bbc.co.uk/news/videos/c78g69nddgeo"
+      "headline": "Health worker evacuated from DRC being monitored for Ebola at London hospital as precautionary measure",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc"
     },
     {
-      "headline": "France and Germany push for stronger EU response to China's trade surplus and industrial overcapacity",
+      "headline": "Indian opposition leader Rahul Gandhi released after detention during student-led protests over education system",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/22/india-opposition-leader-gandhi-freed-after-detention-at-student-led-protest"
+    },
+    {
+      "headline": "Trump administration approves nuclear deal potentially allowing Saudi Arabia uranium enrichment capability",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-approves-nuclear-deal-that-may-allow-saudi-arabia-to-enrich/"
+    },
+    {
+      "headline": "Protests erupt in Bologna after Moroccan-born man dies while being restrained by police, injuring 64 officers",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c86nwgw148xo"
+    },
+    {
+      "headline": "New Zealand issues Level 3 travel advisory urging citizens to avoid Middle East due to US-Iran conflict",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/business/772176/travel-alert-strongly-advises-new-zealanders-to-avoid-middle-east"
+    },
+    {
+      "headline": "France and Germany developing joint roadmap to address EU's growing trade deficit with China by September",
       "source": "RFI English",
       "url": "https://www.rfi.fr/en/international/20260721-france-and-germany-move-to-tackle-eu-s-growing-trade-deficit-with-china"
     },
     {
-      "headline": "Ukraine faces fifth day of protests demanding return of dismissed defense minister and removal of commander-in-chief",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260721-ukraine-s-wartime-unity-put-to-test-by-protests-over-military-leadership"
+      "headline": "At least 53 people dead in ferry disaster in Guyana",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/22/at-least-53-dead-in-guyana-capsized-ferry-disaster_6755708_4.html"
     },
     {
-      "headline": "Philippines summons Chinese Ambassador after South China Sea encounter leaves Navy personnel injured",
-      "source": "The Hindu, Nikkei Asia",
-      "url": "https://www.thehindu.com/news/international/china-summons-philippine-ambassador-over-south-china-sea-encounter/article71248297.ece"
+      "headline": "Indonesia's free meal program chief resigns citing health after budget cuts and corruption scandals",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/indonesia-s-free-meal-scheme-hit-by-further-turmoil-as-program-boss-quits"
     },
     {
-      "headline": "Israel constructing 14-mile earthen barrier inside Gaza, entrenching division of the territory",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/israel-is-building-a-miles-long-earthen-barrier-inside-gaza-entrenching-its-division/article71248145.ece"
-    },
-    {
-      "headline": "Lebanon's President Aoun meets Trump in Washington to push for Israeli troop withdrawal from southern Lebanon",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-lebanon-president-joseph-aoun-trump-israel-troops/"
-    },
-    {
-      "headline": "ASEAN foreign ministers gather in Manila amid warnings bloc risks being 'pulled apart' by external pressures",
-      "source": "Nikkei Asia, The Hindu",
-      "url": "https://asia.nikkei.com/politics/philippines-warns-asean-risks-being-pulled-apart-by-external-pressures"
+      "headline": "UN report finds one in three people globally cannot afford a healthy diet despite decline in hunger rates",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds"
     }
   ]
 }
