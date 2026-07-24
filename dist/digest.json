@@ -1,196 +1,232 @@
 {
-  "date": "Wednesday, July 22, 2026",
-  "daily_brief": "The US-Iran conflict dominated international headlines as American forces conducted their 11th consecutive night of strikes against Iranian targets, with Defense Secretary Pete Hegseth revealing the war has cost $37.5 billion to date [BBC, Al Jazeera, Globe and Mail, The Hindu]. President Trump threatened to strike Iran's underground nuclear facility near Natanz, while Secretary of State Rubio stated the US remains open to negotiations but accused Tehran of not being serious [Al Jazeera, BBC]. In Ukraine, President Zelensky dismissed army commander-in-chief Oleksandr Syrskyi following days of street protests triggered by the earlier removal of popular Defense Minister Mykhailo Fedorov, replacing him with General Mykhailo Drapatyi [BBC, Le Monde, RFI]. France became the first European country to pass legislation banning social media for children under 15, with President Macron hailing it as a major step forward in child protection [BBC, RFI]. US-Canada relations deteriorated further as Ottawa cancelled a joint ceremony for the Gordie Howe International Bridge after Trump announced 50% tariffs on most Canadian goods, invoking the 1930 Smoot-Hawley Tariff Act [Globe and Mail, The Hindu]. Meanwhile, Germany and Azerbaijan signed strategic economic agreements as Berlin seeks to diversify energy supplies away from Russia [RFI].",
+  "date": "Friday, July 24, 2026",
+  "daily_brief": "The global trade system faces renewed strain as the United States imposed 10-12.5% tariffs on 60 trading partners, citing forced labor concerns that trading partners and experts dismiss as pretextual [BBC, RNZ, Globe and Mail]. Energy markets are in turmoil with Brent crude surpassing $100 per barrel for the first time since May, driven by escalating US-Iran hostilities and Houthi attacks on Saudi oil tankers in the Red Sea [BBC, France 24, Al Jazeera]. The EU condemned the tanker attacks as 'inflammatory' while the US launched its 13th consecutive night of strikes on Iran [RFI, The Hindu]. In Europe, deadly wildfires have forced the evacuation of over 40,000 people in southwest France, with Spain declaring a national emergency as fires threaten communities near Madrid [BBC, France 24, The Hindu]. Ukraine's military leadership underwent dramatic upheaval as ousted Defense Minister Mykhailo Fedorov refused alternative positions and demanded reinstatement, while 43-year-old Mykhailo Drapatyi was named the new commander-in-chief following protests that forced out his predecessor [BBC, Al Jazeera]. President Trump complicated the newly announced US-Saudi nuclear deal by publicly conditioning it on Saudi recognition of Israel, a stance Riyadh has historically resisted [BBC, The Hindu].",
   "top_stories": [
     {
-      "headline": "US Launches 11th Consecutive Night of Strikes on Iran as War Costs Reach $37.5 Billion",
-      "category": "Conflict",
+      "headline": "US Imposes New Tariffs on 60 Trading Partners, Citing Forced Labor Claims",
+      "category": "Economics",
       "bullets": [
-        "US Central Command conducted strikes targeting Iranian military operations centres, maritime capabilities, aircraft hangars, drone storage facilities, and military logistics infrastructure",
-        "Defense Secretary Pete Hegseth testified the war has cost $37.5 billion, up from $29 billion in mid-May, and requested $67 billion in supplemental Pentagon funding",
-        "Air defences were activated in Tehran, with explosions reported in Tabriz, Chabahar, Konarak, and Bushehr; Iran warned of reprisals after Trump threatened to strike the underground nuclear site near Natanz",
-        "Secretary of State Rubio stated the US is open to negotiations but accused Iran of not being serious about talks, warning that Iranian control of the Strait of Hormuz would set a dangerous precedent"
+        "The United States imposed tariffs of 10-12.5% on 60 trading partners including the UK, EU, China, Canada, Australia, and New Zealand, covering 99.4% of US imports",
+        "The new tariffs replace an identical levy expiring Friday, following the Supreme Court's February ruling that Trump's original 'Liberation Day' tariffs were illegally enacted under emergency powers",
+        "US Trade Representative Jamieson Greer claimed the tariffs address forced labor in global supply chains, but trade experts and targeted countries rejected this justification as pretextual",
+        "Canada faces 10% tariffs with exemptions for USMCA goods and all oil and gas; New Zealand and Australia face 12.5% rates"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on military operations and Trump's threat to nuclear facilities",
-          "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Quoted expert Caroline Freund stating Trump is 'looking for a legal reason to put the tariffs in'",
+          "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Emphasized New Zealand's rejection of forced labor claims and minister's view that US is 'looking for any means' to impose tariffs",
+          "url": "https://www.rnz.co.nz/news/business/782170/us-hits-new-zealand-with-higher-12-point-5-percent-tariff"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on Canadian exemptions and characterized move as part of 'continuing quest' for protectionist measures",
+          "url": "https://www.theglobeandmail.com/world/article-wildberries-russias-biggest-online-retailer-target-for-ukraine/"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Highlighted Asian governments' disappointment and skepticism about the legal basis",
+          "url": "https://asia.nikkei.com/business/companies/wife-of-sk-chief-wins-south-korean-record-643mn-divorce-settlement"
+        }
+      ]
+    },
+    {
+      "headline": "Oil Prices Surge Past $100 as Houthis Attack Saudi Tankers Amid US-Iran Escalation",
+      "category": "Conflict",
+      "bullets": [
+        "Brent crude rose more than 6% to exceed $100 per barrel for the first time since May after Houthi rebels attacked Saudi oil tankers in the Red Sea",
+        "The attacks threaten a key export route Saudi Arabia has used to bypass the Strait of Hormuz, which Iran has effectively closed amid ongoing hostilities",
+        "The US completed its 13th consecutive night of strikes on Iran, with Trump threatening 'major military punishment' and considering using frozen Iranian assets to pay for shipping damages",
+        "The EU's foreign policy chief Kaja Kallas condemned the tanker attack as 'unacceptable, illegal and further inflames an already volatile situation'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized economic impact on UK consumers and inflation concerns",
+          "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Provided detailed live coverage of US strikes on Iranian military targets",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260724-ecuadorian-richard-carapaz-wins-stage-18-in-a-solo-breakaway"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Led with EU diplomatic response and condemnation",
+          "url": "https://www.rfi.fr/en/sports/20260723-zizou-s-back-zidane-set-to-take-charge-of-les-bleus"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Rubio's comments on negotiations and included Iranian state media reports on air defence activation",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/iran-toll-in-hormuz-would-set-dangerous-precedent-says-rubio?traffic_source=rss"
+          "framing_note": "Highlighted Iranian Foreign Minister's condemnation of US asset seizure threats as 'incendiary precedent'",
+          "url": "https://www.aljazeera.com/news/2026/7/24/ukraine-beheads-its-military-as-its-performance-begins-to-soar?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Detailed Hegseth's Senate testimony and Democratic criticism of war spending",
-          "url": "https://www.thehindu.com/news/international/mamdani-says-nyc-cant-arrest-netanyahu-but-the-federal-government-should/article71252405.ece"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Highlighted congressional pushback and concerns about 'another forever war'",
-          "url": "https://www.theglobeandmail.com/world/article-trump-tariff-list-alcohol-trade-reids-distillery/"
-        },
-        {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Analysis piece comparing situation to Obama's foreign policy approach",
-          "url": "https://www.economist.com/international/2026/07/09/child-suspects-are-being-prosecuted-at-younger-ages"
+          "framing_note": "Included Pakistan's warning of retaliation for any attacks on its vessels",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-shipping-routes-clashes-strait-of-hormuz-live-updates-july-24-2026/article71260769.ece"
         }
       ]
     },
     {
-      "headline": "Zelensky Dismisses Army Chief Syrskyi After Days of Street Protests Over Military Leadership",
+      "headline": "Deadly Wildfires Force Mass Evacuations Across Southern Europe",
+      "category": "Climate",
+      "bullets": [
+        "Over 40,000 people have been evacuated in southwest France as wildfires spread across more than 10,000 hectares in the Gironde region, with the entire Cap-Ferret peninsula ordered to evacuate",
+        "Two French firefighters died earlier in the week; 32 fires are currently burning across France with over 50,000 hectares burned since January\u2014nearly three times last year's total",
+        "Spain declared a national emergency as fires near Madrid and in Avila province forced more than 10,000 evacuations; a firefighter died in Sicily",
+        "French President Macron described the situation as 'very tense' and requested EU assistance; experts link worsening fire seasons to climate change"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Detailed evacuation logistics including boat evacuations from peninsula",
+          "url": "https://www.bbc.co.uk/news/articles/cq89k12ygq0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Provided live coverage with Interior Minister quotes on scale of fires",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260724-ecuadorian-richard-carapaz-wins-stage-18-in-a-solo-breakaway"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on potential cause and prefect's response measures",
+          "url": "https://www.rfi.fr/en/sports/20260723-zizou-s-back-zidane-set-to-take-charge-of-les-bleus"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized climate change link and seasonal vegetation patterns",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-shipping-routes-clashes-strait-of-hormuz-live-updates-july-24-2026/article71260769.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Ukraine's Ousted Defense Minister Refuses Alternative Posts, Demands Reinstatement",
       "category": "Conflict",
       "bullets": [
-        "Ukrainian President Zelensky fired Commander-in-Chief Oleksandr Syrskyi following the earlier dismissal of Defense Minister Mykhailo Fedorov, which triggered nationwide protests",
-        "Syrskyi, 60, was replaced by General Mykhailo Drapatyi, 43, a popular battle-hardened commander who thanked his predecessor for strengthening the Ukrainian army",
-        "Fedorov, 35, had been praised for modernizing the armed forces and fighting corruption, while Syrskyi was seen as a Soviet-school commander resistant to radical changes",
-        "Protests entered their fifth day with demonstrators in Kyiv demanding Syrskyi's removal and Fedorov's return, representing Zelensky's most urgent domestic political challenge since the full-scale invasion"
+        "Former Defense Minister Mykhailo Fedorov rejected President Zelensky's offer of deputy prime minister and other posts, insisting only three positions determine the war's course: president, defense minister, and commander-in-chief",
+        "Fedorov's July 15 dismissal triggered mass protests; Zelensky subsequently fired Commander-in-Chief Oleksandr Syrskyi on July 21 following conflicts between the two officials",
+        "Major General Mykhailo Drapatyi, 43, was named new commander-in-chief; he gained fame in 2014 for driving through separatist barricades in Mariupol",
+        "Ukraine's armed forces have achieved their best performance in three years, with 193,500 Russian casualties in 2026 and net Russian territorial losses in July"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Balanced coverage of both commanders' records and Drapatyi's appointment",
-          "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized Fedorov's innovations and anti-corruption efforts; noted protesters demanding his reinstatement",
+          "url": "https://www.bbc.co.uk/news/articles/cq89k12ygq0o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Le Monde",
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Article headline available but content not accessible",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/21/united-states-sends-first-aid-to-cuba-as-part-of-100-million-commitment_6755703_4.html"
+          "framing_note": "Provided detailed analysis of Ukraine's military performance improvements under outgoing leadership",
+          "url": "https://www.aljazeera.com/news/2026/7/24/ukraine-beheads-its-military-as-its-performance-begins-to-soar?traffic_source=rss"
         },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized the political crisis and pressure on Zelensky, included protester testimonies about personal losses",
-          "url": "https://www.rfi.fr/en/international/20260721-ukraine-s-wartime-unity-put-to-the-test-by-protests-over-military-leadership"
-        }
-      ]
-    },
-    {
-      "headline": "France Becomes First European Country to Ban Social Media for Under-15s",
-      "category": "Policy",
-      "bullets": [
-        "French Parliament approved legislation requiring age verification for all social media users, banning those under 15 from accessing platforms from January 2027",
-        "The law will be implemented in two stages: new accounts blocked for under-15s from September 2026, and verification required for all existing accounts by January 2027",
-        "President Macron hailed the move as a major step forward, stating France is leading Europe in protecting children and teenagers",
-        "Critics raised concerns over privacy, the efficacy of age-verification tools, and the risk of young people bypassing restrictions"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed implementation timeline and noted skepticism about viability",
-          "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized France as first EU country to follow Australia's lead, included parliamentary vote count of 279-81",
-          "url": "https://www.rfi.fr/en/international/20260721-ukraine-s-wartime-unity-put-to-the-test-by-protests-over-military-leadership"
-        }
-      ]
-    },
-    {
-      "headline": "Canada Cancels Joint Bridge Ceremony with US After Trump Announces 50% Tariffs",
-      "category": "Economics",
-      "bullets": [
-        "Canada cancelled the planned joint US-Canada ceremony for the Gordie Howe International Bridge connecting Detroit and Windsor after Trump announced 50% tariffs on most Canadian goods",
-        "Trump invoked Section 338 of the 1930 Smoot-Hawley Tariff Act, accusing Canada of discriminating against US automobiles, alcohol, and dairy products",
-        "Canada will hold its own ceremony on July 24, with the bridge still expected to open to traffic on July 27",
-        "The tariff list targets hundreds of Canadian goods including extensive alcohol-related products, prompting observers to note its unusual focus on cocktail ingredients"
-      ],
-      "sources": [
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Straightforward reporting on ceremony cancellation and infrastructure minister's statement",
-          "url": "https://www.thehindu.com/news/international/mamdani-says-nyc-cant-arrest-netanyahu-but-the-federal-government-should/article71252405.ece"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Extensive coverage including historical context of Smoot-Hawley Act and detailed analysis of tariff list contents",
-          "url": "https://www.theglobeandmail.com/world/article-trump-tariff-list-alcohol-trade-reids-distillery/"
+          "framing_note": "Covered Lavrov-Rubio meeting context and Russian warnings on arms sales",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-shipping-routes-clashes-strait-of-hormuz-live-updates-july-24-2026/article71260769.ece"
         }
       ]
     },
     {
-      "headline": "Germany and Azerbaijan Sign Strategic Economic Agreements to Deepen Energy and Trade Ties",
+      "headline": "Trump Conditions US-Saudi Nuclear Deal on Kingdom's Recognition of Israel",
       "category": "Geopolitics",
       "bullets": [
-        "German Chancellor Friedrich Merz and Azerbaijani President Ilham Aliyev signed a Joint Declaration on Strategic Agenda and established an Azerbaijan-Germany Business Council",
-        "Azerbaijan began supplying gas to Germany this year as the EU moves away from Russian energy imports",
-        "Merz described the South Caucasus as a key connectivity hub linking Europe and Asia, referencing the Middle Corridor trade route that bypasses Russia",
-        "The talks also addressed Azerbaijan's reconciliation process with Armenia, with Merz congratulating Aliyev on progress toward a peace agreement"
+        "President Trump announced that the civilian nuclear deal signed Wednesday with Saudi Arabia is 'totally subject to Saudi Arabia joining the Abraham Accords'",
+        "The condition was not mentioned in the deal text; White House said Trump had discussed this requirement with Saudi leaders in previous conversations",
+        "Saudi Arabia has not responded publicly; the kingdom has historically resisted normalization with Israel without a pathway to Palestinian statehood",
+        "Israeli PM Netanyahu called potential Saudi recognition a 'historic leap' while experts had already raised concerns about nuclear proliferation risks"
       ],
       "sources": [
         {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Noted uncertainty about whether condition was in deal text or separately communicated",
+          "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Characterized the announcement as throwing the agreement 'into turmoil'",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-shipping-routes-clashes-strait-of-hormuz-live-updates-july-24-2026/article71260769.ece"
+        },
+        {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Comprehensive coverage of economic agreements and regional geopolitical context including Armenia relations",
-          "url": "https://www.rfi.fr/en/international/20260721-ukraine-s-wartime-unity-put-to-the-test-by-protests-over-military-leadership"
+          "framing_note": "Mentioned Colombia embassy move in context of Jerusalem diplomatic developments",
+          "url": "https://www.rfi.fr/en/sports/20260723-zizou-s-back-zidane-set-to-take-charge-of-les-bleus"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ukrainian drones strike Wildberries warehouses in Russia for second time in four days, injuring 15 workers",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c36de9n4pxpo"
+      "headline": "Ukrainian drones strike five Wildberries warehouses across Russia in week-long campaign targeting logistics hubs",
+      "source": "BBC Europe, France 24, Globe and Mail",
+      "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o"
     },
     {
-      "headline": "Health worker evacuated from DRC being monitored for Ebola at London hospital as precautionary measure",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc"
-    },
-    {
-      "headline": "Indian opposition leader Rahul Gandhi released after detention during student-led protests over education system",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/22/india-opposition-leader-gandhi-freed-after-detention-at-student-led-protest"
-    },
-    {
-      "headline": "Trump administration approves nuclear deal potentially allowing Saudi Arabia uranium enrichment capability",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-approves-nuclear-deal-that-may-allow-saudi-arabia-to-enrich/"
-    },
-    {
-      "headline": "Protests erupt in Bologna after Moroccan-born man dies while being restrained by police, injuring 64 officers",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c86nwgw148xo"
-    },
-    {
-      "headline": "New Zealand issues Level 3 travel advisory urging citizens to avoid Middle East due to US-Iran conflict",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/business/772176/travel-alert-strongly-advises-new-zealanders-to-avoid-middle-east"
-    },
-    {
-      "headline": "France and Germany developing joint roadmap to address EU's growing trade deficit with China by September",
+      "headline": "Germany approves controversial French-Russian nuclear fuel rod joint venture despite Ukraine war concerns",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260721-france-and-germany-move-to-tackle-eu-s-growing-trade-deficit-with-china"
+      "url": "https://www.rfi.fr/en/international/20260723-germany-approves-factory-use-for-controversial-french-russian-nuclear-project"
     },
     {
-      "headline": "At least 53 people dead in ferry disaster in Guyana",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/22/at-least-53-dead-in-guyana-capsized-ferry-disaster_6755708_4.html"
+      "headline": "Zinedine Zidane set to be unveiled as France national team coach on July 28, replacing Didier Deschamps",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/sports/20260723-zizou-s-back-zidane-set-to-take-charge-of-les-bleus"
     },
     {
-      "headline": "Indonesia's free meal program chief resigns citing health after budget cuts and corruption scandals",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/indonesia-s-free-meal-scheme-hit-by-further-turmoil-as-program-boss-quits"
+      "headline": "Former Senegalese President Macky Sall pledges UN reform as six candidates debate ahead of Secretary-General selection",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260724-macky-sall-pledges-to-restore-trust-in-un-as-leadership-race-gathers-pace"
     },
     {
-      "headline": "UN report finds one in three people globally cannot afford a healthy diet despite decline in hunger rates",
+      "headline": "Indian activist Sonam Wangchuk ends 26-day hunger strike as 'Cockroach' youth protests continue demanding education minister's resignation",
+      "source": "Al Jazeera, Globe and Mail, Nikkei Asia",
+      "url": "https://www.theglobeandmail.com/world/article-indian-activist-sonam-wangchuk-ends-hunger-strike-as-cockroach/"
+    },
+    {
+      "headline": "Two Russian men sentenced to prison in Angola for terrorism and spying linked to alleged coup plotting",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds"
+      "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
+    },
+    {
+      "headline": "Indonesian court convicts 19 people in baby trafficking case involving at least 34 infants sold to Singapore",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo"
+    },
+    {
+      "headline": "British army cancels Kenya training exercises amid dispute over legal jurisdiction for soldiers",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute"
+    },
+    {
+      "headline": "Japan Immigration Services Agency to hire over 200 enforcement officers in rare emergency staffing expansion",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/spotlight/japan-immigration/japan-to-boost-immigration-workforce-in-crackdown-on-visa-overstayers"
+    },
+    {
+      "headline": "SK Group chairman ordered to pay record $643 million divorce settlement in South Korean court ruling",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/companies/wife-of-sk-chief-wins-south-korean-record-643mn-divorce-settlement"
     }
   ]
 }
