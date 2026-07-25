@@ -1,232 +1,196 @@
 {
-  "date": "Friday, July 24, 2026",
-  "daily_brief": "The global trade system faces renewed strain as the United States imposed 10-12.5% tariffs on 60 trading partners, citing forced labor concerns that trading partners and experts dismiss as pretextual [BBC, RNZ, Globe and Mail]. Energy markets are in turmoil with Brent crude surpassing $100 per barrel for the first time since May, driven by escalating US-Iran hostilities and Houthi attacks on Saudi oil tankers in the Red Sea [BBC, France 24, Al Jazeera]. The EU condemned the tanker attacks as 'inflammatory' while the US launched its 13th consecutive night of strikes on Iran [RFI, The Hindu]. In Europe, deadly wildfires have forced the evacuation of over 40,000 people in southwest France, with Spain declaring a national emergency as fires threaten communities near Madrid [BBC, France 24, The Hindu]. Ukraine's military leadership underwent dramatic upheaval as ousted Defense Minister Mykhailo Fedorov refused alternative positions and demanded reinstatement, while 43-year-old Mykhailo Drapatyi was named the new commander-in-chief following protests that forced out his predecessor [BBC, Al Jazeera]. President Trump complicated the newly announced US-Saudi nuclear deal by publicly conditioning it on Saudi recognition of Israel, a stance Riyadh has historically resisted [BBC, The Hindu].",
+  "date": "Saturday, July 25, 2026",
+  "daily_brief": "Wildfires across southwestern France and central Spain have forced the evacuation of more than 220,000 people, prompting France to activate the EU's civil protection mechanism and Spain to declare a national emergency [BBC World, France 24, RFI English]. In Ukraine, Russian ballistic missile strikes killed at least 10 people at a drone technology exhibition near Kyiv, with President Zelensky warning of additional massive strikes within 48 hours [BBC World]. The International Criminal Court voted to remove Chief Prosecutor Karim Khan over sexual misconduct allegations, a decision he has vowed to challenge [BBC Europe, Le Monde]. Tensions between the US and EU escalated as President Trump threatened new tariffs and announced a Section 301 investigation in response to European fines on American tech companies [BBC Europe]. Meanwhile, the US-Iran conflict continued for a 13th consecutive night, with both sides signaling potential escalation as oil prices exceeded $100 per barrel [Globe and Mail]. Diplomatic developments included UN Secretary-General Guterres arriving in Syria for the first such visit since before the civil war began [France 24].",
   "top_stories": [
     {
-      "headline": "US Imposes New Tariffs on 60 Trading Partners, Citing Forced Labor Claims",
-      "category": "Economics",
+      "headline": "Wildfires Force Over 220,000 Evacuations Across France and Spain as Blazes Rage Out of Control",
+      "category": "Climate",
       "bullets": [
-        "The United States imposed tariffs of 10-12.5% on 60 trading partners including the UK, EU, China, Canada, Australia, and New Zealand, covering 99.4% of US imports",
-        "The new tariffs replace an identical levy expiring Friday, following the Supreme Court's February ruling that Trump's original 'Liberation Day' tariffs were illegally enacted under emergency powers",
-        "US Trade Representative Jamieson Greer claimed the tariffs address forced labor in global supply chains, but trade experts and targeted countries rejected this justification as pretextual",
-        "Canada faces 10% tariffs with exemptions for USMCA goods and all oil and gas; New Zealand and Australia face 12.5% rates"
+        "More than 200,000 people evacuated in France's Gironde and Landes regions near Bordeaux, with an additional 25,000 evacuated in central Spain and 40,000 told to shelter in place",
+        "Spanish officials describe the Madrid-area fire as 'beyond the capacity of firefighters to contain' after three fires merged into a single blaze",
+        "France activated the EU civil protection mechanism, receiving aircraft support from Croatia, Portugal, Czech Republic, and Slovakia; Spain declared a national emergency",
+        "French Prime Minister stated fires have reached 'a level that has never been seen before'; Madrid's regional president called it the 'worst fire in the history of the region'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Quoted expert Caroline Freund stating Trump is 'looking for a legal reason to put the tariffs in'",
-          "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized scale of evacuations and firefighter capacity limits",
+          "url": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RNZ",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized New Zealand's rejection of forced labor claims and minister's view that US is 'looking for any means' to impose tariffs",
-          "url": "https://www.rnz.co.nz/news/business/782170/us-hits-new-zealand-with-higher-12-point-5-percent-tariff"
+          "framing_note": "Featured live coverage and French government statements prominently",
+          "url": "https://www.france24.com/en/europe/20260725-live-france-orders-evacuations-near-bordeaux-as-wildfires-sweep-through-southwest"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on EU solidarity and Macron's request for European assistance",
+          "url": "https://www.rfi.fr/en/france/20260724-notre-dame-s-disputed-new-windows-on-schedule-for-december-reveal"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Described fires as 'unprecedented'",
+          "url": "https://www.ft.com/content/66a53961-6583-4dfb-8b74-96e6abed5db7"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on Canadian exemptions and characterized move as part of 'continuing quest' for protectionist measures",
-          "url": "https://www.theglobeandmail.com/world/article-wildberries-russias-biggest-online-retailer-target-for-ukraine/"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Highlighted Asian governments' disappointment and skepticism about the legal basis",
-          "url": "https://asia.nikkei.com/business/companies/wife-of-sk-chief-wins-south-korean-record-643mn-divorce-settlement"
+          "framing_note": "Linked fires explicitly to climate change effects",
+          "url": "https://www.theglobeandmail.com/world/article-paramount-warner-bros-buyout-delay/"
         }
       ]
     },
     {
-      "headline": "Oil Prices Surge Past $100 as Houthis Attack Saudi Tankers Amid US-Iran Escalation",
+      "headline": "Russian Ballistic Missiles Strike Drone Exhibition Near Kyiv, Killing At Least 10",
       "category": "Conflict",
       "bullets": [
-        "Brent crude rose more than 6% to exceed $100 per barrel for the first time since May after Houthi rebels attacked Saudi oil tankers in the Red Sea",
-        "The attacks threaten a key export route Saudi Arabia has used to bypass the Strait of Hormuz, which Iran has effectively closed amid ongoing hostilities",
-        "The US completed its 13th consecutive night of strikes on Iran, with Trump threatening 'major military punishment' and considering using frozen Iranian assets to pay for shipping damages",
-        "The EU's foreign policy chief Kaja Kallas condemned the tanker attack as 'unacceptable, illegal and further inflames an already volatile situation'"
+        "Russian ballistic missile strikes hit an exhibition showcasing drone technology near Kyiv, killing 10 people and injuring approximately 100",
+        "Five additional people killed by Russian glide bombs in Sloviansk; two men killed in Sumy, bringing total Ukrainian deaths to at least 15",
+        "President Zelensky warned of intelligence indicating Russia is preparing another massive missile strike within 48 hours",
+        "Ukraine conducted retaliatory strikes killing six people in the Russian city of Kirov and targeting Wildberries retail warehouses"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized economic impact on UK consumers and inflation concerns",
-          "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Balanced coverage of casualties on both sides, noted prominent defence figures were safe",
+          "url": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Provided detailed live coverage of US strikes on Iranian military targets",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260724-ecuadorian-richard-carapaz-wins-stage-18-in-a-solo-breakaway"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Led with EU diplomatic response and condemnation",
-          "url": "https://www.rfi.fr/en/sports/20260723-zizou-s-back-zidane-set-to-take-charge-of-les-bleus"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Iranian Foreign Minister's condemnation of US asset seizure threats as 'incendiary precedent'",
-          "url": "https://www.aljazeera.com/news/2026/7/24/ukraine-beheads-its-military-as-its-performance-begins-to-soar?traffic_source=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Included Pakistan's warning of retaliation for any attacks on its vessels",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-shipping-routes-clashes-strait-of-hormuz-live-updates-july-24-2026/article71260769.ece"
+          "framing_note": "Duplicate coverage of same event",
+          "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Deadly Wildfires Force Mass Evacuations Across Southern Europe",
-      "category": "Climate",
+      "headline": "ICC Votes to Remove Chief Prosecutor Karim Khan Over Sexual Misconduct Findings",
+      "category": "Policy",
       "bullets": [
-        "Over 40,000 people have been evacuated in southwest France as wildfires spread across more than 10,000 hectares in the Gironde region, with the entire Cap-Ferret peninsula ordered to evacuate",
-        "Two French firefighters died earlier in the week; 32 fires are currently burning across France with over 50,000 hectares burned since January\u2014nearly three times last year's total",
-        "Spain declared a national emergency as fires near Madrid and in Avila province forced more than 10,000 evacuations; a firefighter died in Sicily",
-        "French President Macron described the situation as 'very tense' and requested EU assistance; experts link worsening fire seasons to climate change"
+        "Assembly of States Parties voted 82 in favor to dismiss Khan as ICC chief prosecutor following misconduct investigation",
+        "Court oversight body found Khan committed 'serious breach of duty' by engaging in improper sexual relationship with junior staff member and attempting to suppress her complaint",
+        "Khan, elected as ICC's third prosecutor in 2021, was suspended last month; his lawyer said he will challenge the decision through 'all available legal mechanisms'",
+        "Decision comes amid unprecedented pressure on the court and could reshape the world's only permanent war crimes tribunal"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Detailed evacuation logistics including boat evacuations from peninsula",
-          "url": "https://www.bbc.co.uk/news/articles/cq89k12ygq0o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed the institutional implications and noted Khan's denial of allegations",
+          "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Provided live coverage with Interior Minister quotes on scale of fires",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260724-ecuadorian-richard-carapaz-wins-stage-18-in-a-solo-breakaway"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on potential cause and prefect's response measures",
-          "url": "https://www.rfi.fr/en/sports/20260723-zizou-s-back-zidane-set-to-take-charge-of-les-bleus"
-        },
-        {
-          "name": "The Hindu",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Emphasized climate change link and seasonal vegetation patterns",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-shipping-routes-clashes-strait-of-hormuz-live-updates-july-24-2026/article71260769.ece"
+          "framing_note": "Article accessible but limited detail available",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/25/icc-prosecutor-karim-khan-ousted-over-sexual-misconduct-allegations_6755810_4.html"
         }
       ]
     },
     {
-      "headline": "Ukraine's Ousted Defense Minister Refuses Alternative Posts, Demands Reinstatement",
+      "headline": "Trump Threatens EU Tariffs and Section 301 Investigation Over Tech Company Fines",
+      "category": "Economics",
+      "bullets": [
+        "President Trump announced US will launch Section 301 trade investigation into EU over fines imposed on Google, Apple, Meta, and Amazon",
+        "Threat follows EU's \u20ac890 million fine on Google this week; Trump demanded all fines be 'entirely reversed'",
+        "Trump stated he is considering 'substantial TARIFF' in addition to investigation",
+        "Announcement came one day after Trump imposed new tariffs of 10-12.5% on 60 trading partners including the EU, UK, and China"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Straightforward coverage explaining Section 301 powers and tariff context",
+          "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "US-Iran Conflict Enters 13th Night with Both Sides Signaling Potential Escalation",
       "category": "Conflict",
       "bullets": [
-        "Former Defense Minister Mykhailo Fedorov rejected President Zelensky's offer of deputy prime minister and other posts, insisting only three positions determine the war's course: president, defense minister, and commander-in-chief",
-        "Fedorov's July 15 dismissal triggered mass protests; Zelensky subsequently fired Commander-in-Chief Oleksandr Syrskyi on July 21 following conflicts between the two officials",
-        "Major General Mykhailo Drapatyi, 43, was named new commander-in-chief; he gained fame in 2014 for driving through separatist barricades in Mariupol",
-        "Ukraine's armed forces have achieved their best performance in three years, with 193,500 Russian casualties in 2026 and net Russian territorial losses in July"
+        "US military disabled merchant vessel M/T Lavine in Gulf of Oman after it attempted to breach American blockade of Iranian ports four times",
+        "Both sides indicated possible escalation: US embassies warned Americans departure options may become limited; Iran's Revolutionary Guard advised regional residents to avoid US bases",
+        "Saudi Arabia struck Yemen's Hodeida port in response to Houthi attacks on Saudi oil tankers; Houthis vowed to escalate",
+        "Oil prices exceeded $100 per barrel for first time since May; Australia reassured citizens about fuel supply security"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized Fedorov's innovations and anti-corruption efforts; noted protesters demanding his reinstatement",
-          "url": "https://www.bbc.co.uk/news/articles/cq89k12ygq0o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Comprehensive coverage linking military actions to diplomatic uncertainty and regional spillover",
+          "url": "https://www.theglobeandmail.com/world/article-paramount-warner-bros-buyout-delay/"
         },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Provided detailed analysis of Ukraine's military performance improvements under outgoing leadership",
-          "url": "https://www.aljazeera.com/news/2026/7/24/ukraine-beheads-its-military-as-its-performance-begins-to-soar?traffic_source=rss"
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Analysis piece noting conflict is 'consuming the Trump presidency'",
+          "url": "https://www.economist.com/international/2026/07/14/when-chinas-open-source-ai-is-a-trap"
         },
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Covered Lavrov-Rubio meeting context and Russian warnings on arms sales",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-shipping-routes-clashes-strait-of-hormuz-live-updates-july-24-2026/article71260769.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Conditions US-Saudi Nuclear Deal on Kingdom's Recognition of Israel",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Trump announced that the civilian nuclear deal signed Wednesday with Saudi Arabia is 'totally subject to Saudi Arabia joining the Abraham Accords'",
-        "The condition was not mentioned in the deal text; White House said Trump had discussed this requirement with Saudi leaders in previous conversations",
-        "Saudi Arabia has not responded publicly; the kingdom has historically resisted normalization with Israel without a pathway to Palestinian statehood",
-        "Israeli PM Netanyahu called potential Saudi recognition a 'historic leap' while experts had already raised concerns about nuclear proliferation risks"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
+          "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Noted uncertainty about whether condition was in deal text or separately communicated",
-          "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Characterized the announcement as throwing the agreement 'into turmoil'",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-shipping-routes-clashes-strait-of-hormuz-live-updates-july-24-2026/article71260769.ece"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Mentioned Colombia embassy move in context of Jerusalem diplomatic developments",
-          "url": "https://www.rfi.fr/en/sports/20260723-zizou-s-back-zidane-set-to-take-charge-of-les-bleus"
+          "framing_note": "Focused on domestic fuel supply implications for Australian consumers",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ukrainian drones strike five Wildberries warehouses across Russia in week-long campaign targeting logistics hubs",
-      "source": "BBC Europe, France 24, Globe and Mail",
-      "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o"
+      "headline": "UN Secretary-General Guterres arrives in Syria for first visit by UN chief since before civil war began in 2011",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260725-guterres-arrives-in-syria-for-first-un-secretary-general-visit-since-before-civil-war"
     },
     {
-      "headline": "Germany approves controversial French-Russian nuclear fuel rod joint venture despite Ukraine war concerns",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260723-germany-approves-factory-use-for-controversial-french-russian-nuclear-project"
+      "headline": "Four Palestinians and two Israelis killed in shooting incident in West Bank village of Tal, with conflicting accounts of events",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o"
     },
     {
-      "headline": "Zinedine Zidane set to be unveiled as France national team coach on July 28, replacing Didier Deschamps",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/sports/20260723-zizou-s-back-zidane-set-to-take-charge-of-les-bleus"
+      "headline": "Zelensky faces ongoing political fallout after refusing to reappoint popular defence minister Mykhailo Fedorov in cabinet reshuffle",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c1d1gz3n99ro"
     },
     {
-      "headline": "Former Senegalese President Macky Sall pledges UN reform as six candidates debate ahead of Secretary-General selection",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260724-macky-sall-pledges-to-restore-trust-in-un-as-leadership-race-gathers-pace"
+      "headline": "World chess federation president Arkady Dvorkovich suspends duties after being added to EU sanctions list over Ukraine war",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o"
     },
     {
-      "headline": "Indian activist Sonam Wangchuk ends 26-day hunger strike as 'Cockroach' youth protests continue demanding education minister's resignation",
-      "source": "Al Jazeera, Globe and Mail, Nikkei Asia",
-      "url": "https://www.theglobeandmail.com/world/article-indian-activist-sonam-wangchuk-ends-hunger-strike-as-cockroach/"
-    },
-    {
-      "headline": "Two Russian men sentenced to prison in Angola for terrorism and spying linked to alleged coup plotting",
+      "headline": "Two Russian men sentenced to prison in Angola for terrorism and spying, accused of planning coup and organizing deadly 2025 demonstrations",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
     },
     {
-      "headline": "Indonesian court convicts 19 people in baby trafficking case involving at least 34 infants sold to Singapore",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo"
+      "headline": "Temporary Protected Status for nearly 350,000 Haitians in US set to expire July 27, leaving them at risk of deportation",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260725-haitians-in-port-au-prince-and-new-york-fear-fallout-from-end-of-us-protectionn"
     },
     {
-      "headline": "British army cancels Kenya training exercises amid dispute over legal jurisdiction for soldiers",
+      "headline": "US imposes 50% tariff on Canadian honey imports, threatening beekeeping industry with potential 40% price drop",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-canadian-beekeepers-honey-imports-us-tariffs/"
+    },
+    {
+      "headline": "Health worker being monitored for Ebola at London hospital after potential exposure while treating patients in DRC",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc"
+    },
+    {
+      "headline": "Alberta petition seeking secession referendum verified with 223,000 signatures ahead of October vote on separation question",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/article-alberta-referendum-petition-force-vote-verified/"
+    },
+    {
+      "headline": "British army cancels Kenya training exercise after dispute over jurisdiction and prosecution powers for soldiers",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute"
-    },
-    {
-      "headline": "Japan Immigration Services Agency to hire over 200 enforcement officers in rare emergency staffing expansion",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/spotlight/japan-immigration/japan-to-boost-immigration-workforce-in-crackdown-on-visa-overstayers"
-    },
-    {
-      "headline": "SK Group chairman ordered to pay record $643 million divorce settlement in South Korean court ruling",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/companies/wife-of-sk-chief-wins-south-korean-record-643mn-divorce-settlement"
     }
   ]
 }
