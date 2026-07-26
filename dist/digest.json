@@ -1,196 +1,226 @@
 {
-  "date": "Saturday, July 25, 2026",
-  "daily_brief": "Wildfires across southwestern France and central Spain have forced the evacuation of more than 220,000 people, prompting France to activate the EU's civil protection mechanism and Spain to declare a national emergency [BBC World, France 24, RFI English]. In Ukraine, Russian ballistic missile strikes killed at least 10 people at a drone technology exhibition near Kyiv, with President Zelensky warning of additional massive strikes within 48 hours [BBC World]. The International Criminal Court voted to remove Chief Prosecutor Karim Khan over sexual misconduct allegations, a decision he has vowed to challenge [BBC Europe, Le Monde]. Tensions between the US and EU escalated as President Trump threatened new tariffs and announced a Section 301 investigation in response to European fines on American tech companies [BBC Europe]. Meanwhile, the US-Iran conflict continued for a 13th consecutive night, with both sides signaling potential escalation as oil prices exceeded $100 per barrel [Globe and Mail]. Diplomatic developments included UN Secretary-General Guterres arriving in Syria for the first such visit since before the civil war began [France 24].",
+  "date": "Sunday, July 26, 2026",
+  "daily_brief": "The day's most significant developments center on the ongoing US-Iran conflict, European wildfires, and a deadly attack in Berlin. After nearly two weeks of nightly US bombardments on Iran, operations have paused, with reports suggesting dwindling munitions stockpiles may be constraining Washington's options [France 24, ABC Australia, The Hindu]. Diplomatic efforts continue, with an Omani delegation in Tehran for talks on the Strait of Hormuz. In Europe, devastating wildfires have displaced over 330,000 people across France and Spain, with France mobilizing military assets including an A400M cargo plane to combat blazes threatening Bordeaux [BBC, RFI, Globe and Mail]. The Tour de France's final stage was shortened to redeploy security personnel. In Berlin, a van attack on Pride celebrations killed one person and injured at least 16 others; police have identified a 21-year-old suspect with alleged ties to Islamist groups and warned he may be armed [France 24, Le Monde, Financial Times]. Meanwhile, Russian ballistic missile strikes on a drone exhibition near Kyiv killed at least 10 people and injured around 100 [BBC], and India's Education Minister resigned following weeks of youth-led protests over examination irregularities [BBC].",
   "top_stories": [
     {
-      "headline": "Wildfires Force Over 220,000 Evacuations Across France and Spain as Blazes Rage Out of Control",
-      "category": "Climate",
+      "headline": "US Pauses Iran Strikes Amid Reports of Dwindling Munitions Stockpiles",
+      "category": "Conflict",
       "bullets": [
-        "More than 200,000 people evacuated in France's Gironde and Landes regions near Bordeaux, with an additional 25,000 evacuated in central Spain and 40,000 told to shelter in place",
-        "Spanish officials describe the Madrid-area fire as 'beyond the capacity of firefighters to contain' after three fires merged into a single blaze",
-        "France activated the EU civil protection mechanism, receiving aircraft support from Croatia, Portugal, Czech Republic, and Slovakia; Spain declared a national emergency",
-        "French Prime Minister stated fires have reached 'a level that has never been seen before'; Madrid's regional president called it the 'worst fire in the history of the region'"
+        "The US military conducted no strikes on Iran overnight Saturday-Sunday, ending nearly two weeks of consecutive nightly bombardments",
+        "US media reports cite concerns over depleting Patriot interceptor and air defense munitions stockpiles as a factor in the operational pause",
+        "An Omani delegation arrived in Tehran for talks on Strait of Hormuz management; the US naval blockade remains in effect",
+        "Iran's Houthi allies claimed a missile strike on Saudi Arabia's Jizan province in retaliation for Saudi strikes on Hodeida"
       ],
       "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized scale of evacuations and firefighter capacity limits",
-          "url": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss"
-        },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Featured live coverage and French government statements prominently",
-          "url": "https://www.france24.com/en/europe/20260725-live-france-orders-evacuations-near-bordeaux-as-wildfires-sweep-through-southwest"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on EU solidarity and Macron's request for European assistance",
-          "url": "https://www.rfi.fr/en/france/20260724-notre-dame-s-disputed-new-windows-on-schedule-for-december-reveal"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Described fires as 'unprecedented'",
-          "url": "https://www.ft.com/content/66a53961-6583-4dfb-8b74-96e6abed5db7"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Linked fires explicitly to climate change effects",
-          "url": "https://www.theglobeandmail.com/world/article-paramount-warner-bros-buyout-delay/"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Ballistic Missiles Strike Drone Exhibition Near Kyiv, Killing At Least 10",
-      "category": "Conflict",
-      "bullets": [
-        "Russian ballistic missile strikes hit an exhibition showcasing drone technology near Kyiv, killing 10 people and injuring approximately 100",
-        "Five additional people killed by Russian glide bombs in Sloviansk; two men killed in Sumy, bringing total Ukrainian deaths to at least 15",
-        "President Zelensky warned of intelligence indicating Russia is preparing another massive missile strike within 48 hours",
-        "Ukraine conducted retaliatory strikes killing six people in the Russian city of Kirov and targeting Wildberries retail warehouses"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced coverage of casualties on both sides, noted prominent defence figures were safe",
-          "url": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Duplicate coverage of same event",
-          "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "ICC Votes to Remove Chief Prosecutor Karim Khan Over Sexual Misconduct Findings",
-      "category": "Policy",
-      "bullets": [
-        "Assembly of States Parties voted 82 in favor to dismiss Khan as ICC chief prosecutor following misconduct investigation",
-        "Court oversight body found Khan committed 'serious breach of duty' by engaging in improper sexual relationship with junior staff member and attempting to suppress her complaint",
-        "Khan, elected as ICC's third prosecutor in 2021, was suspended last month; his lawyer said he will challenge the decision through 'all available legal mechanisms'",
-        "Decision comes amid unprecedented pressure on the court and could reshape the world's only permanent war crimes tribunal"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed the institutional implications and noted Khan's denial of allegations",
-          "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article accessible but limited detail available",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/25/icc-prosecutor-karim-khan-ousted-over-sexual-misconduct-allegations_6755810_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Threatens EU Tariffs and Section 301 Investigation Over Tech Company Fines",
-      "category": "Economics",
-      "bullets": [
-        "President Trump announced US will launch Section 301 trade investigation into EU over fines imposed on Google, Apple, Meta, and Amazon",
-        "Threat follows EU's \u20ac890 million fine on Google this week; Trump demanded all fines be 'entirely reversed'",
-        "Trump stated he is considering 'substantial TARIFF' in addition to investigation",
-        "Announcement came one day after Trump imposed new tariffs of 10-12.5% on 60 trading partners including the EU, UK, and China"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Straightforward coverage explaining Section 301 powers and tariff context",
-          "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "US-Iran Conflict Enters 13th Night with Both Sides Signaling Potential Escalation",
-      "category": "Conflict",
-      "bullets": [
-        "US military disabled merchant vessel M/T Lavine in Gulf of Oman after it attempted to breach American blockade of Iranian ports four times",
-        "Both sides indicated possible escalation: US embassies warned Americans departure options may become limited; Iran's Revolutionary Guard advised regional residents to avoid US bases",
-        "Saudi Arabia struck Yemen's Hodeida port in response to Houthi attacks on Saudi oil tankers; Houthis vowed to escalate",
-        "Oil prices exceeded $100 per barrel for first time since May; Australia reassured citizens about fuel supply security"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage linking military actions to diplomatic uncertainty and regional spillover",
-          "url": "https://www.theglobeandmail.com/world/article-paramount-warner-bros-buyout-delay/"
-        },
-        {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Analysis piece noting conflict is 'consuming the Trump presidency'",
-          "url": "https://www.economist.com/international/2026/07/14/when-chinas-open-source-ai-is-a-trap"
+          "framing_note": "Emphasized munitions concerns and diplomatic revival",
+          "url": "https://www.france24.com/en/europe/20260725-van-rams-berlin-pride-crowd-killing-one-and-injuring-15"
         },
         {
           "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Focused on domestic fuel supply implications for Australian consumers",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+          "framing_note": "Focused on hope for negotiations returning",
+          "url": "https://www.abc.net.au/news/2026-07-26/runaway-coal-train-hunter-valley/106959762"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Iranian warnings about war widening",
+          "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Brief coverage noting Houthi retaliation and Trump's continued threats",
+          "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Wildfires Displace Over 330,000 Across France and Spain; Tour de France Shortened",
+      "category": "Climate",
+      "bullets": [
+        "More than 330,000 people have been evacuated across France and Spain, with 220,000 displaced in France alone",
+        "France deployed military assets including an A400M cargo plane to drop flame retardant; 42,000 hectares have burned near Bordeaux",
+        "One person died in Manises, Spain, marking the first fatality from the blazes",
+        "The Tour de France final stage was reduced by one-third to allow security personnel redeployment to fire zones"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed firefighter accounts of 'fire whirlwinds' and erratic conditions",
+          "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized scale of evacuation operation as one of largest peacetime efforts in France",
+          "url": "https://www.rfi.fr/en/international/20260725-iran-seeks-to-sow-confusion-among-gulf-states-by-targeting-bahrain-and-kuwait"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted Tour de France impact and military response",
+          "url": "https://www.theglobeandmail.com/world/article-250000-displaced-in-eastern-europe-as-spain-and-france-continue-to/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Straightforward factual coverage",
+          "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief video coverage focused on Spain",
+          "url": "https://www.france24.com/en/europe/20260725-van-rams-berlin-pride-crowd-killing-one-and-injuring-15"
+        }
+      ]
+    },
+    {
+      "headline": "Van Attack at Berlin Pride Kills One, Injures 16; Suspect With Islamist Ties Sought",
+      "category": "Society",
+      "bullets": [
+        "A white van drove into crowds at Berlin's LGBTQ+ Pride celebration Saturday night, killing one and injuring at least 16, some critically",
+        "German authorities issued a wanted notice for a 21-year-old suspect identified as Abdul B., warning he may be armed and dangerous",
+        "Berlin police confirmed the suspect has known ties to Islamist groups in the city",
+        "Chancellor Friedrich Merz called the incident 'an attack on our society'; the event and concert were cancelled"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Detailed coverage of suspect identification and police manhunt",
+          "url": "https://www.france24.com/en/europe/20260725-van-rams-berlin-pride-crowd-killing-one-and-injuring-15"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Headline available; body not accessible",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/25/kazakh-leader-to-putin-the-ukraine-war-should-end_6755836_4.html"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline coverage only",
+          "url": "https://www.ft.com/content/5b789a38-c9ca-4b23-8e61-8f9e2e589396?syn-25a6b1a6=1"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized police statements on Islamist connections",
+          "url": "https://www.rfi.fr/en/international/20260725-iran-seeks-to-sow-confusion-among-gulf-states-by-targeting-bahrain-and-kuwait"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage including suspect description",
+          "url": "https://www.theglobeandmail.com/world/article-250000-displaced-in-eastern-europe-as-spain-and-france-continue-to/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Included detail on apparent stabbings in addition to vehicle attack",
+          "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Russian Missile Strikes Kill 10 at Ukraine Drone Exhibition Near Kyiv",
+      "category": "Conflict",
+      "bullets": [
+        "Russian ballistic missile strikes hit a drone technology exhibition near Kyiv, killing at least 10 people and injuring approximately 100",
+        "The daytime attack targeted an event attended by prominent defense sector figures; key officials later confirmed they were unharmed",
+        "Five additional people were killed by Russian glide bombs in Sloviansk; two died in Sumy",
+        "President Zelensky warned of intelligence indicating Russia was preparing another massive missile strike within 48 hours"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed coverage including Ukrainian counterstrike on Russian city of Kirov",
+          "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "India's Education Minister Resigns After Weeks of Youth-Led 'Cockroach' Protests",
+      "category": "Policy",
+      "bullets": [
+        "Education Minister Dharmendra Pradhan resigned following five weeks of protests organized by the satirical 'Cockroach Janta Party' movement",
+        "The AI-generated cockroach mascot became a symbol for youth frustration with examination irregularities and government policies",
+        "Protests intensified after Monday's police crackdown on marchers heading to parliament left dozens injured",
+        "The CJP called off demonstrations following the resignation, declaring a victory for democracy"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized the novel nature of the AI-mascot protest movement and its evolution into a serious political force",
+          "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "UN Secretary-General Guterres arrives in Syria for first visit by UN chief since before civil war began in 2011",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260725-guterres-arrives-in-syria-for-first-un-secretary-general-visit-since-before-civil-war"
-    },
-    {
-      "headline": "Four Palestinians and two Israelis killed in shooting incident in West Bank village of Tal, with conflicting accounts of events",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o"
-    },
-    {
-      "headline": "Zelensky faces ongoing political fallout after refusing to reappoint popular defence minister Mykhailo Fedorov in cabinet reshuffle",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c1d1gz3n99ro"
-    },
-    {
-      "headline": "World chess federation president Arkady Dvorkovich suspends duties after being added to EU sanctions list over Ukraine war",
+      "headline": "ICC removes chief prosecutor Karim Khan over sexual misconduct findings after 82 member states vote for dismissal",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o"
+      "url": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo"
     },
     {
-      "headline": "Two Russian men sentenced to prison in Angola for terrorism and spying, accused of planning coup and organizing deadly 2025 demonstrations",
+      "headline": "Trump threatens trade investigation and tariffs against EU over fines imposed on American tech companies including Google, Apple, and Meta",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cvgjenp4680o"
+    },
+    {
+      "headline": "Canadian intern of Chinese origin arrested at NATO military headquarters in Belgium on suspicion of espionage",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-canadian-intern-at-nato-military-headquarters-in-belgium-arrested-on/"
+    },
+    {
+      "headline": "Typhoon Noul makes landfall in southern China's Guangdong province, forcing evacuation of over 715,000 people",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/26/typhoon-noul-makes-landfall-in-china-with-hundreds-of-thousands-evacuated"
+    },
+    {
+      "headline": "German Chancellor Merz reshuffles cabinet weeks before regional elections amid far-right surge concerns",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/26/germany-s-merz-reshuffles-cabinet-weeks-before-regional-elections-as-far-right-surge-looms_6755838_4.html"
+    },
+    {
+      "headline": "Israeli settlers set fire to mosque in occupied West Bank village of Qusra as military conducts crackdown following shooting",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/israeli-settlers-set-fire-to-mosque-in-occupied-west-bank"
+    },
+    {
+      "headline": "Two Russian men sentenced to prison in Angola for terrorism and spying, accused of planning coup and organizing deadly demonstrations",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
     },
     {
-      "headline": "Temporary Protected Status for nearly 350,000 Haitians in US set to expire July 27, leaving them at risk of deportation",
+      "headline": "World chess federation president Arkady Dvorkovich steps aside after being added to EU sanctions list over Ukraine war support",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o"
+    },
+    {
+      "headline": "Nepal lifts post-demonetisation restrictions, allowing Indian currency notes of \u20b9200 and \u20b9500 denominations",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
+    },
+    {
+      "headline": "Climate change exacerbating European drought by dramatically increasing evaporation rates, scientists find",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260725-haitians-in-port-au-prince-and-new-york-fear-fallout-from-end-of-us-protectionn"
-    },
-    {
-      "headline": "US imposes 50% tariff on Canadian honey imports, threatening beekeeping industry with potential 40% price drop",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-canadian-beekeepers-honey-imports-us-tariffs/"
-    },
-    {
-      "headline": "Health worker being monitored for Ebola at London hospital after potential exposure while treating patients in DRC",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc"
-    },
-    {
-      "headline": "Alberta petition seeking secession referendum verified with 223,000 signatures ahead of October vote on separation question",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/article-alberta-referendum-petition-force-vote-verified/"
-    },
-    {
-      "headline": "British army cancels Kenya training exercise after dispute over jurisdiction and prosecution powers for soldiers",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute"
+      "url": "https://www.rfi.fr/en/environment/20260725-climate-change-exacerbating-drought-across-europe-scientists-say"
     }
   ]
 }
