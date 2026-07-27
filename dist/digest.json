@@ -1,226 +1,220 @@
 {
-  "date": "Sunday, July 26, 2026",
-  "daily_brief": "The day's most significant developments center on the ongoing US-Iran conflict, European wildfires, and a deadly attack in Berlin. After nearly two weeks of nightly US bombardments on Iran, operations have paused, with reports suggesting dwindling munitions stockpiles may be constraining Washington's options [France 24, ABC Australia, The Hindu]. Diplomatic efforts continue, with an Omani delegation in Tehran for talks on the Strait of Hormuz. In Europe, devastating wildfires have displaced over 330,000 people across France and Spain, with France mobilizing military assets including an A400M cargo plane to combat blazes threatening Bordeaux [BBC, RFI, Globe and Mail]. The Tour de France's final stage was shortened to redeploy security personnel. In Berlin, a van attack on Pride celebrations killed one person and injured at least 16 others; police have identified a 21-year-old suspect with alleged ties to Islamist groups and warned he may be armed [France 24, Le Monde, Financial Times]. Meanwhile, Russian ballistic missile strikes on a drone exhibition near Kyiv killed at least 10 people and injured around 100 [BBC], and India's Education Minister resigned following weeks of youth-led protests over examination irregularities [BBC].",
+  "date": "Monday, July 27, 2026",
+  "daily_brief": "The day's most significant developments center on escalating climate emergencies and fragile diplomatic openings. Catastrophic wildfires across southwestern France and Spain have displaced over 325,000 people, with flames now within 15 kilometers of Bordeaux as another heatwave approaches [RFI, France 24, The Hindu]. President Macron has convened a crisis cabinet meeting. Meanwhile, a tentative pause in hostilities between the US and Iran\u2014marking the second consecutive day without strikes\u2014has sent oil prices tumbling more than 7% and opened a narrow window for renewed negotiations [France 24, Le Monde, Financial Times, The Hindu]. In Berlin, a 24-hour manhunt ended when police shot and killed Abdul Ballout, the suspect in Saturday's Pride attack that killed one and injured 29; German authorities have characterized the incident as an Islamist terror attack [BBC, RFI]. India's student protest movement secured a rare political victory as Education Minister Dharmendra Pradhan resigned following weeks of demonstrations over exam system failures [BBC, France 24, Al Jazeera]. In financial markets, Chinese memory chipmaker CXMT surged 465% in its Shanghai debut, surpassing Intel's market capitalization in Asia's largest IPO of the year [Nikkei Asia, Financial Times].",
   "top_stories": [
     {
-      "headline": "US Pauses Iran Strikes Amid Reports of Dwindling Munitions Stockpiles",
-      "category": "Conflict",
-      "bullets": [
-        "The US military conducted no strikes on Iran overnight Saturday-Sunday, ending nearly two weeks of consecutive nightly bombardments",
-        "US media reports cite concerns over depleting Patriot interceptor and air defense munitions stockpiles as a factor in the operational pause",
-        "An Omani delegation arrived in Tehran for talks on Strait of Hormuz management; the US naval blockade remains in effect",
-        "Iran's Houthi allies claimed a missile strike on Saudi Arabia's Jizan province in retaliation for Saudi strikes on Hodeida"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized munitions concerns and diplomatic revival",
-          "url": "https://www.france24.com/en/europe/20260725-van-rams-berlin-pride-crowd-killing-one-and-injuring-15"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Focused on hope for negotiations returning",
-          "url": "https://www.abc.net.au/news/2026-07-26/runaway-coal-train-hunter-valley/106959762"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Iranian warnings about war widening",
-          "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Brief coverage noting Houthi retaliation and Trump's continued threats",
-          "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Wildfires Displace Over 330,000 Across France and Spain; Tour de France Shortened",
+      "headline": "Wildfires Displace Over 325,000 Across France and Spain as Heatwave Looms",
       "category": "Climate",
       "bullets": [
-        "More than 330,000 people have been evacuated across France and Spain, with 220,000 displaced in France alone",
-        "France deployed military assets including an A400M cargo plane to drop flame retardant; 42,000 hectares have burned near Bordeaux",
-        "One person died in Manises, Spain, marking the first fatality from the blazes",
-        "The Tour de France final stage was reduced by one-third to allow security personnel redeployment to fire zones"
+        "More than 220,000 people evacuated in France's Gironde department, with fires now 15 km from Bordeaux; 75,000+ evacuated in Spain across \u00c1vila, Madrid and Toledo provinces",
+        "French President Macron convened crisis cabinet meeting Monday; Spanish PM S\u00e1nchez visited fire-hit areas in Valencia where new blaze forced 15,000 additional evacuations",
+        "Combined burned area exceeds 146,000 hectares; Spanish Interior Minister described \u00c1vila fire as a 'monster' with 280 km perimeter",
+        "Temperatures forecast to reach 37-40\u00b0C in Bordeaux region later this week, complicating firefighting efforts"
       ],
       "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed firefighter accounts of 'fire whirlwinds' and erratic conditions",
-          "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
-        },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized scale of evacuation operation as one of largest peacetime efforts in France",
-          "url": "https://www.rfi.fr/en/international/20260725-iran-seeks-to-sow-confusion-among-gulf-states-by-targeting-bahrain-and-kuwait"
+          "framing_note": "Detailed operational coverage focusing on firefighting logistics and evacuation numbers",
+          "url": "https://www.rfi.fr/en/france/20260726-how-slavery-money-built-the-%C3%A9lys%C3%A9e-france-s-presidential-residence"
         },
         {
-          "name": "Globe and Mail",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Highlighted Tour de France impact and military response",
-          "url": "https://www.theglobeandmail.com/world/article-250000-displaced-in-eastern-europe-as-spain-and-france-continue-to/"
+          "framing_note": "Emphasized crisis response and Macron meeting; used 'monster' and 'apocalyptic' descriptors",
+          "url": "https://www.france24.com/en/video/20260727-india-protesters-celebrate-as-education-minister-resigns-modi-announces-exam-system-reform"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Straightforward factual coverage",
-          "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief video coverage focused on Spain",
-          "url": "https://www.france24.com/en/europe/20260725-van-rams-berlin-pride-crowd-killing-one-and-injuring-15"
-        }
-      ]
-    },
-    {
-      "headline": "Van Attack at Berlin Pride Kills One, Injures 16; Suspect With Islamist Ties Sought",
-      "category": "Society",
-      "bullets": [
-        "A white van drove into crowds at Berlin's LGBTQ+ Pride celebration Saturday night, killing one and injuring at least 16, some critically",
-        "German authorities issued a wanted notice for a 21-year-old suspect identified as Abdul B., warning he may be armed and dangerous",
-        "Berlin police confirmed the suspect has known ties to Islamist groups in the city",
-        "Chancellor Friedrich Merz called the incident 'an attack on our society'; the event and concert were cancelled"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of suspect identification and police manhunt",
-          "url": "https://www.france24.com/en/europe/20260725-van-rams-berlin-pride-crowd-killing-one-and-injuring-15"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline available; body not accessible",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/25/kazakh-leader-to-putin-the-ukraine-war-should-end_6755836_4.html"
+          "framing_note": "Explanatory approach connecting fires to broader European heatwave patterns",
+          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/inside-the-wildfire-crisis-raging-across-france-and-spain-explained/article71271709.ece"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Headline coverage only",
-          "url": "https://www.ft.com/content/5b789a38-c9ca-4b23-8e61-8f9e2e589396?syn-25a6b1a6=1"
+          "framing_note": null,
+          "url": "https://www.ft.com/content/6f39ace4-0d94-4005-855a-8da6f74e6efc?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "headline": "US and Iran Pause Strikes for Second Consecutive Day, Opening Window for Talks",
+      "category": "Conflict",
+      "bullets": [
+        "US military halted strikes on Iran after 13 consecutive nights of attacks; Iran reciprocally paused retaliatory strikes against US allies in the Middle East",
+        "US Ambassador to UN Mike Waltz stated Trump is 'giving talks some space' while forces remain 'locked and loaded'",
+        "Oil prices fell more than 7% on news of the pause, providing relief to Gulf shipping and energy markets",
+        "Iran's Foreign Ministry spokesperson indicated progress in Oman-mediated talks on Strait of Hormuz management"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief headline coverage of mutual pause",
+          "url": "https://www.france24.com/en/video/20260727-india-protesters-celebrate-as-education-minister-resigns-modi-announces-exam-system-reform"
         },
         {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized police statements on Islamist connections",
-          "url": "https://www.rfi.fr/en/international/20260725-iran-seeks-to-sow-confusion-among-gulf-states-by-targeting-bahrain-and-kuwait"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Framed as 'tentative opening for renewed talks'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/26/brazil-recalls-ambassador-to-argentina-as-milei-s-attacks-on-lula-trigger-diplomatic-row_6755862_4.html"
         },
         {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage including suspect description",
-          "url": "https://www.theglobeandmail.com/world/article-250000-displaced-in-eastern-europe-as-spain-and-france-continue-to/"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Led with market impact\u20147% oil price drop",
+          "url": "https://www.ft.com/content/6f39ace4-0d94-4005-855a-8da6f74e6efc?syn-25a6b1a6=1"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Included detail on apparent stabbings in addition to vehicle attack",
-          "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
+          "framing_note": "Detailed timeline emphasizing Iranian perspective and Oman negotiations",
+          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/inside-the-wildfire-crisis-raging-across-france-and-spain-explained/article71271709.ece"
         }
       ]
     },
     {
-      "headline": "Russian Missile Strikes Kill 10 at Ukraine Drone Exhibition Near Kyiv",
+      "headline": "Berlin Pride Attack Suspect Shot Dead After Islamist Terror Probe Launched",
       "category": "Conflict",
       "bullets": [
-        "Russian ballistic missile strikes hit a drone technology exhibition near Kyiv, killing at least 10 people and injuring approximately 100",
-        "The daytime attack targeted an event attended by prominent defense sector figures; key officials later confirmed they were unharmed",
-        "Five additional people were killed by Russian glide bombs in Sloviansk; two died in Sumy",
-        "President Zelensky warned of intelligence indicating Russia was preparing another massive missile strike within 48 hours"
+        "Abdul Ballout, 21, German citizen with Lebanese heritage, killed by police in Spandau after charging officers with a knife following 24-hour manhunt",
+        "Saturday attack near Tiergarten park killed one woman and injured at least 29 when van drove into crowd followed by stabbing",
+        "German Interior Minister Alexander Dobrindt confirmed evidence points to Islamist terror attack; suspect had prior criminal record and attempted to join ISIS in 2025",
+        "Ballout had been arrested in Lebanon in July 2025, sentenced to three months for incitement, before returning to Germany"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed coverage including Ukrainian counterstrike on Russian city of Kirov",
-          "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Comprehensive factual account with detailed suspect background from prosecutor's office",
+          "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
+          "framing_note": "Duplicate coverage",
           "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Slightly shorter account, emphasized suspect's IS connections",
+          "url": "https://www.rfi.fr/en/france/20260726-how-slavery-money-built-the-%C3%A9lys%C3%A9e-france-s-presidential-residence"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Headline emphasized Berlin as 'queer-friendly city' and community shock",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/26/brazil-recalls-ambassador-to-argentina-as-milei-s-attacks-on-lula-trigger-diplomatic-row_6755862_4.html"
         }
       ]
     },
     {
-      "headline": "India's Education Minister Resigns After Weeks of Youth-Led 'Cockroach' Protests",
-      "category": "Policy",
+      "headline": "Indian Education Minister Resigns After Weeks of Gen Z Student Protests",
+      "category": "Society",
       "bullets": [
-        "Education Minister Dharmendra Pradhan resigned following five weeks of protests organized by the satirical 'Cockroach Janta Party' movement",
-        "The AI-generated cockroach mascot became a symbol for youth frustration with examination irregularities and government policies",
-        "Protests intensified after Monday's police crackdown on marchers heading to parliament left dozens injured",
-        "The CJP called off demonstrations following the resignation, declaring a victory for democracy"
+        "Education Minister Dharmendra Pradhan resigned Saturday following five weeks of protests led by student movement Cockroach Janata Party, founded by 30-year-old Abhijeet Dipke",
+        "Protests erupted after NEET medical entrance exam was cancelled in May following irregularities; demonstrators occupied Jantar Mantar site despite police crackdown",
+        "First cabinet resignation under Modi government aside from one prior sexual misconduct case in 12 years of rule",
+        "PM Modi announced exam system reforms; climate activist Greta Thunberg joined solidarity rally in London"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized the novel nature of the AI-mascot protest movement and its evolution into a serious political force",
-          "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
+          "framing_note": "In-depth analysis of Gen Z protest tactics and social media strategy; quoted student activists",
+          "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Video-focused coverage of celebrations and protest scenes",
+          "url": "https://www.france24.com/en/video/20260727-india-protesters-celebrate-as-education-minister-resigns-modi-announces-exam-system-reform"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage emphasizing Thunberg's involvement at London rally",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/spanish-pm-pedro-sanchez-thanks-young-gaza-artist-for-painting-him?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Chinese Chipmaker CXMT Surges 465% in Debut, Surpasses Intel Market Cap",
+      "category": "Economics",
+      "bullets": [
+        "State-backed DRAM supplier CXMT raised at least 57.9 billion yuan ($8.6 billion) in Asia's largest IPO of 2026",
+        "Shares jumped 465-466% on first day of trading on Shanghai's STAR Market",
+        "Company's market capitalization now exceeds that of US chip giant Intel",
+        "IPO reflects continued momentum in China's semiconductor sector amid global AI boom despite US export restrictions"
+      ],
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Detailed financial reporting on IPO mechanics and market context",
+          "url": "https://asia.nikkei.com/business/electronics/india-s-battery-recycling-drive-hits-logistics-and-cost-barriers"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Headline focused on dramatic percentage gain",
+          "url": "https://www.ft.com/content/6f39ace4-0d94-4005-855a-8da6f74e6efc?syn-25a6b1a6=1"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "ICC removes chief prosecutor Karim Khan over sexual misconduct findings after 82 member states vote for dismissal",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo"
-    },
-    {
-      "headline": "Trump threatens trade investigation and tariffs against EU over fines imposed on American tech companies including Google, Apple, and Meta",
+      "headline": "Trump threatens EU investigation and tariffs over tech company fines against Google, Apple, Meta and Amazon",
       "source": "BBC Europe",
       "url": "https://www.bbc.co.uk/news/articles/cvgjenp4680o"
     },
     {
-      "headline": "Canadian intern of Chinese origin arrested at NATO military headquarters in Belgium on suspicion of espionage",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-canadian-intern-at-nato-military-headquarters-in-belgium-arrested-on/"
+      "headline": "ICC members vote to remove prosecutor Karim Khan over sexual misconduct allegations",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo"
     },
     {
-      "headline": "Typhoon Noul makes landfall in southern China's Guangdong province, forcing evacuation of over 715,000 people",
+      "headline": "Russian ballistic missile strikes kill 10 at drone exhibition near Kyiv, injure approximately 100",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko"
+    },
+    {
+      "headline": "Three killed, several injured including two-year-old in shooting at Seattle food festival near Space Needle",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo"
+    },
+    {
+      "headline": "Bank Indonesia governor Perry Warjiyo resigns amid political pressure concerns, rattling markets",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/bank-indonesia-chief-quits-as-political-pressure-mounts-5-things-to-know2"
+    },
+    {
+      "headline": "Monsoon flooding in Pakistan kills at least 107 people since June, with 400 sq km underwater in Punjab",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/26/typhoon-noul-makes-landfall-in-china-with-hundreds-of-thousands-evacuated"
+      "url": "https://www.aljazeera.com/news/2026/7/27/death-toll-from-pakistan-monsoon-rains-floods-tops-100"
     },
     {
-      "headline": "German Chancellor Merz reshuffles cabinet weeks before regional elections amid far-right surge concerns",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/26/germany-s-merz-reshuffles-cabinet-weeks-before-regional-elections-as-far-right-surge-looms_6755838_4.html"
+      "headline": "Tadej Poga\u010dar wins record-equaling fifth Tour de France title",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/sports/20260726-pogacar-wins-record-equalling-fifth-tour-de-france-2"
     },
     {
-      "headline": "Israeli settlers set fire to mosque in occupied West Bank village of Qusra as military conducts crackdown following shooting",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/israeli-settlers-set-fire-to-mosque-in-occupied-west-bank"
-    },
-    {
-      "headline": "Two Russian men sentenced to prison in Angola for terrorism and spying, accused of planning coup and organizing deadly demonstrations",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
-    },
-    {
-      "headline": "World chess federation president Arkady Dvorkovich steps aside after being added to EU sanctions list over Ukraine war support",
+      "headline": "World chess federation president Arkady Dvorkovich steps aside after EU sanctions over Ukraine war stance",
       "source": "BBC Europe",
       "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o"
     },
     {
-      "headline": "Nepal lifts post-demonetisation restrictions, allowing Indian currency notes of \u20b9200 and \u20b9500 denominations",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
+      "headline": "Brazil recalls ambassador to Argentina following diplomatic row over President Milei's attacks on Lula",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/26/brazil-recalls-ambassador-to-argentina-as-milei-s-attacks-on-lula-trigger-diplomatic-row_6755862_4.html"
     },
     {
-      "headline": "Climate change exacerbating European drought by dramatically increasing evaporation rates, scientists find",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20260725-climate-change-exacerbating-drought-across-europe-scientists-say"
+      "headline": "Explosion near Philippine Justice Ministry and suspected bomb found near Senate ahead of Marcos address",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/explosion-suspected-bomb-in-philippine-capital-before-marcos-speech/article71271787.ece"
     }
   ]
 }
