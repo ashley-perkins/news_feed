@@ -1,220 +1,183 @@
 {
-  "date": "Monday, July 27, 2026",
-  "daily_brief": "The day's most significant developments center on escalating climate emergencies and fragile diplomatic openings. Catastrophic wildfires across southwestern France and Spain have displaced over 325,000 people, with flames now within 15 kilometers of Bordeaux as another heatwave approaches [RFI, France 24, The Hindu]. President Macron has convened a crisis cabinet meeting. Meanwhile, a tentative pause in hostilities between the US and Iran\u2014marking the second consecutive day without strikes\u2014has sent oil prices tumbling more than 7% and opened a narrow window for renewed negotiations [France 24, Le Monde, Financial Times, The Hindu]. In Berlin, a 24-hour manhunt ended when police shot and killed Abdul Ballout, the suspect in Saturday's Pride attack that killed one and injured 29; German authorities have characterized the incident as an Islamist terror attack [BBC, RFI]. India's student protest movement secured a rare political victory as Education Minister Dharmendra Pradhan resigned following weeks of demonstrations over exam system failures [BBC, France 24, Al Jazeera]. In financial markets, Chinese memory chipmaker CXMT surged 465% in its Shanghai debut, surpassing Intel's market capitalization in Asia's largest IPO of the year [Nikkei Asia, Financial Times].",
+  "date": "Tuesday, July 28, 2026",
+  "daily_brief": "The day's most consequential developments center on cautious optimism in the US-Iran conflict, with President Trump announcing ongoing negotiations after three days without strikes, while warning the US would resume attacks if talks fail [BBC, France 24]. Oil prices fell sharply on de-escalation hopes. In Europe, catastrophic wildfires continue ravaging France and Spain, with over 325,000 evacuated and temperatures forecast to rise again [RFI, BBC, Financial Times]. The fires near Bordeaux have burned 42,000 hectares and generated unprecedented fire-weather phenomena. French football received significant news as Zinedine Zidane was confirmed as the new Les Bleus head coach, replacing Didier Deschamps [France 24]. Meanwhile, Italy's football federation was thrown into crisis after Andrea Pirlo withdrew from consideration for the national team role over ties to a Russian betting firm, prompting resignations from senior officials [BBC Europe]. A magnitude 7.1 earthquake struck Japan's Kyushu region, triggering tsunami warnings across multiple prefectures [The Hindu]. Johnson & Johnson offered up to $5.5 billion to settle tens of thousands of talc-related cancer lawsuits in the US [BBC].",
   "top_stories": [
     {
-      "headline": "Wildfires Displace Over 325,000 Across France and Spain as Heatwave Looms",
-      "category": "Climate",
-      "bullets": [
-        "More than 220,000 people evacuated in France's Gironde department, with fires now 15 km from Bordeaux; 75,000+ evacuated in Spain across \u00c1vila, Madrid and Toledo provinces",
-        "French President Macron convened crisis cabinet meeting Monday; Spanish PM S\u00e1nchez visited fire-hit areas in Valencia where new blaze forced 15,000 additional evacuations",
-        "Combined burned area exceeds 146,000 hectares; Spanish Interior Minister described \u00c1vila fire as a 'monster' with 280 km perimeter",
-        "Temperatures forecast to reach 37-40\u00b0C in Bordeaux region later this week, complicating firefighting efforts"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Detailed operational coverage focusing on firefighting logistics and evacuation numbers",
-          "url": "https://www.rfi.fr/en/france/20260726-how-slavery-money-built-the-%C3%A9lys%C3%A9e-france-s-presidential-residence"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized crisis response and Macron meeting; used 'monster' and 'apocalyptic' descriptors",
-          "url": "https://www.france24.com/en/video/20260727-india-protesters-celebrate-as-education-minister-resigns-modi-announces-exam-system-reform"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Explanatory approach connecting fires to broader European heatwave patterns",
-          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/inside-the-wildfire-crisis-raging-across-france-and-spain-explained/article71271709.ece"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": null,
-          "url": "https://www.ft.com/content/6f39ace4-0d94-4005-855a-8da6f74e6efc?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "US and Iran Pause Strikes for Second Consecutive Day, Opening Window for Talks",
+      "headline": "US and Iran Pause Strikes as Trump Signals Optimism on Negotiations",
       "category": "Conflict",
       "bullets": [
-        "US military halted strikes on Iran after 13 consecutive nights of attacks; Iran reciprocally paused retaliatory strikes against US allies in the Middle East",
-        "US Ambassador to UN Mike Waltz stated Trump is 'giving talks some space' while forces remain 'locked and loaded'",
-        "Oil prices fell more than 7% on news of the pause, providing relief to Gulf shipping and energy markets",
-        "Iran's Foreign Ministry spokesperson indicated progress in Oman-mediated talks on Strait of Hormuz management"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief headline coverage of mutual pause",
-          "url": "https://www.france24.com/en/video/20260727-india-protesters-celebrate-as-education-minister-resigns-modi-announces-exam-system-reform"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Framed as 'tentative opening for renewed talks'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/26/brazil-recalls-ambassador-to-argentina-as-milei-s-attacks-on-lula-trigger-diplomatic-row_6755862_4.html"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Led with market impact\u20147% oil price drop",
-          "url": "https://www.ft.com/content/6f39ace4-0d94-4005-855a-8da6f74e6efc?syn-25a6b1a6=1"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Detailed timeline emphasizing Iranian perspective and Oman negotiations",
-          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/inside-the-wildfire-crisis-raging-across-france-and-spain-explained/article71271709.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Berlin Pride Attack Suspect Shot Dead After Islamist Terror Probe Launched",
-      "category": "Conflict",
-      "bullets": [
-        "Abdul Ballout, 21, German citizen with Lebanese heritage, killed by police in Spandau after charging officers with a knife following 24-hour manhunt",
-        "Saturday attack near Tiergarten park killed one woman and injured at least 29 when van drove into crowd followed by stabbing",
-        "German Interior Minister Alexander Dobrindt confirmed evidence points to Islamist terror attack; suspect had prior criminal record and attempted to join ISIS in 2025",
-        "Ballout had been arrested in Lebanon in July 2025, sentenced to three months for incitement, before returning to Germany"
+        "US and Iran have not exchanged strikes for three consecutive days following nearly two weeks of daily US attacks aimed at degrading Iran's ability to threaten shipping in the Strait of Hormuz",
+        "Trump told reporters aboard Air Force One that 'friendly negotiations' are underway through mediators and expressed optimism that 'something could happen,' while warning strikes would resume if talks fail",
+        "Tehran denied direct negotiations are taking place but acknowledged mediators are conveying messages; Iran has also halted its attacks during the pause",
+        "Oil prices fell more than 9% to $87.59 per barrel on Monday amid hopes of de-escalation"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Comprehensive factual account with detailed suspect background from prosecutor's office",
-          "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on Trump's statements and ammunition stockpile questions",
+          "url": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized Netanyahu-Trump meeting context and strained US-Israel relations",
+          "url": "https://www.france24.com/en/france/20260728-how-can-you-keep-yourself-safe-from-forever-chemicals-and-cadmium-in-food-part-2-3"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided detailed background on the June MoU collapse and Strait of Hormuz dispute",
+          "url": "https://www.thehindu.com/news/international/iran-israel-us-war-july-28-2026-latest-updates-strait-of-hormuz-donald-trump-oil-prices-today/article71275308.ece"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Characterized the war as 'consuming the Trump presidency'",
+          "url": "https://www.economist.com/international/2026/07/14/when-chinas-open-source-ai-is-a-trap"
+        }
+      ]
+    },
+    {
+      "headline": "Catastrophic Wildfires Force 325,000 to Evacuate Across France and Spain",
+      "category": "Climate",
+      "bullets": [
+        "Wildfires near Bordeaux have burned 42,000 hectares since July 22, forcing 220,000 evacuations and destroying 240 homes; officials describe it as the worst fire emergency since World War II",
+        "Spanish fires outside Madrid have burned approximately 770 square kilometers, with authorities describing them as the worst the region has ever experienced",
+        "Temperatures forecast to rise above 40\u00b0C on Tuesday threaten to reignite blazes that had stabilized overnight; the French fire has generated its own giant fire thunderstorm",
+        "EU has activated firefighting aircraft on standby; President Macron visited crisis centers warning 'the coming weeks will be tough'"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Detailed coverage of French government response and Macron's crisis coordination",
+          "url": "https://www.rfi.fr/en/france/20260727-paris-police-arrest-man-who-wounded-three-women-with-knives"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Duplicate coverage",
-          "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Slightly shorter account, emphasized suspect's IS connections",
-          "url": "https://www.rfi.fr/en/france/20260726-how-slavery-money-built-the-%C3%A9lys%C3%A9e-france-s-presidential-residence"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline emphasized Berlin as 'queer-friendly city' and community shock",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/26/brazil-recalls-ambassador-to-argentina-as-milei-s-attacks-on-lula-trigger-diplomatic-row_6755862_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Indian Education Minister Resigns After Weeks of Gen Z Student Protests",
-      "category": "Society",
-      "bullets": [
-        "Education Minister Dharmendra Pradhan resigned Saturday following five weeks of protests led by student movement Cockroach Janata Party, founded by 30-year-old Abhijeet Dipke",
-        "Protests erupted after NEET medical entrance exam was cancelled in May following irregularities; demonstrators occupied Jantar Mantar site despite police crackdown",
-        "First cabinet resignation under Modi government aside from one prior sexual misconduct case in 12 years of rule",
-        "PM Modi announced exam system reforms; climate activist Greta Thunberg joined solidarity rally in London"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "In-depth analysis of Gen Z protest tactics and social media strategy; quoted student activists",
-          "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized unprecedented scale with maps and satellite imagery",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Video-focused coverage of celebrations and protest scenes",
-          "url": "https://www.france24.com/en/video/20260727-india-protesters-celebrate-as-education-minister-resigns-modi-announces-exam-system-reform"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief coverage emphasizing Thunberg's involvement at London rally",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/spanish-pm-pedro-sanchez-thanks-young-gaza-artist-for-painting-him?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Chinese Chipmaker CXMT Surges 465% in Debut, Surpasses Intel Market Cap",
-      "category": "Economics",
-      "bullets": [
-        "State-backed DRAM supplier CXMT raised at least 57.9 billion yuan ($8.6 billion) in Asia's largest IPO of 2026",
-        "Shares jumped 465-466% on first day of trading on Shanghai's STAR Market",
-        "Company's market capitalization now exceeds that of US chip giant Intel",
-        "IPO reflects continued momentum in China's semiconductor sector amid global AI boom despite US export restrictions"
-      ],
-      "sources": [
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Detailed financial reporting on IPO mechanics and market context",
-          "url": "https://asia.nikkei.com/business/electronics/india-s-battery-recycling-drive-hits-logistics-and-cost-barriers"
+          "framing_note": "Live coverage focusing on local conditions and evacuation status",
+          "url": "https://www.france24.com/en/france/20260728-how-can-you-keep-yourself-safe-from-forever-chemicals-and-cadmium-in-food-part-2-3"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Headline focused on dramatic percentage gain",
-          "url": "https://www.ft.com/content/6f39ace4-0d94-4005-855a-8da6f74e6efc?syn-25a6b1a6=1"
+          "framing_note": "Highlighted EU-level coordination and firefighting resources",
+          "url": "https://www.ft.com/content/39c96379-0797-43f0-ae01-6711dd8986dc?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "headline": "Zinedine Zidane Named Head Coach of French National Football Team",
+      "category": "Society",
+      "bullets": [
+        "Zinedine Zidane will be officially announced as Les Bleus coach by French Football Federation president Philippe Diallo on Tuesday",
+        "Zidane, 54, has not coached since leaving Real Madrid in 2021, where he led the club to three consecutive Champions League titles (2016-2018)",
+        "He replaces Didier Deschamps, who stepped down after France lost to Spain in the 2026 World Cup semifinals",
+        "More than 120 journalists and photographers expected at FFF headquarters for the announcement"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Described it as 'the worst-kept secret in French football'",
+          "url": "https://www.france24.com/en/france/20260728-how-can-you-keep-yourself-safe-from-forever-chemicals-and-cadmium-in-food-part-2-3"
+        }
+      ]
+    },
+    {
+      "headline": "Italy Football Crisis Deepens as Pirlo Withdraws Over Russian Betting Ties",
+      "category": "Society",
+      "bullets": [
+        "Andrea Pirlo withdrew his candidacy for Italy head coach after criticism over his role as global ambassador for Russian betting company Fonbet since October 2025",
+        "Fonbet has sponsored sporting events involving veterans of Russia's war in Ukraine and hosted events where Pirlo appeared alongside pro-Kremlin figures",
+        "Technical director Paolo Maldini and adviser Leonardo resigned following Pirlo's withdrawal, deepening the federation's crisis",
+        "Italy has failed to qualify for three successive World Cups; politicians argued anyone promoting Russia since 2022 should not hold national office"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage linking the controversy to Italy's broader football failures and political criticism",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Magnitude 7.1 Earthquake Strikes Japan's Kyushu, Triggering Tsunami Warning",
+      "category": "Society",
+      "bullets": [
+        "A 7.1 magnitude earthquake struck Kumamoto prefecture on Japan's southern Kyushu island on Tuesday",
+        "Japan Meteorological Agency issued a tsunami warning for waves measuring 1 meter",
+        "Emergency earthquake warnings issued for seven prefectures: Kumamoto, Nagasaki, Kagoshima, Fukuoka, Saga, Oita, and Miyazaki"
+      ],
+      "sources": [
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": null,
+          "url": "https://www.thehindu.com/news/international/iran-israel-us-war-july-28-2026-latest-updates-strait-of-hormuz-donald-trump-oil-prices-today/article71275308.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Trump threatens EU investigation and tariffs over tech company fines against Google, Apple, Meta and Amazon",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cvgjenp4680o"
-    },
-    {
-      "headline": "ICC members vote to remove prosecutor Karim Khan over sexual misconduct allegations",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo"
-    },
-    {
-      "headline": "Russian ballistic missile strikes kill 10 at drone exhibition near Kyiv, injure approximately 100",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko"
-    },
-    {
-      "headline": "Three killed, several injured including two-year-old in shooting at Seattle food festival near Space Needle",
+      "headline": "Johnson & Johnson offers up to $5.5 billion to settle approximately 76,000 baby powder cancer lawsuits",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo"
+      "url": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o"
     },
     {
-      "headline": "Bank Indonesia governor Perry Warjiyo resigns amid political pressure concerns, rattling markets",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/bank-indonesia-chief-quits-as-political-pressure-mounts-5-things-to-know2"
-    },
-    {
-      "headline": "Monsoon flooding in Pakistan kills at least 107 people since June, with 400 sq km underwater in Punjab",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/27/death-toll-from-pakistan-monsoon-rains-floods-tops-100"
-    },
-    {
-      "headline": "Tadej Poga\u010dar wins record-equaling fifth Tour de France title",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/sports/20260726-pogacar-wins-record-equalling-fifth-tour-de-france-2"
-    },
-    {
-      "headline": "World chess federation president Arkady Dvorkovich steps aside after EU sanctions over Ukraine war stance",
+      "headline": "Ukraine dismisses Iranian retaliation threats after striking Iranian cargo vessel in Caspian Sea, marking first direct link between Iran and Ukraine wars",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cewrk58k2k4o"
+      "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo"
     },
     {
-      "headline": "Brazil recalls ambassador to Argentina following diplomatic row over President Milei's attacks on Lula",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/26/brazil-recalls-ambassador-to-argentina-as-milei-s-attacks-on-lula-trigger-diplomatic-row_6755862_4.html"
+      "headline": "Berlin Pride attacker had been released from prison weeks earlier despite terrorism conviction, sparking anger in Germany",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o"
     },
     {
-      "headline": "Explosion near Philippine Justice Ministry and suspected bomb found near Senate ahead of Marcos address",
+      "headline": "Iran summons French ambassador over 'interference' after two French diplomats were detained and one physically abused earlier this month",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260728-iran-says-summoned-french-envoy-over-interference-in-internal-affairs"
+    },
+    {
+      "headline": "Myanmar's military-backed parliament approves death sentence for those who coerce victims into working in online scam centers",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/explosion-suspected-bomb-in-philippine-capital-before-marcos-speech/article71271787.ece"
+      "url": "https://www.thehindu.com/news/international/myanmar-approves-death-sentence-for-cyberscam-offences/article71275674.ece"
+    },
+    {
+      "headline": "AI-generated fake videos of natural disasters complicate emergency response in China as Typhoon Noul makes landfall",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o"
+    },
+    {
+      "headline": "Uganda launches emergency food distribution after at least 19 deaths from hunger reported in drought-stricken Karamoja region",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
+    },
+    {
+      "headline": "Two Russian men sentenced to 8 and 11 years in Angola for terrorism and spying, accused of planning a coup and organizing deadly 2025 demonstrations",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
+    },
+    {
+      "headline": "Singer D4vd ordered to stand trial for murder of 14-year-old girl whose remains were found in his Tesla",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c70gkg62w0ro"
+    },
+    {
+      "headline": "Ben Carroll becomes Victoria's new premier, pledging royal commission into construction sector corruption",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-07-28/ben-carroll-vic-labor-premier-analysis/106966210"
     }
   ]
 }
