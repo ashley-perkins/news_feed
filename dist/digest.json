@@ -1,183 +1,202 @@
 {
-  "date": "Tuesday, July 28, 2026",
-  "daily_brief": "The day's most consequential developments center on cautious optimism in the US-Iran conflict, with President Trump announcing ongoing negotiations after three days without strikes, while warning the US would resume attacks if talks fail [BBC, France 24]. Oil prices fell sharply on de-escalation hopes. In Europe, catastrophic wildfires continue ravaging France and Spain, with over 325,000 evacuated and temperatures forecast to rise again [RFI, BBC, Financial Times]. The fires near Bordeaux have burned 42,000 hectares and generated unprecedented fire-weather phenomena. French football received significant news as Zinedine Zidane was confirmed as the new Les Bleus head coach, replacing Didier Deschamps [France 24]. Meanwhile, Italy's football federation was thrown into crisis after Andrea Pirlo withdrew from consideration for the national team role over ties to a Russian betting firm, prompting resignations from senior officials [BBC Europe]. A magnitude 7.1 earthquake struck Japan's Kyushu region, triggering tsunami warnings across multiple prefectures [The Hindu]. Johnson & Johnson offered up to $5.5 billion to settle tens of thousands of talc-related cancer lawsuits in the US [BBC].",
+  "date": "Wednesday, July 29, 2026",
+  "daily_brief": "The Middle East conflict escalated sharply on Wednesday as Iran launched ballistic missiles at US bases, prompting joint US-Saudi airstrikes on Iran-backed militias in Iraq that killed at least 20 fighters [BBC, Al Jazeera, The Hindu]. The strikes mark a significant development with Saudi Arabia's direct military participation alongside American forces. In Japan, rescue operations continued after a 7.1-magnitude earthquake struck Kumamoto, killing at least 13 people and disrupting semiconductor and automotive production at TSMC and Toyota facilities [BBC, Nikkei Asia]. Across southwestern Europe, wildfires have displaced over 330,000 people in France and Spain, with French authorities ordering additional evacuations as a fourth heatwave approaches [France 24, The Hindu, BBC Europe]. Transatlantic tensions deepened as US diplomats walked out of a UN Security Council meeting during French remarks criticizing the Trump administration, while the Pentagon announced a formal review of its European military presence [RFI]. The Trump administration also moved to ban imports of Chinese humanoid robots, citing national security concerns [BBC].",
   "top_stories": [
     {
-      "headline": "US and Iran Pause Strikes as Trump Signals Optimism on Negotiations",
+      "headline": "US and Saudi Arabia Launch Joint Airstrikes on Iran-Backed Militias in Iraq After Iranian Missile Attack",
       "category": "Conflict",
       "bullets": [
-        "US and Iran have not exchanged strikes for three consecutive days following nearly two weeks of daily US attacks aimed at degrading Iran's ability to threaten shipping in the Strait of Hormuz",
-        "Trump told reporters aboard Air Force One that 'friendly negotiations' are underway through mediators and expressed optimism that 'something could happen,' while warning strikes would resume if talks fail",
-        "Tehran denied direct negotiations are taking place but acknowledged mediators are conveying messages; Iran has also halted its attacks during the pause",
-        "Oil prices fell more than 9% to $87.59 per barrel on Monday amid hopes of de-escalation"
+        "Iran's IRGC fired multiple ballistic missiles at US forces in the Middle East, all of which were intercepted according to US Central Command",
+        "US and Saudi fighter jets struck logistics and weapons sites across eastern Iraq belonging to the Popular Mobilisation Forces, killing at least 20 fighters and wounding 32",
+        "Iran's Revolutionary Guards claimed to have struck three oil tankers in the Strait of Hormuz and rejected Oman's proposal for joint regional management of the waterway",
+        "The PMF described the strikes as a 'dangerous escalation' and 'violation of Iraq's sovereignty'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on Trump's statements and ammunition stockpile questions",
-          "url": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized Saudi participation as 'potential escalation' of Middle East conflict",
+          "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized Netanyahu-Trump meeting context and strained US-Israel relations",
-          "url": "https://www.france24.com/en/france/20260728-how-can-you-keep-yourself-safe-from-forever-chemicals-and-cadmium-in-food-part-2-3"
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Characterized Iran's attack as 'pre-emptive' rather than reactionary; highlighted IRGC statement on continued resistance",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/latest-images-of-damage-as-death-toll-from-japans-kyushu-quake-rises?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Provided detailed background on the June MoU collapse and Strait of Hormuz dispute",
-          "url": "https://www.thehindu.com/news/international/iran-israel-us-war-july-28-2026-latest-updates-strait-of-hormuz-donald-trump-oil-prices-today/article71275308.ece"
+          "framing_note": "Focused on diplomatic dimension, including Iran's rejection of Oman's Hormuz proposal",
+          "url": "https://www.thehindu.com/news/international/france-orders-more-evacuated-as-fires-displace-a-third-of-a-million-across-southwest-europe/article71279787.ece"
         },
         {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Characterized the war as 'consuming the Trump presidency'",
-          "url": "https://www.economist.com/international/2026/07/14/when-chinas-open-source-ai-is-a-trap"
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Provided casualty updates and Iraqi PMF response",
+          "url": "https://www.france24.com/en/sport/20260729-uefa-accuses-fifa-of-selling-football-with-world-cup-investment-plan"
         }
       ]
     },
     {
-      "headline": "Catastrophic Wildfires Force 325,000 to Evacuate Across France and Spain",
+      "headline": "Japan Earthquake Kills 13, Disrupts TSMC and Toyota Production in Kumamoto",
+      "category": "Society",
+      "bullets": [
+        "A 7.1-magnitude earthquake struck Kumamoto prefecture on Tuesday, reaching maximum intensity of 7 on Japan's seismic scale\u2014the first since the 2024 Noto Peninsula quake",
+        "At least 13 people confirmed dead with rescue operations ongoing; an explosion occurred at Aeon Mall Kumamoto, trapping multiple people",
+        "TSMC evacuated personnel from its JASM semiconductor fab; Toyota halted operations at three Fukuoka plants through Friday; Sony and Renesas also paused production",
+        "Japan Meteorological Agency warned strong aftershocks may continue for up to a week"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized rescue operations and human toll",
+          "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Focused heavily on industrial and supply chain disruptions, particularly semiconductor impacts",
+          "url": "https://asia.nikkei.com/photos/in-focus-magnitude-7.1-earthquake-jolts-kumamoto"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage focused on death toll and rescue imagery",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/latest-images-of-damage-as-death-toll-from-japans-kyushu-quake-rises?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Wildfires Displace Over 330,000 Across France and Spain as Fourth Heatwave Approaches",
       "category": "Climate",
       "bullets": [
-        "Wildfires near Bordeaux have burned 42,000 hectares since July 22, forcing 220,000 evacuations and destroying 240 homes; officials describe it as the worst fire emergency since World War II",
-        "Spanish fires outside Madrid have burned approximately 770 square kilometers, with authorities describing them as the worst the region has ever experienced",
-        "Temperatures forecast to rise above 40\u00b0C on Tuesday threaten to reignite blazes that had stabilized overnight; the French fire has generated its own giant fire thunderstorm",
-        "EU has activated firefighting aircraft on standby; President Macron visited crisis centers warning 'the coming weeks will be tough'"
+        "France ordered 4,000 additional evacuations from Atlantic coast tourist sites; approximately 200,000 people displaced in the Gironde region alone",
+        "Spain began lifting some evacuation orders, allowing 44,000 people to return home, though Madrid region fires remain the worst in recorded regional history",
+        "A fourth heatwave expected to bring temperatures to 40\u00b0C starting Wednesday, with Spanish meteorological agency warning fire danger will reach 'extreme levels'",
+        "EU crisis chief stated wildfire response needs more funding and greater focus on forest management as climate change accelerates"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Detailed geographic spread and firefighter challenges; noted fires threatening military and industrial sites",
+          "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Live coverage emphasizing fire remaining 'under control' but conditions 'unfavourable'",
+          "url": "https://www.france24.com/en/sport/20260729-uefa-accuses-fifa-of-selling-football-with-world-cup-investment-plan"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized scale as potentially 'largest peacetime evacuation' in France",
+          "url": "https://www.thehindu.com/news/international/france-orders-more-evacuated-as-fires-displace-a-third-of-a-million-across-southwest-europe/article71279787.ece"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on EU crisis chief warning about risks of scaling back green agenda",
+          "url": "https://www.ft.com/content/5f41c99b-a866-45d5-844b-1114969175fc"
+        }
+      ]
+    },
+    {
+      "headline": "US Walks Out of UN Security Council Over French Criticism; Pentagon Launches Europe Troop Review",
+      "category": "Geopolitics",
+      "bullets": [
+        "US diplomats walked out of a UN Security Council meeting on Ukraine while French counterparts were speaking, following French criticism of Trump administration human rights record",
+        "The walkout followed the UN General Assembly's 144-10 vote to reappoint human rights chief Volker Turk despite US opposition",
+        "Pentagon announced formal review of US military presence in Europe, aiming to accelerate NATO's transition to Europe taking 'primary responsibility for its conventional defense'",
+        "Tensions compound broader US-Europe disputes over NATO burden sharing, troop deployments, and Trump's stated interest in Greenland"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Detailed coverage of French government response and Macron's crisis coordination",
-          "url": "https://www.rfi.fr/en/france/20260727-paris-police-arrest-man-who-wounded-three-women-with-knives"
+          "framing_note": "Detailed the diplomatic incident and broader context of US-France tensions; noted France's support for Turk",
+          "url": "https://www.rfi.fr/en/international/20260728-uk-s-burnham-pledges-new-drone-tech-to-ukraine-in-zelensky-meeting"
         },
         {
-          "name": "BBC Europe",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized unprecedented scale with maps and satellite imagery",
-          "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Live coverage focusing on local conditions and evacuation status",
-          "url": "https://www.france24.com/en/france/20260728-how-can-you-keep-yourself-safe-from-forever-chemicals-and-cadmium-in-food-part-2-3"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Highlighted EU-level coordination and firefighting resources",
-          "url": "https://www.ft.com/content/39c96379-0797-43f0-ae01-6711dd8986dc?syn-25a6b1a6=1"
+          "framing_note": "Separate article on troop review emphasized Trump's complaints about European allies during Iran war",
+          "url": "https://www.rfi.fr/en/international/20260728-uk-s-burnham-pledges-new-drone-tech-to-ukraine-in-zelensky-meeting"
         }
       ]
     },
     {
-      "headline": "Zinedine Zidane Named Head Coach of French National Football Team",
-      "category": "Society",
+      "headline": "Trump Administration Bans Imports of Chinese Humanoid Robots Citing National Security",
+      "category": "Technology",
       "bullets": [
-        "Zinedine Zidane will be officially announced as Les Bleus coach by French Football Federation president Philippe Diallo on Tuesday",
-        "Zidane, 54, has not coached since leaving Real Madrid in 2021, where he led the club to three consecutive Champions League titles (2016-2018)",
-        "He replaces Didier Deschamps, who stepped down after France lost to Spain in the 2026 World Cup semifinals",
-        "More than 120 journalists and photographers expected at FFF headquarters for the announcement"
+        "FCC banned new imports of foreign-made humanoid robots and four-legged machines, with most affected products made in China",
+        "Ban also covers power inverters used in data centers and solar panels, citing risks of remote shutoff, data theft, and surveillance by 'foreign government actors'",
+        "Items added to FCC's Covered List; existing authorized models can still be sold and imported",
+        "Chinese embassy accused US of 'politicising' trade issues and imposing sanctions based on 'groundless pretexts'"
       ],
       "sources": [
         {
-          "name": "France 24",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Described it as 'the worst-kept secret in French football'",
-          "url": "https://www.france24.com/en/france/20260728-how-can-you-keep-yourself-safe-from-forever-chemicals-and-cadmium-in-food-part-2-3"
-        }
-      ]
-    },
-    {
-      "headline": "Italy Football Crisis Deepens as Pirlo Withdraws Over Russian Betting Ties",
-      "category": "Society",
-      "bullets": [
-        "Andrea Pirlo withdrew his candidacy for Italy head coach after criticism over his role as global ambassador for Russian betting company Fonbet since October 2025",
-        "Fonbet has sponsored sporting events involving veterans of Russia's war in Ukraine and hosted events where Pirlo appeared alongside pro-Kremlin figures",
-        "Technical director Paolo Maldini and adviser Leonardo resigned following Pirlo's withdrawal, deepening the federation's crisis",
-        "Italy has failed to qualify for three successive World Cups; politicians argued anyone promoting Russia since 2022 should not hold national office"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage linking the controversy to Italy's broader football failures and political criticism",
-          "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Magnitude 7.1 Earthquake Strikes Japan's Kyushu, Triggering Tsunami Warning",
-      "category": "Society",
-      "bullets": [
-        "A 7.1 magnitude earthquake struck Kumamoto prefecture on Japan's southern Kyushu island on Tuesday",
-        "Japan Meteorological Agency issued a tsunami warning for waves measuring 1 meter",
-        "Emergency earthquake warnings issued for seven prefectures: Kumamoto, Nagasaki, Kagoshima, Fukuoka, Saga, Oita, and Miyazaki"
-      ],
-      "sources": [
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": null,
-          "url": "https://www.thehindu.com/news/international/iran-israel-us-war-july-28-2026-latest-updates-strait-of-hormuz-donald-trump-oil-prices-today/article71275308.ece"
+          "framing_note": "Balanced presentation including both US security rationale and Chinese response",
+          "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Johnson & Johnson offers up to $5.5 billion to settle approximately 76,000 baby powder cancer lawsuits",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o"
-    },
-    {
-      "headline": "Ukraine dismisses Iranian retaliation threats after striking Iranian cargo vessel in Caspian Sea, marking first direct link between Iran and Ukraine wars",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo"
-    },
-    {
-      "headline": "Berlin Pride attacker had been released from prison weeks earlier despite terrorism conviction, sparking anger in Germany",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o"
-    },
-    {
-      "headline": "Iran summons French ambassador over 'interference' after two French diplomats were detained and one physically abused earlier this month",
+      "headline": "EU condemns 'aggression' against French diplomats detained and physically abused by Iranian security services in Tehran",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260728-iran-says-summoned-french-envoy-over-interference-in-internal-affairs"
+      "url": "https://www.rfi.fr/en/international/20260729-eu-condemns-iran-aggression-against-french-diplomats"
     },
     {
-      "headline": "Myanmar's military-backed parliament approves death sentence for those who coerce victims into working in online scam centers",
+      "headline": "Zinedine Zidane officially appointed France national football team coach, succeeding Didier Deschamps",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/sports/20260728-france-legend-zidane-succeeds-deschamps-as-france-football-coach"
+    },
+    {
+      "headline": "US Senate advances bipartisan sanctions bill targeting buyers of Russian and Iranian oil, potentially affecting India and China",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/myanmar-approves-death-sentence-for-cyberscam-offences/article71275674.ece"
+      "url": "https://www.thehindu.com/news/international/us-senate-advances-sanctions-bill-targeting-russian-iranian-oil-buyers-including-india-and-china/article71280304.ece"
     },
     {
-      "headline": "AI-generated fake videos of natural disasters complicate emergency response in China as Typhoon Noul makes landfall",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o"
+      "headline": "UK Prime Minister Andy Burnham pledges new drone-jamming technology to Ukraine in first meeting with Zelensky",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260728-uk-s-burnham-pledges-new-drone-tech-to-ukraine-in-zelensky-meeting"
     },
     {
-      "headline": "Uganda launches emergency food distribution after at least 19 deaths from hunger reported in drought-stricken Karamoja region",
+      "headline": "Uganda launches emergency food relief after 19 deaths from hunger reported in drought-stricken Karamoja region",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
     },
     {
-      "headline": "Two Russian men sentenced to 8 and 11 years in Angola for terrorism and spying, accused of planning a coup and organizing deadly 2025 demonstrations",
+      "headline": "Two Russian men sentenced to prison in Angola for terrorism and spying, accused of planning coup and organizing deadly 2025 demonstrations",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
     },
     {
-      "headline": "Singer D4vd ordered to stand trial for murder of 14-year-old girl whose remains were found in his Tesla",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c70gkg62w0ro"
+      "headline": "UEFA and UK PM Burnham criticize FIFA plan to seek private investment in World Cup, with Infantino potentially set to profit",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o"
     },
     {
-      "headline": "Ben Carroll becomes Victoria's new premier, pledging royal commission into construction sector corruption",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-07-28/ben-carroll-vic-labor-premier-analysis/106966210"
+      "headline": "Kenya investigating unexpected deaths of 15 elephants in Amboseli National Park, preliminary tests detect potential toxic substance",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/29/elephant-deaths-kenya-amboseli-national-park"
+    },
+    {
+      "headline": "Health worker being monitored for Ebola at London hospital after medical evacuation from Democratic Republic of Congo",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc"
+    },
+    {
+      "headline": "Algeria elects Khalida Boufedeche as first woman parliamentary speaker, making her fourth-highest-ranking official",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/africa/20260729-khalida-boufedeche-elected-as-algeria-first-woman-parliamentary-speaker"
     }
   ]
 }
