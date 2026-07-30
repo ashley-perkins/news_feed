@@ -1,202 +1,190 @@
 {
-  "date": "Wednesday, July 29, 2026",
-  "daily_brief": "The Middle East conflict escalated sharply on Wednesday as Iran launched ballistic missiles at US bases, prompting joint US-Saudi airstrikes on Iran-backed militias in Iraq that killed at least 20 fighters [BBC, Al Jazeera, The Hindu]. The strikes mark a significant development with Saudi Arabia's direct military participation alongside American forces. In Japan, rescue operations continued after a 7.1-magnitude earthquake struck Kumamoto, killing at least 13 people and disrupting semiconductor and automotive production at TSMC and Toyota facilities [BBC, Nikkei Asia]. Across southwestern Europe, wildfires have displaced over 330,000 people in France and Spain, with French authorities ordering additional evacuations as a fourth heatwave approaches [France 24, The Hindu, BBC Europe]. Transatlantic tensions deepened as US diplomats walked out of a UN Security Council meeting during French remarks criticizing the Trump administration, while the Pentagon announced a formal review of its European military presence [RFI]. The Trump administration also moved to ban imports of Chinese humanoid robots, citing national security concerns [BBC].",
+  "date": "Thursday, July 30, 2026",
+  "daily_brief": "The United States launched extensive retaliatory strikes against Iran overnight, hitting dozens of Revolutionary Guard targets including military command centers, missile facilities, and coastal defense sites [France 24, Al Jazeera, Globe and Mail, The Hindu]. Iranian state media reported three civilian deaths, including a two-year-old child, on Qeshm Island [France 24, Al Jazeera]. The escalation follows Iran's missile attack on US bases in Jordan, though Pakistan confirmed negotiations between Washington and Tehran remain ongoing [France 24]. In Europe, firefighters continue battling massive wildfires across southern regions, with French authorities allowing 84,000 evacuees to return home while over 220,000 were displaced since the blaze began [France 24, RFI]. The EU's crisis management chief called for increased prevention funding as climate change intensifies fire risks [RFI]. Meanwhile, Russia struck Ukraine with missiles reaching as far as Lviv near the Polish border, killing at least 13 people and forcing Poland to scramble fighter jets [Globe and Mail]. The Federal Reserve held interest rates steady despite persistent inflation [Le Monde, Financial Times], while a magnitude 7.1 earthquake in Japan's Kumamoto region has killed at least 23 people, disrupting supply chains for automakers including Nissan and Daihatsu [Globe and Mail, Nikkei Asia].",
   "top_stories": [
     {
-      "headline": "US and Saudi Arabia Launch Joint Airstrikes on Iran-Backed Militias in Iraq After Iranian Missile Attack",
+      "headline": "US Launches Two-Hour Strike Campaign Against Iran, Killing Three Civilians Including Child",
       "category": "Conflict",
       "bullets": [
-        "Iran's IRGC fired multiple ballistic missiles at US forces in the Middle East, all of which were intercepted according to US Central Command",
-        "US and Saudi fighter jets struck logistics and weapons sites across eastern Iraq belonging to the Popular Mobilisation Forces, killing at least 20 fighters and wounding 32",
-        "Iran's Revolutionary Guards claimed to have struck three oil tankers in the Strait of Hormuz and rejected Oman's proposal for joint regional management of the waterway",
-        "The PMF described the strikes as a 'dangerous escalation' and 'violation of Iraq's sovereignty'"
+        "US Central Command struck dozens of Iranian Revolutionary Guard targets over two hours, including military command centers, missile and drone facilities, and coastal defense sites",
+        "Iranian state media reported three deaths on Qeshm Island, including a two-year-old child, with two other children injured in what authorities described as a strike on a residential building",
+        "The strikes were in retaliation for Iran's missile attack on US bases in Jordan; Iran's Revolutionary Guards vowed to 'punish the aggressor'",
+        "Pakistan confirmed US-Iran negotiations remain ongoing despite the renewed fighting, particularly regarding the Strait of Hormuz and de-escalation"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized Saudi participation as 'potential escalation' of Middle East conflict",
-          "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed operational coverage with emphasis on Pakistan mediation efforts",
+          "url": "https://www.france24.com/en/sport/20260730-infantino-defends-fifa-investment-plan-amid-mounting-backlash"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Characterized Iran's attack as 'pre-emptive' rather than reactionary; highlighted IRGC statement on continued resistance",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/latest-images-of-damage-as-death-toll-from-japans-kyushu-quake-rises?traffic_source=rss"
+          "framing_note": "Led with civilian casualties and damage imagery from Qeshm Island",
+          "url": "https://www.aljazeera.com/news/2026/7/30/in-the-waters-off-malaysia-iranian-oil-sales-continue-despite-blockade?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized broader regional context including Iraq strikes and Egypt port attacks",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-attorney-general-todd-blanche-gop-republican/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Focused on diplomatic dimension, including Iran's rejection of Oman's Hormuz proposal",
-          "url": "https://www.thehindu.com/news/international/france-orders-more-evacuated-as-fires-displace-a-third-of-a-million-across-southwest-europe/article71279787.ece"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Provided casualty updates and Iraqi PMF response",
-          "url": "https://www.france24.com/en/sport/20260729-uefa-accuses-fifa-of-selling-football-with-world-cup-investment-plan"
+          "framing_note": "Framed as 'West Asia war' with focus on regional proxy involvement",
+          "url": "https://www.thehindu.com/news/international/us-president-donald-trump-attempts-to-void-some-biden-pardons-including-j6-committee-fauci/article69340707.ece"
         }
       ]
     },
     {
-      "headline": "Japan Earthquake Kills 13, Disrupts TSMC and Toyota Production in Kumamoto",
-      "category": "Society",
+      "headline": "Southern Europe Wildfires Force Mass Evacuations as EU Calls for Prevention Investment",
+      "category": "Climate",
       "bullets": [
-        "A 7.1-magnitude earthquake struck Kumamoto prefecture on Tuesday, reaching maximum intensity of 7 on Japan's seismic scale\u2014the first since the 2024 Noto Peninsula quake",
-        "At least 13 people confirmed dead with rescue operations ongoing; an explosion occurred at Aeon Mall Kumamoto, trapping multiple people",
-        "TSMC evacuated personnel from its JASM semiconductor fab; Toyota halted operations at three Fukuoka plants through Friday; Sony and Renesas also paused production",
-        "Japan Meteorological Agency warned strong aftershocks may continue for up to a week"
+        "French authorities authorized 84,000 evacuees to return home after a wildfire in the Gironde department burned an area four times the size of Paris",
+        "More than 220,000 people were forced to flee since the blaze began; 2,200 firefighters and 20 aircraft remain mobilized",
+        "Turkey is battling 115 active fires across tourist regions including Antalya; a new fire in Spain near the Portuguese border forced 600 more evacuations",
+        "EU Crisis Management Commissioner Hadja Lahbib called for greater investment in wildfire prevention, forest management, and public education as climate change accelerates"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized rescue operations and human toll",
-          "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on operational details and evacuation progress",
+          "url": "https://www.france24.com/en/sport/20260730-infantino-defends-fifa-investment-plan-amid-mounting-backlash"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized EU policy response and prevention funding calls",
+          "url": "https://www.rfi.fr/en/france/20260729-renault-to-face-criminal-trial-in-france-over-dieselgate"
+        }
+      ]
+    },
+    {
+      "headline": "Russian Missile Strikes Kill 13 Across Ukraine, Force Poland to Scramble Jets",
+      "category": "Conflict",
+      "bullets": [
+        "Russian air strikes killed at least 13 people across Ukraine, including six in Zelensky's hometown of Kryvyi Rih where two girls aged 5 and 12 died",
+        "Strikes reached Lviv near the Polish border, damaging two apartment buildings and injuring 26 people; Poland scrambled fighter jets to secure airspace",
+        "The attacks coincided with Zelensky's return from Washington, where Trump agreed to provide Ukraine licenses for Patriot missile production",
+        "Air raid alerts sounded across most Ukrainian regions; emergency workers continue searching rubble with death toll expected to rise"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Connected strikes to Zelensky's US visit and Patriot missile discussions",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-attorney-general-todd-blanche-gop-republican/"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on Zelensky-Trump meeting outcomes and diplomatic context",
+          "url": "https://www.rfi.fr/en/france/20260729-renault-to-face-criminal-trial-in-france-over-dieselgate"
+        }
+      ]
+    },
+    {
+      "headline": "Japan Earthquake Death Toll Reaches 23 as Automakers Face Supply Chain Disruptions",
+      "category": "Society",
+      "bullets": [
+        "A magnitude 7.1 earthquake struck Kumamoto prefecture on Kyushu island Tuesday, killing at least 23 people with 63 injured",
+        "The most serious damage occurred at Aeon Mall shopping center in Kashima, where an explosion occurred after the quake while thousands were evacuating",
+        "Nissan and Daihatsu production remains halted due to the earthquake's impact on regional supply chains",
+        "Thousands remain in evacuation centers; some homes lack water and electricity, and older Japanese-style housing proved particularly vulnerable"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on rescue efforts and survivor accounts",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-attorney-general-todd-blanche-gop-republican/"
         },
         {
           "name": "Nikkei Asia",
           "lean": "Center",
-          "framing_note": "Focused heavily on industrial and supply chain disruptions, particularly semiconductor impacts",
-          "url": "https://asia.nikkei.com/photos/in-focus-magnitude-7.1-earthquake-jolts-kumamoto"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief coverage focused on death toll and rescue imagery",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/latest-images-of-damage-as-death-toll-from-japans-kyushu-quake-rises?traffic_source=rss"
+          "framing_note": "Emphasized business and supply chain impact on automakers",
+          "url": "https://asia.nikkei.com/business/markets/ipo/ai-supplier-innolight-falls-10-after-asia-s-second-biggest-listing-of-2026"
         }
       ]
     },
     {
-      "headline": "Wildfires Displace Over 330,000 Across France and Spain as Fourth Heatwave Approaches",
-      "category": "Climate",
+      "headline": "Federal Reserve Holds Rates Steady Despite Elevated Inflation, Borrowing Costs Hit 19-Year High",
+      "category": "Economics",
       "bullets": [
-        "France ordered 4,000 additional evacuations from Atlantic coast tourist sites; approximately 200,000 people displaced in the Gironde region alone",
-        "Spain began lifting some evacuation orders, allowing 44,000 people to return home, though Madrid region fires remain the worst in recorded regional history",
-        "A fourth heatwave expected to bring temperatures to 40\u00b0C starting Wednesday, with Spanish meteorological agency warning fire danger will reach 'extreme levels'",
-        "EU crisis chief stated wildfire response needs more funding and greater focus on forest management as climate change accelerates"
+        "The Federal Reserve kept interest rates unchanged despite persistently high inflation",
+        "US borrowing costs have reached their highest level in 19 years",
+        "The decision comes amid ongoing debate about the Fed's approach to managing inflation while avoiding recession",
+        "Market analysts are divided on whether the Fed's patience will prove justified or lead to further price pressures"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed geographic spread and firefighter challenges; noted fires threatening military and industrial sites",
-          "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Live coverage emphasizing fire remaining 'under control' but conditions 'unfavourable'",
-          "url": "https://www.france24.com/en/sport/20260729-uefa-accuses-fifa-of-selling-football-with-world-cup-investment-plan"
-        },
-        {
-          "name": "The Hindu",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Emphasized scale as potentially 'largest peacetime evacuation' in France",
-          "url": "https://www.thehindu.com/news/international/france-orders-more-evacuated-as-fires-displace-a-third-of-a-million-across-southwest-europe/article71279787.ece"
+          "framing_note": "Article content limited but confirmed rate hold decision",
+          "url": "https://www.lemonde.fr/en/summer-reads/article/2026/07/29/kush-a-synthetic-and-highly-addictive-drug-devastates-sierra-leone-and-liberia_6755977_183.html"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Focused on EU crisis chief warning about risks of scaling back green agenda",
-          "url": "https://www.ft.com/content/5f41c99b-a866-45d5-844b-1114969175fc"
-        }
-      ]
-    },
-    {
-      "headline": "US Walks Out of UN Security Council Over French Criticism; Pentagon Launches Europe Troop Review",
-      "category": "Geopolitics",
-      "bullets": [
-        "US diplomats walked out of a UN Security Council meeting on Ukraine while French counterparts were speaking, following French criticism of Trump administration human rights record",
-        "The walkout followed the UN General Assembly's 144-10 vote to reappoint human rights chief Volker Turk despite US opposition",
-        "Pentagon announced formal review of US military presence in Europe, aiming to accelerate NATO's transition to Europe taking 'primary responsibility for its conventional defense'",
-        "Tensions compound broader US-Europe disputes over NATO burden sharing, troop deployments, and Trump's stated interest in Greenland"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Detailed the diplomatic incident and broader context of US-France tensions; noted France's support for Turk",
-          "url": "https://www.rfi.fr/en/international/20260728-uk-s-burnham-pledges-new-drone-tech-to-ukraine-in-zelensky-meeting"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Separate article on troop review emphasized Trump's complaints about European allies during Iran war",
-          "url": "https://www.rfi.fr/en/international/20260728-uk-s-burnham-pledges-new-drone-tech-to-ukraine-in-zelensky-meeting"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Administration Bans Imports of Chinese Humanoid Robots Citing National Security",
-      "category": "Technology",
-      "bullets": [
-        "FCC banned new imports of foreign-made humanoid robots and four-legged machines, with most affected products made in China",
-        "Ban also covers power inverters used in data centers and solar panels, citing risks of remote shutoff, data theft, and surveillance by 'foreign government actors'",
-        "Items added to FCC's Covered List; existing authorized models can still be sold and imported",
-        "Chinese embassy accused US of 'politicising' trade issues and imposing sanctions based on 'groundless pretexts'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced presentation including both US security rationale and Chinese response",
-          "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized 19-year high in borrowing costs and market implications",
+          "url": "https://www.ft.com/content/f0750cf6-fa77-4dbe-b8f5-5515e42cf906"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "EU condemns 'aggression' against French diplomats detained and physically abused by Iranian security services in Tehran",
+      "headline": "France orders expulsion of pro-Kremlin media commentator Xenia Fedorova, former head of RT France",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260729-france-to-expel-pro-kremlin-media-commentator-xenia-fedorova"
+    },
+    {
+      "headline": "EU condemns Iranian 'aggression' against two French diplomats detained and physically abused in Tehran on July 19",
       "source": "RFI English",
       "url": "https://www.rfi.fr/en/international/20260729-eu-condemns-iran-aggression-against-french-diplomats"
     },
     {
-      "headline": "Zinedine Zidane officially appointed France national football team coach, succeeding Didier Deschamps",
+      "headline": "Renault to face criminal trial in France on aggravated fraud charges over dieselgate emissions scandal",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/sports/20260728-france-legend-zidane-succeeds-deschamps-as-france-football-coach"
+      "url": "https://www.rfi.fr/en/france/20260729-renault-to-face-criminal-trial-in-france-over-dieselgate"
     },
     {
-      "headline": "US Senate advances bipartisan sanctions bill targeting buyers of Russian and Iranian oil, potentially affecting India and China",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/us-senate-advances-sanctions-bill-targeting-russian-iranian-oil-buyers-including-india-and-china/article71280304.ece"
+      "headline": "Bolivia prosecutor orders arrest of former president Evo Morales over protests",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/30/bolivia-prosecutor-orders-arrest-of-ex-leader-morales-over-protests_6755982_4.html"
     },
     {
-      "headline": "UK Prime Minister Andy Burnham pledges new drone-jamming technology to Ukraine in first meeting with Zelensky",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260728-uk-s-burnham-pledges-new-drone-tech-to-ukraine-in-zelensky-meeting"
+      "headline": "Salman Rushdie's assailant convicted of terrorism charges",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/30/salman-rushdie-assailant-convicted-of-terrorism-charges_6755981_4.html"
     },
     {
-      "headline": "Uganda launches emergency food relief after 19 deaths from hunger reported in drought-stricken Karamoja region",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
+      "headline": "Chinese stocks on track for worst month in a decade",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/5052b22e-aeca-4043-88af-dd7da3661a49"
     },
     {
-      "headline": "Two Russian men sentenced to prison in Angola for terrorism and spying, accused of planning coup and organizing deadly 2025 demonstrations",
+      "headline": "Two Russian men jailed in Angola for terrorism and spying after being accused of planning coup",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
     },
     {
-      "headline": "UEFA and UK PM Burnham criticize FIFA plan to seek private investment in World Cup, with Infantino potentially set to profit",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o"
+      "headline": "Trump ally Michelle Steel arrives in South Korea to take up long-vacant US ambassador post",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/trump-ally-michelle-steel-takes-up-post-as-us-ambassador-to-south-korea"
     },
     {
-      "headline": "Kenya investigating unexpected deaths of 15 elephants in Amboseli National Park, preliminary tests detect potential toxic substance",
+      "headline": "Uganda launches emergency food relief after 19 die from hunger in drought-stricken Karamoja region",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/29/elephant-deaths-kenya-amboseli-national-park"
+      "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
     },
     {
-      "headline": "Health worker being monitored for Ebola at London hospital after medical evacuation from Democratic Republic of Congo",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc"
-    },
-    {
-      "headline": "Algeria elects Khalida Boufedeche as first woman parliamentary speaker, making her fourth-highest-ranking official",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/africa/20260729-khalida-boufedeche-elected-as-algeria-first-woman-parliamentary-speaker"
+      "headline": "Amnesty International accuses India of risking complicity in Gaza genocide through arms sales to Israel",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/30/indias-arms-sale-to-israel-risks-complicity-in-gaza-genocide-amnesty-says"
     }
   ]
 }
