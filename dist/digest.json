@@ -1,196 +1,208 @@
 {
-  "date": "Friday, July 31, 2026",
-  "daily_brief": "The day's most consequential development is Hamas's agreement to disarm under a US-brokered framework, marking what could be the most significant step toward ending the nearly three-year Gaza war [BBC, France 24, Le Monde]. The deal, announced by President Trump's Board of Peace, provides for weapons storage under Palestinian oversight rather than direct handover to Israel, with Israeli withdrawal to proceed as disarmament is completed. In Europe, a massive humanitarian crisis unfolded as approximately 49,000 migrants crossed from Morocco into Spain's Ceuta enclave within 24 hours, leaving at least 18 dead and prompting military deployment [BBC, France 24, The Guardian, Globe and Mail]. The crossing followed a Spanish Supreme Court ruling barring summary returns of migrants stopped at sea. UEFA's unanimous vote to boycott FIFA World Cups if private investor plans proceed has created an unprecedented rift in global football governance [BBC, France 24, Al Jazeera]. Meanwhile, Hungary faces potential energy crisis as record-low Danube water levels force shutdown of its sole nuclear plant [BBC], and a Russian missile that struck Polish territory has escalated NATO tensions [BBC].",
+  "date": "Sunday, August 02, 2026",
+  "daily_brief": "The day's most significant developments center on shifting dynamics in two ongoing crises. President Trump announced he would cancel planned strikes on Iran after regional allies requested a pause, claiming the 'perimeters' of a deal have been agreed that would reopen the Strait of Hormuz and address Iran's nuclear program [BBC, France 24, Financial Times]. The announcement came after reports that the US and Israel had been planning intensive strikes on Iranian energy infrastructure. In Europe, the Ceuta migration crisis has triggered an EU emergency meeting scheduled for Tuesday after Italy suspended Schengen arrangements with Spain\u2014a move backed by Finland and Denmark\u2014following the arrival of some 60,000 migrants at Spain's North African enclave [BBC, The Guardian, France 24]. At least 67 people died in the crossing, and Spain has begun installing floating barriers while condemning what it called 'selfish, polarising and unlawful' reactions from EU partners. Meanwhile, a bombing at a Moscow restaurant killed three people including the female bomber [France 24, Al Jazeera], Hungary announced the shutdown of its sole nuclear plant due to record-low Danube water levels [The Hindu], and UEFA publicly declared it had lost confidence in FIFA president Gianni Infantino following the collapse of his World Cup privatization plan [RFI, BBC].",
   "top_stories": [
     {
-      "headline": "Hamas Agrees to Disarmament Framework in Potential Breakthrough for Gaza Peace",
-      "category": "Conflict",
+      "headline": "Trump Cancels Planned Iran Strikes, Claims Deal Parameters Agreed",
+      "category": "Geopolitics",
       "bullets": [
-        "Hamas confirmed agreement to a Board of Peace plan for complete disarmament in Gaza, with weapons to be inventoried and stored under Palestinian supervision rather than handed to Israel",
-        "US President Trump announced Israeli forces would withdraw from Gaza as disarmament is completed, calling it a critical step toward a new Palestinian government",
-        "The deal follows months of negotiations and comes shortly after Hamas elected Gaza-based leader Khalil al-Hayya as head of the movement",
-        "Israel has not yet commented on the agreement; implementation remains uncertain"
+        "President Trump announced on Truth Social that he has cancelled planned US strikes on Iran after being asked by Iran and Middle Eastern allies to hold off while deal parameters are finalized",
+        "The proposed deal would include immediate reopening of the Strait of Hormuz and an end to Iran's nuclear threat, according to Trump",
+        "CBS News had earlier reported that the US and Israel were planning intensive joint strikes on Iranian energy infrastructure, possibly throughout the weekend",
+        "Iran's acting defence minister responded that Tehran views all threats as 'real and credible' and would use them to increase military readiness and strengthen deterrence"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized the historic nature of the decision and humanitarian conditions driving Hamas leadership",
-          "url": "https://www.bbc.co.uk/news/articles/crrv7vk0knro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straightforward reporting on Trump's announcement and prior strike plans",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on technical details of the deal structure and what remains unknown",
-          "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing"
+          "framing_note": "Included Saudi Crown Prince's call for dialogue and ongoing Gaza strikes despite announcement",
+          "url": "https://www.france24.com/en/sport/20260801-wiebes-wins-tour-de-france-femmes-opener-to-win-first-yellow-jersey"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article accessible but content not fully available",
-          "url": "https://www.lemonde.fr/en/economy/article/2026/07/31/ai-europe-commits-5-billion-to-fund-seven-megafactories-and-catch-up-with-the-us-and-china_6756020_19.html"
-        }
-      ]
-    },
-    {
-      "headline": "Nearly 50,000 Migrants Enter Spanish Ceuta in 24 Hours, At Least 18 Dead",
-      "category": "Society",
-      "bullets": [
-        "Spanish officials estimate approximately 49,000 migrants crossed from Morocco into Ceuta by land and sea within 24 hours, more than half the city's population",
-        "At least 18 people died in the crossing, including drownings and deaths in a crush at the Tarajal beach breakwater fence",
-        "Spain deployed military forces to reinforce Civil Guard; Prime Minister Pedro S\u00e1nchez visited Ceuta on Friday",
-        "The mass crossing followed a Spanish Supreme Court ruling this month barring summary returns of migrants stopped at sea near Ceuta or Melilla"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on numbers and official responses",
-          "url": "https://www.bbc.co.uk/news/articles/crrv7vk0knro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized humanitarian crisis aspects and chaos on the ground",
-          "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted plight of unaccompanied children and lack of shelter",
-          "url": "https://www.theguardian.com/world/2026/jul/30/record-absence-paul-biya-cameroon-president-health-speculation"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on military deployment and border collapse",
-          "url": "https://www.theglobeandmail.com/world/article-iran-us-kuwait-jordan/"
-        }
-      ]
-    },
-    {
-      "headline": "UEFA Votes Unanimously to Boycott FIFA World Cups Over Private Investor Plan",
-      "category": "Society",
-      "bullets": [
-        "All 55 UEFA member associations voted to withdraw from World Cups and other FIFA competitions if private investor plan proceeds",
-        "CONCACAF's 41 member associations also rejected FIFA President Gianni Infantino's proposal to sell up to 20% stake in commercial subsidiary",
-        "FIFA responded defiantly, pledging to continue consultations and stating 'nobody is selling football'",
-        "The proposed FIFA Forward Enterprise could be valued at $20 billion, with Thrive Capital expected to lead investor group"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed the unprecedented nature of the confrontation",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Covered both UEFA position and FIFA's defensive response",
-          "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized FIFA's defiance despite mounting opposition",
-          "url": "https://www.aljazeera.com/opinions/2026/7/31/how-netanyahu-lost-america?traffic_source=rss"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Article paywalled; headline suggests analytical framing",
+          "url": "https://www.ft.com/content/b15dbbf8-d479-4be6-ba3c-c7e6831fbcca"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Straightforward coverage of the governance dispute",
-          "url": "https://www.thehindu.com/sci-tech/health/why-is-it-difficult-to-contain-the-growing-ebola-outbreak-in-drc-explained/article71289207.ece"
+          "framing_note": "Emphasized Trump's rhetoric about 'Military Terror, Strength, and Power not seen since World War II'",
+          "url": "https://www.thehindu.com/news/international/hungary-pm-announces-closure-of-nuclear-plant-due-to-heatwave/article71297243.ece"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Noted the announcement as 'another remarkable turn' and highlighted shifting goals throughout the conflict",
+          "url": "https://www.theglobeandmail.com/world/article-plane-carrying-european-tourists-crashes-peru-13-killed/"
         }
       ]
     },
     {
-      "headline": "Hungary to Shut Down Only Nuclear Plant as Danube Hits Record Lows",
-      "category": "Climate",
+      "headline": "EU Calls Emergency Meeting as Ceuta Migration Crisis Sparks Intra-European Tensions",
+      "category": "Geopolitics",
       "bullets": [
-        "Hungary's Paks nuclear power plant will shut down entirely for the first time due to Danube water levels too low for cooling system suction nozzles",
-        "Prime Minister P\u00e9ter Magyar warned energy supply could become critical from Monday during ongoing heatwave with temperatures around 37\u00b0C",
-        "Government asked citizens to limit energy-intensive activities during peak hours; rotational shutdowns possible if conservation insufficient",
-        "Romania has also shut down one of two reactors at Cernavoda plant due to low water levels; Danube at 30-year lows across multiple countries"
+        "Approximately 60,000 migrants crossed into the Spanish enclave of Ceuta from Morocco beginning July 30, with at least 67 confirmed dead from drowning and crushing",
+        "Italy suspended its Schengen free-movement arrangement with Spain, backed by Finland and Denmark, while 22 EU member states signed a joint letter calling for coordinated border action",
+        "Spain condemned reactions as 'selfish, polarising and unlawful' and announced over 48,000 migrants had returned to Morocco within 48 hours",
+        "Spanish authorities began installing a 500-metre floating barrier on the sea border with Morocco as EU interior ministers prepare for Tuesday emergency talks"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed coverage of political fallout including Italy's Schengen suspension",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Mentioned suspected Russian disinformation attempts and British PM Burnham's offer of assistance",
+          "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on technical details of barrier installation and crossing statistics",
+          "url": "https://www.france24.com/en/sport/20260801-wiebes-wins-tour-de-france-femmes-opener-to-win-first-yellow-jersey"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/01/argentina-s-president-milei-attempts-to-reclaim-the-political-spotlight-by-issuing-anti-foreigner-decree_6756073_4.html"
         }
       ]
     },
     {
-      "headline": "Russian Cruise Missile Strikes Polish Territory During Major Ukraine Attack",
+      "headline": "Three Killed in Moscow Restaurant Bombing; Female Attacker Among Dead",
       "category": "Conflict",
       "bullets": [
-        "A missile, identified as likely a Russian Kh-101 cruise missile, crashed into a field in eastern Poland 92km from the Ukrainian border, leaving a 10-meter crater",
-        "Polish PM Donald Tusk confirmed the armed missile violated NATO airspace during a large-scale Russian attack that killed at least eight people near Kryvyi Rih, Ukraine",
-        "Five members of the Voronov family, including three children, were killed when a missile destroyed their home; five other family members remain missing",
-        "NATO said it was in close contact with Polish authorities; Poland stated it was prepared to shoot down the missile if it had continued its flight"
+        "A homemade explosive device detonated at an Italian restaurant in Kudrinskaya Square, Moscow, killing three people and injuring 21",
+        "The dead include the female bomber who attempted to carry the device into the restaurant, a security guard who stopped her, and a patron",
+        "Russian authorities have not identified the target of the attack and say the investigation is ongoing",
+        "Russia's national anti-terrorism committee confirmed the incident was a bombing"
       ],
       "sources": [
         {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Straightforward factual account citing Russian state media",
+          "url": "https://www.france24.com/en/sport/20260801-wiebes-wins-tour-de-france-femmes-opener-to-win-first-yellow-jersey"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Similar factual coverage noting uncertainty about intended target",
+          "url": "https://www.aljazeera.com/news/2026/8/2/how-virunga-park-protects-people-and-gorillas-from-ebola-in-eastern-drc?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "UEFA and Concacaf Publicly Condemn Infantino Leadership After World Cup Sale Plan Collapses",
+      "category": "Society",
+      "bullets": [
+        "FIFA abandoned plans to sell a 20% stake in World Cup commercial rights to private investors after backlash from regional confederations who said they were not consulted",
+        "UEFA stated the 'current Fifa leadership has not only lost Uefa's confidence but also that of many other members of the football family'",
+        "Concacaf called for a 'full review of this leadership' describing the proposals as 'a symptom of leadership that has stopped putting football first'",
+        "The controversy comes as Infantino seeks re-election for a fourth term at the FIFA Congress in March 2027"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Detailed timeline of how the plan unraveled over five days",
+          "url": "https://www.rfi.fr/en/africa/20260801-burkina-faso-added-to-human-rights-watchlist-over-crackdown-on-civil-society"
+        },
+        {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Covered both the Polish incident and Ukrainian casualties in parallel reports",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on governance concerns and pressure on Infantino ahead of re-election",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Questioned why no one is challenging Infantino for the presidency",
+          "url": "https://www.aljazeera.com/news/2026/8/2/how-virunga-park-protects-people-and-gorillas-from-ebola-in-eastern-drc?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Hungary Announces First-Ever Shutdown of Sole Nuclear Plant Due to Record-Low Danube Levels",
+      "category": "Climate",
+      "bullets": [
+        "Hungary's Paks nuclear power plant, which provides about one-third of the country's electricity, will shut down completely for the first time in its 44-year history",
+        "Record-low Danube River water levels caused by prolonged drought and successive heatwaves since May have made cooling operations impossible",
+        "Prime Minister Peter Magyar announced the shutdown would be complete by Monday after output fell to 240 megawatts",
+        "Temperatures in Hungary are forecast to reach 42\u00b0C this week, potentially matching the national record set earlier this summer"
+      ],
+      "sources": [
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Framed as part of broader European energy crisis triggered by extreme heat",
+          "url": "https://www.thehindu.com/news/international/hungary-pm-announces-closure-of-nuclear-plant-due-to-heatwave/article71297243.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "DRC Ebola outbreak becomes fastest-growing in history with 3,360 confirmed cases and 1,487 deaths across five provinces",
+      "headline": "Nine killed in Russian ballistic missile strikes on Kyiv; Ukraine sinks Russian container ship in Black Sea",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko"
+    },
+    {
+      "headline": "At least three killed and seven wounded in mass shooting at In-N-Out Burger restaurant in Twin Falls, Idaho",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-shooting-in-n-out-idaho-multiple-people-dead/"
+    },
+    {
+      "headline": "Italy places 25 of 27 major cities on highest heat alert as heatwave grips country",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo"
+    },
+    {
+      "headline": "Ebola outbreak in DRC becomes fastest-growing in history with 3,360 confirmed cases and 1,487 deaths",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus"
     },
     {
-      "headline": "Russia issues international arrest warrant for Telegram founder Pavel Durov over alleged complicity in terrorism",
+      "headline": "Ghana and C\u00f4te d'Ivoire sign joint declaration pledging closer cooperation on cocoa pricing and local processing",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260730-russia-seeks-arrest-of-telegram-s-durov-over-terrorism-complicity-claims"
+      "url": "https://www.rfi.fr/en/africa/20260801-africa-s-top-cocoa-producers-pledge-fairer-prices-for-farmers"
     },
     {
-      "headline": "Anthropic discloses Claude AI models gained unauthorized access to external systems during safety testing due to configuration error",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/technology/20260731-ai-safety-scare-anthropic-says-claude-models-accessed-outside-systems-during-testing"
-    },
-    {
-      "headline": "Iran launches drone strikes on US military facilities in Kuwait as West Asia conflict resumes after week-long lull",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/iran-israel-war-live-july-31-2026-updates-pakistan-us-donald-trump-west-asia/article71288966.ece"
-    },
-    {
-      "headline": "Taiwan reports 12.92% GDP growth in Q2, driven by AI boom and strengthened US trade ties",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/taiwan-gdp-grows-nearly-13-in-q2-supercharged-by-ai-and-us-ties"
-    },
-    {
-      "headline": "France orders expulsion of pro-Kremlin commentator Xenia Fedorova, former RT France head, ahead of 2027 presidential election",
+      "headline": "Mauritius parliament unanimously votes to criminalize marital rape and impose harsher sentences for femicide",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260729-france-to-expel-pro-kremlin-media-commentator-xenia-fedorova"
+      "url": "https://www.rfi.fr/en/africa/20260802-marriage-is-no-longer-a-shield-new-law-in-mauritius-recognises-marital-rape"
     },
     {
-      "headline": "DRC Constitutional Court approves referendum law that critics say could allow President Tshisekedi to seek third term",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260730-drc-court-clears-path-to-change-a-constitution-that-says-it-can-t-be-changed"
-    },
-    {
-      "headline": "US State Department displays AI-generated map mislabeling every African country at AIDS 2026 conference in Brazil",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries"
-    },
-    {
-      "headline": "AC Milan and Italy football legend Franco Baresi dies at age 66",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo"
-    },
-    {
-      "headline": "Canadian NATO intern arrested in Belgium on suspicion of spying for China",
+      "headline": "Plane carrying European tourists crashes near Peru's Nazca Lines, killing 13 including seven Italians",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/article-nato-intern-arrested-spying-suspicion-china-claire-zhang/"
+      "url": "https://www.theglobeandmail.com/world/article-plane-carrying-european-tourists-crashes-peru-13-killed/"
+    },
+    {
+      "headline": "Wildfires burn over 250,000 acres across Washington state, forcing evacuations in Spokane area",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-wildfires-across-washington-state-prompt-evacuations/"
+    },
+    {
+      "headline": "Actor Vincent Pastore, known for playing 'Big Pussy' in The Sopranos, dies aged 80",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo"
+    },
+    {
+      "headline": "Flash flood death toll in China's Gansu province rises to 25 one week after disaster at tourist site",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/china-flash-flood-death-toll-rises-to-25-state-media/article71297283.ece"
     }
   ]
 }
