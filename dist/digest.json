@@ -1,208 +1,208 @@
 {
-  "date": "Sunday, August 02, 2026",
-  "daily_brief": "The day's most significant developments center on shifting dynamics in two ongoing crises. President Trump announced he would cancel planned strikes on Iran after regional allies requested a pause, claiming the 'perimeters' of a deal have been agreed that would reopen the Strait of Hormuz and address Iran's nuclear program [BBC, France 24, Financial Times]. The announcement came after reports that the US and Israel had been planning intensive strikes on Iranian energy infrastructure. In Europe, the Ceuta migration crisis has triggered an EU emergency meeting scheduled for Tuesday after Italy suspended Schengen arrangements with Spain\u2014a move backed by Finland and Denmark\u2014following the arrival of some 60,000 migrants at Spain's North African enclave [BBC, The Guardian, France 24]. At least 67 people died in the crossing, and Spain has begun installing floating barriers while condemning what it called 'selfish, polarising and unlawful' reactions from EU partners. Meanwhile, a bombing at a Moscow restaurant killed three people including the female bomber [France 24, Al Jazeera], Hungary announced the shutdown of its sole nuclear plant due to record-low Danube water levels [The Hindu], and UEFA publicly declared it had lost confidence in FIFA president Gianni Infantino following the collapse of his World Cup privatization plan [RFI, BBC].",
+  "date": "Monday, August 03, 2026",
+  "daily_brief": "The day's headlines are dominated by shifting dynamics in both US-Iran tensions and European migration policy. President Trump announced that negotiations with Iran will resume Monday after calling off planned strikes, citing requests from Gulf allies including Saudi Arabia's Crown Prince Mohammed bin Salman [BBC], [Globe and Mail], [Financial Times]. Oil prices fell on the news, though Iran's foreign ministry denied plans to receive a US delegation directly. In Europe, the EU has called an emergency meeting of interior ministers for Tuesday following the mass crossing of some 60,000 migrants into Spain's Ceuta enclave from Morocco, which left at least 72 dead [BBC], [Guardian], [RFI]. The crisis has sparked sharp divisions, with Italy suspending Schengen arrangements with Spain\u2014a move condemned by Madrid as 'selfish and unlawful.' Meanwhile, Japan and the United States confirmed their first joint currency intervention since 2011, spending tens of billions to halt the yen's slide to 40-year lows [BBC], [Nikkei Asia], [Financial Times]. In the Russia-Ukraine war, Kyiv intensified deep strikes on Russian territory, hitting oil refineries and Wildberries warehouses, while Moscow reported eight deaths from overnight drone attacks [BBC], [France 24], [Globe and Mail]. Cuba suffered another nationwide blackout as its fragile grid collapsed again [Al Jazeera], [Le Monde].",
   "top_stories": [
     {
-      "headline": "Trump Cancels Planned Iran Strikes, Claims Deal Parameters Agreed",
+      "headline": "Trump Calls Off Iran Strikes, Says Negotiations to Resume Monday",
       "category": "Geopolitics",
       "bullets": [
-        "President Trump announced on Truth Social that he has cancelled planned US strikes on Iran after being asked by Iran and Middle Eastern allies to hold off while deal parameters are finalized",
-        "The proposed deal would include immediate reopening of the Strait of Hormuz and an end to Iran's nuclear threat, according to Trump",
-        "CBS News had earlier reported that the US and Israel were planning intensive joint strikes on Iranian energy infrastructure, possibly throughout the weekend",
-        "Iran's acting defence minister responded that Tehran views all threats as 'real and credible' and would use them to increase military readiness and strengthen deterrence"
+        "President Trump announced new talks with Iran will begin Monday afternoon after canceling what he described as planned 'massive' strikes at the request of Gulf allies including Saudi Arabia, UAE, and Qatar.",
+        "Trump stated that the 'parameters' of a deal covering the Strait of Hormuz and Iran's nuclear program had been reached, though Iran's foreign ministry denied plans to receive a US delegation or send officials to Washington.",
+        "Global oil prices fell on the news; Trump declined to set a deadline for reaching a final agreement, saying 'We're ready to go anytime we want.'",
+        "Saudi Crown Prince Mohammed bin Salman reportedly urged Trump to pursue diplomacy over military action during a Saturday phone call."
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Straightforward reporting on Trump's announcement and prior strike plans",
-          "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Included Saudi Crown Prince's call for dialogue and ongoing Gaza strikes despite announcement",
-          "url": "https://www.france24.com/en/sport/20260801-wiebes-wins-tour-de-france-femmes-opener-to-win-first-yellow-jersey"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Article paywalled; headline suggests analytical framing",
-          "url": "https://www.ft.com/content/b15dbbf8-d479-4be6-ba3c-c7e6831fbcca"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Trump's rhetoric about 'Military Terror, Strength, and Power not seen since World War II'",
-          "url": "https://www.thehindu.com/news/international/hungary-pm-announces-closure-of-nuclear-plant-due-to-heatwave/article71297243.ece"
+          "framing_note": "Detailed account of Trump's statements aboard Air Force One, notes Iran's denial of direct talks",
+          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Noted the announcement as 'another remarkable turn' and highlighted shifting goals throughout the conflict",
-          "url": "https://www.theglobeandmail.com/world/article-plane-carrying-european-tourists-crashes-peru-13-killed/"
+          "framing_note": "Emphasizes Trump's claim of 'biggest attack since World War II' being scrapped, highlights turnabout from previous day's warnings",
+          "url": "https://www.theglobeandmail.com/world/article-eastern-washington-wildfires-prompt-5000-evacuations-destroy-600/"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focuses on oil market reaction to the announcement",
+          "url": "https://www.ft.com/content/f6d563ee-9238-4f82-a848-79f2478326bd?syn-25a6b1a6=1"
         }
       ]
     },
     {
-      "headline": "EU Calls Emergency Meeting as Ceuta Migration Crisis Sparks Intra-European Tensions",
-      "category": "Geopolitics",
+      "headline": "EU Calls Emergency Meeting as Ceuta Migrant Crisis Sparks Bloc Divisions",
+      "category": "Policy",
       "bullets": [
-        "Approximately 60,000 migrants crossed into the Spanish enclave of Ceuta from Morocco beginning July 30, with at least 67 confirmed dead from drowning and crushing",
-        "Italy suspended its Schengen free-movement arrangement with Spain, backed by Finland and Denmark, while 22 EU member states signed a joint letter calling for coordinated border action",
-        "Spain condemned reactions as 'selfish, polarising and unlawful' and announced over 48,000 migrants had returned to Morocco within 48 hours",
-        "Spanish authorities began installing a 500-metre floating barrier on the sea border with Morocco as EU interior ministers prepare for Tuesday emergency talks"
+        "The EU will hold an emergency meeting of interior ministers on Tuesday after approximately 60,000 migrants crossed from Morocco into Spain's Ceuta enclave, with at least 72 confirmed dead.",
+        "Italy suspended its Schengen free-movement arrangement with Spain, a move backed by Finland and Denmark; Spain condemned the response as 'selfish, polarising and unlawful.'",
+        "Twenty-two EU member states issued a joint letter calling for coordinated action and strengthened external borders, citing concerns about 'hybrid threats' creating perceptions that illegal entry is possible.",
+        "Spanish officials report nearly all migrants have returned to Morocco; police began installing a 500-metre floating barrier off the border."
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Focuses on diplomatic tensions between Spain and Italy, notes joint EU letter",
+          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasizes humanitarian toll and political divisions, mentions suspected Russian disinformation attempts",
+          "url": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Straightforward coverage of emergency meeting, emphasizes death toll and health service strain",
+          "url": "https://www.rfi.fr/en/science-and-technology/20260802-astronomers-find-clear-evidence-that-betelgeuse-star-is-not-single"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Features expert analysis calling crisis 'pure political theatre' used to make Europe seem under attack",
+          "url": "https://www.france24.com/en/europe/20260803-russia-online-retailer-wildberries-says-warehouse-on-fire-after-ukrainian-drone-attack"
+        }
+      ]
+    },
+    {
+      "headline": "US and Japan Conduct First Joint Currency Intervention Since 2011 to Halt Yen Slide",
+      "category": "Economics",
+      "bullets": [
+        "Japan and the United States jointly intervened in currency markets Friday after the yen fell to a 40-year low against the dollar, the first coordinated action since the 2011 earthquake and tsunami.",
+        "Bank of Japan data indicated Tokyo may have sold nearly $59 billion in US dollars to buy yen; a Reuters photograph showed Treasury Secretary Bessent's notes referencing a $5-10 billion US purchase.",
+        "Both countries' finance officials stated they will not hesitate to conduct further joint interventions if necessary.",
+        "The yen strengthened to the 155 range against the dollar Monday morning as markets remain wary of additional intervention."
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed coverage of political fallout including Italy's Schengen suspension",
-          "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Comprehensive overview emphasizing global economic implications and preventing spillover to US borrowing costs",
+          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Mentioned suspected Russian disinformation attempts and British PM Burnham's offer of assistance",
-          "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus"
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Japanese perspective, notes ongoing market wariness and JGB yield movements",
+          "url": "https://asia.nikkei.com/business/markets/currencies/us-japan-intervention-helps-lift-yen-to-155-but-concerns-remain"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focuses on Japan's vow to intervene again if needed",
+          "url": "https://www.ft.com/content/f6d563ee-9238-4f82-a848-79f2478326bd?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "headline": "Ukraine Intensifies Deep Strikes on Russian Oil Infrastructure and Warehouses",
+      "category": "Conflict",
+      "bullets": [
+        "Ukraine struck a major oil refinery and the Engels strategic aviation airfield in Russia's Saratov region, some 600km from Ukraine's border, along with targets in Kaluga and Bryansk regions.",
+        "Russia reported eight people killed in overnight Ukrainian drone strikes, with 635 drones shot down or intercepted; a child was among the dead in Belgorod region.",
+        "Wildberries, Russia's largest online retailer, reported another warehouse fire after a drone attack in Vladimir region\u2014approximately the twentieth strike on the company's facilities since mid-July.",
+        "A suspected bomb attack at a Moscow restaurant killed three and injured 21; the Russian Embassy blamed Ukraine, with unconfirmed reports suggesting a senior military commander may have been the target."
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Covers both Ukrainian strikes and Moscow restaurant bombing, notes lack of official confirmation on target",
+          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on technical details of barrier installation and crossing statistics",
-          "url": "https://www.france24.com/en/sport/20260801-wiebes-wins-tour-de-france-femmes-opener-to-win-first-yellow-jersey"
+          "framing_note": "Focuses specifically on Wildberries warehouse attacks and their strategic significance",
+          "url": "https://www.france24.com/en/europe/20260803-russia-online-retailer-wildberries-says-warehouse-on-fire-after-ukrainian-drone-attack"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasizes Russia's characterization of strikes as 'terrorist acts' and Ukraine's silence on specific incidents",
+          "url": "https://www.theglobeandmail.com/world/article-eastern-washington-wildfires-prompt-5000-evacuations-destroy-600/"
+        }
+      ]
+    },
+    {
+      "headline": "Cuba's National Power Grid Collapses in Latest Nationwide Blackout",
+      "category": "Society",
+      "bullets": [
+        "Cuba's national electricity grid collapsed late Sunday, plunging the island into a widespread blackout\u2014the latest in a series of total grid failures this year.",
+        "The state-run Electric Union announced the collapse but did not identify its cause, the extent of disruption, or when power would be restored.",
+        "Prior to the nationwide failure, Havana's electricity company had reported outages from damaged transformers, circuit failures, and planned cuts due to insufficient generating capacity.",
+        "Cuba's electricity system has deteriorated significantly amid persistent shortages of fuel and replacement parts."
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Detailed coverage noting this is part of a series of nationwide blackouts, explains typical recovery procedures",
+          "url": "https://www.aljazeera.com/news/2026/8/3/grid-failure-plunges-cuba-into-nationwide-blackout?traffic_source=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article content unavailable due to technical issues",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/01/argentina-s-president-milei-attempts-to-reclaim-the-political-spotlight-by-issuing-anti-foreigner-decree_6756073_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Three Killed in Moscow Restaurant Bombing; Female Attacker Among Dead",
-      "category": "Conflict",
-      "bullets": [
-        "A homemade explosive device detonated at an Italian restaurant in Kudrinskaya Square, Moscow, killing three people and injuring 21",
-        "The dead include the female bomber who attempted to carry the device into the restaurant, a security guard who stopped her, and a patron",
-        "Russian authorities have not identified the target of the attack and say the investigation is ongoing",
-        "Russia's national anti-terrorism committee confirmed the incident was a bombing"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Straightforward factual account citing Russian state media",
-          "url": "https://www.france24.com/en/sport/20260801-wiebes-wins-tour-de-france-femmes-opener-to-win-first-yellow-jersey"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Similar factual coverage noting uncertainty about intended target",
-          "url": "https://www.aljazeera.com/news/2026/8/2/how-virunga-park-protects-people-and-gorillas-from-ebola-in-eastern-drc?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "UEFA and Concacaf Publicly Condemn Infantino Leadership After World Cup Sale Plan Collapses",
-      "category": "Society",
-      "bullets": [
-        "FIFA abandoned plans to sell a 20% stake in World Cup commercial rights to private investors after backlash from regional confederations who said they were not consulted",
-        "UEFA stated the 'current Fifa leadership has not only lost Uefa's confidence but also that of many other members of the football family'",
-        "Concacaf called for a 'full review of this leadership' describing the proposals as 'a symptom of leadership that has stopped putting football first'",
-        "The controversy comes as Infantino seeks re-election for a fourth term at the FIFA Congress in March 2027"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Detailed timeline of how the plan unraveled over five days",
-          "url": "https://www.rfi.fr/en/africa/20260801-burkina-faso-added-to-human-rights-watchlist-over-crackdown-on-civil-society"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused on governance concerns and pressure on Infantino ahead of re-election",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Questioned why no one is challenging Infantino for the presidency",
-          "url": "https://www.aljazeera.com/news/2026/8/2/how-virunga-park-protects-people-and-gorillas-from-ebola-in-eastern-drc?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Hungary Announces First-Ever Shutdown of Sole Nuclear Plant Due to Record-Low Danube Levels",
-      "category": "Climate",
-      "bullets": [
-        "Hungary's Paks nuclear power plant, which provides about one-third of the country's electricity, will shut down completely for the first time in its 44-year history",
-        "Record-low Danube River water levels caused by prolonged drought and successive heatwaves since May have made cooling operations impossible",
-        "Prime Minister Peter Magyar announced the shutdown would be complete by Monday after output fell to 240 megawatts",
-        "Temperatures in Hungary are forecast to reach 42\u00b0C this week, potentially matching the national record set earlier this summer"
-      ],
-      "sources": [
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Framed as part of broader European energy crisis triggered by extreme heat",
-          "url": "https://www.thehindu.com/news/international/hungary-pm-announces-closure-of-nuclear-plant-due-to-heatwave/article71297243.ece"
+          "framing_note": "Brief coverage; article content not fully accessible",
+          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/08/03/madagascar-s-restless-entrepreneur-hassanein-hiridjee-has-big-plans-to-transform-africa_6756100_124.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Nine killed in Russian ballistic missile strikes on Kyiv; Ukraine sinks Russian container ship in Black Sea",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko"
-    },
-    {
-      "headline": "At least three killed and seven wounded in mass shooting at In-N-Out Burger restaurant in Twin Falls, Idaho",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-shooting-in-n-out-idaho-multiple-people-dead/"
-    },
-    {
-      "headline": "Italy places 25 of 27 major cities on highest heat alert as heatwave grips country",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo"
-    },
-    {
-      "headline": "Ebola outbreak in DRC becomes fastest-growing in history with 3,360 confirmed cases and 1,487 deaths",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus"
-    },
-    {
-      "headline": "Ghana and C\u00f4te d'Ivoire sign joint declaration pledging closer cooperation on cocoa pricing and local processing",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260801-africa-s-top-cocoa-producers-pledge-fairer-prices-for-farmers"
-    },
-    {
-      "headline": "Mauritius parliament unanimously votes to criminalize marital rape and impose harsher sentences for femicide",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260802-marriage-is-no-longer-a-shield-new-law-in-mauritius-recognises-marital-rape"
-    },
-    {
-      "headline": "Plane carrying European tourists crashes near Peru's Nazca Lines, killing 13 including seven Italians",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-plane-carrying-european-tourists-crashes-peru-13-killed/"
-    },
-    {
-      "headline": "Wildfires burn over 250,000 acres across Washington state, forcing evacuations in Spokane area",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-wildfires-across-washington-state-prompt-evacuations/"
-    },
-    {
-      "headline": "Actor Vincent Pastore, known for playing 'Big Pussy' in The Sopranos, dies aged 80",
+      "headline": "Aung San Suu Kyi meets Red Cross delegation in first confirmed outside contact in 2.5 years, appears healthy in released photographs",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cm2gz0epljgo"
+      "url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o"
     },
     {
-      "headline": "Flash flood death toll in China's Gansu province rises to 25 one week after disaster at tourist site",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/china-flash-flood-death-toll-rises-to-25-state-media/article71297283.ece"
+      "headline": "Two firefighting helicopter crew killed in mid-air collision while battling wildfires in Greece; British pilot survives",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o"
+    },
+    {
+      "headline": "Wildfires in eastern Washington state force 60,000 evacuations near Spokane, destroying at least 600 structures",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-eastern-washington-wildfires-prompt-5000-evacuations-destroy-600/"
+    },
+    {
+      "headline": "France lowers threshold for screening foreign investment in strategic companies to 10% stake from 25%",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260803-france-tightens-checks-on-foreign-investment-amid-concerns-over-national-security"
+    },
+    {
+      "headline": "Trump attorney general pick Todd Blanche confirms scrapping of $1.8 billion 'slush fund' ahead of Senate confirmation vote",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/518d4dea-01b4-4030-85c1-916e91661580"
+    },
+    {
+      "headline": "FIFA President Infantino under pressure after abandoning World Cup investor plan following UEFA boycott threat",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260803-infantino-under-growing-pressure-after-fifa-scraps-world-cup-investor-proposal"
+    },
+    {
+      "headline": "Dozens killed in Pakistan-administered Kashmir as protests continue; BBC gains first media access to Rawalakot",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c5yvqk69enko"
+    },
+    {
+      "headline": "Israel shares 'serious security concerns' with White House over Hamas disarmament deal as Gaza strikes continue",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-israel-raised-serious-security-concerns-regarding-hamas-deal-strikes/"
+    },
+    {
+      "headline": "Malaysian Prime Minister Anwar's coalition loses another local election, signaling declining support ahead of 2028 general election",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/anwar-coalition-losing-shine-as-local-elections-show-declining-support"
+    },
+    {
+      "headline": "Anti-LGBTQ+ laws proliferating across West Africa as Senegal, Niger, Mali, and Burkina Faso strengthen or introduce criminalization",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn"
     }
   ]
 }
