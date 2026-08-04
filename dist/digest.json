@@ -1,208 +1,220 @@
 {
-  "date": "Monday, August 03, 2026",
-  "daily_brief": "The day's headlines are dominated by shifting dynamics in both US-Iran tensions and European migration policy. President Trump announced that negotiations with Iran will resume Monday after calling off planned strikes, citing requests from Gulf allies including Saudi Arabia's Crown Prince Mohammed bin Salman [BBC], [Globe and Mail], [Financial Times]. Oil prices fell on the news, though Iran's foreign ministry denied plans to receive a US delegation directly. In Europe, the EU has called an emergency meeting of interior ministers for Tuesday following the mass crossing of some 60,000 migrants into Spain's Ceuta enclave from Morocco, which left at least 72 dead [BBC], [Guardian], [RFI]. The crisis has sparked sharp divisions, with Italy suspending Schengen arrangements with Spain\u2014a move condemned by Madrid as 'selfish and unlawful.' Meanwhile, Japan and the United States confirmed their first joint currency intervention since 2011, spending tens of billions to halt the yen's slide to 40-year lows [BBC], [Nikkei Asia], [Financial Times]. In the Russia-Ukraine war, Kyiv intensified deep strikes on Russian territory, hitting oil refineries and Wildberries warehouses, while Moscow reported eight deaths from overnight drone attacks [BBC], [France 24], [Globe and Mail]. Cuba suffered another nationwide blackout as its fragile grid collapsed again [Al Jazeera], [Le Monde].",
+  "date": "Tuesday, August 04, 2026",
+  "daily_brief": "The European Union faces a major test of unity as interior ministers convene emergency talks following the Ceuta migration crisis, which saw an estimated 50,000-69,500 people cross from Morocco into the Spanish enclave last week, leaving at least 83 dead [BBC, Guardian, RFI]. Italy has temporarily suspended Schengen arrangements with Spain, backed by Finland and Denmark, while von der Leyen called for stronger border security. Meanwhile, US-Iran tensions remain elevated as President Trump insisted negotiations are ongoing despite Tehran's categorical denial, warning this is Iran's 'last chance before decapitation' [BBC, Globe and Mail, The Hindu]. A cargo vessel was struck by an 'unknown projectile' in the Strait of Hormuz [France 24], underscoring the fragility of the shipping corridor. In Ukraine, drone strikes killed at least six in Russia, targeting Wildberries warehouses near Moscow and St. Petersburg, while a separate drone struck a busy Black Sea beach killing seven including three children [BBC, France 24]. Europe's drought emergency deepened as the Rhine fell to record lows, threatening commercial shipping [BBC Europe], while wildfires forced 67,000 evacuations near Spokane, Washington, and killed two firefighting pilots in a mid-air collision in Greece [Al Jazeera, Globe and Mail, BBC].",
   "top_stories": [
     {
-      "headline": "Trump Calls Off Iran Strikes, Says Negotiations to Resume Monday",
+      "headline": "EU Ministers Hold Emergency Talks as Ceuta Crisis Exposes Deep Divisions Over Migration",
       "category": "Geopolitics",
       "bullets": [
-        "President Trump announced new talks with Iran will begin Monday afternoon after canceling what he described as planned 'massive' strikes at the request of Gulf allies including Saudi Arabia, UAE, and Qatar.",
-        "Trump stated that the 'parameters' of a deal covering the Strait of Hormuz and Iran's nuclear program had been reached, though Iran's foreign ministry denied plans to receive a US delegation or send officials to Washington.",
-        "Global oil prices fell on the news; Trump declined to set a deadline for reaching a final agreement, saying 'We're ready to go anytime we want.'",
-        "Saudi Crown Prince Mohammed bin Salman reportedly urged Trump to pursue diplomacy over military action during a Saturday phone call."
+        "An estimated 50,000-69,500 migrants crossed from Morocco into the Spanish enclave of Ceuta last week; Spanish officials report approximately 69,500 have since returned to Morocco",
+        "At least 83 people died during the crossings (72 confirmed on the Spanish side, 11 on the Moroccan side), with over 1,000 treated by health services",
+        "Italy temporarily suspended Schengen arrangements with Spain, backed by Finland and Denmark; Czech PM Babi\u0161 called for suspending Spain's Schengen membership",
+        "European Commission President von der Leyen called for stronger borders including 'physical barriers where needed,' while EU interior ministers convened emergency video talks on Tuesday"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed account of Trump's statements aboard Air Force One, notes Iran's denial of direct talks",
-          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasizes Trump's claim of 'biggest attack since World War II' being scrapped, highlights turnabout from previous day's warnings",
-          "url": "https://www.theglobeandmail.com/world/article-eastern-washington-wildfires-prompt-5000-evacuations-destroy-600/"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focuses on oil market reaction to the announcement",
-          "url": "https://www.ft.com/content/f6d563ee-9238-4f82-a848-79f2478326bd?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "EU Calls Emergency Meeting as Ceuta Migrant Crisis Sparks Bloc Divisions",
-      "category": "Policy",
-      "bullets": [
-        "The EU will hold an emergency meeting of interior ministers on Tuesday after approximately 60,000 migrants crossed from Morocco into Spain's Ceuta enclave, with at least 72 confirmed dead.",
-        "Italy suspended its Schengen free-movement arrangement with Spain, a move backed by Finland and Denmark; Spain condemned the response as 'selfish, polarising and unlawful.'",
-        "Twenty-two EU member states issued a joint letter calling for coordinated action and strengthened external borders, citing concerns about 'hybrid threats' creating perceptions that illegal entry is possible.",
-        "Spanish officials report nearly all migrants have returned to Morocco; police began installing a 500-metre floating barrier off the border."
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focuses on diplomatic tensions between Spain and Italy, notes joint EU letter",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on EU institutional response and von der Leyen's call for united action",
+          "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasizes humanitarian toll and political divisions, mentions suspected Russian disinformation attempts",
-          "url": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement"
+          "framing_note": "Emphasized humanitarian toll and Ceuta leader's accusation that Morocco orchestrated the crisis",
+          "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Straightforward coverage of emergency meeting, emphasizes death toll and health service strain",
-          "url": "https://www.rfi.fr/en/science-and-technology/20260802-astronomers-find-clear-evidence-that-betelgeuse-star-is-not-single"
+          "framing_note": "Straightforward reporting on death toll and EU meeting logistics",
+          "url": "https://www.rfi.fr/en/international/20260803-deadly-helicopter-crash-in-greece-exposes-growing-danger-of-europe-s-wildfires"
         },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Features expert analysis calling crisis 'pure political theatre' used to make Europe seem under attack",
-          "url": "https://www.france24.com/en/europe/20260803-russia-online-retailer-wildberries-says-warehouse-on-fire-after-ukrainian-drone-attack"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article body unavailable but headline emphasized EU divisions",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/04/amid-negotiations-israel-keeps-southern-lebanon-in-fear-with-massive-detonations_6756131_4.html"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Framed as criticism of S\u00e1nchez within broader EU disunity context",
+          "url": "https://www.thehindu.com/news/international/new-talks-last-chance-for-iran-to-forge-deal-avoid-escalation-of-us-strikes-trump/article71302832.ece"
         }
       ]
     },
     {
-      "headline": "US and Japan Conduct First Joint Currency Intervention Since 2011 to Halt Yen Slide",
-      "category": "Economics",
+      "headline": "Trump Insists Iran Talks Underway Despite Tehran's Denial, Warns of 'Last Chance'",
+      "category": "Conflict",
       "bullets": [
-        "Japan and the United States jointly intervened in currency markets Friday after the yen fell to a 40-year low against the dollar, the first coordinated action since the 2011 earthquake and tsunami.",
-        "Bank of Japan data indicated Tokyo may have sold nearly $59 billion in US dollars to buy yen; a Reuters photograph showed Treasury Secretary Bessent's notes referencing a $5-10 billion US purchase.",
-        "Both countries' finance officials stated they will not hesitate to conduct further joint interventions if necessary.",
-        "The yen strengthened to the 155 range against the dollar Monday morning as markets remain wary of additional intervention."
+        "President Trump claimed negotiations with Iran are 'going on right now' and called this Iran's 'last chance' to reach a deal before escalation of US strikes",
+        "Iran's Foreign Ministry categorically denied any negotiations with the US, stating talks are only occurring with Oman over Strait of Hormuz passage",
+        "Trump said he called off 'massive attacks' including what would have been 'the biggest attack since World War II' at the request of Gulf allies including Saudi Arabia, UAE, and Qatar",
+        "A cargo vessel was struck by an 'unknown projectile' in the Strait of Hormuz off Oman's coast on Tuesday, according to UK maritime authorities"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Comprehensive overview emphasizing global economic implications and preventing spillover to US borrowing costs",
-          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Balanced presentation of contradictory US and Iranian statements",
+          "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Nikkei Asia",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Japanese perspective, notes ongoing market wariness and JGB yield movements",
-          "url": "https://asia.nikkei.com/business/markets/currencies/us-japan-intervention-helps-lift-yen-to-155-but-concerns-remain"
+          "framing_note": "Emphasized that contradictory statements suggest little prospect for diplomatic resolution",
+          "url": "https://www.theglobeandmail.com/world/article-acting-us-attorney-general-blanche-revokes-anti-weaponization-fund/"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focuses on Japan's vow to intervene again if needed",
-          "url": "https://www.ft.com/content/f6d563ee-9238-4f82-a848-79f2478326bd?syn-25a6b1a6=1"
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Commentary piece argued the US is 'persisting with a war it has already lost'",
+          "url": "https://www.thehindu.com/news/international/new-talks-last-chance-for-iran-to-forge-deal-avoid-escalation-of-us-strikes-trump/article71302832.ece"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on the Hormuz shipping incident as concrete development amid diplomatic uncertainty",
+          "url": "https://www.france24.com/en/americas/20260804-faa-certifies-boeing-737-max-7-after-years-of-delays"
         }
       ]
     },
     {
-      "headline": "Ukraine Intensifies Deep Strikes on Russian Oil Infrastructure and Warehouses",
+      "headline": "Ukrainian Drone Strikes Kill at Least 12 Across Russia, Including Beach Attack on Civilians",
       "category": "Conflict",
       "bullets": [
-        "Ukraine struck a major oil refinery and the Engels strategic aviation airfield in Russia's Saratov region, some 600km from Ukraine's border, along with targets in Kaluga and Bryansk regions.",
-        "Russia reported eight people killed in overnight Ukrainian drone strikes, with 635 drones shot down or intercepted; a child was among the dead in Belgorod region.",
-        "Wildberries, Russia's largest online retailer, reported another warehouse fire after a drone attack in Vladimir region\u2014approximately the twentieth strike on the company's facilities since mid-July.",
-        "A suspected bomb attack at a Moscow restaurant killed three and injured 21; the Russian Embassy blamed Ukraine, with unconfirmed reports suggesting a senior military commander may have been the target."
+        "A drone struck a busy Black Sea beach near Arkhipo-Osipovka in southern Russia, killing seven people including three children and injuring 40",
+        "Separate overnight strikes killed five people near Moscow and one near St. Petersburg, with warehouses linked to e-commerce giant Wildberries targeted for the second consecutive night",
+        "Ukraine has not commented on the beach strike; some Ukrainian sources claimed electronic warfare jammed the drone's signal, causing it to crash",
+        "Russian strikes on Ukraine killed at least four people, including an 89-year-old woman in Mykolaiv, with two girls aged 2 and 12 among the injured"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Presented both incidents with verified footage; noted uncertainty about beach drone's intended target",
+          "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Duplicate coverage of beach strike",
+          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Led with warehouse strikes; noted Finland briefly established aviation restriction area",
+          "url": "https://www.france24.com/en/americas/20260804-faa-certifies-boeing-737-max-7-after-years-of-delays"
+        }
+      ]
+    },
+    {
+      "headline": "Rhine Falls to Record Lows as Prolonged Heatwaves Strain Europe's Rivers and Firefighting Capacity",
+      "category": "Climate",
+      "bullets": [
+        "The Rhine reached record low levels in Cologne and Lobith (Germany-Netherlands border), with 44% of Rhine measuring stations and 78% of Danube stations recording extremely low water levels",
+        "Water depth at the critical Kaub chokepoint near Koblenz hit the 2018 record low of 25cm, threatening commercial shipping on one of Europe's busiest waterways",
+        "Two firefighting pilots (one Danish, one Greek officer) were killed when their helicopters collided mid-air while battling wildfires near Athens; a British pilot survived",
+        "Heatwaves above 40\u00b0C are forecast to continue across central and southern Europe for at least another week; wildfires in France uncovered buried WWII munitions"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Covers both Ukrainian strikes and Moscow restaurant bombing, notes lack of official confirmation on target",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on economic implications for shipping and navigation",
+          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focuses specifically on Wildberries warehouse attacks and their strategic significance",
-          "url": "https://www.france24.com/en/europe/20260803-russia-online-retailer-wildberries-says-warehouse-on-fire-after-ukrainian-drone-attack"
+          "framing_note": "Covered helicopter collision with emphasis on wildfire season dangers",
+          "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Globe and Mail",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasizes Russia's characterization of strikes as 'terrorist acts' and Ukraine's silence on specific incidents",
-          "url": "https://www.theglobeandmail.com/world/article-eastern-washington-wildfires-prompt-5000-evacuations-destroy-600/"
+          "framing_note": "Linked helicopter crash to climate change creating longer fire weather periods; covered WWII shells discovery",
+          "url": "https://www.rfi.fr/en/international/20260803-deadly-helicopter-crash-in-greece-exposes-growing-danger-of-europe-s-wildfires"
         }
       ]
     },
     {
-      "headline": "Cuba's National Power Grid Collapses in Latest Nationwide Blackout",
-      "category": "Society",
+      "headline": "Spokane Wildfires Destroy 700 Buildings, Force 67,000 to Evacuate in Washington State",
+      "category": "Climate",
       "bullets": [
-        "Cuba's national electricity grid collapsed late Sunday, plunging the island into a widespread blackout\u2014the latest in a series of total grid failures this year.",
-        "The state-run Electric Union announced the collapse but did not identify its cause, the extent of disruption, or when power would be restored.",
-        "Prior to the nationwide failure, Havana's electricity company had reported outages from damaged transformers, circuit failures, and planned cuts due to insufficient generating capacity.",
-        "Cuba's electricity system has deteriorated significantly amid persistent shortages of fuel and replacement parts."
+        "Three fast-moving wildfires on Spokane's northern outskirts have burned over 8,000 acres (32 square kilometers) and destroyed more than 700 buildings since the weekend",
+        "Approximately 67,000 residents are under evacuation orders, up from 4,000 on Sunday, as fires spread from surrounding forests into residential neighborhoods",
+        "The fires are currently the top firefighting priority in the United States; no deaths have been confirmed but authorities say full damage assessment will take time",
+        "Calmer winds and lower temperatures arrived Monday to aid firefighters, but hot and dry conditions are expected to return by midweek"
       ],
       "sources": [
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Detailed coverage noting this is part of a series of nationwide blackouts, explains typical recovery procedures",
-          "url": "https://www.aljazeera.com/news/2026/8/3/grid-failure-plunges-cuba-into-nationwide-blackout?traffic_source=rss"
+          "framing_note": "Provided detailed explainer on why fires spread so rapidly; emphasized climate factors",
+          "url": "https://www.aljazeera.com/news/2026/8/4/colombias-petro-repeats-vote-fraud-claims-days-before-handing-over-power?traffic_source=rss"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Brief coverage; article content not fully accessible",
-          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/08/03/madagascar-s-restless-entrepreneur-hassanein-hiridjee-has-big-plans-to-transform-africa_6756100_124.html"
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Led with human impact and resident accounts of devastation",
+          "url": "https://www.theglobeandmail.com/world/article-acting-us-attorney-general-blanche-revokes-anti-weaponization-fund/"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Aung San Suu Kyi meets Red Cross delegation in first confirmed outside contact in 2.5 years, appears healthy in released photographs",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o"
-    },
-    {
-      "headline": "Two firefighting helicopter crew killed in mid-air collision while battling wildfires in Greece; British pilot survives",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o"
-    },
-    {
-      "headline": "Wildfires in eastern Washington state force 60,000 evacuations near Spokane, destroying at least 600 structures",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-eastern-washington-wildfires-prompt-5000-evacuations-destroy-600/"
-    },
-    {
-      "headline": "France lowers threshold for screening foreign investment in strategic companies to 10% stake from 25%",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260803-france-tightens-checks-on-foreign-investment-amid-concerns-over-national-security"
-    },
-    {
-      "headline": "Trump attorney general pick Todd Blanche confirms scrapping of $1.8 billion 'slush fund' ahead of Senate confirmation vote",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/518d4dea-01b4-4030-85c1-916e91661580"
-    },
-    {
-      "headline": "FIFA President Infantino under pressure after abandoning World Cup investor plan following UEFA boycott threat",
+      "headline": "FAA certifies Boeing 737 MAX 7 after more than eight years of delays following fatal crashes",
       "source": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260803-infantino-under-growing-pressure-after-fifa-scraps-world-cup-investor-proposal"
+      "url": "https://www.france24.com/en/americas/20260804-faa-certifies-boeing-737-max-7-after-years-of-delays"
     },
     {
-      "headline": "Dozens killed in Pakistan-administered Kashmir as protests continue; BBC gains first media access to Rawalakot",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c5yvqk69enko"
+      "headline": "Michigan Democrats vote in high-profile Senate primary with record $60 million in outside spending, mostly from pro-Israel lobby AIPAC",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260804-michigan-democrats-pick-nominee-in-high-profile-senate-primary-amid-record-pro-israel-spending-abdul-stevens"
     },
     {
-      "headline": "Israel shares 'serious security concerns' with White House over Hamas disarmament deal as Gaza strikes continue",
+      "headline": "EU AI Act's main provisions take effect, giving regulators power to investigate and fine companies over general-purpose AI models",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260803-eu-steps-up-ai-regulation-as-new-transparency-rules-come-into-effect"
+    },
+    {
+      "headline": "Lebanese President Aoun urges judiciary to issue long-awaited indictment on sixth anniversary of Beirut port blast that killed 220",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260804-push-for-indictment-as-lebanon-marks-six-years-since-beirut-port-blast"
+    },
+    {
+      "headline": "Twenty-five US states sue Trump administration over latest tariffs, calling them illegal replacement for import taxes struck down by Supreme Court",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-israel-raised-serious-security-concerns-regarding-hamas-deal-strikes/"
+      "url": "https://www.theglobeandmail.com/world/article-trump-tariffs-25-us-states-challenge-legal/"
     },
     {
-      "headline": "Malaysian Prime Minister Anwar's coalition loses another local election, signaling declining support ahead of 2028 general election",
+      "headline": "Toyota raises full-year net profit forecast to 3.25 trillion yen ($20.6 billion), helped by weak yen",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/anwar-coalition-losing-shine-as-local-elections-show-declining-support"
+      "url": "https://asia.nikkei.com/business/automobiles/toyota-raises-full-year-net-profit-forecast-helped-by-weak-yen"
     },
     {
-      "headline": "Anti-LGBTQ+ laws proliferating across West Africa as Senegal, Niger, Mali, and Burkina Faso strengthen or introduce criminalization",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn"
+      "headline": "HSBC reports 23% jump in first-half pre-tax profit to $19.5 billion, announces $1 billion share buyback",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/finance/hsbc-profit-jumps-23-as-asia-wealth-fuels-earnings"
+    },
+    {
+      "headline": "Colombia's outgoing President Petro repeats fraud allegations against June election results days before successor's inauguration",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/4/colombias-petro-repeats-vote-fraud-claims-days-before-handing-over-power"
+    },
+    {
+      "headline": "Taiwan begins annual Han Kuang defense drills with new test throttling public internet connectivity to simulate Chinese invasion scenario",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-braces-for-annual-han-kuang-anti-invasion-drills-with-new-twists"
+    },
+    {
+      "headline": "Canada to withdraw peacekeepers from UN missions in Congo, South Sudan, Kosovo, and Cyprus by mid-2027, dropping to approximately 100th in troop contributions",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-canada-slashes-its-un-peacekeeping-forces-as-it-tilts-to-europe-and/"
     }
   ]
 }
