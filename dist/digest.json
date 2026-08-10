@@ -1,196 +1,190 @@
 {
-  "date": "Sunday, August 09, 2026",
-  "daily_brief": "Tensions in the Middle East remain elevated as Iran issued sweeping new conditions for reopening the Strait of Hormuz, demanding US compensation, troop withdrawal, and an end to sanctions before restoring full shipping access [BBC], [France 24], [Al Jazeera], [Globe and Mail]. Within the EU, a diplomatic row between Spain and Italy intensified as both countries imposed reciprocal border checks following the unprecedented influx of over 70,000 migrants into Spain's Ceuta enclave from Morocco [BBC Europe], [The Guardian], [France 24], [RFI], [Globe and Mail]. In the United States, Todd Blanche was narrowly confirmed as Attorney General in a 50-49 Senate vote, with two Republican senators joining Democrats in opposition over concerns about his handling of Epstein documents and Trump's controversial 'anti-weaponisation' fund [BBC World]. Ukraine's President Zelensky warned from Belgrade that Russian strikes have left the country with virtually no intact thermal power plants ahead of winter [France 24]. Meanwhile, German authorities are investigating a drone loaded with explosives discovered at Leipzig airport near Ukrainian cargo planes, with officials warning of a 'new level of danger' potentially involving foreign powers [BBC Europe], [RNZ].",
+  "date": "Monday, August 10, 2026",
+  "daily_brief": "The day's most consequential development is Israeli Prime Minister Benjamin Netanyahu's formal rejection of President Trump's 15-point Gaza peace plan, a move that complicates US-led diplomacy in the region and raises questions about the future of the ceasefire framework [BBC], [RFI], [Le Monde]. Meanwhile, tensions between Iran and the United States persist, with Tehran conditioning the reopening of the Strait of Hormuz on the lifting of sanctions, compensation, and an end to military threats [France 24], [The Hindu]. In Europe, Germany is grappling with what officials describe as 'hybrid warfare,' following drone sightings over a military base housing Patriot missile components days after an explosive-laden device was found at Leipzig airport [BBC]. A diplomatic spat between Spain and Italy has escalated into mutual border controls, triggered by the mass migration event in Ceuta late last month, testing EU solidarity [The Guardian], [BBC]. On the public health front, the Ebola outbreak in the Democratic Republic of the Congo has now exceeded 4,000 confirmed cases, with officials warning the virus may be mutating and calling for an urgent scale-up of response efforts [The Guardian].",
   "top_stories": [
     {
-      "headline": "Iran Sets Sweeping New Conditions for Strait of Hormuz Reopening, Complicating US Talks",
+      "headline": "Netanyahu Rejects Trump's 15-Point Gaza Plan, Demands Full Hamas Disarmament Before Any Withdrawal",
       "category": "Geopolitics",
       "bullets": [
-        "Iran's Supreme National Security Council stated the Strait of Hormuz will remain closed until the US 'corrects its behaviour,' issuing six conditions including compensation for war damages, lifting of sanctions, withdrawal of US forces, and release of frozen assets",
-        "Iranian Foreign Minister Abbas Araghchi said talks with Oman were 'approaching final stages' but reopening remains 'subject to other conditions' beyond the bilateral deal",
-        "Oman's foreign ministry reported positive discussions but warned against attacks on shipping that could hamper negotiations; the UAE reported one of its ships was targeted by an Iranian missile",
-        "The strait has been effectively blockaded since February when US-Israel military operations against Iran began; roughly one-fifth of global oil and gas typically transits the waterway"
+        "Israeli Prime Minister Benjamin Netanyahu formally rejected the US-backed 15-point peace plan for Gaza at a cabinet meeting on Sunday, stating Israel will not withdraw forces until Hamas is 'genuinely disarmed.'",
+        "Hamas had previously agreed to the plan, which included provisions for complete disarmament of armed groups in Gaza, though Hamas conditioned weapons handover on Israel ending 'all forms of aggression' and withdrawing.",
+        "The rejection marks a significant break between Netanyahu and President Trump, who had hailed the plan as a milestone for peace; Netanyahu described Trump as 'our greatest friend in the White House' but said Israel would stand its ground.",
+        "Oil prices rose following the announcement, with Brent crude gaining 0.6% to $84.04 per barrel."
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on diplomatic progress with Oman while noting Iran's caveats",
-          "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized complexity of demands and quoted conditions in detail via liveblog format",
-          "url": "https://www.france24.com/en/europe/20260808-spain-imposes-border-checks-on-italian-travellers-amid-migrant-dispute"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted IRGC statement and framed conditions as separate from Oman negotiations",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-2026-colombia-car-bomb-sv-mp4?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Included UAE ship targeting and broader regional context including Turkey-Kurdish developments",
-          "url": "https://www.theglobeandmail.com/world/article-chinas-unemployed-flocking-to-communist-party-mass-service-centres/"
-        }
-      ]
-    },
-    {
-      "headline": "Spain and Italy Impose Reciprocal Border Checks as Ceuta Migration Crisis Escalates EU Tensions",
-      "category": "Policy",
-      "bullets": [
-        "Spain began temporary border checks on travellers from Italy at midnight Saturday, set to last until September 7, in response to Italy's similar measures imposed on August 1",
-        "Italy introduced one-month border controls after approximately 78,000 migrants crossed from Morocco into Spain's North African enclave of Ceuta on July 30-31, with more than 80 deaths reported",
-        "Spain's Foreign Minister Jos\u00e9 Manuel Albares called Italy's measures 'a torpedo fired at the hull of European unity' and 'discriminatory for the Spanish population'",
-        "Italy's government under PM Giorgia Meloni refused Spain's deadline to lift restrictions, stating controls would remain at least until August 15 when Spain 'expects a new wave of migration'"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Neutral presentation emphasizing both sides' positions and practical implementation details",
-          "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Spanish criticism of Italian measures and EU unity concerns",
-          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Included tourist reaction and described it as escalation between EU partners",
-          "url": "https://www.france24.com/en/europe/20260808-spain-imposes-border-checks-on-italian-travellers-amid-migrant-dispute"
+          "framing_note": "Emphasized the diplomatic rift and quoted both Israeli and Hamas officials directly.",
+          "url": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Highlighted 'migration showdown' framing and quoted Spanish characterization of measures",
-          "url": "https://www.rfi.fr/en/france/20260808-former-french-pm-attal-files-legal-complaint-over-alleged-russian-interference"
+          "framing_note": "Highlighted the timing ahead of Israeli elections on October 27 and Netanyahu's political calculations.",
+          "url": "https://www.rfi.fr/en/environment/20260809-as-the-planet-heats-up-butterflies-are-seeking-out-cooler-climes"
         },
         {
-          "name": "Globe and Mail",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Provided fuller context on death toll and noted most migrants have returned to Morocco",
-          "url": "https://www.theglobeandmail.com/world/article-chinas-unemployed-flocking-to-communist-party-mass-service-centres/"
-        }
-      ]
-    },
-    {
-      "headline": "Trump's Former Lawyer Todd Blanche Confirmed as US Attorney General in Narrow 50-49 Vote",
-      "category": "Policy",
-      "bullets": [
-        "Todd Blanche, who served as Trump's personal defence lawyer, was confirmed as Attorney General after serving as acting AG since April",
-        "Two Republican senators, Susan Collins and Lisa Murkowski, joined all Democrats in opposing the nomination; Senator Bill Cassidy cast the deciding vote",
-        "Republican concerns centered on Blanche's handling of Jeffrey Epstein-related document releases and his role establishing Trump's $1.8 billion 'anti-weaponisation' fund",
-        "Blanche pledged during confirmation hearings to walk back the fund, which critics feared would compensate January 6 participants, though it remains unclear if the commitment is legally binding"
-      ],
-      "sources": [
+          "framing_note": "Focused on oil price implications alongside the diplomatic breakdown.",
+          "url": "https://www.france24.com/en/europe/20260810-from-solar-corona-to-human-emotions-what-can-we-learn-from-eclipses-2-4"
+        },
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized the lengthy standoff and bipartisan opposition, noting uncertainty about whether Blanche's pledges are binding",
-          "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article headline available but full content not accessible.",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/09/netanyahu-rejects-us-plan-for-gaza-accepted-by-hamas-in-new-break-from-trump_6756316_4.html"
         }
       ]
     },
     {
-      "headline": "Ukraine Faces Winter Without Working Thermal Power Plants After Russian Strikes, Zelensky Warns",
-      "category": "Conflict",
+      "headline": "Iran Sets Conditions for Reopening Strait of Hormuz, Including Sanctions Relief and Compensation",
+      "category": "Geopolitics",
       "bullets": [
-        "President Zelensky stated during a visit to Belgrade that Ukraine has 'virtually no intact thermal power plants' as it prepares for the heating season",
-        "Overnight Russian strikes killed four people including a three-year-old child in the Kyiv region; 13 deaths total were reported from strikes and frontline shelling in 24 hours",
-        "The visit marked Zelensky's first official trip to Belgrade, where he met with Serbian President Aleksandar Vucic",
-        "Both Ukraine and Russia have been escalating long-range strikes, causing growing civilian casualties more than four years into Russia's large-scale offensive"
+        "Iran's national security chief outlined demands the US must meet before Tehran reopens the Strait of Hormuz, including lifting the naval blockade of Iranian ports, compensation for war damages, and release of frozen Iranian assets.",
+        "Iranian Foreign Minister Abbas Aragchi said an agreement with Oman on new shipping lanes through the strait is in its 'final stages,' though broader reopening depends on US concessions.",
+        "President Trump indicated Washington is prioritizing economic pressure over new military strikes, citing Iran's financial difficulties and crediting the US naval blockade with deepening that pressure.",
+        "Trump noted oil prices have fallen to just above $75 per barrel, easing economic impact on American consumers."
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on energy infrastructure vulnerability and civilian toll, noting this was Zelensky's first official Belgrade visit",
-          "url": "https://www.france24.com/en/europe/20260808-spain-imposes-border-checks-on-italian-travellers-amid-migrant-dispute"
+          "framing_note": "Reported within Middle East live coverage, emphasizing regional shipping and security implications.",
+          "url": "https://www.france24.com/en/europe/20260810-from-solar-corona-to-human-emotions-what-can-we-learn-from-eclipses-2-4"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided detailed timeline and context on the Oman mediation track.",
+          "url": "https://www.thehindu.com/news/international/china-slams-indias-move-of-formally-naming-27-places-in-arunachal-pradesh/article71326872.ece"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Trump's 'semi-negotiating' posture and framed the approach as cautious following months of conflict.",
+          "url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Germany Investigates Explosive-Laden Drone at Leipzig Airport Amid Hybrid War Concerns",
+      "headline": "Germany Investigating Drone Incursions at Military Bases Amid 'Hybrid Warfare' Concerns",
       "category": "Conflict",
       "bullets": [
-        "An explosive-equipped quadcopter drone was discovered on a runway at Leipzig-Halle airport late Tuesday near Ukrainian Antonov cargo planes marked with Ukrainian national colours",
-        "German Interior Minister warned of a 'new level of danger' from an attack that 'may involve foreign powers'; federal prosecutors launched a probe into threats to foreign and domestic security",
-        "A DHL cargo plane collided with an unidentified object during a go-around, sustaining slight damage; investigators believe it may have been a second drone",
-        "Russia's embassy in Berlin dismissed the incident as a 'fabricated provocation' and criticized 'anti-Russian hysteria,' though German officials have not publicly attributed blame"
+        "Two drones were spotted over a Bundeswehr base in Mechernich, near Bonn, on Thursday evening; the base reportedly houses components for US-made Patriot air-defense systems.",
+        "The incident comes days after an explosive-laden drone was found on a runway at Leipzig/Halle airport, which serves NATO, the German military, and Ukraine's Antonov Airlines.",
+        "German Interior Minister Alexander Dobrindt stated Germany has become a 'daily target of hybrid warfare,' though Moscow denies any involvement.",
+        "The Bundeswehr declined to comment on the suspected origins of the drones; local police are investigating."
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed technical investigation while noting Russia's denial and previous 2024 plot involving Russian-linked proxies",
-          "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straightforward reporting with official statements; noted Moscow's denial of involvement.",
+          "url": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RNZ",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Led with Russia's denial and embassy statement, framing it as accusation without evidence",
-          "url": "https://www.rnz.co.nz/news/world/933821/russia-dismisses-german-drone-incident-as-fabricated-provocation"
+          "framing_note": "Duplicate coverage with identical content.",
+          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Spain and Italy Impose Mutual Border Controls as Ceuta Migration Crisis Strains EU Relations",
+      "category": "Policy",
+      "bullets": [
+        "Spain imposed border controls on all air and sea travel from Italy starting at midnight Saturday, in response to Italy's earlier restrictions following an influx of approximately 78,000 migrants from Morocco into Ceuta on July 30-31.",
+        "Spanish Foreign Minister Jos\u00e9 Manuel Albares described Italy's measures as 'a torpedo fired at the hull of European unity' and called them 'unfair, contrary to the EU's interests and discriminatory.'",
+        "Italy's government under Prime Minister Giorgia Meloni refused to revise its decision, stating checks would remain until at least August 15.",
+        "Spain stated that 5%-10% of passengers arriving from Italy would have their documents checked; both countries say their controls are random."
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized the political divide between Spain's socialist leader and Italy's conservative leader on migration policy.",
+          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Focused on the procedural aspects and official statements from both governments.",
+          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "DRC Ebola Outbreak Surpasses 4,000 Cases as Officials Warn Virus May Be Mutating",
+      "category": "Society",
+      "bullets": [
+        "The Ebola outbreak in the Democratic Republic of the Congo, caused by the Bundibugyo strain, has exceeded 4,000 confirmed cases with at least 1,801 deaths as of early August.",
+        "Africa CDC Director General Dr. Jean Kaseya announced plans to scale up response efforts and go 'door to door' looking for patients, warning the time for incremental action was over.",
+        "Officials are conducting studies to determine whether the virus is mutating, citing the 'unprecedented' severity of the Bundibugyo outbreak.",
+        "The outbreak is now the second-largest Ebola outbreak on record, with eight times more cases and six times more deaths than were recorded 11 weeks into the 2014-18 West Africa outbreak."
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized the scale of the outbreak relative to historical precedents and quoted African health officials directly.",
+          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Typhoon Dolphin triggers red alert in China with 1,400 flights cancelled and nearly 100,000 evacuated from eastern coastal provinces",
+      "headline": "Ukraine launches massive drone strike on Russia, hitting Tatarstan oil refinery and killing at least 12",
       "source": "France 24",
-      "url": "https://www.france24.com/en/asia-pacific/20260809-flight-cancellations-evacuations-in-china-as-typhoon-dolphin-looms"
+      "url": "https://www.france24.com/en/europe/20260810-hundreds-of-ukrainian-drones-target-russia-in-overnight-strikes"
     },
     {
-      "headline": "Car bomb destroys toll booth on Colombia's Pan-American Highway one day after right-wing President Abelardo de la Espriella's inauguration, with army blaming former FARC factions",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-2026-colombia-car-bomb-sv-mp4"
-    },
-    {
-      "headline": "Hunter Biden reveals father Joe Biden's prostate cancer has metastasized into his bones, describing it as 'very painful' and 'very debilitating'",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-clip-biden-cancer-us"
-    },
-    {
-      "headline": "France reports 420 arrests over wildfires that have scorched more than 300,000 acres this summer, the worst damage since World War Two",
+      "headline": "Suspected Irish crime boss Daniel Kinahan extradited from Dubai, appears in Dublin court on charges of directing criminal organization",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvgxjn92x9jo"
+      "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o"
     },
     {
-      "headline": "Trump administration pays German energy firm RWE $1.2 billion to abandon US offshore wind projects, with funds redirected to Louisiana LNG terminal",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o"
+      "headline": "Syria and Russia reach agreement to convert Hmeimim and Tartus military bases into joint training centers within three months",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260810-moscow-and-damascus-reach-deal-over-russian-military-bases-in-syria"
     },
     {
-      "headline": "Ebola outbreak in DRC passes 4,000 cases with fears the Bundibugyo strain may be mutating; outbreak now second-largest on record",
+      "headline": "Yemen's Houthi rebels strike Mocha port, killing seven and wounding 30, amid broader regional tensions",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260810-middle-east-live-houthis-launch-deadly-strike-on-port-city-of-mocha-in-yemen"
+    },
+    {
+      "headline": "US State Department to close five consulates across Asia, Africa, and the Americas, drawing criticism over diplomatic vacuum concerns",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
+      "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
     },
     {
-      "headline": "Fast-moving wildfire forces more than 20,000 evacuations in British Columbia's Okanagan region as Bald Range fire grows to 9,500 hectares",
+      "headline": "Federal judge approves Trump administration's effort to end Temporary Protected Status for South Sudanese nationals",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+    },
+    {
+      "headline": "New Zealand announces 36th round of sanctions against Russia, targeting cyber actors and those involved in forced relocation of Ukrainian children",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/political/934637/new-zealand-places-further-sanctions-against-russia-supporters"
+    },
+    {
+      "headline": "Nepal cancels major Tibetan studies conference in Kathmandu after China objects, forcing event online",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/nepal-halts-tibet-academic-conference-after-china-objects"
+    },
+    {
+      "headline": "China criticizes India for formally naming 27 locations in Arunachal Pradesh on official maps",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/china-slams-indias-move-of-formally-naming-27-places-in-arunachal-pradesh/article71326872.ece"
+    },
+    {
+      "headline": "Wildfires force evacuation of more than 20,000 residents from towns in Canada's British Columbia Okanagan region",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada"
-    },
-    {
-      "headline": "French corn harvest projected to fall 35% to nine million tons, lowest level since 1980, due to heatwaves and drought",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260808-french-farmers-bracing-for-smallest-corn-harvest-in-40-years-drought-heatwave-environment"
-    },
-    {
-      "headline": "Former French PM Gabriel Attal files legal complaint alleging Russian interference via deepfakes and fake news targeting him ahead of 2027 presidential election",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260808-former-french-pm-attal-files-legal-complaint-over-alleged-russian-interference"
-    },
-    {
-      "headline": "Football star Lionel Messi returns to Argentina following death of his father and longtime agent Jorge Messi at age 68",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-2026-messi-arrives-argentina-clip"
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/wildfires-bear-down-on-homes-in-canadas-okanagan-region"
     }
   ]
 }
