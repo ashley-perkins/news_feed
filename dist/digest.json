@@ -1,150 +1,139 @@
 {
-  "date": "Monday, August 10, 2026",
-  "daily_brief": "The day's most consequential development is Israeli Prime Minister Benjamin Netanyahu's formal rejection of President Trump's 15-point Gaza peace plan, a move that complicates US-led diplomacy in the region and raises questions about the future of the ceasefire framework [BBC], [RFI], [Le Monde]. Meanwhile, tensions between Iran and the United States persist, with Tehran conditioning the reopening of the Strait of Hormuz on the lifting of sanctions, compensation, and an end to military threats [France 24], [The Hindu]. In Europe, Germany is grappling with what officials describe as 'hybrid warfare,' following drone sightings over a military base housing Patriot missile components days after an explosive-laden device was found at Leipzig airport [BBC]. A diplomatic spat between Spain and Italy has escalated into mutual border controls, triggered by the mass migration event in Ceuta late last month, testing EU solidarity [The Guardian], [BBC]. On the public health front, the Ebola outbreak in the Democratic Republic of the Congo has now exceeded 4,000 confirmed cases, with officials warning the virus may be mutating and calling for an urgent scale-up of response efforts [The Guardian].",
+  "date": "Tuesday, August 11, 2026",
+  "daily_brief": "A devastating magnitude 7.4 earthquake struck western Colombia on Monday, killing at least 132 people and collapsing dozens of buildings across cities including Pereira and Cali [BBC, Al Jazeera, Globe and Mail]. In the ongoing Russia-Ukraine conflict, Ukrainian drones struck deep into Russia's Tatarstan region, killing at least 13 people including a child near the Tanevo oil refinery\u2014one of the deadliest single attacks on Russian soil since 2022 [BBC, France 24]. Separately, Russian missiles struck Kyiv and Zaporizhzhia, killing at least five [France 24]. In a significant blow to Russian political pluralism, a Moscow court barred Yabloko, the country's only registered anti-war party, from participating in upcoming parliamentary elections [BBC]. The Trump administration issued an executive order calling for a reduced childhood vaccination schedule and the separation of the MMR vaccine into three shots, drawing sharp criticism from public health experts who called the move dangerous and scientifically unfounded [ABC Australia, Al Jazeera]. Meanwhile, Trump Media & Technology Group reported a $238 million quarterly loss, with unrealized losses on digital assets accounting for most of the shortfall [Al Jazeera].",
   "top_stories": [
     {
-      "headline": "Netanyahu Rejects Trump's 15-Point Gaza Plan, Demands Full Hamas Disarmament Before Any Withdrawal",
-      "category": "Geopolitics",
+      "headline": "Magnitude 7.4 Earthquake Kills Over 130 in Western Colombia",
+      "category": "Society",
       "bullets": [
-        "Israeli Prime Minister Benjamin Netanyahu formally rejected the US-backed 15-point peace plan for Gaza at a cabinet meeting on Sunday, stating Israel will not withdraw forces until Hamas is 'genuinely disarmed.'",
-        "Hamas had previously agreed to the plan, which included provisions for complete disarmament of armed groups in Gaza, though Hamas conditioned weapons handover on Israel ending 'all forms of aggression' and withdrawing.",
-        "The rejection marks a significant break between Netanyahu and President Trump, who had hailed the plan as a milestone for peace; Netanyahu described Trump as 'our greatest friend in the White House' but said Israel would stand its ground.",
-        "Oil prices rose following the announcement, with Brent crude gaining 0.6% to $84.04 per barrel."
+        "A 7.4 magnitude earthquake struck Colombia's Choc\u00f3 province at 07:34 local time, with the epicenter near San Jos\u00e9 del Palmar at a depth of 103km",
+        "At least 132 people confirmed dead, with over 480 injured and many still feared trapped under collapsed buildings",
+        "The city of Pereira reported at least 40 deaths and 65 collapsed buildings; Cali and other western cities also suffered significant damage",
+        "Colombian President Abelardo de la Espriella declared a state of emergency to expedite recovery funding"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized the diplomatic rift and quoted both Israeli and Hamas officials directly.",
-          "url": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Highlighted the timing ahead of Israeli elections on October 27 and Netanyahu's political calculations.",
-          "url": "https://www.rfi.fr/en/environment/20260809-as-the-planet-heats-up-butterflies-are-seeking-out-cooler-climes"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on oil price implications alongside the diplomatic breakdown.",
-          "url": "https://www.france24.com/en/europe/20260810-from-solar-corona-to-human-emotions-what-can-we-learn-from-eclipses-2-4"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article headline available but full content not accessible.",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/09/netanyahu-rejects-us-plan-for-gaza-accepted-by-hamas-in-new-break-from-trump_6756316_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Iran Sets Conditions for Reopening Strait of Hormuz, Including Sanctions Relief and Compensation",
-      "category": "Geopolitics",
-      "bullets": [
-        "Iran's national security chief outlined demands the US must meet before Tehran reopens the Strait of Hormuz, including lifting the naval blockade of Iranian ports, compensation for war damages, and release of frozen Iranian assets.",
-        "Iranian Foreign Minister Abbas Aragchi said an agreement with Oman on new shipping lanes through the strait is in its 'final stages,' though broader reopening depends on US concessions.",
-        "President Trump indicated Washington is prioritizing economic pressure over new military strikes, citing Iran's financial difficulties and crediting the US naval blockade with deepening that pressure.",
-        "Trump noted oil prices have fallen to just above $75 per barrel, easing economic impact on American consumers."
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Reported within Middle East live coverage, emphasizing regional shipping and security implications.",
-          "url": "https://www.france24.com/en/europe/20260810-from-solar-corona-to-human-emotions-what-can-we-learn-from-eclipses-2-4"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Provided detailed timeline and context on the Oman mediation track.",
-          "url": "https://www.thehindu.com/news/international/china-slams-indias-move-of-formally-naming-27-places-in-arunachal-pradesh/article71326872.ece"
+          "framing_note": "Focused on death toll, geographic spread, and verified footage of damage",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Trump's 'semi-negotiating' posture and framed the approach as cautious following months of conflict.",
-          "url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss"
+          "framing_note": "Highlighted human impact with family documentation of home destruction",
+          "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Compared to recent Venezuelan earthquakes and emphasized ongoing rescue operations",
+          "url": "https://www.theglobeandmail.com/world/article-montreal-father-accused-with-daughters-murder-in-upstate-new-york/"
         }
       ]
     },
     {
-      "headline": "Germany Investigating Drone Incursions at Military Bases Amid 'Hybrid Warfare' Concerns",
+      "headline": "Ukrainian Drone Strike Kills 13 Deep Inside Russia in Tatarstan",
       "category": "Conflict",
       "bullets": [
-        "Two drones were spotted over a Bundeswehr base in Mechernich, near Bonn, on Thursday evening; the base reportedly houses components for US-made Patriot air-defense systems.",
-        "The incident comes days after an explosive-laden drone was found on a runway at Leipzig/Halle airport, which serves NATO, the German military, and Ukraine's Antonov Airlines.",
-        "German Interior Minister Alexander Dobrindt stated Germany has become a 'daily target of hybrid warfare,' though Moscow denies any involvement.",
-        "The Bundeswehr declined to comment on the suspected origins of the drones; local police are investigating."
+        "Ukrainian drones struck Nizhnekamsk in Russia's Tatarstan republic, over 1,100km from the Ukrainian border, hitting the Tanevo oil refinery",
+        "At least 13 people killed including one child, with 75 injured; seven victims were Uzbek citizens staying in a hostel",
+        "The attack is one of the deadliest single strikes on Russian territory since the full-scale invasion began in 2022",
+        "Moscow vowed 'inevitable and severe punishment' for those involved; Kyiv confirmed targeting infrastructure supporting Russia's war effort"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Straightforward reporting with official statements; noted Moscow's denial of involvement.",
-          "url": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized distance from border and civilian casualties; noted BBC could not verify Russian claims",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Duplicate coverage with identical content.",
-          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Duplicate coverage",
+          "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Reported within broader context of ongoing tit-for-tat strikes including Russian attacks on Kyiv",
+          "url": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre"
         }
       ]
     },
     {
-      "headline": "Spain and Italy Impose Mutual Border Controls as Ceuta Migration Crisis Strains EU Relations",
+      "headline": "Moscow Court Bars Russia's Only Anti-War Party from Parliamentary Elections",
+      "category": "Geopolitics",
+      "bullets": [
+        "Yabloko, Russia's only registered party opposing the war in Ukraine, has been barred from September's parliamentary elections by a Moscow court",
+        "The lawsuit was brought by pro-Kremlin nationalist party Rodina, accusing Yabloko of supporting an 'extremist organization' (the LGBTQ movement) and copyright infringement",
+        "Hundreds of supporters, many young, gathered outside the courthouse; crowds chanted 'Shame!' when the verdict was announced",
+        "Several Yabloko members had already been individually barred from running before the party-wide ban"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Detailed the legal pretexts used and public reaction outside courthouse",
+          "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Orders Reduced Childhood Vaccination Schedule, MMR Split",
       "category": "Policy",
       "bullets": [
-        "Spain imposed border controls on all air and sea travel from Italy starting at midnight Saturday, in response to Italy's earlier restrictions following an influx of approximately 78,000 migrants from Morocco into Ceuta on July 30-31.",
-        "Spanish Foreign Minister Jos\u00e9 Manuel Albares described Italy's measures as 'a torpedo fired at the hull of European unity' and called them 'unfair, contrary to the EU's interests and discriminatory.'",
-        "Italy's government under Prime Minister Giorgia Meloni refused to revise its decision, stating checks would remain until at least August 15.",
-        "Spain stated that 5%-10% of passengers arriving from Italy would have their documents checked; both countries say their controls are random."
+        "Executive order calls for immunizing children against 11 diseases instead of the current CDC-recommended 17, dropping vaccines for RSV, Hepatitis A and B, rotavirus, influenza, and meningococcal ACWY",
+        "Order directs separation of the combined MMR vaccine into three individual shots despite scientific consensus that the combined vaccine is safe and effective",
+        "Public health experts condemned the order as based on pseudoscience and warned it will harm children",
+        "Order also directs the health department to improve vaccine research, though vaccines are already extensively studied"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized the political divide between Spain's socialist leader and Italy's conservative leader on migration policy.",
-          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala"
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Provided detailed breakdown of which vaccines are affected; emphasized expert criticism",
+          "url": "https://www.abc.net.au/news/2026-08-11/homeless-streetside-medic-service-opens-in-canberra/107023648"
         },
         {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused on the procedural aspects and official statements from both governments.",
-          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief mention within broader Trump coverage",
+          "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article inaccessible but headline confirmed coverage",
+          "url": "https://www.lemonde.fr/en/summer-reads/article/2026/08/10/tunisia-country-of-broken-dreams-i-wanted-to-photograph-the-young-people-whose-lives-began-with-the-revolution_6756355_183.html"
         }
       ]
     },
     {
-      "headline": "DRC Ebola Outbreak Surpasses 4,000 Cases as Officials Warn Virus May Be Mutating",
-      "category": "Society",
+      "headline": "Trump Media Reports $238 Million Quarterly Loss Despite Revenue Growth",
+      "category": "Economics",
       "bullets": [
-        "The Ebola outbreak in the Democratic Republic of the Congo, caused by the Bundibugyo strain, has exceeded 4,000 confirmed cases with at least 1,801 deaths as of early August.",
-        "Africa CDC Director General Dr. Jean Kaseya announced plans to scale up response efforts and go 'door to door' looking for patients, warning the time for incremental action was over.",
-        "Officials are conducting studies to determine whether the virus is mutating, citing the 'unprecedented' severity of the Bundibugyo outbreak.",
-        "The outbreak is now the second-largest Ebola outbreak on record, with eight times more cases and six times more deaths than were recorded 11 weeks into the 2014-18 West Africa outbreak."
+        "Trump Media & Technology Group reported a net loss of $238 million in Q2 2026 against revenue of just $1.7 million",
+        "Most of the loss ($190.4 million) attributed to unrealized losses on digital assets and equity securities",
+        "Revenue rose 89% year-over-year, with $1.43 million from advertising and $179,500 from subscriptions",
+        "Total losses for the first half of 2026 reached $644 million; TMTG shares fell 8% following the filing"
       ],
       "sources": [
         {
-          "name": "The Guardian",
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasized the scale of the outbreak relative to historical precedents and quoted African health officials directly.",
-          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala"
+          "framing_note": "Straightforward financial reporting with detailed breakdown of loss categories",
+          "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ukraine launches massive drone strike on Russia, hitting Tatarstan oil refinery and killing at least 12",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260810-hundreds-of-ukrainian-drones-target-russia-in-overnight-strikes"
-    },
-    {
-      "headline": "Suspected Irish crime boss Daniel Kinahan extradited from Dubai, appears in Dublin court on charges of directing criminal organization",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o"
+      "headline": "Iran dismisses concerns over Saudi-Turkey-Pakistan 'Muslim NATO' defense pact, says it reflects declining US influence in region",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260810-iran-says-muslim-nato-pact-reflects-retreat-from-us-security-umbrella"
     },
     {
       "headline": "Syria and Russia reach agreement to convert Hmeimim and Tartus military bases into joint training centers within three months",
@@ -152,39 +141,44 @@
       "url": "https://www.rfi.fr/en/international/20260810-moscow-and-damascus-reach-deal-over-russian-military-bases-in-syria"
     },
     {
-      "headline": "Yemen's Houthi rebels strike Mocha port, killing seven and wounding 30, amid broader regional tensions",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260810-middle-east-live-houthis-launch-deadly-strike-on-port-city-of-mocha-in-yemen"
-    },
-    {
-      "headline": "US State Department to close five consulates across Asia, Africa, and the Americas, drawing criticism over diplomatic vacuum concerns",
+      "headline": "Spain announces temporary border checks on Italian visitors in retaliation for Rome's measures following Ceuta migrant surge",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
+      "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
     },
     {
-      "headline": "Federal judge approves Trump administration's effort to end Temporary Protected Status for South Sudanese nationals",
+      "headline": "Ebola outbreak in DRC passes 4,000 cases as health officials investigate possible virus mutation",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+      "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
     },
     {
-      "headline": "New Zealand announces 36th round of sanctions against Russia, targeting cyber actors and those involved in forced relocation of Ukrainian children",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/political/934637/new-zealand-places-further-sanctions-against-russia-supporters"
+      "headline": "France bans unsolicited telemarketing calls with fines up to \u20ac75,000 per violation under new consumer protection law",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260811-france-introduces-tough-fines-for-unsolicited-telemarketing-calls"
     },
     {
-      "headline": "Nepal cancels major Tibetan studies conference in Kathmandu after China objects, forcing event online",
+      "headline": "Suspected Irish crime boss Daniel Kinahan extradited from Dubai, appears in Dublin court and remanded in custody",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o"
+    },
+    {
+      "headline": "World's oceans recorded hottest-ever July temperatures as El Ni\u00f1o conditions develop in Pacific",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo"
+    },
+    {
+      "headline": "Singapore's economy grows 5.9% in Q2, raises full-year forecast as AI boom drives electronics exports",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/nepal-halts-tibet-academic-conference-after-china-objects"
+      "url": "https://asia.nikkei.com/economy/singapore-records-5.9-q2-gdp-growth-raises-full-year-forecast"
     },
     {
-      "headline": "China criticizes India for formally naming 27 locations in Arunachal Pradesh on official maps",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/china-slams-indias-move-of-formally-naming-27-places-in-arunachal-pradesh/article71326872.ece"
+      "headline": "Canada sanctions Streit Group, Canadian-owned armored vehicle manufacturer whose products have been deployed by Russian military",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-ottawa-announces-sanctions-on-canadian-owned-armoured-vehicle-maker/"
     },
     {
-      "headline": "Wildfires force evacuation of more than 20,000 residents from towns in Canada's British Columbia Okanagan region",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/wildfires-bear-down-on-homes-in-canadas-okanagan-region"
+      "headline": "Jury selection begins in trial of Duane 'Keffe D' Davis for 1996 murder of rapper Tupac Shakur",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-duane-davis-tupac-shakur-murder-trial/"
     }
   ]
 }
