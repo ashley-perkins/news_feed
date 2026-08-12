@@ -1,184 +1,172 @@
 {
-  "date": "Tuesday, August 11, 2026",
-  "daily_brief": "A devastating magnitude 7.4 earthquake struck western Colombia on Monday, killing at least 132 people and collapsing dozens of buildings across cities including Pereira and Cali [BBC, Al Jazeera, Globe and Mail]. In the ongoing Russia-Ukraine conflict, Ukrainian drones struck deep into Russia's Tatarstan region, killing at least 13 people including a child near the Tanevo oil refinery\u2014one of the deadliest single attacks on Russian soil since 2022 [BBC, France 24]. Separately, Russian missiles struck Kyiv and Zaporizhzhia, killing at least five [France 24]. In a significant blow to Russian political pluralism, a Moscow court barred Yabloko, the country's only registered anti-war party, from participating in upcoming parliamentary elections [BBC]. The Trump administration issued an executive order calling for a reduced childhood vaccination schedule and the separation of the MMR vaccine into three shots, drawing sharp criticism from public health experts who called the move dangerous and scientifically unfounded [ABC Australia, Al Jazeera]. Meanwhile, Trump Media & Technology Group reported a $238 million quarterly loss, with unrealized losses on digital assets accounting for most of the shortfall [Al Jazeera].",
+  "date": "Wednesday, August 12, 2026",
+  "daily_brief": "The day's most significant developments center on escalating tensions in the US-Iran conflict, with American forces firing missiles to disable a cargo ship attempting to breach the Iran blockade [BBC, The Hindu], while revelations emerged that President Trump secretly switched aircraft after the NATO summit due to credible Iranian threats [BBC]. In Colombia, rescue operations continue following Monday's magnitude 7.4 earthquake, with the death toll rising above 180 and potentially exceeding 240 [BBC, Le Monde, RFI]. The Russia-Ukraine conflict intensified with deadly strikes exchanged by both sides\u2014Ukraine hit oil infrastructure deep in Tatarstan, killing 13, while Russia struck Zaporizhzhia with what Kyiv claims were North Korean missiles [BBC, Al Jazeera]. In a significant political development, Hungary's parliament elected Andr\u00e1s Baka as president, a judge previously removed by Viktor Orb\u00e1n, signaling continued dismantling of the former prime minister's legacy [BBC]. Meanwhile, Russia's only anti-war party, Yabloko, was barred from parliamentary elections by a Moscow court, effectively eliminating opposition voices ahead of next month's vote [BBC].",
   "top_stories": [
     {
-      "headline": "Magnitude 7.4 Earthquake Kills Over 130 in Western Colombia",
-      "category": "Society",
-      "bullets": [
-        "A 7.4 magnitude earthquake struck Colombia's Choc\u00f3 province at 07:34 local time, with the epicenter near San Jos\u00e9 del Palmar at a depth of 103km",
-        "At least 132 people confirmed dead, with over 480 injured and many still feared trapped under collapsed buildings",
-        "The city of Pereira reported at least 40 deaths and 65 collapsed buildings; Cali and other western cities also suffered significant damage",
-        "Colombian President Abelardo de la Espriella declared a state of emergency to expedite recovery funding"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on death toll, geographic spread, and verified footage of damage",
-          "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted human impact with family documentation of home destruction",
-          "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Compared to recent Venezuelan earthquakes and emphasized ongoing rescue operations",
-          "url": "https://www.theglobeandmail.com/world/article-montreal-father-accused-with-daughters-murder-in-upstate-new-york/"
-        }
-      ]
-    },
-    {
-      "headline": "Ukrainian Drone Strike Kills 13 Deep Inside Russia in Tatarstan",
+      "headline": "US Helicopter Fires Missiles to Disable Cargo Ship Attempting to Break Iran Blockade",
       "category": "Conflict",
       "bullets": [
-        "Ukrainian drones struck Nizhnekamsk in Russia's Tatarstan republic, over 1,100km from the Ukrainian border, hitting the Tanevo oil refinery",
-        "At least 13 people killed including one child, with 75 injured; seven victims were Uzbek citizens staying in a hostel",
-        "The attack is one of the deadliest single strikes on Russian territory since the full-scale invasion began in 2022",
-        "Moscow vowed 'inevitable and severe punishment' for those involved; Kyiv confirmed targeting infrastructure supporting Russia's war effort"
+        "US Central Command confirmed an MH-60 helicopter fired two Hellfire missiles into the engine room of the Panama-flagged M/V Vela Nova in the Gulf of Oman on Tuesday",
+        "The ship's civilian crew reportedly ignored repeated warnings from American forces; the vessel is no longer transiting to Iran",
+        "This marks the third time the US has forcibly halted a vessel since reinstating the Iran ports blockade on July 14, having redirected 55 ships and boarded two others",
+        "Iran has effectively closed the Strait of Hormuz since the war began, causing wild fluctuations in global oil prices"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized distance from border and civilian casualties; noted BBC could not verify Russian claims",
-          "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focuses on factual military details and broader context of failed ceasefire negotiations",
+          "url": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Duplicate coverage",
-          "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Reported within broader context of ongoing tit-for-tat strikes including Russian attacks on Kyiv",
-          "url": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre"
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasizes the ongoing war context and includes Iranian Foreign Minister's statements on Strait of Hormuz conditions",
+          "url": "https://www.thehindu.com/news/international/iran-us-war-live-updates-august-11-2026-hormuz-strait-reopen-us-iran-talks/article71330825.ece"
         }
       ]
     },
     {
-      "headline": "Moscow Court Bars Russia's Only Anti-War Party from Parliamentary Elections",
+      "headline": "Trump Confirms Secret Aircraft Switch After NATO Summit Due to Iranian Missile Threat",
       "category": "Geopolitics",
       "bullets": [
-        "Yabloko, Russia's only registered party opposing the war in Ukraine, has been barred from September's parliamentary elections by a Moscow court",
-        "The lawsuit was brought by pro-Kremlin nationalist party Rodina, accusing Yabloko of supporting an 'extremist organization' (the LGBTQ movement) and copyright infringement",
-        "Hundreds of supporters, many young, gathered outside the courthouse; crowds chanted 'Shame!' when the verdict was announced",
-        "Several Yabloko members had already been individually barred from running before the party-wide ban"
+        "President Trump confirmed he secretly switched from Air Force One to a military aircraft when departing the NATO summit in Turkey on July 8 due to a possible threat",
+        "US intelligence detected a credible Iranian threat to fire a missile at the plane; reports indicate a person near the summit was seen with a shoulder-fired missile",
+        "Trump was hidden in a catering truck and transported to an alternate aircraft while journalists and staff remained on the decoy Air Force One",
+        "The president has previously stated he was Iran's 'number one target' and drew connections between the threat and his February decision to launch military action against Iran"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed the legal pretexts used and public reaction outside courthouse",
-          "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Provides straightforward reporting with additional analysis piece on personal stakes of Iran conflict for Trump",
+          "url": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Trump Orders Reduced Childhood Vaccination Schedule, MMR Split",
-      "category": "Policy",
+      "headline": "Colombia Earthquake Death Toll Rises Past 180 as Rescue Efforts Continue",
+      "category": "Climate",
       "bullets": [
-        "Executive order calls for immunizing children against 11 diseases instead of the current CDC-recommended 17, dropping vaccines for RSV, Hepatitis A and B, rotavirus, influenza, and meningococcal ACWY",
-        "Order directs separation of the combined MMR vaccine into three individual shots despite scientific consensus that the combined vaccine is safe and effective",
-        "Public health experts condemned the order as based on pseudoscience and warned it will harm children",
-        "Order also directs the health department to improve vaccine research, though vaccines are already extensively studied"
+        "A magnitude 7.4 earthquake struck western Colombia at 07:34 local time Monday, with the epicenter near San Jos\u00e9 del Palmar in Choco department",
+        "Official death toll stands at 181, though aggregated local figures suggest over 240 deaths; nearly 2,600 injured and approximately 200 missing",
+        "President Abelardo de la Espriella declared a state of emergency just three days after being sworn in; over 1,100 homes destroyed and 8,000 damaged",
+        "France, EU, US ($15.5 million), Israel, Mexico, and Ecuador have offered assistance; a 32-year-old woman was pulled alive from rubble on Tuesday"
       ],
       "sources": [
         {
-          "name": "ABC Australia",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Provided detailed breakdown of which vaccines are affected; emphasized expert criticism",
-          "url": "https://www.abc.net.au/news/2026-08-11/homeless-streetside-medic-service-opens-in-canberra/107023648"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief mention within broader Trump coverage",
-          "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss"
+          "framing_note": "Detailed coverage of rescue operations and casualty figures from affected cities",
+          "url": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article inaccessible but headline confirmed coverage",
-          "url": "https://www.lemonde.fr/en/summer-reads/article/2026/08/10/tunisia-country-of-broken-dreams-i-wanted-to-photograph-the-young-people-whose-lives-began-with-the-revolution_6756355_183.html"
+          "framing_note": "Highlights individual survivor rescue",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/08/12/in-greece-the-spread-of-the-invasive-and-toxic-pufferfish-is-a-scourge-for-fishers_6756398_114.html"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasizes international aid response and EU satellite deployment",
+          "url": "https://www.rfi.fr/en/international/20260811-france-eu-join-international-aid-effort-after-colombia-earthquake"
         }
       ]
     },
     {
-      "headline": "Trump Media Reports $238 Million Quarterly Loss Despite Revenue Growth",
-      "category": "Economics",
+      "headline": "Ukraine and Russia Exchange Deadly Strikes as Kyiv Claims Moscow Using North Korean Missiles",
+      "category": "Conflict",
       "bullets": [
-        "Trump Media & Technology Group reported a net loss of $238 million in Q2 2026 against revenue of just $1.7 million",
-        "Most of the loss ($190.4 million) attributed to unrealized losses on digital assets and equity securities",
-        "Revenue rose 89% year-over-year, with $1.43 million from advertising and $179,500 from subscriptions",
-        "Total losses for the first half of 2026 reached $644 million; TMTG shares fell 8% following the filing"
+        "At least 13 people, including one child and seven Uzbek citizens, were killed in Ukrainian drone strikes on Tatarstan, more than 1,100 km from the border\u2014one of the deadliest single attacks on Russia since 2022",
+        "Ukraine's military confirmed hitting the Tanevo oil refinery in Nizhnekamsk during the hours-long overnight strike",
+        "Russian strikes on Zaporizhzhia killed seven people and injured at least 24; President Zelensky claimed these involved North Korean ballistic missiles",
+        "Zelensky stated Ukraine has sent new peace proposals to the United States and warned Russia cannot wage war without North Korean reinforcements"
       ],
       "sources": [
         {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of both sides' strikes with verification caveats on North Korean missile claims",
+          "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Straightforward financial reporting with detailed breakdown of loss categories",
-          "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss"
+          "framing_note": "Emphasizes Ukrainian diplomatic initiatives and upcoming Russian parliamentary elections",
+          "url": "https://www.aljazeera.com/news/2026/8/12/israeli-raids-demolitions-continue-as-un-warns-west-bank-at-breaking-point?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Hungary Elects Judge Previously Removed by Orb\u00e1n as New President",
+      "category": "Policy",
+      "bullets": [
+        "Parliament elected Andr\u00e1s Baka, 73, a former Supreme Court head whom Viktor Orb\u00e1n had removed from his position, as Hungary's new president by a vote of 140-6",
+        "All 51 MPs from Orb\u00e1n's Fidesz party walked out before the vote in protest against the ousting of their preferred candidate Tam\u00e1s Sulyok",
+        "Baka will oversee the writing of a new constitution to replace Orb\u00e1n's 2011 version and monitor PM P\u00e9ter Magyar's efforts to dismantle Orb\u00e1n's political and economic structures",
+        "The new Magyar government has passed 27 laws and two constitutional amendments since taking office in May, canceling all states of emergency Orb\u00e1n used to govern by decree"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": null,
+          "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Iran dismisses concerns over Saudi-Turkey-Pakistan 'Muslim NATO' defense pact, says it reflects declining US influence in region",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260810-iran-says-muslim-nato-pact-reflects-retreat-from-us-security-umbrella"
-    },
-    {
-      "headline": "Syria and Russia reach agreement to convert Hmeimim and Tartus military bases into joint training centers within three months",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260810-moscow-and-damascus-reach-deal-over-russian-military-bases-in-syria"
-    },
-    {
-      "headline": "Spain announces temporary border checks on Italian visitors in retaliation for Rome's measures following Ceuta migrant surge",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-    },
-    {
-      "headline": "Ebola outbreak in DRC passes 4,000 cases as health officials investigate possible virus mutation",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
-    },
-    {
-      "headline": "France bans unsolicited telemarketing calls with fines up to \u20ac75,000 per violation under new consumer protection law",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260811-france-introduces-tough-fines-for-unsolicited-telemarketing-calls"
-    },
-    {
-      "headline": "Suspected Irish crime boss Daniel Kinahan extradited from Dubai, appears in Dublin court and remanded in custody",
+      "headline": "Russia's only anti-war party Yabloko barred from September parliamentary elections by Moscow court",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o"
+      "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo"
     },
     {
-      "headline": "World's oceans recorded hottest-ever July temperatures as El Ni\u00f1o conditions develop in Pacific",
+      "headline": "North Korea fires ballistic missile toward Sea of Japan ahead of US-South Korea military drills",
+      "source": "Le Monde, The Hindu",
+      "url": "https://www.lemonde.fr/en/international/article/2026/08/12/north-korea-fires-ballistic-missile-towards-sea-of-japan-according-to-seoul-ahead-of-us-south-drills_6756402_4.html"
+    },
+    {
+      "headline": "At least 15 dead and 27 missing after overloaded ferry capsizes on Zimbabwe's Lake Kariba",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/12/at-least-15-dead-dozens-missing-as-ferry-capsizes-in-zimbabwe"
+    },
+    {
+      "headline": "Lebanon becomes first Middle Eastern country to abolish death penalty, replacing it with life imprisonment",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260811-lebanon-becomes-first-country-in-middle-east-to-abolish-death-penalty"
+    },
+    {
+      "headline": "Former Syrian leader Bashar al-Assad sentenced to death in absentia for war crimes by Damascus court",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260811-former-syrian-leader-assad-sentenced-to-death-in-absentia-over-war-crimes"
+    },
+    {
+      "headline": "France bans unsolicited telemarketing calls, with consumer groups hailing 'small revolution'",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo"
+      "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo"
     },
     {
-      "headline": "Singapore's economy grows 5.9% in Q2, raises full-year forecast as AI boom drives electronics exports",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/singapore-records-5.9-q2-gdp-growth-raises-full-year-forecast"
+      "headline": "US finalizes rule barring Medicaid and CHIP funding for gender transition treatments for minors",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/us-bars-federal-funding-of-gender-transitions-for-low-income-minors/article71335066.ece"
     },
     {
-      "headline": "Canada sanctions Streit Group, Canadian-owned armored vehicle manufacturer whose products have been deployed by Russian military",
+      "headline": "Total solar eclipse to cross Spain on Wednesday, drawing an estimated 6 million viewers",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260812-total-solar-eclipse-over-spain-to-draw-millions-of-viewers-across-europe"
+    },
+    {
+      "headline": "Federal judge blocks Trump executive order seeking to limit mail voting ahead of November midterms",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-ottawa-announces-sanctions-on-canadian-owned-armoured-vehicle-maker/"
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-judge-blocks-trump-administration-order-that-sought-to-limit-mail/"
     },
     {
-      "headline": "Jury selection begins in trial of Duane 'Keffe D' Davis for 1996 murder of rapper Tupac Shakur",
+      "headline": "Darline Graham, sister of late Senator Lindsey Graham, advances to South Carolina GOP Senate runoff",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-duane-davis-tupac-shakur-murder-trial/"
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-republicans-primary-senate-lindsey-graham-south-carolina-us/"
     }
   ]
 }
