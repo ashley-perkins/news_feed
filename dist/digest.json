@@ -1,172 +1,184 @@
 {
-  "date": "Wednesday, August 12, 2026",
-  "daily_brief": "The day's most significant developments center on escalating tensions in the US-Iran conflict, with American forces firing missiles to disable a cargo ship attempting to breach the Iran blockade [BBC, The Hindu], while revelations emerged that President Trump secretly switched aircraft after the NATO summit due to credible Iranian threats [BBC]. In Colombia, rescue operations continue following Monday's magnitude 7.4 earthquake, with the death toll rising above 180 and potentially exceeding 240 [BBC, Le Monde, RFI]. The Russia-Ukraine conflict intensified with deadly strikes exchanged by both sides\u2014Ukraine hit oil infrastructure deep in Tatarstan, killing 13, while Russia struck Zaporizhzhia with what Kyiv claims were North Korean missiles [BBC, Al Jazeera]. In a significant political development, Hungary's parliament elected Andr\u00e1s Baka as president, a judge previously removed by Viktor Orb\u00e1n, signaling continued dismantling of the former prime minister's legacy [BBC]. Meanwhile, Russia's only anti-war party, Yabloko, was barred from parliamentary elections by a Moscow court, effectively eliminating opposition voices ahead of next month's vote [BBC].",
+  "date": "Thursday, August 13, 2026",
+  "daily_brief": "The day's developments are dominated by humanitarian and geopolitical crises across multiple continents. The WHO has warned that the Ebola outbreak in the Democratic Republic of Congo is on pace to become the deadliest on record, with over 4,300 cases and 2,000 deaths since May [BBC]. In Colombia, rescuers are in the final hours of the critical 72-hour window to find survivors of Monday's magnitude 7.4 earthquake, which has killed at least 265 people [France 24, Globe and Mail]. The conflict between Russia and Ukraine continues to escalate, with Ukraine launching a major strike on Russia's Novorossiysk port that damaged grain terminals and reportedly hit four warships [BBC, France 24], while Russia retaliated by striking Ukraine's Izmail port [Al Jazeera]. President Putin visited the disputed Kuril Islands, drawing a sharp protest from Japan [France 24]. In southern Africa, Zambia heads to the polls in a tight election testing President Hichilema's economic record amid cost-of-living concerns [RFI, Al Jazeera, France 24]. Meanwhile, Venezuela's interim government and opposition concluded their first round of talks with agreements on judicial reform and accessing frozen funds for earthquake recovery [France 24].",
   "top_stories": [
     {
-      "headline": "US Helicopter Fires Missiles to Disable Cargo Ship Attempting to Break Iran Blockade",
+      "headline": "Ebola Outbreak in DRC on Track to Become Deadliest Ever, WHO Warns",
+      "category": "Health",
+      "bullets": [
+        "WHO Director-General Tedros Adhanom Ghebreyesus said the 2026 outbreak will 'eclipse' the 2014-2016 epidemic that killed at least 11,000 people if current trends continue",
+        "The outbreak, declared May 15, has caused over 4,300 cases and more than 2,000 deaths; evidence suggests the virus began spreading in February but was initially misdiagnosed",
+        "The outbreak is caused by the rare Bundibugyo strain of Ebola, for which no approved vaccine or therapeutic drugs exist",
+        "WHO aims to bring transmission under control within three months but faces challenges from regional instability near the outbreak's center"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized the historical comparison and lack of available treatments",
+          "url": "https://www.bbc.co.uk/news/videos/cjej4y3gvzlo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Ukraine Strikes Russia's Novorossiysk Port in 'Unique Operation,' Hitting Warships and Grain Terminals",
       "category": "Conflict",
       "bullets": [
-        "US Central Command confirmed an MH-60 helicopter fired two Hellfire missiles into the engine room of the Panama-flagged M/V Vela Nova in the Gulf of Oman on Tuesday",
-        "The ship's civilian crew reportedly ignored repeated warnings from American forces; the vessel is no longer transiting to Iran",
-        "This marks the third time the US has forcibly halted a vessel since reinstating the Iran ports blockade on July 14, having redirected 55 ships and boarded two others",
-        "Iran has effectively closed the Strait of Hormuz since the war began, causing wild fluctuations in global oil prices"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focuses on factual military details and broader context of failed ceasefire negotiations",
-          "url": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasizes the ongoing war context and includes Iranian Foreign Minister's statements on Strait of Hormuz conditions",
-          "url": "https://www.thehindu.com/news/international/iran-us-war-live-updates-august-11-2026-hormuz-strait-reopen-us-iran-talks/article71330825.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Confirms Secret Aircraft Switch After NATO Summit Due to Iranian Missile Threat",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Trump confirmed he secretly switched from Air Force One to a military aircraft when departing the NATO summit in Turkey on July 8 due to a possible threat",
-        "US intelligence detected a credible Iranian threat to fire a missile at the plane; reports indicate a person near the summit was seen with a shoulder-fired missile",
-        "Trump was hidden in a catering truck and transported to an alternate aircraft while journalists and staff remained on the decoy Air Force One",
-        "The president has previously stated he was Iran's 'number one target' and drew connections between the threat and his February decision to launch military action against Iran"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provides straightforward reporting with additional analysis piece on personal stakes of Iran conflict for Trump",
-          "url": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Colombia Earthquake Death Toll Rises Past 180 as Rescue Efforts Continue",
-      "category": "Climate",
-      "bullets": [
-        "A magnitude 7.4 earthquake struck western Colombia at 07:34 local time Monday, with the epicenter near San Jos\u00e9 del Palmar in Choco department",
-        "Official death toll stands at 181, though aggregated local figures suggest over 240 deaths; nearly 2,600 injured and approximately 200 missing",
-        "President Abelardo de la Espriella declared a state of emergency just three days after being sworn in; over 1,100 homes destroyed and 8,000 damaged",
-        "France, EU, US ($15.5 million), Israel, Mexico, and Ecuador have offered assistance; a 32-year-old woman was pulled alive from rubble on Tuesday"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of rescue operations and casualty figures from affected cities",
-          "url": "https://www.bbc.co.uk/news/videos/cvg7zrxknvno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Highlights individual survivor rescue",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/08/12/in-greece-the-spread-of-the-invasive-and-toxic-pufferfish-is-a-scourge-for-fishers_6756398_114.html"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasizes international aid response and EU satellite deployment",
-          "url": "https://www.rfi.fr/en/international/20260811-france-eu-join-international-aid-effort-after-colombia-earthquake"
-        }
-      ]
-    },
-    {
-      "headline": "Ukraine and Russia Exchange Deadly Strikes as Kyiv Claims Moscow Using North Korean Missiles",
-      "category": "Conflict",
-      "bullets": [
-        "At least 13 people, including one child and seven Uzbek citizens, were killed in Ukrainian drone strikes on Tatarstan, more than 1,100 km from the border\u2014one of the deadliest single attacks on Russia since 2022",
-        "Ukraine's military confirmed hitting the Tanevo oil refinery in Nizhnekamsk during the hours-long overnight strike",
-        "Russian strikes on Zaporizhzhia killed seven people and injured at least 24; President Zelensky claimed these involved North Korean ballistic missiles",
-        "Zelensky stated Ukraine has sent new peace proposals to the United States and warned Russia cannot wage war without North Korean reinforcements"
+        "Ukraine launched a combined drone and missile attack on Novorossiysk, Russia's largest Black Sea port and current home of most of Russia's Black Sea fleet",
+        "Three people including an eight-year-old child were killed and 24 injured; two major grain export terminals were damaged",
+        "Ukraine's military claimed four Russian warships including two frigates were hit; Russia has not confirmed naval losses",
+        "President Zelensky stated Ukraine needs 5-10% of US Patriot interceptor stockpiles to defend against Russian ballistic missiles"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Balanced coverage of both sides' strikes with verification caveats on North Korean missile claims",
-          "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Led with grain terminal damage and civilian casualties",
+          "url": "https://www.bbc.co.uk/news/articles/clyj0325z3ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on operational details and Zelensky's interceptor request",
+          "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasizes Ukrainian diplomatic initiatives and upcoming Russian parliamentary elections",
-          "url": "https://www.aljazeera.com/news/2026/8/12/israeli-raids-demolitions-continue-as-un-warns-west-bank-at-breaking-point?traffic_source=rss"
+          "framing_note": "Emphasized Ukraine's Patriot missile shortage since US-Iran conflict began",
+          "url": "https://www.aljazeera.com/news/2026/8/13/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Hungary Elects Judge Previously Removed by Orb\u00e1n as New President",
-      "category": "Policy",
+      "headline": "Colombia Earthquake Death Toll Reaches 265 as Rescue Efforts Enter Final Phase",
+      "category": "Society",
       "bullets": [
-        "Parliament elected Andr\u00e1s Baka, 73, a former Supreme Court head whom Viktor Orb\u00e1n had removed from his position, as Hungary's new president by a vote of 140-6",
-        "All 51 MPs from Orb\u00e1n's Fidesz party walked out before the vote in protest against the ousting of their preferred candidate Tam\u00e1s Sulyok",
-        "Baka will oversee the writing of a new constitution to replace Orb\u00e1n's 2011 version and monitor PM P\u00e9ter Magyar's efforts to dismantle Orb\u00e1n's political and economic structures",
-        "The new Magyar government has passed 27 laws and two constitutional amendments since taking office in May, canceling all states of emergency Orb\u00e1n used to govern by decree"
+        "The magnitude 7.4 earthquake, the strongest to hit Colombia this century, struck Monday and has killed at least 265 people with nearly 500 officially missing",
+        "Rescuers are approaching the critical 72-hour window for finding survivors; possible signs of life detected beneath collapsed bakery in Pereira",
+        "Over 3,500 people injured and more than 25,800 families affected across Cali, Pereira, Manizales, and Quibdo",
+        "Regional aid has begun arriving; a woman was rescued alive Tuesday after 36 hours trapped"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed rescue operations and survivor stories",
+          "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized the test for Colombia's new president and government response",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-ice-officers-gloves-electric-shocks-democrats-new-york-letitia-james/"
+        }
+      ]
+    },
+    {
+      "headline": "Zambia Votes in Close Election as Economic Hardship Tests Hichilema's Record",
+      "category": "Geopolitics",
+      "bullets": [
+        "8.7 million Zambians are voting in presidential, parliamentary, and local elections with polls open from 6am to 6pm local time",
+        "President Hakainde Hichilema seeks a second term running on economic reforms including debt restructuring and reduced inflation (now 6.8%)",
+        "Main challenger Brian Mundubile leads an opposition alliance backed by supporters of late former president Edgar Lungu",
+        "More than 70% of Zambia's 22 million people live on less than $3 a day; analysts describe the race as '50-50' due to cost-of-living frustrations"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Framed as Hichilema likely to win despite frustrations",
+          "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized economic hardship testing the president's record",
+          "url": "https://www.rfi.fr/en/international/20260812-russia-threatens-retaliatory-seizures-of-eu-ships-amid-new-sanctions-push"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted poverty statistics and concerns about narrowing space for dissent",
+          "url": "https://www.aljazeera.com/news/2026/8/13/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors?traffic_source=rss"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Focused on the political feud with late predecessor Lungu and burial controversy",
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+        }
+      ]
+    },
+    {
+      "headline": "Putin Visits Disputed Kuril Islands, Prompting Strong Japanese Protest",
+      "category": "Geopolitics",
+      "bullets": [
+        "Russian President Vladimir Putin visited the Kuril Islands near Hokkaido for the first time, touring a fish-processing plant",
+        "Japan's Foreign Minister Toshimitsu Motegi issued a 'strong protest,' stating the Northern Territories are 'an inherent part of Japan's territory'",
+        "The islands were seized by the Soviet Union in 1945; the territorial dispute has prevented a formal peace treaty between Russia and Japan",
+        "The visit came during Russian naval drills and a meeting on 'ensuring the security of Russia's eastern borders'"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of both Russian and Japanese positions",
+          "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Russia's only anti-war party Yabloko barred from September parliamentary elections by Moscow court",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cy9w1l5jr7lo"
+      "headline": "Venezuela's interim government and opposition conclude first round of talks with agreements on judicial reform and accessing frozen Bank of England funds for earthquake relief",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260813-venezuela-talks-end-with-agreement-on-judicial-reform-and-frozen-funds"
     },
     {
-      "headline": "North Korea fires ballistic missile toward Sea of Japan ahead of US-South Korea military drills",
-      "source": "Le Monde, The Hindu",
-      "url": "https://www.lemonde.fr/en/international/article/2026/08/12/north-korea-fires-ballistic-missile-towards-sea-of-japan-according-to-seoul-ahead-of-us-south-drills_6756402_4.html"
+      "headline": "Russia threatens retaliatory seizures of European vessels after EU passes sanctions allowing sale of cargo from seized 'shadow fleet' ships",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260812-russia-threatens-retaliatory-seizures-of-eu-ships-amid-new-sanctions-push"
     },
     {
-      "headline": "At least 15 dead and 27 missing after overloaded ferry capsizes on Zimbabwe's Lake Kariba",
+      "headline": "Spain announces temporary border checks on Italian visitors in retaliation for Rome's measures following mass migration into Ceuta from Morocco",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+    },
+    {
+      "headline": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe; vessel was carrying at least 119 people despite 90-person capacity",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+    },
+    {
+      "headline": "Save the Children reports nearly 4 million Afghan children under five are acutely malnourished as healthcare funding collapses",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/12/at-least-15-dead-dozens-missing-as-ferry-capsizes-in-zimbabwe"
+      "url": "https://www.aljazeera.com/news/2026/8/13/how-clinic-closures-left-3-7-million-afghan-children-acutely-malnourished"
     },
     {
-      "headline": "Lebanon becomes first Middle Eastern country to abolish death penalty, replacing it with life imprisonment",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260811-lebanon-becomes-first-country-in-middle-east-to-abolish-death-penalty"
+      "headline": "Three US executions scheduled for same day across Tennessee, Alabama, and Oklahoma\u2014first time since 2010\u2014as death penalty use rises under Trump administration",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo"
     },
     {
-      "headline": "Former Syrian leader Bashar al-Assad sentenced to death in absentia for war crimes by Damascus court",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260811-former-syrian-leader-assad-sentenced-to-death-in-absentia-over-war-crimes"
-    },
-    {
-      "headline": "France bans unsolicited telemarketing calls, with consumer groups hailing 'small revolution'",
+      "headline": "Former US Marine Robert Gilman released from Russian prison on humanitarian grounds after health deteriorated; Trump says no prisoner swap involved",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo"
+      "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo"
     },
     {
-      "headline": "US finalizes rule barring Medicaid and CHIP funding for gender transition treatments for minors",
+      "headline": "White House Press Secretary Karoline Leavitt to step down at month's end to spend more time with family",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/us-bars-federal-funding-of-gender-transitions-for-low-income-minors/article71335066.ece"
+      "url": "https://www.thehindu.com/news/international/karoline-leavitt-whjte-house-press-secretary-to-step-down-usa-donald-trump/article71338380.ece"
     },
     {
-      "headline": "Total solar eclipse to cross Spain on Wednesday, drawing an estimated 6 million viewers",
+      "headline": "Canadian officials weighing US proposal for reduced 10-15% auto tariffs in exchange for dropping retaliatory levies on American cars",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-ottawa-weighs-proposal-on-auto-tariffs-as-it-presses-us-for-reprieve/"
+    },
+    {
+      "headline": "Total solar eclipse plunges swath of Spain into darkness from Galicia to Mediterranean, drawing millions of spectators",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260812-total-solar-eclipse-over-spain-to-draw-millions-of-viewers-across-europe"
-    },
-    {
-      "headline": "Federal judge blocks Trump executive order seeking to limit mail voting ahead of November midterms",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-judge-blocks-trump-administration-order-that-sought-to-limit-mail/"
-    },
-    {
-      "headline": "Darline Graham, sister of late Senator Lindsey Graham, advances to South Carolina GOP Senate runoff",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-republicans-primary-senate-lindsey-graham-south-carolina-us/"
+      "url": "https://www.rfi.fr/en/environment/20260813-as-millions-gazed-in-awe-a-swathe-of-spain-plunged-into-darkness"
     }
   ]
 }
