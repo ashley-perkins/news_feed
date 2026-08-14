@@ -1,184 +1,178 @@
 {
-  "date": "Thursday, August 13, 2026",
-  "daily_brief": "The day's developments are dominated by humanitarian and geopolitical crises across multiple continents. The WHO has warned that the Ebola outbreak in the Democratic Republic of Congo is on pace to become the deadliest on record, with over 4,300 cases and 2,000 deaths since May [BBC]. In Colombia, rescuers are in the final hours of the critical 72-hour window to find survivors of Monday's magnitude 7.4 earthquake, which has killed at least 265 people [France 24, Globe and Mail]. The conflict between Russia and Ukraine continues to escalate, with Ukraine launching a major strike on Russia's Novorossiysk port that damaged grain terminals and reportedly hit four warships [BBC, France 24], while Russia retaliated by striking Ukraine's Izmail port [Al Jazeera]. President Putin visited the disputed Kuril Islands, drawing a sharp protest from Japan [France 24]. In southern Africa, Zambia heads to the polls in a tight election testing President Hichilema's economic record amid cost-of-living concerns [RFI, Al Jazeera, France 24]. Meanwhile, Venezuela's interim government and opposition concluded their first round of talks with agreements on judicial reform and accessing frozen funds for earthquake recovery [France 24].",
+  "date": "Friday, August 14, 2026",
+  "daily_brief": "Europe faces an acute climate-energy nexus crisis as Romania fully shut down its only nuclear power plant due to record-low Danube water levels, removing 20% of the country's electricity capacity and forcing reliance on imports [BBC, RFI, Le Monde]. This development coincides with France evacuating hundreds as wildfires spread through the Landes region amid an unprecedented fire season [France 24]. Meanwhile, US-China trade tensions escalated sharply as the White House accused over 40 countries\u2014including India, Mexico, Canada, Japan, and South Korea\u2014of helping China evade tariffs through transshipment, while President Trump announced tariffs up to 100% on imported drones citing national security [BBC, The Hindu, Le Monde]. In the Middle East, reports emerged of deteriorating conditions aboard the USS Lincoln after a record 260-day deployment supporting operations against Iran, with the USS George Washington now en route as a replacement [France 24, The Hindu]. On the African health front, the DRC's Ebola outbreak spread to a sixth province and is on pace to become the deadliest in history, having already claimed over 2,100 lives [The Guardian]. Japan meanwhile grappled with unprecedented rainfall in Chiba prefecture that killed at least six people and stranded thousands during the Bon holiday period [BBC, Al Jazeera].",
   "top_stories": [
     {
-      "headline": "Ebola Outbreak in DRC on Track to Become Deadliest Ever, WHO Warns",
-      "category": "Health",
+      "headline": "Romania Shuts Down Only Nuclear Plant as Danube Hits Record Lows, Threatening Energy Supply",
+      "category": "Climate",
       "bullets": [
-        "WHO Director-General Tedros Adhanom Ghebreyesus said the 2026 outbreak will 'eclipse' the 2014-2016 epidemic that killed at least 11,000 people if current trends continue",
-        "The outbreak, declared May 15, has caused over 4,300 cases and more than 2,000 deaths; evidence suggests the virus began spreading in February but was initially misdiagnosed",
-        "The outbreak is caused by the rare Bundibugyo strain of Ebola, for which no approved vaccine or therapeutic drugs exist",
-        "WHO aims to bring transmission under control within three months but faces challenges from regional instability near the outbreak's center"
+        "Romania began full shutdown of Cernavod\u0103 nuclear plant on August 13 after Danube water levels fell to 30-year lows, eliminating 20% of national electricity production",
+        "The plant's second 706MW reactor was disconnected from the grid following July shutdown of first reactor; restart not expected within 10 days",
+        "Authorities attempted emergency measures including sinking rock-filled barges into the river at a cost of over \u20ac2 million to divert water flow",
+        "Romania has called for 'responsible consumption' and will rely on wind, solar, coal, gas, and electricity imports to cover the shortfall"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized the historical comparison and lack of available treatments",
-          "url": "https://www.bbc.co.uk/news/videos/cjej4y3gvzlo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Ukraine Strikes Russia's Novorossiysk Port in 'Unique Operation,' Hitting Warships and Grain Terminals",
-      "category": "Conflict",
-      "bullets": [
-        "Ukraine launched a combined drone and missile attack on Novorossiysk, Russia's largest Black Sea port and current home of most of Russia's Black Sea fleet",
-        "Three people including an eight-year-old child were killed and 24 injured; two major grain export terminals were damaged",
-        "Ukraine's military claimed four Russian warships including two frigates were hit; Russia has not confirmed naval losses",
-        "President Zelensky stated Ukraine needs 5-10% of US Patriot interceptor stockpiles to defend against Russian ballistic missiles"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Led with grain terminal damage and civilian casualties",
-          "url": "https://www.bbc.co.uk/news/articles/clyj0325z3ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on operational details and Zelensky's interceptor request",
-          "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Ukraine's Patriot missile shortage since US-Iran conflict began",
-          "url": "https://www.aljazeera.com/news/2026/8/13/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Colombia Earthquake Death Toll Reaches 265 as Rescue Efforts Enter Final Phase",
-      "category": "Society",
-      "bullets": [
-        "The magnitude 7.4 earthquake, the strongest to hit Colombia this century, struck Monday and has killed at least 265 people with nearly 500 officially missing",
-        "Rescuers are approaching the critical 72-hour window for finding survivors; possible signs of life detected beneath collapsed bakery in Pereira",
-        "Over 3,500 people injured and more than 25,800 families affected across Cali, Pereira, Manizales, and Quibdo",
-        "Regional aid has begun arriving; a woman was rescued alive Tuesday after 36 hours trapped"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Detailed rescue operations and survivor stories",
-          "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized the test for Colombia's new president and government response",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-ice-officers-gloves-electric-shocks-democrats-new-york-letitia-james/"
-        }
-      ]
-    },
-    {
-      "headline": "Zambia Votes in Close Election as Economic Hardship Tests Hichilema's Record",
-      "category": "Geopolitics",
-      "bullets": [
-        "8.7 million Zambians are voting in presidential, parliamentary, and local elections with polls open from 6am to 6pm local time",
-        "President Hakainde Hichilema seeks a second term running on economic reforms including debt restructuring and reduced inflation (now 6.8%)",
-        "Main challenger Brian Mundubile leads an opposition alliance backed by supporters of late former president Edgar Lungu",
-        "More than 70% of Zambia's 22 million people live on less than $3 a day; analysts describe the race as '50-50' due to cost-of-living frustrations"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Framed as Hichilema likely to win despite frustrations",
-          "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
+          "framing_note": "Emphasized broader European drought context and noted Hungary's Paks plant also at risk",
+          "url": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized economic hardship testing the president's record",
+          "framing_note": "Focused on technical details and comparison to 2003 shutdown",
           "url": "https://www.rfi.fr/en/international/20260812-russia-threatens-retaliatory-seizures-of-eu-ships-amid-new-sanctions-push"
         },
         {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Highlighted poverty statistics and concerns about narrowing space for dissent",
-          "url": "https://www.aljazeera.com/news/2026/8/13/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors?traffic_source=rss"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Focused on the political feud with late predecessor Lungu and burial controversy",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+          "framing_note": "Article available but content not fully accessible",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/08/14/yonatan-touval-essayist-each-time-the-suspension-of-conflict-between-israel-and-its-neighbors-leaves-unanswered-the-question-that-caused-it_6756484_23.html"
         }
       ]
     },
     {
-      "headline": "Putin Visits Disputed Kuril Islands, Prompting Strong Japanese Protest",
-      "category": "Geopolitics",
+      "headline": "US Accuses Over 40 Countries of Helping China Evade Tariffs Through 'Shadow Transshipment Network'",
+      "category": "Economics",
       "bullets": [
-        "Russian President Vladimir Putin visited the Kuril Islands near Hokkaido for the first time, touring a fish-processing plant",
-        "Japan's Foreign Minister Toshimitsu Motegi issued a 'strong protest,' stating the Northern Territories are 'an inherent part of Japan's territory'",
-        "The islands were seized by the Soviet Union in 1945; the territorial dispute has prevented a formal peace treaty between Russia and Japan",
-        "The visit came during Russian naval drills and a meeting on 'ensuring the security of Russia's eastern borders'"
+        "White House report named India, Canada, Mexico, Japan, South Korea, and the EU among countries allegedly facilitating Chinese tariff evasion",
+        "Trade adviser Peter Navarro claimed transshipments cost American jobs and billions in revenue, estimating $30-300 billion in goods rerouted",
+        "Administration announced plans to deploy AI to detect and penalize transshipment practices",
+        "Chinese embassy rejected accusations, stating 'trade wars have no winners' and that agreements on transshipped goods should not harm third parties"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced presentation noting upcoming Trump-Xi meeting and seeking comment from named countries",
+          "url": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized India's inclusion and detailed specific Indian regions allegedly involved in transshipment",
+          "url": "https://www.thehindu.com/news/international/new-aircraft-carrier-heads-toward-west-asia-after-reports-of-issues-on-long-deployed-uss-lincoln/article71344117.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Announces Tariffs Up to 100% on Imported Drones Citing National Security",
+      "category": "Policy",
+      "bullets": [
+        "President Trump imposed 100% tariffs on drones over 25kg with 'national security capabilities' such as thermal cameras, and 25% on smaller drones",
+        "Decision targets an industry dominated by Chinese manufacturers and aims to encourage domestic production",
+        "Tariffs set to take effect September 3, 2026",
+        "FCC had previously warned of risks including unauthorized surveillance, data exfiltration, and direct UAS attacks"
+      ],
+      "sources": [
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article available but content not fully accessible",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/08/14/yonatan-touval-essayist-each-time-the-suspension-of-conflict-between-israel-and-its-neighbors-leaves-unanswered-the-question-that-caused-it_6756484_23.html"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Included expert analysis noting tariffs primarily target industrial and commercial drones rather than hobbyists",
+          "url": "https://www.thehindu.com/news/international/new-aircraft-carrier-heads-toward-west-asia-after-reports-of-issues-on-long-deployed-uss-lincoln/article71344117.ece"
+        }
+      ]
+    },
+    {
+      "headline": "DRC Ebola Outbreak Spreads to Sixth Province, On Track to Become Deadliest in History",
+      "category": "Society",
+      "bullets": [
+        "Ebola has now spread to Bas-Uele province after a man traveled from Isiro and died in Buta, bringing affected provinces to six",
+        "Current outbreak has killed over 2,100 people from more than 4,500 cases, reaching this toll nearly three times faster than the 2014-16 outbreak",
+        "WHO Director General Tedros Adhanom Ghebreyesus stated the outbreak will surpass the deadliest in history (11,000+ deaths) at current pace",
+        "No approved vaccines or treatments exist for the rare Bundibugyo strain responsible for this outbreak; Uganda has reported 20 cases in Kampala"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Comprehensive coverage including Africa CDC statements and comparison to 2014-16 outbreak trajectory",
+          "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers"
+        }
+      ]
+    },
+    {
+      "headline": "US Sailors Report Mental Health Crisis on USS Lincoln After Record 260-Day Deployment",
+      "category": "Conflict",
+      "bullets": [
+        "USS Abraham Lincoln has spent a record 260+ uninterrupted days at sea supporting US operations against Iran",
+        "Reports indicate declining mental health among crew, supply issues, and some sailors attempting to throw themselves into the sea",
+        "USS George Washington has departed from Da Nang, Vietnam and is transiting through the Strait of Malacca as replacement",
+        "Defense Secretary Pete Hegseth claimed conditions were 'completely misrepresented' while Democratic lawmakers press for Pentagon accountability"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Balanced coverage of both Russian and Japanese positions",
-          "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
+          "framing_note": "Led with sailor welfare angle and dire conditions framing",
+          "url": "https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided additional context on ship movements and political pushback from Hegseth",
+          "url": "https://www.thehindu.com/news/international/new-aircraft-carrier-heads-toward-west-asia-after-reports-of-issues-on-long-deployed-uss-lincoln/article71344117.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Venezuela's interim government and opposition conclude first round of talks with agreements on judicial reform and accessing frozen Bank of England funds for earthquake relief",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260813-venezuela-talks-end-with-agreement-on-judicial-reform-and-frozen-funds"
+      "headline": "Record rainfall in Japan's Chiba prefecture kills at least six people and strands 7,000 at Narita airport during Bon holiday",
+      "source": "BBC World, Al Jazeera",
+      "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo"
     },
     {
-      "headline": "Russia threatens retaliatory seizures of European vessels after EU passes sanctions allowing sale of cargo from seized 'shadow fleet' ships",
+      "headline": "France and 30 other countries condemn Iran's execution of protesters, calling it an attempt to 'silence dissent'",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260813-france-and-30-other-countries-condemn-iran-s-executions-of-protestors"
+    },
+    {
+      "headline": "Russia threatens retaliatory seizures of EU ships after new sanctions permit sale of cargo from seized shadow fleet vessels",
       "source": "RFI English",
       "url": "https://www.rfi.fr/en/international/20260812-russia-threatens-retaliatory-seizures-of-eu-ships-amid-new-sanctions-push"
     },
     {
-      "headline": "Spain announces temporary border checks on Italian visitors in retaliation for Rome's measures following mass migration into Ceuta from Morocco",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+      "headline": "Nigel Farage wins Clacton by-election he triggered, but comedian Count Binface takes 26.7% of the vote",
+      "source": "France 24, Financial Times, The Hindu",
+      "url": "https://www.france24.com/en/europe/20260814-nigel-farage-beats-count-binface-regain-uk-parliamentary-seat-by-election"
     },
     {
-      "headline": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe; vessel was carrying at least 119 people despite 90-person capacity",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+      "headline": "France evacuates 525 people from village of Luglon as wildfire burns 1,100 hectares in southwestern Landes region",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/france/20260814-france-evacuates-hundreds-new-wildfire-threatens-southwestern-landes-region"
     },
     {
-      "headline": "Save the Children reports nearly 4 million Afghan children under five are acutely malnourished as healthcare funding collapses",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/13/how-clinic-closures-left-3-7-million-afghan-children-acutely-malnourished"
-    },
-    {
-      "headline": "Three US executions scheduled for same day across Tennessee, Alabama, and Oklahoma\u2014first time since 2010\u2014as death penalty use rises under Trump administration",
+      "headline": "Israeli military orders Palestinian families to leave homes in Qusra while removing settlers who besieged residents",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo"
+      "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo"
     },
     {
-      "headline": "Former US Marine Robert Gilman released from Russian prison on humanitarian grounds after health deteriorated; Trump says no prisoner swap involved",
+      "headline": "Nobel laureate Dmitry Muratov tells BBC that Putin 'can no longer claim victory in Ukraine' as Novaya Gazeta remains blocked",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo"
+      "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko"
     },
     {
-      "headline": "White House Press Secretary Karoline Leavitt to step down at month's end to spend more time with family",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/karoline-leavitt-whjte-house-press-secretary-to-step-down-usa-donald-trump/article71338380.ece"
+      "headline": "North Korea denounces upcoming US-South Korea Ulchi Freedom Shield military drills as nuclear alliance provocation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/14/north-korea-fumes-over-upcoming-us-south-korea-military-drills"
     },
     {
-      "headline": "Canadian officials weighing US proposal for reduced 10-15% auto tariffs in exchange for dropping retaliatory levies on American cars",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-ottawa-weighs-proposal-on-auto-tariffs-as-it-presses-us-for-reprieve/"
+      "headline": "Salvage operation begins on tanker leaking Russian oil off Oman as spill expands to 1,300 square kilometers",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/8/14/salvage-work-begins-on-tanker-leaking-oil-off-oman-risk-firm-says"
     },
     {
-      "headline": "Total solar eclipse plunges swath of Spain into darkness from Galicia to Mediterranean, drawing millions of spectators",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20260813-as-millions-gazed-in-awe-a-swathe-of-spain-plunged-into-darkness"
+      "headline": "Taiwan concludes 10-day Han Kuang military exercises featuring first intentional mobile internet disruptions",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-drills-send-serious-message-with-more-realism-internet-throttling"
     }
   ]
 }
