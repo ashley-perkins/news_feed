@@ -1,202 +1,184 @@
 {
-  "date": "Saturday, August 15, 2026",
-  "daily_brief": "A powerful 7.7-magnitude earthquake struck off Indonesia's Flores island early Saturday, killing at least 20 people and triggering mass evacuations as rescue teams worked to reach communities cut off by landslides [France 24, BBC, Al Jazeera]. Tensions escalated in the Middle East as President Trump threatened to declare the Strait of Hormuz U.S. territory, prompting Iran to assert the waterway 'will remain Iranian,' while two UAE oil vessels were attacked in the strait [France 24, Globe and Mail]. The Ebola outbreak in the Democratic Republic of Congo spread to a sixth province, with the WHO warning the outbreak is on pace to surpass the deadliest in history [The Guardian, France 24, Le Monde]. In France, the Constitutional Council delivered mixed rulings on landmark legislation, approving assisted dying laws while striking down a social media ban for under-15s as disproportionate to freedom of expression [RFI, BBC Europe]. Luigi Mangione pleaded guilty in federal court to killing UnitedHealthcare CEO Brian Thompson, admitting he planned the attack and crossed state lines with intent to kill [BBC World]. Meanwhile, concerns mount over conditions aboard the USS Abraham Lincoln after a record nine-month deployment supporting operations against Iran, with the USS George Washington en route to relieve the carrier [BBC World].",
+  "date": "Tuesday, August 18, 2026",
+  "daily_brief": "The day's most significant developments center on escalating tensions across multiple fronts. Iran declared the 60-day US negotiation deadline 'null and void' [France 24], while a vessel was struck in the Strait of Hormuz amid severely disrupted shipping [The Hindu]. President Trump announced North Korea's Kim Jong Un had responded to his outreach, describing exchanges as 'very positive' [Al Jazeera, BBC], a day after ordering scaled-back military exercises with South Korea. Russia issued stark warnings to the UK over British-made drones used in Ukrainian strikes on Russian territory [BBC, Le Monde], with Moscow threatening 'consequences' while London affirmed its commitment to Ukraine. In Africa, the DRC's Ebola outbreak has become the deadliest in the country's history with over 2,325 deaths, spreading to a sixth province and killing one person every 30 minutes according to the UN [The Guardian, The Hindu]. Zambia's President Hichilema secured re-election with 60% of the vote [France 24, RFI, Al Jazeera], though opposition parties alleged fraud and arrests of opposition figures marred the process.",
   "top_stories": [
     {
-      "headline": "Deadly 7.7-Magnitude Earthquake Strikes Indonesia, Killing at Least 20",
-      "category": "Climate",
+      "headline": "Iran Declares US Negotiation Deadline 'Null and Void,' Vessel Struck in Strait of Hormuz",
+      "category": "Geopolitics",
       "bullets": [
-        "A 7.7-magnitude earthquake struck off Indonesia's Flores island at approximately 05:00 local time Saturday, with a shallow depth of 15km amplifying surface damage",
-        "At least 20 people confirmed dead across four towns, with two people still trapped under rubble and rescue efforts complicated by landslides blocking roads",
-        "A tsunami warning was issued and later lifted after about three hours; thousands evacuated to higher ground after observing the sea recede",
-        "Dozens of aftershocks followed, including one measuring 6.1 magnitude; video showed parts of Maumere port terminal collapsing onto passengers"
+        "Iran's foreign ministry spokesman said the 60-day deadline under the June Iran-US memorandum of understanding has been rendered null and void due to Washington's 'violations'",
+        "A vessel transiting outbound in the Strait of Hormuz was struck by an unknown projectile, causing engine room damage and one crew casualty; remaining crew assisted by Omani Coast Guard",
+        "Shipping through the Strait remains severely disrupted with vessel crossings in single digits, down from over 130 daily before the conflict",
+        "Turkish President Erdogan urged Trump in a phone call to pursue talks with Iran and offered Ankara's support for peace efforts"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Lead coverage with detailed rescue official quotes and AFP reporting from the ground",
-          "url": "https://www.france24.com/en/sport/20260814-teenage-british-cyclist-finlay-tarling-dies-in-tour-of-portugal-accident"
+          "framing_note": "Focus on diplomatic timeline and Iranian position",
+          "url": "https://www.france24.com/en/americas/20260818-trump-pauses-controversial-border-construction-in-texas-national-park"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized shipping disruption and regional security implications; included context on Indian sailors' concerns",
+          "url": "https://www.thehindu.com/news/international/congos-fast-moving-ebola-outbreak-becomes-countrys-worst-with-over-2300-dead/article71357628.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Announces Kim Jong Un Has Responded to Outreach After Scaling Back South Korea Exercises",
+      "category": "Geopolitics",
+      "bullets": [
+        "Trump confirmed North Korean leader Kim Jong Un responded to his recent outreach, describing the exchange as 'very positive' without providing details",
+        "The announcement came one day after Trump ordered the Pentagon to 'substantially reduce' joint military exercises with South Korea",
+        "Trump cited his 'very good relationship' with Kim and called the exercises 'costly' and sending 'totally inappropriate and hostile' signals",
+        "Trump linked the decision to frustration with Seoul for declining to join US efforts on Iran's 'denuclearisation'"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized South Korea angle and broader regional implications",
+          "url": "https://www.aljazeera.com/features/2026/8/18/tens-of-thousands-mourn-jason-arday-in-london-blaming-press-for-his-death?traffic_source=rss"
         },
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Reported lower initial death toll of 14, noted discrepancy between provincial governor and national agency figures",
-          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Focused on ground reporting and landslide impacts",
-          "url": "https://www.aljazeera.com/news/2026/8/15/iran-says-no-decision-yet-on-a-return-to-talks-with-the-us?traffic_source=rss"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Live blog format with real-time updates",
-          "url": "https://www.rnz.co.nz/news/world/1005843/live-powerful-7-point-7-magnitude-earthquake-strikes-off-coast-of-indonesia"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Initially reported lower death toll of 5 based on earlier provincial governor statement",
-          "url": "https://www.theglobeandmail.com/world/article-us-warns-iran-it-will-step-up-economic-pressure-two-more-ships/"
+          "framing_note": "Focused on explaining Trump's evolving relationship with both Koreas",
+          "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Trump Threatens to Declare Strait of Hormuz U.S. Territory; Iran Vows Defiance",
-      "category": "Geopolitics",
+      "headline": "Russia Warns UK of 'Consequences' Over British-Made Drones Used in Strikes on Russian Territory",
+      "category": "Conflict",
       "bullets": [
-        "President Trump stated at a New York rally Friday that he would 'soon' declare the Strait of Hormuz U.S. territory after 'defeating' Iran",
-        "Iran's Deputy Foreign Minister Kazem Gharibabadi responded Saturday that the strait 'has been Iranian, is Iranian, and will remain Iranian' and can be opened or closed only at Iran's command",
-        "Two UAE state oil company vessels were attacked transiting the strait Thursday evening; UAE blamed Iran",
-        "Transit through the strait has dropped sharply, with only 9 vessels passing Thursday compared to pre-war averages of over 130 daily"
+        "Russia accused the UK of 'deliberately opting for an escalation of the Ukraine crisis' after British-made drones struck military and industrial targets inside Russia",
+        "Russian Embassy stated 'London's actions will inevitably carry consequences' and described UK as 'accomplice and co-perpetrator' of attacks",
+        "UK Ministry of Defence responded that Britain stands 'shoulder to shoulder' with Ukraine and is 'committed to providing the equipment Ukraine needs'",
+        "Drones built by two British companies have targeted refineries, warehouses, and Wildberries logistics centres, with Ukraine claiming seven of ten largest Wildberries centres have been 'disabled'"
       ],
       "sources": [
         {
-          "name": "France 24",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Live blog format covering multiple Middle East developments including Israeli strike in Lebanon",
-          "url": "https://www.france24.com/en/sport/20260814-teenage-british-cyclist-finlay-tarling-dies-in-tour-of-portugal-accident"
+          "framing_note": "Detailed both Russian accusations and UK government response equally",
+          "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized economic pressure and blockade sustainability; noted ceasefire breakdown",
-          "url": "https://www.theglobeandmail.com/world/article-us-warns-iran-it-will-step-up-economic-pressure-two-more-ships/"
-        },
-        {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Focused on Iranian foreign minister's remarks about lack of decision on resuming talks",
-          "url": "https://www.aljazeera.com/news/2026/8/15/iran-says-no-decision-yet-on-a-return-to-talks-with-the-us?traffic_source=rss"
+          "framing_note": "Title emphasized Moscow's warning; article content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/08/17/to-remain-silent-on-afghanistan-would-be-to-abandon-the-women-who-seek-recognition-for-their-struggle_6756605_23.html"
         }
       ]
     },
     {
-      "headline": "Ebola Outbreak in DRC Spreads to Sixth Province, Pace Exceeds 2014-16 Crisis",
+      "headline": "DRC Ebola Outbreak Becomes Deadliest in Country's History, Spreads to Sixth Province",
       "category": "Society",
       "bullets": [
-        "The Ebola outbreak in the Democratic Republic of Congo has spread to Bas-Uele, the sixth province affected, after a man traveled from Isiro and died in Buta",
-        "More than 2,100 people have died out of over 4,500 cases; the UN reports one person dying approximately every 30 minutes",
-        "The outbreak has reached this death toll nearly three times faster than the 2014-16 West African outbreak, which killed at least 11,000",
-        "There are no approved vaccines or treatments for the Bundibugyo strain responsible for the current outbreak; Uganda has reported 20 cases in Kampala"
+        "Confirmed deaths reached 2,325 with 4,945 total cases, surpassing the 2018-20 outbreak toll of 2,299 deaths",
+        "The outbreak has spread to a sixth province (Bas-Uele) after a man traveled from Isiro to Buta where he died",
+        "UN stated Ebola 'is winning' in DRC, with one person dying every 30 minutes; WHO says outbreak on track to surpass 2014-16 West Africa outbreak as deadliest in history",
+        "No approved vaccines or treatments exist for the rare Bundibugyo strain responsible; over 1,000 have recovered while 730 remain hospitalized or in isolation"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Detailed epidemiological comparison to 2014-16 outbreak with WHO statements",
-          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+          "framing_note": "Emphasized historical comparisons and pace of outbreak spread",
+          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
         },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted operational challenges including health worker strikes and rebel threats",
+          "url": "https://www.thehindu.com/news/international/congos-fast-moving-ebola-outbreak-becomes-countrys-worst-with-over-2300-dead/article71357628.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Zambia's Hichilema Wins Re-Election Amid Opposition Fraud Allegations and Arrests",
+      "category": "Policy",
+      "bullets": [
+        "President Hakainde Hichilema won re-election with approximately 60% of votes against challenger Brian Mundubile who received nearly 38%",
+        "Vote counting was suspended after 11 people including leading opposition figures were arrested on election night in a raid involving gunfire",
+        "Opposition parties and civil society groups accused ruling party of shrinking political space; international observers noted conditions contributed to 'uneven playing field'",
+        "Hichilema campaigned on economic recovery record including major debt restructuring; pledges to double economy size in second term"
+      ],
+      "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Brief coverage within broader Africa news segment",
-          "url": "https://www.france24.com/en/sport/20260814-teenage-british-cyclist-finlay-tarling-dies-in-tour-of-portugal-accident"
+          "framing_note": "Balanced coverage of both economic achievements and opposition criticism",
+          "url": "https://www.france24.com/en/americas/20260818-trump-pauses-controversial-border-construction-in-texas-national-park"
         },
         {
-          "name": "Le Monde",
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Emphasized election irregularities and opposition concerns",
+          "url": "#"
+        },
+        {
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasized UN statistic of one death every 30 minutes",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/14/ebola-outbreak-in-dr-congo-killing-one-person-every-30-minutes-un-says_6756522_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Luigi Mangione Pleads Guilty to Federal Charges in UnitedHealthcare CEO Killing",
-      "category": "Society",
-      "bullets": [
-        "Luigi Mangione, 28, pleaded guilty in federal court Friday to interstate stalking resulting in death, admitting 'I shot Mr. Thompson in Manhattan and he died'",
-        "Mangione told the court he planned the attack in advance, crossed state lines with intent to kill, and used a 3D-printed gun equipped with a silencer",
-        "He stated he was motivated by his experience with the healthcare system 'after years of enduring severe pains'",
-        "Thompson's family called the plea 'an important step toward justice'; Mangione faces a maximum sentence of life in prison and still faces state charges"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed courtroom reporting including Mangione's statement about healthcare system motivation",
-          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "France Approves Assisted Dying Law, But Constitutional Court Blocks Under-15 Social Media Ban",
-      "category": "Policy",
-      "bullets": [
-        "France's Constitutional Council upheld legislation creating a right to assisted dying, removing the final legal obstacle before implementation",
-        "The same court struck down a law banning social media for children under 15, ruling it placed 'disproportionate restriction' on freedom of expression",
-        "The social media ban would have prevented under-15s from creating new accounts on platforms like TikTok and Instagram starting in September",
-        "President Macron immediately asked Prime Minister Lecornu to prepare a new draft social media legislation addressing the court's concerns"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of both rulings with context on constitutional challenges",
-          "url": "https://www.rfi.fr/en/africa/20260814-us-missionary-kidnapped-in-niger-freed-after-more-than-nine-months-in-captivity"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused primarily on social media ruling; noted Macron's pledge to introduce new draft",
-          "url": "https://www.bbc.co.uk/news/articles/cx2k1r97vx7o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Highlighted Zambia's copper resources and US-China competition for influence",
+          "url": "https://www.aljazeera.com/features/2026/8/18/tens-of-thousands-mourn-jason-arday-in-london-blaming-press-for-his-death?traffic_source=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "USS George Washington en route to relieve USS Abraham Lincoln after concerns over sailor welfare during record nine-month deployment",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo"
+      "headline": "China announces new border regulations effective September 15 that expand exit bans and tighten controls on citizens leaving the country",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260818-clamping-down-china-tightens-exit-rules"
     },
     {
-      "headline": "American missionary Kevin Rideout freed in Niger after more than nine months in captivity",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
-    },
-    {
-      "headline": "Morocco reinforces security around Ceuta amid social media campaign calling for new mass migrant crossing",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-26-morocco-ceuta-foritfication-clip-mp4"
-    },
-    {
-      "headline": "Taiwan's parliament approves $93 billion budget after record 266-day delay, preserving drone program funding",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding"
-    },
-    {
-      "headline": "Canadian trade negotiators remain in Washington ahead of Wednesday deadline as Trump threatens 50% tariffs",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-canada-and-us-discuss-critical-minerals-and-defence-in-trade-talks/"
-    },
-    {
-      "headline": "Romania shuts only nuclear power plant as Danube River levels drop to 30-year lows due to extreme heat",
+      "headline": "French PM Lecornu announces \u20ac12 million aid for wildfire-hit Gironde and Landes regions after being heckled by residents in Le Porge",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o"
+      "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro"
     },
     {
-      "headline": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+      "headline": "Russia's prominent anti-war politician Lev Shlosberg sentenced to 11 years in penal colony for 'discrediting' armed forces",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cj4kjnle2neo"
     },
     {
-      "headline": "BBC seeks to subpoena Trump family members including Donald Jr., Ivanka, and Jared Kushner in $10 billion defamation lawsuit",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cd69ely319eo"
-    },
-    {
-      "headline": "Japan's Prime Minister Takaichi sends offering to controversial Yasukuni Shrine on WWII surrender anniversary",
+      "headline": "Google tells suppliers it will move all Pixel smartphone, watch and earbud production out of China by 2027",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/japan-s-takaichi-sends-offering-to-yasukuni-shrine-on-wwii-anniversary"
+      "url": "https://asia.nikkei.com/spotlight/supply-chain/exclusive-google-plans-to-stop-making-pixel-products-in-china-in-2027"
     },
     {
-      "headline": "Mastercard experiencing global outage affecting card payments across multiple countries",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-08-15/mastercard-outage/107042220"
+      "headline": "French astronaut Sophie Adenot set to become first French woman to perform spacewalk during ISS communications antenna repair",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/international/20260818-walking-on-air-france-s-adenot-excited-ahead-of-historic-space-walk-astronaut-iss"
+    },
+    {
+      "headline": "Two dead and hundreds evacuated after twin fires broke out 'almost simultaneously' on Greek island of Salamina near Athens",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no"
+    },
+    {
+      "headline": "Trump administration pauses controversial border wall construction in Texas' Big Bend National Park amid bipartisan opposition",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260818-trump-pauses-controversial-border-construction-in-texas-national-park"
+    },
+    {
+      "headline": "Murder trial opens for former gang leader Duane 'Keffe D' Davis in 1996 killing of rapper Tupac Shakur",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko"
+    },
+    {
+      "headline": "Iran bars two French diplomats who were briefly detained in July from returning to the country over alleged 'interference'",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20260817-iran-bars-two-french-diplomats-over-alleged-interference"
+    },
+    {
+      "headline": "Zimbabwe boat accident death toll reaches 68 after ferry capsized on Lake Kariba; vessel was overloaded with 114 adults against 90-person capacity",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
     }
   ]
 }
