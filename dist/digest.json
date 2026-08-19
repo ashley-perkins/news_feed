@@ -1,184 +1,190 @@
 {
-  "date": "Tuesday, August 18, 2026",
-  "daily_brief": "The day's most significant developments center on escalating tensions across multiple fronts. Iran declared the 60-day US negotiation deadline 'null and void' [France 24], while a vessel was struck in the Strait of Hormuz amid severely disrupted shipping [The Hindu]. President Trump announced North Korea's Kim Jong Un had responded to his outreach, describing exchanges as 'very positive' [Al Jazeera, BBC], a day after ordering scaled-back military exercises with South Korea. Russia issued stark warnings to the UK over British-made drones used in Ukrainian strikes on Russian territory [BBC, Le Monde], with Moscow threatening 'consequences' while London affirmed its commitment to Ukraine. In Africa, the DRC's Ebola outbreak has become the deadliest in the country's history with over 2,325 deaths, spreading to a sixth province and killing one person every 30 minutes according to the UN [The Guardian, The Hindu]. Zambia's President Hichilema secured re-election with 60% of the vote [France 24, RFI, Al Jazeera], though opposition parties alleged fraud and arrests of opposition figures marred the process.",
+  "date": "Wednesday, August 19, 2026",
+  "daily_brief": "The day's most consequential developments center on shifting security alignments and escalating crises. In a significant challenge to Ukrainian unity during wartime, former Defence Minister Mykhailo Fedorov called for presidential elections, marking the first such demand by a major political figure since Russia's 2022 invasion [BBC, France 24, Al Jazeera]. Meanwhile, the US-South Korea alliance faces strain as Washington requested cutting joint military exercises from eleven to five days, with President Trump citing his relationship with Kim Jong Un and reportedly seeking a summit before year's end [BBC, Al Jazeera, Nikkei Asia]. In a last-minute reprieve for North American trade, Trump paused planned 50% tariffs on Canadian goods for three days as both sides work toward a deal that could include revival of the Keystone XL pipeline [BBC]. The DRC's Ebola outbreak has become the deadliest in the country's history with over 2,325 deaths, spreading to a sixth province while health authorities warn it has not yet peaked [RFI, The Guardian]. Regional tensions persist as Israel struck a Syrian airbase, drawing Turkish condemnation after the US blamed Israel for defying American efforts to support Damascus's new government [France 24, Le Monde].",
   "top_stories": [
     {
-      "headline": "Iran Declares US Negotiation Deadline 'Null and Void,' Vessel Struck in Strait of Hormuz",
+      "headline": "Former Ukrainian Defence Minister Fedorov Calls for Wartime Elections in Direct Challenge to Zelensky",
       "category": "Geopolitics",
       "bullets": [
-        "Iran's foreign ministry spokesman said the 60-day deadline under the June Iran-US memorandum of understanding has been rendered null and void due to Washington's 'violations'",
-        "A vessel transiting outbound in the Strait of Hormuz was struck by an unknown projectile, causing engine room damage and one crew casualty; remaining crew assisted by Omani Coast Guard",
-        "Shipping through the Strait remains severely disrupted with vessel crossings in single digits, down from over 130 daily before the conflict",
-        "Turkish President Erdogan urged Trump in a phone call to pursue talks with Iran and offered Ankara's support for peace efforts"
+        "Mykhailo Fedorov, dismissed as defence minister in July after six months in post, called for wartime presidential elections in a YouTube video on Tuesday",
+        "Fedorov stated 'democracy cannot be held hostage by Russia' and urged finding a legal mechanism for elections during ongoing war\u2014the first such demand by a major Ukrainian figure since 2022",
+        "His dismissal sparked nationwide protests and is widely attributed to tensions with then-army commander Oleksandr Syrskyi, who was also later replaced",
+        "Zelensky has not responded; Ukrainian law currently prohibits elections under martial law"
       ],
       "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasizes this as 'biggest challenge' to Zelensky since war began; detailed background on Fedorov's reforms",
+          "url": "https://www.bbc.co.uk/news/articles/cjej8nze1wko?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focus on diplomatic timeline and Iranian position",
-          "url": "https://www.france24.com/en/americas/20260818-trump-pauses-controversial-border-construction-in-texas-national-park"
+          "framing_note": "Describes it as 'bombshell address' and notes governance crisis framing",
+          "url": "https://www.france24.com/en/asia-pacific/20260819-trump-scales-back-joint-military-drills-between-south-korea-and-us"
         },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized shipping disruption and regional security implications; included context on Indian sailors' concerns",
-          "url": "https://www.thehindu.com/news/international/congos-fast-moving-ebola-outbreak-becomes-countrys-worst-with-over-2300-dead/article71357628.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Announces Kim Jong Un Has Responded to Outreach After Scaling Back South Korea Exercises",
-      "category": "Geopolitics",
-      "bullets": [
-        "Trump confirmed North Korean leader Kim Jong Un responded to his recent outreach, describing the exchange as 'very positive' without providing details",
-        "The announcement came one day after Trump ordered the Pentagon to 'substantially reduce' joint military exercises with South Korea",
-        "Trump cited his 'very good relationship' with Kim and called the exercises 'costly' and sending 'totally inappropriate and hostile' signals",
-        "Trump linked the decision to frustration with Seoul for declining to join US efforts on Iran's 'denuclearisation'"
-      ],
-      "sources": [
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasized South Korea angle and broader regional implications",
-          "url": "https://www.aljazeera.com/features/2026/8/18/tens-of-thousands-mourn-jason-arday-in-london-blaming-press-for-his-death?traffic_source=rss"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on explaining Trump's evolving relationship with both Koreas",
-          "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Highlights Fedorov's reformer reputation and speculation about his political future",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/attackers-go-house-to-house-killing-25-villagers-in-central-nigeria?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Russia Warns UK of 'Consequences' Over British-Made Drones Used in Strikes on Russian Territory",
-      "category": "Conflict",
+      "headline": "US and South Korea Cut Joint Military Exercises by Half After Trump Orders Reduction",
+      "category": "Geopolitics",
       "bullets": [
-        "Russia accused the UK of 'deliberately opting for an escalation of the Ukraine crisis' after British-made drones struck military and industrial targets inside Russia",
-        "Russian Embassy stated 'London's actions will inevitably carry consequences' and described UK as 'accomplice and co-perpetrator' of attacks",
-        "UK Ministry of Defence responded that Britain stands 'shoulder to shoulder' with Ukraine and is 'committed to providing the equipment Ukraine needs'",
-        "Drones built by two British companies have targeted refineries, warehouses, and Wildberries logistics centres, with Ukraine claiming seven of ten largest Wildberries centres have been 'disabled'"
+        "Annual Ulchi Freedom Shield drills reduced from 11 days to 5 at US request, ending August 21 instead of August 27",
+        "Trump cited exercises as 'costly' and 'hostile' toward North Korea, referencing his 'good relationship' with Kim Jong Un",
+        "South Korean officials said neither Seoul nor Washington had advance notice of Trump's decision; second phase involving counterattack operations reportedly cancelled",
+        "Trump is reportedly pushing for an in-person meeting with Kim before year's end; North Korea denounced drills as 'immediate and open threat' without acknowledging the reduction"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed both Russian accusations and UK government response equally",
-          "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Notes the move 'shakes South Korea's confidence' and signals concern to Japan and Taiwan",
+          "url": "https://www.bbc.co.uk/news/articles/cjej8nze1wko?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Le Monde",
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Frames as reflection of Trump's hopes to re-engage with Kim",
+          "url": "https://www.france24.com/en/asia-pacific/20260819-trump-scales-back-joint-military-drills-between-south-korea-and-us"
+        },
+        {
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Title emphasized Moscow's warning; article content unavailable due to technical issues",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/08/17/to-remain-silent-on-afghanistan-would-be-to-abandon-the-women-who-seek-recognition-for-their-struggle_6756605_23.html"
+          "framing_note": "Emphasizes scale of reduction and quotes South Korean media on cancelled phases",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/attackers-go-house-to-house-killing-25-villagers-in-central-nigeria?traffic_source=rss"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Regional security focus; notes Hanwha defence contract in same coverage",
+          "url": "https://asia.nikkei.com/business/energy/iran-war-energy-crisis-sparks-philippine-solar-boom"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Pauses 50% Tariffs on Canada as Trade Deal Nears Completion",
+      "category": "Economics",
+      "bullets": [
+        "President Trump announced three-day pause on 50% tariffs covering nearly $20 billion in Canadian imports, set to take effect August 19",
+        "Trump declared the two countries have reached a deal 'subject to finalization of documents'; Canadian PM Mark Carney confirmed 'substantial progress' with 'important work still to be done'",
+        "Key issues included US auto tariffs and Canadian provincial bans on American liquor sales",
+        "Trump suggested final deal could allow revival of Keystone XL pipeline, previously blocked by Obama and Biden administrations"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of both sides' positions; notes environmental and indigenous opposition to pipeline",
+          "url": "https://www.bbc.co.uk/news/articles/cjej8nze1wko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "headline": "DRC Ebola Outbreak Becomes Deadliest in Country's History, Spreads to Sixth Province",
-      "category": "Society",
+      "category": "Climate",
       "bullets": [
-        "Confirmed deaths reached 2,325 with 4,945 total cases, surpassing the 2018-20 outbreak toll of 2,299 deaths",
-        "The outbreak has spread to a sixth province (Bas-Uele) after a man traveled from Isiro to Buta where he died",
-        "UN stated Ebola 'is winning' in DRC, with one person dying every 30 minutes; WHO says outbreak on track to surpass 2014-16 West Africa outbreak as deadliest in history",
-        "No approved vaccines or treatments exist for the rare Bundibugyo strain responsible; over 1,000 have recovered while 730 remain hospitalized or in isolation"
+        "Death toll reaches at least 2,325 from 4,945 confirmed cases as of August 15, surpassing 2018-2020 outbreak which was previously the worst in DRC history",
+        "Outbreak is killing approximately one person every 30 minutes; transmission active across 55 health zones in six provinces",
+        "No approved vaccines or treatments exist for the rare Bundibugyo strain responsible for current outbreak",
+        "WHO director general stated outbreak is on track to surpass 2014-16 West Africa epidemic (11,325 deaths) as deadliest in history"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized historical comparisons and pace of outbreak spread",
-          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasizes outbreak 'yet to peak' and exponential spread",
+          "url": "https://www.rfi.fr/en/africa/20260818-drc-authorities-warn-ebola-outbreak-is-worst-to-date-and-yet-to-peak"
         },
         {
-          "name": "The Hindu",
+          "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Highlighted operational challenges including health worker strikes and rebel threats",
-          "url": "https://www.thehindu.com/news/international/congos-fast-moving-ebola-outbreak-becomes-countrys-worst-with-over-2300-dead/article71357628.ece"
+          "framing_note": "Detailed comparison with historical outbreaks; notes 1,000 recoveries despite lack of approved treatments",
+          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
         }
       ]
     },
     {
-      "headline": "Zambia's Hichilema Wins Re-Election Amid Opposition Fraud Allegations and Arrests",
-      "category": "Policy",
+      "headline": "Israel Strikes Syrian Airbase as Turkey Rejects Israeli Threat Claims",
+      "category": "Conflict",
       "bullets": [
-        "President Hakainde Hichilema won re-election with approximately 60% of votes against challenger Brian Mundubile who received nearly 38%",
-        "Vote counting was suspended after 11 people including leading opposition figures were arrested on election night in a raid involving gunfire",
-        "Opposition parties and civil society groups accused ruling party of shrinking political space; international observers noted conditions contributed to 'uneven playing field'",
-        "Hichilema campaigned on economic recovery record including major debt restructuring; pledges to double economy size in second term"
+        "Israel struck an air base in Syria that Turkey was reportedly preparing to use, according to US officials who blamed Israel for the attack",
+        "Turkey rejected Israeli allegations that it posed a threat by planning to send troops to the base",
+        "The strike marked extraordinary defiance of the United States, which has sought to support Syria's new government led by a former jihadist allied with Turkey",
+        "Incident occurs amid broader regional tensions including ongoing West Bank settler siege of Palestinian-American homes"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Balanced coverage of both economic achievements and opposition criticism",
-          "url": "https://www.france24.com/en/americas/20260818-trump-pauses-controversial-border-construction-in-texas-national-park"
+          "framing_note": "Emphasizes US-Israel tensions and US support for new Syrian government",
+          "url": "https://www.france24.com/en/asia-pacific/20260819-trump-scales-back-joint-military-drills-between-south-korea-and-us"
         },
         {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Emphasized election irregularities and opposition concerns",
-          "url": "#"
-        },
-        {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Zambia's copper resources and US-China competition for influence",
-          "url": "https://www.aljazeera.com/features/2026/8/18/tens-of-thousands-mourn-jason-arday-in-london-blaming-press-for-his-death?traffic_source=rss"
+          "framing_note": "Article flagged but headline indicates framing as Israeli 'warning' to Damascus and Ankara",
+          "url": "https://www.lemonde.fr/en/culture/article/2026/08/19/zz-top-drummer-frank-beard-dead-at-77_6756650_30.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "China announces new border regulations effective September 15 that expand exit bans and tighten controls on citizens leaving the country",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/asia-pacific/20260818-clamping-down-china-tightens-exit-rules"
+      "headline": "Meta trial begins with claims company knowingly hooked children on Instagram and Facebook, seeking billions in damages from 29 US states",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o"
     },
     {
-      "headline": "French PM Lecornu announces \u20ac12 million aid for wildfire-hit Gironde and Landes regions after being heckled by residents in Le Porge",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro"
-    },
-    {
-      "headline": "Russia's prominent anti-war politician Lev Shlosberg sentenced to 11 years in penal colony for 'discrediting' armed forces",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cj4kjnle2neo"
-    },
-    {
-      "headline": "Google tells suppliers it will move all Pixel smartphone, watch and earbud production out of China by 2027",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/spotlight/supply-chain/exclusive-google-plans-to-stop-making-pixel-products-in-china-in-2027"
-    },
-    {
-      "headline": "French astronaut Sophie Adenot set to become first French woman to perform spacewalk during ISS communications antenna repair",
-      "source": "RFI",
+      "headline": "French astronaut Sophie Adenot becomes first French woman to perform spacewalk during ISS communications repair mission",
+      "source": "RFI English",
       "url": "https://www.rfi.fr/en/international/20260818-walking-on-air-france-s-adenot-excited-ahead-of-historic-space-walk-astronaut-iss"
     },
     {
-      "headline": "Two dead and hundreds evacuated after twin fires broke out 'almost simultaneously' on Greek island of Salamina near Athens",
+      "headline": "Over 670,000 French taxpayers warned after hackers stole personal and tax data in two cyberattacks on national tax office",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260818-french-taxpayers-receive-warnings-after-hackers-steal-and-allegedly-sell-data"
+    },
+    {
+      "headline": "Southwest France steps up mosquito control after more than 20 locally contracted chikungunya cases recorded since August",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260819-southwest-france-steps-up-mosquito-control-following-20-chikungunya-cases"
+    },
+    {
+      "headline": "Chinese humanoid robot maker Unitree surges over 600% in Shanghai IPO debut after raising $905 million",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/ipo/unitree-shares-soar-in-humanoid-maker-s-landmark-shanghai-ipo"
+    },
+    {
+      "headline": "Bayern Munich's Jamal Musiala reveals treatment for neurological dysfunction after collapsing during matches twice in four days",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no"
+      "url": "https://www.bbc.co.uk/sport/football/articles/c330kg5xm8no"
     },
     {
-      "headline": "Trump administration pauses controversial border wall construction in Texas' Big Bend National Park amid bipartisan opposition",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260818-trump-pauses-controversial-border-construction-in-texas-national-park"
+      "headline": "British newlywed couple killed alongside pilot in helicopter crash on Greek island of Sifnos during honeymoon",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cx2lzj91d84o"
     },
     {
-      "headline": "Murder trial opens for former gang leader Duane 'Keffe D' Davis in 1996 killing of rapper Tupac Shakur",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko"
-    },
-    {
-      "headline": "Iran bars two French diplomats who were briefly detained in July from returning to the country over alleged 'interference'",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20260817-iran-bars-two-french-diplomats-over-alleged-interference"
-    },
-    {
-      "headline": "Zimbabwe boat accident death toll reaches 68 after ferry capsized on Lake Kariba; vessel was overloaded with 114 adults against 90-person capacity",
+      "headline": "American missionary Kevin Rideout freed in Niger after nine months in captivity; Trump claims role in securing release",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
+      "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
+    },
+    {
+      "headline": "UK Prime Minister Burnham reaffirms support for Ukraine after Russia warns of consequences over British-made drones used in strikes",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo"
+    },
+    {
+      "headline": "Philippines experiences sharp rise in rooftop solar installations as Iran war drives regional energy crisis",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/energy/iran-war-energy-crisis-sparks-philippine-solar-boom"
     }
   ]
 }
