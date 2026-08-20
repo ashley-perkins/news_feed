@@ -1,190 +1,202 @@
 {
-  "date": "Wednesday, August 19, 2026",
-  "daily_brief": "The day's most consequential developments center on shifting security alignments and escalating crises. In a significant challenge to Ukrainian unity during wartime, former Defence Minister Mykhailo Fedorov called for presidential elections, marking the first such demand by a major political figure since Russia's 2022 invasion [BBC, France 24, Al Jazeera]. Meanwhile, the US-South Korea alliance faces strain as Washington requested cutting joint military exercises from eleven to five days, with President Trump citing his relationship with Kim Jong Un and reportedly seeking a summit before year's end [BBC, Al Jazeera, Nikkei Asia]. In a last-minute reprieve for North American trade, Trump paused planned 50% tariffs on Canadian goods for three days as both sides work toward a deal that could include revival of the Keystone XL pipeline [BBC]. The DRC's Ebola outbreak has become the deadliest in the country's history with over 2,325 deaths, spreading to a sixth province while health authorities warn it has not yet peaked [RFI, The Guardian]. Regional tensions persist as Israel struck a Syrian airbase, drawing Turkish condemnation after the US blamed Israel for defying American efforts to support Damascus's new government [France 24, Le Monde].",
+  "date": "Thursday, August 20, 2026",
+  "daily_brief": "Russian missile strikes killed at least eight people in Kyiv overnight, damaging residential buildings, a children's hospital, and a school in what Ukrainian officials described as a 'massive attack' [BBC, Al Jazeera, France 24]. The strikes came as former defence minister Mykhailo Fedorov called for wartime elections, presenting the biggest political challenge to President Zelensky since the 2022 invasion [BBC]. In economic news, Evergrande founder Hui Ka Yan was sentenced to life in prison in China after pleading guilty to embezzlement and bribery, marking a decisive moment in the fallout from China's property crisis [BBC, Nikkei Asia, Financial Times]. President Trump escalated pressure on Iran, threatening 'tremendous economic consequences' on any country doing business with Tehran following the expiry of a 60-day ceasefire [BBC, Al Jazeera]. Meanwhile, Australia expressed outrage after Israel declined to open criminal proceedings over the 2024 killing of aid worker Zomi Frankcom in the World Central Kitchen strike, with Foreign Minister Penny Wong summoning the Israeli ambassador [BBC, Al Jazeera]. In Central African Republic, over 100 people died when an illegal goldmine collapsed near the Cameroon border [The Guardian, Le Monde].",
   "top_stories": [
     {
-      "headline": "Former Ukrainian Defence Minister Fedorov Calls for Wartime Elections in Direct Challenge to Zelensky",
-      "category": "Geopolitics",
-      "bullets": [
-        "Mykhailo Fedorov, dismissed as defence minister in July after six months in post, called for wartime presidential elections in a YouTube video on Tuesday",
-        "Fedorov stated 'democracy cannot be held hostage by Russia' and urged finding a legal mechanism for elections during ongoing war\u2014the first such demand by a major Ukrainian figure since 2022",
-        "His dismissal sparked nationwide protests and is widely attributed to tensions with then-army commander Oleksandr Syrskyi, who was also later replaced",
-        "Zelensky has not responded; Ukrainian law currently prohibits elections under martial law"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasizes this as 'biggest challenge' to Zelensky since war began; detailed background on Fedorov's reforms",
-          "url": "https://www.bbc.co.uk/news/articles/cjej8nze1wko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Describes it as 'bombshell address' and notes governance crisis framing",
-          "url": "https://www.france24.com/en/asia-pacific/20260819-trump-scales-back-joint-military-drills-between-south-korea-and-us"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlights Fedorov's reformer reputation and speculation about his political future",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/attackers-go-house-to-house-killing-25-villagers-in-central-nigeria?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "US and South Korea Cut Joint Military Exercises by Half After Trump Orders Reduction",
-      "category": "Geopolitics",
-      "bullets": [
-        "Annual Ulchi Freedom Shield drills reduced from 11 days to 5 at US request, ending August 21 instead of August 27",
-        "Trump cited exercises as 'costly' and 'hostile' toward North Korea, referencing his 'good relationship' with Kim Jong Un",
-        "South Korean officials said neither Seoul nor Washington had advance notice of Trump's decision; second phase involving counterattack operations reportedly cancelled",
-        "Trump is reportedly pushing for an in-person meeting with Kim before year's end; North Korea denounced drills as 'immediate and open threat' without acknowledging the reduction"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Notes the move 'shakes South Korea's confidence' and signals concern to Japan and Taiwan",
-          "url": "https://www.bbc.co.uk/news/articles/cjej8nze1wko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Frames as reflection of Trump's hopes to re-engage with Kim",
-          "url": "https://www.france24.com/en/asia-pacific/20260819-trump-scales-back-joint-military-drills-between-south-korea-and-us"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasizes scale of reduction and quotes South Korean media on cancelled phases",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/attackers-go-house-to-house-killing-25-villagers-in-central-nigeria?traffic_source=rss"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Regional security focus; notes Hanwha defence contract in same coverage",
-          "url": "https://asia.nikkei.com/business/energy/iran-war-energy-crisis-sparks-philippine-solar-boom"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Pauses 50% Tariffs on Canada as Trade Deal Nears Completion",
-      "category": "Economics",
-      "bullets": [
-        "President Trump announced three-day pause on 50% tariffs covering nearly $20 billion in Canadian imports, set to take effect August 19",
-        "Trump declared the two countries have reached a deal 'subject to finalization of documents'; Canadian PM Mark Carney confirmed 'substantial progress' with 'important work still to be done'",
-        "Key issues included US auto tariffs and Canadian provincial bans on American liquor sales",
-        "Trump suggested final deal could allow revival of Keystone XL pipeline, previously blocked by Obama and Biden administrations"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced coverage of both sides' positions; notes environmental and indigenous opposition to pipeline",
-          "url": "https://www.bbc.co.uk/news/articles/cjej8nze1wko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "DRC Ebola Outbreak Becomes Deadliest in Country's History, Spreads to Sixth Province",
-      "category": "Climate",
-      "bullets": [
-        "Death toll reaches at least 2,325 from 4,945 confirmed cases as of August 15, surpassing 2018-2020 outbreak which was previously the worst in DRC history",
-        "Outbreak is killing approximately one person every 30 minutes; transmission active across 55 health zones in six provinces",
-        "No approved vaccines or treatments exist for the rare Bundibugyo strain responsible for current outbreak",
-        "WHO director general stated outbreak is on track to surpass 2014-16 West Africa epidemic (11,325 deaths) as deadliest in history"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasizes outbreak 'yet to peak' and exponential spread",
-          "url": "https://www.rfi.fr/en/africa/20260818-drc-authorities-warn-ebola-outbreak-is-worst-to-date-and-yet-to-peak"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Detailed comparison with historical outbreaks; notes 1,000 recoveries despite lack of approved treatments",
-          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
-        }
-      ]
-    },
-    {
-      "headline": "Israel Strikes Syrian Airbase as Turkey Rejects Israeli Threat Claims",
+      "headline": "Russian Missile Barrage Kills at Least Eight in Kyiv, Damages Children's Hospital",
       "category": "Conflict",
       "bullets": [
-        "Israel struck an air base in Syria that Turkey was reportedly preparing to use, according to US officials who blamed Israel for the attack",
-        "Turkey rejected Israeli allegations that it posed a threat by planning to send troops to the base",
-        "The strike marked extraordinary defiance of the United States, which has sought to support Syria's new government led by a former jihadist allied with Turkey",
-        "Incident occurs amid broader regional tensions including ongoing West Bank settler siege of Palestinian-American homes"
+        "Overnight Russian missile strikes hit residential buildings, warehouses, a children's hospital, and a school in Kyiv, killing at least eight people and injuring 33",
+        "A nine-storey residential building collapsed and caught fire in Solomianskyi district; rescue crews pulled survivors from rubble",
+        "A Russian drone crossed into Romanian airspace near Gala\u021bi, crashing in an uninhabited area with no casualties; Poland activated defensive air operations",
+        "Russia's defence ministry claimed strikes targeted drone production facilities, a military depot, and logistics hub"
       ],
       "sources": [
         {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Detailed factual coverage emphasizing civilian casualties and NATO member airspace incursions",
+          "url": "#"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Connected strikes to domestic political turmoil facing Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss"
+        },
+        {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasizes US-Israel tensions and US support for new Syrian government",
-          "url": "https://www.france24.com/en/asia-pacific/20260819-trump-scales-back-joint-military-drills-between-south-korea-and-us"
+          "framing_note": "Straightforward casualty reporting with emphasis on residential areas hit",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260820-ligue-1-paul-pogba-s-monaco-adventure-comes-to-an-end"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article flagged but headline indicates framing as Israeli 'warning' to Damascus and Ankara",
-          "url": "https://www.lemonde.fr/en/culture/article/2026/08/19/zz-top-drummer-frank-beard-dead-at-77_6756650_30.html"
+          "framing_note": "Article content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/08/20/arrest-of-two-french-journalists-in-togo-reflects-worsening-relations-between-paris-and-lome_6756689_124.html"
+        }
+      ]
+    },
+    {
+      "headline": "Evergrande Founder Hui Ka Yan Sentenced to Life in Prison as China Property Crisis Reaches Legal Conclusion",
+      "category": "Economics",
+      "bullets": [
+        "Hui Ka Yan, founder of collapsed property giant Evergrande, received life sentence and had all personal property confiscated after pleading guilty to embezzlement and corporate bribery",
+        "Shenzhen court fined Hui's former companies 15.82 billion yuan ($2.35 billion) for falsifying records and concealing debt",
+        "Other executives including Hui's two sons received sentences ranging from 22 months to 18 years",
+        "Once Asia's richest man, Hui rose from rural poverty to oversee Evergrande's aggressive expansion before its collapse shook China's property sector"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Comprehensive background on Hui's rise and fall, emphasizing market disruption",
+          "url": "#"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Brief, factual coverage focused on the sentencing outcome",
+          "url": "https://asia.nikkei.com/economy/trade/japan-logged-trade-deficit-for-third-consecutive-month-in-july"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Article behind paywall; headline confirms life sentence",
+          "url": "https://www.ft.com/content/895d78fc-ce60-4cb6-a8d5-db3ab01d1ebf?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Threatens 'Economic D-Day' on Countries Doing Business with Iran",
+      "category": "Geopolitics",
+      "bullets": [
+        "President Trump announced 'the most crushing economic operation ever taken against any country' targeting nations helping Iran, following expiry of 60-day ceasefire on Monday",
+        "Threat extends Operation Economic Fury launched in April to sanction foreign banks and firms doing business with Tehran",
+        "UAE announced it would sever all financial and economic ties with Iran one day before Trump's announcement",
+        "Trump cited oil smuggling, swap lines, cash transfers, and front companies but did not specify punishments or name targeted countries"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Factual reporting on policy escalation, noted lack of diplomatic off-ramp",
+          "url": "#"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized economic rather than military focus; described threat as 'vague'",
+          "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Critical analysis noting Trump's 'erratic' stances and lack of clear exit strategy",
+          "url": "https://www.thehindu.com/news/international/pakistan-summons-us-charge-daffaires-over-sergio-gors-remarks-on-jk/article71367872.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Australia Summons Israeli Ambassador After IDF Declines Criminal Investigation into Aid Worker Deaths",
+      "category": "Geopolitics",
+      "bullets": [
+        "Israel's military decided not to launch criminal investigation into April 2024 airstrike that killed Australian aid worker Zomi Frankcom and six World Central Kitchen colleagues",
+        "Australian Foreign Minister Penny Wong called decision 'outrageous' and said it 'falls far short of the accountability we expect'",
+        "Israeli Ambassador Hillel Newman defended IDF, stating 'there was no criminal intention' and therefore 'no criminal responsibility'",
+        "Wong questioned why two additional strikes followed the first if it was a 'catastrophic error,' noted drone audio still not provided to Australia"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Detailed diplomatic coverage including ambassador's defense",
+          "url": "#"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage noting case 'drew international condemnation'",
+          "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Over 100 Dead After Illegal Goldmine Collapses in Central African Republic",
+      "category": "Society",
+      "bullets": [
+        "Landslide caused collapse at artisanal goldmine in village of Zamboye, about 50km from Baboua near Cameroon border, on Tuesday afternoon",
+        "More than 100 bodies recovered according to Red Cross volunteers and local mining association officials",
+        "Victims believed to be nationals of Central African Republic and Cameroon; rescue operations ongoing to find survivors",
+        "Authorities launched investigation; collapse attributed to underground tunnel failure"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Detailed on-ground reporting with witness accounts and social media footage description",
+          "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/08/20/arrest-of-two-french-journalists-in-togo-reflects-worsening-relations-between-paris-and-lome_6756689_124.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Meta trial begins with claims company knowingly hooked children on Instagram and Facebook, seeking billions in damages from 29 US states",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o"
-    },
-    {
-      "headline": "French astronaut Sophie Adenot becomes first French woman to perform spacewalk during ISS communications repair mission",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260818-walking-on-air-france-s-adenot-excited-ahead-of-historic-space-walk-astronaut-iss"
-    },
-    {
-      "headline": "Over 670,000 French taxpayers warned after hackers stole personal and tax data in two cyberattacks on national tax office",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260818-french-taxpayers-receive-warnings-after-hackers-steal-and-allegedly-sell-data"
-    },
-    {
-      "headline": "Southwest France steps up mosquito control after more than 20 locally contracted chikungunya cases recorded since August",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260819-southwest-france-steps-up-mosquito-control-following-20-chikungunya-cases"
-    },
-    {
-      "headline": "Chinese humanoid robot maker Unitree surges over 600% in Shanghai IPO debut after raising $905 million",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/ipo/unitree-shares-soar-in-humanoid-maker-s-landmark-shanghai-ipo"
-    },
-    {
-      "headline": "Bayern Munich's Jamal Musiala reveals treatment for neurological dysfunction after collapsing during matches twice in four days",
+      "headline": "Former Ukrainian Defence Minister Fedorov calls for wartime presidential elections in challenge to Zelenskyy",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c330kg5xm8no"
+      "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo"
     },
     {
-      "headline": "British newlywed couple killed alongside pilot in helicopter crash on Greek island of Sifnos during honeymoon",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cx2lzj91d84o"
+      "headline": "France's summer heatwaves have caused over 7,300 excess deaths in 2026, with 1,243 deaths in July alone",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260820-july-heatwave-caused-over-1-200-deaths-in-france-bringing-summer-toll-to-7-300"
     },
     {
-      "headline": "American missionary Kevin Rideout freed in Niger after nine months in captivity; Trump claims role in securing release",
+      "headline": "Pentagon sent 'political loyalty' questionnaire to 31 NATO allies, Al Jazeera reports exclusively",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/exclusive-pentagon-sends-political-loyalty-survey-to-us-allies"
+    },
+    {
+      "headline": "DRC Ebola outbreak now deadliest in country's history with 2,325 deaths, on track to surpass 2014-16 West Africa outbreak",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
+      "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
     },
     {
-      "headline": "UK Prime Minister Burnham reaffirms support for Ukraine after Russia warns of consequences over British-made drones used in strikes",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo"
-    },
-    {
-      "headline": "Philippines experiences sharp rise in rooftop solar installations as Iran war drives regional energy crisis",
+      "headline": "China restricting exports of key aerospace and optical materials to Taiwan, creating supply chain bottlenecks",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/energy/iran-war-energy-crisis-sparks-philippine-solar-boom"
+      "url": "https://asia.nikkei.com/spotlight/supply-chain/exclusive-china-slows-exports-of-key-optical-aerospace-metals-to-taiwan"
+    },
+    {
+      "headline": "Trump says he will meet North Korea's Kim Jong Un later this year",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/trump-says-will-meet-north-korea-s-kim-later-this-year"
+    },
+    {
+      "headline": "Russian politician Boris Nadezhdin flees to Paris after being barred from parliamentary elections and facing imprisonment",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260819-ukraine-war-was-putins-fatal-mistake-says-russian-politician-exiled-in-paris-boris-nadezhdin-ukraine-war"
+    },
+    {
+      "headline": "CK Hutchison seeks $1.5 billion in damages from Panama over seized canal ports",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/ck-hutchison-seeks-1.5bn-in-damages-over-seized-panama-canal-ports"
+    },
+    {
+      "headline": "Seven people including five Americans killed in safari helicopter crash in northern Kenya",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+    },
+    {
+      "headline": "Israeli army admits firing on car in death of 5-year-old Hind Rajab in Gaza",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/israeli-army-admits-firing-on-car-in-death-of-5-year-old-hind-rajab"
     }
   ]
 }
