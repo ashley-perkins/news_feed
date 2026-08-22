@@ -1,196 +1,220 @@
 {
-  "date": "Friday, August 21, 2026",
-  "daily_brief": "The day's most consequential developments center on escalating US pressure campaigns against Iran and mounting climate disruptions. Treasury Secretary Scott Bessent warned allies and China that any nation maintaining economic ties with Tehran faces 'economic oblivion,' with details of the 'Economic D-Day' campaign expected Monday [BBC, France 24]. This comes as shipping through the Strait of Hormuz fell sharply, with just seven vessels crossing Thursday amid heightened security risks [France 24]. Climate concerns dominated headlines as the UK Met Office warned the developing El Ni\u00f1o could become the 'strongest in living memory,' making 2027 likely the hottest year on record [BBC], while the Panama Canal announced traffic restrictions beginning September 3 due to drought conditions [Le Monde, France 24]. In Hong Kong, a court convicted two Tiananmen vigil organizers of inciting subversion, a verdict seen as emblematic of eroding civil liberties [Al Jazeera, France 24, Nikkei Asia]. Western allies including the UK, France, Germany, Italy and Canada issued a joint condemnation of Israel's E1 settlement plans, calling them 'unacceptable' and urging immediate retraction [BBC]. Russia's overnight strikes on Kyiv killed at least 17 people and marked the first purposeful attack on critical infrastructure in months, according to Mayor Klitschko [BBC].",
+  "date": "Saturday, August 22, 2026",
+  "daily_brief": "Trade tensions between the United States and Canada escalated sharply on Saturday after last-minute negotiations collapsed, triggering 50% US tariffs on $20 billion of Canadian goods and immediate retaliatory measures from Ottawa [BBC, France 24, Globe and Mail]. Prime Minister Mark Carney cited 'unfair, uneconomic' last-minute changes by Washington, while US Trade Representative Jamieson Greer blamed Canadian walkbacks for the breakdown. Meanwhile, Russia continued its assault on Ukraine, with strikes killing at least two people a day after a 'double-tap' drone attack on a shopping center in Kryvyi Rih left 16 dead and over 130 wounded [BBC, France 24]. The Ebola outbreak in the Democratic Republic of Congo has now surpassed 2,500 deaths and is spreading 'exponentially,' with the UN warning the virus is killing one person every 30 minutes [Guardian, RFI, The Hindu]. In the occupied West Bank, Israel re-established the settlement of Kadim, defying international condemnation from France, Germany, Italy, and the UK, who urged immediate withdrawal of new settlement tenders [BBC, France 24, RFI]. US-Iran tensions remain elevated ahead of Monday's announcement of new sanctions, with Tehran vowing a 'devastating' response [Globe and Mail, The Hindu].",
   "top_stories": [
     {
-      "headline": "US Launches 'Economic D-Day' Against Iran, Warns Allies and China of Consequences",
-      "category": "Geopolitics",
+      "headline": "US-Canada Trade Talks Collapse as 50% Tariffs Take Effect, Ottawa Vows Dollar-for-Dollar Retaliation",
+      "category": "Economics",
       "bullets": [
-        "Treasury Secretary Scott Bessent warned that any country maintaining economic ties with Iran faces 'economic oblivion,' stating 'you are either with us or against us'",
-        "Vice President JD Vance described the sanctions as a 'new phase' of the conflict where economic pressure is the 'most effective' tool available",
-        "Bessent will reveal specific measures at a press conference on August 24; Iran branded the threats as 'economic terrorism'",
-        "Shipping through the Strait of Hormuz fell sharply Thursday with only seven commodity vessels crossing, as security risks and stalled US-Iran talks deter shipping"
+        "50% US tariffs on approximately $20 billion of Canadian exports took effect Saturday after negotiations broke down minutes before the deadline",
+        "Canadian Prime Minister Mark Carney suspended talks, citing 'unfair, uneconomic' last-minute changes by US negotiators and questioning 'the reliability of any deal'",
+        "Canada announced it will impose reciprocal tariffs on US goods 'dollar for dollar' to protect Canadian workers and businesses",
+        "US Trade Representative Jamieson Greer said Canada 'declined to finalize the trade deal under the terms agreed earlier this week' despite offers of tariff reductions in steel and aluminum"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Frames as strategy question: 'will further sanctions work where other strategies have failed?'",
-          "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized Carney's statement about unreliable US negotiating terms",
+          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasizes domestic political pressure on Trump with midterm elections looming",
-          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260820-major-nigerian-coke-bust-leads-to-arrest"
+          "framing_note": "Highlighted Trump's earlier optimism about reaching a deal",
+          "url": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focuses on Bessent 'battling bond vigilantes' amid economic pressure campaign",
-          "url": "https://www.ft.com/content/2d7e64e8-386a-4987-ae4d-04b6bf2a5e6a?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "Met Office Warns El Ni\u00f1o Could Be 'Strongest in Living Memory,' 2027 Likely Hottest Year",
-      "category": "Climate",
-      "bullets": [
-        "UK Met Office says developing El Ni\u00f1o is 'unprecedented' with forecasts showing the most intense signal ever recorded",
-        "The phenomenon is 'very likely' to make 2027 the hottest year on record when combined with human-induced climate change",
-        "Panama Canal announced it will reduce daily vessel traffic from 36 ships to 32 by September 15 due to El Ni\u00f1o-fueled drought",
-        "Weather impacts already visible: below-average monsoon rains in India, suppressed Atlantic hurricane activity, and UK at greater risk of wet, stormy autumn"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Lead with unprecedented nature of event and expert quotes",
-          "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Provided broader context on Trump's trade policy record and its limited success delivering promised economic benefits",
+          "url": "https://www.theglobeandmail.com/world/article-as-congos-ebola-outbreak-worsens-ottawa-faces-calls-for-more-help/"
         },
         {
-          "name": "Le Monde",
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Focused on Panama Canal economic impact",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/21/syrian-kurds-announce-completion-of-civil-and-military-integration-with-damascus_6756716_4.html"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized trade route disruption affecting 5% of global maritime trade",
-          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260820-major-nigerian-coke-bust-leads-to-arrest"
+          "framing_note": "Focused on factual breakdown of tariff timeline",
+          "url": "https://www.thehindu.com/news/international/many-tunisians-missing-after-migrant-boat-sinks-off-tunisia-group-says/article71376441.ece"
         }
       ]
     },
     {
-      "headline": "Hong Kong Court Convicts Tiananmen Vigil Organizers of Inciting Subversion",
+      "headline": "Russian Double-Tap Strike Kills 16 at Ukrainian Shopping Center, Strikes Continue Saturday",
+      "category": "Conflict",
+      "bullets": [
+        "A daytime Russian drone attack on a busy shopping center in Kryvyi Rih killed 16 people and injured over 130, including 23 children, with 9 still missing",
+        "President Zelensky called the attack 'absolutely cynical and despicable,' stating a second drone struck 30 minutes after the first, targeting emergency responders",
+        "Additional Russian strikes Saturday killed at least two more people\u2014one in a Kyiv warehouse fire from a ballistic missile, another in a drone strike on Zaporizhzhia",
+        "Russia's defense ministry said it launched massive strikes targeting transport infrastructure and warehouses; it has not commented on the shopping center attack"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Included verified BBC footage of the second drone strike",
+          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized Zelensky's characterization of the attack as terrorism",
+          "url": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "DRC Ebola Outbreak Now Deadliest in Country's History, Growing 'Exponentially'",
       "category": "Society",
       "bullets": [
-        "Lee Cheuk-yan, 69, and Chow Hang-tung, 41, found guilty of 'incitement to subversion' for organizing annual candlelit vigils commemorating 1989 Tiananmen crackdown",
-        "The pair face up to 10 years in prison; sentencing expected at a later date",
-        "Prosecutors argued the activists 'endangered national security in the name of human rights'",
-        "Case widely viewed as a bellwether for freedom of expression in Hong Kong; Committee for Freedom in Hong Kong Foundation said verdict was 'no surprise' given the 'twisted' judicial system"
+        "More than 2,500 people have died in the DRC's 17th Ebola outbreak, surpassing the 2018-20 outbreak's toll, with half the deaths occurring in the last 20 days",
+        "The outbreak is spreading faster than any Ebola outbreak in recorded history, now affecting six provinces across an area larger than France",
+        "Over 16,000 doses of Ervebo vaccine arrived Friday, though the vaccine is approved for the Zaire strain, not the circulating Bundibugyo strain\u2014its effectiveness against this strain remains unproven",
+        "The UN warned Ebola is killing one person every 30 minutes in DRC; WHO says the outbreak is on track to surpass the 2014-16 West Africa epidemic as the largest ever"
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
+          "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasized erosion of freedom of expression and quoted activist groups",
-          "url": "https://www.aljazeera.com/economy/2026/8/21/brazil-launches-ai-supercomputer-push-while-balancing-us-and-chinese-tech?traffic_source=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Provided detailed profiles of the three activists including background on Chow's legal career",
-          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260820-major-nigerian-coke-bust-leads-to-arrest"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Straightforward coverage noting defendants face up to 10 years in jail",
-          "url": "https://asia.nikkei.com/spotlight/hong-kong-security-law/hong-kong-tiananmen-vigil-organizers-convicted-of-inciting-subversion"
-        }
-      ]
-    },
-    {
-      "headline": "Five Western Nations Condemn Israel's E1 Settlement Plans as 'Unacceptable'",
-      "category": "Geopolitics",
-      "bullets": [
-        "UK, France, Germany, Italy and Canada issued joint statement calling Israel's decision to open tenders for 1,200 settlement homes in E1 'unacceptable'",
-        "The allies urged Israel to 'retract the plans immediately,' warning they would deal a major blow to two-state solution hopes by cutting the West Bank in two",
-        "UN Secretary General also condemned the E1 plan; statement cited 'unprecedented levels of violence by settlers against civilians'",
-        "Separately, US Ambassador to Israel Mike Huckabee spoke out twice about the siege of Palestinians in Qusra village, saying taking Palestinian Americans' property violated 'God's law'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized international law position that all settlements are illegal",
-          "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized historical comparison and speed of spread",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Focused on Qusra village siege as symbol of growing settler violence, noting 13 people trapped for 11 days",
-          "url": "https://www.rfi.fr/en/international/20260820-us-led-roadmap-must-overcome-two-central-obstacles-to-end-impasse"
+          "framing_note": "Featured MSF warnings about response capacity being outpaced",
+          "url": "https://www.rfi.fr/en/international/20260821-france-and-european-allies-press-israel-to-abandon-west-bank-settlement-plan"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Focused on vaccine delivery logistics",
+          "url": "https://www.thehindu.com/news/international/many-tunisians-missing-after-migrant-boat-sinks-off-tunisia-group-says/article71376441.ece"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Criticized Canada's comparatively small aid contribution",
+          "url": "https://www.theglobeandmail.com/world/article-as-congos-ebola-outbreak-worsens-ottawa-faces-calls-for-more-help/"
         }
       ]
     },
     {
-      "headline": "Russia Strikes Kyiv Critical Infrastructure for First Time in Months, Killing 17",
-      "category": "Conflict",
+      "headline": "Israel Re-Establishes Closed West Bank Settlement as European Allies Issue Joint Condemnation",
+      "category": "Geopolitics",
       "bullets": [
-        "At least 17 people killed and more than 40 injured in overnight strikes that hit apartment blocks, warehouses, a children's hospital and school",
-        "Mayor Vitali Klitschko said it was the first time in several months that critical infrastructure 'was purposefully attacked' in the capital",
-        "Ukrainian Air Force implied none of the Russian ballistic missiles were intercepted; Zelensky said Patriot interceptors 'have not yet been replaced'",
-        "Klitschko told BBC that Ukraine continues to face a shortage of air defense missiles and needs 'ammunition, anti-missile systems' from Western partners"
+        "Thirty Israeli settler families moved into the settlement of Kadim near Jenin, reopening it 20 years after it was closed by a previous Israeli government",
+        "Finance Minister Bezalel Smotrich attended the opening ceremony, calling it 'the correction' of an 'expulsion crime'",
+        "France, Germany, Italy, and the UK issued a joint statement calling on Israel to halt settlement expansion and withdraw tenders for over 1,200 new homes under the E1 project",
+        "Israeli settlers separately shot and killed a 17-year-old Palestinian boy near Hebron on Friday; UN called for accountability as 22 Palestinians have been killed in settler attacks this year"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized Ukraine's ongoing shortage of air defense capabilities and Western supply needs",
-          "url": "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Noted all Israeli settlements are illegal under international law",
+          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Broader analysis piece on interceptor missile shortages 'causing panic in Ukraine and elsewhere'",
-          "url": "https://www.economist.com/international/2026/08/10/the-war-room-newsletter-do-generals-make-good-politicians"
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Detailed the separate shooting death of the Palestinian teenager",
+          "url": "https://www.france24.com/en/europe/20260821-back-to-back-russian-drone-strikes-kill-14-people-in-ukraine-shopping-centre"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized European diplomatic pressure and two-state solution concerns",
+          "url": "https://www.rfi.fr/en/international/20260821-france-and-european-allies-press-israel-to-abandon-west-bank-settlement-plan"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted UN response and broader pattern of settler violence",
+          "url": "https://www.aljazeera.com/news/2026/8/22/nigeria-and-the-sahel-a-growing-security-divide?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "US-Iran Tensions Intensify Ahead of 'Toughest Sanctions in History' Announcement",
+      "category": "Geopolitics",
+      "bullets": [
+        "US Treasury Secretary Scott Bessent will announce new sanctions on Iran Monday, described by administration officials as 'the toughest sanctions in history'",
+        "Iran's Foreign Ministry called secondary sanctions an 'assertion of extraterritorial sovereignty' with no foundation in international law and vowed a 'devastating' response",
+        "Oil shipments through the Strait of Hormuz have virtually halted as Iran threatens to strike unauthorized tankers; China, which buys over 80% of Iran's shipped oil, urged diplomacy",
+        "President Trump said Iran 'would love to make a deal' but is 'not ready to make the right deal,' reiterating the US will not allow Iran to obtain nuclear weapons"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Provided detailed context on China's role and strategic oil dynamics",
+          "url": "https://www.theglobeandmail.com/world/article-as-congos-ebola-outbreak-worsens-ottawa-faces-calls-for-more-help/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Trump's rally remarks and nuclear weapons focus",
+          "url": "https://www.thehindu.com/news/international/many-tunisians-missing-after-migrant-boat-sinks-off-tunisia-group-says/article71376441.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "First US deportees arrive in Liberia under agreement that will send up to 1,200 migrants to the West African nation",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
+      "headline": "TikTok agrees to pay $400 million to settle US lawsuit over children's privacy violations, one of the largest such settlements ever",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro"
     },
     {
-      "headline": "Over 100 dead after artisanal goldmine collapses in Central African Republic village near Cameroon border",
+      "headline": "One person killed and two teenagers seriously injured in sword attack at Swedish high school; 18-year-old suspect arrested after police fired shots",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o"
+    },
+    {
+      "headline": "More than 100 dead after artisanal goldmine collapses in Central African Republic village near Cameroon border",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
     },
     {
-      "headline": "US national debt passes $40 trillion mark, with interest payments alone now exceeding $1 trillion annually",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o"
-    },
-    {
-      "headline": "China prepares to launch Chang'e-7 lunar mission to search for frozen water at moon's south pole",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/world/1076320/china-hunts-for-lunar-ice-in-one-of-solar-system-s-coldest-places"
-    },
-    {
-      "headline": "DRC Ebola outbreak becomes deadliest in country's history with 2,325 dead, killing one person every 30 minutes",
+      "headline": "US deports 20 people to Liberia under new agreement that will see up to 1,200 migrants sent to the West African country",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+      "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
     },
     {
-      "headline": "First deportees arrive in Haiti after US ends Temporary Protected Status for 350,000 Haitians",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/first-group-of-deportees-arrives-in-troubled-haiti-after-us-ends-tps-programme/article71372228.ece"
+      "headline": "Germany investigates suspected Russian-linked weapons cache found in woods near Berlin, believed intended for assassinations",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo"
     },
     {
-      "headline": "India and Japan sign naval pact to bolster maritime security ties and defense technology collaboration",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/defense/india-and-japan-ink-naval-pact-seek-stronger-anti-mine-capabilities"
-    },
-    {
-      "headline": "Indonesia seeks expanded joint military exercises with China as Jakarta balances ties between Beijing and Washington",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/defense/indonesia-seeks-expanded-joint-military-exercises-with-china"
-    },
-    {
-      "headline": "Syrian Kurds announce completion of civil and military integration with Damascus government",
+      "headline": "Pentagon fires editor-in-chief and top reporter of military newspaper Stars and Stripes",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/08/21/syrian-kurds-announce-completion-of-civil-and-military-integration-with-damascus_6756716_4.html"
+      "url": "https://www.lemonde.fr/en/international/article/2026/08/22/pentagon-fires-editor-in-chief-and-top-reporter-of-stars-and-stripes_6756752_4.html"
     },
     {
-      "headline": "Winston Peters says New Zealand was not given advance notice that US was scaling back Ulchi Freedom Shield military exercise in South Korea",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/political/1071560/winston-peters-says-us-scaling-back-of-military-drill-new-zealand-involved-in-a-surprise"
+      "headline": "Two men injured in screwdriver stabbing at Edmonton gurdwara; police investigating whether attack was hate-motivated",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/2-injured-in-stabbing-at-canadas-edmonton-gurdwara-suspect-in-custody/article71376640.ece"
+    },
+    {
+      "headline": "Spain reverses position and will allow 500 unaccompanied migrant children in Ceuta to relocate to mainland",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
+    },
+    {
+      "headline": "China set to launch Chang'e-7 mission to search for ice water in permanently shadowed craters near moon's south pole",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/22/chinas-new-moon-mission-could-unlock-secret-of-lunar-ice-why-that-matters"
+    },
+    {
+      "headline": "Growing fears of another military mobilization driving increased numbers of Russians to seek emigration",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260821-mobilisation-fears-fuel-renewed-russian-interest-in-leaving-the-country-relokatz"
     }
   ]
 }
