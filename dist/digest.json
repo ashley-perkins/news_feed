@@ -1,184 +1,202 @@
 {
-  "date": "Sunday, August 23, 2026",
-  "daily_brief": "The collapse of US-Canada trade negotiations dominates today's headlines, with Prime Minister Mark Carney announcing retaliatory tariffs 'dollar-for-dollar' after President Trump imposed 50% duties on approximately $20 billion in Canadian goods [BBC, Al Jazeera, Le Monde]. The breakdown marks an unprecedented rupture between the longtime allies, with Carney declaring the countries are now in a trade 'war.' In Ukraine, rescue operations continue at a Kryvyi Rih shopping centre where a Russian double-tap drone strike killed 16 people and injured over 130 [BBC, Le Monde, RFI]. France responded by pledging interceptor missiles to bolster Ukraine's depleted air defences. The DRC's Ebola outbreak has become the deadliest in the country's history, with 2,325 confirmed deaths and the UN warning the virus 'is winning' [The Guardian]. In Sweden, police confirmed a 17-year-old girl was killed in a sword attack at a high school in Fagersta, with an 18-year-old suspect in custody [BBC]. Meanwhile, Chinese humanoid robots captured global attention by breaking Usain Bolt's 100m world record at the World Humanoid Robot Games in Beijing [The Hindu, Al Jazeera].",
+  "date": "Monday, August 24, 2026",
+  "daily_brief": "European leaders convened virtually on Ukraine's Independence Day to reaffirm military support for Kyiv, with France pledging interceptor missiles critical to air defense as Russian strikes continue to claim civilian lives at their highest rate since the war's early months [RFI, France 24, BBC]. The meeting of the 'Coalition of the Willing,' co-chaired by Macron, Merz, and new UK Prime Minister Andy Burnham, comes amid growing concerns over dwindling missile stockpiles across allied nations [The Economist]. Meanwhile, escalating US-Iran tensions dominated economic headlines, with Treasury Secretary Bessent announcing what he termed 'economic D-Day'\u2014a sweeping sanctions offensive\u2014while Iran threatened to shut down Gulf oil exports, further constraining already-reduced Strait of Hormuz traffic [Globe and Mail, The Hindu]. The collapse of US-Canada trade talks triggered fresh 50% tariffs and retaliatory measures, with Prime Minister Carney declaring the two nations 'at war' economically [BBC, Globe and Mail]. In corporate news, Shein launched its long-awaited Hong Kong IPO at a $27 billion valuation, a steep decline from its 2022 peak [BBC, Financial Times, Nikkei Asia].",
   "top_stories": [
     {
-      "headline": "US-Canada Trade Talks Collapse, Triggering Escalating Tariff War Between Longtime Allies",
-      "category": "Economics",
-      "bullets": [
-        "Trump imposed 50% tariffs on approximately $20 billion in Canadian goods after negotiations broke down Friday, citing Canada wanting 'benefits of being a State, without being one'",
-        "Prime Minister Mark Carney announced Canada will match US tariffs 'dollar-for-dollar' from September 8, covering steel, dairy, appliances, and electronics",
-        "Both sides blamed last-minute changes for torpedoing the deal, with Carney stating the US 'asked too much and offered too little'",
-        "The collapse upends decades of free trade between the countries with no clear path to resolution"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of both sides' positions; noted this is a significant political test for Carney",
-          "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article inaccessible but headline indicates coverage of Canadian retaliation",
-          "url": "https://www.lemonde.fr/en/summer-reads/article/2026/08/22/spanish-civil-war-how-i-found-my-republican-great-grandfather-forgotten-in-mass-graves_6756767_183.html"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Canadian premiers' distrust of Trump, quoted BC Premier saying 'you just can't trust Trump'",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/chinese-robot-beats-usain-bolts-100m-world-record-at-humanoid-games?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Double-Tap Drone Strike Kills 16 at Ukrainian Shopping Centre, France Pledges Missiles",
+      "headline": "European Allies Rally Behind Ukraine on Independence Day as Air Defense Shortages Mount",
       "category": "Conflict",
       "bullets": [
-        "Two drones hit a busy shopping centre in Kryvyi Rih in quick succession Friday, killing 16 and injuring over 130 people; four remain missing",
-        "The second drone deliberately targeted emergency workers responding to the first strike, a tactic condemned by Zelensky as 'cynical and despicable'",
-        "France announced it will deliver interceptor missiles to Ukraine, with Macron saying Russia's targeting of civilians 'signals an admission of weakness'",
-        "Zelensky said Ukraine lacks sufficient air defence missiles, stating 'interceptors for the Patriots have not yet been replaced'"
+        "The 'Coalition of the Willing' met virtually on Ukraine's 35th Independence Day, co-chaired by French President Macron, German Chancellor Merz, and new UK Prime Minister Andy Burnham",
+        "France announced it will send interceptor missiles to Ukraine following a deadly Russian drone strike on a shopping center in Kryvyi Rih that killed 16 people and injured 130",
+        "Civilian death toll in Ukraine in 2026 has reached its highest level since the first months of the invasion, driven by intensified Russian attacks on urban areas",
+        "German Foreign Minister Wadephul plans to urge US Secretary of State Rubio to take a more active diplomatic role, noting US involvement has been largely handled by presidential envoys Kushner and Witkoff"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Focused on rescue operations and casualty figures",
-          "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized French leadership role and Macron's missile pledge",
+          "url": "https://www.rfi.fr/en/france/20260823-saudi-crown-prince-heads-to-france-as-paris-seeks-closer-gulf-ties"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized France's military commitment to Ukraine",
-          "url": "https://www.lemonde.fr/en/summer-reads/article/2026/08/22/spanish-civil-war-how-i-found-my-republican-great-grandfather-forgotten-in-mass-graves_6756767_183.html"
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on live developments and German diplomatic frustration with US",
+          "url": "https://www.france24.com/en/europe/20260823-crans-montana-bar-owner-detained-over-alleged-domestic-abuse"
         },
         {
-          "name": "RFI",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Highlighted Macron's two-hour call with Zelensky and agreement on missile production licenses",
-          "url": "#"
+          "framing_note": "Detailed the human toll of the Kryvyi Rih attack and rescue operations",
+          "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "The Economist",
           "lean": "Center-Right",
-          "framing_note": "Broader analysis of interceptor missile shortage causing 'panic' in Ukraine and elsewhere",
+          "framing_note": "Highlighted the strategic crisis of interceptor missile shortages across allied nations",
           "url": "https://www.economist.com/international/2026/08/10/the-war-room-newsletter-do-generals-make-good-politicians"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": null,
+          "url": "https://www.ft.com/content/3e747114-ed56-488b-bd17-1763d2d57d69?syn-25a6b1a6=1"
         }
       ]
     },
     {
-      "headline": "DRC Ebola Outbreak Becomes Country's Deadliest, UN Warns Virus 'Is Winning'",
-      "category": "Society",
+      "headline": "US Launches 'Economic D-Day' Against Iran as Tehran Threatens Gulf Oil Shutdown",
+      "category": "Geopolitics",
       "bullets": [
-        "At least 2,325 people have died, surpassing the 2018-20 outbreak toll, with confirmed cases reaching 4,945",
-        "The WHO says the outbreak is on track to become the largest in history, surpassing west Africa's 2014-16 epidemic of 11,325 deaths",
-        "The rare Bundibugyo strain has no approved vaccines or treatments; one person dies approximately every 30 minutes",
-        "Six of DRC's 26 provinces are affected, with over 3,400 cases in Ituri province where the outbreak began"
+        "Treasury Secretary Bessent announced what he called 'the greatest financial offensive ever marshalled against an adversary,' targeting Iran's trade partners with sanctions rolling out Monday",
+        "Iran responded by threatening to shut down all oil exports from the Gulf if the economic pressure continues",
+        "Fewer than 20 commodity vessels transited the Strait of Hormuz over the weekend, with traffic well below normal levels amid ongoing blockades",
+        "Oil prices fell Monday as markets braced for details of the sanctions plan; the US and Iran have not engaged in meaningful peace talks despite weeks without military strikes"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Comprehensive coverage emphasizing the outbreak's record-breaking pace and lack of available treatments",
-          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
-        }
-      ]
-    },
-    {
-      "headline": "Teenage Girl Killed in Sword Attack at Swedish High School",
-      "category": "Society",
-      "bullets": [
-        "A 17-year-old girl was killed and two boys aged 12 and 17 were seriously injured at Brinell School in Fagersta, central Sweden",
-        "An 18-year-old man, reportedly a former student, was arrested; police fired shots during the response",
-        "The attack occurred on the first day students returned after summer break; the suspect was reportedly wearing a helmet",
-        "Prime Minister Ulf Kristersson and opposition leader Magdalena Andersson visited the school Saturday"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Straightforward factual reporting with official statements from police and political leaders",
-          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Chinese Humanoid Robot Breaks Usain Bolt's 100m World Record at Beijing Games",
-      "category": "Technology",
-      "bullets": [
-        "A robot named 'Tianzhuo' ran 100m in 9.39 seconds, beating Bolt's 9.58 second world record at the World Humanoid Robot Games",
-        "Over 2,000 humanoid robots are participating in the five-day event featuring 51 categories including running, table tennis, and soccer",
-        "The games highlight China's rapid robotics progress amid escalating US-China technology competition",
-        "The US recently banned imports of foreign-made humanoid robots and added Chinese robotics firm Unitree to a Pentagon restricted list"
-      ],
-      "sources": [
+          "framing_note": "Framed as escalating brinkmanship with focus on diplomatic standstill",
+          "url": "https://www.theglobeandmail.com/business/technology/science/article-world-humanoid-robot-games-beijing-china-tech/"
+        },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Detailed technical coverage placing event in context of US-China tech rivalry",
-          "url": "https://www.thehindu.com/business/transshipment-scam-or-efficient-supply-chain-how-us-firms-turn-it-into-profit/article71374582.ece"
+          "framing_note": "Emphasized shipping data and economic impacts on global oil markets",
+          "url": "https://www.thehindu.com/news/international/fewer-than-20-ships-transit-key-strait-of-hormuz-over-weekend-data-shows/article71383056.ece"
         },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief video coverage focused on the record-breaking achievement",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/chinese-robot-beats-usain-bolts-100m-world-record-at-humanoid-games?traffic_source=rss"
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Noted Iran's discovery of new gas reserves amid war-damaged energy infrastructure",
+          "url": "https://www.france24.com/en/europe/20260823-crans-montana-bar-owner-detained-over-alleged-domestic-abuse"
+        }
+      ]
+    },
+    {
+      "headline": "US-Canada Trade Talks Collapse, Triggering 50% Tariffs and Retaliatory Measures",
+      "category": "Economics",
+      "bullets": [
+        "Trade negotiations collapsed less than an hour before Friday's deadline after US Commerce Secretary Lutnick pushed for harsher terms than initially agreed",
+        "Trump imposed new 50% tariffs on a range of Canadian goods; Prime Minister Carney announced dollar-for-dollar retaliation effective September 8 on steel, dairy, appliances, and electronics",
+        "Carney declared the two countries 'at war' economically, while Trump renewed comments about making Canada the '51st state'",
+        "Canadian negotiators reported surprise language inserted into final deal text after they believed terms had been agreed on Tuesday"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of both sides' positions and Trump's annexation rhetoric",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z889l0dxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Detailed insider account of negotiation breakdown, emphasizing Lutnick's role and domestic Canadian political pressures",
+          "url": "https://www.theglobeandmail.com/business/technology/science/article-world-humanoid-robot-games-beijing-china-tech/"
+        }
+      ]
+    },
+    {
+      "headline": "Shein Launches Hong Kong IPO at $27 Billion Valuation, Down 70% From Peak",
+      "category": "Economics",
+      "bullets": [
+        "The fast-fashion giant priced its IPO to raise up to $1.77 billion, with shares to begin trading September 1",
+        "Valuation dropped sharply from the $100 billion private market peak in 2022, reflecting weaker sales growth and higher costs",
+        "The Hong Kong listing follows failed attempts to go public in the US and London due to regulatory challenges and scrutiny of the company",
+        "Goldman Sachs, Morgan Stanley, and JP Morgan are backing the offering"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provided context on company's rise and regulatory challenges",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z889l0dxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": null,
+          "url": "https://www.ft.com/content/3e747114-ed56-488b-bd17-1763d2d57d69?syn-25a6b1a6=1"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Emphasized the dramatic valuation decline from peak",
+          "url": "https://asia.nikkei.com/business/markets/ipo/shein-launches-ipo-at-valuation-of-up-to-27bn-far-below-past-figure"
+        }
+      ]
+    },
+    {
+      "headline": "DRC and M23 Rebels Agree on Peace Roadmap in Swiss-Mediated Talks",
+      "category": "Conflict",
+      "bullets": [
+        "The Democratic Republic of Congo government and M23 rebels agreed on a roadmap setting out sequenced steps and timelines for peace negotiations",
+        "Talks held in Switzerland August 17-21 were mediated by the United States, Qatar, Togo, Switzerland, and the African Union Commission",
+        "A ceasefire verification mission is set to arrive Monday in Minembwe, South Kivu\u2014the first formal inspection since the November 2025 peace deal",
+        "Both parties agreed to establish a mechanism for addressing ceasefire violations and committed to pursue comprehensive peace negotiations"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Noted this as the latest step in a 'cautious' peace process that has not ended fighting",
+          "url": "https://www.rfi.fr/en/france/20260823-saudi-crown-prince-heads-to-france-as-paris-seeks-closer-gulf-ties"
         }
       ]
     }
   ],
   "additional_stories": [
     {
+      "headline": "Landslide at waste dump in Guinea's capital Conakry kills 30 people after heavy rains",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens"
+    },
+    {
       "headline": "More than 100 dead after artisanal goldmine collapses in Central African Republic",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
     },
     {
-      "headline": "US deports first 20 people to Liberia under agreement to receive up to 1,200 migrants",
+      "headline": "French centre-left politician Rapha\u00ebl Glucksmann announces presidential candidacy to challenge Marine Le Pen",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260824-centre-left-glucksmann-enters-french-presidential-race-as-left-tries-to-unite"
+    },
+    {
+      "headline": "Saudi Crown Prince Mohammed bin Salman begins two-day official visit to France for talks on Middle East stability",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260823-saudi-crown-prince-heads-to-france-as-paris-seeks-closer-gulf-ties"
+    },
+    {
+      "headline": "US deports 20 people to Liberia as first group under agreement to send 1,200 migrants to West African nation",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
     },
     {
-      "headline": "Germany investigates Russian links to weapons cache discovered in woods near Berlin",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo"
+      "headline": "New Zealand government introduces bill to ban social media for children under 16 with major fines for non-compliance",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-new-zealand-social-media-ban-children-under-16/"
     },
     {
-      "headline": "102 former senior French and UK diplomats urge joint action against Israeli 'ethnic cleansing' in West Bank",
-      "source": "RFI / France 24",
-      "url": "https://www.rfi.fr/en/international/20260822-former-envoys-urge-joint-french-uk-action-on-palestinian-territories"
+      "headline": "Chinese humanoid robots break human records including Usain Bolt's 100m sprint at World Humanoid Robot Games in Beijing",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/business/technology/science/article-world-humanoid-robot-games-beijing-china-tech/"
     },
     {
-      "headline": "Iran's new security chief threatens neighbors against joining US economic pressure campaign",
+      "headline": "India's National Security Advisor Doval visits Beijing for boundary talks ahead of possible Xi Jinping visit",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/iran-security-chief-threatens-neighbors-against-new-us-economic-measures/article71380026.ece"
+      "url": "https://www.thehindu.com/news/international/ajit-doval-wang-yi-meeting-india-china-special-representatives-talks-august-23-2026/article71380342.ece"
     },
     {
-      "headline": "Kazakhstan holds snap parliamentary elections for new unicameral legislature",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/23/kazakhstan-parliamentary-elections-begin-whats-at-stake"
+      "headline": "Alibaba shares plunge after announcing $10.2 billion share placement to fund AI investments",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/technology/alibaba-shares-plunge-after-10bn-new-share-placement-to-fund-ai-spending"
     },
     {
-      "headline": "Israel strikes near Damascus, Syria condemns violation of international law",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo"
-    },
-    {
-      "headline": "Moscow fuel shortages worsen as Ukrainian drone strikes continue hitting Russian oil refineries",
+      "headline": "France links 14% rise in drowning deaths to prolonged heatwaves, with 301 fatalities since mid-June",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go"
-    },
-    {
-      "headline": "Magnitude 5.9 earthquake rattles Tokyo area, injuring more than 20 people",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/japan-tokyo-earthquake-several-injured-latest-update/article71380017.ece"
-    },
-    {
-      "headline": "Fontainebleau forest reopens to public after devastating July wildfires scorched 2,000 hectares",
-      "source": "France 24 / RFI",
-      "url": "https://www.france24.com/en/france/20260822-fontainebleau-forest-reopens-after-devastating-wildfire"
+      "url": "https://www.bbc.co.uk/news/articles/cqlxlp4lx9yo"
     }
   ]
 }
