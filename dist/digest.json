@@ -1,226 +1,220 @@
 {
-  "date": "Thursday, August 27, 2026",
-  "daily_brief": "The day's most significant developments center on a catastrophic glacier collapse in the Himalayas that has killed at least 360 people and left more than 1,300 missing, including hundreds of international pilgrims and tourists [BBC], [RFI], [RNZ]. Scientists say the disaster, initially mistaken for an earthquake, underscores the growing climate risks facing the rapidly warming Hindu Kush Himalaya region [BBC]. In Europe, convicted Bosnian Serb war criminal Ratko Mladi\u0107, known as the 'Butcher of Bosnia,' died aged 84 in UN detention at The Hague, where he had been serving a life sentence for genocide at Srebrenica and the siege of Sarajevo [BBC], [France 24], [Al Jazeera]. Norway's King Harald V's health has deteriorated to 'extremely serious' condition, with the royal family gathering at his bedside and crowds laying flowers at the palace [BBC], [Le Monde]. In football governance, UEFA is preparing criminal proceedings against FIFA President Gianni Infantino over his abandoned plan to sell World Cup commercial rights to private investors for what the organization calls a 'fraudulently off-market price' [BBC], [France 24], [Al Jazeera]. Meanwhile, the Pentagon is pressing NATO allies on their plans to assume greater responsibility for European defense as Washington conducts a six-month review of its force posture on the continent [The Hindu].",
+  "date": "Friday, August 28, 2026",
+  "daily_brief": "The deadliest story of the day is the Nepal-Tibet border disaster, where flash floods triggered by a glacier collapse have killed nearly 600 people and left almost 2,500 missing, with a newly formed barrier lake now threatening a second catastrophe [BBC, France 24, ABC Australia, Globe and Mail]. Norway entered a period of national mourning following the death of King Harald V at age 89, with his son Haakon VIII ascending to the throne [BBC, France 24]. In financial markets, Federal Reserve Chairman Kevin Warsh signaled openness to interest rate hikes at Jackson Hole, citing insufficient progress on inflation, which pushed the yen past 160 per dollar [Al Jazeera, Nikkei Asia, Le Monde]. The Spanish exclave of Ceuta saw violence erupt as tensions between locals and migrants escalated a month after 72,000 people crossed from Morocco [BBC]. In other developments, convicted war criminal Ratko Mladi\u0107 died in UN custody at 84 [BBC, Le Monde], a voting rights march drew thousands to Washington ahead of midterm elections [Globe and Mail], and French presidential candidates clashed in their first debate over economic policy [RFI].",
   "top_stories": [
     {
-      "headline": "Himalayan Glacier Collapse Kills at Least 360, Leaves Over 1,300 Missing Including Hundreds of Tourists",
+      "headline": "Nepal-Tibet Flash Floods Kill Nearly 600, Leave 2,500 Missing as Barrier Lake Threatens Second Disaster",
       "category": "Climate",
       "bullets": [
-        "A massive glacier collapse in Nepal near the Tibet border triggered catastrophic flooding on Wednesday, killing at least 360 people (359 in Nepal, 3 in Tibet) with more than 1,300 still missing",
-        "The US Geological Survey initially reported a magnitude 4.4 earthquake but later confirmed the seismic event was caused by the glacier collapse and debris flow, not tectonic activity",
-        "Water levels on the Trishuli River rose by up to nine meters in just 30 minutes; missing persons include at least 288 Indians, 25 Canadians, 5 New Zealanders, and pilgrims heading to sacred Mount Kailash",
-        "Scientists say rising temperatures are destabilizing glaciers, glacial lakes, and permafrost across the Hindu Kush Himalaya region, increasing risks of such disasters"
+        "A glacier collapse sent ice, rock, and debris into the Lhende Khola river on Wednesday, triggering devastating flash floods across the Nepal-Tibet border region that have killed at least 579 people in Nepal and 5 in Tibet",
+        "Nearly 2,500 people remain missing including 38 Australians, 25 Canadians, 5 New Zealanders, and 4 French nationals; 121 foreign nationals have been rescued so far",
+        "A barrier lake formed by the debris dam began overflowing Friday, forcing evacuation of rescue workers and flood survivors and threatening additional flooding downstream",
+        "Water levels on Nepal's Trishuli River rose by up to 9 meters in 30 minutes; the Red Cross estimates 93,000 people are affected and in need of aid"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on scientific analysis of glacier collapse causation and climate change implications",
-          "url": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focus on climate risks and warning systems",
+          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RFI English",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized EU aid response and international rescue coordination",
-          "url": "https://www.rfi.fr/en/france/20260827-france-to-tie-african-development-aid-to-efforts-to-limit-migration-to-mayotte"
+          "framing_note": "Emphasized French nationals missing and international rescue coordination",
+          "url": "https://www.france24.com/en/norway-mourns-king-harald-as-haakon-prepares-to-take-the-throne"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Heavy focus on missing Australians and consular response",
+          "url": "https://www.abc.net.au/news/2026-08-28/snowy-mountains-man-jailed-abuse-daughter-granddaughter/107089984"
         },
         {
           "name": "RNZ",
           "lean": "Center",
-          "framing_note": "Focused on missing New Zealanders with detailed personal stories",
-          "url": "https://www.rnz.co.nz/life/people/celebrity/emotional-tami-neilson-says-dolly-parton-s-death-hurts-so-deeply"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Indian nationals missing and MEA coordination efforts",
-          "url": "https://www.thehindu.com/news/international/russia-bombards-nine-ukrainian-cities-calling-the-strikes-massive/article71397564.ece"
+          "framing_note": "Detailed coverage of missing New Zealanders and Isha Foundation pilgrimage group",
+          "url": "https://www.rnz.co.nz/news/world/1155856/horrifying-nz-based-nepali-community-pleads-for-urgent-help"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on Mount Kailash pilgrimage context and Canadian missing persons",
-          "url": "https://www.theglobeandmail.com/world/article-nepal-tibet-floods-mount-kailash-pilgrims-missing/"
+          "framing_note": "Focused on Canadian missing persons and government response",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-loses-bid-to-erase-hush-money-conviction/"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Limited coverage behind paywall",
-          "url": "https://www.ft.com/content/a919761d-dab1-4a6e-93fe-f69910192c1c"
-        }
-      ]
-    },
-    {
-      "headline": "Ratko Mladi\u0107, 'Butcher of Bosnia' Convicted of Genocide, Dies at 84 in UN Detention",
-      "category": "Society",
-      "bullets": [
-        "Ratko Mladi\u0107, the Bosnian Serb military commander convicted of genocide, war crimes, and crimes against humanity, died Thursday at the UN detention facility in The Hague at age 84",
-        "He was serving a life sentence upheld on appeal in 2021 for orchestrating the 1995 Srebrenica massacre of 8,000 Bosniak Muslim men and boys and leading the four-year siege of Sarajevo",
-        "Mladi\u0107 evaded capture for 16 years after the Bosnian war before being found in rural Serbia in 2011; Dutch authorities have begun an investigation into the circumstances of his death",
-        "The UN court's top judge ordered a full inquiry; in May, the court had rejected Mladi\u0107's bid for release despite acknowledging his 'dire' health situation"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Comprehensive factual account with details of crimes and trial history",
-          "url": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Included extensive background piece on 'monstrous crimes'",
-          "url": "https://www.bbc.co.uk/news/articles/cgqdy8g2zlgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief video coverage",
-          "url": "https://www.france24.com/en/video/20260827-great-public-test-french-presidential-hopefuls-to-face-off-at-business-summit"
+          "framing_note": "Emphasized broader Himalayan climate risks",
+          "url": "https://www.rfi.fr/en/france/20260828-french-foreign-legion-soldier-kidnapped-in-southwestern-colombia-guerilla"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Srebrenica genocide and siege of Sarajevo in headline framing",
-          "url": "https://www.aljazeera.com/sports/2026/8/27/uefa-asks-us-court-for-fifa-documents-for-criminal-case-against-infantino?traffic_source=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article inaccessible due to technical issues",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/27/how-russia-is-trying-to-influence-europe-s-upcoming-elections_6756901_4.html"
+          "framing_note": "On-ground reporting from affected areas",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/08-28-26-barnaby-lo-wt-reported?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "UEFA Prepares Criminal Complaint Against FIFA President Infantino Over Failed World Cup Selloff",
+      "headline": "Norway's King Harald V Dies at 89; Son Haakon VIII Ascends to Throne",
       "category": "Society",
       "bullets": [
-        "UEFA is preparing criminal proceedings in Swiss courts against FIFA President Gianni Infantino for alleged 'criminal mismanagement' over his abandoned plan to sell World Cup commercial rights",
-        "The plan would have created FIFA Forward Enterprise (FFE) to sell a 20% stake in World Cup revenues to investors including Joshua Kushner's Thrive Capital for $4.2 billion",
-        "UEFA filed documents in US courts seeking discovery of evidence from Thrive Capital in New York and FIFA offices in Florida",
-        "UEFA alleges the plan was pushed through hastily with limited internal review and constituted a 'fraudulently off-market price' that would benefit Infantino's inner circle at FIFA's expense"
+        "King Harald V died peacefully at Oslo's national hospital at 06:35 local time on Friday after treatment for a rare blood condition; he was 89 and had reigned for 35 years",
+        "His son Crown Prince Haakon, 53, immediately succeeded him as King Haakon VIII and led an extraordinary cabinet meeting where he adopted his father's motto 'Everything for Norway'",
+        "A period of national mourning has been declared; crowds gathered at the royal palace to lay flowers and flags, while Oslo's mayor postponed her wedding scheduled for the same day",
+        "King Charles III sent condolences for his 'dear cousin,' and Sweden's King Carl XVI Gustaf remembered Harald as 'a good friend'"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Detailed coverage of legal filings and UEFA's accusations",
-          "url": "https://www.bbc.co.uk/news/articles/cgqdy8g2zlgo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Comprehensive coverage of Harald's legacy and Haakon's succession",
+          "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized Joshua Kushner connection and investor details",
-          "url": "https://www.france24.com/en/video/20260827-great-public-test-french-presidential-hopefuls-to-face-off-at-business-summit"
+          "framing_note": "Brief coverage focused on succession",
+          "url": "https://www.france24.com/en/norway-mourns-king-harald-as-haakon-prepares-to-take-the-throne"
         },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Focused on US court filings and potential action against other FIFA officials",
-          "url": "https://www.aljazeera.com/sports/2026/8/27/uefa-asks-us-court-for-fifa-documents-for-criminal-case-against-infantino?traffic_source=rss"
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Additional coverage of Oslo mayor canceling wedding",
+          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Norway's King Harald V in 'Extremely Serious' Condition as Royal Family Gathers",
-      "category": "Society",
+      "headline": "Fed Chair Warsh Signals Openness to Rate Hikes, Yen Falls Past 160 Per Dollar",
+      "category": "Economics",
       "bullets": [
-        "Norway's royal household announced that 89-year-old King Harald V's condition has become 'extremely serious' after 10 days of hospitalization for haemolytic anaemia",
-        "Queen Sonja, Crown Prince Haakon, and other family members cancelled engagements to gather at his bedside at Oslo University Hospital",
-        "Norwegians laid flowers at the palace in Oslo as the nation's public TV scrapped regular programming to cover the developing situation",
-        "Crown Prince Haakon, 53, has been serving as regent during his father's illness; Harald has been Europe's oldest reigning head of state since ascending the throne in 1991"
+        "Federal Reserve Chairman Kevin Warsh said at Jackson Hole that financial conditions do not appear restrictive enough and the Fed will 'have work to do' if underlying inflation is not clearly returning to 2 percent",
+        "Warsh stressed policymakers must be confident inflation is moving toward target 'at sufficient speed,' the closest he has come to acknowledging rate hikes may be needed",
+        "The yen weakened past 160 per dollar for the first time since US-Japan coordinated currency intervention in late July, as Treasury yields rose on expectations of Fed tightening",
+        "CME FedWatch indicates increasing probability of a rate hike, though Warsh did not provide a timeline or forward guidance"
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of family movements and public reaction",
-          "url": "https://www.bbc.co.uk/news/articles/cew92l07kwzo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized impact on global markets and rate hike probability",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/08-28-26-barnaby-lo-wt-reported?traffic_source=rss"
         },
         {
-          "name": "BBC Europe",
+          "name": "Nikkei Asia",
           "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cgqdy8g2zlgo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on yen weakness and implications for Japan",
+          "url": "https://asia.nikkei.com/business/markets/currencies/yen-falls-past-160-per-dollar-for-first-time-since-joint-intervention"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article inaccessible due to technical issues",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/27/how-russia-is-trying-to-influence-europe-s-upcoming-elections_6756901_4.html"
+          "framing_note": "Article referenced but content not fully accessible",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/28/south-korea-says-will-hold-joint-military-drills-with-us-and-japan_6756931_4.html"
         }
       ]
     },
     {
-      "headline": "Pentagon Presses NATO Allies on Plans to Assume Primary European Defense Responsibility",
+      "headline": "Violence Erupts in Ceuta as Migrant Crisis Enters Second Month",
+      "category": "Conflict",
+      "bullets": [
+        "Anti-migrant demonstrations in the Spanish exclave turned violent, with locals setting fire to migrant camps on Trampol\u00edn beach and clashing with police",
+        "Protesters prevented Red Cross personnel from distributing food and water to migrants; 12 migrants were arrested for allegedly throwing stones at a military vehicle and injuring four soldiers",
+        "At least 72,000 migrants crossed from Morocco into Ceuta on July 30-31, with at least 100 dying during the mass crossing; several thousand remain, many of them children sleeping rough",
+        "The Spanish government faces criticism from opposition parties for ineffective crisis management; residents report feeling unsafe and concerned about strain on public services"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of both local residents' concerns and humanitarian situation",
+          "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC Europe",
+          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Convicted War Criminal Ratko Mladi\u0107 Dies at 84 in UN Detention",
       "category": "Geopolitics",
       "bullets": [
-        "US Defence Under Secretary Elbridge Colby visited NATO headquarters in Brussels to press allies on their progress toward taking 'primary responsibility' for European conventional defense",
-        "Washington has sent questionnaires to European countries asking them to demonstrate how they are increasing military budgets and capabilities",
-        "The Trump administration launched a six-month review in July of US force deployments in Europe, raising fears among allies of potential troop reductions",
-        "Colby said the US aims to 'advance and accelerate' European defense responsibility while reviewing 'strategic posture' of US forces on the continent"
+        "Ratko Mladi\u0107, known as the 'Butcher of Bosnia,' died Thursday at the UN detention facility hospital in The Hague where he was receiving palliative care; he was 84",
+        "Mladi\u0107 was serving a life sentence after being convicted in 2017 of genocide, war crimes, and crimes against humanity during the 1992-95 wars in former Yugoslavia; his sentence was upheld on appeal in 2021",
+        "Dutch authorities have begun an investigation and the UN court's top judge ordered a full inquiry into the circumstances of his death",
+        "Serbia is planning to give the former Bosnian Serb military commander full state honors, according to Le Monde"
       ],
       "sources": [
         {
-          "name": "The Hindu",
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Factual account of death and legal history",
+          "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Noted European concerns about US force review and referenced restrictions on US bases during 'war with Iran'",
-          "url": "https://www.thehindu.com/news/international/russia-bombards-nine-ukrainian-cities-calling-the-strikes-massive/article71397564.ece"
+          "framing_note": "Highlighted Serbia's plan for state honors, suggesting controversy over his legacy",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/28/south-korea-says-will-hold-joint-military-drills-with-us-and-japan_6756931_4.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Protests continue in Pakistan-administered Kashmir despite government repression and internet blackout since June",
+      "headline": "Thousands march in Washington for voting rights and racial justice ahead of midterm elections, following Supreme Court decision weakening Voting Rights Act",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-washington-march-voting-rights-midterm-elections/"
+    },
+    {
+      "headline": "French presidential candidates clash over economy, debt, and EU in first debate ahead of 2027 election",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260828-french-presidential-hopefuls-clash-over-economy-and-eu-in-first-debate"
+    },
+    {
+      "headline": "Macron to meet new UK Prime Minister Andy Burnham in London and unveil Bayeux Tapestry exhibition at British Museum",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260828-macron-to-meet-new-uk-pm-burnham-against-backdrop-of-bayeux-tapestry"
+    },
+    {
+      "headline": "Syria's Kurds face uncertain future after SDF dissolution and military integration into Syrian state",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260828-words-and-promises-are-not-enough-as-syria-s-kurds-face-uncertain-future"
+    },
+    {
+      "headline": "Israel conducts rare West Bank air strike in Jenin area, killing three militants described as Hamas and Islamic Jihad operatives",
       "source": "France 24",
-      "url": "https://www.france24.com/en/asia-pacific/20260827-pakistan-protests-continue-in-azad-kashmir-despite-repression-and-internet-blackout"
+      "url": "https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists"
     },
     {
-      "headline": "Russia conducts 'massive' overnight missile and drone strikes on nine Ukrainian cities, killing at least two civilians",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/russia-bombards-nine-ukrainian-cities-calling-the-strikes-massive/article71397564.ece"
+      "headline": "Trump signs executive order to rename Lake Ontario as Lake America amid trade negotiations with Canada",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/article-donald-trump-signs-executive-order-rename-lake-ontario-lake-america/"
     },
     {
-      "headline": "US Board of Peace Gaza envoy warns ceasefire collapse would be 'point of no return' as over 1,300 Palestinians killed since October truce began",
+      "headline": "Federal judge rejects Trump's third attempt to move hush money conviction to federal court and have it dismissed",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-loses-bid-to-erase-hush-money-conviction/"
+    },
+    {
+      "headline": "Thieves steal 673-diamond necklace worth over $4 million from Vienna museum in broad daylight smash-and-grab",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cew92l07kwzo"
+      "url": "https://www.bbc.co.uk/news/articles/cqxvwpe0plro"
     },
     {
-      "headline": "France to condition development aid to seven African countries on cooperation limiting migration to Mayotte",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260827-france-to-tie-african-development-aid-to-efforts-to-limit-migration-to-mayotte"
-    },
-    {
-      "headline": "US designates UK-based Palestine Action and two other groups as 'terrorist' organizations in campaign against left-wing movements",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/us-designates-uk-based-palestine-action-as-foreign-terrorist-group/article71397639.ece"
-    },
-    {
-      "headline": "Taliban's new police law bans all protests in Afghanistan, drawing condemnation from Human Rights Watch and Amnesty International",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/hrw-slams-ruthless-taliban-government-as-new-law-bans-protest/article71397637.ece"
-    },
-    {
-      "headline": "Two killed in violent incident at school near Berlin; 19-year-old suspect arrested",
+      "headline": "Drug gang shootings surge in Brussels with over 65 incidents in 2026, turning residential areas into crime scenes",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cgqdy8g2zlgo"
+      "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko"
     },
     {
-      "headline": "Haiti gang attack kills at least 47 in Kenscoff, with families pleading for release of more than 20 hostages",
+      "headline": "French Foreign Legion soldier kidnapped by Colombian guerrilla faction while on leave in Narino region",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260827-haiti-families-plead-for-release-of-hostages-after-deadly-gang-attack"
-    },
-    {
-      "headline": "Japanese banks regain access to Anthropic's Claude Mythos AI model after US government lifted overseas suspension",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-top-banks-regain-access-to-anthropic-s-mythos-ai-after-us-freeze"
-    },
-    {
-      "headline": "Canada removes US fish and seafood from counter-tariffs list",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/economy/article/2026/08/27/canada-removes-us-fish-seafood-from-counter-tariffs-list_6756906_19.html"
+      "url": "https://www.rfi.fr/en/france/20260828-french-foreign-legion-soldier-kidnapped-in-southwestern-colombia-guerilla"
     }
   ]
 }
