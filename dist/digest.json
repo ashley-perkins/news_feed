@@ -1,220 +1,221 @@
 {
-  "date": "Friday, August 28, 2026",
-  "daily_brief": "The deadliest story of the day is the Nepal-Tibet border disaster, where flash floods triggered by a glacier collapse have killed nearly 600 people and left almost 2,500 missing, with a newly formed barrier lake now threatening a second catastrophe [BBC, France 24, ABC Australia, Globe and Mail]. Norway entered a period of national mourning following the death of King Harald V at age 89, with his son Haakon VIII ascending to the throne [BBC, France 24]. In financial markets, Federal Reserve Chairman Kevin Warsh signaled openness to interest rate hikes at Jackson Hole, citing insufficient progress on inflation, which pushed the yen past 160 per dollar [Al Jazeera, Nikkei Asia, Le Monde]. The Spanish exclave of Ceuta saw violence erupt as tensions between locals and migrants escalated a month after 72,000 people crossed from Morocco [BBC]. In other developments, convicted war criminal Ratko Mladi\u0107 died in UN custody at 84 [BBC, Le Monde], a voting rights march drew thousands to Washington ahead of midterm elections [Globe and Mail], and French presidential candidates clashed in their first debate over economic policy [RFI].",
+  "date": "Sunday, August 30, 2026",
+  "daily_brief": "Iceland voted against reopening EU accession talks in a referendum, with 52.8% opposing the measure [France 24], [BBC], [RFI], dealing a setback to Brussels at a time when Arctic security concerns had made the Nordic country's potential membership strategically attractive. In Nepal, the death toll from catastrophic flash floods along the China-Tibet border rose to at least 750, with over 3,000 people still missing, including foreign nationals from multiple countries [Al Jazeera], [The Hindu], [Globe and Mail]. Rescue operations continue as authorities warn of further flooding. Niger's military junta announced it had regained control after mutinying soldiers attacked key sites in Niamey, including the presidential palace and a strategic airbase housing Russian and Italian forces [RFI], [The Hindu], [Le Monde]. A Russian drone strike on a weapons depot near Kyiv killed at least 37 people, including 34 residents of a care home for the elderly, prompting President Zelensky to order an investigation into what he called 'terrible negligence' in storing munitions near civilians [BBC], [Globe and Mail]. The humanitarian crisis in Sudan's El Obeid continues to worsen as displaced civilians flee ongoing fighting between the SAF and RSF [The Guardian].",
   "top_stories": [
     {
-      "headline": "Nepal-Tibet Flash Floods Kill Nearly 600, Leave 2,500 Missing as Barrier Lake Threatens Second Disaster",
-      "category": "Climate",
+      "headline": "Iceland Rejects Reopening EU Membership Talks in Referendum",
+      "category": "Geopolitics",
       "bullets": [
-        "A glacier collapse sent ice, rock, and debris into the Lhende Khola river on Wednesday, triggering devastating flash floods across the Nepal-Tibet border region that have killed at least 579 people in Nepal and 5 in Tibet",
-        "Nearly 2,500 people remain missing including 38 Australians, 25 Canadians, 5 New Zealanders, and 4 French nationals; 121 foreign nationals have been rescued so far",
-        "A barrier lake formed by the debris dam began overflowing Friday, forcing evacuation of rescue workers and flood survivors and threatening additional flooding downstream",
-        "Water levels on Nepal's Trishuli River rose by up to 9 meters in 30 minutes; the Red Cross estimates 93,000 people are affected and in need of aid"
+        "Voters rejected the proposal 52.8% to 47.2%, with approximately 12,600 votes separating the two sides and turnout reaching 82.5%",
+        "The capital Reykjavik was the only area to support reopening talks; fishing rights concerns dominated the debate",
+        "Prime Minister Kristrun Frostadottir's government had framed the vote as a 'now or never' moment amid international tensions including US threats over Greenland",
+        "Iceland applied to join the EU in 2009 but talks were suspended in 2013; the country is already part of the EU single market and Schengen zone"
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focus on climate risks and warning systems",
-          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized French nationals missing and international rescue coordination",
-          "url": "https://www.france24.com/en/norway-mourns-king-harald-as-haakon-prepares-to-take-the-throne"
+          "framing_note": "Emphasized disappointment for Brussels and strategic implications for EU enlargement",
+          "url": "https://www.france24.com/en/video/20260830-harry-potter-versailles-turns-into-wizarding-school-for-a-day"
         },
         {
-          "name": "ABC Australia",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Heavy focus on missing Australians and consular response",
-          "url": "https://www.abc.net.au/news/2026-08-28/snowy-mountains-man-jailed-abuse-daughter-granddaughter/107089984"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Detailed coverage of missing New Zealanders and Isha Foundation pilgrimage group",
-          "url": "https://www.rnz.co.nz/news/world/1155856/horrifying-nz-based-nepali-community-pleads-for-urgent-help"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on Canadian missing persons and government response",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-loses-bid-to-erase-hush-money-conviction/"
+          "framing_note": "Focused on fishing industry concerns and domestic political context",
+          "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized broader Himalayan climate risks",
-          "url": "https://www.rfi.fr/en/france/20260828-french-foreign-legion-soldier-kidnapped-in-southwestern-colombia-guerilla"
+          "framing_note": "Highlighted the blow to Brussels and noted EU's willingness to compromise",
+          "url": "https://www.rfi.fr/en/international/20260830-killing-of-palestinian-children-and-teens-by-israel-surges-in-west-bank"
         },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "On-ground reporting from affected areas",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/08-28-26-barnaby-lo-wt-reported?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Norway's King Harald V Dies at 89; Son Haakon VIII Ascends to Throne",
-      "category": "Society",
-      "bullets": [
-        "King Harald V died peacefully at Oslo's national hospital at 06:35 local time on Friday after treatment for a rare blood condition; he was 89 and had reigned for 35 years",
-        "His son Crown Prince Haakon, 53, immediately succeeded him as King Haakon VIII and led an extraordinary cabinet meeting where he adopted his father's motto 'Everything for Norway'",
-        "A period of national mourning has been declared; crowds gathered at the royal palace to lay flowers and flags, while Oslo's mayor postponed her wedding scheduled for the same day",
-        "King Charles III sent condolences for his 'dear cousin,' and Sweden's King Carl XVI Gustaf remembered Harald as 'a good friend'"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage of Harald's legacy and Haakon's succession",
-          "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief coverage focused on succession",
-          "url": "https://www.france24.com/en/norway-mourns-king-harald-as-haakon-prepares-to-take-the-throne"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Additional coverage of Oslo mayor canceling wedding",
-          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Fed Chair Warsh Signals Openness to Rate Hikes, Yen Falls Past 160 Per Dollar",
-      "category": "Economics",
-      "bullets": [
-        "Federal Reserve Chairman Kevin Warsh said at Jackson Hole that financial conditions do not appear restrictive enough and the Fed will 'have work to do' if underlying inflation is not clearly returning to 2 percent",
-        "Warsh stressed policymakers must be confident inflation is moving toward target 'at sufficient speed,' the closest he has come to acknowledging rate hikes may be needed",
-        "The yen weakened past 160 per dollar for the first time since US-Japan coordinated currency intervention in late July, as Treasury yields rose on expectations of Fed tightening",
-        "CME FedWatch indicates increasing probability of a rate hike, though Warsh did not provide a timeline or forward guidance"
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized impact on global markets and rate hike probability",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/08-28-26-barnaby-lo-wt-reported?traffic_source=rss"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focused on yen weakness and implications for Japan",
-          "url": "https://asia.nikkei.com/business/markets/currencies/yen-falls-past-160-per-dollar-for-first-time-since-joint-intervention"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Article behind paywall; headline only",
+          "url": "https://www.ft.com/content/43718673-5c3f-46cc-a459-b0334e80aeb2?syn-25a6b1a6=1"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article referenced but content not fully accessible",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/28/south-korea-says-will-hold-joint-military-drills-with-us-and-japan_6756931_4.html"
+          "framing_note": "Content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/30/niger-junta-says-it-is-back-in-control-after-attempted-coup_6756980_4.html"
         }
       ]
     },
     {
-      "headline": "Violence Erupts in Ceuta as Migrant Crisis Enters Second Month",
+      "headline": "Nepal Flash Flood Death Toll Exceeds 750 as Thousands Remain Missing",
+      "category": "Climate",
+      "bullets": [
+        "Combined death toll in Nepal and China's Tibet region reached at least 750, with over 3,000 people still missing including nearly 600 foreigners",
+        "Nepal issued fresh flood alerts Sunday after Chinese authorities warned of increased water flow upstream in the Bhotekoshi River",
+        "Save the Children has reunited 69 children with families; Nepal appealed for international assistance including heavy-lift drones and DNA testing kits",
+        "The disaster originated from a massive rock and ice collapse in the Tibet Autonomous Region that generated an unexpectedly large volume of water"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized climate change warnings from Nepal's Foreign Minister and UN climate chief",
+          "url": "https://www.aljazeera.com/news/2026/8/30/israel-says-netanyahus-son-urgently-evacuated-from-the-us-after-threat?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided detailed casualty figures and noted 933 hydropower workers among missing",
+          "url": "https://www.thehindu.com/news/international/switzerland-aarauer-rave-party-shooting-victims-police-operation/article71407132.ece"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on Canadian citizens affected and rescue operations",
+          "url": "https://www.theglobeandmail.com/world/article-russian-strike-on-kyiv-warehouse-triggers-explosion-killing-37-as/"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Highlighted scientific questions about water volume and family reunification efforts",
+          "url": "https://www.rnz.co.nz/news/world/1169676/kiwi-scientists-trying-to-fathom-why-nepal-flash-floods-generated-so-much-water"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Article behind paywall",
+          "url": "https://www.ft.com/content/43718673-5c3f-46cc-a459-b0334e80aeb2?syn-25a6b1a6=1"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Noted China's information restrictions and limited footage from Tibet",
+          "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Niger Junta Claims Control After Mutinous Soldiers Attack Presidential Palace and Airbase",
       "category": "Conflict",
       "bullets": [
-        "Anti-migrant demonstrations in the Spanish exclave turned violent, with locals setting fire to migrant camps on Trampol\u00edn beach and clashing with police",
-        "Protesters prevented Red Cross personnel from distributing food and water to migrants; 12 migrants were arrested for allegedly throwing stones at a military vehicle and injuring four soldiers",
-        "At least 72,000 migrants crossed from Morocco into Ceuta on July 30-31, with at least 100 dying during the mass crossing; several thousand remain, many of them children sleeping rough",
-        "The Spanish government faces criticism from opposition parties for ineffective crisis management; residents report feeling unsafe and concerned about strain on public services"
+        "Mutinying soldiers attacked the presidential palace, national television, and a key military airbase in Niamey on Saturday before being repelled",
+        "The airbase houses a counter-terrorism unit of the Alliance of Sahel States as well as Russian Africa Corps and Italian forces",
+        "Russia's ambassador confirmed Africa Corps received a request to help neutralize the mutineers",
+        "Niger state media reported 'hundreds of disaffected soldiers' were involved in fighting that lasted several hours"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Balanced coverage of both local residents' concerns and humanitarian situation",
-          "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Provided detailed timeline and noted Russian involvement",
+          "url": "https://www.rfi.fr/en/international/20260830-killing-of-palestinian-children-and-teens-by-israel-surges-in-west-bank"
         },
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Same coverage as BBC Europe",
-          "url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Convicted War Criminal Ratko Mladi\u0107 Dies at 84 in UN Detention",
-      "category": "Geopolitics",
-      "bullets": [
-        "Ratko Mladi\u0107, known as the 'Butcher of Bosnia,' died Thursday at the UN detention facility hospital in The Hague where he was receiving palliative care; he was 84",
-        "Mladi\u0107 was serving a life sentence after being convicted in 2017 of genocide, war crimes, and crimes against humanity during the 1992-95 wars in former Yugoslavia; his sentence was upheld on appeal in 2021",
-        "Dutch authorities have begun an investigation and the UN court's top judge ordered a full inquiry into the circumstances of his death",
-        "Serbia is planning to give the former Bosnian Serb military commander full state honors, according to Le Monde"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Factual account of death and legal history",
-          "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko?at_medium=RSS&at_campaign=rss"
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized battlefield losses against jihadists and previous attacks on the airbase",
+          "url": "https://www.thehindu.com/news/international/switzerland-aarauer-rave-party-shooting-victims-police-operation/article71407132.ece"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Highlighted Serbia's plan for state honors, suggesting controversy over his legacy",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/28/south-korea-says-will-hold-joint-military-drills-with-us-and-japan_6756931_4.html"
+          "framing_note": "Content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/30/niger-junta-says-it-is-back-in-control-after-attempted-coup_6756980_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Russian Drone Strike on Kyiv-Area Weapons Depot Kills 37, Sparks Investigation",
+      "category": "Conflict",
+      "bullets": [
+        "A Russian drone struck a warehouse storing shells, mines and ammunition in Myla village, Bucha district, late Friday night",
+        "Explosions and fires killed 37 people including 34 residents of a care home for elderly and disabled people; over 370 evacuated",
+        "President Zelensky said the storage site 'definitely shouldn't have been there' and ordered investigation into 'terrible negligence'",
+        "Russia's Defense Ministry confirmed targeting the ammunition depot, saying it held components for long-range drones"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced coverage noting both Ukrainian official criticism and Russian military statement",
+          "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized this was the war's deadliest attack this year and part of sustained Russian strikes on Kyiv",
+          "url": "https://www.theglobeandmail.com/world/article-russian-strike-on-kyiv-warehouse-triggers-explosion-killing-37-as/"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/30/niger-junta-says-it-is-back-in-control-after-attempted-coup_6756980_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Humanitarian Crisis Deepens in Sudan's El Obeid as Displaced Civilians Flood City",
+      "category": "Conflict",
+      "bullets": [
+        "Over 15,000 families have arrived since mid-July, joining more than 200,000 displaced people who came in the first half of the year",
+        "New arrivals fled fighting between the Sudanese Armed Forces and Rapid Support Forces militia, arriving on foot with almost nothing",
+        "Satellite analysis showed 800 new tents appeared in one camp between August 4-25",
+        "The city, which had a pre-war population of about 500,000, is described as 'shockingly overcrowded' by humanitarian volunteers"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Detailed ground-level reporting with testimony from humanitarian workers and volunteers",
+          "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Thousands march in Washington for voting rights and racial justice ahead of midterm elections, following Supreme Court decision weakening Voting Rights Act",
+      "headline": "Swiss police launch manhunt after shooting at Aarau rave kills 22-year-old woman and injures five others",
+      "source": "BBC World, The Hindu",
+      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go"
+    },
+    {
+      "headline": "Guinea-Bissau holds referendum on constitutional changes that would give president power to appoint and dismiss prime minister",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260830-guinea-bissau-votes-in-referendum-on-giving-president-more-powers"
+    },
+    {
+      "headline": "US-Venezuela energy deal will last 25 years and target 1.5 million barrels per day production, says interim President Rodr\u00edguez",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-washington-march-voting-rights-midterm-elections/"
+      "url": "https://www.theglobeandmail.com/world/article-us-venezuela-energy-deal-will-last-25-years-says-interim-president/"
     },
     {
-      "headline": "French presidential candidates clash over economy, debt, and EU in first debate ahead of 2027 election",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260828-french-presidential-hopefuls-clash-over-economy-and-eu-in-first-debate"
+      "headline": "Israel's Shin Bet says Netanyahu's son Yair was 'urgently evacuated' from US after threat to his life",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/30/israel-says-netanyahus-son-urgently-evacuated-from-the-us-after-threat"
     },
     {
-      "headline": "Macron to meet new UK Prime Minister Andy Burnham in London and unveil Bayeux Tapestry exhibition at British Museum",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260828-macron-to-meet-new-uk-pm-burnham-against-backdrop-of-bayeux-tapestry"
+      "headline": "Meta's $18 billion US settlement over addictive products raises questions about pending international lawsuits",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact"
     },
     {
-      "headline": "Syria's Kurds face uncertain future after SDF dissolution and military integration into Syrian state",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260828-words-and-promises-are-not-enough-as-syria-s-kurds-face-uncertain-future"
+      "headline": "India emerges as key petrol supplier to Russia as Ukrainian drone attacks disrupt Russian refinery production",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/india-emerges-as-key-petrol-supplier-to-russia-as-refinery-attacks-disrupt-fuel-supplies/article71407088.ece"
     },
     {
-      "headline": "Israel conducts rare West Bank air strike in Jenin area, killing three militants described as Hamas and Islamic Jihad operatives",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists"
+      "headline": "Two Thai nationals arrested in South Africa for allegedly attempting to smuggle hundreds of endangered parrot eggs",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs"
     },
     {
-      "headline": "Trump signs executive order to rename Lake Ontario as Lake America amid trade negotiations with Canada",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/article-donald-trump-signs-executive-order-rename-lake-ontario-lake-america/"
+      "headline": "Roger Federer inducted into International Tennis Hall of Fame in emotional ceremony in Newport",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/30/tearful-roger-federer-inducted-into-tennis-hall-of-fame"
     },
     {
-      "headline": "Federal judge rejects Trump's third attempt to move hush money conviction to federal court and have it dismissed",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-loses-bid-to-erase-hush-money-conviction/"
-    },
-    {
-      "headline": "Thieves steal 673-diamond necklace worth over $4 million from Vienna museum in broad daylight smash-and-grab",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqxvwpe0plro"
-    },
-    {
-      "headline": "Drug gang shootings surge in Brussels with over 65 incidents in 2026, turning residential areas into crime scenes",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c9w4r7e7z4ko"
-    },
-    {
-      "headline": "French Foreign Legion soldier kidnapped by Colombian guerrilla faction while on leave in Narino region",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260828-french-foreign-legion-soldier-kidnapped-in-southwestern-colombia-guerilla"
+      "headline": "Google formally enters Pakistan with first country office, aiming to support $30 billion IT export target",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/technology/google-s-formal-pakistan-entry-sparks-debate-over-us-giant-s-motives"
     }
   ]
 }
