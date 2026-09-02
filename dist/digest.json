@@ -1,202 +1,232 @@
 {
-  "date": "Tuesday, September 01, 2026",
-  "daily_brief": "The Nepal-Tibet flood disaster dominates international headlines as the death toll surpasses 1,000 with over 4,400 people still missing, including hundreds of workers believed trapped in hydropower tunnels [BBC World, ABC Australia, Globe and Mail]. Rescue teams from Nepal, China, India, and other nations are racing against time to reach survivors, with one Australian found alive after six days [ABC Australia]. Meanwhile, Russia escalated its aerial bombardment of Ukraine overnight, killing at least 12 people in Kyiv and surrounding regions, including an Indian national, as EU defence ministers convene in Ireland to discuss bolstering Ukraine's air defences amid interceptor missile shortages [BBC Europe, Al Jazeera, RFI English, The Hindu]. In a landmark verdict, a Las Vegas jury found former gang leader Duane 'Keffe D' Davis guilty of orchestrating the 1996 murder of rapper Tupac Shakur, closing one of America's most infamous cold cases after nearly 30 years [BBC World, RNZ, Globe and Mail]. Iceland narrowly rejected resuming EU membership talks in a referendum, with 52.8% voting against despite security concerns raised by the government [BBC Europe]. In other developments, the Metropolitan Museum of Art cancelled its planned 2027 Met Gala honouring designer John Galliano following outcry over his 2011 antisemitic remarks [RNZ].",
+  "date": "Wednesday, September 02, 2026",
+  "daily_brief": "The most consequential developments today center on escalating military conflicts across two theaters. The U.S.-Iran war has intensified dramatically after a month-long lull, with American strikes hitting Iranian coastal targets and allegedly killing civilians at a wedding, prompting Iranian retaliation against Kuwait, Bahrain, and Jordan [Globe and Mail, Al Jazeera, Financial Times]. Oil prices have surged to nearly $96 per barrel, raising inflation fears globally. In Europe, Germany has formally attributed last month's drone attack on Leipzig airport to Russia and announced the closure of the Russian consulate in Bonn, with the EU summoning Moscow's envoy and considering new sanctions [BBC, Le Monde]. Meanwhile, Ukraine's President Zelensky warned airlines to avoid Russian airspace as Kyiv escalates drone operations targeting Russian territory, with Putin calling the statement 'state terrorism' [BBC, Financial Times, France 24]. In Nepal, hope fades for nearly 4,000 missing as the death toll from catastrophic glacial floods surpasses 1,100, with the UN estimating 2.2 million tonnes of debris [RFI, Al Jazeera, Globe and Mail]. Hong Kong activist Joshua Wong pleaded guilty to foreign collusion charges in a second national security case that could extend his imprisonment significantly [Globe and Mail, Nikkei Asia, France 24].",
   "top_stories": [
     {
-      "headline": "Nepal-Tibet Flood Death Toll Exceeds 1,000 as Rescuers Race to Reach Trapped Tunnel Workers",
-      "category": "Climate",
+      "headline": "U.S.-Iran War Escalates: American Strikes Hit Iranian Coast, Tehran Retaliates Against Gulf States",
+      "category": "Conflict",
       "bullets": [
-        "Death toll in Nepal alone reaches 987, with at least 16 confirmed deaths on the Chinese side; over 4,400 people remain missing across both countries",
-        "More than 600 workers are believed trapped in mud-filled tunnels at hydropower sites along Nepal's Trishuli River, with rescue teams pumping air into tunnels",
-        "International rescue teams from China, India, South Korea, and Australia are assisting Nepalese authorities despite challenging terrain and damaged infrastructure",
-        "One of 43 missing Australians was found alive in Tibet after six days; 42 Australians and 583 total foreign nationals remain unaccounted for"
+        "U.S. Central Command struck dozens of military targets along Iran's southern coast, with Iran claiming a wedding party was hit near Kuhestak, killing at least four civilians including a child",
+        "Iran retaliated by firing ballistic missiles and drones at Kuwait, Bahrain, Jordan, and Iraq's Kurdish region; Bahrain intercepted incoming fire, while a drone sparked a blaze in Kuwait City",
+        "Oil prices surged to nearly $96 per barrel, up from under $90 last week, with European gas reaching a three-year high and bond markets reacting to inflation fears",
+        "President Trump warned Iran would be 'totally wiped out' if it continues to retaliate, while the renewed fighting ends more than a month of relative calm in the conflict"
       ],
       "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on human stories and rescue operations, detailed reporting on tunnel rescue efforts",
-          "url": "https://www.bbc.co.uk/news/articles/c2dw3wn972no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Emphasized Australian missing persons and families' experiences; detailed personal narratives",
-          "url": "https://www.abc.net.au/news/2026-09-01/ed-husic-reveals-extent-of-injuries-after-car-crash/107104624"
-        },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Straightforward factual reporting on rescue operations and death toll",
-          "url": "https://www.theglobeandmail.com/world/article-grand-canyon-flood-two-people-dead-one-missing/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Indian rescue team contributions and detailed coordination with Nepalese forces",
-          "url": "https://www.thehindu.com/sci-tech/technology/apple-ceo-john-ternus-salary-age-tim-cook-personal-life-apple-new-ceo-steve-jobs-education-engineer-btech-artificial-intelligence-ai/article70887046.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Missile and Drone Barrage Kills 12 in Kyiv Region as EU Ministers Meet on Air Defence",
-      "category": "Conflict",
-      "bullets": [
-        "At least 12 people killed and over 20 injured in overnight attacks on Kyiv and surrounding areas, including six railway workers at a depot",
-        "An Indian citizen was among those killed; residential buildings in Boryspil suburb damaged with 50 people evacuated",
-        "Russia described the strikes as targeting military and energy facilities; Ukraine's Zelenskyy condemned 'Russian terror' and called for stronger air defences",
-        "EU defence ministers convening in Ireland to discuss Ukraine's air defence shortages amid concerns over depleted interceptor missile stockpiles"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Included context of Modi's peace appeal to Putin the previous day",
-          "url": "https://www.bbc.co.uk/news/articles/cly5v8qmy64o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized economic and political consequences for Trump ahead of midterms",
+          "url": "https://www.theglobeandmail.com/business/article-donald-trump-asks-apple-to-change-name-of-lake-ontario-to-lake-america/"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Emphasized civilian casualties and connected story to EU defence discussions",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/heavy-monsoon-rains-submerge-islamabad-roads-and-underground?traffic_source=rss"
+          "framing_note": "Led with civilian casualties and Iranian perspective on 'brutal crime'",
+          "url": "https://www.aljazeera.com/news/2026/9/2/ed-markey-wins-key-takeaways-from-massachusetts-primary-election-results?traffic_source=rss"
         },
         {
-          "name": "RFI English",
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on energy price impacts and market reactions",
+          "url": "https://www.ft.com/content/69671716-02bb-496c-88ad-10befe4a9d63?syn-25a6b1a6=1"
+        },
+        {
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on EU ministerial response and European concerns about destabilisation",
-          "url": "https://www.rfi.fr/en/africa/20260831-ten-years-after-gabon-s-post-election-violence-painful-questions-remain-bongo-ping"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Led with death of Indian citizen; provided detailed breakdown of affected regions",
-          "url": "https://www.thehindu.com/sci-tech/technology/apple-ceo-john-ternus-salary-age-tim-cook-personal-life-apple-new-ceo-steve-jobs-education-engineer-btech-artificial-intelligence-ai/article70887046.ece"
+          "framing_note": "Highlighted Iranian vow of 'severe' consequences",
+          "url": "https://www.france24.com/en/video/20260902-iran-strikes-back-against-latest-us-attacks-vowing-severe-consequences"
         }
       ]
     },
     {
-      "headline": "Former Gang Leader Found Guilty of Orchestrating Tupac Shakur's 1996 Murder",
-      "category": "Society",
-      "bullets": [
-        "Las Vegas jury convicted Duane 'Keffe D' Davis, 63, of first-degree murder with a deadly weapon after nearly three hours of deliberation",
-        "Davis was accused of ordering the drive-by shooting and supplying the gun used by his nephew Orlando Anderson, who died in 1998",
-        "Prosecution relied heavily on Davis's own media appearances and memoir, plus recorded police interviews where he admitted being in the car",
-        "Davis faces potential life imprisonment without parole; he announced plans to appeal the verdict"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage including courtroom details and historical context",
-          "url": "https://www.bbc.co.uk/news/articles/c2dw3wn972no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Straightforward wire-style reporting on verdict and sentencing",
-          "url": "https://www.rnz.co.nz/life/lifestyle/style/the-john-galliano-2027-met-gala-has-been-canceled"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Brief video summary focusing on evidence that led to conviction",
-          "url": "https://www.theglobeandmail.com/world/article-grand-canyon-flood-two-people-dead-one-missing/"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article referenced but content unavailable due to technical issues",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/01/woman-stabs-2-people-in-new-york-city-s-times-square-killing-1-then-is-killed-by-police_6757036_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Iceland Rejects Resuming EU Membership Talks in Close Referendum",
+      "headline": "Germany Attributes Leipzig Airport Drone Attack to Russia, Closes Consulate and Expels Diplomats",
       "category": "Geopolitics",
       "bullets": [
-        "52.8% of voters rejected the government's proposal to restart EU accession talks, with approximately 12,600 votes separating the two sides",
-        "Turnout was 82.5%, the highest in any Icelandic election since 2009, with over 225,000 people casting ballots",
-        "Prime Minister Kristr\u00fan Frostad\u00f3ttir's government had advanced the referendum citing international tensions, including Trump's threats against Greenland",
-        "Debate centred primarily on fishing rights rather than security concerns; Iceland froze its EU application in 2013 over fisheries disputes"
+        "German Interior Minister Alexander Dobrindt confirmed Russia was responsible for the August 4 drone attack at Leipzig/Halle Airport, where a drone carrying explosives was found near Ukrainian cargo planes",
+        "Germany announced closure of the Russian consulate in Bonn and termination of the Russian House contract in Berlin, while expelling additional diplomats",
+        "Putin denied involvement and accused Germany of planting evidence; the Russian embassy called the allegations 'absurd'",
+        "The EU summoned Russia's envoy and is considering new sanctions in response to what officials called part of a 'well-established pattern of Russian hybrid operations in Europe'"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Provided historical context on Iceland's 2009 application and Cod Wars history; neutral presentation of both sides",
-          "url": "https://www.bbc.co.uk/news/articles/cly5v8qmy64o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed forensic evidence and German government response",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized EU-level diplomatic response and potential sanctions",
+          "url": "https://www.lemonde.fr/en/m-le-mag/article/2026/09/02/iran-sentences-photojournalist-to-15-years-in-prison-for-sharing-images-of-repression-abroad_6757066_117.html"
         }
       ]
     },
     {
-      "headline": "Metropolitan Museum Cancels 2027 Met Gala Honouring Designer John Galliano After Antisemitism Outcry",
-      "category": "Society",
+      "headline": "Zelensky Warns Airlines to Avoid Russian Airspace as Ukraine Escalates Drone Campaign",
+      "category": "Conflict",
       "bullets": [
-        "The museum reversed its decision to make controversial designer John Galliano the subject of an exhibit linked to the 2027 Met Gala",
-        "Galliano was fired from Dior in 2011 and convicted of 'public insults' after videos emerged of him making antisemitic remarks including 'I love Hitler'",
-        "The 2027 Met Gala would have fallen on Yom HaShoah, a day of Holocaust remembrance, intensifying criticism",
-        "Galliano released a statement saying he did not want debate surrounding him to place the Met in a difficult position"
+        "Ukrainian President Zelensky warned airlines and insurers that Russian airspace is 'effectively closing' due to escalating Ukrainian drone operations targeting Russian territory",
+        "Zelensky stated Ukraine does not threaten civilian aircraft but warned 'there will simply be drones in Russia's skies on a scale that has to be taken into account'",
+        "Most Western airlines already avoid Russian airspace, but carriers from Turkey, China, and other countries continue to use it for flights to Moscow and St. Petersburg",
+        "Putin responded by calling Zelensky's statement a 'declaration of state terrorism' and vowed to continue intensified attacks on Ukraine"
       ],
       "sources": [
         {
-          "name": "RNZ",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed reporting on the controversy and Galliano's history; included his apology statement",
-          "url": "https://www.rnz.co.nz/life/lifestyle/style/the-john-galliano-2027-met-gala-has-been-canceled"
+          "framing_note": "Balanced coverage of both leaders' statements",
+          "url": "https://www.bbc.co.uk/news/articles/cn8mr1myy2ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Duplicate coverage",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on aviation industry implications",
+          "url": "https://www.ft.com/content/69671716-02bb-496c-88ad-10befe4a9d63?syn-25a6b1a6=1"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized drone warfare escalation",
+          "url": "https://www.france24.com/en/video/20260902-iran-strikes-back-against-latest-us-attacks-vowing-severe-consequences"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Framed within broader war of attrition analysis",
+          "url": "https://www.economist.com/international/2026/08/18/introducing-our-latest-newsletter-the-economist-for-you"
+        }
+      ]
+    },
+    {
+      "headline": "Nepal Flood Death Toll Exceeds 1,100 as Hope Fades for Nearly 4,000 Missing",
+      "category": "Climate",
+      "bullets": [
+        "At least 1,114 people confirmed dead in Nepal one week after a glacial collapse in the Himalayas unleashed catastrophic flash floods; China reports 16 dead and 546 missing in Tibet",
+        "Nearly 4,000 people remain unaccounted for, with officials saying hope of finding survivors is decreasing; rescue teams from India, China, and the U.S. are attempting to reach workers trapped in hydropower tunnels",
+        "The UN estimates the disaster left at least 2.2 million tonnes of debris; 11 hydropower stations and one solar plant have stopped operating",
+        "Nepal's foreign minister called the disaster 'a warning signal' about climate change risks, as authorities began burying unidentified bodies after DNA sampling due to overwhelmed morgues"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized climate justice angle and Nepal's foreign minister statements",
+          "url": "https://www.rfi.fr/en/sports/20260901-french-clubs-cash-in-as-ligue-1-transfer-window-comes-to-a-close"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Focused on UN debris estimates and infrastructure damage",
+          "url": "https://www.aljazeera.com/news/2026/9/2/ed-markey-wins-key-takeaways-from-massachusetts-primary-election-results?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted fading hope and international rescue efforts",
+          "url": "https://www.theglobeandmail.com/business/article-donald-trump-asks-apple-to-change-name-of-lake-ontario-to-lake-america/"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Human interest focus on families searching morgues",
+          "url": "https://www.france24.com/en/video/20260902-iran-strikes-back-against-latest-us-attacks-vowing-severe-consequences"
+        }
+      ]
+    },
+    {
+      "headline": "Hong Kong Activist Joshua Wong Pleads Guilty to Foreign Collusion in Second National Security Case",
+      "category": "Society",
+      "bullets": [
+        "Joshua Wong, one of Hong Kong's most prominent democracy activists, pleaded guilty to 'conspiring to collude with foreign forces' in a second national security case",
+        "Wong was already serving a 56-month sentence after being convicted in 2024 for participating in an election primary deemed illegal; he was due for release early next year before new charges were filed",
+        "The charges relate to allegedly colluding with foreign forces to impose economic sanctions on Hong Kong, with most conduct occurring before the 2020 national security law was passed",
+        "Wong faces potential additional years in prison; co-defendant Nathan Law, who went into exile in 2020, faces similar charges"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Provided extensive background on Wong's activism history and legal context",
+          "url": "https://www.theglobeandmail.com/business/article-donald-trump-asks-apple-to-change-name-of-lake-ontario-to-lake-america/"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Straightforward factual reporting",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/google-to-speed-up-chip-rollout-to-stay-ahead-in-ai-technology-chief-says"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Video report noting Wong smiled and waved at supporters",
+          "url": "https://www.aljazeera.com/news/2026/9/2/ed-markey-wins-key-takeaways-from-massachusetts-primary-election-results?traffic_source=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief video coverage",
+          "url": "https://www.france24.com/en/video/20260902-iran-strikes-back-against-latest-us-attacks-vowing-severe-consequences"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Ferry sinks off northern Cyprus killing eight, with 20 still missing including children",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o"
-    },
-    {
-      "headline": "UN committee says countries are legally obliged to consider slavery reparations under 1965 convention",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/31/countries-legally-obliged-consider-slavery-reparations-un-committee"
-    },
-    {
-      "headline": "Spanish PM says no evidence Morocco engineered Ceuta border crossing, accuses Israel and Russia of disinformation",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez"
-    },
-    {
-      "headline": "Russian strikes destroy 12 million books at Ukrainian printing presses ahead of new school year",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cly5v8qmy64o"
-    },
-    {
-      "headline": "Woman fatally stabs one person in New York's Times Square before being shot dead by police",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-a-woman-stabs-2-people-and-is-shot-by-police-in-times-square/"
-    },
-    {
-      "headline": "17-year-old girl charged with murder for livestreaming San Diego mosque attack that killed three",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c2dw3wn972no"
-    },
-    {
-      "headline": "Former French Prime Minister \u00c9douard Balladur dies aged 97",
+      "headline": "Macron begins UK visit, opens historic Bayeux Tapestry exhibition in London before talks with PM Burnham",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260901-devoted-servant-of-the-nation-former-french-pm-edouard-balladur-dies-aged-97"
+      "url": "https://www.rfi.fr/en/international/20260902-macron-opens-bayeux-tapestry-exhibition-before-first-burnham-talks"
     },
     {
-      "headline": "French schools implement mobile phone ban for high school students as new academic year begins",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/mobile-phone-ban-greets-french-teenagers-going-back-to-high-school"
+      "headline": "UK-France migrant deal credited as Channel boat crossings fall to seven-year summer low",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260902-uk-government-says-migrant-boat-crossings-at-seven-year-low-english-channel-france"
     },
     {
-      "headline": "Two bodies found after Grand Canyon flash flood, one person still missing after 80 rescued",
+      "headline": "Guinea-Bissau voters approve new constitution expanding presidential powers ahead of December elections",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/02/guinea-bissau-voters-approve-constitution-elections"
+    },
+    {
+      "headline": "Sexual assaults occurring almost daily in Ceuta since mass migrant influx, Spanish prosecutors report",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo"
+    },
+    {
+      "headline": "Study finds nearly half of world's farmers poisoned by pesticides annually, with highest rates in Burkina Faso",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/environment/2026/sep/02/50-per-cent-world-farmers-poisoned-pesticides-every-year-experts"
+    },
+    {
+      "headline": "Trump pressures Apple to rename Lake Ontario as 'Lake America' on maps amid U.S.-Canada tensions",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-grand-canyon-flood-two-people-dead-one-missing/"
+      "url": "https://www.theglobeandmail.com/business/article-donald-trump-asks-apple-to-change-name-of-lake-ontario-to-lake-america/"
     },
     {
-      "headline": "Australian authorities investigate reports former ADF soldier killed while serving as combat medic in Ukraine",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-09-01/australian-soldier-killed-ukraine-mozzie/107104370"
+      "headline": "China's Xi Jinping visits Egypt in rare foreign travel ahead of summit with Trump",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/69671716-02bb-496c-88ad-10befe4a9d63"
+    },
+    {
+      "headline": "Vietnam launches major infrastructure spending spree on Independence Day anniversary",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/economy/vietnam-launches-infrastructure-spree-to-mark-independence"
+    },
+    {
+      "headline": "Google announces accelerated chip development cycle to maintain AI leadership, expanding Taiwan R&D",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/google-to-speed-up-chip-rollout-to-stay-ahead-in-ai-technology-chief-says"
+    },
+    {
+      "headline": "U.S. Energy Secretary visits Venezuela to sign landmark oil deal controlling 65 billion barrels in reserves",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/business/20260902-us-energy-secretary-vows-oil-output-will-double-on-visit-to-venezuela"
     }
   ]
 }
