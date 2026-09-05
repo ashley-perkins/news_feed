@@ -1,196 +1,168 @@
 {
-  "date": "Friday, September 04, 2026",
-  "daily_brief": "Markets and policymakers face a convergence of crises today. Volkswagen's board approved cutting an additional 50,000 jobs\u2014bringing total planned reductions to 100,000 by 2030\u2014as the German automaker grapples with Chinese competition and falling profits [BBC Europe]. In the Middle East, the US-Iran conflict continues to escalate: Vice President Vance confirmed an investigation into Iranian claims that US strikes killed civilians at a wedding, while insisting the fighting does not constitute a 'war' ahead of November's midterms [BBC World, Globe and Mail]. Oil supply concerns mount as hostilities resume [France 24], with South Korea weighing a Strait of Hormuz deployment under US pressure [Financial Times]. In Nepal, rescuers pulled two workers alive from a hydropower tunnel nine days after flash floods killed over 1,200 people, offering hope that hundreds more trapped underground may yet survive [BBC World, Globe and Mail, Al Jazeera]. British PM Andy Burnham hosted French President Emmanuel Macron for talks on small boat crossings, Ukraine, and UK-EU relations [BBC Europe, RFI]. Spain's PM Pedro S\u00e1nchez faced mounting pressure over the Ceuta migrant crisis, denying any advance warning while tens of thousands protested his handling of the situation [BBC Europe, The Guardian].",
+  "date": "Saturday, September 05, 2026",
+  "daily_brief": "US peace envoys Steve Witkoff and Jared Kushner are set to visit Moscow and Kyiv this weekend carrying a new proposal to end the Ukraine war, with President Zelensky confirming he will meet them Sunday after their talks with Putin [BBC, France 24]. The diplomatic push comes as Russia struck Ukraine's SBU security headquarters in Kyiv with a precision drone aimed at the security chief's office, prompting Zelensky to order a retaliatory response [BBC]. Tensions between the US and Iran escalated sharply as explosions were reported near Iran's crucial Kharg Island oil terminal, with Iranian media alleging a US strike on an oil tanker\u2014though neither government has confirmed the reports [France 24, The Hindu]. In Europe, Volkswagen's board approved plans to cut an additional 50,000 jobs, bringing total planned reductions to 100,000 by 2030 amid fierce competition from Chinese automakers [BBC]. Meanwhile, the UN General Assembly voted 164-1 to formally move away from the Mercator map projection in favor of the Equal Earth design, with only the US opposing the African-led initiative to more accurately represent the continent's true size [The Guardian, The Hindu, RFI].",
   "top_stories": [
     {
-      "headline": "Volkswagen Approves Additional 50,000 Job Cuts in Historic Restructuring",
-      "category": "Economics",
-      "bullets": [
-        "Volkswagen's board approved cutting 50,000 more jobs, bringing total planned reductions to 100,000 by 2030",
-        "The company will reduce its model lineup by 50% by 2035 and cut product complexity by 75%",
-        "Four German plants are under review as VW faces falling sales and intense competition from Chinese automakers",
-        "VW shares rose approximately 7% in Frankfurt trading following the announcement"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused on scale of cuts and CEO's framing as 'responsibility' for workforce; noted share price increase",
-          "url": "https://www.bbc.co.uk/news/articles/c62ezg7gkzwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "US Investigates Iranian Claims of Civilian Deaths at Wedding as Conflict Escalates",
+      "headline": "Trump Envoys Head to Moscow and Kyiv with New Peace Proposal as Ukraine War Intensifies",
       "category": "Conflict",
       "bullets": [
-        "Iranian Red Crescent reported at least four killed, including two children, when shrapnel hit a wedding ceremony in Sirik on Tuesday",
-        "Vice President Vance confirmed a US investigation but expressed skepticism about Iranian state media accounts",
-        "Iran launched retaliatory strikes on US bases in Kuwait and UAE following the alleged incident",
-        "Vance rejected characterizing the six-month conflict as a 'war' ahead of November midterm elections"
+        "US negotiators Steve Witkoff and Jared Kushner will visit Russia Saturday to meet Putin, then travel to Ukraine Sunday to meet Zelensky",
+        "Trump confirmed the envoys are carrying 'a proposal to end the war' between Russia and Ukraine",
+        "Earlier Friday, a Russian drone struck the SBU headquarters in Kyiv, targeting security chief Oleksandr Poklad's office; Zelensky ordered a retaliatory response",
+        "Zelensky said he would guarantee Russian airspace safety during the envoys' visit and called on Russia to reciprocate for Ukraine"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Detailed account of casualties and Iranian claims; included BBC Verify efforts",
-          "url": "https://www.bbc.co.uk/news/articles/c305qn2jeggo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized political context of midterms and Vance's rhetorical distancing from 'war' label",
-          "url": "https://www.theglobeandmail.com/world/article-adam-telle-us-army-trump-dan-driscoll/"
+          "framing_note": "Emphasized the precision of the drone strike and its implications for escalation before talks",
+          "url": "#"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on oil supply disruption fears; limited article detail available",
-          "url": "https://www.france24.com/en/video/20260904-nepal-flood-aftermath-zip-lines-carry-medicine-as-survivors-relive-the-horror"
+          "framing_note": "Brief coverage focused on the diplomatic mission",
+          "url": "https://www.france24.com/en/middle-east/20260905-middle-east-live-israeli-strikes-on-south-and-east-lebanon-kill-three-people"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Broader analysis framing the war as 'intensifying, expanding and stuck'",
+          "url": "https://www.economist.com/international/2026/08/18/what-happens-when-interceptor-missiles-run-out"
         }
       ]
     },
     {
-      "headline": "Two Workers Rescued Alive from Nepal Hydropower Tunnel Nine Days After Deadly Floods",
-      "category": "Climate",
+      "headline": "Explosions Reported Near Iran's Kharg Island Oil Hub Amid Renewed US-Iran Hostilities",
+      "category": "Conflict",
       "bullets": [
-        "Rescuers pulled two workers from a tunnel at the Trishuli 3A hydropower plant, raising hopes for hundreds still trapped",
-        "The flash floods, believed triggered by glacial collapse, have killed over 1,200 people with thousands missing",
-        "Nepal says it will need billions in funding to rebuild; approximately 500 workers believed trapped in tunnels across 12 hydropower projects",
-        "One survivor reported more people are alive inside the tunnel; search operations continue"
+        "Iranian media reported multiple explosions near Kharg Island, Iran's main oil export terminal in the Gulf",
+        "Semi-official Tasnim and Nournews agencies claimed a US missile strike hit an Iranian oil tanker; no casualties reported",
+        "Neither US nor Iranian officials have officially confirmed the reports",
+        "Fighting between the US and Iran resumed last Sunday, with Iran claiming retaliatory strikes on US bases in Kuwait and the UAE"
       ],
       "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized climate vulnerability and reconstruction costs",
-          "url": "https://www.bbc.co.uk/news/articles/c305qn2jeggo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on rescue details and survivor accounts",
-          "url": "https://www.theglobeandmail.com/world/article-adam-telle-us-army-trump-dan-driscoll/"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted 'miracle' rescue and ongoing hope for survivors",
-          "url": "https://www.aljazeera.com/news/2026/9/4/why-pakistan-overhauled-its-military-command-structure-after-five-decades?traffic_source=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Limited article detail available",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/04/trump-again-turns-to-supreme-court-over-mail-voting-restrictions-ahead-of-midterms_6757143_4.html"
-        },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Limited article detail available",
-          "url": "https://www.france24.com/en/video/20260904-nepal-flood-aftermath-zip-lines-carry-medicine-as-survivors-relive-the-horror"
+          "framing_note": "Presented as breaking news with emphasis on unconfirmed nature of reports",
+          "url": "https://www.france24.com/en/middle-east/20260905-middle-east-live-israeli-strikes-on-south-and-east-lebanon-kill-three-people"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided context on six-month US-Iran conflict and ongoing Strait of Hormuz tensions",
+          "url": "https://www.thehindu.com/sci-tech/science/un-approves-resolution-in-support-of-mapthat-shows-africas-true-size/article71429647.ece"
         }
       ]
     },
     {
-      "headline": "Burnham and Macron Hold First Bilateral Talks on Migration, Ukraine, and UK-EU Relations",
-      "category": "Geopolitics",
+      "headline": "Volkswagen Approves Plan to Cut 100,000 Jobs by 2030 in Historic Restructuring",
+      "category": "Economics",
       "bullets": [
-        "UK PM Andy Burnham hosted French President Macron at Downing Street\u2014his first EU leader visit since taking office in July",
-        "Leaders agreed to 'scale up' efforts on Channel small boat crossings and discussed long-range missile production in Ukraine",
-        "Burnham raised concerns over Israeli West Bank settlements, condemning new plans as 'unacceptable'",
-        "Macron's visit followed a joint event with King Charles celebrating the Bayeux Tapestry loan to the British Museum"
+        "VW board approved cutting an additional 50,000 jobs, bringing total planned reductions to 100,000 by 2030",
+        "The company is considering the future of four German plants amid falling sales and competition from Chinese brands",
+        "VW will reduce its model lineup by 50% by 2035 and cut product complexity by 75%",
+        "Shares rose approximately 7% in Frankfurt following the announcement"
       ],
       "sources": [
         {
-          "name": "BBC Europe",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Emphasized bilateral cooperation and Burnham's EU outreach",
-          "url": "https://www.bbc.co.uk/news/articles/c62ezg7gkzwo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Noted Macron approaching final months of presidential term; highlighted mutual commitment to closer ties",
-          "url": "https://www.rfi.fr/en/international/20260903-british-french-leaders-hold-talks-on-migrants-eu-relations"
+          "framing_note": "Described as 'biggest restructuring in the group's almost nine-decade history'",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "Spanish PM Denies Advance Warning of Ceuta Migrant Crisis Amid Mass Protests",
+      "headline": "UN Votes to Phase Out Mercator Map in Favor of Projection Showing Africa's True Size",
       "category": "Society",
       "bullets": [
-        "PM Pedro S\u00e1nchez told parliament no institution provided evidence Morocco planned or facilitated the 72,000-person border breach",
-        "Approximately 50,000 people marched in Madrid protesting the government's handling of the crisis",
-        "A Spanish police report cited 'total permissiveness' by Moroccan border forces, though officials say it does not implicate Rabat",
-        "About 5,000 migrants remain in Ceuta, including an estimated 1,400 children; Italy imposed border restrictions in response"
+        "The UN General Assembly voted 164-1 to adopt a resolution promoting the Equal Earth projection over the traditional Mercator map",
+        "The US was the sole vote against, calling the resolution 'superfluous' and an 'ideological agenda'; six countries abstained",
+        "France announced it would stop using Mercator maps in its Foreign Ministry, adopting projections 'more faithful to actual surface areas'",
+        "The non-binding resolution was led by Togo on behalf of the African Union to counter perceptions that Africa is peripheral"
       ],
       "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Balanced coverage of government defense and opposition criticism; noted Italy's response",
-          "url": "https://www.bbc.co.uk/news/articles/c62ezg7gkzwo?at_medium=RSS&at_campaign=rss"
-        },
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasized S\u00e1nchez's defense of Morocco and his denial of warnings; noted summoning of Moroccan ambassador",
-          "url": "https://www.theguardian.com/environment/2026/sep/02/50-per-cent-world-farmers-poisoned-pesticides-every-year-experts"
+          "framing_note": "Emphasized the cultural and educational impact of cartographic distortions",
+          "url": "https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Focused on US opposition characterizing it as 'ideological agenda'",
+          "url": "https://www.thehindu.com/sci-tech/science/un-approves-resolution-in-support-of-mapthat-shows-africas-true-size/article71429647.ece"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Highlighted France's decision as part of broader French foreign policy shift toward Africa",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Blamed for Escalating Sabotage Campaign Targeting European Military Sites",
+      "category": "Geopolitics",
+      "bullets": [
+        "Germany's interior minister declared 'Russia is responsible' for explosive-laden drones found at Leipzig airport in August",
+        "A series of suspicious fires hit defense facilities across Europe in August, from Italy to Estonia",
+        "Poland's interior minister warned Russia is 'intensifying its activities, including terrorist and sabotage activities'",
+        "Russia denies involvement, with Putin demanding proof and officials calling accusations 'absurd'"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Comprehensive overview connecting multiple incidents across Europe as part of coordinated campaign",
+          "url": "#"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Tunisia's top court upholds prison sentences of up to 45 years for 34 opposition figures in conspiracy case",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260904-tunisia-court-upholds-long-sentences-in-mass-trial-of-opposition-figures-saied-authoritarian-rule"
+      "headline": "Germany's far-right AfD seeks first state-level power in post-war era in Saxony-Anhalt election",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cvgypkzgy4wo"
     },
     {
-      "headline": "More than 80 migrants feared dead after boat adrift for 27 days rescued off Canary Islands with 44 survivors",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c33kzv7kly4o"
+      "headline": "Andrew and Tristan Tate officially indicted in Romania on trafficking and sex crime charges involving a minor",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c7v4npv1m22o"
     },
     {
-      "headline": "France to test Tesla's Full Self-Driving system on public roads ahead of potential EU-wide approval vote",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260904-france-tests-tesla-self-driving-tech-as-europe-moves-closer-to-autonomous-cars"
+      "headline": "Two senior Reform UK officials resign after undercover investigation shows apparent solicitation of illegal foreign donations",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260905-two-senior-reform-uk-officials-resign-as-farage-faces-fresh-foreign-donations-scandal"
     },
     {
-      "headline": "Romania officially indicts Andrew Tate for trafficking minors, money laundering, and witness tampering",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-romania-indict-andrew-tate-trafficking-minors-money-laundering/"
+      "headline": "Nepal rescuers pull three people alive from hydropower tunnels nine days after devastating flash floods that killed over 1,300",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c7903j1vpe5o"
     },
     {
-      "headline": "Argentina's President Milei threatens sanctions on firms drilling oil near Falkland Islands, escalating tensions with UK",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko"
+      "headline": "China rapidly expanding artificial islands in disputed Paracel Islands with apparent military installations targeting Vietnam",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/international/20260904-how-china-s-paracel-expansion-extends-its-military-reach-towards-vietnam-paracel-islands"
     },
     {
-      "headline": "UN General Assembly to vote on replacing Mercator map projection with one showing Africa's true scale",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa"
+      "headline": "Trump signs executive order to remove endangered species protection for grey wolves, potentially allowing ranchers to kill them",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c62k677d4lzo"
     },
     {
-      "headline": "Germany closes Russian House cultural center in Berlin; Moscow retaliates by shutting Goethe Institute branches",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260903-culture-or-kremlin-influence-europe-divided-over-its-russian-houses"
+      "headline": "DRC plans to move embassy to Jerusalem following Tshisekedi-Netanyahu talks, seeking Israeli military support",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/africa/20260904-drc-eyes-jerusalem-embassy-as-tshisekedi-seeks-israel-s-support"
     },
     {
-      "headline": "Two senior Reform UK officials step down after undercover investigation alleges foreign donor funded party polling",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-senior-reform-uk-members-step-down-allegations-electoral-law-breach/"
-    },
-    {
-      "headline": "Philippine peso hits record low of 62.71 to the dollar amid Iran war fallout and domestic economic pressures",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/9/4/why-has-the-philippines-peso-plunged-to-a-record-low"
-    },
-    {
-      "headline": "Trump names Adam Telle as acting US Army Secretary following Dan Driscoll's departure amid reported tensions with Hegseth",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-adam-telle-us-army-trump-dan-driscoll/"
+      "headline": "Mistrial declared in Lindsay Clancy murder case after jury deadlocks on whether mother is criminally liable for killing three children",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po"
     }
   ]
 }
