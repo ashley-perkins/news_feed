@@ -1,184 +1,208 @@
 {
-  "date": "Thursday, September 10, 2026",
-  "daily_brief": "The day's news is dominated by President Trump's pledge to pay every American adult $5,000 if Republicans win November's midterm elections\u2014a proposal costing over $1.3 trillion that Democrats have dismissed as an 'empty promise' and legal experts question [BBC, France 24, Le Monde]. Trump also stated that the ongoing US-Iran war will not end until after the elections, linking oil prices to the conflict's resolution [BBC]. In Germany, Chancellor Merz clashed sharply with AfD leader Weidel in parliament following the far-right party's historic 44% victory in Saxony-Anhalt, with Merz condemning AfD's migration policies as amounting to 'ethnic cleansing' [BBC]. Russia's deployment of new jet-powered drones against Ukraine has intensified dramatically, with attacks rising from 350 in June to 2,800 in August, outpacing Ukrainian air defenses [BBC]. Meanwhile, a ferry fire in the Philippines has left at least five dead and 86 missing near the tourist destination of Coron [BBC, Le Monde, Nikkei Asia]. On the climate front, the EU's Copernicus monitor confirmed August 2026 as the hottest month ever recorded globally [RFI].",
+  "date": "Friday, September 11, 2026",
+  "daily_brief": "On the 25th anniversary of the September 11 attacks, the United States commemorates victims with a new moment of silence honoring the 9,400 who have died from exposure-related illnesses [RFI, France 24, Le Monde]. The geopolitical landscape remains turbulent as Yemen's Houthis seized the strategic Red Sea port of Mokha and Perim Island in the Bab al-Mandab Strait, threatening global shipping routes and contributing to surging oil prices [BBC, Globe and Mail, France 24]. Russian forces struck a shopping center in Pavlohrad, Ukraine, killing five and wounding 67, while civilians in Donbas fortress cities are being urged to evacuate as fighting intensifies [BBC, The Economist]. President Putin arrived in India for an 11-member BRICS summit, with Chinese President Xi Jinping expected Saturday in his first India visit since 2019, signaling a cautious thaw between the nuclear-armed neighbors [RFI, ABC Australia]. In Hong Kong, three Tiananmen vigil organizers received sentences of up to seven years under the national security law, marking another erosion of the territory's civil liberties [BBC, Nikkei Asia]. Anthropic disclosed it blocked attempts to use its AI for biological weapons development and ballistic missile research, prompting renewed calls for AI regulation [BBC, Financial Times].",
   "top_stories": [
     {
-      "headline": "Trump Pledges $5,000 to Every American Adult if Republicans Win Midterms",
-      "category": "Policy",
+      "headline": "Houthis Capture Strategic Red Sea Port of Mokha, Threaten Key Global Shipping Lane",
+      "category": "Conflict",
       "bullets": [
-        "President Trump announced at the first-ever midterm Republican convention in Texas that every American adult would receive $5,000 if the GOP wins both chambers of Congress in November",
-        "The plan would cost approximately $1.3 trillion for nearly 270 million American adults; Trump provided no details on funding or implementation, though VP Vance linked it to tariff revenues",
-        "Democrats dismissed the pledge as an 'empty promise' and legal experts questioned whether a president has authority to issue such payments",
-        "Trump argued short-term economic pain from the Iran war is worth preventing Tehran from developing nuclear weapons"
+        "Iran-backed Houthi forces seized Yemen's Red Sea port city of Mokha and advanced to Perim Island in the Bab al-Mandab Strait, the southern gateway to the Suez Canal shipping route",
+        "Pro-government forces withdrew from positions as Saudi-led coalition conducted air strikes on Houthi-controlled areas; hundreds killed and thousands displaced in week-long offensive",
+        "Houthis stated Red Sea navigation remains safe for non-Saudi shipping; Saudi Arabia has relied on Red Sea exports since the Iran conflict effectively closed the Strait of Hormuz",
+        "Oil prices surged on concerns about disruption to one of the world's most important shipping corridors"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on factual details and legal/feasibility questions",
-          "url": "https://www.bbc.co.uk/news/articles/c8jdpj4ydm2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on humanitarian impact and military developments",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized US political implications and Trump's statements about ending Iran war after midterms",
+          "url": "https://www.theglobeandmail.com/politics/video-canada-and-ukraine-sign-100-year-defence-deal/"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Highlighted critical press reaction, calling Trump an 'egomaniac' in press review",
-          "url": "https://www.france24.com/en/france/20260910-macron-calls-for-shared-governance-space-paris-space-summit"
+          "framing_note": null,
+          "url": "https://www.france24.com/en/video/20260911-keeping-the-memory-of-9-11-alive-for-the-younger-generation"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Described convention as 'lackluster'",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/09/10/afd-victory-it-is-highly-likely-that-the-german-shockwave-will-amplify-the-europhobic-tendencies-already-at-work-in-france_6757368_23.html"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Says Iran War Won't End Until After November Elections",
-      "category": "Conflict",
-      "bullets": [
-        "President Trump stated he does not expect the war with Iran to conclude until after the midterm elections, saying Tehran 'can't hold out any longer'",
-        "Trump claimed oil prices will tumble 'as soon as we win the war with Iran' and accused Iran of trying to influence US elections",
-        "The conflict, which began in February 2026 with US and Israeli involvement, has seen Iran largely close the Strait of Hormuz, affecting global oil supplies",
-        "Trump is facing falling poll numbers and pressure from within the Republican Party to end the war"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
+          "name": "RFI",
           "lean": "Center",
-          "framing_note": "Provided context on domestic political pressure Trump faces over the conflict",
-          "url": "https://www.bbc.co.uk/news/articles/c8jdpj4ydm2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Highlighted Iran's diplomatic response calling for end to Saudi blockade",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "Germany's Merz Clashes with AfD After Far-Right Party Wins 44% in Saxony-Anhalt",
-      "category": "Geopolitics",
-      "bullets": [
-        "The Alternative for Germany (AfD) won nearly 44% of the vote in Saxony-Anhalt, falling three seats short of an outright majority\u2014no far-right party has held power in a German state since WWII",
-        "Chancellor Friedrich Merz attacked AfD in parliament, calling it a 'destructive force' with migration policies amounting to 'ethnic cleansing' for skilled workers",
-        "AfD leader Alice Weidel responded that voters had shown Merz's coalition with the center-left was a 'total failure'",
-        "US President Trump praised the result, linking it to 'horrible immigration rules and regulations'; the AfD has been labeled 'right-wing extremist' by German domestic intelligence"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasized the historic nature of the result and Merz's strong language",
-          "url": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Opinion piece warned of spillover effects amplifying anti-EU sentiment in France",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/09/10/afd-victory-it-is-highly-likely-that-the-german-shockwave-will-amplify-the-europhobic-tendencies-already-at-work-in-france_6757368_23.html"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on coalition dynamics and potential for far-right premiership",
-          "url": "https://www.ft.com/content/890dc1c8-f5f1-46d2-a4fa-1a9df3667f37?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "Russia's Jet-Powered Drones Overwhelm Ukraine's Air Defenses with Daily Attacks",
-      "category": "Conflict",
-      "bullets": [
-        "Russia fired new jet-powered Geran drones against Ukraine every day throughout August, marking the first month of daily attacks with the upgraded weapons",
-        "Ukrainian military reported jet-powered drone attacks rose from 350 in June to 1,600 in July and 2,800 in August",
-        "The drones can cruise at over 300 mph, significantly faster than older models and beyond the speed of Ukrainian interceptors",
-        "Some turbojet engines powering the drones are reportedly sourced from China, according to Ukrainian military intelligence"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Used BBC Verify analysis of Ukrainian Air Force data; included expert commentary on technical challenges",
-          "url": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Philippines Ferry Fire Leaves Five Dead and 86 Missing Near Palawan",
+      "headline": "US Marks 25th Anniversary of 9/11 With New Tribute to Toxic Exposure Victims",
       "category": "Society",
       "bullets": [
-        "The MV June Aster caught fire near Coron, Palawan, while carrying 117 passengers and 17 crew members from Manila",
-        "At least five people have died and 86 remain missing; 43 survivors have been rescued",
-        "Survivors reported hearing a loud explosion from the cargo hold before fire rapidly spread; some passengers were not wearing life vests",
-        "Rescue efforts were hampered by darkness, strong waves, and thick smoke; the cause remains under investigation"
+        "Official ceremony in New York adds seventh moment of silence honoring over 9,400 people who died from illnesses linked to Ground Zero toxic exposure",
+        "Federal medical monitoring program documented deaths among rescue workers and survivors exposed to contaminated air at attack sites",
+        "Anniversary prompts media reflection on legacy of War on Terror, with European and Middle Eastern outlets noting long-term consequences of subsequent conflicts",
+        "Senator Bernie Sanders renewed calls to pause advanced AI development, citing national security concerns"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Straightforward commemoration focus",
+          "url": "https://www.rfi.fr/en/international/20260910-algeria-cuts-diplomatic-ties-with-uae-after-years-of-mounting-tensions"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Examined educational aspects and how young Americans learn about attacks",
+          "url": "https://www.france24.com/en/video/20260911-keeping-the-memory-of-9-11-alive-for-the-younger-generation"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Included analysis suggesting long wars helped bring Trump to power",
+          "url": "https://www.lemonde.fr/en/culture/article/2026/09/11/bayeux-tapestry-draws-flocks-in-london-seeking-story-etched-in-memory_6757406_30.html"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Focused on War on Terror consequences and impact on Palestinian narrative",
+          "url": "https://www.aljazeera.com/opinions/2026/9/11/how-9-11-helped-israel-sell-its-war-on-palestinians-to?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Russian Drone Strike Kills Five at Ukrainian Shopping Center as Donbas Evacuation Orders Expand",
+      "category": "Conflict",
+      "bullets": [
+        "Russian drone struck shopping mall in Pavlohrad during daylight hours, killing five including children and wounding 67 others",
+        "Ukrainian authorities ordered civilian evacuations from fortress cities Slovyansk and Kramatorsk as daily glide bomb attacks intensify",
+        "Russia controls nearly 80% of Donetsk region; forced evacuations of families with children have begun in worst-affected areas",
+        "Trump administration peace envoy talks in Moscow and Kyiv yielded few concrete results"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed survivor accounts and rescue challenges",
-          "url": "https://www.bbc.co.uk/news/articles/c8jdpj4ydm2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Covered both Ukrainian casualties and Russian claims of Ukrainian drone attack on Sochi",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Brief factual coverage",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/09/10/afd-victory-it-is-highly-likely-that-the-german-shockwave-will-amplify-the-europhobic-tendencies-already-at-work-in-france_6757368_23.html"
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Detailed evacuation orders and strategic significance of fortress cities",
+          "url": "https://www.bbc.co.uk/news/articles/c0re72nvy22o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Broader analysis describing war as 'intensifying, expanding and stuck'",
+          "url": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai"
+        }
+      ]
+    },
+    {
+      "headline": "Hong Kong Tiananmen Vigil Organizers Sentenced to Up to Seven Years Under Security Law",
+      "category": "Society",
+      "bullets": [
+        "Lee Cheuk-yan sentenced to seven years, Chow Hang-tung to seven years and three months, Albert Ho to five years after pleading guilty",
+        "Convictions under national security law for inciting subversion of state power related to organizing annual June 4 commemorations",
+        "Hong Kong was the only place in Chinese territory where Tiananmen commemorations were permitted until 2020 ban",
+        "Defendants faced maximum of 10 years; sentences mark continued erosion of Hong Kong's political freedoms"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized historical significance of Hong Kong as sole location for Tiananmen memorials",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Nikkei Asia",
           "lean": "Center",
-          "framing_note": "Emphasized Philippines' history of maritime accidents and rescue timeline",
-          "url": "https://asia.nikkei.com/politics/international-relations/asia-faces-geopolitical-recession-eurasia-group-warns"
+          "framing_note": "Brief factual coverage with Hong Kong-Tokyo dateline",
+          "url": "https://asia.nikkei.com/business/transportation/vietnam-sets-december-2027-for-north-south-bullet-train-construction-start"
+        }
+      ]
+    },
+    {
+      "headline": "Anthropic Blocks AI Misuse for Biological Weapons and Ballistic Missiles",
+      "category": "Technology",
+      "bullets": [
+        "Anthropic identified and disrupted attempts to use Claude AI model for activities supporting biological weapons development",
+        "Financial Times reported Houthi-linked actors attempted to use Anthropic AI to build ballistic missiles",
+        "Google separately disclosed attempted misuse of Gemini AI to obtain guides for synthesizing weaponized biological agents",
+        "Senator Bernie Sanders called for pause on advanced AI development; Trump rejected such concerns citing competitive pressures"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Broader context on AI industry threat reporting practices",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Specific focus on Houthi ballistic missile angle",
+          "url": "https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "August 2026 confirmed as hottest month ever recorded globally, with temperatures not seen in 100,000 years",
+      "headline": "Putin arrives in India for BRICS summit, with Xi Jinping's first India visit since 2019 signaling cautious thaw between rivals",
+      "source": "RFI English, ABC Australia",
+      "url": "https://www.rfi.fr/en/international/20260911-putin-in-india-for-brics-summit-overshadowed-by-war"
+    },
+    {
+      "headline": "Algeria severs diplomatic ties with UAE, accusing Abu Dhabi of hostile interference in regional affairs",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260910-august-hottest-month-ever-recorded-globally-says-eu-monitor"
+      "url": "https://www.rfi.fr/en/international/20260910-algeria-cuts-diplomatic-ties-with-uae-after-years-of-mounting-tensions"
     },
     {
-      "headline": "Google announces \u20ac13 billion investment in Finland for AI data centers, its largest single European investment",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c8r6y4me2g6o"
-    },
-    {
-      "headline": "French Football Federation withdraws support for FIFA president Infantino's re-election bid",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/france/20260910-french-football-federation-pulls-support-from-fifa-head-infantino-s-re-election-bid-le-monde-reports"
-    },
-    {
-      "headline": "Macron calls for 'shared governance' of space and announces \u20ac20 billion investment at Paris summit",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/france/20260910-macron-calls-for-shared-governance-space-paris-space-summit"
-    },
-    {
-      "headline": "Bayeux Tapestry exhibition opens at British Museum with sold-out tickets and 'mania' sweeping the UK",
+      "headline": "At least 27 schoolchildren killed in stampede fleeing fire at schools in rebel-held Bukavu, eastern DRC",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260910-bayeux-tapestry-mania-sweeps-uk-as-sold-out-exhibition-opens"
+      "url": "https://www.rfi.fr/en/africa/20260911-children-killed-in-stampede-as-fire-sweeps-through-schools-in-eastern-drc"
     },
     {
-      "headline": "Huawei unveils new optical communication technology standard challenging Nvidia and Broadcom",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/huawei-unveils-new-optical-tech-standard-in-challenge-to-nvidia-broadcom"
+      "headline": "Canada and Ukraine sign 100-year partnership agreement covering defence, energy, technology and trade cooperation",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/business/article-canada-and-ukraine-sign-100-year-agreement-trade-defence/"
     },
     {
-      "headline": "Spanish intelligence warned of mass migrant crossing into Ceuta before 72,000 people entered the territory",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o"
+      "headline": "$15.5 million fund launched to accelerate efforts to end female genital mutilation worldwide",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide"
     },
     {
-      "headline": "Uganda withdraws from Invictus Games 'out of respect for King Charles' amid royal family tensions",
+      "headline": "Five killed, dozens injured when Dutch tourist coach crashes in Swiss Alps",
+      "source": "BBC World, BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o"
+    },
+    {
+      "headline": "Trump and Vance rally Republicans at Dallas convention ahead of challenging midterm elections",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-gop-republican-midterm-convention-vance/"
+    },
+    {
+      "headline": "Uganda withdraws from Invictus Games citing respect for King Charles amid royal family divisions",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles"
     },
     {
-      "headline": "Eurasia Group warns Asia faces 'geopolitical recession' with long-term political and economic instability",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/asia-faces-geopolitical-recession-eurasia-group-warns"
+      "headline": "Australia moves toward legalizing plug-in balcony solar systems for apartment dwellers and renters",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-09-11/balcony-solar-to-become-legal-in-australia/107144234"
     },
     {
-      "headline": "US Homeland Security faces backlash over 'racist' AI-generated advertisement targeting 'Mr. Singh'",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/us-homeland-securitys-advertisement-asking-mr-singh-to-self-deport-kicks-off-row/article71450590.ece"
+      "headline": "Chinese AI chip maker Enflame surges 179% in Shanghai market debut as Nvidia challenger",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/ipo/chinese-nvidia-challenger-enflame-jumps-179-in-shanghai-market-debut"
     }
   ]
 }
