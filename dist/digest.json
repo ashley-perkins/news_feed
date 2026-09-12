@@ -1,208 +1,208 @@
 {
-  "date": "Friday, September 11, 2026",
-  "daily_brief": "On the 25th anniversary of the September 11 attacks, the United States commemorates victims with a new moment of silence honoring the 9,400 who have died from exposure-related illnesses [RFI, France 24, Le Monde]. The geopolitical landscape remains turbulent as Yemen's Houthis seized the strategic Red Sea port of Mokha and Perim Island in the Bab al-Mandab Strait, threatening global shipping routes and contributing to surging oil prices [BBC, Globe and Mail, France 24]. Russian forces struck a shopping center in Pavlohrad, Ukraine, killing five and wounding 67, while civilians in Donbas fortress cities are being urged to evacuate as fighting intensifies [BBC, The Economist]. President Putin arrived in India for an 11-member BRICS summit, with Chinese President Xi Jinping expected Saturday in his first India visit since 2019, signaling a cautious thaw between the nuclear-armed neighbors [RFI, ABC Australia]. In Hong Kong, three Tiananmen vigil organizers received sentences of up to seven years under the national security law, marking another erosion of the territory's civil liberties [BBC, Nikkei Asia]. Anthropic disclosed it blocked attempts to use its AI for biological weapons development and ballistic missile research, prompting renewed calls for AI regulation [BBC, Financial Times].",
+  "date": "Saturday, September 12, 2026",
+  "daily_brief": "The most consequential development today is Saudi Arabia's shutdown of its critical East-West oil pipeline following drone attacks launched from Iraq [BBC], [France 24], [The Hindu], a move that removes 4-5% of global oil supply from a key bypass route around the Strait of Hormuz amid the ongoing US-Iran conflict now in its seventh month. This compounds existing pressure on global energy markets as Iranian-backed Houthi rebels consolidate territorial gains near the Bab el-Mandeb Strait. Meanwhile, BRICS leaders convened in New Delhi [France 24], [RFI], [Nikkei Asia], [Al Jazeera] with host India working to bridge divisions between Iran and the UAE to secure a joint statement, as the bloc seeks greater influence amid Western tensions. President Trump's two-day Ireland visit [BBC], [France 24] drew thousands of protesters and highlighted ongoing friction over his blending of official duties with personal business interests at his Doonbeg golf resort. The US marked the 25th anniversary of 9/11 with ceremonies featuring all living presidents [BBC], [RFI], while Trump used the occasion to link the original attacks to his current Iran campaign. French investigators suspect sabotage in a Normandy train derailment that injured 44 people [France 24], adding to European security concerns.",
   "top_stories": [
     {
-      "headline": "Houthis Capture Strategic Red Sea Port of Mokha, Threaten Key Global Shipping Lane",
-      "category": "Conflict",
+      "headline": "Saudi Arabia Shuts Critical Oil Pipeline After Drone Attacks From Iraq",
+      "category": "Geopolitics",
       "bullets": [
-        "Iran-backed Houthi forces seized Yemen's Red Sea port city of Mokha and advanced to Perim Island in the Bab al-Mandab Strait, the southern gateway to the Suez Canal shipping route",
-        "Pro-government forces withdrew from positions as Saudi-led coalition conducted air strikes on Houthi-controlled areas; hundreds killed and thousands displaced in week-long offensive",
-        "Houthis stated Red Sea navigation remains safe for non-Saudi shipping; Saudi Arabia has relied on Red Sea exports since the Iran conflict effectively closed the Strait of Hormuz",
-        "Oil prices surged on concerns about disruption to one of the world's most important shipping corridors"
+        "Saudi Arabia closed its 1,200km East-West pipeline after drone attacks originating from Iraqi territory, with Baghdad acknowledging the strikes came from a province bordering Iran and firing a military commander in response",
+        "The pipeline, built in the 1980s, carries 4-5% of global oil supply and serves as a crucial bypass route around the Strait of Hormuz during the ongoing US-Iran conflict now in its seventh month",
+        "Saudi Arabia chose not to retaliate following a call from Iraq's prime minister but reserved the right to take future measures to protect its sovereignty and facilities",
+        "The shutdown compounds pressure on global energy markets as Iranian-backed Houthi rebels have made their biggest territorial gains in years near Yemen's coast, threatening the Bab el-Mandeb shipping strait"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on humanitarian impact and military developments",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized US political implications and Trump's statements about ending Iran war after midterms",
-          "url": "https://www.theglobeandmail.com/politics/video-canada-and-ukraine-sign-100-year-defence-deal/"
+          "framing_note": "Emphasized broader Middle East conflict context and Houthi advances in Yemen",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.france24.com/en/video/20260911-keeping-the-memory-of-9-11-alive-for-the-younger-generation"
+          "framing_note": "Focused on live developments including Trump and Iranian president statements on regional dynamics",
+          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq"
         },
         {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Highlighted Iran's diplomatic response calling for end to Saudi blockade",
-          "url": "#"
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided detailed technical background on pipeline history and Saudi statements",
+          "url": "https://www.thehindu.com/news/international/north-korea-launches-ballistic-missiles-toward-sea-after-military-drill-it-sees-as-threat/article71458990.ece"
         }
       ]
     },
     {
-      "headline": "US Marks 25th Anniversary of 9/11 With New Tribute to Toxic Exposure Victims",
-      "category": "Society",
+      "headline": "BRICS Leaders Convene in New Delhi Amid Wars and US Tensions",
+      "category": "Geopolitics",
       "bullets": [
-        "Official ceremony in New York adds seventh moment of silence honoring over 9,400 people who died from illnesses linked to Ground Zero toxic exposure",
-        "Federal medical monitoring program documented deaths among rescue workers and survivors exposed to contaminated air at attack sites",
-        "Anniversary prompts media reflection on legacy of War on Terror, with European and Middle Eastern outlets noting long-term consequences of subsequent conflicts",
-        "Senator Bernie Sanders renewed calls to pause advanced AI development, citing national security concerns"
+        "Leaders of the 11-nation BRICS bloc gathered in India for a two-day summit focused on trade, investment, and expanding the group's influence in global affairs",
+        "Indian Prime Minister Modi hosted Russian President Putin, Chinese President Xi, and Iranian President Pezeshkian amid heightened security with thousands of police deployed across New Delhi",
+        "The summit faces challenges in achieving unity as wars in Ukraine and the Middle East, plus US-China tensions, create competing priorities among members with sharply different foreign policy interests",
+        "Officials expressed optimism about issuing a joint declaration, with host India working to bridge differences between Iran and the UAE over the Persian Gulf crisis"
       ],
       "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized bloc's ambitions for greater global role and internal tensions",
+          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq"
+        },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Straightforward commemoration focus",
-          "url": "https://www.rfi.fr/en/international/20260910-algeria-cuts-diplomatic-ties-with-uae-after-years-of-mounting-tensions"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Examined educational aspects and how young Americans learn about attacks",
-          "url": "https://www.france24.com/en/video/20260911-keeping-the-memory-of-9-11-alive-for-the-younger-generation"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Included analysis suggesting long wars helped bring Trump to power",
-          "url": "https://www.lemonde.fr/en/culture/article/2026/09/11/bayeux-tapestry-draws-flocks-in-london-seeking-story-etched-in-memory_6757406_30.html"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Focused on War on Terror consequences and impact on Palestinian narrative",
-          "url": "https://www.aljazeera.com/opinions/2026/9/11/how-9-11-helped-israel-sell-its-war-on-palestinians-to?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Drone Strike Kills Five at Ukrainian Shopping Center as Donbas Evacuation Orders Expand",
-      "category": "Conflict",
-      "bullets": [
-        "Russian drone struck shopping mall in Pavlohrad during daylight hours, killing five including children and wounding 67 others",
-        "Ukrainian authorities ordered civilian evacuations from fortress cities Slovyansk and Kramatorsk as daily glide bomb attacks intensify",
-        "Russia controls nearly 80% of Donetsk region; forced evacuations of families with children have begun in worst-affected areas",
-        "Trump administration peace envoy talks in Moscow and Kyiv yielded few concrete results"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Covered both Ukrainian casualties and Russian claims of Ukrainian drone attack on Sochi",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed evacuation orders and strategic significance of fortress cities",
-          "url": "https://www.bbc.co.uk/news/articles/c0re72nvy22o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Broader analysis describing war as 'intensifying, expanding and stuck'",
-          "url": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai"
-        }
-      ]
-    },
-    {
-      "headline": "Hong Kong Tiananmen Vigil Organizers Sentenced to Up to Seven Years Under Security Law",
-      "category": "Society",
-      "bullets": [
-        "Lee Cheuk-yan sentenced to seven years, Chow Hang-tung to seven years and three months, Albert Ho to five years after pleading guilty",
-        "Convictions under national security law for inciting subversion of state power related to organizing annual June 4 commemorations",
-        "Hong Kong was the only place in Chinese territory where Tiananmen commemorations were permitted until 2020 ban",
-        "Defendants faced maximum of 10 years; sentences mark continued erosion of Hong Kong's political freedoms"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized historical significance of Hong Kong as sole location for Tiananmen memorials",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on institutional positioning of emerging economies",
+          "url": "https://www.rfi.fr/en/international/20260911-25th-anniversary-9-11-ny-remembers-victims-poisoned-by-debris"
         },
         {
           "name": "Nikkei Asia",
           "lean": "Center",
-          "framing_note": "Brief factual coverage with Hong Kong-Tokyo dateline",
-          "url": "https://asia.nikkei.com/business/transportation/vietnam-sets-december-2027-for-north-south-bullet-train-construction-start"
+          "framing_note": "Highlighted Iran-UAE dynamic as key to joint statement success",
+          "url": "https://asia.nikkei.com/business/media-entertainment/bandai-finds-right-recipe-to-turn-toothbrushes-into-gundam-models"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Argued Trump's tariff threats may inadvertently strengthen BRICS appeal",
+          "url": "https://www.aljazeera.com/opinions/2026/9/12/trump-may-be-bricss-best-recruitment-agent?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Anthropic Blocks AI Misuse for Biological Weapons and Ballistic Missiles",
-      "category": "Technology",
+      "headline": "Trump Visits Ireland for Diplomacy and Golf Tournament at His Resort",
+      "category": "Geopolitics",
       "bullets": [
-        "Anthropic identified and disrupted attempts to use Claude AI model for activities supporting biological weapons development",
-        "Financial Times reported Houthi-linked actors attempted to use Anthropic AI to build ballistic missiles",
-        "Google separately disclosed attempted misuse of Gemini AI to obtain guides for synthesizing weaponized biological agents",
-        "Senator Bernie Sanders called for pause on advanced AI development; Trump rejected such concerns citing competitive pressures"
+        "President Trump arrived in Dublin for a two-day visit including meetings with Irish President Catherine Connolly and Taoiseach Miche\u00e1l Martin, triggering one of the largest security operations in Irish history with 4,000 personnel deployed",
+        "Irish President Connolly, an outspoken Gaza activist who previously called Trump a 'bully' over tariffs, faced pressure from Irish political parties to raise Middle East issues during her meeting with the US president",
+        "Trump will attend the Amgen Irish Open golf tournament at his Trump International Golf Links and Hotel Doonbeg, which he owns, and may present the trophy on Sunday",
+        "Thousands of anti-Trump protesters planned rallies in Dublin as critics highlighted the visit as another example of the president blending official duties with personal business interests"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Broader context on AI industry threat reporting practices",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on diplomatic meetings and Irish political pressure on President Connolly",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Specific focus on Houthi ballistic missile angle",
-          "url": "https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880"
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Emphasized blurring of presidency and personal business interests",
+          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Led with satirical artwork depicting Trump and protest preparations",
+          "url": "https://www.rnz.co.nz/news/world/1350692/trump-welcomed-to-ireland-with-trash-covered-double"
+        }
+      ]
+    },
+    {
+      "headline": "US Marks 25th Anniversary of September 11 Attacks",
+      "category": "Society",
+      "bullets": [
+        "President Trump led a Pentagon ceremony while Vice President Vance joined all four living former presidents\u2014Bush, Obama, Biden, and Clinton\u2014at the World Trade Center memorial in New York",
+        "Moments of silence marked the timing of each attack and the names of nearly 3,000 victims were read aloud; organizers added a seventh moment of silence for the first time to honor over 9,400 people who have died from illnesses linked to toxic exposure at Ground Zero",
+        "The CIA declassified intelligence briefs about Al-Qaeda coinciding with the anniversary",
+        "Trump used the occasion to link the original 'war on terror' to his current conflict with Iran, stating the Islamic Republic 'will never, ever have a nuclear weapon'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Straightforward coverage of ceremonies and Trump's Iran remarks",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused extensively on victims of toxic exposure and the new moment of silence",
+          "url": "https://www.rfi.fr/en/international/20260911-25th-anniversary-9-11-ny-remembers-victims-poisoned-by-debris"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Covered CIA document declassification",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/12/cia-declassifies-briefs-about-al-qaeda-on-9-11-anniversary_6757436_4.html"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Published opinion piece arguing War on Terror mainstreamed European far-right",
+          "url": "https://www.aljazeera.com/opinions/2026/9/12/trump-may-be-bricss-best-recruitment-agent?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "French Investigators Suspect Sabotage in Normandy Train Derailment",
+      "category": "Society",
+      "bullets": [
+        "A train carrying 186 passengers derailed between Rouen and Caen in northwest France on Friday evening, injuring 44 people including an 18-year-old woman in critical condition",
+        "Investigators found a fragment of rail on the track and are treating sabotage as the main line of inquiry",
+        "Authorities activated a mass-casualty response with 130 firefighters, five medical teams, and 80 vehicles; the train driver tested negative for drugs and alcohol",
+        "Traffic on the line has been suspended and power to the tracks cut as the investigation continues"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": null,
+          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Putin arrives in India for BRICS summit, with Xi Jinping's first India visit since 2019 signaling cautious thaw between rivals",
-      "source": "RFI English, ABC Australia",
-      "url": "https://www.rfi.fr/en/international/20260911-putin-in-india-for-brics-summit-overshadowed-by-war"
+      "headline": "Philippines ferry fire death toll rises to 35 with over 50 still missing as authorities begin identifying victims",
+      "source": "BBC World, The Hindu",
+      "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o"
     },
     {
-      "headline": "Algeria severs diplomatic ties with UAE, accusing Abu Dhabi of hostile interference in regional affairs",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20260910-algeria-cuts-diplomatic-ties-with-uae-after-years-of-mounting-tensions"
+      "headline": "Norway's Princess Astrid dies at 94, two days after attending her brother King Harald V's funeral",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo"
     },
     {
-      "headline": "At least 27 schoolchildren killed in stampede fleeing fire at schools in rebel-held Bukavu, eastern DRC",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20260911-children-killed-in-stampede-as-fire-sweeps-through-schools-in-eastern-drc"
+      "headline": "Ukraine orders civilian evacuations from fortress cities Slovyansk and Kramatorsk as Russia controls nearly 80% of Donetsk region",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cwyz89w59l3o"
     },
     {
-      "headline": "Canada and Ukraine sign 100-year partnership agreement covering defence, energy, technology and trade cooperation",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/business/article-canada-and-ukraine-sign-100-year-agreement-trade-defence/"
+      "headline": "Russian strike kills five and injures 67 at shopping mall in Pavlohrad, Ukraine",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo"
     },
     {
-      "headline": "$15.5 million fund launched to accelerate efforts to end female genital mutilation worldwide",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide"
-    },
-    {
-      "headline": "Five killed, dozens injured when Dutch tourist coach crashes in Swiss Alps",
-      "source": "BBC World, BBC Europe",
+      "headline": "Five dead and dozens injured after Dutch tourist coach crashes in Swiss Alps",
+      "source": "BBC Europe",
       "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o"
     },
     {
-      "headline": "Trump and Vance rally Republicans at Dallas convention ahead of challenging midterm elections",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-gop-republican-midterm-convention-vance/"
+      "headline": "North Korea launches ballistic missiles toward sea following US-South Korea-Japan military drill",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/north-korea-launches-ballistic-missiles-toward-sea-after-military-drill-it-sees-as-threat/article71458990.ece"
     },
     {
-      "headline": "Uganda withdraws from Invictus Games citing respect for King Charles amid royal family divisions",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles"
+      "headline": "France cuts 2026 growth forecast to 0.5% amid political uncertainty and energy price shocks, budget deficit target now out of reach",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260911-france-cuts-growth-forecast-again-as-economic-uncertainty-weighs-heavy"
     },
     {
-      "headline": "Australia moves toward legalizing plug-in balcony solar systems for apartment dwellers and renters",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-09-11/balcony-solar-to-become-legal-in-australia/107144234"
+      "headline": "Sweden heads to knife-edge election that could bring far-right Sweden Democrats into government for first time",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/12/sweden-heads-to-the-polls-whats-at-stake-in-the-knife-edge-election"
     },
     {
-      "headline": "Chinese AI chip maker Enflame surges 179% in Shanghai market debut as Nvidia challenger",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/ipo/chinese-nvidia-challenger-enflame-jumps-179-in-shanghai-market-debut"
+      "headline": "Uganda prepares to bury King Oyo, once world's youngest monarch, amid bitter succession dispute over secret son revelation",
+      "source": "The Guardian, The Hindu",
+      "url": "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute"
+    },
+    {
+      "headline": "C\u00e9line Dion set for emotional Paris comeback concert, her first full performance in six years after battling Stiff Person Syndrome",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260912-a-legend-celine-dion-poised-for-emotional-comeback-in-paris"
     }
   ]
 }
