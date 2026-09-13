@@ -1,208 +1,202 @@
 {
-  "date": "Saturday, September 12, 2026",
-  "daily_brief": "The most consequential development today is Saudi Arabia's shutdown of its critical East-West oil pipeline following drone attacks launched from Iraq [BBC], [France 24], [The Hindu], a move that removes 4-5% of global oil supply from a key bypass route around the Strait of Hormuz amid the ongoing US-Iran conflict now in its seventh month. This compounds existing pressure on global energy markets as Iranian-backed Houthi rebels consolidate territorial gains near the Bab el-Mandeb Strait. Meanwhile, BRICS leaders convened in New Delhi [France 24], [RFI], [Nikkei Asia], [Al Jazeera] with host India working to bridge divisions between Iran and the UAE to secure a joint statement, as the bloc seeks greater influence amid Western tensions. President Trump's two-day Ireland visit [BBC], [France 24] drew thousands of protesters and highlighted ongoing friction over his blending of official duties with personal business interests at his Doonbeg golf resort. The US marked the 25th anniversary of 9/11 with ceremonies featuring all living presidents [BBC], [RFI], while Trump used the occasion to link the original attacks to his current Iran campaign. French investigators suspect sabotage in a Normandy train derailment that injured 44 people [France 24], adding to European security concerns.",
+  "date": "Sunday, September 13, 2026",
+  "daily_brief": "The Middle East conflict expanded significantly this weekend as Saudi Arabia shut down a key oil pipeline following a drone attack launched from Iraq, with Iran-backed Houthi rebels simultaneously advancing along Yemen's Red Sea coast [BBC, Al Jazeera]. These developments threaten global energy markets as the US-Iran war enters its seventh month. In Europe, Sweden heads to the polls in a knife-edge election that could see the far-right Sweden Democrats enter government for the first time [Al Jazeera, France 24]. AI safety concerns dominated technology news after Anthropic CEO Dario Amodei called for slowing AI development, with rivals Sam Altman and Elon Musk expressing agreement; OpenAI subsequently confirmed it will not pursue an IPO in 2026 [BBC, Globe and Mail]. President Trump stirred diplomatic waters during his Ireland visit by endorsing Irish reunification, though bipartisan US lawmakers stressed this does not represent a policy shift [BBC, Globe and Mail]. Ukraine braces for what UN officials describe as its 'toughest winter' since Russia's 2022 invasion, with intensifying strikes on energy infrastructure threatening humanitarian catastrophe [BBC, The Economist].",
   "top_stories": [
     {
-      "headline": "Saudi Arabia Shuts Critical Oil Pipeline After Drone Attacks From Iraq",
-      "category": "Geopolitics",
+      "headline": "Saudi Arabia Shuts Critical Oil Pipeline After Iraq-Launched Drone Strike",
+      "category": "Conflict",
       "bullets": [
-        "Saudi Arabia closed its 1,200km East-West pipeline after drone attacks originating from Iraqi territory, with Baghdad acknowledging the strikes came from a province bordering Iran and firing a military commander in response",
-        "The pipeline, built in the 1980s, carries 4-5% of global oil supply and serves as a crucial bypass route around the Strait of Hormuz during the ongoing US-Iran conflict now in its seventh month",
-        "Saudi Arabia chose not to retaliate following a call from Iraq's prime minister but reserved the right to take future measures to protect its sovereignty and facilities",
-        "The shutdown compounds pressure on global energy markets as Iranian-backed Houthi rebels have made their biggest territorial gains in years near Yemen's coast, threatening the Bab el-Mandeb shipping strait"
+        "Saudi Arabia closed its 1,200km East-West pipeline after a drone attack originating from an Iraqi province bordering Iran, with Iraq firing a military commander and launching an investigation",
+        "The pipeline had been transporting 4-5% of global oil supply, helping Saudi Arabia bypass the Strait of Hormuz",
+        "The attack coincides with Houthi rebels seizing control of Yemen's entire Red Sea coast, putting additional pressure on global shipping as the US-Iran war continues into its seventh month",
+        "Saudi Arabia said the attack caused injuries and damage but chose not to retaliate at this stage"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized broader Middle East conflict context and Houthi advances in Yemen",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized pipeline's strategic importance and link to broader US-Iran conflict",
+          "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Focused on damage to Saudi civilian infrastructure including mosque",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/olympic-flame-arrives-in-senegal-for-first-ever-olympic-event-in-africa?traffic_source=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on live developments including Trump and Iranian president statements on regional dynamics",
-          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq"
+          "framing_note": "Covered Houthi offensive and displacement crisis separately",
+          "url": "https://www.france24.com/en/yemen-houthi-offensive-triggers-new-displacement-crisis"
+        }
+      ]
+    },
+    {
+      "headline": "AI Industry Leaders Call for Development Slowdown Amid Extinction Warnings",
+      "category": "Technology",
+      "bullets": [
+        "Anthropic CEO Dario Amodei published essay proposing three-point plan including independent monitoring, industry-wide regulation, and global oversight of AI development",
+        "OpenAI's Sam Altman and Elon Musk voiced agreement; Altman confirmed OpenAI will not pursue IPO in 2026 citing safety concerns",
+        "Former Anthropic researcher Jacob Coxon told BBC that AI company employees are 'genuinely frightened' about 'the fate of humanity in the next two years'",
+        "Growing numbers of US lawmakers are calling for new rules following warnings that AI could lead to human extinction"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Led with Amodei's proposal and competitor support",
+          "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on OpenAI IPO delay and regulatory response",
+          "url": "https://www.theglobeandmail.com/world/article-russian-strikes-kill-three-in-ukraine-as-putin-warns-europe-against/"
+        }
+      ]
+    },
+    {
+      "headline": "Sweden Votes in Tight Election That Could Bring Far Right Into Government",
+      "category": "Geopolitics",
+      "bullets": [
+        "Polls opened for general election with far-right Sweden Democrats potentially entering government for the first time if the right-wing bloc wins",
+        "Opposition leader Magdalena Andersson's left-wing bloc held comfortable polling lead but gap narrowed significantly in final campaign days",
+        "Andersson, who became Sweden's first female prime minister in 2021, cast her ballot early Sunday",
+        "Election follows broader European trend of far-right gains, with thousands rallying against AfD in Germany after recent electoral success"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized historic nature of potential far-right government entry",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/olympic-flame-arrives-in-senegal-for-first-ever-olympic-event-in-africa?traffic_source=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Linked to broader European far-right developments",
+          "url": "https://www.france24.com/en/yemen-houthi-offensive-triggers-new-displacement-crisis"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Calls for Irish Reunification During Golf Course Visit, Drawing Bipartisan Pushback",
+      "category": "Geopolitics",
+      "bullets": [
+        "President Trump said a unified Ireland would be 'fantastic' during meeting with Irish PM Miche\u00e1l Martin, stating 'it's going to happen eventually'",
+        "Former Trump envoy Mick Mulvaney and Democratic Congressman Brendan Boyle both said remarks do not represent US policy shift",
+        "Trump acknowledged there is 'no good answer' to the question when addressing business leaders later",
+        "Previous American presidents including Joe Biden avoided commenting directly on reunification despite emotional ties to Ireland"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized uncertainty about whether remarks represent policy or off-the-cuff comment",
+          "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c804dvky833o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Provided more historical context on Northern Ireland conflict",
+          "url": "https://www.theglobeandmail.com/world/article-russian-strikes-kill-three-in-ukraine-as-putin-warns-europe-against/"
+        }
+      ]
+    },
+    {
+      "headline": "Ukraine Faces 'Toughest Winter' as Russian Strikes Intensify Against Infrastructure",
+      "category": "Conflict",
+      "bullets": [
+        "UN development agency head Alexander De Croo warned of potential 'humanitarian catastrophe' if Russian attacks cut power and water access",
+        "Russia deployed nearly 500 drones against Ukrainian targets Saturday, killing nine people across multiple regions",
+        "Ukrainian officials said intensifying strikes on energy sector could reduce GDP by 1.5 points this year",
+        "Zelensky expressed willingness to meet Putin at Miami G20 in December; Kremlin immediately rejected offer, demanding meeting occur in Moscow"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Focused on UN warning and race to repair infrastructure before winter",
+          "url": "https://www.bbc.co.uk/news/articles/c804dvky833o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized civilian death toll and Zelensky's characterization of Russian tactics",
+          "url": "https://www.theglobeandmail.com/world/article-russian-strikes-kill-three-in-ukraine-as-putin-warns-europe-against/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Provided detailed technical background on pipeline history and Saudi statements",
-          "url": "https://www.thehindu.com/news/international/north-korea-launches-ballistic-missiles-toward-sea-after-military-drill-it-sees-as-threat/article71458990.ece"
-        }
-      ]
-    },
-    {
-      "headline": "BRICS Leaders Convene in New Delhi Amid Wars and US Tensions",
-      "category": "Geopolitics",
-      "bullets": [
-        "Leaders of the 11-nation BRICS bloc gathered in India for a two-day summit focused on trade, investment, and expanding the group's influence in global affairs",
-        "Indian Prime Minister Modi hosted Russian President Putin, Chinese President Xi, and Iranian President Pezeshkian amid heightened security with thousands of police deployed across New Delhi",
-        "The summit faces challenges in achieving unity as wars in Ukraine and the Middle East, plus US-China tensions, create competing priorities among members with sharply different foreign policy interests",
-        "Officials expressed optimism about issuing a joint declaration, with host India working to bridge differences between Iran and the UAE over the Persian Gulf crisis"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized bloc's ambitions for greater global role and internal tensions",
-          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq"
+          "framing_note": "Led with diplomatic angle of Zelensky's G20 meeting offer",
+          "url": "https://www.thehindu.com/news/international/indonesia-passenger-vessel-with-243-people-reportedmissing-agency-says/article71462492.ece"
         },
         {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on institutional positioning of emerging economies",
-          "url": "https://www.rfi.fr/en/international/20260911-25th-anniversary-9-11-ny-remembers-victims-poisoned-by-debris"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Highlighted Iran-UAE dynamic as key to joint statement success",
-          "url": "https://asia.nikkei.com/business/media-entertainment/bandai-finds-right-recipe-to-turn-toothbrushes-into-gundam-models"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Argued Trump's tariff threats may inadvertently strengthen BRICS appeal",
-          "url": "https://www.aljazeera.com/opinions/2026/9/12/trump-may-be-bricss-best-recruitment-agent?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Visits Ireland for Diplomacy and Golf Tournament at His Resort",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Trump arrived in Dublin for a two-day visit including meetings with Irish President Catherine Connolly and Taoiseach Miche\u00e1l Martin, triggering one of the largest security operations in Irish history with 4,000 personnel deployed",
-        "Irish President Connolly, an outspoken Gaza activist who previously called Trump a 'bully' over tariffs, faced pressure from Irish political parties to raise Middle East issues during her meeting with the US president",
-        "Trump will attend the Amgen Irish Open golf tournament at his Trump International Golf Links and Hotel Doonbeg, which he owns, and may present the trophy on Sunday",
-        "Thousands of anti-Trump protesters planned rallies in Dublin as critics highlighted the visit as another example of the president blending official duties with personal business interests"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on diplomatic meetings and Irish political pressure on President Connolly",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized blurring of presidency and personal business interests",
-          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Led with satirical artwork depicting Trump and protest preparations",
-          "url": "https://www.rnz.co.nz/news/world/1350692/trump-welcomed-to-ireland-with-trash-covered-double"
-        }
-      ]
-    },
-    {
-      "headline": "US Marks 25th Anniversary of September 11 Attacks",
-      "category": "Society",
-      "bullets": [
-        "President Trump led a Pentagon ceremony while Vice President Vance joined all four living former presidents\u2014Bush, Obama, Biden, and Clinton\u2014at the World Trade Center memorial in New York",
-        "Moments of silence marked the timing of each attack and the names of nearly 3,000 victims were read aloud; organizers added a seventh moment of silence for the first time to honor over 9,400 people who have died from illnesses linked to toxic exposure at Ground Zero",
-        "The CIA declassified intelligence briefs about Al-Qaeda coinciding with the anniversary",
-        "Trump used the occasion to link the original 'war on terror' to his current conflict with Iran, stating the Islamic Republic 'will never, ever have a nuclear weapon'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward coverage of ceremonies and Trump's Iran remarks",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused extensively on victims of toxic exposure and the new moment of silence",
-          "url": "https://www.rfi.fr/en/international/20260911-25th-anniversary-9-11-ny-remembers-victims-poisoned-by-debris"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Covered CIA document declassification",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/12/cia-declassifies-briefs-about-al-qaeda-on-9-11-anniversary_6757436_4.html"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Published opinion piece arguing War on Terror mainstreamed European far-right",
-          "url": "https://www.aljazeera.com/opinions/2026/9/12/trump-may-be-bricss-best-recruitment-agent?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "French Investigators Suspect Sabotage in Normandy Train Derailment",
-      "category": "Society",
-      "bullets": [
-        "A train carrying 186 passengers derailed between Rouen and Caen in northwest France on Friday evening, injuring 44 people including an 18-year-old woman in critical condition",
-        "Investigators found a fragment of rail on the track and are treating sabotage as the main line of inquiry",
-        "Authorities activated a mass-casualty response with 130 firefighters, five medical teams, and 80 vehicles; the train driver tested negative for drugs and alcohol",
-        "Traffic on the line has been suspended and power to the tracks cut as the investigation continues"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq"
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Framed war as 'intensifying, expanding and stuck'",
+          "url": "https://www.economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Philippines ferry fire death toll rises to 35 with over 50 still missing as authorities begin identifying victims",
-      "source": "BBC World, The Hindu",
-      "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o"
+      "headline": "French investigators examine possible sabotage after Normandy train derailment injures 44 people",
+      "source": "RFI English, BBC Europe",
+      "url": "https://www.rfi.fr/en/france/20260912-sabotage-investigation-underway-after-normandy-train-derailment-injures-dozens"
     },
     {
-      "headline": "Norway's Princess Astrid dies at 94, two days after attending her brother King Harald V's funeral",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo"
-    },
-    {
-      "headline": "Ukraine orders civilian evacuations from fortress cities Slovyansk and Kramatorsk as Russia controls nearly 80% of Donetsk region",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cwyz89w59l3o"
-    },
-    {
-      "headline": "Russian strike kills five and injures 67 at shopping mall in Pavlohrad, Ukraine",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo"
-    },
-    {
-      "headline": "Five dead and dozens injured after Dutch tourist coach crashes in Swiss Alps",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o"
-    },
-    {
-      "headline": "North Korea launches ballistic missiles toward sea following US-South Korea-Japan military drill",
+      "headline": "Indonesia searches for about 140 missing after ferry overturns in bad weather in Java Sea",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/north-korea-launches-ballistic-missiles-toward-sea-after-military-drill-it-sees-as-threat/article71458990.ece"
+      "url": "https://www.thehindu.com/news/international/indonesia-passenger-vessel-with-243-people-reportedmissing-agency-says/article71462492.ece"
     },
     {
-      "headline": "France cuts 2026 growth forecast to 0.5% amid political uncertainty and energy price shocks, budget deficit target now out of reach",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260911-france-cuts-growth-forecast-again-as-economic-uncertainty-weighs-heavy"
-    },
-    {
-      "headline": "Sweden heads to knife-edge election that could bring far-right Sweden Democrats into government for first time",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/12/sweden-heads-to-the-polls-whats-at-stake-in-the-knife-edge-election"
-    },
-    {
-      "headline": "Uganda prepares to bury King Oyo, once world's youngest monarch, amid bitter succession dispute over secret son revelation",
-      "source": "The Guardian, The Hindu",
-      "url": "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute"
-    },
-    {
-      "headline": "C\u00e9line Dion set for emotional Paris comeback concert, her first full performance in six years after battling Stiff Person Syndrome",
+      "headline": "UK police investigating \u00a372 million donation to Reform UK party",
       "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260912-a-legend-celine-dion-poised-for-emotional-comeback-in-paris"
+      "url": "https://www.france24.com/en/video/20260913-uk-police-probe-%C2%A372-million-donation-to-reform-uk"
+    },
+    {
+      "headline": "Bulgaria investigates fire at EMCO ammunition site as company claims sabotage",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cd94kj17zvwo"
+    },
+    {
+      "headline": "France expresses regret over UN social media post criticizing US human rights record, easing diplomatic tensions",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20260913-france-moves-to-defuse-us-row-over-un-social-media-post"
+    },
+    {
+      "headline": "Canada maintains hardball trade stance against Trump tariffs while other partners acquiesce",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-carney-canada-hardball-stance-trade-trump/"
+    },
+    {
+      "headline": "Olympic flame arrives in Senegal ahead of first-ever Olympic event held in Africa",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/olympic-flame-arrives-in-senegal-for-first-ever-olympic-event-in-africa"
+    },
+    {
+      "headline": "Philippine ferry fire death toll reaches 76 with identification process expected to take months",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/philippine-ferry-fire-victims-may-take-months-to-identify-authorities-say/article71462810.ece"
+    },
+    {
+      "headline": "$15.5 million fund launched to accelerate efforts to end female genital mutilation worldwide",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide"
+    },
+    {
+      "headline": "Niger military government reshuffles top army command following failed mutiny",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/13/niger-military-government-reshuffles-army-command-weeks-after-deadly-mutiny"
     }
   ]
 }
