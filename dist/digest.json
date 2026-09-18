@@ -1,208 +1,202 @@
 {
-  "date": "Thursday, September 17, 2026",
-  "daily_brief": "The US Federal Reserve raised interest rates for the first time in over three years, hiking to 3.75%-4% despite fierce opposition from President Trump, who nonetheless expressed support for Fed Chair Kevin Warsh while calling the board 'hostile' [BBC, France 24, Nikkei Asia]. The decision sent Asian currencies weakening against the dollar, with the yen slipping to the 156-range. In Europe, Commission President Ursula von der Leyen proposed making Canada the EU's first associate member, drawing an immediate threat of tariffs from Trump who called the plan 'laughable' and potentially 'hostile' [RFI, France 24, Le Monde]. The EU also announced sweeping restrictions on social media access for under-15s through the proposed EU Kids Act, which would ban under-13s from platforms entirely and limit teens aged 13-15 to one hour daily via parental 'mini accounts' [BBC]. In Paris, France hosted security talks with Lebanon and Jordan on replacing the UN's UNIFIL peacekeeping mission in southern Lebanon as its mandate nears expiration [RFI, Al Jazeera, Le Monde, France 24]. Meanwhile, South African authorities are investigating the discovery of a ninth woman's body near Johannesburg in two months, with President Ramaphosa vowing that 'no stone will be left unturned' amid growing fears of serial killings [BBC, The Guardian].",
+  "date": "Friday, September 18, 2026",
+  "daily_brief": "Canadian Prime Minister Mark Carney addressed the European Parliament in Strasbourg, warmly welcoming the EU's proposal for Canada to become its first 'associate member' \u2014 a move that drew threats of 'very serious tariffs' from US President Donald Trump [BBC, RFI]. The proposal reflects deepening transatlantic rifts as both Canada and the EU seek alternatives amid escalating US trade disputes. In Japan, the Bank of Japan raised interest rates to 1.25%, the highest since 1995, signaling continued monetary tightening even as the yen weakened [Financial Times, Nikkei Asia]. Russia began three days of parliamentary voting, with the Kremlin-aligned United Russia party expected to dominate in elections critics dismiss as neither free nor fair; the vote is being framed as a test of public support for the Ukraine war [BBC, Globe and Mail, Al Jazeera]. The EU announced plans to restrict social media access for children under 15, with Commission President von der Leyen proposing 'mini accounts' and strict age verification requirements [BBC]. In South Africa, a ninth woman's body was found near Johannesburg, intensifying fears of a serial killer and reigniting national anger over gender-based violence [BBC, Guardian, RNZ].",
   "top_stories": [
     {
-      "headline": "Federal Reserve Raises Interest Rates Despite Trump Opposition, Citing Persistent Inflation",
-      "category": "Economics",
-      "bullets": [
-        "The Federal Reserve unanimously raised rates to 3.75%-4% from 3.5%-3.75%, the first increase in over three years",
-        "Fed Chair Kevin Warsh said the move was necessary because 'inflation is too high and has been for too long,' noting US inflation has exceeded the 2% target for more than five years",
-        "President Trump had called for rate cuts but expressed support for Warsh after the decision while calling the Fed board 'hostile'",
-        "Asian currencies weakened following the announcement, with the Japanese yen falling to the 156-range against the dollar"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on Trump's opposition and the political tension with the Fed",
-          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief coverage emphasizing the defiance of Trump's wishes",
-          "url": "http://www.france24.com/en/lebanon-emmanuel-macron-welcomes-joseph-aoun-to-paris-for-middle-east-talks"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focused on currency market impacts and Asian economic implications",
-          "url": "https://asia.nikkei.com/business/media-entertainment/tokyo-game-show-sees-sharp-drop-in-china-exhibitors-as-ties-worsen"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headlines suggest focus on central bank independence under pressure",
-          "url": "https://www.ft.com/content/b1696209-2080-4714-9d5e-e5724200ac4d?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "EU Proposes Canada as First Associate Member, Drawing Trump Tariff Threat",
+      "headline": "Canada Welcomes EU 'Associate Member' Proposal as Trump Threatens Tariffs",
       "category": "Geopolitics",
       "bullets": [
-        "European Commission President Ursula von der Leyen proposed making Canada the EU's first associate member during her State of the Union speech, with Canadian PM Mark Carney in attendance",
-        "Von der Leyen suggested closer cooperation on tech, defense, and energy as democracies face a 'fracture in the international rules-based system'",
-        "Trump called the proposal 'laughable' and threatened 'very serious tariffs or stop trading with Europe' if he considers it a 'hostile act'",
-        "The European Commission responded that the alliance plan is 'not against anyone' but for both parties' common strengths"
+        "Canadian Prime Minister Mark Carney addressed the European Parliament, welcoming the EU's proposal for Canada to become its first 'associate member' and calling for deeper cooperation on defence, critical minerals, and energy security.",
+        "EU Commission President Ursula von der Leyen proposed the unprecedented arrangement on Wednesday; no such status currently exists under EU law.",
+        "US President Donald Trump called the proposal 'laughable' and threatened 'very serious tariffs' on Europe if he considered it a 'hostile act.'",
+        "Canada and the US remain locked in an escalating trade dispute following the collapse of bilateral talks last month."
       ],
       "sources": [
         {
-          "name": "RFI English",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's threat and the geopolitical context of US pressure on both Canada and EU",
-          "url": "http://www.rfi.fr/en/international/20260916-capture-of-mocha-marks-turning-point-in-yemen-war-with-ripples-across-red-sea"
+          "framing_note": "Emphasized warm reception from Carney and geopolitical context of US-Canada trade tensions",
+          "url": "#"
         },
         {
-          "name": "France 24",
+          "name": "RFI",
           "lean": "Center",
-          "framing_note": "Highlighted press skepticism about the proposal's feasibility",
-          "url": "http://www.france24.com/en/lebanon-emmanuel-macron-welcomes-joseph-aoun-to-paris-for-middle-east-talks"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Noted the Commission's defensive response to Trump's criticism",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/17/guinea-authorities-issue-warning-to-french-international-tv-broadcaster_6757620_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "EU Announces Plan to Restrict Social Media Access for Children Under 15",
-      "category": "Policy",
-      "bullets": [
-        "The proposed EU Kids Act would ban children under 13 from accessing social media platforms entirely",
-        "Children aged 13-15 would be limited to one hour per day via 'mini accounts' set up through parents' accounts",
-        "Social media companies would need to prove platforms are 'safe by design' or face fines of up to 6% of global sales",
-        "The restrictions would apply to TikTok, Instagram, Snapchat, YouTube, AI chatbots, and online games"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Straightforward policy coverage with emphasis on von der Leyen's framing about putting 'parents back in the driving seat'",
-          "url": "https://www.bbc.co.uk/news/articles/crwyz8j00q5no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Duplicate coverage of same story",
-          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "France Hosts Security Talks on Replacing UN Peacekeeping Mission in Lebanon",
-      "category": "Geopolitics",
-      "bullets": [
-        "French President Macron met with Lebanese President Joseph Aoun and Jordan's King Abdullah II to discuss post-UNIFIL security arrangements",
-        "The UN peacekeeping mission UNIFIL's mandate ends this year after nearly half a century of operations dating back to 1978",
-        "France and Italy have proposed a multinational coalition to succeed UNIFIL and prevent a security vacuum in southern Lebanon",
-        "Israeli forces continue to occupy what Israel calls a 'security zone' in southern Lebanon despite a framework deal agreed in June"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on the diplomatic mechanics and Lebanese government's position",
-          "url": "http://www.rfi.fr/en/international/20260916-capture-of-mocha-marks-turning-point-in-yemen-war-with-ripples-across-red-sea"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized ongoing Israeli attacks and occupation despite ceasefire, more critical of Israeli actions",
-          "url": "https://www.aljazeera.com/sports/2026/9/17/beckham-backs-messi-for-ballon-dor-after-netting-100th-inter-miami-goal?traffic_source=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": null,
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/17/guinea-authorities-issue-warning-to-french-international-tv-broadcaster_6757620_4.html"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": null,
-          "url": "http://www.france24.com/en/lebanon-emmanuel-macron-welcomes-joseph-aoun-to-paris-for-middle-east-talks"
-        }
-      ]
-    },
-    {
-      "headline": "South Africa Investigates Ninth Woman's Body Found Near Johannesburg Amid Serial Killing Fears",
-      "category": "Society",
-      "bullets": [
-        "Police confirmed discovery of a ninth woman's body in two months, found half-naked and wrapped in a sheet in Dawn Park on Thursday",
-        "Eight women's bodies have been found since July across Ekurhuleni, near Johannesburg's OR Tambo international airport",
-        "Several victims were found partially clothed with injuries; police have not confirmed whether the deaths are connected or if a serial killer is responsible",
-        "President Ramaphosa vowed 'no stone will be left unturned' as the killings cause 'fear and uncertainty in our communities'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward factual reporting on the investigation",
-          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Highlighted Carney's rejection of US pressure and framed alliance as response to trade 'weaponisation'",
+          "url": "#"
         },
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Broader context on South Africa's femicide crisis, including UN statistics showing the country has one of the highest rates of femicide globally at six times the world average",
-          "url": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/16/slave-trade-wealth-britain-financial-system-bank-of-england-enslaved-africans"
+          "framing_note": null,
+          "url": "https://www.theguardian.com/world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination"
+        }
+      ]
+    },
+    {
+      "headline": "Bank of Japan Raises Rates to 1.25%, Highest Since 1995",
+      "category": "Economics",
+      "bullets": [
+        "The Bank of Japan raised its benchmark interest rate to 1.25% in a split vote, marking the highest level since 1995.",
+        "Governor Kazuo Ueda stated monetary policy has entered a new phase amid growing upside inflation risks.",
+        "The yen weakened following the announcement despite the rate hike.",
+        "The move signals the BOJ intends to continue quarterly tightening to keep inflation in check."
+      ],
+      "sources": [
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on market reaction and acceleration of tightening cycle",
+          "url": "https://www.ft.com/content/14f9df6a-5a70-42d9-86ee-37e6242aae6e"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Emphasized Ueda's comments on policy phase shift and inflation risks",
+          "url": "https://asia.nikkei.com/politics/south-korea-s-lee-rules-out-any-combat-deployment-to-middle-east"
+        }
+      ]
+    },
+    {
+      "headline": "Russia Begins Three-Day Parliamentary Vote Amid War and Economic Strain",
+      "category": "Geopolitics",
+      "bullets": [
+        "Voting began Friday across Russia's 11 time zones for the 450-seat State Duma, the first parliamentary election since the 2022 invasion of Ukraine.",
+        "Only parties supporting President Putin and the war in Ukraine are registered to run; the liberal Yabloko party was barred from fielding candidates after a Supreme Court ruling.",
+        "The Kremlin is framing the vote as a demonstration of national unity and support for the war effort.",
+        "Critics dismiss the election as neither free nor fair; fuel shortages and conscription fears are reported to be unsettling some voters."
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Described system as 'managed democracy' and noted Kremlin's use of election to claim war support",
+          "url": "#"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized exclusion of anti-war candidates and economic strain",
+          "url": "https://www.theglobeandmail.com/world/article-voting-begins-in-three-day-russian-parliamentary-election/"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Focused on pre-election crackdown and suppression of even 'managed opposition'",
+          "url": "https://www.aljazeera.com/opinions/2026/9/18/israel-would-rather-not-watch-naza?traffic_source=rss"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on voting procedures and expected outcomes",
+          "url": "https://www.rnz.co.nz/news/world/1447458/police-charge-woman-believed-to-be-mother-of-baby-found-dead-in-sydney-bin"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Highlighted fuel queues and conscription fears among voters",
+          "url": "https://www.ft.com/content/14f9df6a-5a70-42d9-86ee-37e6242aae6e"
+        }
+      ]
+    },
+    {
+      "headline": "EU Announces Plan to Restrict Social Media Access for Under-15s",
+      "category": "Policy",
+      "bullets": [
+        "The European Commission announced plans to ban children under 13 from accessing social media platforms across EU member states.",
+        "Children aged 13-15 would be limited to one hour per day via 'mini accounts' set up through a parent's social media account.",
+        "Social media companies would be required to prove platforms are safe by design or face fines of up to 6% of global sales.",
+        "The legislation, called the EU Kids Act, would affect platforms including TikTok, Instagram, Snapchat, YouTube, AI chatbots, and online games."
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Presented as child safety measure with quotes from von der Leyen on parental control",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "Ninth Woman's Body Found Near Johannesburg as Serial Killer Fears Grow",
+      "category": "Society",
+      "bullets": [
+        "South African police confirmed the discovery of a ninth woman's body in two months in the Ekurhuleni area east of Johannesburg.",
+        "Several victims were found partially clothed with signs of injuries; police have not confirmed whether the deaths are connected.",
+        "President Cyril Ramaphosa vowed 'no stone will be left unturned' in the investigation.",
+        "South Africa has one of the highest femicide rates in the world \u2014 12.2 per 100,000 people in 2022, nearly six times the global rate."
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Focused on police investigation and presidential response",
+          "url": "#"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized systemic femicide crisis and women's fear, quoted activists",
+          "url": "https://www.theguardian.com/world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting with local resident quotes",
+          "url": "https://www.rnz.co.nz/news/world/1447458/police-charge-woman-believed-to-be-mother-of-baby-found-dead-in-sydney-bin"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Microsoft AI chief warns uncontrolled AI development could create 'silicon species' competing with humans",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo"
+      "headline": "UN experts say there are reasonable grounds to believe the US committed war crimes in February missile strikes in Iran that killed at least 177 civilians",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo"
     },
     {
-      "headline": "Syrian court issues first sentences over 2025 Alawite massacres, including death penalty and 20-year prison term",
-      "source": "France 24",
-      "url": "http://www.france24.com/en/middle-east/20260917-syrian-court-issues-first-sentences-over-2025-massacres-of-alawites"
+      "headline": "Swedish Prime Minister Ulf Kristersson resigns after his right-wing bloc narrowly lost the general election to the centre-left opposition",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po"
     },
     {
-      "headline": "US Congress passes Russia sanctions bill",
-      "source": "France 24",
-      "url": "http://www.france24.com/en/us-congress-passes-russia-sanctions-bill"
-    },
-    {
-      "headline": "Eight German state premiers back Chancellor Merz amid speculation over his political future as AfD surges",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c6dj4nn0n97ro"
-    },
-    {
-      "headline": "Japanese Prime Minister Takaichi conducts first cabinet reshuffle, retaining key finance, defense, and foreign ministers",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/japan-s-takaichi-carries-out-first-cabinet-reshuffle-with-few-changes"
-    },
-    {
-      "headline": "Houthi capture of Mocha port marks turning point in Yemen war, raising concerns over Red Sea shipping",
-      "source": "RFI English",
-      "url": "http://www.rfi.fr/en/international/20260916-capture-of-mocha-marks-turning-point-in-yemen-war-with-ripples-across-red-sea"
-    },
-    {
-      "headline": "French fishermen renew fuel price protests as government extends subsidies amid soaring diesel costs",
-      "source": "RFI English",
-      "url": "http://www.rfi.fr/en/france/20260917-french-fishermen-renew-protest-as-france-boosts-aid-over-soaring-fuel-prices"
-    },
-    {
-      "headline": "US bars some South Africans over claims of anti-white discrimination as Trump administration continues 'white genocide' claims",
+      "headline": "US announces visa restrictions on some South Africans over claims of anti-white discrimination under Trump administration policy",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination"
     },
     {
-      "headline": "Australia tightens student and backpacker visa rules to curb migration, capping working holiday extensions",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/australia-cracks-down-on-student-and-backpacker-visas-to-curb-migration/article71475836.ece"
+      "headline": "At least three dead including the 16-year-old gunman in a school shooting at Banga National High School in the southern Philippines",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o"
     },
     {
-      "headline": "Strait of Hormuz shipping traffic falls to just three vessels amid intensifying Gulf conflict",
+      "headline": "At least 48 people dead and about 100 hospitalized in Nigeria after drinking locally brewed alcohol suspected to contain methanol",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/18/nigeria-deaths-suspected-methanol-alcohol-brew-drink"
+    },
+    {
+      "headline": "Denmark inaugurates Greensand, the EU's first full-scale carbon capture and storage facility in the North Sea",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/number-of-ships-transiting-strait-of-hormuz-falls-to-three-on-september-16-data-shows/article71475544.ece"
+      "url": "https://www.thehindu.com/sci-tech/energy-and-environment/denmark-inaugurates-co2-storage-facility-in-north-sea/article71479679.ece"
+    },
+    {
+      "headline": "French prosecutors open criminal investigation into sexual harassment involving smart glasses after complaints about women being filmed without consent",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20260918-smart-glasses-come-into-focus-in-paris-sexual-harassment-investigation"
+    },
+    {
+      "headline": "Over 180 writers including Nobel laureates Olga Tokarczuk and JM Coetzee call for proof of life for 12 Eritrean writers detained since 2001",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/books/2026/sep/18/olga-tokarczuk-j-m-coetzee-lead-calls-for-release-of-disappeared-eritrean-writers"
+    },
+    {
+      "headline": "Philippine Stock Exchange approves Mynt's 92.32 billion peso IPO, potentially the country's largest ever, with GCash parent set to debut October 20",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/ipo/philippines-gcash-owner-gets-nod-for-92.32bn-peso-ipo"
+    },
+    {
+      "headline": "Taiwan conducts first joint military exercise using multiple types of attack drones as part of defense modernization push",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/taiwan-holds-first-joint-drill-using-multiple-attack-drones-in-modernisation-push/article71479863.ece"
     }
   ]
 }
