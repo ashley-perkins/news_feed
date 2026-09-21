@@ -1,202 +1,202 @@
 {
-  "date": "Sunday, September 20, 2026",
-  "daily_brief": "Sunday's news is dominated by escalating military actions across multiple theaters. Ukraine launched what Moscow's mayor called an 'unprecedented' drone attack on the Russian capital, with 450 drones intercepted and at least two civilians killed, while an oil refinery was damaged [BBC, ABC Australia, Le Monde]. The attack coincides with the final day of Russia's first wartime parliamentary election. In the Middle East, Houthi militants struck the Saudi capital Riyadh with ballistic missiles for the first time since escalating hostilities in July, prompting US travel warnings [BBC, France 24, Financial Times, Al Jazeera]. Diplomatically, the US and Denmark announced a security agreement over Greenland, resolving months of tension sparked by President Trump's annexation threats, with NATO welcoming the deal [BBC, The Economist, France 24]. In Germany, state elections in Berlin and Mecklenburg-Vorpommern could deliver another blow to Chancellor Merz's CDU following the far-right AfD's recent gains [BBC, Financial Times, Le Monde]. Meanwhile, French President Macron warned of intensifying Russian hybrid attacks against Europe and ordered enhanced protection of critical infrastructure [BBC].",
+  "date": "Monday, September 21, 2026",
+  "daily_brief": "German Chancellor Friedrich Merz faces mounting political pressure after his CDU party suffered historic defeats in two state elections Sunday, failing to enter parliament in Mecklenburg-Vorpommern for the first time in 77 years while the far-right AfD surged [BBC, Le Monde, France 24]. Russia's parliamentary elections delivered an expected victory for United Russia, expanding its constitutional majority despite over four years of war in Ukraine, with the only anti-war party Yabloko barred from the ballot [BBC, The Hindu]. Ukraine launched its largest drone attack on Moscow, with 450 drones targeting the capital's oil refinery and causing civilian casualties, as President Trump reportedly pressures Kyiv to halt strikes on Russian energy infrastructure [BBC, France 24, Financial Times]. In Ethiopia, seven armed groups including the TPLF and Fano militias formed an unprecedented alliance seeking to overthrow Prime Minister Abiy Ahmed's government, raising fears of renewed civil war [BBC, RFI]. Three major US news outlets\u2014CNN, Politico, and MS NOW\u2014announced they will sue the Trump administration over their White House ban, citing First Amendment violations [BBC, Financial Times]. World leaders gather in New York for the UN General Assembly, with key bilateral meetings expected between Trump and leaders including Macron, Burnham, and Zelensky amid ongoing conflicts in Iran and Ukraine [Globe and Mail, RFI].",
   "top_stories": [
     {
-      "headline": "Ukraine Launches 'Unprecedented' Drone Attack on Moscow, Killing Two",
-      "category": "Conflict",
+      "headline": "German Chancellor Merz Vows to Stay On Despite CDU's Historic State Election Defeats",
+      "category": "Geopolitics",
       "bullets": [
-        "Moscow Mayor Sobyanin reported 450 drones were shot down en route to the capital in what he called an 'unprecedented attack'; Russia's Defense Ministry claimed 1,100 Ukrainian drones were intercepted nationwide",
-        "At least two civilians were killed and six injured in the Moscow region; an oil refinery was damaged and several homes set ablaze",
-        "Ukraine's President Zelensky confirmed strikes hit a 'key' Russian oil facility and logistics site, calling them targets worth 'billions of dollars that sustain the war machine'",
-        "The attack coincides with the final day of Russia's first parliamentary election since the 2022 invasion, which the Kremlin has framed as a test of public support for the war"
+        "CDU fell below 5% threshold in Mecklenburg-Vorpommern, failing to enter a state parliament for first time in 77 years",
+        "Far-right AfD won 37% in Mecklenburg-Vorpommern; Die Linke (The Left) led in Berlin with CDU dropping to second place",
+        "Merz called results a 'disaster' but pledged to continue with economic, tax, and welfare reform agenda",
+        "AfD co-leader Alice Weidel told BBC that Merz would leave office 'pretty soon'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Balanced coverage presenting both Russian casualty claims and Ukrainian strategic justification",
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Emphasized scale of attack and election timing context",
-          "url": "https://www.abc.net.au/news/2026-09-20/slim-chance-find-shark-killed-greg-oneill-after-sorrento-attack/107173856"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article unavailable due to technical issues but headline confirmed coverage",
-          "url": "https://www.lemonde.fr/en/france/article/2026/09/20/the-surprising-deradicalization-speech-of-jihadist-othman-garrido-on-trial-for-beheadings-in-syria_6757724_7.html"
-        }
-      ]
-    },
-    {
-      "headline": "Houthi Missiles Strike Saudi Capital Riyadh in Major Escalation",
-      "category": "Conflict",
-      "bullets": [
-        "Iran-backed Houthi militants launched ballistic missiles and drones at Riyadh, with Saudi authorities confirming interception of at least one missile; air raid alerts sounded in the capital for the first time since July",
-        "Black smoke was seen rising from fuel tanks near Riyadh's international airport, causing temporary flight disruptions",
-        "Saudi-led coalition reported intercepting additional attacks targeting the cities of Bish, Taif, Farasan and Yanbu",
-        "The US State Department urged Americans to 'seriously reconsider travel to and through the region' citing potential for rapid escalation"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Factual reporting with emphasis on US travel warning",
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed coverage emphasizing Merz's defiance and AfD's continued isolation from coalition-building",
+          "url": "https://www.bbc.co.uk/news/articles/c617j2x01epjo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Brief coverage noting this as first strike on Riyadh",
-          "url": "https://www.france24.com/en/argentines-protest-milei-s-austerity-demanding-higher-wages-and-public-spending"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Framed as escalation of hostilities",
-          "url": "https://www.ft.com/content/a0771c0f-71e6-4c0b-9ff6-9845624f4875?syn-25a6b1a6=1"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Included expert analysis predicting 'sizeable Saudi response'",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/20-09-clip-townsend-gets-rolled-over-in-thailand-th?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "US and Denmark Reach Greenland Security Deal After Months of Trump Threats",
-      "category": "Geopolitics",
-      "bullets": [
-        "The US and Denmark announced a security agreement granting the US 'permanent control over security' in Greenland, according to President Trump, though no official text has been released",
-        "The deal reportedly prohibits any US adversary from maintaining military presence or making sensitive investments in Greenland without US approval",
-        "NATO welcomed the agreement as helping 'advance security, stability and cooperation' in the Arctic region",
-        "The deal resolves diplomatic tensions sparked by Trump's repeated threats to 'take' Greenland by force, citing its strategic location and mineral wealth"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced coverage noting deal terms remain unclear",
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief factual coverage",
-          "url": "https://www.france24.com/en/argentines-protest-milei-s-austerity-demanding-higher-wages-and-public-spending"
-        },
-        {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Critical framing noting annexation threats caused lasting diplomatic damage despite deal",
-          "url": "https://www.economist.com/international/2026/09/08/are-teenagers-growing-dimmer"
-        }
-      ]
-    },
-    {
-      "headline": "German State Elections Threaten Fresh Blow to Chancellor Merz",
-      "category": "Policy",
-      "bullets": [
-        "Voters in Berlin and Mecklenburg-Vorpommern are casting ballots in state elections where polls suggest Chancellor Merz's CDU faces potential defeats",
-        "In Mecklenburg-Vorpommern, the CDU is polling near the 5% threshold required to enter the state parliament, risking their worst-ever state election result",
-        "The elections follow the far-right AfD's major victory in Saxony-Anhalt two weeks ago, where the CDU's vote was halved",
-        "Speculation is mounting about a potential mid-term replacement of Merz unless CDU fortunes improve, though potential challengers remain hesitant"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage of political stakes for Merz",
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Framed as 'high-stakes test' for chancellor",
-          "url": "https://www.ft.com/content/a0771c0f-71e6-4c0b-9ff6-9845624f4875?syn-25a6b1a6=1"
+          "framing_note": "Highlighted EU-wide concerns about AfD rise",
+          "url": "https://www.france24.com/en/elif-eralp-could-become-first-left-party-mayor-in-berlin"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article unavailable but headline confirmed coverage; separate opinion piece analyzed German democratic systems fueling extremism",
-          "url": "https://www.lemonde.fr/en/france/article/2026/09/20/the-surprising-deradicalization-speech-of-jihadist-othman-garrido-on-trial-for-beheadings-in-syria_6757724_7.html"
+          "framing_note": "Framed as 'historic defeat' with focus on European implications",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/21/german-regional-elections-chancellor-merz-and-his-party-suffer-historic-defeat_6757759_4.html"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized struggle to maintain reform agenda",
+          "url": "https://www.theglobeandmail.com/world/article-world-leaders-gather-for-annual-un-meeting/"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Noted exit poll figures and comparison to post-WWII records",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "Macron Warns of Intensifying Russian Hybrid Attacks Against Europe",
+      "headline": "Russia's United Russia Party Expands Parliamentary Majority as Anti-War Opposition Barred",
       "category": "Geopolitics",
       "bullets": [
-        "French President Macron declared that Russian hybrid attacks against Europe and France have intensified in recent weeks",
-        "Macron ordered a plan to protect critical infrastructure and defense industry sites in response to the threat",
-        "The president cited last month's drone attack on Leipzig airport in Germany and Polish PM Tusk's warnings of potential Russian strikes against NATO's eastern flank",
-        "Macron stated France has been targeted by Russian hybrid attacks recently and they would not be left 'without a response'"
+        "United Russia won 57.83% of vote, up from 49.8% in 2021, securing approximately 355 of 450 Duma seats",
+        "Elections held after four-and-a-half years of war in Ukraine, amid economic difficulties and fuel shortages from Ukrainian drone strikes",
+        "Anti-war party Yabloko was removed from the ballot by Supreme Court just 12 days after being registered",
+        "Yabloko appeared to win a small foothold only in one regional parliament"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized Kremlin control and suppression of dissent, noting lack of surprises",
+          "url": "https://www.bbc.co.uk/news/articles/c617j2x01epjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "More detailed on vote counts and constitutional implications of majority",
+          "url": "https://www.thehindu.com/news/international/andy-burnham-is-set-to-meet-donald-trump-for-the-first-time-at-the-un-in-new-york/article71490809.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Ukraine Launches Largest Drone Attack on Moscow, Hitting Oil Refinery",
+      "category": "Conflict",
+      "bullets": [
+        "Mayor Sobyanin said 450 drones were shot down in 'most massive' attack on Moscow region",
+        "Strikes hit Moscow's main oil refinery and a residential building; at least two killed and 20 injured in Moscow region",
+        "President Zelensky confirmed hits on 'key' Russian oil facility and logistics site worth 'billions of dollars'",
+        "Financial Times reports Trump pressuring Zelensky to stop strikes on Russian refineries"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Straightforward reporting of Macron's statements and broader European context",
-          "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Balanced coverage of both Ukrainian and Russian perspectives on casualties",
+          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief coverage noting timing coincided with Russian election",
+          "url": "https://www.france24.com/en/elif-eralp-could-become-first-left-party-mayor-in-berlin"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Added context of US pressure on Ukraine to halt refinery strikes",
+          "url": "https://www.ft.com/content/1053717b-be89-4044-bf43-59603247dd3f?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "headline": "Seven Ethiopian Armed Groups Form Alliance to Overthrow Abiy Ahmed Government",
+      "category": "Conflict",
+      "bullets": [
+        "Alliance called 'Alliance for Survival' includes TPLF, Fano militia, Oromo Liberation Army, and four smaller groups",
+        "Groups accuse government of 'war, genocide, mass destruction, and utter poverty' and warn Ethiopia risks disintegration",
+        "Former enemies now collaborating after over a year of discussions; Fano leader Zemene Kasse to chair alliance",
+        "African Union has noted troop buildups along Tigray border; previous civil war killed approximately 600,000 people"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Factual coverage noting groups span half of Ethiopia's regional states",
+          "url": "https://www.bbc.co.uk/news/articles/c617j2x01epjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Emphasized TPLF vice president quotes and risk of return to war that killed 600,000",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "CNN, Politico, and MS NOW to Sue Trump Administration Over White House Press Ban",
+      "category": "Policy",
+      "bullets": [
+        "Three outlets announced joint lawsuit Monday after being barred from White House on Friday",
+        "Reporters had credentials revoked and badges seized when attempting to access building Saturday",
+        "Trump cited 'fiction or lies' about his government but did not specify particular stories",
+        "Outlets claim ban violates First Amendment protections against government discrimination based on coverage content"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on legal and constitutional issues",
+          "url": "https://www.bbc.co.uk/news/articles/c617j2x01epjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Brief headline coverage, limited additional context",
+          "url": "https://www.ft.com/content/1053717b-be89-4044-bf43-59603247dd3f?syn-25a6b1a6=1"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "37 suspected illegal miners, including children, found dead in overcrowded Nigerian detention cell; government appoints investigation panel",
-      "source": "The Guardian, RFI English",
+      "headline": "Canadian Finance Minister calls for UK to join proposed Canada-EU economic alliance amid US trade tensions",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cmed7p06epxjo"
+    },
+    {
+      "headline": "Guardian investigation reveals US deporting migrants to third countries including Central African Republic and Equatorial Guinea under opaque deals",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals"
+    },
+    {
+      "headline": "Iran's GDP contracted 10.1% in first quarter as oil and gas sector shrank 26.4% amid US-Israel war",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/21/how-oil-gas-losses-have-shrunk-irans-gdp-by-10-percent-during-war"
+    },
+    {
+      "headline": "US and China agree to tariff carve-outs for 'nonsensitive' goods and formal AI dialogue channel ahead of Xi-Trump summit",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-says-china-talks-yield-progress-on-tariff-carve-outs-ai-dialogue"
+    },
+    {
+      "headline": "Trump drops demands to own Greenland; Denmark says new defense deal places Arctic security under NATO watch",
+      "source": "The Economist / Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-denmark-greenland-us-nato-agreement-arctic-security/"
+    },
+    {
+      "headline": "British PM Andy Burnham to hold first meeting with Trump at UN, seeking Ukraine support and Strait of Hormuz reopening",
+      "source": "The Hindu / Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-burnham-trump-meeting-new-york/"
+    },
+    {
+      "headline": "Pakistan ex-PM Imran Khan's three sisters arrested in Lahore ahead of planned September 27 protest",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/pakistan-ex-pm-imran-khans-three-sisters-arrested-in-lahore/article71490800.ece"
+    },
+    {
+      "headline": "Thousands march in France against proposed 'licence to kill' law on police use of force",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20260921-thousands-march-in-france-against-licence-to-kill-draft-law"
+    },
+    {
+      "headline": "EU scrambles for Russia sanctions extension as France demands oligarch Alisher Usmanov be removed from blacklist",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/eu-scrambles-for-russia-sanctions-deal-amid-france-standoff/article71491116.ece"
+    },
+    {
+      "headline": "37 suspected illegal goldminers including children died of suffocation in Nigerian paramilitary custody",
+      "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna"
-    },
-    {
-      "headline": "Swedish PM Ulf Kristersson resigns after narrow election defeat to center-left opposition led by Social Democrats",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po"
-    },
-    {
-      "headline": "Ed Sheeran addresses Gaza controversy at first concert since dropping Macklemore, calls situation 'unjustifiable'",
-      "source": "BBC World, France 24",
-      "url": "https://www.bbc.co.uk/news/articles/cm780ll1de18o"
-    },
-    {
-      "headline": "Canada's PM Mark Carney responds warmly to EU 'associate membership' invitation, proposing deep cooperation on defense, energy and technology",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/crlyqg1ekj4po"
-    },
-    {
-      "headline": "North Korea fires unidentified projectile into East Sea days after reaffirming nuclear-armed status",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/north-korea-fires-unidentified-projectile-into-east-sea-seoul/article71487358.ece"
-    },
-    {
-      "headline": "Two men deported from US to Equatorial Guinea reportedly beaten and imprisoned after speaking to press about detention conditions",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea"
-    },
-    {
-      "headline": "Pope Leo XIV to begin official visit to France on September 25, with clerical abuse and assisted dying law among key issues",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20260920-pope-leo-in-france-the-key-issues-on-the-table"
-    },
-    {
-      "headline": "India's exports to core BRICS countries surge 34% in April-August, with China leading at 39% growth",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/indias-exports-to-core-brics-markets-surge-34-in-april-august-china-leads/article71487434.ece"
-    },
-    {
-      "headline": "Ten lions found dead in suspected poisoning at Tanzania's UNESCO-listed Ngorongoro Conservation Area",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/ten-lions-die-in-suspected-poisoning-at-tanzania-wildlife-reserve/article71487470.ece"
-    },
-    {
-      "headline": "British woman kidnapped in Malawi rescued by police after shootout that killed four alleged abductors",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout"
     }
   ]
 }
