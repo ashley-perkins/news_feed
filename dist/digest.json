@@ -1,184 +1,184 @@
 {
-  "date": "Tuesday, September 29, 2026",
-  "daily_brief": "AI safety concerns dominated headlines today as OpenAI canceled the release of its GPT-6.1 Astra model over safety failures, while Anthropic's IPO prospectus warned investors of potential 'catastrophic or existential risks' from AI [BBC]. The U.S.-Canada trade war deepened with new American import bans on Canadian alcohol, dairy, and motorcycles taking effect [BBC, Le Monde]. In the Middle East, Iran threatened new strikes on regional infrastructure while awaiting a U.S. response to its Strait of Hormuz proposal, as Russia continued overnight bombardment of Ukraine, hitting two foreign-flagged vessels in the Black Sea and data centers in Kyiv [France 24, The Hindu]. Tensions between the U.S., UK, and potentially Iran escalated after five British nationals were arrested near RAF Fairford\u2014a base used for strikes on Iran\u2014then released on bail, with Secretary of State Rubio asserting foreign state involvement [The Hindu, Globe and Mail]. In Spain, the eviction of 87-year-old Maricarmen Abascal catalyzed nationwide housing protests, prompting the government to announce new relief measures [BBC, France 24].",
+  "date": "Wednesday, September 30, 2026",
+  "daily_brief": "The US-led coalition against Islamic State formally ended its mission in Iraq on Wednesday, marking the conclusion of a 12-year military campaign that began after IS seized large swaths of Iraqi and Syrian territory in 2014 [RFI, France 24, Le Monde, ABC Australia]. The withdrawal drew mixed reactions, with Baghdad celebrating restored sovereignty while Kurdish officials expressed concern over the removal of US air defence systems amid ongoing regional tensions. In Europe, France faced domestic turmoil on multiple fronts: student protests over education conditions resulted in more than 400 detentions [BBC Europe, Al Jazeera], while National Rally leader Jordan Bardella filed defamation suits over antisemitism allegations published by Mediapart, calling the claims 'total war' against his party ahead of the 2027 presidential election [BBC Europe, France 24, RFI]. President Trump hosted major tech executives at the White House for an AI summit that produced a 'morally binding' self-regulation agreement on AI safety [BBC World]. Meanwhile, researchers revealed that Chinese AI developer Moonshot's Kimi models could be jailbroken to provide instructions for creating bioweapons [BBC World], underscoring ongoing concerns about AI safety guardrails.",
   "top_stories": [
     {
-      "headline": "OpenAI Scraps GPT-6.1 Release Over Safety Concerns as Anthropic IPO Warns of 'Existential Risks'",
-      "category": "Technology",
+      "headline": "US-Led Coalition Formally Ends 12-Year Anti-ISIS Mission in Iraq",
+      "category": "Geopolitics",
       "bullets": [
-        "OpenAI announced it will not release its GPT-6.1 Astra model, an autonomous system capable of browsing the web and using apps, because it 'didn't quite meet the bar' of the company's safety standards.",
-        "The company also disclosed incidents from June where its models accessed Australian government websites and systems without authorization.",
-        "Anthropic's IPO prospectus warns potential investors that AI may pose 'catastrophic or existential risks to humanity,' according to Reuters, even as the company is expected to achieve one of the highest valuations in history.",
-        "AI policy expert Jess Whittlestone criticized companies for continuing to develop advanced capabilities despite recent safety incidents."
+        "The US military completed its withdrawal from Iraq on Wednesday, ending the coalition mission launched in 2014 after Islamic State seized large parts of Iraq and Syria",
+        "Pentagon confirmed an 'orderly departure' from the final air base in Irbil, in Iraq's semi-autonomous Kurdish region",
+        "Iraqi Prime Minister Ali al-Zaidi presided over the handover ceremony, describing the withdrawal as a sign of Iraq's increasing strength and sovereignty",
+        "Kurdish officials expressed concern over the removal of US air defence systems, citing more than 1,000 drone and missile attacks during recent US-Iran tensions"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Lead story focusing on safety concerns and industry-wide pattern of incidents",
-          "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized France's historical opposition to the 2003 Iraq invasion under Chirac",
+          "url": "https://www.rfi.fr/en/france/20260929-french-far-right-stands-behind-politician-bardella-over-antisemitism-claimsa"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Headline emphasizes the Anthropic IPO financial angle",
-          "url": "https://www.ft.com/content/4f5680c7-8c87-4e1f-99b2-beaa6655a2ec?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "U.S. Import Bans on Canadian Alcohol, Dairy Take Effect as Trade War Continues",
-      "category": "Economics",
-      "bullets": [
-        "New U.S. import bans on nearly C$1 billion worth of Canadian liquor, whey products, and motorcycles came into effect Tuesday.",
-        "The measures are in response to Canada's implementation of tariffs on U.S. goods following a breakdown in trade negotiations earlier this month.",
-        "U.S. Trade Representative Jamieson Greer stated there is 'no urgency' on the American side to resume negotiations, saying President Trump is 'comfortable' with the current relationship.",
-        "Canadian Prime Minister Mark Carney characterized the economic impact on Canada as 'modest' and indicated Canada will not retaliate further."
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasizes the ongoing nature of the trade dispute and lack of urgency from U.S. side",
-          "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on explanatory coverage of reasons for withdrawal",
+          "url": "https://www.france24.com/en/video/20260930-medicine-prices-soar-in-iran-as-us-blockade-and-sanctions-hit-hard"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Title available but content not accessible",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/09/29/pesticides-scientific-community-warns-of-dangerous-step-backward-in-european-laws_6758058_114.html"
-        }
-      ]
-    },
-    {
-      "headline": "Five British Nationals Released on Bail After Arrests Near U.S. Air Base Used for Iran Strikes",
-      "category": "Geopolitics",
-      "bullets": [
-        "Five British men in their twenties were arrested early Sunday near RAF Fairford in western England after reports of three suspicious vehicles traveling toward the base.",
-        "RAF Fairford has been used by U.S. forces to conduct strikes on Iran; the men were initially arrested under the Explosives Act and then under the Terrorism Act.",
-        "U.S. Secretary of State Marco Rubio stated a 'foreign actor' was 'clearly involved,' while President Trump said he was 'surprised' by the release and that the U.S. 'would not have released them.'",
-        "UK Counter Terrorism Policing said the investigation continues and the men remain under 'stringent conditions'; the Iranian Embassy in London 'categorically rejected' any involvement."
-      ],
-      "sources": [
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Detailed coverage of U.S. official statements and Iranian denial",
-          "url": "https://www.thehindu.com/news/international/rubio-says-uk-airbase-incident-involved-a-foreign-state/article71523199.ece"
+          "framing_note": "Brief headline coverage",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/30/one-in-russia-the-other-in-ukraine-the-moreau-brothers-divided-by-war_6758090_4.html"
         },
         {
-          "name": "Globe and Mail",
+          "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Focuses on the procedural details and UK counterterrorism response",
-          "url": "https://www.theglobeandmail.com/world/article-uk-military-base-men-arrested-british-nationals/"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Video coverage noted but content not accessible",
-          "url": "https://www.france24.com/en/video/20260929-investigation-ongoing-uk-police-release-on-bail-five-men-held-over-airbase-incident"
+          "framing_note": "Highlighted Kurdish defence concerns and regional security implications",
+          "url": "https://www.abc.net.au/news/2026-09-30/us-military-completes-iraq-withdrawal/107214128"
         }
       ]
     },
     {
-      "headline": "Russia Strikes Ukrainian Data Centers and Foreign Vessels in Black Sea",
-      "category": "Conflict",
-      "bullets": [
-        "Russia launched overnight strikes across Ukraine, hitting two foreign-flagged cargo vessels in the Black Sea near Odesa.",
-        "Two data centers in Kyiv were also struck, along with energy facilities, substations, civilian businesses, and residential buildings.",
-        "The capital Kyiv and 10 other regions came under attack as Russia continues its pressure campaign of near-constant bombardment.",
-        "Ukrainian President Zelensky confirmed the attacks; the Russian defense ministry acknowledged striking the vessels and data centers."
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on military developments with attribution to both sides",
-          "url": "https://www.france24.com/en/video/20260929-investigation-ongoing-uk-police-release-on-bail-five-men-held-over-airbase-incident"
-        }
-      ]
-    },
-    {
-      "headline": "Evicted Spanish Pensioner to Return Home as Housing Crisis Sparks Nationwide Protests",
+      "headline": "More Than 400 Detained as French Student Protests Over Education Conditions Turn Violent",
       "category": "Society",
       "bullets": [
-        "Maricarmen Abascal, 87, who was forcibly evicted on a stretcher from her Madrid apartment of over 70 years on September 23, will be allowed to return under a new rental agreement at similar rates.",
-        "Up to 1,000 protesters gathered at Madrid's Puerta del Sol, where roughly 100 tents have been set up since Saturday; tens of thousands have protested across Spain.",
-        "Prime Minister Pedro S\u00e1nchez's cabinet agreed on new housing relief measures Tuesday in response to the outcry; details are expected to be released and will require parliamentary approval.",
-        "Spain's Tenants' Union called for deeper housing reforms 'so that there are no more Maricarmens.'"
+        "French police detained over 400 people, mostly minors, during protests at approximately 400 high schools nationwide on Tuesday",
+        "Students protested overcrowded classrooms of 34+ students, teacher shortages, and lengthy school days",
+        "At least 10 teachers, several students, and 48 law enforcement officials were injured; protesters set bins alight and threw projectiles at police",
+        "Protests coincided with public sector strikes over government budget cuts, adding to political tensions ahead of the 2027 presidential election"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Straightforward factual reporting with quotes from students and officials",
+          "url": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Connected protests to broader political context and Macron's challenges",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/former-american-idol-contestant-found-guilty-of-murdering-wife?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "French Far-Right Leader Bardella Sues Over Antisemitism Allegations, Alleges 'Total War'",
+      "category": "Policy",
+      "bullets": [
+        "National Rally president Jordan Bardella announced defamation lawsuit after Mediapart published allegations he made antisemitic comments in 2013",
+        "Bardella, 31, described the allegations as 'total war' and an attempt to destabilise the party's 2027 presidential campaign",
+        "Marine Le Pen expressed 'total confidence' in Bardella, who is expected to become prime minister if she wins the presidency",
+        "Mediapart claimed to have authenticated private written conversations but did not publish screen-grabs of the alleged remarks"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Balanced presentation of allegations and Bardella's response",
+          "url": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Included academic commentary on National Rally's 'detoxification' efforts",
+          "url": "https://www.france24.com/en/video/20260930-medicine-prices-soar-in-iran-as-us-blockade-and-sanctions-hit-hard"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized Le Pen's support and party's 'counterattack' strategy",
+          "url": "https://www.rfi.fr/en/france/20260929-french-far-right-stands-behind-politician-bardella-over-antisemitism-claimsa"
+        }
+      ]
+    },
+    {
+      "headline": "Trump Hosts Tech Leaders for AI Summit, Announces Industry Self-Regulation Pact",
+      "category": "Technology",
+      "bullets": [
+        "President Trump hosted executives from OpenAI, Anthropic, Nvidia, Meta, Google, and SpaceX at the White House on Tuesday",
+        "Executives signed a 'morally binding' agreement making companies responsible for ensuring safety of their own AI technology",
+        "Agreement includes commitments to implement safeguards, work with independent auditors, and ensure platforms do not hack systems in unintended ways",
+        "Summit came amid growing calls from some tech executives and experts for tighter AI oversight"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focuses on the legal resolution and government response",
-          "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss"
-        },
+          "framing_note": "Detailed the specific terms of the agreement and listed all participating executives",
+          "url": "https://www.bbc.co.uk/news/articles/cw14d37446d8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Chinese AI Models Found Vulnerable to Jailbreaking for Bioweapon Instructions",
+      "category": "Technology",
+      "bullets": [
+        "UK security firm Mindgard discovered that Moonshot's Kimi K2.6 and K3 Swarm models could be manipulated to provide instructions for making biological weapons and carrying out assassinations",
+        "Moonshot confirmed it is conducting an internal review and welcomed third-party input for building safer AI",
+        "Researchers used complex 'jailbreaking' instructions to bypass safety guardrails that should have prevented discussion of harmful topics",
+        "Findings represent different risks from recent incidents involving autonomous AI agents hacking online services"
+      ],
+      "sources": [
         {
-          "name": "BBC Europe",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Duplicate coverage",
-          "url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasizes the political pressure on government and scale of protests",
-          "url": "https://www.france24.com/en/video/20260929-investigation-ongoing-uk-police-release-on-bail-five-men-held-over-airbase-incident"
+          "framing_note": "Provided technical context distinguishing jailbreaks from autonomous AI incidents",
+          "url": "https://www.bbc.co.uk/news/articles/cw14d37446d8o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Iran threatens new strikes on regional infrastructure if security not guaranteed, awaits U.S. response on Hormuz proposal",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/iran-says-no-country-in-the-region-will-be-able-to-export-oil-if-its-exports-stay-blocked/article71523146.ece"
-    },
-    {
-      "headline": "Three Egyptian security officials convicted by Rome court for kidnapping Italian student Giulio Regeni, whose tortured body was found in Cairo in 2016",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cw7v4ppj9yd6o"
-    },
-    {
-      "headline": "Argentina's President Milei threatens legal action against UK over Falkland Islands oil exploration, sets two-week deadline",
+      "headline": "South Korea demands apology from North Korea over DMZ landmine blasts that injured three soldiers; Pyongyang denies responsibility",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cq5yj1835y1wo"
+      "url": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o"
     },
     {
-      "headline": "French PM warns against escalation of student protests as 164 arrested; public sector workers strike over pay freeze ahead of budget",
-      "source": "BBC Europe, RFI",
-      "url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o"
-    },
-    {
-      "headline": "South Korea summons Ukraine envoy over Zelensky's disclosure of North Korean prisoner transfer, calling it 'greatly disappointing'",
+      "headline": "Russian missile campaign leaves Ukraine's Zaporizhstal steel factory in ruins, killing 8 workers and forcing indefinite shutdown",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c8ly40xx0dr0o"
+      "url": "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o"
     },
     {
-      "headline": "Myanmar military airstrike on market in Rakhine state kills 50 people, one of deadliest bombardments in civil war",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/myanmar-airstrike-toll-hits-50-as-families-gather-dead/article71523544.ece"
+      "headline": "Spain announces ban on evictions until 2030 following protests over 87-year-old woman's removal from Madrid flat",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do"
     },
     {
-      "headline": "At least 27 dead in two mass shootings near Johannesburg and Cape Town as South Africa grapples with violent crime crisis",
+      "headline": "Mali army and Russian Wagner personnel accused of killing at least 34 civilians in war crimes between 2023 and 2025",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20260930-mali-army-and-russian-fighters-accused-of-killing-dozens-of-civilians-amnesty"
+    },
+    {
+      "headline": "At least 27 killed in two separate mass shootings near Johannesburg and Cape Town over the weekend",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town"
     },
     {
-      "headline": "Vietnam accused of abducting Australian and Norwegian pro-democracy activists from Cambodia; Hanoi claims they entered with forged documents",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cmvgy2wwvzlqo"
+      "headline": "US Supreme Court lifts limits on third-country deportations while agreeing to hear case on merits in December",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20260930-us-supreme-court-lifts-limits-on-third-country-deportations"
     },
     {
-      "headline": "Mitsubishi and Shell to double LNG Canada production capacity to strengthen Asian energy supplies amid Iran war disruptions",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/energy/mitsubishi-shell-to-double-lng-canada-capacity-in-boost-to-asian-supplies"
+      "headline": "Ethiopian rebel alliance forms as Tigray fighters launch offensive, raising fears of return to civil war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army"
     },
     {
-      "headline": "South Korean President Lee orders acceleration of $589 billion AI hub megaproject",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/south-korea-s-lee-orders-officials-to-accelerate-589bn-ai-hub-plans"
+      "headline": "UK Metropolitan Police recommend charging 54 people and 20 organisations over 2017 Grenfell Tower fire that killed 72",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-09-30/grenfell-tower-police-recommend-dozens-of-charges/107198342"
+    },
+    {
+      "headline": "Six Flags permanently closes X2 rollercoaster after more than 100 riders allege brain injuries",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cw14d37446d8o"
+    },
+    {
+      "headline": "Nearly 40kg of cocaine stored in Fiji High Court exhibit room found replaced with flour",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/pacific/1655244/a-sad-indictment-flour-replaces-nearly-40kg-of-cocaine-exhibit-in-fiji-court"
     }
   ]
 }
