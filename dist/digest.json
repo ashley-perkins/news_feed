@@ -1,232 +1,184 @@
 {
-  "date": "Wednesday, October 07, 2026",
-  "daily_brief": "Wednesday marks the third anniversary of the October 7, 2023 Hamas-led attacks on Israel, with commemorations across the country even as the conflict's toll continues to mount\u2014over 74,000 Palestinians killed in Gaza according to [Al Jazeera] and [RFI], while [BBC] and [Globe and Mail] report Israelis gathering at massacre sites and the music festival location. In France, a major domestic crisis deepens as the government suspended stun grenade use after a 15-year-old lost his hand during student protests over school conditions; Prime Minister Lecornu will address the nation Wednesday evening [BBC], [France 24], [RFI]. On the health front, Kenya confirmed its first-ever Ebola death from the ongoing DRC outbreak that has killed over 4,000 people [Guardian], while the WHO pressed Russia for transparency on a plague lab worker's death in Siberia\u2014President Trump said he would discuss the matter with Putin [BBC], [The Hindu]. In Stockholm, the Nobel Prize in Chemistry was awarded to France's Henri Kagan and Japan's Kenso Soai for their work on molecular mirror images [Nikkei Asia], [Globe and Mail], [ABC Australia]. Meanwhile, Russia launched one of its largest missile barrages against Ukraine, killing at least 15 civilians on Putin's birthday [BBC].",
+  "date": "Thursday, October 08, 2026",
+  "daily_brief": "The deadliest day for Ukrainian civilians in months saw Russian glide bombs kill 33 people at a bus stop in Kramatorsk, following an apartment strike in Pryluky that killed 22, including five children [BBC, ABC Australia, The Hindu]. UK Foreign Secretary Ed Miliband announced new sanctions against Russia during a visit to Kyiv. In European politics, Italy's parliament approved controversial electoral reforms that will award bonus seats to election winners, a move Prime Minister Meloni framed as promoting stability but critics called undemocratic [BBC, Al Jazeera, Financial Times]. The Nobel Prize in Literature was awarded to Canadian poet Anne Carson for her classically-inspired works [France 24, ABC Australia]. Kenya confirmed its first Ebola case as the outbreak in the Democratic Republic of Congo continues to spread, with over 4,000 deaths since May [The Guardian]. Meanwhile, Ethiopian drone strikes targeted Eritrean forces in northern Tigray as the Horn of Africa conflict escalates, with the two nations having severed diplomatic ties last week [RFI]. The G7 announced plans to release emergency diesel reserves amid global shortages driven by disruptions to shipping through the Strait of Hormuz and damage to Russian refineries [Al Jazeera].",
   "top_stories": [
     {
-      "headline": "Israel Marks Third Anniversary of October 7 Attacks Amid Ongoing Regional Conflict",
+      "headline": "Russian Strikes Kill 55 Ukrainian Civilians in 24 Hours as Attacks Surge",
       "category": "Conflict",
       "bullets": [
-        "Three years after Hamas-led attacks killed approximately 1,200 Israelis and took 251 hostages, commemorations were held at kibbutzim, bomb shelters, and the Nova music festival site",
-        "More than 74,000 Palestinians have been killed in Gaza since Israel's retaliatory campaign began, with over 1,460 killed since the October 2025 ceasefire",
-        "All hostages have now returned home, marking the first anniversary without captives still held in Gaza",
-        "Israeli troops continue to occupy portions of southern Lebanon in ongoing conflict with Hezbollah, which began supporting Hamas in 2023"
+        "A Russian glide bomb struck two passenger buses at a bus stop in Kramatorsk, killing 33 people and wounding 18, according to Ukrainian officials",
+        "A separate strike on an apartment block in Pryluky on Wednesday killed 22 people, including five children, three of whom were one year old",
+        "UN data indicates more Ukrainian civilians have been killed by August 2026 than in all of 2025",
+        "UK Foreign Secretary Ed Miliband announced additional sanctions against Russia during a visit to Kyiv, calling the attacks evidence of Putin's 'evil intent'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focuses on kibbutz rebuilding and human stories of survivors",
-          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized UK diplomatic response and described attacks as showing Putin's 'evil strategy'",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Le Monde",
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Focused on Zelensky's announcement of US negotiations and calls for Trump to pressure Russia",
+          "url": "https://www.abc.net.au/news/2026-10-08/missing-evidence-in-marilyn-wallman-disappearance/107245052"
+        },
+        {
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Content unavailable but headlines suggest focus on Israeli trauma and political debate",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/07/israeli-settlers-beat-afp-photographer-in-occupied-west-bank_6758342_4.html"
-        },
+          "framing_note": "Brief factual reporting with minimal framing",
+          "url": "https://www.thehindu.com/sci-tech/technology/meta-says-it-is-using-ai-to-detect-child-sexual-abuse-content-on-instagram-and-facebook/article71558704.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Italy Passes Controversial Electoral Reform Awarding Bonus Seats to Winners",
+      "category": "Policy",
+      "bullets": [
+        "Italian parliament voted 227-164 to approve electoral changes that will award 105 additional seats to any party or coalition winning more than 42% of votes",
+        "The reform moves Italy from a hybrid system to fully proportional representation with mandatory pre-election coalition announcements",
+        "Prime Minister Giorgia Meloni had threatened to resign and trigger early elections if the reform failed",
+        "Opposition parties accused the ruling coalition of designing the system to improve its re-election chances in 2027"
+      ],
+      "sources": [
         {
-          "name": "RFI English",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Emphasizes territorial changes and Palestinian casualties with detailed mapping context",
-          "url": "https://www.rfi.fr/en/africa/20261006-france-earmarks-a-further-%E2%82%AC7m-to-help-fight-drc-s-worst-ever-ebola-crisis"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Balanced coverage of both Israeli mourning and Palestinian conditions",
-          "url": "https://www.theglobeandmail.com/world/video-scars-remain-as-israeli-hostages-try-to-heal-from-oct-7-2023-hamas/"
+          "framing_note": "Presented both Meloni's stability argument and opposition criticism of democratic concerns",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9rgg80z94o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Frames ongoing conflict as 'genocide' and emphasizes continued US military support",
-          "url": "https://www.aljazeera.com/video/doha-debates/2026/10/7/doha-debates-should-we-trust-the-news?traffic_source=rss"
+          "framing_note": "Emphasized critics' view that reform is 'undemocratic' and grants 'disproportionate power'",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/hegseth-address-sailors-in-pushup-apology-and-trump-impression?traffic_source=rss"
         },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Neutral commemoration coverage",
-          "url": "https://www.france24.com/en/video/20261007-paramount-wraps-up-mega-warner-bros-merger-to-create-hollywood-powerhouse-skydance"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Noted Meloni's political victory but warned reform could prove 'pyrrhic' for her re-election prospects",
+          "url": "https://www.ft.com/content/ba171091-839a-4d78-86af-8e93a7013d6c?syn-25a6b1a6=1"
         }
       ]
     },
     {
-      "headline": "France Suspends Stun Grenades as Student Protests Escalate; PM to Address Nation",
+      "headline": "Anne Carson Wins Nobel Prize in Literature for Classically-Inspired Works",
       "category": "Society",
       "bullets": [
-        "Interior Minister suspended stun grenade use after a 15-year-old's hand was blown off during Monday protests in Lens",
-        "Over 500 schools were fully or partially closed Wednesday, with 24 schools set alight or vandalized affecting 30,000 pupils",
-        "An estimated 260,000-450,000 protesters marched Tuesday demanding better school conditions; 488 arrested and 43 security personnel injured",
-        "Prime Minister Lecornu scheduled evening address covering school protests, fuel prices, agricultural crisis, and national finances"
+        "Canadian poet and essayist Anne Carson, 76, was awarded the 2026 Nobel Prize in Literature by the Swedish Academy",
+        "Carson was honored for her 'bold and inventive oeuvre' creating 'new forms for contemporary literature' in dialogue with classical tradition",
+        "The Toronto-born author draws from ancient Greek and Roman literature, blending poetry, essay, and fiction in works like 'Autobiography of Red'",
+        "Carson was in Iceland 'listening to the wind' when notified of the award and will receive 12 million Swedish kronor (approximately $1.2 million)"
       ],
       "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on government response and protest scale",
-          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
-        },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Includes on-ground reporting from affected schools",
-          "url": "https://www.france24.com/en/video/20261007-paramount-wraps-up-mega-warner-bros-merger-to-create-hollywood-powerhouse-skydance"
+          "framing_note": "Provided detailed biographical information and list of major works",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261008-evicted-pensioner-maricarmen-symbol-of-spain-s-housing-crisis-dies-at-87"
         },
         {
-          "name": "RFI English",
+          "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Details union rejection of government's 'democracy timeout' proposal",
-          "url": "https://www.rfi.fr/en/africa/20261006-france-earmarks-a-further-%E2%82%AC7m-to-help-fight-drc-s-worst-ever-ebola-crisis"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Also covering parallel protests in French-speaking Belgium",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/07/israeli-settlers-beat-afp-photographer-in-occupied-west-bank_6758342_4.html"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Italian press coverage notes international attention to movement",
-          "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom"
+          "framing_note": "Straightforward announcement with context about previous year's winner",
+          "url": "https://www.abc.net.au/news/2026-10-08/missing-evidence-in-marilyn-wallman-disappearance/107245052"
         }
       ]
     },
     {
-      "headline": "Kenya Reports First-Ever Ebola Death as DRC Outbreak Surpasses 4,000 Fatalities",
-      "category": "Climate",
+      "headline": "Kenya Confirms First Ebola Case as DRC Outbreak Death Toll Exceeds 4,000",
+      "category": "Society",
       "bullets": [
-        "A Kenyan man who had lived in DRC for seven years died after traveling through Uganda to Nairobi, marking Kenya's first confirmed Ebola case",
-        "The ongoing DRC outbreak of the Bundibugyo strain has killed 4,082 people out of 8,463 confirmed cases since May\u2014the country's 17th outbreak",
-        "France announced additional \u20ac7 million in funding, bringing its 2026 contribution to \u20ac23 million to combat the epidemic",
-        "Kenyan authorities identified 28 contacts of the deceased including family members and healthcare workers"
+        "Kenya's health minister announced the country's first-ever Ebola death, a Kenyan man who had lived in the DRC for seven years",
+        "The man traveled overland through Uganda to Kampala before flying to Nairobi on October 3, where he was isolated and tested positive before dying",
+        "The ongoing DRC outbreak of the Bundibugyo strain, declared in May, has killed 4,082 people out of 8,463 confirmed cases",
+        "No vaccine or specific treatment exists for the Bundibugyo strain of Ebola"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Detailed clinical reporting on symptoms and patient journey",
+          "framing_note": "Provided comprehensive epidemiological context and details of patient's travel route",
           "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasizes French funding response and regional spread concerns",
-          "url": "https://www.rfi.fr/en/africa/20261006-france-earmarks-a-further-%E2%82%AC7m-to-help-fight-drc-s-worst-ever-ebola-crisis"
         }
       ]
     },
     {
-      "headline": "Trump to Discuss Siberian Plague Lab Death with Putin as WHO Demands Transparency",
-      "category": "Geopolitics",
-      "bullets": [
-        "A 28-year-old worker at Russia's Irkutsk Anti-Plague Research Institute died last week from suspected pneumonic plague, prompting international concern",
-        "WHO Director-General Tedros called for 'timely, complete and transparent information sharing' from Russia under International Health Regulations",
-        "President Trump said the US is in 'very deep discussions' and expects to report on his Putin conversation Thursday; Kremlin denies any call is scheduled",
-        "Russian officials say contacts of the victim tested negative and have not confirmed pneumonic plague as cause of death"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Balanced coverage of US-Russia diplomatic tension and WHO concerns",
-          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Notes upcoming US sanctions deadline on Russia as context for call",
-          "url": "https://www.thehindu.com/news/international/ukraines-zelenskyy-says-intelligence-shows-russia-is-preparing-massive-attack/article71553096.ece"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Includes detailed explainer on pneumonic plague transmission and risk",
-          "url": "https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Russia Launches Major Missile Barrage Against Ukraine on Putin's Birthday, Killing 15",
+      "headline": "Ethiopian Drone Strikes Hit Eritrean Forces in Tigray as Regional War Escalates",
       "category": "Conflict",
       "bullets": [
-        "At least 15 people killed in overnight strikes across central and eastern Ukraine, including nine in Pryluky where three children's bodies were recovered from rubble",
-        "Zelensky described the attack as one of Russia's 'most vile,' noting 70 missiles were fired targeting Kyiv, Dnipro, Kremenchuk, Zaporizhzhia, and other cities",
-        "Ukraine conducted retaliatory strikes on Russia's Perm, Samara, and Astrakhan regions and unspecified targets in the Black Sea",
-        "Attack coincided with Putin's 74th birthday; Zelensky characterized it as Putin's 'birthday gift' to himself"
+        "Ethiopian drone strikes targeted Eritrean troops positioned around the city of Adigrat in northern Tigray overnight Wednesday-Thursday",
+        "Eritrean forces crossed into Ethiopia this week after the two countries severed diplomatic ties last week",
+        "Ethiopia accuses Eritrea of backing Tigrayan rebels, while Eritrea accuses Ethiopia of supporting opposition groups and seeking Red Sea access",
+        "Reports indicate forced recruitment of men and boys aged 15-65 by armed groups in Tigray as fighting has resumed"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Focus on casualty figures and Ukrainian response strikes",
-          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on military developments and diplomatic breakdown between Ethiopia and Eritrea",
+          "url": "https://www.rfi.fr/en/sports/20261008-court-of-arbitration-for-sport-convenes-to-rule-on-2025-afcon-champions"
         },
         {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Hindu",
+          "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Emphasizes Zelensky's warnings of further massive attacks based on intelligence",
-          "url": "https://www.thehindu.com/news/international/ukraines-zelenskyy-says-intelligence-shows-russia-is-preparing-massive-attack/article71553096.ece"
+          "framing_note": "Emphasized humanitarian concerns including forced child recruitment and war crimes allegations",
+          "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Nobel Prize in Chemistry awarded to France's Henri Kagan and Japan's Kenso Soai for discoveries in asymmetric organic synthesis",
-      "source": "Nikkei Asia, Globe and Mail, ABC Australia",
-      "url": "https://asia.nikkei.com/business/science/japan-s-kenso-soai-and-france-s-henri-kagan-win-nobel-chemistry-prize"
+      "headline": "G7 to release 100 million barrels of emergency diesel reserves amid global shortage driven by Iran war and refinery damage",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/counting-the-cost/2026/10/8/can-emergency-reserves-ease-the-diesel-crisis"
     },
     {
-      "headline": "US death row inmate Christa Pike regains consciousness after surviving failed lethal injection execution in Tennessee",
-      "source": "BBC World, The Hindu",
-      "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko"
-    },
-    {
-      "headline": "Finland orders halt to Google data center construction over unauthorized clearing of 300 hectares of forest",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o"
-    },
-    {
-      "headline": "Tigray rebel groups accused of forcibly recruiting boys as young as 15 as fighting resumes in northern Ethiopia",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes"
-    },
-    {
-      "headline": "Egyptian journalist from fact-checking outlet Matsadaash charged with terrorism after entire newsroom detained",
+      "headline": "Egypt charges six journalists from fact-checking platform Matsadaash with terrorism offenses in what rights groups call a crackdown on press freedom",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom"
     },
     {
-      "headline": "India's central bank raises interest rates for first time since 2023 as inflation exceeds target levels",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/india-s-central-bank-delivers-first-rate-hike-since-2023-as-inflation-bites"
+      "headline": "Spanish pensioner Maricarmen Abascal, whose eviction sparked nationwide housing protests and triggered early elections, dies at 87",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo"
     },
     {
-      "headline": "Pakistan security forces kill 18 militants in separate operations in Khyber Pakhtunkhwa and Balochistan provinces",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/pakistan-security-forces-kill-several-terrorists-in-khyber-pakhtunkhwa-balochistan/article71555079.ece"
-    },
-    {
-      "headline": "EU suspends beef imports from Namibia following first foot-and-mouth outbreak in primary livestock zone in 60 years",
+      "headline": "French high school protests continue for fourth day despite PM Lecornu's promise of measures to address school conditions",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20261006-eu-suspends-beef-exports-from-namibia-due-to-foot-and-mouth-disease"
+      "url": "https://www.rfi.fr/en/france/20261008-french-pm-lecornu-denies-police-crackdown-as-france-s-student-protests-intensify"
     },
     {
-      "headline": "Kosovo parliament elects Justina Shiroka Pula as president minutes before constitutional deadline amid protests",
+      "headline": "EU trade commissioner arrives in Beijing for high-stakes talks seeking limits on Chinese hybrid car exports",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20261008-eu-and-china-open-crunch-trade-talks-in-beijing-on-hybrid-car-exports"
+    },
+    {
+      "headline": "Saudi Arabia reports three dead at airports following Houthi drone and missile attacks",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/yemens-houthis-say-struck-riyadh-airport-other-saudi-sites/article71550273.ece"
+    },
+    {
+      "headline": "Royal Navy serviceman charged with spying for Russia after allegedly disclosing protected information",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/12c60e75-48be-45f8-a763-02ad0b2c0f8c"
+    },
+    {
+      "headline": "BBC investigation finds US and Lebanon protecting former Syrian general wanted for crimes against humanity in exchange for Austin Tice information",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo"
+    },
+    {
+      "headline": "Sri Lanka arrests former first lady Shiranthi Rajapaksa over alleged misuse of charity donations",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/7/justina-shiroka-pula-kosovos-new-president-elected-during-a-crisis"
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/sri-lanka-arrests-ex-president-rajapaksas-wife-in-graft-case"
     },
     {
-      "headline": "Indonesia passes new labor law praised by unions but raising concerns among businesses about hiring costs",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/indonesia-s-new-labor-law-soothes-workers-worries-businesses2"
+      "headline": "Caretaker killed and two teachers injured in knife attack by former student at Polish primary school",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cq2e9xjv0jm2o"
     }
   ]
 }
