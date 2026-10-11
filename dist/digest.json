@@ -1,184 +1,208 @@
 {
-  "date": "Saturday, October 10, 2026",
-  "daily_brief": "The day's most consequential development is President Trump's surprise deal to import Russian diesel into the United States, a dramatic reversal of sanctions policy that drew sharp condemnation from Ukrainian President Zelensky, who called it 'a gift to Putin' [BBC, Le Monde, The Hindu]. The agreement, which suspends sanctions on Russian diesel exports through April, comes as Trump faces political pressure over fuel prices ahead of the midterm elections. Meanwhile, Hurricane Isaias made landfall on Florida's Gulf Coast as the first Atlantic hurricane of the season, forcing mass evacuations and leaving hundreds of thousands without power across Florida, Alabama, and Georgia [BBC, The Guardian, Financial Times]. The Nobel Committee awarded its Peace Prize to Navi Pillay, the South African jurist who chaired the UN commission that found Israel guilty of genocide in Gaza, a decision certain to provoke controversy [The Guardian, France 24, The Hindu]. In Kenya, health officials are racing to contain the country's first Ebola case after a patient who travelled from the DRC died in Nairobi, with 57 contacts now under surveillance [RFI]. The Trump administration also escalated its confrontation with international institutions, announcing sanctions on the International Criminal Court and suspending major IT firms including Cognizant, Infosys, and Microsoft from the US green card programme [Le Monde, Nikkei Asia, The Hindu].",
+  "date": "Sunday, October 11, 2026",
+  "daily_brief": "Sunday's news agenda is dominated by escalating US-Russia-Ukraine tensions following President Trump's controversial diesel deal with Moscow. The arrangement, which suspends sanctions on Russian diesel exports, drew sharp condemnation from Ukrainian President Zelensky and EU foreign policy chief Kallas [BBC, RFI, France 24]. Trump responded by suggesting Ukraine needs 'a new president who can make a deal,' while Russia struck Zaporizhzhia with glide bombs, killing at least 20 civilians including four children [BBC Europe]. In the Gulf, a Houthi missile attack on Riyadh's international airport killed 12 people and wounded over 300, marking the deadliest strike on Saudi soil in over a decade and prompting Western leaders to warn of dangerous regional escalation [RFI, Al Jazeera, Globe and Mail]. Pope Leo XIV announced he will undergo surgery after doctors discovered an early-stage lung nodule, with recovery expected within a week [BBC, France 24]. In India, leaders of the youth-led 'Cockroach' movement were released after detention, with protests continuing over alleged electoral misconduct [BBC, ABC Australia]. Pakistan declared emergency rule in Khyber Pakhtunkhwa province, ending the PTI-led provincial government amid deteriorating security [The Hindu].",
   "top_stories": [
     {
-      "headline": "Trump Announces Russian Diesel Import Deal, Suspending Sanctions as Ukraine Condemns 'Gift to Putin'",
+      "headline": "Trump Calls for Ukraine to Replace Zelensky After Diesel Deal Backlash",
       "category": "Geopolitics",
       "bullets": [
-        "President Trump announced a deal with Putin to import 300,000 tonnes of Russian diesel immediately, with 500,000 more tonnes in November and potentially millions more to follow",
-        "The US Treasury is suspending sanctions on Russian diesel exports until April 7, 2026, though other Russian assets in American banks remain frozen",
-        "Ukrainian President Zelensky condemned the deal as 'an investment in a war that must be ended, not prolonged' and called for stronger US pressure on Russia",
-        "Russian strikes killed at least 11 people in Ukraine's Zaporizhzhia region the day after the deal was announced, including three children"
+        "US President Trump announced a deal for Russia to release 300,000+ tonnes of diesel to US markets, with Treasury suspending sanctions on Russian diesel exports until April 7, 2027",
+        "Ukrainian President Zelensky condemned the deal as 'a gift to Putin' and 'an investment in a war that must be ended, not prolonged'",
+        "Trump responded by saying Zelensky 'better damn well stop' striking Russian refineries and suggested 'it's time for Ukraine to get a new president'",
+        "Zelensky later offered to halt refinery strikes if Russia stops attacks on Ukrainian energy infrastructure; EU's Kaja Kallas said Europe 'won't ease pressure on Russia'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Extensive analysis linking deal to midterm election pressures and fuel price concerns in agricultural states",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Led with Trump's call for new Ukrainian president; provided balanced context on martial law preventing elections",
+          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Emphasised anger from Ukraine and allies",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/10/in-the-occupied-city-of-oleshky-ukrainians-are-surviving-under-desperate-conditions-without-running-water-or-electricity_6758448_4.html"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Focused on the immediate aftermath including Russian strikes killing civilians",
-          "url": "https://www.thehindu.com/news/international/navanethem-navi-pillay-facts-about-2026-nobel-peace-prize-winner/article71564112.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Hurricane Isaias Makes Landfall in Florida as First Atlantic Hurricane of 2026 Season",
-      "category": "Climate",
-      "bullets": [
-        "Hurricane Isaias struck Florida's northern Gulf Coast Friday night with 80mph winds, the latest first hurricane of the season since 1905 due to El Ni\u00f1o conditions",
-        "Hundreds of thousands of households in Florida, Alabama, and Georgia lost power; all three states declared states of emergency",
-        "Mandatory evacuations were ordered for coastal communities in Florida and for non-residents in key Alabama counties",
-        "Oil and gas production has been disrupted across the Gulf region as the storm system moves inland"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Comprehensive coverage of evacuations and emergency response",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasised climate context including El Ni\u00f1o and historical comparison to 1905",
-          "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on economic impact including oil/gas disruption and power outages",
-          "url": "https://www.ft.com/content/407fa757-cc77-49c0-871a-5140dd3a9a80?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "South African Jurist Navi Pillay Awarded Nobel Peace Prize for Promoting International Law",
-      "category": "Society",
-      "bullets": [
-        "The Norwegian Nobel Committee awarded the 2026 Peace Prize to Navi Pillay, 85, citing her commitment to universal legal principles and holding states accountable",
-        "Pillay chaired the UN commission that concluded Israel was guilty of genocide in Gaza and that Netanyahu, Herzog, and Gallant incited genocide",
-        "She served as UN High Commissioner for Human Rights, on the International Criminal Tribunal, and currently sits as a judge at the International Court of Justice",
-        "Israel rejected her commission's findings as biased and refused to cooperate with its investigation"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Detailed coverage of Pillay's Gaza commission findings and Israel's rejection",
-          "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles"
+          "framing_note": "Focused on Zelensky's condemnation and European allies' support for Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Brief video coverage without extensive framing",
-          "url": "https://www.france24.com/en/video/20261010-india-s-cockroach-movement-this-is-unprecedented"
+          "framing_note": "Emphasized Trump's criticism of Zelensky over refinery strikes",
+          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"
         },
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Emphasised Pillay's Indian Tamil heritage and biographical details",
-          "url": "https://www.thehindu.com/news/international/navanethem-navi-pillay-facts-about-2026-nobel-peace-prize-winner/article71564112.ece"
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Led with EU condemnation; highlighted Kallas calling deal 'funding' for Russia's war",
+          "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine"
         }
       ]
     },
     {
-      "headline": "Kenya Races to Contain First Ebola Case After Patient Dies Following Travel from DRC",
-      "category": "Society",
+      "headline": "Houthi Attack on Riyadh Airport Kills 12, Wounds Over 300 in Deadliest Saudi Strike in Decade",
+      "category": "Conflict",
       "bullets": [
-        "Kenya confirmed its first Ebola case after a Kenyan man who lived in the DRC for seven years died on October 5 after travelling through Uganda to Nairobi",
-        "The patient tested positive for Bundibugyo Ebola at Kenya's National Virology Reference Laboratory; symptoms included fever, bleeding beneath the skin, and painful swallowing",
-        "Health authorities have identified 57 contacts, 10 of whom are being closely monitored for symptoms",
-        "The case has exposed failures in border screening processes across three countries"
+        "Saturday's missile strike on King Khalid International Airport killed 12 people (including nationals from US, Saudi Arabia, Bangladesh, Jordan, Palestine, Syria, Sudan, Egypt) and wounded over 300",
+        "Attack was the third on Riyadh airport this week and deadliest on Saudi soil in more than a decade; no warning was issued by Saudi threat warning system",
+        "UN Secretary General Guterres called attacks 'a violation of international law'; EU's von der Leyen called it a 'dangerous escalation'",
+        "Saudi-led coalition vowed to 'firmly' retaliate; Houthis have not claimed responsibility but warned airlines against using Saudi airports"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Detailed timeline of patient's journey and focus on border screening failures",
-          "url": "https://www.rfi.fr/en/international/20261009-hunger-and-disease-spread-in-yemen-as-houthi-and-government-forces-clash"
+          "framing_note": "Focused on Western condemnation and EU/UN statements",
+          "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Provided more context on Yemen conflict dynamics and civilian casualties from Saudi strikes on Houthi territory",
+          "url": "https://www.aljazeera.com/opinions/2026/10/11/modi-is-in-trouble?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized Saudi defense vulnerabilities and coalition response",
+          "url": "https://www.theglobeandmail.com/world/article-riyadh-airport-attack-oct-10/"
         }
       ]
     },
     {
-      "headline": "US Suspends Major IT Firms Including Cognizant, Infosys, Microsoft from Green Card Programme",
-      "category": "Policy",
+      "headline": "Russian Glide Bomb Attack on Zaporizhzhia Kills at Least 20, Including Four Children",
+      "category": "Conflict",
       "bullets": [
-        "The US Department of Labour suspended Cognizant, Infosys, Tata, Wipro, HCL, Capgemini, Microsoft, and Adobe from the Permanent Labour Certification Programme",
-        "The suspension blocks new applications and processing of pending permanent labour certifications involving these companies",
-        "Labour Secretary Keith Sonderling stated these companies have requested almost three million foreign workers since 2009 and received over 230,000 H-1B visa approvals",
-        "Vice-President J.D. Vance, head of the US Anti-Fraud Task Force, was present at the announcement"
+        "Russia struck Ukrainian city of Zaporizhzhia with five glide bombs Saturday morning, hitting residential buildings",
+        "At least 20 killed including four children; 32+ injured with more believed trapped under rubble",
+        "Zelensky said attacks were Russia 'expressing thanks' for Trump's diesel deal and evidence Russia takes 'any easing of pressure to mean they can keep fighting'",
+        "Acting Mayor said apartment block collapsed from ground floor up; over 80 rescue workers searching for survivors"
       ],
       "sources": [
         {
-          "name": "The Hindu",
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Detailed reporting on casualties and rescue operations; included Zelensky's political framing",
+          "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Noted death toll rising to 23 by Sunday; covered in context of Zelensky's conditional offer to halt strikes",
+          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"
+        }
+      ]
+    },
+    {
+      "headline": "Pope Leo XIV to Undergo Surgery After Early-Stage Lung Nodule Detected",
+      "category": "Society",
+      "bullets": [
+        "Pope Leo XIV, 71, announced during Sunday Angelus prayers that doctors found 'an early, well-localised nodule' on his lung during routine medical checks",
+        "Surgery scheduled for early next week at Rome's Gemelli Hospital; expected recovery time approximately one week",
+        "Leo, born Robert Francis Prevost, became the first American pope in May 2025 following the death of Pope Francis",
+        "Vatican Press Office confirmed the mass was 'well-contained' and caught 'at an early stage'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provided historical context on Gemelli Hospital's papal suite",
+          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Noted Leo's gradual stylistic imprint on Church leadership",
+          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"
+        },
+        {
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Detailed reporting on the announcement with full quotes from US officials",
-          "url": "https://www.thehindu.com/news/international/navanethem-navi-pillay-facts-about-2026-nobel-peace-prize-winner/article71564112.ece"
+          "framing_note": "Article failed to load content",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/11/in-kyiv-survivors-of-chernobyl-face-russian-bombs-chernobyl-was-an-invisible-enemy-war-strikes-in-the-open_6758472_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "India Releases 'Cockroach Party' Leaders as Youth Protests Continue Over Electoral Misconduct Allegations",
+      "category": "Society",
+      "bullets": [
+        "CJP founder Abhijeet Dipke and two other leaders released Sunday after being detained upon arrival in Delhi Saturday; released on condition they 'not engage in breach of peace for one year'",
+        "Reports indicate 7,000 protesters were detained and released Saturday; hundreds more detained Sunday as thousands of security personnel deployed",
+        "Movement demands resignation of Chief Election Commissioner Gyanesh Kumar over allegations of manipulating voter rolls, which Election Commission denies",
+        "Opposition leader Rahul Gandhi also detained; CJP vowed to continue protests with Dipke stating 'Modi, as PM, is an embarrassment to India'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Straightforward factual reporting on arrests and releases",
+          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Focused on lawyer's confirmation of release and protest continuation",
+          "url": "https://www.abc.net.au/news/2026-10-11/larp-live-action-role-playing-social-connection-time-travel/107231876"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Opinion piece framed protests as exposing 'hollowed-out democracy' under Modi",
+          "url": "https://www.aljazeera.com/opinions/2026/10/11/modi-is-in-trouble?traffic_source=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "French government offers 3,000 extra supply teachers as first concession to student protesters after weeks of demonstrations",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c6vg98lw017po"
+      "headline": "Pakistan declares emergency in Khyber Pakhtunkhwa, ending PTI-led provincial government amid security crisis",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/pakistan-president-declares-emergency-in-khyber-pakhtunkhwa-provincial-government-ceases-to-exist/article71571044.ece"
     },
     {
-      "headline": "Ukrainian drone strikes seriously damage two Yandex data centres, disrupting Russia's most popular search engine and app services",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro"
+      "headline": "109 migrants killed, 116 missing after boat capsizes off Djibouti while attempting Yemen crossing",
+      "source": "The Hindu / Le Monde",
+      "url": "https://www.thehindu.com/news/international/several-killed-many-injured-as-boat-capsizes-off-djibouti/article71571052.ece"
     },
     {
-      "headline": "French Socialist Party extends primary vote to Sunday after cyberattack disrupts online voting system",
+      "headline": "Navi Pillay, former UN human rights chief who led Gaza genocide inquiry, awarded Nobel Peace Prize",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
+    },
+    {
+      "headline": "US Justice Department investigates TV networks for potential antitrust violations over Trump pool coverage boycott",
+      "source": "BBC World / Globe and Mail",
+      "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro"
+    },
+    {
+      "headline": "Hurricane Isaias, first Atlantic hurricane of 2026, approaches US Gulf coast with life-threatening storm surge warnings",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
+    },
+    {
+      "headline": "Brazil's Flavio Bolsonaro to face President Lula in October 25 runoff after outperforming polls in first round",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/brazil-election-results-updated-flavio-bolsonaro-luiz-inacio-lula-da-silva/article71545022.ece"
+    },
+    {
+      "headline": "RFK Jr-backed vaccine trial withholding hepatitis B shots from African newborns approved in Guinea-Bissau",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr"
+    },
+    {
+      "headline": "Nord Stream sabotage trial opens in Hamburg with Ukrainian ex-special forces soldier Serhii K as defendant",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c317ke5ngrq7o"
+    },
+    {
+      "headline": "Climate lawsuits gain momentum globally as Australia's highest court blocks coal mine expansion",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261010-french-socialist-party-primary-vote-extended-due-to-cyberattack"
+      "url": "https://www.rfi.fr/en/environment/20261011-climate-lawsuits-gain-ground-as-governments-scale-back-climate-action"
     },
     {
-      "headline": "India's 'Cockroach' movement leaders detained ahead of planned protest against election commission",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/407fa757-cc77-49c0-871a-5140dd3a9a80"
-    },
-    {
-      "headline": "UAE says Flydubai hijack suspect began 'drift towards extremism' while studying in Australia, inspired by 9/11 attacks",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo"
-    },
-    {
-      "headline": "Three men found guilty of murdering Australian brothers and US friend during surfing trip in Mexico",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o"
-    },
-    {
-      "headline": "Survey finds 180,000 Aldabra giant tortoises thriving in Seychelles, highest figure ever recorded for the once-endangered species",
+      "headline": "Survey finds 180,000 Aldabra giant tortoises thriving in Seychelles, highest figure ever recorded",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles"
-    },
-    {
-      "headline": "Two stolen Renoir paintings recovered in France one month after museum heist; six suspects arrested",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cwkg50v1vn07o"
-    },
-    {
-      "headline": "Magnitude 7.7 earthquake strikes Central America near Panama, prompting Pacific tsunami assessment",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/world/1824282/strong-earthquake-in-central-america-sparks-pacific-tsunami-fears"
-    },
-    {
-      "headline": "Chile declares Las Condes district disaster zone after flash floods and mudslides force evacuation of over 1,000 residents",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/chile-declares-las-condes-disaster-zone-after-mudslide"
     }
   ]
 }
