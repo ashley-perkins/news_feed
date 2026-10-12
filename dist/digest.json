@@ -1,208 +1,196 @@
 {
-  "date": "Sunday, October 11, 2026",
-  "daily_brief": "Sunday's news agenda is dominated by escalating US-Russia-Ukraine tensions following President Trump's controversial diesel deal with Moscow. The arrangement, which suspends sanctions on Russian diesel exports, drew sharp condemnation from Ukrainian President Zelensky and EU foreign policy chief Kallas [BBC, RFI, France 24]. Trump responded by suggesting Ukraine needs 'a new president who can make a deal,' while Russia struck Zaporizhzhia with glide bombs, killing at least 20 civilians including four children [BBC Europe]. In the Gulf, a Houthi missile attack on Riyadh's international airport killed 12 people and wounded over 300, marking the deadliest strike on Saudi soil in over a decade and prompting Western leaders to warn of dangerous regional escalation [RFI, Al Jazeera, Globe and Mail]. Pope Leo XIV announced he will undergo surgery after doctors discovered an early-stage lung nodule, with recovery expected within a week [BBC, France 24]. In India, leaders of the youth-led 'Cockroach' movement were released after detention, with protests continuing over alleged electoral misconduct [BBC, ABC Australia]. Pakistan declared emergency rule in Khyber Pakhtunkhwa province, ending the PTI-led provincial government amid deteriorating security [The Hindu].",
+  "date": "Monday, October 12, 2026",
+  "daily_brief": "The day's headlines are dominated by escalating tensions over energy and conflict. President Trump's announcement of a Russia-Ukraine 'energy ceasefire' has drawn sharp criticism from Kyiv, with President Zelensky reporting Russian strikes on Ukrainian energy facilities continued despite the deal [BBC, Globe and Mail, The Hindu]. Trump also faces bipartisan backlash over plans to import Russian diesel to ease prices driven by the Iran war [BBC]. In the Middle East, Saudi Arabia extended the closure of Riyadh's main airport following deadly Houthi missile strikes that killed at least 18 people, with the kingdom's energy minister vowing a 'serious response' [BBC, Globe and Mail, The Hindu]. The Nobel Peace Prize was awarded to South African jurist Navi Pillay, who chaired the UN commission that concluded Israel committed genocide in Gaza\u2014a decision likely to provoke controversy [Guardian]. Meanwhile, US economists Robert Hall and Michael Woodford received the Nobel in Economics for work on macroeconomic stabilization models now used by central banks worldwide [Al Jazeera, Globe and Mail]. In France, a 14-year-old student was arrested after shooting two teachers at a school in Aubagne, though injuries were not life-threatening [BBC, RFI].",
   "top_stories": [
     {
-      "headline": "Trump Calls for Ukraine to Replace Zelensky After Diesel Deal Backlash",
-      "category": "Geopolitics",
+      "headline": "Trump's 'Energy Ceasefire' Between Russia and Ukraine Disputed as Strikes Continue",
+      "category": "Conflict",
       "bullets": [
-        "US President Trump announced a deal for Russia to release 300,000+ tonnes of diesel to US markets, with Treasury suspending sanctions on Russian diesel exports until April 7, 2027",
-        "Ukrainian President Zelensky condemned the deal as 'a gift to Putin' and 'an investment in a war that must be ended, not prolonged'",
-        "Trump responded by saying Zelensky 'better damn well stop' striking Russian refineries and suggested 'it's time for Ukraine to get a new president'",
-        "Zelensky later offered to halt refinery strikes if Russia stops attacks on Ukrainian energy infrastructure; EU's Kaja Kallas said Europe 'won't ease pressure on Russia'"
+        "President Trump announced Sunday that Russia and Ukraine had agreed to an immediate 'energy ceasefire' halting strikes on each other's energy infrastructure",
+        "Ukrainian President Zelensky said he learned of the deal through media reports and that Russia struck multiple Ukrainian energy facilities\u2014including a Kharkiv power plant\u2014after the announcement",
+        "The Kremlin declined to confirm any ceasefire agreement, with spokesman Dmitry Peskov stating only that 'contacts are ongoing'",
+        "Trump separately announced Russia would supply millions of tonnes of diesel to global markets, drawing criticism from US lawmakers and Ukraine"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Led with Trump's call for new Ukrainian president; provided balanced context on martial law preventing elections",
-          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Focused on Zelensky's condemnation and European allies' support for Ukraine",
-          "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Emphasized Trump's criticism of Zelensky over refinery strikes",
-          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Led with EU condemnation; highlighted Kallas calling deal 'funding' for Russia's war",
-          "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine"
-        }
-      ]
-    },
-    {
-      "headline": "Houthi Attack on Riyadh Airport Kills 12, Wounds Over 300 in Deadliest Saudi Strike in Decade",
-      "category": "Conflict",
-      "bullets": [
-        "Saturday's missile strike on King Khalid International Airport killed 12 people (including nationals from US, Saudi Arabia, Bangladesh, Jordan, Palestine, Syria, Sudan, Egypt) and wounded over 300",
-        "Attack was the third on Riyadh airport this week and deadliest on Saudi soil in more than a decade; no warning was issued by Saudi threat warning system",
-        "UN Secretary General Guterres called attacks 'a violation of international law'; EU's von der Leyen called it a 'dangerous escalation'",
-        "Saudi-led coalition vowed to 'firmly' retaliate; Houthis have not claimed responsibility but warned airlines against using Saudi airports"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on Western condemnation and EU/UN statements",
-          "url": "https://www.rfi.fr/en/international/20261010-eu-says-us-deal-lifting-diesel-sanctions-funds-russian-war-on-ukraine"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Provided more context on Yemen conflict dynamics and civilian casualties from Saudi strikes on Houthi territory",
-          "url": "https://www.aljazeera.com/opinions/2026/10/11/modi-is-in-trouble?traffic_source=rss"
+          "framing_note": "Emphasized Trump's domestic political backlash and quoted Zelensky calling the diesel deal 'a gift to Putin'",
+          "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized Saudi defense vulnerabilities and coalition response",
-          "url": "https://www.theglobeandmail.com/world/article-riyadh-airport-attack-oct-10/"
-        }
-      ]
-    },
-    {
-      "headline": "Russian Glide Bomb Attack on Zaporizhzhia Kills at Least 20, Including Four Children",
-      "category": "Conflict",
-      "bullets": [
-        "Russia struck Ukrainian city of Zaporizhzhia with five glide bombs Saturday morning, hitting residential buildings",
-        "At least 20 killed including four children; 32+ injured with more believed trapped under rubble",
-        "Zelensky said attacks were Russia 'expressing thanks' for Trump's diesel deal and evidence Russia takes 'any easing of pressure to mean they can keep fighting'",
-        "Acting Mayor said apartment block collapsed from ground floor up; over 80 rescue workers searching for survivors"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed reporting on casualties and rescue operations; included Zelensky's political framing",
-          "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on factual timeline of strikes continuing after announcement",
+          "url": "https://www.theglobeandmail.com/world/article-russia-strikes-ukraine-energy-facilities/"
         },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Noted death toll rising to 23 by Sunday; covered in context of Zelensky's conditional offer to halt strikes",
-          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"
-        }
-      ]
-    },
-    {
-      "headline": "Pope Leo XIV to Undergo Surgery After Early-Stage Lung Nodule Detected",
-      "category": "Society",
-      "bullets": [
-        "Pope Leo XIV, 71, announced during Sunday Angelus prayers that doctors found 'an early, well-localised nodule' on his lung during routine medical checks",
-        "Surgery scheduled for early next week at Rome's Gemelli Hospital; expected recovery time approximately one week",
-        "Leo, born Robert Francis Prevost, became the first American pope in May 2025 following the death of Pope Francis",
-        "Vatican Press Office confirmed the mass was 'well-contained' and caught 'at an early stage'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided historical context on Gemelli Hospital's papal suite",
-          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Noted Leo's gradual stylistic imprint on Church leadership",
-          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Zelensky's call for US to ensure Russian compliance",
+          "url": "https://www.thehindu.com/news/international/zelenskyy-urges-us-to-ensure-russia-respects-energy-ceasefire/article71574496.ece"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article failed to load content",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/11/in-kyiv-survivors-of-chernobyl-face-russian-bombs-chernobyl-was-an-invisible-enemy-war-strikes-in-the-open_6758472_4.html"
+          "framing_note": "Article inaccessible but headline referenced European pressure on Putin",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/12/algeria-arrests-61-moroccans-over-alleged-plans-for-acts-of-sabotage_6758494_4.html"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Noted Zelensky learned of deal through media",
+          "url": "https://www.france24.com/en/video/20261012-citro%C3%ABn-bets-on-nostalgia-at-paris-motor-show-amis-struggling-french-sales"
         }
       ]
     },
     {
-      "headline": "India Releases 'Cockroach Party' Leaders as Youth Protests Continue Over Electoral Misconduct Allegations",
-      "category": "Society",
+      "headline": "Saudi Arabia Extends Riyadh Airport Closure After Deadly Houthi Strikes Kill 18",
+      "category": "Conflict",
       "bullets": [
-        "CJP founder Abhijeet Dipke and two other leaders released Sunday after being detained upon arrival in Delhi Saturday; released on condition they 'not engage in breach of peace for one year'",
-        "Reports indicate 7,000 protesters were detained and released Saturday; hundreds more detained Sunday as thousands of security personnel deployed",
-        "Movement demands resignation of Chief Election Commissioner Gyanesh Kumar over allegations of manipulating voter rolls, which Election Commission denies",
-        "Opposition leader Rahul Gandhi also detained; CJP vowed to continue protests with Dipke stating 'Modi, as PM, is an embarrassment to India'"
+        "Saudi authorities extended the suspension of operations at King Khalid International Airport following Houthi missile and drone attacks",
+        "At least 18 people were killed in strikes on the airport since Saturday, including 13 in the deadliest single attack on Saudi Arabia in over a decade",
+        "Saudi Energy Minister Prince Abdul Aziz bin Salman vowed a 'serious' response to attacks on airports and oil facilities",
+        "The Saudi-led coalition reported new incoming fire Monday; Iran offered to mediate between Riyadh and its Houthi allies"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Straightforward factual reporting on arrests and releases",
-          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed casualty figures and context on Saudi-Houthi conflict escalation",
+          "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "ABC Australia",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on lawyer's confirmation of release and protest continuation",
-          "url": "https://www.abc.net.au/news/2026-10-11/larp-live-action-role-playing-social-connection-time-travel/107231876"
+          "framing_note": "Emphasized Saudi Arabia's 'nightmare predicament' and regional dynamics with Iran",
+          "url": "https://www.theglobeandmail.com/world/article-russia-strikes-ukraine-energy-facilities/"
         },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Focused on operational details of airport closure extension",
+          "url": "https://www.thehindu.com/news/international/zelenskyy-urges-us-to-ensure-russia-respects-energy-ceasefire/article71574496.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Nobel Peace Prize Awarded to Navi Pillay, Who Led UN Inquiry Finding Israel Guilty of Genocide",
+      "category": "Society",
+      "bullets": [
+        "The Norwegian Nobel Committee awarded the 2026 Peace Prize to South African jurist Navi Pillay for 'showing that legal measures can help prevent acts of war and violence'",
+        "Pillay chaired the UN commission that concluded in 2025 that Israel committed genocidal acts in Gaza with intent to destroy Palestinians",
+        "Israel refused to cooperate with the commission, called it biased, and rejected its findings as 'scandalous'",
+        "The committee cited Pillay's career including defending Nelson Mandela and serving as UN High Commissioner for Human Rights"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Provided extensive context on Pillay's career and the genocide finding; noted Israel's rejection of the commission's conclusions",
+          "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles"
+        }
+      ]
+    },
+    {
+      "headline": "Nobel Economics Prize Goes to Robert Hall and Michael Woodford for Macroeconomic Stabilization Models",
+      "category": "Economics",
+      "bullets": [
+        "US economists Robert Hall and Michael Woodford won the 2026 Sveriges Riksbank Prize in Economic Sciences",
+        "The laureates developed models incorporating household and business decisions that are now used by central banks and governments worldwide",
+        "The Swedish Academy noted the models help authorities respond to economic shocks such as energy crises",
+        "Woodford emphasized that stabilization policy must account for how people understand and respond to policy decisions"
+      ],
+      "sources": [
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Opinion piece framed protests as exposing 'hollowed-out democracy' under Modi",
-          "url": "https://www.aljazeera.com/opinions/2026/10/11/modi-is-in-trouble?traffic_source=rss"
+          "framing_note": "Straightforward announcement with context on laureates' contributions",
+          "url": "https://www.aljazeera.com/news/2026/10/12/trump-thinks-ukraine-needs-a-new-president-who-could-replace-zelenskyy?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Connected the award to current central bank challenges from the Iran war energy shock",
+          "url": "https://www.theglobeandmail.com/world/article-russia-strikes-ukraine-energy-facilities/"
+        }
+      ]
+    },
+    {
+      "headline": "14-Year-Old Student Shoots Two Teachers at French School; Suspect Arrested",
+      "category": "Society",
+      "bullets": [
+        "A 14-year-old ninth-grade student brought a shotgun concealed in a guitar case to Lakanal middle school in Aubagne, southern France",
+        "The principal, 53, and a teacher, 37, were shot and treated for non-life-threatening injuries; no children were harmed",
+        "A staff member restrained the student in a school corridor before police took him into custody",
+        "Local officials said the incident was not believed to be connected to ongoing protests over school conditions"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Detailed factual account with quotes from local officials",
+          "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Pakistan declares emergency in Khyber Pakhtunkhwa, ending PTI-led provincial government amid security crisis",
+      "headline": "Poland detains man suspected of plotting assassination of PM Donald Tusk and Defence Minister",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o"
+    },
+    {
+      "headline": "Pope Leo XIV announces lung surgery after nodule discovered during medical check-up",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo"
+    },
+    {
+      "headline": "Armenia's PM Pashinyan tells RFI relations with Russia 'can no longer be the same' as country pursues EU ties",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20261012-nikol-pashinyan-says-armenia-s-relations-with-russia-can-no-longer-be-the-same"
+    },
+    {
+      "headline": "Rapha\u00ebl Glucksmann wins French left primary with 66% of vote, positioning as alternative to M\u00e9lenchon",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261012-glucksmann-wins-french-left-primary-to-run-as-alternative-to-melenchon"
+    },
+    {
+      "headline": "North Korea fires multiple ballistic missiles toward eastern waters, including possible hypersonic weapon",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/pakistan-president-declares-emergency-in-khyber-pakhtunkhwa-provincial-government-ceases-to-exist/article71571044.ece"
+      "url": "https://www.thehindu.com/news/international/north-korea-fired-projectile-towards-sea-south-korean-military-says/article71573610.ece"
     },
     {
-      "headline": "109 migrants killed, 116 missing after boat capsizes off Djibouti while attempting Yemen crossing",
-      "source": "The Hindu / Le Monde",
-      "url": "https://www.thehindu.com/news/international/several-killed-many-injured-as-boat-capsizes-off-djibouti/article71571052.ece"
+      "headline": "UK PM Andy Burnham says Russia interfered in 2016 Brexit vote, first British leader to make such statement",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/uk-pm-burnham-says-russia-interfered-in-2016-brexit-vote/article71575137.ece"
     },
     {
-      "headline": "Navi Pillay, former UN human rights chief who led Gaza genocide inquiry, awarded Nobel Peace Prize",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
+      "headline": "BBC investigation finds Deloitte helped falsify documents to hide Roman Abramovich's wealth and evade tax",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo"
     },
     {
-      "headline": "US Justice Department investigates TV networks for potential antitrust violations over Trump pool coverage boycott",
-      "source": "BBC World / Globe and Mail",
-      "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro"
+      "headline": "Record 20 Chinese car brands to exhibit at Paris Motor Show as competition with European automakers intensifies",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261012-chinese-carmakers-descend-on-paris-as-battle-for-european-market-intensifies"
     },
     {
-      "headline": "Hurricane Isaias, first Atlantic hurricane of 2026, approaches US Gulf coast with life-threatening storm surge warnings",
+      "headline": "Hurricane Isaias becomes first Atlantic hurricane of 2026, expected to make landfall on US Gulf coast Friday",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
     },
     {
-      "headline": "Brazil's Flavio Bolsonaro to face President Lula in October 25 runoff after outperforming polls in first round",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/brazil-election-results-updated-flavio-bolsonaro-luiz-inacio-lula-da-silva/article71545022.ece"
-    },
-    {
-      "headline": "RFK Jr-backed vaccine trial withholding hepatitis B shots from African newborns approved in Guinea-Bissau",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr"
-    },
-    {
-      "headline": "Nord Stream sabotage trial opens in Hamburg with Ukrainian ex-special forces soldier Serhii K as defendant",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c317ke5ngrq7o"
-    },
-    {
-      "headline": "Climate lawsuits gain momentum globally as Australia's highest court blocks coal mine expansion",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20261011-climate-lawsuits-gain-ground-as-governments-scale-back-climate-action"
-    },
-    {
-      "headline": "Survey finds 180,000 Aldabra giant tortoises thriving in Seychelles, highest figure ever recorded",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles"
+      "headline": "Indian opposition leaders march to Supreme Court demanding resignation of election chief over alleged voter fraud",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo"
     }
   ]
 }
