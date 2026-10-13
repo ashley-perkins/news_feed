@@ -1,196 +1,166 @@
 {
-  "date": "Monday, October 12, 2026",
-  "daily_brief": "The day's headlines are dominated by escalating tensions over energy and conflict. President Trump's announcement of a Russia-Ukraine 'energy ceasefire' has drawn sharp criticism from Kyiv, with President Zelensky reporting Russian strikes on Ukrainian energy facilities continued despite the deal [BBC, Globe and Mail, The Hindu]. Trump also faces bipartisan backlash over plans to import Russian diesel to ease prices driven by the Iran war [BBC]. In the Middle East, Saudi Arabia extended the closure of Riyadh's main airport following deadly Houthi missile strikes that killed at least 18 people, with the kingdom's energy minister vowing a 'serious response' [BBC, Globe and Mail, The Hindu]. The Nobel Peace Prize was awarded to South African jurist Navi Pillay, who chaired the UN commission that concluded Israel committed genocide in Gaza\u2014a decision likely to provoke controversy [Guardian]. Meanwhile, US economists Robert Hall and Michael Woodford received the Nobel in Economics for work on macroeconomic stabilization models now used by central banks worldwide [Al Jazeera, Globe and Mail]. In France, a 14-year-old student was arrested after shooting two teachers at a school in Aubagne, though injuries were not life-threatening [BBC, RFI].",
+  "date": "Tuesday, October 13, 2026",
+  "daily_brief": "The day's most significant developments center on escalating regional conflicts and diplomatic tensions. Bulgaria summoned Russia's ambassador after drone attacks sank a merchant ship in the Black Sea, leaving 11 crew missing\u2014the latest in a series of strikes that NATO allies are monitoring closely [BBC, Le Monde, Financial Times]. The EU expressed cautious skepticism toward President Trump's proposed 'energy ceasefire' between Russia and Ukraine, with Kyiv reporting continued Russian strikes on energy infrastructure despite the announced deal [RFI]. In a dramatic political realignment, former DRC President Joseph Kabila announced he would lead a new 'politico-military' alliance with the M23 rebel group controlling eastern Congo, marking a significant escalation in his confrontation with President Tshisekedi's government [RFI]. Maritime security concerns intensified as Iran launched its worst spate of attacks on ships in the Strait of Hormuz since the war began, targeting 24 vessels in two weeks [Financial Times], while the UK's MI5 chief warned of a 'major shift' in Iranian targeting of British military sites [Financial Times]. The Nobel Peace Prize was awarded to ICJ Judge Navi Pillay, who chaired the UN commission that concluded Israel committed genocide in Gaza\u2014a selection likely to draw sharp international reactions [The Guardian].",
   "top_stories": [
     {
-      "headline": "Trump's 'Energy Ceasefire' Between Russia and Ukraine Disputed as Strikes Continue",
+      "headline": "Bulgaria Summons Russian Ambassador After Drone Attack Sinks Ship, Leaves 11 Missing",
       "category": "Conflict",
       "bullets": [
-        "President Trump announced Sunday that Russia and Ukraine had agreed to an immediate 'energy ceasefire' halting strikes on each other's energy infrastructure",
-        "Ukrainian President Zelensky said he learned of the deal through media reports and that Russia struck multiple Ukrainian energy facilities\u2014including a Kharkiv power plant\u2014after the announcement",
-        "The Kremlin declined to confirm any ceasefire agreement, with spokesman Dmitry Peskov stating only that 'contacts are ongoing'",
-        "Trump separately announced Russia would supply millions of tonnes of diesel to global markets, drawing criticism from US lawmakers and Ukraine"
+        "Two merchant ships were struck by drones off Bulgaria's Black Sea coast; one sank 31km east of Krapets village with 11 crew missing and one rescued",
+        "Bulgarian PM Rumen Radev convened emergency meeting and summoned Russian ambassador, stating 'the logic suggests the outcome benefits the Russian Federation'",
+        "Russian ambassador Eleonora Mitrofanova denied having information from Moscow and suggested the strikes could be a 'third party provocation'",
+        "NATO Secretary General Mark Rutte spoke with Radev, pledging continued close work with Black Sea allies; this follows last week's sinking of the Alfa Watan which left 10 crew presumed dead"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Emphasized Trump's domestic political backlash and quoted Zelensky calling the diesel deal 'a gift to Putin'",
-          "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on factual timeline of strikes continuing after announcement",
-          "url": "https://www.theglobeandmail.com/world/article-russia-strikes-ukraine-energy-facilities/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted Zelensky's call for US to ensure Russian compliance",
-          "url": "https://www.thehindu.com/news/international/zelenskyy-urges-us-to-ensure-russia-respects-energy-ceasefire/article71574496.ece"
+          "framing_note": "Detailed factual coverage emphasizing NATO coordination",
+          "url": "#"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article inaccessible but headline referenced European pressure on Putin",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/12/algeria-arrests-61-moroccans-over-alleged-plans-for-acts-of-sabotage_6758494_4.html"
+          "framing_note": "Article content unavailable but headline confirms coverage",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/13/uk-pm-burnham-levels-sweeping-accusations-at-iran-and-russia_6758547_4.html"
         },
         {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Noted Zelensky learned of deal through media",
-          "url": "https://www.france24.com/en/video/20261012-citro%C3%ABn-bets-on-nostalgia-at-paris-motor-show-amis-struggling-french-sales"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Brief coverage framing as 'latest escalation' in Russia-Ukraine war",
+          "url": "https://www.ft.com/content/a0921eb6-637e-4fac-b15d-ea7aef441e6a?syn-25a6b1a6=1"
         }
       ]
     },
     {
-      "headline": "Saudi Arabia Extends Riyadh Airport Closure After Deadly Houthi Strikes Kill 18",
-      "category": "Conflict",
+      "headline": "EU Skeptical of Trump's 'Energy Ceasefire' as Russia Continues Ukraine Strikes",
+      "category": "Geopolitics",
       "bullets": [
-        "Saudi authorities extended the suspension of operations at King Khalid International Airport following Houthi missile and drone attacks",
-        "At least 18 people were killed in strikes on the airport since Saturday, including 13 in the deadliest single attack on Saudi Arabia in over a decade",
-        "Saudi Energy Minister Prince Abdul Aziz bin Salman vowed a 'serious' response to attacks on airports and oil facilities",
-        "The Saudi-led coalition reported new incoming fire Monday; Iran offered to mediate between Riyadh and its Houthi allies"
+        "EU foreign policy chief Kaja Kallas said Brussels wanted 'clear evidence' Moscow would respect the proposed halt to attacks on energy infrastructure",
+        "Ukraine's President Zelensky stated 'it is increasingly evident that Russia is unwilling to accept an energy ceasefire proposed by the United States'",
+        "Trump defended a temporary easing of US sanctions on Russian diesel despite criticism from US lawmakers in both parties",
+        "European allies expressed unease after the sanctions relief, fearing it could reduce pressure on Putin to end the war"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "RFI",
           "lean": "Center",
-          "framing_note": "Detailed casualty figures and context on Saudi-Houthi conflict escalation",
-          "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized Saudi Arabia's 'nightmare predicament' and regional dynamics with Iran",
-          "url": "https://www.theglobeandmail.com/world/article-russia-strikes-ukraine-energy-facilities/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Focused on operational details of airport closure extension",
-          "url": "https://www.thehindu.com/news/international/zelenskyy-urges-us-to-ensure-russia-respects-energy-ceasefire/article71574496.ece"
+          "framing_note": "Emphasized European skepticism and Ukraine's position that Russia was not honoring the deal",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "Nobel Peace Prize Awarded to Navi Pillay, Who Led UN Inquiry Finding Israel Guilty of Genocide",
+      "headline": "Former DRC President Kabila Announces Alliance with M23 Rebels to Overthrow Tshisekedi",
+      "category": "Conflict",
+      "bullets": [
+        "Joseph Kabila, who ruled DRC from 2001-2019, unveiled the 'Front pour la Refondation de la Nation' at a press conference at his residence in M23-controlled Goma",
+        "The alliance's stated objective is to 'put an end to tyranny by any means, including force,' with Kabila as leader and senior M23 figures as deputies",
+        "Kabila was sentenced to death in absentia in 2025 after being convicted of 'complicity' with the Rwanda-backed M23 movement",
+        "The announcement represents a significant escalation, uniting one of DRC's most prominent political figures with an armed group controlling large areas of eastern Congo"
+      ],
+      "sources": [
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on the alliance formation and its implications for Congo's stability",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "ICJ Judge Navi Pillay Awarded Nobel Peace Prize for International Law Work",
       "category": "Society",
       "bullets": [
-        "The Norwegian Nobel Committee awarded the 2026 Peace Prize to South African jurist Navi Pillay for 'showing that legal measures can help prevent acts of war and violence'",
-        "Pillay chaired the UN commission that concluded in 2025 that Israel committed genocidal acts in Gaza with intent to destroy Palestinians",
-        "Israel refused to cooperate with the commission, called it biased, and rejected its findings as 'scandalous'",
-        "The committee cited Pillay's career including defending Nelson Mandela and serving as UN High Commissioner for Human Rights"
+        "The Norwegian Nobel Committee cited Pillay's demonstration that 'legal measures can help prevent acts of war and violence'",
+        "Pillay chaired the UN commission that concluded last year Israel was guilty of 'genocidal acts in Gaza' with 'specific intent to destroy Palestinians'",
+        "The committee highlighted her career from defending Nelson Mandela under apartheid to serving as UN High Commissioner for Human Rights",
+        "Israel had refused to cooperate with her commission, calling it biased, and rejected its genocide report as 'scandalous'"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Provided extensive context on Pillay's career and the genocide finding; noted Israel's rejection of the commission's conclusions",
+          "framing_note": "Detailed coverage of Pillay's career and the genocide findings, noting Israel's rejection of the commission",
           "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles"
         }
       ]
     },
     {
-      "headline": "Nobel Economics Prize Goes to Robert Hall and Michael Woodford for Macroeconomic Stabilization Models",
-      "category": "Economics",
+      "headline": "Iran Launches Worst Spate of Attacks on Strait of Hormuz Shipping Since War Began",
+      "category": "Conflict",
       "bullets": [
-        "US economists Robert Hall and Michael Woodford won the 2026 Sveriges Riksbank Prize in Economic Sciences",
-        "The laureates developed models incorporating household and business decisions that are now used by central banks and governments worldwide",
-        "The Swedish Academy noted the models help authorities respond to economic shocks such as energy crises",
-        "Woodford emphasized that stabilization policy must account for how people understand and respond to policy decisions"
+        "Twenty-four tankers and other vessels were targeted by Iran in the Strait of Hormuz over two weeks, including six on Sunday alone",
+        "UK's MI5 chief Ken McCallum warned Iran has made a 'major shift' to target British military sites",
+        "McCallum stated both Tehran and Moscow are seeking to escalate hybrid warfare, with state threats quadrupling in a decade",
+        "UK PM Burnham leveled 'sweeping accusations' at Iran and Russia over hostile activities"
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on scale of attacks and intelligence assessment of Iranian strategic shift",
+          "url": "https://www.ft.com/content/a0921eb6-637e-4fac-b15d-ea7aef441e6a?syn-25a6b1a6=1"
+        },
+        {
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Straightforward announcement with context on laureates' contributions",
-          "url": "https://www.aljazeera.com/news/2026/10/12/trump-thinks-ukraine-needs-a-new-president-who-could-replace-zelenskyy?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Connected the award to current central bank challenges from the Iran war energy shock",
-          "url": "https://www.theglobeandmail.com/world/article-russia-strikes-ukraine-energy-facilities/"
-        }
-      ]
-    },
-    {
-      "headline": "14-Year-Old Student Shoots Two Teachers at French School; Suspect Arrested",
-      "category": "Society",
-      "bullets": [
-        "A 14-year-old ninth-grade student brought a shotgun concealed in a guitar case to Lakanal middle school in Aubagne, southern France",
-        "The principal, 53, and a teacher, 37, were shot and treated for non-life-threatening injuries; no children were harmed",
-        "A staff member restrained the student in a school corridor before police took him into custody",
-        "Local officials said the incident was not believed to be connected to ongoing protests over school conditions"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Detailed factual account with quotes from local officials",
-          "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Headline confirms UK PM accusations against Iran and Russia",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/13/uk-pm-burnham-levels-sweeping-accusations-at-iran-and-russia_6758547_4.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Poland detains man suspected of plotting assassination of PM Donald Tusk and Defence Minister",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o"
-    },
-    {
-      "headline": "Pope Leo XIV announces lung surgery after nodule discovered during medical check-up",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo"
-    },
-    {
-      "headline": "Armenia's PM Pashinyan tells RFI relations with Russia 'can no longer be the same' as country pursues EU ties",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20261012-nikol-pashinyan-says-armenia-s-relations-with-russia-can-no-longer-be-the-same"
-    },
-    {
-      "headline": "Rapha\u00ebl Glucksmann wins French left primary with 66% of vote, positioning as alternative to M\u00e9lenchon",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261012-glucksmann-wins-french-left-primary-to-run-as-alternative-to-melenchon"
-    },
-    {
-      "headline": "North Korea fires multiple ballistic missiles toward eastern waters, including possible hypersonic weapon",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/north-korea-fired-projectile-towards-sea-south-korean-military-says/article71573610.ece"
-    },
-    {
-      "headline": "UK PM Andy Burnham says Russia interfered in 2016 Brexit vote, first British leader to make such statement",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/uk-pm-burnham-says-russia-interfered-in-2016-brexit-vote/article71575137.ece"
-    },
-    {
-      "headline": "BBC investigation finds Deloitte helped falsify documents to hide Roman Abramovich's wealth and evade tax",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo"
-    },
-    {
-      "headline": "Record 20 Chinese car brands to exhibit at Paris Motor Show as competition with European automakers intensifies",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261012-chinese-carmakers-descend-on-paris-as-battle-for-european-market-intensifies"
-    },
-    {
-      "headline": "Hurricane Isaias becomes first Atlantic hurricane of 2026, expected to make landfall on US Gulf coast Friday",
+      "headline": "Hurricane Isaias becomes first Atlantic hurricane of 2026, expected to strengthen before hitting US Gulf coast Friday",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
     },
     {
-      "headline": "Indian opposition leaders march to Supreme Court demanding resignation of election chief over alleged voter fraud",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo"
+      "headline": "Rapha\u00ebl Glucksmann wins French left primary with 66% of vote, positioning as center-left alternative to M\u00e9lenchon",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20261012-glucksmann-wins-french-left-primary-to-run-as-alternative-to-melenchon"
+    },
+    {
+      "headline": "Pope Leo XIV arrives at Rome hospital for lung surgery",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/13/pope-leo-xiv-arrives-at-rome-hospital-for-lung-surgery_6758556_4.html"
+    },
+    {
+      "headline": "China investigates former Chongqing mayor Huang Qifan, once an ally of disgraced official Bo Xilai",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/china-probes-huang-qifan-former-ally-of-disgraced-bo-xilai"
+    },
+    {
+      "headline": "Asian tech shares plunge after Chinese chipmaker reports key advance, with KOSPI down 5.5%",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/asian-tech-shares-plunge-after-chinese-chipmaker-reports-key-advance"
+    },
+    {
+      "headline": "France braces for 'Act 5' of high school protests as student movement tests momentum ahead of school break",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20261013-france-braces-for-fresh-school-protests-as-student-movement-tests-momentum"
+    },
+    {
+      "headline": "Trump says he is considering firing US Ambassador to Greece Kimberly Guilfoyle over alleged misconduct",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cjkgedexp6zgo"
+    },
+    {
+      "headline": "Breaking Bad actor RJ Mitte dies aged 34 in Brownsville, Texas",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o"
+    },
+    {
+      "headline": "Hungary removes anti-LGBTQ provisions from 'child protection' law, rolling back Orb\u00e1n-era legislation",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/13/hungary-removes-anti-lgbtq-provisions-from-child-protection-law-batting-back-orban-legacy_6758550_4.html"
+    },
+    {
+      "headline": "Over 350 scientists call for international AI safety body after 'preventable' hacking incidents",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-10-13/more-than-300-scientists-greater-ai-security-international-body/107257078"
     }
   ]
 }
