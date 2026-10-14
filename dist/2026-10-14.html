@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 10:50 UTC</span>
+            </div>
+            <h1 class="header-title">Wednesday, October 14, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">The day's most consequential developments center on Ukraine, where Russian strikes left 600,000 without power despite President Trump's claimed 'energy ceasefire,' while Ukrainian forces reported that Starlink speed restrictions disrupted battlefield operations [BBC, Financial Times, Le Monde]. In Germany, the first trial began for the 2022 Nord Stream pipeline sabotage, with Ukrainian national Serhii K. denying charges of plotting to destroy the infrastructure [BBC, France 24]. Pope Leo XIV underwent successful surgery for lung cancer, with the Vatican confirming the 71-year-old pontiff had a lower lobe of his right lung removed following diagnosis of lung adenocarcinoma [BBC, Globe and Mail, Le Monde]. Turkish authorities raided opposition news channel Halk TV, halting broadcasts and detaining 11 people in what critics describe as continuing media suppression under President Erdoğan [BBC, Financial Times]. On the economic front, China reported a 36.3 percent surge in September exports—the largest monthly increase since 2021—driven by AI-related semiconductor and computing equipment demand [Al Jazeera]. A federal judge blocked the Trump administration from banning CNN, MS Now, and Politico journalists from the White House, citing likely First Amendment violations [The Hindu].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Russian Strikes Leave 600,000 Without Power in Ukraine as Starlink Restrictions Disrupt Battlefield Operations</h2>
+            <ul class="story-bullets"><li>Russian missile and drone strikes hit critical energy infrastructure in Kyiv and Kharkiv overnight, leaving at least 600,000 people without electricity and killing at least three people in the capital</li><li>The strikes occurred despite President Trump's claim on Sunday that an 'energy ceasefire' was in place between Russia and Ukraine</li><li>Ukrainian presidential adviser Serhiy Beskrestnov reported that SpaceX implemented overnight speed limits (100mph/160km/h) on Starlink terminals, disrupting Ukrainian military missions without prior notification</li><li>Ukraine's defense ministry confirmed the Starlink restrictions affected operations, with officials stating the speed limits impacted drone interception capabilities against Russian jet-propelled drones</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Detailed reporting on both the strikes and Starlink restrictions, with direct quotes from Ukrainian officials</span>
+            </a>
+            <a href="https://www.ft.com/content/0c178261-2c29-4677-9649-5b9257662d7e?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Emphasized intelligence gaps and Starlink restrictions as signs of strain with US allies</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/pixels/article/2026/10/14/saudi-employee-arrested-for-allegedly-bugging-openai-office_6758581_13.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Limited content available but covered the power outage figures</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/sheikh-hasina-statements-on-bangladesh-brics-summit-india-and-bangladesh-elections/article71582249.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Focused on casualty figures and Western intelligence concerns</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Ukrainian National Goes on Trial in Germany for Nord Stream Pipeline Sabotage</h2>
+            <ul class="story-bullets"><li>Serhii K., identified as a Ukrainian national, became the first suspect to stand trial in Hamburg for the September 2022 explosions that destroyed three of four Nord Stream gas pipelines in the Baltic Sea</li><li>German prosecutors allege he plotted with other Ukrainian military personnel to destroy the pipelines to cut off Russian gas revenue funding the war</li><li>The defendant denies all charges; a second suspect is fighting extradition from Croatia</li><li>The case is politically sensitive as Germany is considered one of Ukraine's closest allies since Russia's 2022 invasion</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Emphasized the historical significance and diplomatic sensitivity of the case</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Same coverage as BBC World</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261014-ukraine-reports-russian-attacks-with-no-warnings-trump-says-us-still-sharing-intel" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Video coverage; limited textual detail available</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Pope Leo XIV Diagnosed with Lung Cancer After Successful Surgery to Remove Right Lung Lobe</h2>
+            <ul class="story-bullets"><li>Pope Leo XIV, 71, underwent 90-minute surgery at Rome's Gemelli Hospital on Tuesday; doctors confirmed diagnosis of lung adenocarcinoma</li><li>The Vatican reported the entire lower lobe of the Pope's right lung was removed 'to ensure the procedure was radical,' with no complications</li><li>The pontiff is expected to remain hospitalized for approximately one week; no mention yet of chemotherapy or additional treatment pending further test results</li><li>Pope Leo himself announced the operation during Sunday prayers, telling pilgrims the mass was 'well-contained' and caught 'at an early stage'</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Comprehensive coverage with Vatican statements and scene details</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-tupac-shakur-murder-duane-davis-sentencing/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Included medical expert commentary on adenocarcinoma prognosis and staging</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/pixels/article/2026/10/14/saudi-employee-arrested-for-allegedly-bugging-openai-office_6758581_13.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Brief coverage focused on recovery status</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Turkish Police Raid Opposition TV Station Halk TV, Halting Live Broadcasts</h2>
+            <ul class="story-bullets"><li>Turkish police raided the Istanbul headquarters of Halk TV, one of the country's most-watched pro-opposition news channels, on Wednesday morning</li><li>The government appointed a new administrator to run the channel; 11 people were taken into custody and arrest warrants issued for 17 people total</li><li>Prosecutors cited allegations of bribery, rigging tenders, and money laundering against channel chairman Cafer Mahiroğlu, who was reportedly outside the country</li><li>The raid follows the closure of a leading news site two weeks ago over alleged 'LGBT propaganda,' continuing a pattern of crackdowns on media critical of President Erdoğan</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Straightforward reporting on the raid and government allegations</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Same coverage as BBC World</span>
+            </a>
+            <a href="https://www.ft.com/content/0c178261-2c29-4677-9649-5b9257662d7e?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Framed as part of a series of moves against media critics of Erdoğan</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A9E8E">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #4A9E8E; border-color: #4A9E8E40">Economics</span>
+            </div>
+            <h2 class="story-headline">China's Exports Surge 36 Percent in September, Largest Monthly Jump Since 2021</h2>
+            <ul class="story-bullets"><li>Chinese exports grew 36.3 percent year-on-year in September, reaching $447.18 billion—the largest monthly increase since COVID-19 pandemic distortions in 2021</li><li>Semiconductor exports surged more than 108 percent; shipments of automatic data processing machines jumped nearly 55 percent, driven by global AI demand</li><li>Imports also increased 31 percent year-on-year, up from 28.2 percent in August</li><li>HSBC economist attributed growth to 'high-tech demand supported by the global and domestic AI upcycle' and China's competitive pricing and supply-chain advantages</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.aljazeera.com/economy/2026/10/14/chinas-exports-sugrge?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Emphasized AI-driven demand as key driver; included HSBC analyst commentary</span>
+            </a>
+            <a href="https://www.ft.com/content/0c178261-2c29-4677-9649-5b9257662d7e?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Brief mention in newsletter roundup</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/us-judge-backs-cnn-ms-now-politico-access-to-white-house/article71582606.ece" target="_blank" rel="noopener">Federal judge blocks Trump administration from banning CNN, MS Now, and Politico journalists from White House, citing likely First Amendment violations</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo" target="_blank" rel="noopener">Saudi national charged with planting sophisticated recording device in OpenAI executive conference room in apparent espionage attempt</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026" target="_blank" rel="noopener">Hurricane Isaias becomes first Atlantic hurricane of 2026 season, expected to make landfall on Florida panhandle as Category 2 storm Friday</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize" target="_blank" rel="noopener">ICJ judge Navi Pillay awarded Nobel Peace Prize for promoting international law, including chairing UN commission that concluded Israel committed genocide in Gaza</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/saudi-says-houthi-attacks-sparked-aramco-fire-wounded-4-in-riyadh/article71582466.ece" target="_blank" rel="noopener">Saudi Arabia reports Houthi attacks sparked fire at Aramco building in Dhahran and wounded four people in Riyadh from intercepted missile debris</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/saudi-supreme-court-sets-aside-sri-lankan-migrant-workersdeath-penalty/article71582739.ece" target="_blank" rel="noopener">Saudi Supreme Court sets aside death penalty for Sri Lankan migrant worker convicted over Facebook post deemed blasphemous</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261014-french-national-assembly-moves-to-overhaul-response-to-sexual-violence-and-abuse" target="_blank" rel="noopener">French National Assembly passes comprehensive sexual violence bill 503-0, creating specialist police units and courts</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c6gr80rk1yyko" target="_blank" rel="noopener">World's oldest shipwreck discovered off Turkish coast, dated to Early Bronze Age approximately 4,400-4,700 years ago</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles" target="_blank" rel="noopener">Scientists discover 180,000 Aldabra giant tortoises on Seychelles island, highest figure ever recorded for the once-endangered species</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.abc.net.au/news/2026-10-14/michelin-star-ceremony-sa-restaurants/107266846" target="_blank" rel="noopener">South Australian restaurants receive Australia's first Michelin stars, with Magill Estate earning two stars and 10 others receiving one star</a>
+            <span class="additional-source">ABC Australia</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
