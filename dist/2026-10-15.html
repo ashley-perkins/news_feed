@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 10:32 UTC</span>
+            </div>
+            <h1 class="header-title">Thursday, October 15, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">The day's headlines are dominated by escalating tensions between Washington and Kyiv, as Ukraine accused the US of disrupting Starlink satellite services critical to its drone operations, with Elon Musk suggesting the US government controls any restrictions [BBC, Globe and Mail, RFI]. President Zelensky announced Ukraine would resume strikes on Russian refineries after what he called a failed 'energy ceasefire' unilaterally declared by President Trump [Al Jazeera, Globe and Mail]. In Europe, EU leaders convene for contentious budget negotiations worth nearly two trillion euros, racing to reach agreement before France's presidential election amid fears of eurosceptic gains [France 24, RFI]. Asian markets suffered sharp losses, with the KOSPI falling over 7% and the Nikkei down 4%, triggered by higher-than-expected US inflation data and AI investment concerns [Nikkei Asia]. Tragic news from Pakistan where at least 17 children and a teacher were killed in a school roof collapse in Peshawar [The Hindu, Al Jazeera]. Meanwhile, China and North Korea opened a long-delayed border bridge, signaling deepening ties between the Cold War-era allies [Nikkei Asia, France 24, Al Jazeera].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Ukraine Reports Starlink Disruptions as Musk Points to US Government Control</h2>
+            <ul class="story-bullets"><li>Ukraine reported that Starshield, the military-grade SpaceX satellite system, imposed speed limits of 100mph on Tuesday night, disrupting drone attack missions and air defense operations</li><li>Elon Musk stated on X that Starshield systems are owned and controlled by the US government, with limits decided by the US military and ultimately the president</li><li>President Zelensky called the disruptions 'a big mistake' that 'will bring a lot of human losses' and appealed for service restoration</li><li>Partial connectivity was restored by Wednesday evening according to Ukraine's former defence minister Mykhailo Fedorov</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Focused on Musk's statements and technical details of the restrictions</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261015-china-north-korea-open-long-delayed-border-bridge" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Brief coverage without extensive analysis</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261014-louvre-director-says-major-renovation-plan-will-be-extremely-complex" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Emphasized European reliance on US technology and lack of homegrown alternatives</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/canada/video-joly-says-the-world-wont-be-safer-even-if-trump-leaves-office/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Highlighted worsening US-Ukraine ties and Trump's pressure on Zelensky</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/allegations-rise-as-ukraine-reports-starlink-slowdowns-and-suspected-us-intelligence-cuts/article71586716.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Framed as potential US desertion of Ukraine with detailed explainer format</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Ukraine Resumes Strikes on Russian Refineries After Failed Energy Ceasefire</h2>
+            <ul class="story-bullets"><li>President Zelensky told the Financial Times that Ukraine was 'done' with the energy ceasefire and would resume attacks on Russian oil refineries</li><li>Russia reported a Ukrainian drone strike on an oil refinery in Ryazan, about 180km south of Moscow, causing a fire</li><li>Trump had unilaterally announced an energy ceasefire on Sunday, but Russia continued striking Ukrainian energy infrastructure, leaving 600,000 Ukrainians without power</li><li>Zelensky criticized Trump's 'favouritism toward Russia' and expressed frustration at alleged withdrawal of US intelligence sharing</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.aljazeera.com/video/counting-the-cost/2026/10/15/could-france-trigger-another-eurozone-debt-crisis?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Emphasized that Trump's ceasefire was unilateral and not publicly confirmed by other parties</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/canada/video-joly-says-the-world-wont-be-safer-even-if-trump-leaves-office/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Detailed Zelensky's anger at 'dangerous' withdrawal of US intelligence</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/10/15/in-brazil-evangelicals-grow-frustrated-with-the-politicization-of-their-faith-it-s-disheartening-to-see-religion-used-by-the-far-right_6758621_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Article focused on Washington limiting support amid Russian attacks</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">EU Leaders Face High-Stakes Budget Showdown Ahead of French Election</h2>
+            <ul class="story-bullets"><li>EU leaders meet Thursday to negotiate the bloc's next long-term budget covering 2028-2034, worth nearly two trillion euros</li><li>Leaders are racing to reach agreement by December, fearing eurosceptic wins in upcoming elections, particularly France's presidential vote</li><li>Marine Le Pen, frontrunner in the French election, called it a 'democratic scandal' to adopt a budget before next year's votes and wants to slash France's EU contribution</li><li>Key disputes include funding levels for agriculture, defense, economic competitiveness versus US and China, and migration return hubs in Africa</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.france24.com/en/video/20261015-china-north-korea-open-long-delayed-border-bridge" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Video coverage emphasizing clash over budget and Ukraine support</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261014-louvre-director-says-major-renovation-plan-will-be-extremely-complex" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Detailed analysis of political pressures and Le Pen's opposition</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A9E8E">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #4A9E8E; border-color: #4A9E8E40">Economics</span>
+            </div>
+            <h2 class="story-headline">Asian Markets Plunge on US Inflation Data and AI Investment Concerns</h2>
+            <ul class="story-bullets"><li>South Korea's KOSPI fell more than 7% and Japan's Nikkei dropped 4% on Thursday morning</li><li>The sell-off followed higher-than-expected US consumer price index data showing inflation accelerated in September</li><li>Markets were also affected by concerns about artificial intelligence investment levels and debt</li><li>Japanese Finance Minister said the G20 discussed concerns over yields and currency volatility at the Bangkok meeting</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite" target="_blank" rel="noopener" class="source-chip lean-center">
+                Nikkei Asia<span class="framing-note">Provided detailed regional market data and linked to G20 finance ministers meeting</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">At Least 17 Children Killed in Pakistan School Roof Collapse</h2>
+            <ul class="story-bullets"><li>The roof of a private school collapsed in Dir Colony, inner-city Peshawar, on Thursday morning</li><li>At least 17 students and one teacher were killed, with all deceased children aged 13 or younger</li><li>More than 40 people were injured and rescue teams continued searching debris for those still trapped</li><li>Police arrested the school owner, with authorities accusing those responsible of severe negligence</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.thehindu.com/news/international/allegations-rise-as-ukraine-reports-starlink-slowdowns-and-suspected-us-intelligence-cuts/article71586716.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Straightforward news coverage with official statements from police and hospital</span>
+            </a>
+            <a href="https://www.aljazeera.com/video/counting-the-cost/2026/10/15/could-france-trigger-another-eurozone-debt-crisis?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Higher casualty figure of 29, included detail about owner's arrest and negligence accusations</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/politics/international-relations/china-north-korea-traffic-to-increase-with-new-bridge-opening" target="_blank" rel="noopener">China and North Korea officially open long-delayed Yalu River border bridge after 12-year delay, signaling deepening ties</a>
+            <span class="additional-source">Nikkei Asia, France 24, Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo" target="_blank" rel="noopener">Trial opens in Germany for Ukrainian man accused of sabotaging Nord Stream pipelines in 2022</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/crx23y3d970vo" target="_blank" rel="noopener">Turkish police raid opposition news channel Halk TV, halting broadcasts and detaining 11 people in financial crimes investigation</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c60qkgpp592yo" target="_blank" rel="noopener">Eight crew missing after tanker fire off Romania's Black Sea coast amid spate of suspected drone attacks</a>
+            <span class="additional-source">BBC Europe, Globe and Mail</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o" target="_blank" rel="noopener">Violent student protests in Albania see government buildings attacked and set on fire over education and job concerns</a>
+            <span class="additional-source">BBC World, France 24</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o" target="_blank" rel="noopener">Retired US generals call on Pentagon to cancel planned livestream of Nidal Hasan firing squad execution</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rnz.co.nz/life/books/sally-rooney-s-books-no-longer-sold-in-uk-over-support-for-banned-pro-palestinian-group" target="_blank" rel="noopener">Irish author Sally Rooney's books withdrawn from UK sale over her support for proscribed pro-Palestinian group Palestine Action</a>
+            <span class="additional-source">RNZ</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/business/tech/semiconductors/tsmc-profit-soars-69-in-another-record-quarter-fueled-by-ai-boom" target="_blank" rel="noopener">TSMC reports record quarterly profit up 69% year-on-year as AI boom continues to fuel chip demand</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/videos/houthi-attack-on-saudi-oil-giant-raises-global-energy-concerns/article71587462.ece" target="_blank" rel="noopener">Houthi rebels strike Saudi Aramco headquarters in Dhahran, raising concerns over regional stability and global energy supplies</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/ckqxne2evqreo" target="_blank" rel="noopener">White House defends new press secretary Katie Zacharia amid scrutiny over her legal credentials and bar registration</a>
+            <span class="additional-source">BBC World, The Hindu</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
