@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 10:01 UTC</span>
+            </div>
+            <h1 class="header-title">Saturday, October 17, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">The most consequential development today is President Trump's decision to waive congressionally-mandated sanctions on Russia, drawing sharp criticism from US lawmakers and Ukrainian President Zelensky, who addressed an EU summit seeking continued European support [BBC], [France 24], [The Hindu]. The move comes amid deteriorating US-Ukraine relations following a controversial diesel import deal with Moscow. Meanwhile, Yemen's conflict has intensified as Houthi forces struck Aden's presidential palace and airport, killing five and prompting Saudi coalition intercepts of additional missiles targeting oil infrastructure [France 24], [Al Jazeera], [Financial Times]. In France, tens of thousands are expected to demonstrate as students, trade unions, and Yellow Vest remnants unite against rising costs and deteriorating public services, with police already making arrests and deploying tear gas in Paris, Marseille, and Lyon [France 24], [RFI]. The IMF's annual meetings concluded in Bangkok with Managing Director Georgieva warning that low-income nations face mounting debt pressures, spending up to 14% of revenues on repayments amid war spillovers and inflation [Al Jazeera], [Nikkei Asia]. A controversial hepatitis B vaccine trial in Guinea-Bissau, championed by HHS Secretary RFK Jr., faces uncertainty after the country's health ministry denied authorizing the study [The Guardian].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Trump Waives Russia Sanctions Two Days Before Implementation, Sparking Congressional Backlash</h2>
+            <ul class="story-bullets"><li>President Trump signed an executive order Friday waiving sweeping sanctions on Russia's energy sector, financial institutions, and senior officials including Putin, which Congress had passed and Trump himself signed into law in September</li><li>The Lindsey Graham Act would have authorized tariffs up to 100% on imports from top Russian oil and gas purchasers including China and India, and targeted Russia's 'shadow fleet' of sanction-evading vessels</li><li>Ukrainian President Zelensky said the US had decided to 'completely disregard' the sanctions; Russian presidential envoy Kirill Dmitriev called it 'a historic moment'</li><li>The waiver follows a US-Russia diesel import deal and restrictions on Ukraine's battlefield satellite network access, with Trump calling Zelensky 'more difficult to deal with' than Putin</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="#" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC<span class="framing-note">Detailed coverage of Congressional backlash and escalating Trump-Zelensky tensions</span>
+            </a>
+            <a href="https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Video coverage emphasizing European context and Zelensky's outreach to EU</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/anthropics-claude-ai-submits-false-tip-on-philadelphia-unsolved-homicide-case/article71569220.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Highlighted Russian envoy's celebratory reaction, framing as diplomatic win for Moscow</span>
+            </a>
+            <a href="https://www.economist.com/international/2026/10/01/how-effective-altruism-conquered-the-world" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                The Economist<span class="framing-note">Broader analysis of Trump-Putin-Xi dynamics and implications for middle powers</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Houthi Missile Strikes Hit Yemen's Aden Palace and Airport as Regional Conflict Escalates</h2>
+            <ul class="story-bullets"><li>Five missiles struck the Al-Maashiq Presidential Palace in Aden on Thursday, killing five people including two of Prime Minister Shaya al-Zindani's bodyguards and wounding 16</li><li>Two missiles landed on Aden International Airport grounds Friday while a Yemenia Airways flight prepared for takeoff to Cairo; no casualties reported</li><li>Saudi-led coalition intercepted a ballistic missile headed for Yanbu, a key Saudi oil export hub, plus two cruise missiles over the Red Sea and three drones in Saudi territory</li><li>Iran denied Saudi accusations of involvement while Houthis claimed they targeted Saudi military headquarters and weapons depots; FT reports Houthis now encircling Taiz, one of Yemen's largest cities</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Straightforward incident reporting with coalition response details</span>
+            </a>
+            <a href="https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Provided broader context on Yemen's war reigniting as part of regional Iran conflict</span>
+            </a>
+            <a href="https://www.ft.com/content/989c757d-29ba-46fd-82de-427b810a8649?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Emphasized strategic implications including Houthi encirclement of Taiz</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/10/17/war-in-ukraine-europe-stands-united-behind-kyiv-but-must-revisit-how-to-finance-its-support_6758692_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Covered Iran's denial of involvement</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Mass Protests Sweep France as Students, Unions, and Yellow Vests Unite Against Rising Costs</h2>
+            <ul class="story-bullets"><li>French authorities expect 70,000-140,000 demonstrators nationwide as high school students, trade unions, and Yellow Vest activists join forces over cost of living and deteriorating school conditions</li><li>Police used tear gas and batons in Paris, Marseille, and Lyon as protesters staged unsanctioned marches and erected impromptu barricades; 40 arrested in Paris by 9:30am</li><li>Student union representatives walked out of Thursday meeting with Education Minister Édouard Geffray, saying they 'weren't being heard,' and will now seek direct engagement with Prime Minister Lecornu's office</li><li>Protesters blockaded the Paris offices of right-wing network CNews overnight, resulting in 21 detentions</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Live coverage with detailed incident reporting from multiple cities</span>
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI<span class="framing-note">Emphasized student grievances over teacher absences and Parcoursup system</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">Guinea-Bissau Denies Approving Controversial Vaccine Trial Backed by RFK Jr.</h2>
+            <ul class="story-bullets"><li>Guinea-Bissau's Health Minister Quinhin Nantote said the ministry never authorized a hepatitis B vaccine trial that would withhold shots from some newborns, contradicting claims that influenced a Danish ethics committee vote</li><li>The trial, championed by HHS Secretary Robert F. Kennedy Jr., would enroll 14,000 infants and withhold hepatitis B vaccines from half for six weeks to study 'nonspecific' health outcomes</li><li>Kennedy praised the research at an anti-vaccine conference, with critics saying he 'wants to make it so we don't use a birth dose here in this country' but cannot conduct such trials in the US due to ethical concerns</li><li>Danish researchers at University of Southern Denmark had received approval from their home institution's ethics committee based partly on reported Guinea-Bissau authorization</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Guardian<span class="framing-note">Two articles: first reported ethics committee approval citing Guinea-Bissau authorization; second reported ministry denial and characterized Kennedy's approach critically</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A9E8E">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #4A9E8E; border-color: #4A9E8E40">Economics</span>
+            </div>
+            <h2 class="story-headline">IMF Warns Low-Income Nations Face Mounting Debt Crisis Amid War Spillovers</h2>
+            <ul class="story-bullets"><li>IMF Managing Director Kristalina Georgieva said low-income countries now spend 8-14% of revenues on debt repayments, up significantly from previous years due to higher global interest rates</li><li>Georgieva stated vulnerable nations are missing out on the AI investment boom driving growth in richer countries while simultaneously facing higher borrowing costs</li><li>Saudi Finance Minister Mohammed Al-Jadaan noted the Middle East crisis has exposed a divide between Gulf states prepared to withstand turmoil and more vulnerable regional economies needing support</li><li>The IMF's annual meetings in Bangkok concluded with Georgieva citing both 'optimism and worry' about global economic resilience, AI promises, and risks from inflation, debt, wars, and climate</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Emphasized IMF responsibility to help poorer nations and inflation's disproportionate impact</span>
+            </a>
+            <a href="https://asia.nikkei.com/business/tech/semiconductors/intel-chief-says-white-house-will-not-meddle-in-its-semiconductor-business" target="_blank" rel="noopener" class="source-chip lean-center">
+                Nikkei Asia<span class="framing-note">Focused on Saudi minister's regional economic analysis and Gulf state preparedness</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch" target="_blank" rel="noopener">LGBTQ+ people in Senegal go into hiding as over 320 arrested since February under toughened anti-homosexuality law</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/africa/20261016-madagascar-marks-one-year-since-uprising-as-russia-s-influence-grows" target="_blank" rel="noopener">Madagascar marks one year since military coup as Russian influence grows through weapons deliveries and strategic port interest</a>
+            <span class="additional-source">RFI</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c64g18ljjd8do" target="_blank" rel="noopener">Italy's defense minister tells BBC Trump 'completely wrong' to restrict satellite and intelligence support for Ukraine</a>
+            <span class="additional-source">BBC</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rnz.co.nz/news/pacific/1919842/nzsis-to-support-fiji-intelligence-review-amid-foreign-interference-claims" target="_blank" rel="noopener">New Zealand intelligence service to support Fiji security review amid US claims of Chinese infiltration</a>
+            <span class="additional-source">RNZ</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o" target="_blank" rel="noopener">Brazil reports record 41.8% fall in Amazon deforestation ahead of tight presidential election runoff</a>
+            <span class="additional-source">BBC</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o" target="_blank" rel="noopener">Oregon school shooting suspect identified as former special-needs student; teacher tackled attacker before armed father killed him</a>
+            <span class="additional-source">BBC</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/business/technology/artificial-intelligence/southeast-asia-caught-amid-competing-us-and-chinese-ai-blocs" target="_blank" rel="noopener">Southeast Asian nations caught between competing US and Chinese AI blocs with concerns about being forced to choose sides</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261016-mayors-urge-france-to-recognise-1961-paris-massacre-of-algerians-as-state-crime" target="_blank" rel="noopener">French mayors call for official recognition of 1961 Paris massacre of Algerian protesters as state crime on 65th anniversary</a>
+            <span class="additional-source">RFI</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/anthropics-claude-ai-submits-false-tip-on-philadelphia-unsolved-homicide-case/article71569220.ece" target="_blank" rel="noopener">Anthropic's Claude AI model submitted false tip to Philadelphia police about unsolved homicide during webpage testing</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/bangladesh-celebrates-durga-puja-under-heavy-security-pm-and-president-stress-communal-harmony/article71595967.ece" target="_blank" rel="noopener">Bangladesh celebrates Durga Puja under heavy security with 33,851 venues nationwide</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
