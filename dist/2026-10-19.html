@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 11:36 UTC</span>
+            </div>
+            <h1 class="header-title">Monday, October 19, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">France dominates today's headlines as the government grapples with the aftermath of weekend protests that spiraled into the worst urban violence in modern French history, with over 1,500 shops looted, 2,400 arrests, and approximately 1,000 police officers injured [BBC], [France 24], [Financial Times]. President Macron rejected Interior Minister Nunez's resignation while ordering a security review, as Yellow Vest organizers announced fresh protests for Saturday [RFI]. The unrest has drawn opportunistic commentary from Presidents Trump and Putin, who characterized the violence as evidence of European decline [Le Monde]. Meanwhile, US-Ukraine relations continue to deteriorate as President Trump suspended Russian sanctions to maintain 'peace negotiations,' while accusing President Zelensky of not wanting to end the war [BBC]. Zelensky reported Ukraine received no allied early warning before overnight Russian ballistic missile strikes on energy infrastructure [Globe and Mail], [The Hindu], though Secretary of State Rubio denied any pause in intelligence sharing. In Canada, Alberta holds a significant vote on whether to proceed with a future referendum on separation from Canada [BBC], while in Armenia, COP17 opens with countries off-track on 22 of 23 biodiversity targets set in 2022 [Globe and Mail], [RFI].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">France Faces Political Crisis After Weekend Riots Leave Over 1,000 Police Injured, 1,500 Shops Looted</h2>
+            <ul class="story-bullets"><li>Over 500,000 protesters demonstrated Saturday against rising living costs and declining public services; violence erupted as masked groups looted shops, torched buildings, and clashed with police</li><li>Interior Minister Laurent Nunez offered his resignation after admitting police 'lost control' in several cities; President Macron rejected the resignation and ordered a security review</li><li>Approximately 2,400 people were arrested, over 1,000 police officers injured (seven seriously), and more than 1,500 businesses looted or destroyed in what officials called some of the worst urban violence in modern French history</li><li>Yellow Vests movement announced new protests for Saturday; the Louvre museum entrance was blocked by protesters on Monday as France begins a massive cleanup operation</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Focused on political pressure on government and Interior Minister's resignation offer</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261019-massive-clean-up-operation-sweeps-across-france-after-protests" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Emphasized disconnect between Macron and public, with expert commentary on historical parallels to 1968</span>
+            </a>
+            <a href="https://www.ft.com/content/086e66dd-1e1b-4279-ae6b-2ac88757998f?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Highlighted political firestorm and bond market reaction ahead of presidential election</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/10/19/bomb-threat-forces-airliner-from-tel-aviv-to-divert-to-bulgaria_6758741_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Reported Trump and Putin using protests as propaganda about 'migrant chaos' and 'Europe's decline'</span>
+            </a>
+            <a href="https://www.rfi.fr/en/environment/20261019-nature-summit-confronts-the-money-still-driving-wildlife-destruction-cop17-yerevan" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Detailed Interior Minister's admission of losing control and provided arrest figures</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-firebombing-attack-on-home-was-political-message-dalai-lamas/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Noted investor concerns and fragile government implications for budget negotiations</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Trump Suspends Russia Sanctions, Accuses Zelensky of Not Wanting Peace as Ukraine Reports Loss of Allied Intelligence Warnings</h2>
+            <ul class="story-bullets"><li>President Trump blocked multiple Russia sanctions on Friday, two days before they were due to take effect, stating he wants to keep Moscow 'at the negotiating table'</li><li>Trump accused Zelensky of not wanting to end the war, claiming Ukraine 'could have made a better deal two years ago'; Zelensky responded that siding with Putin would be a 'historic mistake'</li><li>Ukraine's President Zelensky reported receiving no early warning from allies about overnight Russian ballistic missile and drone attacks that damaged over 10 energy infrastructure facilities</li><li>Secretary of State Rubio denied any suspension of intelligence sharing, telling reporters 'there has been no pause' while urging Zelensky to 'focus' on ending the war</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Balanced presentation of both Trump and Zelensky positions</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-firebombing-attack-on-home-was-political-message-dalai-lamas/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Detailed multiple US actions benefiting Russia including Starlink restrictions and diesel imports</span>
+            </a>
+            <a href="https://www.ft.com/content/086e66dd-1e1b-4279-ae6b-2ac88757998f?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Noted Ukraine received only partial intelligence on one of two attacks</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/ukraine-received-no-early-warning-of-russian-strikes-president-volodymyr-zelenskyy/article71602460.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Focused on Zelensky's statements and lack of early warning from partners</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/10/19/bomb-threat-forces-airliner-from-tel-aviv-to-divert-to-bulgaria_6758741_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Covered Zelensky's meetings with US envoys amid Trump accusations</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">Alberta Votes on Whether to Hold Future Referendum on Separation from Canada</h2>
+            <ul class="story-bullets"><li>Albertans vote Monday on whether to authorize a binding referendum on separation from Canada, potentially as early as 2027</li><li>The vote follows a petition with approximately 300,000 signatures from supporters citing federal environmental policies as stifling the oil-rich province's economic growth</li><li>A counter-petition opposing separation gathered over 400,000 signatures; polls suggest most Albertans would vote to remain in Canada</li><li>A court blocked the pro-separation petition for failing to consult Indigenous First Nations, but Premier Danielle Smith proceeded with the vote regardless</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmq5n8x106jdo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Provided balanced coverage including both pro-separation and unity arguments, noted Prime Minister Carney's calls for national unity</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">World Food Programme Forced to Cut Gaza Aid by One-Third Amid Funding Shortages</h2>
+            <ul class="story-bullets"><li>WFP will reduce the number of people receiving assistance in Gaza from 1.6 million to 1.1 million due to funding shortfalls</li><li>Daily hot meals from community kitchens will be cut from 250,000 to 150,000 per day</li><li>Families in hard-to-reach areas near Israel's military control line will receive meals every other day instead of daily</li><li>Nearly all of Gaza's 2.1 million population remains displaced, with two-thirds relying on food aid to survive</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmq5n8x106jdo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Included direct quotes from displaced Palestinian mothers about impact of cuts</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #5A9E5A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #5A9E5A; border-color: #5A9E5A40">Climate</span>
+            </div>
+            <h2 class="story-headline">COP17 Biodiversity Summit Opens in Armenia with Countries Off-Track on Nearly All 2030 Targets</h2>
+            <ul class="story-bullets"><li>The UN biodiversity conference convenes in Yerevan, Armenia to assess progress under the 2022 Kunming-Montreal Global Biodiversity Framework</li><li>Countries are currently not on track to meet 22 of 23 goals set in the framework, according to a draft UN report</li><li>Central disputes remain over funding, with a US$30 billion public finance goal and broader target of mobilizing $200 billion per year by 2030</li><li>144 countries including Brazil and China have created action plans, but subsidy reform for activities damaging ecosystems remains a major focus</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theglobeandmail.com/world/article-firebombing-attack-on-home-was-political-message-dalai-lamas/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized funding disputes and broader economic implications of ecosystem deterioration</span>
+            </a>
+            <a href="https://www.rfi.fr/en/environment/20261019-nature-summit-confronts-the-money-still-driving-wildlife-destruction-cop17-yerevan" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Focused on protected areas under threat from drilling and mining, noted more money goes into damaging ecosystems than protecting them</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/world/article-australian-lawmaker-helen-haines-critically-vehicle-attack/" target="_blank" rel="noopener">Australian independent lawmaker Helen Haines critically injured in apparent deliberate vehicle attack outside her office in Wangaratta</a>
+            <span class="additional-source">Globe and Mail, Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/business/markets/indonesian-stocks-continue-to-plunge-as-msci-downgrade-fears-deepen" target="_blank" rel="noopener">Indonesian stocks plunge to six-year low as MSCI raises prospect of downgrading country to standalone market status</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/news/2026/10/19/israeli-police-arrest-10-after-settler-attacks-on-journalist-diplomats" target="_blank" rel="noopener">Israeli police arrest 10 suspects following settler attacks on US photojournalist and European diplomats in the occupied West Bank</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/china-imposes-export-controls-on-tunnel-boring-machines-sought-by-india-citing-national-security/article71602536.ece" target="_blank" rel="noopener">China imposes export controls on tunnel-boring machines sought by India, citing national security concerns</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/houthi-rebels-strike-government-military-camp-in-southern-yemen-killing-at-least-20-fighters/article71602578.ece" target="_blank" rel="noopener">Houthi rebels strike Yemeni government military camp in southern Shabwa province, killing at least 20 soldiers</a>
+            <span class="additional-source">The Hindu, Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/video/newsfeed/2026/10/19/indonesia-battles-worst-forest-fires-and-toxic-haze-in-11-years" target="_blank" rel="noopener">Indonesia battles worst forest fires and toxic haze in 11 years in Central Kalimantan</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo" target="_blank" rel="noopener">Kenyan judge begins delivering verdict in mass murder case against doomsday preacher Paul Mackenzie, accused of ordering deaths of 191 people</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/business/automobiles/foxconn-mitsubishi-electric-join-forces-for-global-ev-push" target="_blank" rel="noopener">Foxconn and Mitsubishi Electric announce 50-50 joint venture to supply global EV platforms</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o" target="_blank" rel="noopener">EU tariffs aimed at curbing Chinese steel imports are unfairly hitting Ukraine, says Metinvest CEO</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c680zdmn100lo" target="_blank" rel="noopener">Bomb threat forces Austrian Airlines flight from Tel Aviv to Vienna into emergency landing in Bulgaria; no threat found after search</a>
+            <span class="additional-source">BBC Europe, Le Monde</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
