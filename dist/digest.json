@@ -1,220 +1,214 @@
 {
-  "date": "Tuesday, October 20, 2026",
-  "daily_brief": "The day's news is dominated by civil unrest spreading across Europe, with France implementing targeted curfews in Paris, Lyon, and other cities after a weekend of violent protests over rising fuel prices and deteriorating public services left thousands of businesses damaged and more than 120 people imprisoned [BBC, RFI, Globe and Mail]. Le Monde reports similar unrest in Italy, Spain, Belgium, and Portugal amid soaring energy prices and housing crises. In Ukraine, President Zelensky's adviser told the BBC that Ukrainians have died due to US restrictions on intelligence sharing, contradicting White House denials of any changes [BBC, France 24, Globe and Mail]. Canada received welcome news as Alberta voters decisively rejected a referendum on independence by 76% to 23%, a significant victory for Prime Minister Mark Carney amid ongoing tensions with the Trump administration [Financial Times, RFI, ABC Australia, Al Jazeera]. In Sudan, a drone strike near a market killed 80 people in one of the deadliest single attacks since the civil war began in 2023 [The Guardian]. Meanwhile, a Kenyan court found cult leader Paul Mackenzie guilty of murdering 191 people, mostly children, in what became known as the Shakahola Forest Massacre [The Guardian, France 24, RFI].",
+  "date": "Wednesday, October 21, 2026",
+  "daily_brief": "Wednesday's developments center on intensifying US-Russia diplomacy as envoy Steve Witkoff met President Putin in St. Petersburg, securing the release of detained American Stephen Hubbard while discussing proposals to end the Ukraine war [BBC, Globe and Mail, ABC Australia]. The goodwill gesture came amid continued tensions between Washington and Kyiv, with Trump and Zelensky trading barbs even as US intelligence sharing reportedly resumed [BBC, France 24]. In France, Prime Minister Lecornu prepared for a 'massive' police deployment ahead of planned weekend protests following some of the country's worst rioting in years, which has drawn international travel advisories and sparked parliamentary inquiries into left-wing anarchist involvement [RFI, BBC, France 24]. Health authorities sounded alarms as Nigeria confirmed its first Ebola case\u2014a diplomat infected with the Bundibugyo strain who had traveled from Congo's eastern region\u2014marking the outbreak's continued spread across Africa [The Guardian, The Hindu]. Meanwhile, Elon Musk confirmed active consideration of merging Tesla and SpaceX, a potential combination valued at over $3.5 trillion that would rank among history's largest corporate mergers [BBC, France 24]. Australian MP Helen Haines lost both legs following what police called a targeted vehicle attack, prompting national concern over rising threats to elected officials [BBC, Al Jazeera, Le Monde].",
   "top_stories": [
     {
-      "headline": "France Imposes Targeted Curfews After Weekend of Violent Protests Over Cost of Living",
-      "category": "Society",
+      "headline": "Russia Releases American Prisoner as Trump Envoy Meets Putin to Discuss Ukraine Peace Proposals",
+      "category": "Geopolitics",
       "bullets": [
-        "French Prime Minister S\u00e9bastien Lecornu instructed regional authorities to impose partial curfews in Paris, Lyon, Nice, Lille, and other cities after protests over fuel prices, cost of living, and education deteriorated into rioting and looting",
-        "More than 120 people have been imprisoned and approximately 3,000 businesses across France were damaged or looted over the weekend; the historic 19th-century Limoges city hall was gutted by fire",
-        "A 40-year-old suspect linked to far-left movements and classified as a national security threat was arrested in connection with the Limoges fire",
-        "Government officials stated they have not ruled out a state of emergency but emphasized curfews are preferable to measures that would restrict freedoms for all citizens"
+        "Russia freed 74-year-old American Stephen Hubbard, held since 2022 on mercenary charges, as US envoy Steve Witkoff met President Putin in St. Petersburg for their ninth in-person meeting",
+        "Trump stated there was 'no swap necessary' for the release and that he had made the request directly to Putin last week; Hubbard is expected to be flown to Texas for medical treatment",
+        "Witkoff arrived in Russia following talks in Oslo with Zelensky, Finnish and Norwegian leaders, and European officials that US officials described as 'constructive'",
+        "The meeting also addressed the US-Russia diesel export deal, with Putin stating the first shipment would leave Russia 'in two to three days'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on the arrest and security classification of the suspect, emphasized government response",
-          "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Detailed the specific curfew measures and geographic scope",
-          "url": "https://www.rfi.fr/en/france/20261019-french-trial-opens-over-triple-murder-linked-to-marseille-drug-wars"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized the scale of business damage and government scramble to respond",
-          "url": "https://www.theglobeandmail.com/world/article-boeing-737-max-10-certification/"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Framed protests in context of upcoming 2027 elections and declining support for centrist politics",
-          "url": "https://www.aljazeera.com/news/2026/10/20/french-protests-is-it-game-over-for-macrons-centrists-before-elections?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Zelensky Adviser Says Ukrainians Dying Due to US Intelligence Restrictions; White House Denies Changes",
-      "category": "Geopolitics",
-      "bullets": [
-        "Senior Zelensky adviser Serhii Beskrestnov told the BBC that Ukrainian lives have been lost because Kyiv is not receiving reliable US warnings of incoming Russian ballistic missile attacks",
-        "Zelensky reported two overnight ballistic missile attacks on Kyiv, one without warning and another with minimal time to shelter; restrictions on Ukraine's use of Starlink remain in place",
-        "The White House denied any changes to intelligence sharing; Ukraine first reported interruptions last week amid disputes over a US deal to import Russian diesel from Moscow",
-        "Trump envoys Steve Witkoff and Jared Kushner are expected to travel to Norway for fresh talks with Zelensky as US midterm elections approach"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Led with human cost and direct quotes from Zelensky adviser",
-          "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief coverage focused on Zelensky's accusations",
-          "url": "https://www.france24.com/en/video/20261020-france-first-night-under-targeted-curfews-passed-calmly"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Included context about Starshield restrictions and Patriot missile shortages",
-          "url": "https://www.theglobeandmail.com/world/article-boeing-737-max-10-certification/"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Emphasized upcoming diplomatic talks and midterm political context",
-          "url": "https://www.ft.com/content/581d8a59-b128-4f68-9f34-6c066b36ca5b?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "Alberta Voters Decisively Reject Independence Referendum, Handing Victory to Canadian Unity",
-      "category": "Geopolitics",
-      "bullets": [
-        "Approximately 76% of Alberta voters rejected a proposal to begin a process toward independence, with 23% supporting the measure, in results projected by CBC and CTV",
-        "Prime Minister Mark Carney called it a 'clear choice' for unity amid ongoing US trade war and annexation threats from President Trump",
-        "The referendum was non-binding and would not have directly separated Alberta from Canada, but would have initiated a legal process toward a future binding vote",
-        "Separatist leaders, including Jeffrey Rath of the Alberta Prosperity Project, said they will continue pursuing independence despite the defeat"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized Carney's statement and context of Trump's trade war",
-          "url": "https://www.rfi.fr/en/france/20261019-french-trial-opens-over-triple-murder-linked-to-marseille-drug-wars"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Framed result as relief for Carney amid Trump tensions",
-          "url": "https://www.ft.com/content/581d8a59-b128-4f68-9f34-6c066b36ca5b?syn-25a6b1a6=1"
+          "framing_note": "Emphasized the diplomatic context and Trump-Zelensky tensions alongside the prisoner release",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Noted pollsters had repeatedly dismissed separatist victory possibility",
-          "url": "https://www.abc.net.au/news/2026-10-20/underworld-link-to-gosnells-drive-by-shooting-probed/107289494"
+          "framing_note": "Focused on the release announcement and diplomatic mechanics",
+          "url": "https://www.abc.net.au/news/2026-10-21/lino-atem-wyndham-vale-court-stabbing/107294288"
         },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted that over 300,000 still backed separation and grievances remain",
-          "url": "https://www.aljazeera.com/news/2026/10/20/french-protests-is-it-game-over-for-macrons-centrists-before-elections?traffic_source=rss"
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted concerns about US backing away from Ukraine and intelligence-sharing disputes",
+          "url": "https://www.theglobeandmail.com/world/article-helen-haines-australia-politician-car/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Provided detailed vote count and historical context of Alberta-Ottawa tensions",
-          "url": "https://www.thehindu.com/sport/football/psg-barcelona-match-in-champions-league-to-go-ahead-amid-shock-over-frances-violent-unrest/article71602879.ece"
+          "framing_note": "Emphasized Rubio's characterization of Oslo talks as 'positive'",
+          "url": "https://www.thehindu.com/news/international/first-nation-community-in-canada-uses-data-centre-to-preserve-its-heritage/article71606571.ece"
         }
       ]
     },
     {
-      "headline": "Drone Strike Near Sudan Market Kills 80 in One of War's Deadliest Single Attacks",
-      "category": "Conflict",
-      "bullets": [
-        "A drone struck twice near a market in al-Dibab, West Kordofan state, killing 80 people, mostly commuters waiting for transport home after market day",
-        "The attack hit a transport hub 10 minutes apart; 50 bodies were buried locally while 30 of 47 transported to nearby al-Mujlad died from injuries",
-        "The RSF-aligned administration accused the Sudanese armed forces of carrying out the strike; the area is under RSF control",
-        "Between January and April 2026, drone strikes accounted for at least 880 civilian deaths, representing over 80% of all conflict-related civilian casualties"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Provided detailed witness accounts and broader context on drone warfare escalation in the conflict",
-          "url": "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype"
-        }
-      ]
-    },
-    {
-      "headline": "Kenyan Cult Leader Found Guilty of Murdering 191 People in Shakahola Forest Starvation Deaths",
+      "headline": "France Braces for Weekend Protests with 'Massive' Police Deployment After Worst Riots in Years",
       "category": "Society",
       "bullets": [
-        "Paul Mackenzie and 28 associates were found guilty of murdering 190 children and one adult by ordering followers to starve themselves and their children to death to 'meet Jesus'",
-        "More than 400 bodies have been recovered from shallow graves in Shakahola forest since 2023; only 26 have been identified due to severe decomposition",
-        "The judge stated that in some cases children were isolated and denied food while their parents watched; Mackenzie denied forcing victims to starve",
-        "Mackenzie also faces separate charges of manslaughter and terrorism; the case represents one of the worst cult-related disasters in recent history"
+        "Prime Minister S\u00e9bastien Lecornu announced meetings with five unions and promised significantly increased police presence for Saturday demonstrations organized by Yellow Vest movement and high school students",
+        "Weekend violence saw looting, clashes, and the gutting of a 19th-century city hall in Limoges; a 34-year-old suspect linked to far-left movements and on a national security watchlist was arrested",
+        "Curfews have been extended in Paris, Marseille, Lyon, Nice, and Lille; the US, China, and Germany issued travel advisories for France",
+        "French intelligence had briefed government earlier this month that left-wing anarchist groups were involved; National Assembly president proposed parliamentary inquiry into riot organization"
       ],
       "sources": [
         {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized scale of tragedy and provided family victim perspectives",
-          "url": "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype"
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Straightforward coverage of government response and planned security measures",
+          "url": "https://www.rfi.fr/en/international/20261020-eu-pushes-for-stronger-arctic-presence-amid-russian-pressure-and-us-uncertainty"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Deeper analysis of divided French opinion on causes and blame; noted multiple theories in circulation",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Brief coverage confirming guilty verdict",
-          "url": "https://www.france24.com/en/video/20261020-france-first-night-under-targeted-curfews-passed-calmly"
+          "framing_note": "Brief coverage focused on police deployment announcement",
+          "url": "https://www.france24.com/en/ukraine-talks-what-progress-after-us-envoy-met-with-zelensky"
         },
         {
-          "name": "RFI English",
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Coverage focused on Macron's damaged international image and Trump camp's political exploitation of riots",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/21/woody-allen-films-an-idealized-madrid-as-envisioned-by-local-authorities_6760690_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Nigeria Confirms First Ebola Case as Outbreak Spreads Across Africa",
+      "category": "Policy",
+      "bullets": [
+        "A diplomat who traveled from Congo's eastern region tested positive for Bundibugyo strain of Ebola in Abuja; patient has deteriorated into multi-organ failure",
+        "Nigerian authorities have begun tracing 44 identified contacts; Uganda's health ministry disputed that infection occurred during transit through their country",
+        "Kenya earlier confirmed nine cases this month; Africa CDC director called situation 'an extremely serious threat'",
+        "The Democratic Republic of Congo outbreak, which shares the same Bundibugyo strain, has recorded over 4,000 deaths"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized regional spread and Africa CDC warning about serious threat",
+          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided additional detail on patient being a diplomat and specific test methodology used",
+          "url": "https://www.thehindu.com/news/international/first-nation-community-in-canada-uses-data-centre-to-preserve-its-heritage/article71606571.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Musk Confirms Active Consideration of Tesla-SpaceX Merger in Historic Corporate Combination",
+      "category": "Technology",
+      "bullets": [
+        "Elon Musk stated during SpaceX earnings call that special committees at both companies have been formed to examine a potential merger, though no agreement has been reached",
+        "Combined valuation would exceed $3.5 trillion (Tesla at ~$1.5 trillion, SpaceX at ~$2 trillion), making it one of the largest mergers in corporate history",
+        "SpaceX reported Starlink revenue rose to $5.2 billion in Q3 from $3 billion in the same period last year",
+        "The Starshield military satellite network is facing scrutiny over claims of restricted Ukraine access; both Trump and Musk have denied ordering any slowdown"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Included calls for tougher regulation of religious organizations",
-          "url": "https://www.rfi.fr/en/france/20261019-french-trial-opens-over-triple-murder-linked-to-marseille-drug-wars"
+          "framing_note": "Comprehensive coverage including Starlink scrutiny and Ukraine access concerns",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Business-focused coverage emphasizing earnings context",
+          "url": "https://www.france24.com/en/ukraine-talks-what-progress-after-us-envoy-met-with-zelensky"
+        }
+      ]
+    },
+    {
+      "headline": "Australian MP Helen Haines Loses Both Legs After Targeted Vehicle Attack",
+      "category": "Society",
+      "bullets": [
+        "Independent MP Helen Haines, 65, had both legs amputated after a man allegedly drove his Toyota LandCruiser into her twice outside her electoral office in Wangaratta, Victoria",
+        "Suspect Brendan Nugent, 43, appeared in court Wednesday charged with intentionally causing serious injury, dangerous driving, and causing harm to a federal official; his lawyer cited a rare neurological condition",
+        "Prime Minister Anthony Albanese called it 'a reminder that the world is a more dangerous and divided place'; police warned of growing 'online extremism' and rising threats against lawmakers",
+        "A separate incident occurred Wednesday when a man with nunchucks allegedly made threats at another MP's office in Perth"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on husband's statement and court proceedings",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Broader context on rising threats against Australian legislators and historical rarity of political violence",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/trump-snaps-at-reporter-ordering-him-to-be-quiet?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized investigation into motivations and broader political violence concerns",
+          "url": "https://www.theglobeandmail.com/world/article-helen-haines-australia-politician-car/"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage characterizing attack as 'targeted'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/21/woody-allen-films-an-idealized-madrid-as-envisioned-by-local-authorities_6760690_4.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Japan launches MMX spacecraft to Mars moon Phobos with French and German technology, aiming to return samples to Earth by 2031",
-      "source": "BBC World, RFI English",
-      "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o"
+      "headline": "Drone strike near market in Sudan's West Kordofan kills 80 people, mostly commuters",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
     },
     {
-      "headline": "US grants temporary deportation reprieve to over 100,000 Ukrainians and Sudanese without indicating timeline for final decision",
+      "headline": "Kenyan court convicts starvation cult leader Paul Mackenzie of murdering 190 children in Shakahola forest deaths",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children"
+    },
+    {
+      "headline": "France's Parliament unanimously approves symbolic repeal of Code Noir slavery legislation nearly two centuries after abolition",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261021-france-turns-page-on-code-noir-as-parliament-approves-symbolic-repeal"
+    },
+    {
+      "headline": "US grants temporary deportation reprieve for over 100,000 Ukrainians and Sudanese without specifying duration",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan"
     },
     {
-      "headline": "Eighth Ebola case confirmed in Kenya as US-built quarantine center stirs local protests and distrust",
+      "headline": "EU unveils new Arctic strategy including maritime security hub to counter Russian shadow fleet and protect undersea cables",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20261020-eu-pushes-for-stronger-arctic-presence-amid-russian-pressure-and-us-uncertainty"
+    },
+    {
+      "headline": "UN warns 19.2 million Afghans will face acute food insecurity over winter, with 5 million one step from famine",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20261021-millions-of-afghans-to-face-food-insecurity-by-next-year-un-warns"
+    },
+    {
+      "headline": "Police raid offices of RFK Jr-praised vaccine researchers in Guinea-Bissau, seizing hepatitis B doses amid trial dispute",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/19/ebola-cases-kenya-us-quarantine"
+      "url": "https://www.theguardian.com/world/2026/oct/20/rfk-jr-vaccine-researchers-offices-raided-guinea-bissau"
     },
     {
-      "headline": "Albanian protests enter seventh day as students clash with riot police demanding Prime Minister Edi Rama's resignation",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o"
-    },
-    {
-      "headline": "Haitian gangs attack international force for first time, leaving four Salvadoran soldiers unaccounted for in Port-au-Prince",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-haiti-gangs-troops-attack-port-au-prince/"
-    },
-    {
-      "headline": "Indonesia battles worst wildfire season in a decade with nearly 2 million hectares burned, toxic smoke spreading across Southeast Asia",
+      "headline": "Italian government deploys troops to Milan following recent riots",
       "source": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/down-to-earth/20261020-indonesia-continues-to-battle-wildfires-with-nearly-2-million-hectares-burned"
+      "url": "https://www.france24.com/en/video/20261021-italy-deploys-troops-into-milan-in-response-to-recent-riots"
     },
     {
-      "headline": "US Secretary of State Marco Rubio arrives in Mumbai for meetings with External Affairs Minister Jaishankar ahead of potential tariff decision",
+      "headline": "Getty Images begins Chapter 11 bankruptcy proceedings to restructure debt and go private with Koch family investment",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/marco-rubio-mumbai-visit-october-20-2026/article71603994.ece"
+      "url": "https://www.thehindu.com/news/international/getty-images-begins-chapter-11-proceedings-to-restructure-debt/article71606608.ece"
     },
     {
-      "headline": "South Korea to withdraw additional embassy staff from Ukraine after dispute over North Korean POW disclosure",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/20/south-korea-to-pull-more-embassy-staff-from-ukraine-after-pow-row"
-    },
-    {
-      "headline": "India-New Zealand free trade agreement enters into force with 100% tariff elimination and new visa categories for Indians",
+      "headline": "US Secretary of State Rubio visits Reliance refinery in Gujarat amid push for India to process more Venezuelan crude",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/business/Economy/india-new-zealand-fta-comes-into-force-october-20-2026/article71603429.ece"
-    },
-    {
-      "headline": "Australian MP Helen Haines critically injured after being deliberately struck by car outside electorate office; suspect charged",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-10-20/brendan-nugent-charged-over-attack-against-helen-haines/107288126"
+      "url": "https://www.thehindu.com/news/national/gujarat/marco-rubio-jamnagar-reliance-refinery-october-21/article71606843.ece"
     }
   ]
 }

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 10:55 UTC</span>
+            </div>
+            <h1 class="header-title">Wednesday, October 21, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">Wednesday's developments center on intensifying US-Russia diplomacy as envoy Steve Witkoff met President Putin in St. Petersburg, securing the release of detained American Stephen Hubbard while discussing proposals to end the Ukraine war [BBC, Globe and Mail, ABC Australia]. The goodwill gesture came amid continued tensions between Washington and Kyiv, with Trump and Zelensky trading barbs even as US intelligence sharing reportedly resumed [BBC, France 24]. In France, Prime Minister Lecornu prepared for a 'massive' police deployment ahead of planned weekend protests following some of the country's worst rioting in years, which has drawn international travel advisories and sparked parliamentary inquiries into left-wing anarchist involvement [RFI, BBC, France 24]. Health authorities sounded alarms as Nigeria confirmed its first Ebola case—a diplomat infected with the Bundibugyo strain who had traveled from Congo's eastern region—marking the outbreak's continued spread across Africa [The Guardian, The Hindu]. Meanwhile, Elon Musk confirmed active consideration of merging Tesla and SpaceX, a potential combination valued at over $3.5 trillion that would rank among history's largest corporate mergers [BBC, France 24]. Australian MP Helen Haines lost both legs following what police called a targeted vehicle attack, prompting national concern over rising threats to elected officials [BBC, Al Jazeera, Le Monde].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Russia Releases American Prisoner as Trump Envoy Meets Putin to Discuss Ukraine Peace Proposals</h2>
+            <ul class="story-bullets"><li>Russia freed 74-year-old American Stephen Hubbard, held since 2022 on mercenary charges, as US envoy Steve Witkoff met President Putin in St. Petersburg for their ninth in-person meeting</li><li>Trump stated there was 'no swap necessary' for the release and that he had made the request directly to Putin last week; Hubbard is expected to be flown to Texas for medical treatment</li><li>Witkoff arrived in Russia following talks in Oslo with Zelensky, Finnish and Norwegian leaders, and European officials that US officials described as 'constructive'</li><li>The meeting also addressed the US-Russia diesel export deal, with Putin stating the first shipment would leave Russia 'in two to three days'</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Emphasized the diplomatic context and Trump-Zelensky tensions alongside the prisoner release</span>
+            </a>
+            <a href="https://www.abc.net.au/news/2026-10-21/lino-atem-wyndham-vale-court-stabbing/107294288" target="_blank" rel="noopener" class="source-chip lean-center">
+                ABC Australia<span class="framing-note">Focused on the release announcement and diplomatic mechanics</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-helen-haines-australia-politician-car/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Highlighted concerns about US backing away from Ukraine and intelligence-sharing disputes</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/first-nation-community-in-canada-uses-data-centre-to-preserve-its-heritage/article71606571.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Emphasized Rubio's characterization of Oslo talks as 'positive'</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">France Braces for Weekend Protests with 'Massive' Police Deployment After Worst Riots in Years</h2>
+            <ul class="story-bullets"><li>Prime Minister Sébastien Lecornu announced meetings with five unions and promised significantly increased police presence for Saturday demonstrations organized by Yellow Vest movement and high school students</li><li>Weekend violence saw looting, clashes, and the gutting of a 19th-century city hall in Limoges; a 34-year-old suspect linked to far-left movements and on a national security watchlist was arrested</li><li>Curfews have been extended in Paris, Marseille, Lyon, Nice, and Lille; the US, China, and Germany issued travel advisories for France</li><li>French intelligence had briefed government earlier this month that left-wing anarchist groups were involved; National Assembly president proposed parliamentary inquiry into riot organization</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.rfi.fr/en/international/20261020-eu-pushes-for-stronger-arctic-presence-amid-russian-pressure-and-us-uncertainty" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Straightforward coverage of government response and planned security measures</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Deeper analysis of divided French opinion on causes and blame; noted multiple theories in circulation</span>
+            </a>
+            <a href="https://www.france24.com/en/ukraine-talks-what-progress-after-us-envoy-met-with-zelensky" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Brief coverage focused on police deployment announcement</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/10/21/woody-allen-films-an-idealized-madrid-as-envisioned-by-local-authorities_6760690_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Coverage focused on Macron's damaged international image and Trump camp's political exploitation of riots</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">Nigeria Confirms First Ebola Case as Outbreak Spreads Across Africa</h2>
+            <ul class="story-bullets"><li>A diplomat who traveled from Congo's eastern region tested positive for Bundibugyo strain of Ebola in Abuja; patient has deteriorated into multi-organ failure</li><li>Nigerian authorities have begun tracing 44 identified contacts; Uganda's health ministry disputed that infection occurred during transit through their country</li><li>Kenya earlier confirmed nine cases this month; Africa CDC director called situation 'an extremely serious threat'</li><li>The Democratic Republic of Congo outbreak, which shares the same Bundibugyo strain, has recorded over 4,000 deaths</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Guardian<span class="framing-note">Emphasized regional spread and Africa CDC warning about serious threat</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/first-nation-community-in-canada-uses-data-centre-to-preserve-its-heritage/article71606571.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Provided additional detail on patient being a diplomat and specific test methodology used</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A7EB0">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #4A7EB0; border-color: #4A7EB040">Technology</span>
+            </div>
+            <h2 class="story-headline">Musk Confirms Active Consideration of Tesla-SpaceX Merger in Historic Corporate Combination</h2>
+            <ul class="story-bullets"><li>Elon Musk stated during SpaceX earnings call that special committees at both companies have been formed to examine a potential merger, though no agreement has been reached</li><li>Combined valuation would exceed $3.5 trillion (Tesla at ~$1.5 trillion, SpaceX at ~$2 trillion), making it one of the largest mergers in corporate history</li><li>SpaceX reported Starlink revenue rose to $5.2 billion in Q3 from $3 billion in the same period last year</li><li>The Starshield military satellite network is facing scrutiny over claims of restricted Ukraine access; both Trump and Musk have denied ordering any slowdown</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Comprehensive coverage including Starlink scrutiny and Ukraine access concerns</span>
+            </a>
+            <a href="https://www.france24.com/en/ukraine-talks-what-progress-after-us-envoy-met-with-zelensky" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Business-focused coverage emphasizing earnings context</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Australian MP Helen Haines Loses Both Legs After Targeted Vehicle Attack</h2>
+            <ul class="story-bullets"><li>Independent MP Helen Haines, 65, had both legs amputated after a man allegedly drove his Toyota LandCruiser into her twice outside her electoral office in Wangaratta, Victoria</li><li>Suspect Brendan Nugent, 43, appeared in court Wednesday charged with intentionally causing serious injury, dangerous driving, and causing harm to a federal official; his lawyer cited a rare neurological condition</li><li>Prime Minister Anthony Albanese called it 'a reminder that the world is a more dangerous and divided place'; police warned of growing 'online extremism' and rising threats against lawmakers</li><li>A separate incident occurred Wednesday when a man with nunchucks allegedly made threats at another MP's office in Perth</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Focused on husband's statement and court proceedings</span>
+            </a>
+            <a href="https://www.aljazeera.com/video/newsfeed/2026/10/21/trump-snaps-at-reporter-ordering-him-to-be-quiet?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Broader context on rising threats against Australian legislators and historical rarity of political violence</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-helen-haines-australia-politician-car/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized investigation into motivations and broader political violence concerns</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/10/21/woody-allen-films-an-idealized-madrid-as-envisioned-by-local-authorities_6760690_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Brief coverage characterizing attack as 'targeted'</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan" target="_blank" rel="noopener">Drone strike near market in Sudan's West Kordofan kills 80 people, mostly commuters</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children" target="_blank" rel="noopener">Kenyan court convicts starvation cult leader Paul Mackenzie of murdering 190 children in Shakahola forest deaths</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261021-france-turns-page-on-code-noir-as-parliament-approves-symbolic-repeal" target="_blank" rel="noopener">France's Parliament unanimously approves symbolic repeal of Code Noir slavery legislation nearly two centuries after abolition</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan" target="_blank" rel="noopener">US grants temporary deportation reprieve for over 100,000 Ukrainians and Sudanese without specifying duration</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/international/20261020-eu-pushes-for-stronger-arctic-presence-amid-russian-pressure-and-us-uncertainty" target="_blank" rel="noopener">EU unveils new Arctic strategy including maritime security hub to counter Russian shadow fleet and protect undersea cables</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/international/20261021-millions-of-afghans-to-face-food-insecurity-by-next-year-un-warns" target="_blank" rel="noopener">UN warns 19.2 million Afghans will face acute food insecurity over winter, with 5 million one step from famine</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/oct/20/rfk-jr-vaccine-researchers-offices-raided-guinea-bissau" target="_blank" rel="noopener">Police raid offices of RFK Jr-praised vaccine researchers in Guinea-Bissau, seizing hepatitis B doses amid trial dispute</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.france24.com/en/video/20261021-italy-deploys-troops-into-milan-in-response-to-recent-riots" target="_blank" rel="noopener">Italian government deploys troops to Milan following recent riots</a>
+            <span class="additional-source">France 24</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/getty-images-begins-chapter-11-proceedings-to-restructure-debt/article71606608.ece" target="_blank" rel="noopener">Getty Images begins Chapter 11 bankruptcy proceedings to restructure debt and go private with Koch family investment</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/national/gujarat/marco-rubio-jamnagar-reliance-refinery-october-21/article71606843.ece" target="_blank" rel="noopener">US Secretary of State Rubio visits Reliance refinery in Gujarat amid push for India to process more Venezuelan crude</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
