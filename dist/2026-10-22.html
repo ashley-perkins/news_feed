@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 10:57 UTC</span>
+            </div>
+            <h1 class="header-title">Thursday, October 22, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">A critical cybersecurity emergency dominated headlines Thursday as governments worldwide took websites offline after AI discovered severe vulnerabilities in PHP, the programming language powering roughly 70 percent of the web [BBC, Globe and Mail, RFI]. The US NSA urged immediate patching or system shutdown, while Finland, the Netherlands, and Edinburgh Council preemptively disabled public services. In the Middle East, tensions escalated on two fronts: Iran reported seven oil tankers damaged in the Strait of Hormuz overnight [The Hindu, Globe and Mail], the largest single-day toll since the Iran war began in February, while Saudi Arabia confirmed two killed in an airport attack attributed to Houthi militants [BBC]. Diplomatic efforts on Ukraine showed limited progress despite US envoy Steve Witkoff meeting Putin in St. Petersburg; Russia agreed 'in principle' to resume talks but offered only technical-level discussions, and missiles struck Kyiv hours after the announcement [BBC, Le Monde, Al Jazeera]. The International Criminal Court received the EU's Sakharov Prize [France 24], a pointed rebuke to Washington weeks after Trump announced sanctions against the tribunal. Meanwhile, Nigeria confirmed an Ebola case in Abuja [Guardian], raising concerns as the outbreak spreads westward across Africa.</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #4A7EB0">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #4A7EB0; border-color: #4A7EB040">Technology</span>
+            </div>
+            <h2 class="story-headline">Global Websites Go Offline as AI-Discovered PHP Vulnerabilities Trigger Emergency Response</h2>
+            <ul class="story-bullets"><li>Critical vulnerabilities discovered by AI in the PHP programming language, which powers approximately 70% of websites globally, prompted governments and organizations to take systems offline</li><li>The US National Security Agency urged organizations to patch immediately or take vulnerable systems offline; Finland shut down government web services, the Netherlands took its cybersecurity agency site offline, and the BBC took pages down</li><li>PHP developers released an emergency fix Wednesday; cybersecurity firm Wiz called these 'the most severe vulnerabilities ever discovered' by AI</li><li>The White House said federal agencies were working with AI labs to speed up fixes; Japan's Prime Minister urged checking all publicly available websites running PHP</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Emphasized government responses and practical implications for organizations</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-government-websites-php-programming-language-vulnerabilities/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Focused on the AI angle and potential for mass compromise</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261021-what-we-know-about-the-people-behind-france-s-riots-and-looting" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Highlighted the broader trend of AI discovering vulnerabilities faster than humans</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Seven Oil Tankers Damaged in Strait of Hormuz as Iran-US Tensions Spike</h2>
+            <ul class="story-bullets"><li>Iran's Revolutionary Guard navy reported seven oil tankers were either attacked or struck naval mines overnight in the Strait of Hormuz</li><li>Four tankers caught fire while transferring oil after being targeted; three others were damaged by naval mines</li><li>Iran warned it could expand attacks to US bases in the region if Washington continues guiding commercial ships through 'illegal passages'</li><li>The incident comes amid heightened regional uncertainty before Israeli elections and US midterms, with concerns about resumption of US-Israeli strikes on Iran</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.thehindu.com/sci-tech/energy-and-environment/wmo-warns-the-current-el-nino-could-be-unprecedented-in-strength/article71609858.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Provided detailed breakdown of the incident and Revolutionary Guard statements</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-government-websites-php-programming-language-vulnerabilities/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized electoral timing and diplomatic context, noting Iran remains open to talks</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Russia Agrees 'In Principle' to Resume Ukraine Talks as Missiles Strike Kyiv</h2>
+            <ul class="story-bullets"><li>Russia said it is 'ready in principle' to resume trilateral peace talks with Ukraine and the US, following US envoy Steve Witkoff's meeting with Putin in St. Petersburg</li><li>Trump stated the world is 'the closest we've been' to ending the war, though Russia offered only technical-level talks in Abu Dhabi next month</li><li>Hours after the diplomatic announcements, missiles struck Kyiv, injuring at least six people and damaging houses</li><li>Putin's foreign policy aide indicated Witkoff brought no new proposals, and Russia showed little interest in a leaders' summit unless held in Moscow</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Provided detailed diplomatic analysis, noting Russia sees 'little to talk about'</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/economy/article/2026/10/22/ebay-to-cut-1-000-more-jobs-about-9-of-workforce_6761185_19.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Straightforward coverage of both sides' readiness to talk</span>
+            </a>
+            <a href="https://www.aljazeera.com/video/newsfeed/2026/10/22/brazils-president-appeals-to-undecided-voters-ahead-of-run-off?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Emphasized continued attacks despite talk of negotiations</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Nigeria Confirms Ebola Case in Capital as Outbreak Spreads Westward Across Africa</h2>
+            <ul class="story-bullets"><li>A woman who arrived from Uganda tested positive for Ebola in Abuja after showing symptoms on October 7 and being hospitalized four days later</li><li>Nigerian authorities are tracing 44 contacts; Uganda's health ministry said the patient only transited through the country and had traveled to eastern Congo</li><li>Kenya confirmed its first case earlier this month and has since recorded nine infections; Africa CDC director called it 'an extremely serious threat'</li><li>The patient's nationality and travel timeline remain under investigation</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Guardian<span class="framing-note">Emphasized regional spread and Africa CDC warnings about outbreak severity</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">International Criminal Court Awarded EU Sakharov Prize Amid US Sanctions Pressure</h2>
+            <ul class="story-bullets"><li>The International Criminal Court received the European Union's 2026 Sakharov Prize for human rights work</li><li>The award comes two weeks after Trump announced sanctions against the ICC and hours after former ICC judge Navi Pillay received the Nobel Peace Prize</li><li>ICC President Tomoko Akane said the prize 'comes at a time when the court and its officials face unprecedented challenges'</li><li>The ICC has faced sustained pressure from the Trump administration since issuing arrest warrants against Israeli Prime Minister Netanyahu and his former defense minister</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.france24.com/en/video/20261022-popular-dissatisfaction-across-europe-promises-of-more-economic-growth-haven-t-come-true-1" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Framed as international rebuke of US pressure, noting Trump's threat to dismantle court 'brick by brick'</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cqwy71ww156ro" target="_blank" rel="noopener">Two killed in attack on King Fahd International Airport in Saudi Arabia, with Houthi militants suspected</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261022-police-ban-protests-in-french-cities-ahead-of-fresh-saturday-demonstrations" target="_blank" rel="noopener">French cities ban protests ahead of Saturday demonstrations following weekend riots that saw 3,000 shops damaged</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b" target="_blank" rel="noopener">Controversial US-backed hepatitis B vaccine trial in African newborns halted after Guinea-Bissau withholds approval</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo" target="_blank" rel="noopener">Pope Leo XIV requires no further treatment after lung cancer surgery, Vatican confirms</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cq33xpjekve4o" target="_blank" rel="noopener">El Salvador launches military operation to rescue four air force personnel kidnapped by Haitian gangs</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-first-ever-chip-workers-strike-hits-micron-plant" target="_blank" rel="noopener">Taiwan experiences first-ever semiconductor industry strike at Micron plant over AI-boom profit sharing</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/world/article-shamonda-virus-france-first-human-case/" target="_blank" rel="noopener">France reports first human case of Shamonda virus, typically found in livestock, in patient who died</a>
+            <span class="additional-source">Globe and Mail</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/sci-tech/energy-and-environment/wmo-warns-the-current-el-nino-could-be-unprecedented-in-strength/article71609858.ece" target="_blank" rel="noopener">WMO warns current El Niño could be unprecedented in strength, with temperatures 3.8°C above average expected</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/politics/article-canada-eu-summit-carney-von-der-leyen-united-states-dependence/" target="_blank" rel="noopener">Canada and EU to announce 'alliance for the future' on trade and defence at Montreal summit next week</a>
+            <span class="additional-source">Globe and Mail</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/business/markets/philippines-raises-key-rate-to-5.5-as-inflation-saps-growth" target="_blank" rel="noopener">Philippine central bank raises key rate to 5.5% with 50-basis-point hike as inflation pressures persist</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
