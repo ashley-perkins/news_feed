@@ -1,178 +1,178 @@
 {
-  "date": "Thursday, October 22, 2026",
-  "daily_brief": "A critical cybersecurity emergency dominated headlines Thursday as governments worldwide took websites offline after AI discovered severe vulnerabilities in PHP, the programming language powering roughly 70 percent of the web [BBC, Globe and Mail, RFI]. The US NSA urged immediate patching or system shutdown, while Finland, the Netherlands, and Edinburgh Council preemptively disabled public services. In the Middle East, tensions escalated on two fronts: Iran reported seven oil tankers damaged in the Strait of Hormuz overnight [The Hindu, Globe and Mail], the largest single-day toll since the Iran war began in February, while Saudi Arabia confirmed two killed in an airport attack attributed to Houthi militants [BBC]. Diplomatic efforts on Ukraine showed limited progress despite US envoy Steve Witkoff meeting Putin in St. Petersburg; Russia agreed 'in principle' to resume talks but offered only technical-level discussions, and missiles struck Kyiv hours after the announcement [BBC, Le Monde, Al Jazeera]. The International Criminal Court received the EU's Sakharov Prize [France 24], a pointed rebuke to Washington weeks after Trump announced sanctions against the tribunal. Meanwhile, Nigeria confirmed an Ebola case in Abuja [Guardian], raising concerns as the outbreak spreads westward across Africa.",
+  "date": "Friday, October 23, 2026",
+  "daily_brief": "Diplomatic momentum on Ukraine accelerated Friday as the Kremlin announced trilateral peace talks with the US and Ukraine are scheduled for early November in Abu Dhabi [The Hindu, BBC], though Kyiv reported continued Starlink connectivity issues affecting drone operations despite President Trump's claims that restrictions had been lifted [BBC]. Oil markets spiked to $114 per barrel amid reports the Trump administration is considering renewed strikes on Iran after the midterms [RNZ, Financial Times], while tech stocks suffered a significant sell-off on mounting concerns over AI-sector debt sustainability [Nikkei, Financial Times]. In France, authorities extended Paris curfews and banned protests in Lyon and Marseille ahead of expected weekend demonstrations, with President Macron labeling unauthorized protests 'illegitimate' following last weekend's widespread unrest [BBC, RFI]. West Africa faced a public health crisis as Nigeria confirmed an Ebola case in Abuja linked to travel from Congo, expanding an outbreak that has already reached Kenya [The Guardian]. Meanwhile, a BBC investigation documented 43 attacks on hospitals by Sudan's RSF during the siege of el-Fasher, with the UN human rights chief calling the findings evidence of potential war crimes [BBC].",
   "top_stories": [
     {
-      "headline": "Global Websites Go Offline as AI-Discovered PHP Vulnerabilities Trigger Emergency Response",
-      "category": "Technology",
+      "headline": "Russia-Ukraine-US Peace Talks Scheduled for November in Abu Dhabi",
+      "category": "Geopolitics",
       "bullets": [
-        "Critical vulnerabilities discovered by AI in the PHP programming language, which powers approximately 70% of websites globally, prompted governments and organizations to take systems offline",
-        "The US National Security Agency urged organizations to patch immediately or take vulnerable systems offline; Finland shut down government web services, the Netherlands took its cybersecurity agency site offline, and the BBC took pages down",
-        "PHP developers released an emergency fix Wednesday; cybersecurity firm Wiz called these 'the most severe vulnerabilities ever discovered' by AI",
-        "The White House said federal agencies were working with AI labs to speed up fixes; Japan's Prime Minister urged checking all publicly available websites running PHP"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Emphasized government responses and practical implications for organizations",
-          "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on the AI angle and potential for mass compromise",
-          "url": "https://www.theglobeandmail.com/world/article-government-websites-php-programming-language-vulnerabilities/"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Highlighted the broader trend of AI discovering vulnerabilities faster than humans",
-          "url": "https://www.rfi.fr/en/france/20261021-what-we-know-about-the-people-behind-france-s-riots-and-looting"
-        }
-      ]
-    },
-    {
-      "headline": "Seven Oil Tankers Damaged in Strait of Hormuz as Iran-US Tensions Spike",
-      "category": "Conflict",
-      "bullets": [
-        "Iran's Revolutionary Guard navy reported seven oil tankers were either attacked or struck naval mines overnight in the Strait of Hormuz",
-        "Four tankers caught fire while transferring oil after being targeted; three others were damaged by naval mines",
-        "Iran warned it could expand attacks to US bases in the region if Washington continues guiding commercial ships through 'illegal passages'",
-        "The incident comes amid heightened regional uncertainty before Israeli elections and US midterms, with concerns about resumption of US-Israeli strikes on Iran"
+        "Kremlin spokesman Dmitry Peskov announced trilateral talks between Russia, Ukraine and the US are planned for early November in Abu Dhabi in a three-party format",
+        "The announcement followed meetings between US special envoy Steve Witkoff and both President Zelensky in Oslo and President Putin in St. Petersburg this week",
+        "Putin stated talks would focus on security arrangements for a final peace deal rather than a short truce; Russia suggested around November 10 as a target date",
+        "Ukraine called for discussions to happen 'as soon as possible' while both sides voiced readiness to resume direct talks mediated by Washington"
       ],
       "sources": [
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Provided detailed breakdown of the incident and Revolutionary Guard statements",
-          "url": "https://www.thehindu.com/sci-tech/energy-and-environment/wmo-warns-the-current-el-nino-could-be-unprecedented-in-strength/article71609858.ece"
+          "framing_note": "Detailed diplomatic timeline with quotes from multiple officials",
+          "url": "https://www.thehindu.com/sci-tech/technology/airbnb-sets-down-rules-to-stop-hosts-from-forcing-guests-to-clean-homes/article71615386.ece"
         },
         {
-          "name": "Globe and Mail",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Emphasized electoral timing and diplomatic context, noting Iran remains open to talks",
-          "url": "https://www.theglobeandmail.com/world/article-government-websites-php-programming-language-vulnerabilities/"
+          "framing_note": "Emphasized strikes on Kyiv occurring hours after Russia agreed to talks, noting Zelensky's criticism of US envoy calling Putin a 'humanitarian'",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Russia Agrees 'In Principle' to Resume Ukraine Talks as Missiles Strike Kyiv",
-      "category": "Geopolitics",
+      "headline": "Ukraine Reports Starlink Restrictions Persist Despite Trump's Claims of Restoration",
+      "category": "Technology",
       "bullets": [
-        "Russia said it is 'ready in principle' to resume trilateral peace talks with Ukraine and the US, following US envoy Steve Witkoff's meeting with Putin in St. Petersburg",
-        "Trump stated the world is 'the closest we've been' to ending the war, though Russia offered only technical-level talks in Abu Dhabi next month",
-        "Hours after the diplomatic announcements, missiles struck Kyiv, injuring at least six people and damaging houses",
-        "Putin's foreign policy aide indicated Witkoff brought no new proposals, and Russia showed little interest in a leaders' summit unless held in Moscow"
+        "Ukrainian defense ministry sources told the BBC that drones continue experiencing connection loss at speeds exceeding 161km/h (100mph), hampering military operations",
+        "President Trump initially denied instructing Elon Musk to restrict connectivity, then stated Thursday that Musk had 'put it back'",
+        "Musk previously claimed Starshield, used by Ukraine for some operations, is controlled by the US military and suggested the Pentagon could be responsible",
+        "Ukrainian officials said there is 'currently no confirmation that these restrictions have been lifted' as military monitoring continues"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Fact-focused reporting on conflicting claims between US officials and Ukrainian ground reports",
+          "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Duplicate coverage with identical framing",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Oil Prices Surge Past $113 on Reports US Considering Iran Strikes After Midterms",
+      "category": "Economics",
+      "bullets": [
+        "Brent crude rose 4% to over $113 per barrel, hitting its highest level since May; West Texas Intermediate climbed 3% to nearly $100",
+        "New York Times reported the Trump administration has drawn up plans for renewed strikes on Iran after November's US midterm elections",
+        "US ordered some non-emergency government staff to leave Saudi Arabia as Iran-backed Houthi rebels continue missile strikes on Saudi territory",
+        "Global oil prices peaked at $126 per barrel in April during the US-Iran war earlier this year"
+      ],
+      "sources": [
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Included New Zealand domestic impact on petrol prices",
+          "url": "https://www.rnz.co.nz/news/business/2093308/oil-prices-surge-on-reports-us-again-considering-iran-strikes"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Linked oil surge to broader market concerns about AI sector debt",
+          "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "headline": "France Extends Curfews and Bans Protests Ahead of Expected Weekend Unrest",
+      "category": "Society",
+      "bullets": [
+        "Paris extended partial curfews through Monday; Marseille and Lyon imposed total bans on protests this weekend after widespread rioting and looting",
+        "President Macron declared 'illegitimate' protests would be banned, blaming ultra-left groups and vandals for last weekend's violence",
+        "217 people have been jailed in fast-track trials; 2,700 arrested across France with over 1,000 appearing in court; half had no prior criminal record",
+        "Police deployments increased 20%; the Louvre, Orsay and Picasso museums will close Saturday; National Rally congress in Orl\u00e9ans expected to draw counter-protests of up to 25,000"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Provided detailed diplomatic analysis, noting Russia sees 'little to talk about'",
-          "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on security measures and arrest statistics",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Straightforward coverage of both sides' readiness to talk",
-          "url": "https://www.lemonde.fr/en/economy/article/2026/10/22/ebay-to-cut-1-000-more-jobs-about-9-of-workforce_6761185_19.html"
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "More detailed on political context, including 'rioters pay' legislation and National Rally congress",
+          "url": "https://www.rfi.fr/en/international/20261022-international-criminal-court-wins-eu-s-sakharov-human-rights-prize"
         },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized continued attacks despite talk of negotiations",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/brazils-president-appeals-to-undecided-voters-ahead-of-run-off?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Nigeria Confirms Ebola Case in Capital as Outbreak Spreads Westward Across Africa",
-      "category": "Society",
-      "bullets": [
-        "A woman who arrived from Uganda tested positive for Ebola in Abuja after showing symptoms on October 7 and being hospitalized four days later",
-        "Nigerian authorities are tracing 44 contacts; Uganda's health ministry said the patient only transited through the country and had traveled to eastern Congo",
-        "Kenya confirmed its first case earlier this month and has since recorded nine infections; Africa CDC director called it 'an extremely serious threat'",
-        "The patient's nationality and travel timeline remain under investigation"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized regional spread and Africa CDC warnings about outbreak severity",
-          "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan"
-        }
-      ]
-    },
-    {
-      "headline": "International Criminal Court Awarded EU Sakharov Prize Amid US Sanctions Pressure",
-      "category": "Geopolitics",
-      "bullets": [
-        "The International Criminal Court received the European Union's 2026 Sakharov Prize for human rights work",
-        "The award comes two weeks after Trump announced sanctions against the ICC and hours after former ICC judge Navi Pillay received the Nobel Peace Prize",
-        "ICC President Tomoko Akane said the prize 'comes at a time when the court and its officials face unprecedented challenges'",
-        "The ICC has faced sustained pressure from the Trump administration since issuing arrest warrants against Israeli Prime Minister Netanyahu and his former defense minister"
-      ],
-      "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Framed as international rebuke of US pressure, noting Trump's threat to dismantle court 'brick by brick'",
-          "url": "https://www.france24.com/en/video/20261022-popular-dissatisfaction-across-europe-promises-of-more-economic-growth-haven-t-come-true-1"
+          "framing_note": "Brief video coverage of shop owners bracing for unrest",
+          "url": "https://www.france24.com/en/major-protests-in-france-french-shop-owners-brace-for-more-unrest"
+        }
+      ]
+    },
+    {
+      "headline": "BBC Investigation Documents Systematic RSF Attacks on Hospitals in Sudan's El-Fasher",
+      "category": "Conflict",
+      "bullets": [
+        "BBC documented at least 43 separate attacks on hospitals and healthcare sites in el-Fasher from May 2024 to October 2025, some facilities hit multiple times",
+        "From April 2023 to October 2025, 120 medical workers were injured, 55 killed, and 10 forcibly disappeared or abducted",
+        "UN human rights chief Volker T\u00fcrk called findings 'deeply disturbing,' stating attacks may amount to war crimes under international humanitarian law",
+        "RSF rejected the findings; the health minister of RSF's civilian-affiliated government dismissed allegations as propaganda to smear their reputation"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Investigative report with detailed methodology and on-the-ground sources; included RSF denial and UN response",
+          "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Two killed in attack on King Fahd International Airport in Saudi Arabia, with Houthi militants suspected",
+      "headline": "Nigeria confirms Ebola case in Abuja as outbreak spreads from Congo through the region, with Kenya already reporting nine infections",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+    },
+    {
+      "headline": "Five Israelis wounded in West Bank shooting near Hebron; Netanyahu orders military to prepare full lockdown four days before election",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro"
+      "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko"
     },
     {
-      "headline": "French cities ban protests ahead of Saturday demonstrations following weekend riots that saw 3,000 shops damaged",
+      "headline": "International Criminal Court awarded EU's Sakharov Prize amid US sanctions aimed at crippling court operations over Netanyahu arrest warrant",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261022-police-ban-protests-in-french-cities-ahead-of-fresh-saturday-demonstrations"
+      "url": "https://www.rfi.fr/en/international/20261022-international-criminal-court-wins-eu-s-sakharov-human-rights-prize"
     },
     {
-      "headline": "Controversial US-backed hepatitis B vaccine trial in African newborns halted after Guinea-Bissau withholds approval",
+      "headline": "Germany arrests Ukrainian national suspected of spying for Russia, collecting intelligence on armored vehicle and ammunition production",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo"
+    },
+    {
+      "headline": "Typhoon Champi forces Taiwan shutdown with one death, 171 injuries, and over 700 international flights cancelled",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o"
+    },
+    {
+      "headline": "Cyprus police open investigation into Roman Abramovich's financial affairs following BBC Panorama revelations about Deloitte falsifying documents",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo"
+    },
+    {
+      "headline": "Controversial US-backed hepatitis B vaccine trial in Guinea-Bissau newborns halted after government denied approval and police raided researchers' offices",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b"
     },
     {
-      "headline": "Pope Leo XIV requires no further treatment after lung cancer surgery, Vatican confirms",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo"
+      "headline": "Serbia holds snap parliamentary election October 25 as student-led movement challenges Vucic's 14-year grip on power",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/23/serbias-snap-election-whats-at-stake-and-can-students-unseat-vucic"
     },
     {
-      "headline": "El Salvador launches military operation to rescue four air force personnel kidnapped by Haitian gangs",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cq33xpjekve4o"
-    },
-    {
-      "headline": "Taiwan experiences first-ever semiconductor industry strike at Micron plant over AI-boom profit sharing",
+      "headline": "Turkey, Pakistan, Indonesia and Qatar sign defense agreement expanding capabilities of Mecca alliance amid Middle East tensions",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-first-ever-chip-workers-strike-hits-micron-plant"
+      "url": "https://asia.nikkei.com/business/aerospace-defense-industries/turkey-pakistan-indonesia-qatar-pact-complements-mecca-alliance"
     },
     {
-      "headline": "France reports first human case of Shamonda virus, typically found in livestock, in patient who died",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-shamonda-virus-france-first-human-case/"
-    },
-    {
-      "headline": "WMO warns current El Ni\u00f1o could be unprecedented in strength, with temperatures 3.8\u00b0C above average expected",
+      "headline": "UN Loss and Damage Fund approves first country-specific payout of $21.6 million to Nepal following August floods",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/sci-tech/energy-and-environment/wmo-warns-the-current-el-nino-could-be-unprecedented-in-strength/article71609858.ece"
-    },
-    {
-      "headline": "Canada and EU to announce 'alliance for the future' on trade and defence at Montreal summit next week",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/politics/article-canada-eu-summit-carney-von-der-leyen-united-states-dependence/"
-    },
-    {
-      "headline": "Philippine central bank raises key rate to 5.5% with 50-basis-point hike as inflation pressures persist",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/philippines-raises-key-rate-to-5.5-as-inflation-saps-growth"
+      "url": "https://www.thehindu.com/sci-tech/energy-and-environment/what-is-the-importance-of-the-un-loss-and-damage-funds-payout-to-nepal-explained/article71615253.ece"
     }
   ]
 }
