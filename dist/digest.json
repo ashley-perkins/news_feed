@@ -1,191 +1,196 @@
 {
-  "date": "Sunday, October 25, 2026",
-  "daily_brief": "Sunday's global developments are dominated by pivotal elections across multiple continents. Serbia holds its most contested parliamentary vote in 14 years, with a student-led movement posing an unprecedented challenge to President Vu\u010di\u0107 after nearly two years of anti-corruption protests [BBC, France 24]. Brazil's runoff election sees incumbent President Lula facing right-wing challenger Fl\u00e1vio Bolsonaro in a race polls show as neck-and-neck, with implications for US-Latin America relations under Trump [BBC, FT, Al Jazeera]. In France, more than 400,000 protesters took to the streets over cost-of-living concerns, with nearly 1,000 arrests following clashes between demonstrators and police in Paris and other cities\u2014though authorities largely prevented a repeat of last weekend's severe disorder [BBC, RFI, Globe and Mail]. The Ebola outbreak continues to spread concern as Nigeria confirms its first case in over a decade, with conflicting accounts from Uganda and Switzerland complicating efforts to trace the source of infection [Guardian]. Meanwhile, Elon Musk confirmed SpaceX restricted Ukraine's Starlink access, citing terms-of-service violations, with service reportedly restored after President Trump's intervention [BBC].",
+  "date": "Monday, October 26, 2026",
+  "daily_brief": "Monday's global headlines are dominated by dramatic political shifts in South America and the Balkans. In Brazil, Luiz In\u00e1cio Lula da Silva secured a historic fourth presidential term, defeating Fl\u00e1vio Bolsonaro by more than 4 million votes after a campaign marked by record turnout and deep polarization [France 24, Le Monde, Financial Times]. In Serbia, a student-led protest movement born from the 2024 Novi Sad railway station disaster has ended Aleksandar Vu\u010di\u0107's 14-year grip on power, winning over 52% of the vote in snap parliamentary elections that saw the highest turnout in three decades [BBC, RFI, Le Monde]. Meanwhile, regional tensions continue to simmer across the Middle East and Africa: Algeria announced its first foreign troop deployment since 1973 to protect energy infrastructure in Niger [France 24], while Saudi-led coalition forces struck Houthi missile facilities in Yemen following continued attacks on Riyadh's airport [Al Jazeera, The Hindu]. In Paris, European defence ministers from France, Germany, Italy, Poland and the UK convened to discuss expanded military support for Ukraine amid ongoing Russian strikes [Al Jazeera]. Venezuelan opposition leader Mar\u00eda Corina Machado returned home after more than ten months in exile, greeted by crowds of supporters in Caracas [BBC].",
   "top_stories": [
     {
-      "headline": "Serbia Votes in Closest Election in 14 Years as Student Movement Challenges Vu\u010di\u0107",
+      "headline": "Serbia's Student Movement Defeats Vu\u010di\u0107 in Historic Parliamentary Election",
       "category": "Geopolitics",
       "bullets": [
-        "Serbian voters are choosing among 18 parties for the 250-seat parliament, with polling showing President Aleksandar Vu\u010di\u0107's Serbian Progressive Party neck-and-neck with the student-backed Students' List",
-        "The student movement emerged from nearly two years of protests following the 2024 collapse of a railway station canopy in Novi Sad that killed 16 people",
-        "The Students' List selected 250 candidates through university faculty assemblies, with Novi Sad University professor Ilija Srdanovi\u0107 heading the list",
-        "High turnout is expected, which could push smaller parties below the 3% threshold needed for parliamentary representation"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed profile of opposition candidate and student movement origins",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on the election as a referendum between Vu\u010di\u0107 and youth-backed opposition",
-          "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement"
-        }
-      ]
-    },
-    {
-      "headline": "Brazil's Runoff Election Pits Incumbent Lula Against Fl\u00e1vio Bolsonaro in Tight Race",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Luiz In\u00e1cio Lula da Silva, 80, seeks an unprecedented fourth term against Senator Fl\u00e1vio Bolsonaro, 45, son of imprisoned former president Jair Bolsonaro",
-        "Fl\u00e1vio Bolsonaro led the first round on October 4, marking the first time an incumbent has trailed going into the runoff",
-        "Bolsonaro campaigned on cracking down on organized crime, cutting taxes and public spending, and pledged to release his father from prison",
-        "Nearly 160 million Brazilians are eligible to vote, with polls closing at 8pm GMT"
+        "A student-led movement called 'Student List-Students Win' won over 52% of the vote in Serbia's snap parliamentary elections, ending 14 years of rule by Aleksandar Vu\u010di\u0107's Serbian Progressive Party",
+        "Vu\u010di\u0107 conceded defeat less than two hours after polls closed; the election recorded Serbia's highest parliamentary turnout in over 30 years",
+        "The movement emerged in response to the November 2024 collapse of a canopy at Novi Sad railway station that killed 16 people, widely blamed on government corruption and negligence",
+        "Celebrations erupted across Belgrade, Novi Sad and other cities as supporters gathered to mark what they called Serbia's 'freedom'"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized historical nature of potential comeback and Bolsonaro's campaign promises",
-          "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Highlighted geopolitical angle of bringing Brazil closer to Trump",
-          "url": "https://www.ft.com/content/eedb7159-65df-45de-91f9-fde8de99e61c?syn-25a6b1a6=1"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Live coverage format with basic electoral facts",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-2026-live-lula-and-bolsonaro-in-tight-race?traffic_source=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Noted bitter nature of runoff campaign",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/25/yemen-s-houthis-launch-new-attacks-on-saudi-arabia-after-accusing-the-kingdom-of-strikes-that-killed-17_6763462_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Nearly 1,000 Arrested as Cost-of-Living Protests Sweep France for Second Weekend",
-      "category": "Society",
-      "bullets": [
-        "Between 410,000 (government estimate) and 800,000 (union estimate) people protested across France over cost of living, school funding, and fuel prices",
-        "Police deployed 70,000 officers with armored vehicles, helicopters, and water cannon; clashes erupted in Paris, Marseille, and Bordeaux after largely peaceful daytime marches",
-        "President Macron restricted demonstrations to those organized by recognized trade unions; hundreds have been jailed through fast-track court hearings",
-        "Authorities largely prevented a repeat of last weekend's widespread rioting and looting, described as among the worst disorder in France's modern history"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Emphasized police response and government success in limiting disorder compared to previous weekend",
-          "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized the student movement's origins and Vu\u010di\u0107's concession, called him a 'right-wing populist leader'",
+          "url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Detailed account of Paris march turning violent; noted inflation driven by Middle East war",
-          "url": "https://www.rfi.fr/en/international/20261024-young-israeli-voters-lean-right-as-election-puts-netanyahu-to-the-test"
+          "framing_note": "Focused on the anti-corruption angle and comparisons to the fall of Milo\u0161evi\u0107",
+          "url": "https://www.rfi.fr/en/france/20261025-far-right-le-pen-promises-french-rebirth-as-rn-sets-sights-on-2027-presidency"
         },
         {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Framed protests as challenging Macron's final months in power before 2027 election",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-in-the-nebraska-town-of-south-sioux-city-the-world-is-turning-against/"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Headline emphasized defeat of 'populist leader'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/26/eu-to-charge-two-euro-handling-fee-on-packages-from-outside-bloc_6764287_4.html"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Video coverage only, limited detail available",
-          "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement"
+          "framing_note": "Video coverage focused on street celebrations in Belgrade",
+          "url": "https://www.france24.com/en/brazil-s-lula-wins-historic-fourth-term"
         }
       ]
     },
     {
-      "headline": "Musk Confirms SpaceX Restricted Ukraine's Starlink, Says Service Restored After Trump Intervention",
-      "category": "Technology",
+      "headline": "Lula Wins Historic Fourth Term as Brazil's President, Defeating Bolsonaro",
+      "category": "Geopolitics",
       "bullets": [
-        "Elon Musk confirmed SpaceX restricted Ukraine's Starlink satellite internet service, accusing Ukraine's military of violating terms of service by using it for offensive drone strikes",
-        "Ukraine said the restrictions hampered defensive operations for more than a week, limiting drone speeds to 161km/h; service now reportedly allows speeds above 400km/h",
-        "President Trump said he told Musk to 'put it back' after initially denying he had instructed any limitation",
-        "Musk denied responsibility for simultaneous issues with Starshield, the US military-grade counterpart, suggesting the Pentagon could be responsible"
+        "Luiz In\u00e1cio Lula da Silva, 80, won Brazil's presidential runoff by approximately 4.4 million votes over Senator Fl\u00e1vio Bolsonaro",
+        "Turnout was massive, with over 10 million more votes cast for Lula compared to the first round; blank and spoiled ballots reached record lows",
+        "Bolsonaro has refused to accept the result and announced plans to challenge it, citing a Supreme Court ruling that extended voting hours",
+        "World leaders including France's Macron and China's government congratulated Lula, while left-wing governments in Latin America celebrated the result"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Covered Lula's promise to govern for all Brazilians and noted the deeply divided country",
+          "url": "https://www.france24.com/en/brazil-s-lula-wins-historic-fourth-term"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Framed result as defeat of 'far right' in opinion piece",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/26/eu-to-charge-two-euro-handling-fee-on-packages-from-outside-bloc_6764287_4.html"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on how Lula 'pulled off a stunning victory'",
+          "url": "https://www.ft.com/content/ef271c35-6e32-455a-8463-579788530fd3?syn-25a6b1a6=1"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Noted Bolsonaro's refusal to concede and plan to challenge results",
+          "url": "https://www.rfi.fr/en/france/20261025-far-right-le-pen-promises-french-rebirth-as-rn-sets-sights-on-2027-presidency"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted congratulations from left-wing parties globally",
+          "url": "https://www.thehindu.com/videos/why-poland-wants-a-stronger-relationship-with-india-the-hindu-editorial/article71626195.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Algeria Approves First Foreign Troop Deployment Since 1973 to Protect Niger Energy Sites",
+      "category": "Geopolitics",
+      "bullets": [
+        "Algeria's parliament unanimously approved sending troops to Niger, marking the country's first overseas military deployment since the 1973 Arab-Israeli war",
+        "The deployment aims to protect energy facilities, including the Trans-Saharan Gas Pipeline project being built jointly by Algeria and Niger",
+        "Niger faces persistent attacks by armed groups near its border with Algeria; the move follows a thwarted mutiny in Niger in August",
+        "The two countries share a 960-kilometer desert border and have agreed to deepen cooperation against jihadist violence"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": null,
+          "url": "https://www.france24.com/en/brazil-s-lula-wins-historic-fourth-term"
+        }
+      ]
+    },
+    {
+      "headline": "European Defence Ministers Meet in Paris to Discuss Expanded Ukraine Military Support",
+      "category": "Conflict",
+      "bullets": [
+        "Defence ministers from France, Germany, Italy, Poland and the UK convened in Paris to discuss increasing military assistance to Ukraine",
+        "The meeting came as Russian strikes injured civilians in Zaporizhzhia and Chernihiv, while Ukrainian drones killed two in Russia's Voronezh region",
+        "Russia's Defence Ministry claimed strikes on power stations in Kharkiv and Khmelnytskyi regions, as well as port infrastructure in Chornomorsk",
+        "High-level delegations from Saudi Arabia, Pakistan and Turkey simultaneously met in Tehran seeking to avert renewed Iran-US-Israel conflict"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized continuing attacks on both sides and linked to broader regional diplomacy",
+          "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/10/26/if-netanyahu-loses-what-changes-for-palestinians?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on Tehran talks and Saudi-Iran tensions",
+          "url": "https://www.theglobeandmail.com/world/article-delegations-meet-in-iran-mideast-conflict-houthi-attacks/"
+        }
+      ]
+    },
+    {
+      "headline": "Venezuelan Opposition Leader Mar\u00eda Corina Machado Returns After 10 Months in Exile",
+      "category": "Geopolitics",
+      "bullets": [
+        "Mar\u00eda Corina Machado returned to Venezuela on Sunday after more than 10 months in exile, greeted by supporters in Lara state and later Caracas",
+        "She had fled Venezuela by speedboat in January to accept the Nobel Peace Prize in Norway",
+        "Her return follows the US seizure of President Nicol\u00e1s Maduro and installation of his deputy Delcy Rodr\u00edguez as interim president, who subsequently signed an oil deal with Washington",
+        "Machado was photographed at Mass and travelled to Caracas in a caravan of cheering supporters"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Balanced presentation of both Musk's justification and Ukrainian concerns",
-          "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Additional detail on Ukraine's confirmation of restored service and military implications",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Ebola Outbreak Reaches Nigeria as Conflicting Accounts Complicate Contact Tracing",
-      "category": "Society",
-      "bullets": [
-        "Nigeria confirmed its first Ebola case in over a decade: a woman in Abuja who began showing symptoms on October 7 and tested positive after hospital admission",
-        "Switzerland said the patient, a Ugandan-born wife of a Swiss diplomat, had not traveled to DR Congo and likely contracted Ebola in Uganda; this contradicts Uganda's earlier claim she had traveled to eastern DR Congo",
-        "Uganda insists it has no active Ebola cases and was declared Ebola-free by WHO in August; Africa CDC is investigating possible contact with a Kenyan Ebola patient at Entebbe airport",
-        "The outbreak, first detected in DR Congo in May, has now spread to Uganda, Kenya, and Nigeria, making it the most geographically widespread in history"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized contradictory information between countries and concerns about outbreak containment",
-          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+          "framing_note": "Detailed the political context including Maduro's removal and the US-backed interim government",
+          "url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Israel announces closure of all West Bank crossings on election day Tuesday amid escalating military operations in Hebron",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o"
+      "headline": "Saudi-led coalition strikes Houthi missile facilities in Yemen after continued attacks on Riyadh airport",
+      "source": "Al Jazeera, The Hindu",
+      "url": "https://www.aljazeera.com/news/2026/10/26/saudi-led-coalition-says-it-struck-houthi-missile-facilities"
     },
     {
-      "headline": "France and Britain conduct major joint airborne exercise in Germany with 600 paratroopers, testing NATO readiness against drone and electronic warfare threats",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20261025-france-and-britain-test-nato-readiness-with-major-airborne-exercise-in-germany"
-    },
-    {
-      "headline": "Explosions heard in Riyadh as Saudi Arabia attempts to reopen international airport despite ongoing Houthi attacks that killed 13 earlier this month",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/explosions-heard-in-saudi-capital-as-airport-prepares-to-reopen/article71622928.ece"
-    },
-    {
-      "headline": "Controversial US-backed hepatitis B vaccine trial in African newborns halted after Guinea-Bissau government denies approval",
+      "headline": "Sudan's RSF launches coordinated drone attacks on five power stations, causing mass blackouts in eastern states",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b"
+      "url": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states"
     },
     {
-      "headline": "Thousands march in Orl\u00e9ans against far-right National Rally as party holds congress with Marine Le Pen preparing 2027 presidential campaign",
+      "headline": "Jordan arrests three suspects in dawn raid over deadly church attack that killed eight people",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-over-church-attack-in-dawn-raid-what-to-know"
+    },
+    {
+      "headline": "French unions call fresh rallies for October 31 and nationwide strike for November 5 over wages and living costs",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261024-we-want-to-stop-being-afraid-thousands-join-anti-rn-march-in-orl%C3%A9ans"
+      "url": "https://www.rfi.fr/en/france/20261026-french-unions-and-protest-groups-call-fresh-rallies-and-nationwide-strike"
     },
     {
-      "headline": "European luxury groups lose \u20ac250 billion in market value as Chinese consumer demand fades",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c"
-    },
-    {
-      "headline": "At least 22 killed in Kenya bus crash on highway that saw another fatal accident three weeks ago",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/kenya-bus-crash-several-killed-october-25-2026/article71622975.ece"
-    },
-    {
-      "headline": "Pakistan reopens Iran border crossing after week-long trade suspension following army chief's visit to Tehran",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/pakistan-reopens-iran-border-crossing-after-week-long-suspension-of-trade/article71622812.ece"
-    },
-    {
-      "headline": "Cost-of-living protests spread across Italy with clashes in Rome and Turin as government deploys 500 additional soldiers to Milan",
+      "headline": "Israelis head to polls Tuesday in election widely seen as referendum on Netanyahu's leadership",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-europe-protests-italy-spain-portugal-albania-october-24/"
+      "url": "https://www.theglobeandmail.com/world/article-israel-elections-netanyahu/"
+    },
+    {
+      "headline": "Musk confirms SpaceX restricted Ukraine's Starlink service, accusing Kyiv of violating terms by using it for military strikes",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo"
+    },
+    {
+      "headline": "Mystery over source of Nigeria's first Ebola case in a decade fuels concern as outbreak spreads to fourth African country",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread"
+    },
+    {
+      "headline": "Air New Zealand becomes first international airline to land at Sydney's new Western Sydney International Airport",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/business/2169450/air-new-zealand-becomes-first-international-airline-to-land-in-sydney-s-new-airport"
+    },
+    {
+      "headline": "Meta plans $95 billion stock offering to fund AI expansion, with Nvidia, AMD and Broadcom as cornerstone investors",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555"
+    },
+    {
+      "headline": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies suddenly at 46",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo"
     }
   ]
 }
