@@ -1,196 +1,202 @@
 {
-  "date": "Monday, October 26, 2026",
-  "daily_brief": "Monday's global headlines are dominated by dramatic political shifts in South America and the Balkans. In Brazil, Luiz In\u00e1cio Lula da Silva secured a historic fourth presidential term, defeating Fl\u00e1vio Bolsonaro by more than 4 million votes after a campaign marked by record turnout and deep polarization [France 24, Le Monde, Financial Times]. In Serbia, a student-led protest movement born from the 2024 Novi Sad railway station disaster has ended Aleksandar Vu\u010di\u0107's 14-year grip on power, winning over 52% of the vote in snap parliamentary elections that saw the highest turnout in three decades [BBC, RFI, Le Monde]. Meanwhile, regional tensions continue to simmer across the Middle East and Africa: Algeria announced its first foreign troop deployment since 1973 to protect energy infrastructure in Niger [France 24], while Saudi-led coalition forces struck Houthi missile facilities in Yemen following continued attacks on Riyadh's airport [Al Jazeera, The Hindu]. In Paris, European defence ministers from France, Germany, Italy, Poland and the UK convened to discuss expanded military support for Ukraine amid ongoing Russian strikes [Al Jazeera]. Venezuelan opposition leader Mar\u00eda Corina Machado returned home after more than ten months in exile, greeted by crowds of supporters in Caracas [BBC].",
+  "date": "Tuesday, October 27, 2026",
+  "daily_brief": "Israeli voters headed to the polls today in what many consider the most consequential election in the country's history, with Prime Minister Benjamin Netanyahu locked in a tight race against former military chief Gadi Eisenkot amid record-high turnout [BBC, RFI, Globe and Mail]. In Europe, Serbia witnessed a political earthquake as long-standing leader Aleksandar Vu\u010di\u0107 conceded defeat to a student-led protest movement that emerged from anti-corruption demonstrations following a deadly railway station collapse [BBC, Globe and Mail]. A humanitarian truce brokered by US First Lady Melania Trump took effect in the Russian-occupied Ukrainian city of Oleshky, where residents have been reduced to eating garden weeds after years without electricity or water [BBC, ABC Australia]. In Sudan, the RSF launched coordinated drone strikes against five power stations, causing mass blackouts across eastern states as the country's civil war continues to devastate civilian infrastructure [Guardian, The Hindu]. Meanwhile, French footballer Kylian Mbapp\u00e9 faced commercial fallout in China after a viral clip appeared to show him joking about a meme involving Mao Zedong, prompting major brands to drop their sponsorship deals [BBC, FT, Nikkei Asia].",
   "top_stories": [
     {
-      "headline": "Serbia's Student Movement Defeats Vu\u010di\u0107 in Historic Parliamentary Election",
+      "headline": "Israel Holds Pivotal Election as Netanyahu Faces Tight Race Against Eisenkot",
       "category": "Geopolitics",
       "bullets": [
-        "A student-led movement called 'Student List-Students Win' won over 52% of the vote in Serbia's snap parliamentary elections, ending 14 years of rule by Aleksandar Vu\u010di\u0107's Serbian Progressive Party",
-        "Vu\u010di\u0107 conceded defeat less than two hours after polls closed; the election recorded Serbia's highest parliamentary turnout in over 30 years",
-        "The movement emerged in response to the November 2024 collapse of a canopy at Novi Sad railway station that killed 16 people, widely blamed on government corruption and negligence",
-        "Celebrations erupted across Belgrade, Novi Sad and other cities as supporters gathered to mark what they called Serbia's 'freedom'"
+        "Turnout reached highest levels since 1977 as approximately 7.3 million eligible voters cast ballots in Israel's first election since the October 7, 2023 Hamas attacks",
+        "Polls show incumbent PM Benjamin Netanyahu nearly tied with challenger Gadi Eisenkot, a former military chief leading the 'change bloc' coalition",
+        "Neither political bloc is projected to win the 61 seats needed for a majority, suggesting weeks of coalition negotiations ahead",
+        "Multiple parties reported alleged irregularities at polling stations, though Israel's Central Election Committee said there is no evidence of systematic tampering"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized the student movement's origins and Vu\u010di\u0107's concession, called him a 'right-wing populist leader'",
-          "url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized record turnout and referendum framing on Netanyahu's rule",
+          "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Focused on the anti-corruption angle and comparisons to the fall of Milo\u0161evi\u0107",
-          "url": "https://www.rfi.fr/en/france/20261025-far-right-le-pen-promises-french-rebirth-as-rn-sets-sights-on-2027-presidency"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline emphasized defeat of 'populist leader'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/26/eu-to-charge-two-euro-handling-fee-on-packages-from-outside-bloc_6764287_4.html"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Video coverage focused on street celebrations in Belgrade",
-          "url": "https://www.france24.com/en/brazil-s-lula-wins-historic-fourth-term"
-        }
-      ]
-    },
-    {
-      "headline": "Lula Wins Historic Fourth Term as Brazil's President, Defeating Bolsonaro",
-      "category": "Geopolitics",
-      "bullets": [
-        "Luiz In\u00e1cio Lula da Silva, 80, won Brazil's presidential runoff by approximately 4.4 million votes over Senator Fl\u00e1vio Bolsonaro",
-        "Turnout was massive, with over 10 million more votes cast for Lula compared to the first round; blank and spoiled ballots reached record lows",
-        "Bolsonaro has refused to accept the result and announced plans to challenge it, citing a Supreme Court ruling that extended voting hours",
-        "World leaders including France's Macron and China's government congratulated Lula, while left-wing governments in Latin America celebrated the result"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Covered Lula's promise to govern for all Brazilians and noted the deeply divided country",
-          "url": "https://www.france24.com/en/brazil-s-lula-wins-historic-fourth-term"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Framed result as defeat of 'far right' in opinion piece",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/26/eu-to-charge-two-euro-handling-fee-on-packages-from-outside-bloc_6764287_4.html"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on how Lula 'pulled off a stunning victory'",
-          "url": "https://www.ft.com/content/ef271c35-6e32-455a-8463-579788530fd3?syn-25a6b1a6=1"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Noted Bolsonaro's refusal to concede and plan to challenge results",
-          "url": "https://www.rfi.fr/en/france/20261025-far-right-le-pen-promises-french-rebirth-as-rn-sets-sights-on-2027-presidency"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted congratulations from left-wing parties globally",
-          "url": "https://www.thehindu.com/videos/why-poland-wants-a-stronger-relationship-with-india-the-hindu-editorial/article71626195.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Algeria Approves First Foreign Troop Deployment Since 1973 to Protect Niger Energy Sites",
-      "category": "Geopolitics",
-      "bullets": [
-        "Algeria's parliament unanimously approved sending troops to Niger, marking the country's first overseas military deployment since the 1973 Arab-Israeli war",
-        "The deployment aims to protect energy facilities, including the Trans-Saharan Gas Pipeline project being built jointly by Algeria and Niger",
-        "Niger faces persistent attacks by armed groups near its border with Algeria; the move follows a thwarted mutiny in Niger in August",
-        "The two countries share a 960-kilometer desert border and have agreed to deepen cooperation against jihadist violence"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": null,
-          "url": "https://www.france24.com/en/brazil-s-lula-wins-historic-fourth-term"
-        }
-      ]
-    },
-    {
-      "headline": "European Defence Ministers Meet in Paris to Discuss Expanded Ukraine Military Support",
-      "category": "Conflict",
-      "bullets": [
-        "Defence ministers from France, Germany, Italy, Poland and the UK convened in Paris to discuss increasing military assistance to Ukraine",
-        "The meeting came as Russian strikes injured civilians in Zaporizhzhia and Chernihiv, while Ukrainian drones killed two in Russia's Voronezh region",
-        "Russia's Defence Ministry claimed strikes on power stations in Kharkiv and Khmelnytskyi regions, as well as port infrastructure in Chornomorsk",
-        "High-level delegations from Saudi Arabia, Pakistan and Turkey simultaneously met in Tehran seeking to avert renewed Iran-US-Israel conflict"
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized continuing attacks on both sides and linked to broader regional diplomacy",
-          "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/10/26/if-netanyahu-loses-what-changes-for-palestinians?traffic_source=rss"
+          "framing_note": "Focused on security and accountability themes, noted Trump's endorsement of Netanyahu",
+          "url": "https://www.rfi.fr/en/sports/20261027-putellas-and-kane-win-2026-ballon-d-or-as-psg-take-men-s-team-of-year"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Focused on Tehran talks and Saudi-Iran tensions",
-          "url": "https://www.theglobeandmail.com/world/article-delegations-meet-in-iran-mideast-conflict-houthi-attacks/"
+          "framing_note": "Provided extensive analysis of Netanyahu's political survival and legacy implications",
+          "url": "https://www.theglobeandmail.com/world/article-serbians-celebrate-ouster-of-vucic-as-proof-their-country-is-a-real/"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Content unavailable due to technical issues",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/27/along-route-66-in-the-ozarks-a-growing-discontent-ahead-of-the-us-midterms_6765145_4.html"
         }
       ]
     },
     {
-      "headline": "Venezuelan Opposition Leader Mar\u00eda Corina Machado Returns After 10 Months in Exile",
-      "category": "Geopolitics",
+      "headline": "Serbia's Vu\u010di\u0107 Concedes Defeat to Student-Led Movement in Historic Political Upset",
+      "category": "Society",
       "bullets": [
-        "Mar\u00eda Corina Machado returned to Venezuela on Sunday after more than 10 months in exile, greeted by supporters in Lara state and later Caracas",
-        "She had fled Venezuela by speedboat in January to accept the Nobel Peace Prize in Norway",
-        "Her return follows the US seizure of President Nicol\u00e1s Maduro and installation of his deputy Delcy Rodr\u00edguez as interim president, who subsequently signed an oil deal with Washington",
-        "Machado was photographed at Mass and travelled to Caracas in a caravan of cheering supporters"
+        "Long-standing leader Aleksandar Vu\u010di\u0107 admitted defeat to the Student List movement, which won 52.7% of votes compared to his party's 39.2%",
+        "The student movement formed less than two years ago following a railway station canopy collapse that killed 16 people and sparked anti-corruption protests",
+        "Record turnout contributed to the result, marking the second time this year a pro-Russian European strongman has been ousted by voters",
+        "Celebrations erupted across Belgrade, Novi Sad and other cities following the concession"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Emphasized the unexpected nature of the defeat and Vu\u010di\u0107's quick concession",
+          "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Drew parallels to Viktor Orb\u00e1n's defeat in Hungary and highlighted democracy implications",
+          "url": "https://www.theglobeandmail.com/world/article-serbians-celebrate-ouster-of-vucic-as-proof-their-country-is-a-real/"
+        }
+      ]
+    },
+    {
+      "headline": "Humanitarian Truce Takes Effect in Besieged Ukrainian City of Oleshky",
+      "category": "Conflict",
+      "bullets": [
+        "A limited ceasefire began in the Russian-occupied city of Oleshky to allow aid deliveries and civilian evacuations scheduled for Friday",
+        "The truce was brokered with assistance from US First Lady Melania Trump and involved Russian human rights commissioner Yana Lantratova",
+        "Approximately 1,700-2,000 residents remain in a city that had 24,000 before the war, surviving without electricity, gas, or water for three years",
+        "Residents reported cooking garden weeds to survive; evacuation routes have been mined and subject to drone attacks"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed the political context including Maduro's removal and the US-backed interim government",
-          "url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed humanitarian conditions and resident skepticism about Russian compliance",
+          "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Emphasized Melania Trump's role and noted upcoming US-mediated talks",
+          "url": "https://www.abc.net.au/news/2026-10-27/two-men-charged-over-fairford-raf-incident/107316522"
+        }
+      ]
+    },
+    {
+      "headline": "RSF Drone Strikes Knock Out Power Across Eastern Sudan",
+      "category": "Conflict",
+      "bullets": [
+        "Sudan's Rapid Support Forces launched coordinated attacks against five power stations in Al-Jazira, Gedaref, and White Nile states",
+        "The strikes caused mass power outages across regions controlled by the Sudanese army, affecting millions already facing the world's largest hunger crisis",
+        "In the first three weeks of October, drone strikes killed more than 300 people according to UN tallies",
+        "The attacks threaten critical services including medical refrigeration for insulin and other medications"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted UN warnings about health and service impacts",
+          "url": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Focused on civilian suffering and infrastructure destruction",
+          "url": "https://www.thehindu.com/news/international/mass-outages-in-sudan-after-rsf-drones-hit-five-power-stations/article71628515.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Chinese Brands Drop Mbapp\u00e9 Over Apparent Mao Zedong Joke",
+      "category": "Society",
+      "bullets": [
+        "Multiple Chinese brands terminated sponsorships with French footballer Kylian Mbapp\u00e9 after a video showed him apparently referencing a meme involving Mao Zedong",
+        "Mbapp\u00e9 reportedly mentioned 'a Chinese dictator' while discussing memes on the French talk show The Bridge, hosted by his Real Madrid teammate",
+        "Mao remains highly sensitive in China where he is officially revered despite his rule leading to millions of deaths",
+        "The original video is no longer available on the show's YouTube channel; Real Madrid and Mbapp\u00e9 have not commented"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Provided context on Mbapp\u00e9's 'dictator' nickname and Chinese internet censorship",
+          "url": "https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Emphasized commercial implications in world's second-biggest economy",
+          "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Focused on sponsor withdrawal details",
+          "url": "https://asia.nikkei.com/business/markets/commodities/australia-s-woodside-to-exit-long-stalled-timor-gas-project"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Saudi-led coalition strikes Houthi missile facilities in Yemen after continued attacks on Riyadh airport",
-      "source": "Al Jazeera, The Hindu",
-      "url": "https://www.aljazeera.com/news/2026/10/26/saudi-led-coalition-says-it-struck-houthi-missile-facilities"
+      "headline": "Jordan conducts airstrikes in Syria killing at least five, including civilians, in retaliation for church attack that killed nine",
+      "source": "BBC World, Al Jazeera",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo"
     },
     {
-      "headline": "Sudan's RSF launches coordinated drone attacks on five power stations, causing mass blackouts in eastern states",
+      "headline": "Two British men charged with national security offences over suspected Iran-linked plot against US air base RAF Fairford",
+      "source": "The Hindu, ABC Australia",
+      "url": "https://www.thehindu.com/news/international/two-men-charged-with-uk-national-security-offences-over-incident-at-us-run-military-base-in-england/article71630852.ece"
+    },
+    {
+      "headline": "Congo's Ebola outbreak reaches 10,000 confirmed cases with nearly half fatalities, becoming fastest-growing outbreak in history",
+      "source": "The Hindu, The Guardian",
+      "url": "https://www.thehindu.com/news/international/congos-ebola-outbreak-tops-10000-cases-as-authorities-race-to-slow-spread-in-african-countries/article71630756.ece"
+    },
+    {
+      "headline": "UK sanctions 15 Sudanese military commanders implicated in El Fasher massacre on anniversary of mass atrocity",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states"
+      "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
     },
     {
-      "headline": "Jordan arrests three suspects in dawn raid over deadly church attack that killed eight people",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-over-church-attack-in-dawn-raid-what-to-know"
-    },
-    {
-      "headline": "French unions call fresh rallies for October 31 and nationwide strike for November 5 over wages and living costs",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261026-french-unions-and-protest-groups-call-fresh-rallies-and-nationwide-strike"
-    },
-    {
-      "headline": "Israelis head to polls Tuesday in election widely seen as referendum on Netanyahu's leadership",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-israel-elections-netanyahu/"
-    },
-    {
-      "headline": "Musk confirms SpaceX restricted Ukraine's Starlink service, accusing Kyiv of violating terms by using it for military strikes",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo"
-    },
-    {
-      "headline": "Mystery over source of Nigeria's first Ebola case in a decade fuels concern as outbreak spreads to fourth African country",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread"
-    },
-    {
-      "headline": "Air New Zealand becomes first international airline to land at Sydney's new Western Sydney International Airport",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/business/2169450/air-new-zealand-becomes-first-international-airline-to-land-in-sydney-s-new-airport"
-    },
-    {
-      "headline": "Meta plans $95 billion stock offering to fund AI expansion, with Nvidia, AMD and Broadcom as cornerstone investors",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555"
-    },
-    {
-      "headline": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies suddenly at 46",
+      "headline": "Former FBI Director James Comey faces federal charges for third time over alleged 2016 classified information leak",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo"
+      "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo"
+    },
+    {
+      "headline": "Lula's re-election victory in Brazil challenges Trump's Latin America ambitions as Bolsonaro's party recognizes result",
+      "source": "BBC World, Le Monde",
+      "url": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o"
+    },
+    {
+      "headline": "Spain's Alexia Putellas wins record-equalling third Ballon d'Or F\u00e9minin; England's Harry Kane claims men's award",
+      "source": "BBC Europe, RFI",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o"
+    },
+    {
+      "headline": "Canada's PM Carney reports slight intensification in US trade talks but questions whether Washington's signature can be trusted",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-us-trade-talks-unclear-auto-parts-lobby-group-flavio-volpe-oct-26/"
+    },
+    {
+      "headline": "Former New Zealand PM Dame Jacinda Ardern appointed Professor of Practice at University of Sydney",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/life/people/dame-jacinda-ardern-has-a-new-job-in-australia"
+    },
+    {
+      "headline": "France's Macron vows to stand firm against protests over schools and cost of living ahead of third consecutive weekend of demonstrations",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261027-france-s-macron-vows-to-stand-firm-against-disorder-during-visit-to-marseille"
     }
   ]
 }

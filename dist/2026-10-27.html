@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 11:22 UTC</span>
+            </div>
+            <h1 class="header-title">Tuesday, October 27, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">Israeli voters headed to the polls today in what many consider the most consequential election in the country's history, with Prime Minister Benjamin Netanyahu locked in a tight race against former military chief Gadi Eisenkot amid record-high turnout [BBC, RFI, Globe and Mail]. In Europe, Serbia witnessed a political earthquake as long-standing leader Aleksandar Vučić conceded defeat to a student-led protest movement that emerged from anti-corruption demonstrations following a deadly railway station collapse [BBC, Globe and Mail]. A humanitarian truce brokered by US First Lady Melania Trump took effect in the Russian-occupied Ukrainian city of Oleshky, where residents have been reduced to eating garden weeds after years without electricity or water [BBC, ABC Australia]. In Sudan, the RSF launched coordinated drone strikes against five power stations, causing mass blackouts across eastern states as the country's civil war continues to devastate civilian infrastructure [Guardian, The Hindu]. Meanwhile, French footballer Kylian Mbappé faced commercial fallout in China after a viral clip appeared to show him joking about a meme involving Mao Zedong, prompting major brands to drop their sponsorship deals [BBC, FT, Nikkei Asia].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Israel Holds Pivotal Election as Netanyahu Faces Tight Race Against Eisenkot</h2>
+            <ul class="story-bullets"><li>Turnout reached highest levels since 1977 as approximately 7.3 million eligible voters cast ballots in Israel's first election since the October 7, 2023 Hamas attacks</li><li>Polls show incumbent PM Benjamin Netanyahu nearly tied with challenger Gadi Eisenkot, a former military chief leading the 'change bloc' coalition</li><li>Neither political bloc is projected to win the 61 seats needed for a majority, suggesting weeks of coalition negotiations ahead</li><li>Multiple parties reported alleged irregularities at polling stations, though Israel's Central Election Committee said there is no evidence of systematic tampering</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Emphasized record turnout and referendum framing on Netanyahu's rule</span>
+            </a>
+            <a href="https://www.rfi.fr/en/sports/20261027-putellas-and-kane-win-2026-ballon-d-or-as-psg-take-men-s-team-of-year" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Focused on security and accountability themes, noted Trump's endorsement of Netanyahu</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-serbians-celebrate-ouster-of-vucic-as-proof-their-country-is-a-real/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Provided extensive analysis of Netanyahu's political survival and legacy implications</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/10/27/along-route-66-in-the-ozarks-a-growing-discontent-ahead-of-the-us-midterms_6765145_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Content unavailable due to technical issues</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Serbia's Vučić Concedes Defeat to Student-Led Movement in Historic Political Upset</h2>
+            <ul class="story-bullets"><li>Long-standing leader Aleksandar Vučić admitted defeat to the Student List movement, which won 52.7% of votes compared to his party's 39.2%</li><li>The student movement formed less than two years ago following a railway station canopy collapse that killed 16 people and sparked anti-corruption protests</li><li>Record turnout contributed to the result, marking the second time this year a pro-Russian European strongman has been ousted by voters</li><li>Celebrations erupted across Belgrade, Novi Sad and other cities following the concession</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Emphasized the unexpected nature of the defeat and Vučić's quick concession</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-serbians-celebrate-ouster-of-vucic-as-proof-their-country-is-a-real/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Drew parallels to Viktor Orbán's defeat in Hungary and highlighted democracy implications</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Humanitarian Truce Takes Effect in Besieged Ukrainian City of Oleshky</h2>
+            <ul class="story-bullets"><li>A limited ceasefire began in the Russian-occupied city of Oleshky to allow aid deliveries and civilian evacuations scheduled for Friday</li><li>The truce was brokered with assistance from US First Lady Melania Trump and involved Russian human rights commissioner Yana Lantratova</li><li>Approximately 1,700-2,000 residents remain in a city that had 24,000 before the war, surviving without electricity, gas, or water for three years</li><li>Residents reported cooking garden weeds to survive; evacuation routes have been mined and subject to drone attacks</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Detailed humanitarian conditions and resident skepticism about Russian compliance</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Same coverage as BBC World</span>
+            </a>
+            <a href="https://www.abc.net.au/news/2026-10-27/two-men-charged-over-fairford-raf-incident/107316522" target="_blank" rel="noopener" class="source-chip lean-center">
+                ABC Australia<span class="framing-note">Emphasized Melania Trump's role and noted upcoming US-mediated talks</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">RSF Drone Strikes Knock Out Power Across Eastern Sudan</h2>
+            <ul class="story-bullets"><li>Sudan's Rapid Support Forces launched coordinated attacks against five power stations in Al-Jazira, Gedaref, and White Nile states</li><li>The strikes caused mass power outages across regions controlled by the Sudanese army, affecting millions already facing the world's largest hunger crisis</li><li>In the first three weeks of October, drone strikes killed more than 300 people according to UN tallies</li><li>The attacks threaten critical services including medical refrigeration for insulin and other medications</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Guardian<span class="framing-note">Highlighted UN warnings about health and service impacts</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/mass-outages-in-sudan-after-rsf-drones-hit-five-power-stations/article71628515.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Focused on civilian suffering and infrastructure destruction</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Chinese Brands Drop Mbappé Over Apparent Mao Zedong Joke</h2>
+            <ul class="story-bullets"><li>Multiple Chinese brands terminated sponsorships with French footballer Kylian Mbappé after a video showed him apparently referencing a meme involving Mao Zedong</li><li>Mbappé reportedly mentioned 'a Chinese dictator' while discussing memes on the French talk show The Bridge, hosted by his Real Madrid teammate</li><li>Mao remains highly sensitive in China where he is officially revered despite his rule leading to millions of deaths</li><li>The original video is no longer available on the show's YouTube channel; Real Madrid and Mbappé have not commented</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/videos/c8x23x1yn6w6o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Provided context on Mbappé's 'dictator' nickname and Chinese internet censorship</span>
+            </a>
+            <a href="https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Emphasized commercial implications in world's second-biggest economy</span>
+            </a>
+            <a href="https://asia.nikkei.com/business/markets/commodities/australia-s-woodside-to-exit-long-stalled-timor-gas-project" target="_blank" rel="noopener" class="source-chip lean-center">
+                Nikkei Asia<span class="framing-note">Focused on sponsor withdrawal details</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo" target="_blank" rel="noopener">Jordan conducts airstrikes in Syria killing at least five, including civilians, in retaliation for church attack that killed nine</a>
+            <span class="additional-source">BBC World, Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/two-men-charged-with-uk-national-security-offences-over-incident-at-us-run-military-base-in-england/article71630852.ece" target="_blank" rel="noopener">Two British men charged with national security offences over suspected Iran-linked plot against US air base RAF Fairford</a>
+            <span class="additional-source">The Hindu, ABC Australia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/congos-ebola-outbreak-tops-10000-cases-as-authorities-race-to-slow-spread-in-african-countries/article71630756.ece" target="_blank" rel="noopener">Congo's Ebola outbreak reaches 10,000 confirmed cases with nearly half fatalities, becoming fastest-growing outbreak in history</a>
+            <span class="additional-source">The Hindu, The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of" target="_blank" rel="noopener">UK sanctions 15 Sudanese military commanders implicated in El Fasher massacre on anniversary of mass atrocity</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo" target="_blank" rel="noopener">Former FBI Director James Comey faces federal charges for third time over alleged 2016 classified information leak</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cq62yg6rggj0o" target="_blank" rel="noopener">Lula's re-election victory in Brazil challenges Trump's Latin America ambitions as Bolsonaro's party recognizes result</a>
+            <span class="additional-source">BBC World, Le Monde</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o" target="_blank" rel="noopener">Spain's Alexia Putellas wins record-equalling third Ballon d'Or Féminin; England's Harry Kane claims men's award</a>
+            <span class="additional-source">BBC Europe, RFI</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/world/us-politics/article-us-trade-talks-unclear-auto-parts-lobby-group-flavio-volpe-oct-26/" target="_blank" rel="noopener">Canada's PM Carney reports slight intensification in US trade talks but questions whether Washington's signature can be trusted</a>
+            <span class="additional-source">Globe and Mail</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rnz.co.nz/life/people/dame-jacinda-ardern-has-a-new-job-in-australia" target="_blank" rel="noopener">Former New Zealand PM Dame Jacinda Ardern appointed Professor of Practice at University of Sydney</a>
+            <span class="additional-source">RNZ</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261027-france-s-macron-vows-to-stand-firm-against-disorder-during-visit-to-marseille" target="_blank" rel="noopener">France's Macron vows to stand firm against protests over schools and cost of living ahead of third consecutive weekend of demonstrations</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
