@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 11:57 UTC</span>
+            </div>
+            <h1 class="header-title">Thursday, October 29, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">Thursday's news is dominated by the aftermath of Spain's deadly train crash, which killed at least 68 people and has prompted three days of national mourning [BBC, RFI, Le Monde, The Hindu]. Audio recordings suggest the collision resulted from a control centre error after a computer failure halted trains on the Madrid-Seville line. In Israel, partial election results show Prime Minister Netanyahu's bloc leading but short of a majority, with Arab-led parties securing a historic 19 seats and potentially holding kingmaker status [BBC, Al Jazeera, ABC Australia]. The election's aftermath has been marred by Netanyahu's allegations that Arab parties 'stole' the vote, prompting demands for a foreign interference probe. ECB President Christine Lagarde announced she will resign in February 2027, nine months early, amid speculation the move is designed to allow EU leaders to select her successor before France's presidential election [Le Monde, The Hindu]. A ceasefire brokered by US First Lady Melania Trump and Pope Leo XIV has been extended across Ukraine's Kherson region, offering hope for humanitarian aid deliveries to trapped civilians [BBC]. Meanwhile, with US midterm elections five days away, both President Trump and former President Obama are making closing appeals in battleground states [Globe and Mail].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Spain Train Crash Kills at Least 68; Audio Reveals Control Centre Error</h2>
+            <ul class="story-bullets"><li>A high-speed Renfe train collided with a stationary Iryo train on the Madrid-Seville line Wednesday morning, killing at least 68 people and injuring over 100</li><li>Audio recordings indicate a computer failure forced trains to halt, but the control centre then gave the Renfe train clearance to proceed 'in error' while the Iryo train remained stopped 25km ahead</li><li>Spain has declared three days of national mourning; Prime Minister Pedro Sánchez visited the crash site and vowed a full investigation</li><li>This is the second fatal high-speed rail accident in Spain in 2026, raising questions about railway safety systems</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Detailed factual coverage with passenger testimonies and technical explanation of signalling failure</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Multiple articles covering different angles including survivor accounts</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261028-french-senate-toughens-proposals-to-make-rioters-pay-for-damage" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Emphasized it as one of Europe's worst modern rail disasters</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/economy/article/2026/10/29/totalenergies-hits-new-profit-record-as-middle-east-war-pushes-up-hydrocarbon-prices_6766729_19.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Headline suggested authorities knew the line was unsafe</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/spain-train-crash-indian-embassy-madrid-emergency-helpline/article71639009.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Focused on safety record scrutiny and Indian Embassy helpline</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Israel Election Deadlocked as Arab Parties Win Historic 19 Seats</h2>
+            <ul class="story-bullets"><li>With 93% of votes counted, Netanyahu's bloc leads with 53 projected seats while opposition leader Gadi Eisenkot's bloc has 48, both short of the 61-seat majority needed</li><li>Arab-led parties secured an unprecedented 19 seats driven by approximately 80% turnout among Palestinian citizens of Israel</li><li>Netanyahu claimed the election was 'stolen by Arab parties'; the Central Elections Committee head has demanded a Shin Bet investigation into foreign interference allegations</li><li>Coalition negotiations could take weeks, with the possibility of another election if no government can be formed</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Straightforward reporting on results and coalition arithmetic</span>
+            </a>
+            <a href="https://www.aljazeera.com/news/2026/10/29/unrest-at-india-university-where-no-students-union-polls-held-for-20-years?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Emphasized Netanyahu's rhetoric against Arab parties and historic Arab turnout</span>
+            </a>
+            <a href="https://www.abc.net.au/news/2026-10-29/hong-kong-wang-fuk-court-fire-disaster-report/107325160" target="_blank" rel="noopener" class="source-chip lean-center">
+                ABC Australia<span class="framing-note">Focused on foreign interference probe demands</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/economy/article/2026/10/29/totalenergies-hits-new-profit-record-as-middle-east-war-pushes-up-hydrocarbon-prices_6766729_19.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Editorial framing around 'bitter lessons'</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A9E8E">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #4A9E8E; border-color: #4A9E8E40">Economics</span>
+            </div>
+            <h2 class="story-headline">ECB President Lagarde to Resign Early in February 2027</h2>
+            <ul class="story-bullets"><li>Christine Lagarde announced she will leave the ECB presidency on February 7, 2027, nine months before her eight-year term was scheduled to end</li><li>The early departure is widely seen as allowing EU leaders to select a successor while French President Macron remains in office, before France's presidential election</li><li>Two other senior ECB positions are also becoming vacant: chief economist Philip Lane's term ends May 31 and board member Isabel Schnabel is leaving for the IMF</li><li>European Council President Antonio Costa said the selection process would begin immediately</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.lemonde.fr/en/economy/article/2026/10/29/totalenergies-hits-new-profit-record-as-middle-east-war-pushes-up-hydrocarbon-prices_6766729_19.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Article inaccessible but headline confirms early resignation</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/spain-train-crash-indian-embassy-madrid-emergency-helpline/article71639009.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Provided political context about French election timing and Marine Le Pen factor</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Ceasefire Extended Across Ukraine's Kherson Region for Humanitarian Access</h2>
+            <ul class="story-bullets"><li>A ceasefire initially focused on the Russian-occupied city of Oleshky has been expanded to cover the entire Kherson region in southern Ukraine</li><li>US First Lady Melania Trump and Pope Leo XIV helped broker the deal to allow food and medicine deliveries to thousands of trapped civilians</li><li>Humanitarian aid deliveries to Oleshky are planned, followed by evacuations on Friday for those wishing to leave</li><li>Both Russian and Ukrainian officials confirmed the ceasefire was being observed with no reported breaches</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Detailed coverage of humanitarian conditions and diplomatic efforts</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">Trump and Obama Campaign in Battleground States Five Days Before US Midterms</h2>
+            <ul class="story-bullets"><li>President Trump held a rally in Ohio while former President Obama campaigned in Georgia with Senate candidate Jon Ossoff and gubernatorial candidate Keisha Lance Bottoms</li><li>The Pentagon disclosed the US-Iran war has cost taxpayers at least $47.1 billion, potentially affecting voter sentiment</li><li>Obama criticized Trump for White House renovations and personal wealth accumulation while in office</li><li>Democrats are positioning Ossoff as a rising star with Obama's endorsement ahead of a potential future presidential run</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theglobeandmail.com/world/us-politics/article-trump-ohio-obama-georgia-campaign-us-midterm-elections/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Balanced coverage of both parties' campaign strategies</span>
+            </a>
+            <a href="https://www.aljazeera.com/news/2026/10/29/unrest-at-india-university-where-no-students-union-polls-held-for-20-years?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Focused on Pentagon war cost disclosure and economic implications for midterms</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/economy/article/2026/10/29/totalenergies-hits-new-profit-record-as-middle-east-war-pushes-up-hydrocarbon-prices_6766729_19.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Highlighted Obama's endorsement of Ossoff</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo" target="_blank" rel="noopener">Flávio Bolsonaro denies fleeing Brazil after arriving in Miami with US visa following election loss</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo" target="_blank" rel="noopener">Canada-EU summit in Montreal to discuss closer ties amid debate over 'associate membership' terminology</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/economy/fires/hong-kong-government-apologizes-for-deadly-fire-as-housing-chief-resigns" target="_blank" rel="noopener">Hong Kong housing secretary resigns after inquiry finds government oversight failures contributed to deadly fire that killed 168</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown" target="_blank" rel="noopener">Egypt fines journalist Lina Attalah and orders independent news outlet Mada Masr shut down amid press freedom crackdown</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official" target="_blank" rel="noopener">Africa CDC warns 'unprecedented' Ebola outbreak with 10,000 cases could spread beyond continent to UK and other countries</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/africa/20261029-russia-africa-summit-to-test-moscow-s-ambitions-for-broader-influence" target="_blank" rel="noopener">Russia-Africa summit draws 22 heads of state as Moscow seeks to expand influence on continent</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261028-french-senate-toughens-proposals-to-make-rioters-pay-for-damage" target="_blank" rel="noopener">French Senate passes bill making rioters liable for up to €10,000 in damages after violent October protests</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/economy/fires/indonesia-fires-and-haze-cause-more-than-5-200-deaths-study-says" target="_blank" rel="noopener">Indonesia fires and haze responsible for more than 5,200 deaths in August and September, study finds</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/sports/20261029-real-madrid-says-mbapp%C3%A9-was-wrong-over-zedong" target="_blank" rel="noopener">Real Madrid apologizes to China after Kylian Mbappé called Mao Zedong a 'dictator,' prompting sponsor withdrawals</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of" target="_blank" rel="noopener">UK sanctions 15 Sudanese military commanders on anniversary of El Fasher massacre that killed up to 10,000 civilians</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
