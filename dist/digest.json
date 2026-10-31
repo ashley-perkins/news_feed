@@ -1,184 +1,178 @@
 {
-  "date": "Friday, October 30, 2026",
-  "daily_brief": "The day's developments span multiple regions and domains, with significant implications for global stability. In the Middle East, Israel's election results have produced a hung parliament, with neither Netanyahu's bloc nor the opposition securing a majority, leaving Arab-led parties as potential kingmakers [BBC], [Al Jazeera], [Globe and Mail]. Meanwhile, the US-brokered ceasefire in Kherson is holding as evacuations proceed from Russian-occupied Oleshky, offering rare respite to civilians caught in the conflict [BBC], [Al Jazeera]. Press freedom suffered a major blow as Russia's Novaya Gazeta announced its forced closure under state pressure, marking the end of one of the country's last independent media outlets [Al Jazeera], [Le Monde]. In financial news, hackers linked to North Korea stole $6.3 billion from Binance in what analysts call the largest cryptocurrency heist in history [Globe and Mail], [Financial Times]. Across Europe, dockworkers launched a coordinated 24-hour strike affecting 113 ports in 22 countries, protesting arms exports and budget measures [RFI]. The ECB faces a leadership vacuum as Christine Lagarde announced her early departure, triggering succession negotiations amid eurozone economic turbulence [RFI].",
+  "date": "Saturday, October 31, 2026",
+  "daily_brief": "The day's most consequential developments center on the Ukraine conflict, where the US approved a $2.1 billion sale of 500 Patriot missiles to Kyiv [BBC], while a rare humanitarian ceasefire brokered by First Lady Melania Trump enabled the evacuation of hundreds from Russian-occupied Oleshky [Al Jazeera, BBC]. In Poland, a constitutional crisis escalated as riot police were deployed amid a standoff between the Tusk government and judges appointed by the previous administration, with the court accusing officials of staging a 'coup d'\u00e9tat' [BBC]. The COP17 biodiversity summit in Armenia concluded with agreements to revive 2030 nature protection goals, though delegates expressed disappointment at limited progress on key issues [RFI, The Hindu]. In Spain, a train disaster near Toledo that killed 69 people threatens Prime Minister S\u00e1nchez's re-election prospects weeks before snap elections [BBC]. Africa marks a historic milestone as Senegal hosts the first Olympic event on the continent with the Youth Olympic Games in Dakar [France 24, RFI]. Meanwhile, French authorities brace for potential unrest as 70,000 police deploy ahead of Halloween protests combining student and Yellow Vest movements [RFI].",
   "top_stories": [
     {
-      "headline": "Israel Election Deadlock: Neither Bloc Wins Majority as Arab Parties Hold Balance of Power",
-      "category": "Geopolitics",
-      "bullets": [
-        "Final results show Netanyahu's bloc won 53 seats while the opposition led by Gadi Eisenkot secured 48 seats, both short of the 61 needed for a majority",
-        "Arab-led parties (Ra'am and Joint List) won a historic 19 seats combined, potentially giving them decisive influence over coalition formation",
-        "Both Netanyahu and Eisenkot have ruled out partnering with Arab-led parties, creating a political impasse",
-        "If no coalition can be formed, new elections would be held in early 2027 with Netanyahu's government remaining as caretaker"
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized the exclusion of Palestinian citizens from potential coalitions and framed Arab parties' role as historically significant",
-          "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Focused on the political mechanics and coalition scenarios with neutral analysis",
-          "url": "https://www.theglobeandmail.com/world/video-binance-freezes-assets-after-record-63-billion-heist/"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provided straightforward factual coverage of results and process",
-          "url": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Russia's Novaya Gazeta Forced to Close, Ending Era of Independent Russian Journalism",
-      "category": "Society",
-      "bullets": [
-        "The newspaper's editorial board announced closure citing direct pressure from Russian authorities and intelligence services",
-        "Editor-in-chief Sergei Sokolov said the outlet will 'turn off the lights' on November 9",
-        "The newspaper had been designated a 'foreign agent' by Moscow; authorities recently searched a senior editor's home and arrested the editor-in-chief",
-        "Novaya Gazeta was viewed as one of Russia's last remaining bastions of independent journalism amid wartime media crackdowns"
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized the outlet's role as a 'symbol of independent journalism' and connected closure to the Ukraine war",
-          "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Framed as 'press freedom's swan song' in Russia; published the farewell letter in full",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/30/they-killed-us-the-farewell-letter-by-russia-s-free-newspaper-novaya-gazeta-forced-by-authorities-to-close_6767389_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "$6.3 Billion Stolen from Binance in Largest Cryptocurrency Heist Ever, Attributed to North Korea",
-      "category": "Technology",
-      "bullets": [
-        "Hackers targeted Binance wallets across 10 blockchains, moving most funds within approximately 20 minutes",
-        "US blockchain analysis firms TRM Labs and Chainalysis attributed the attack to North Korea with 'high confidence'",
-        "Binance has frozen approximately $3 billion of the stolen assets; the status of the remaining $3.3 billion remains unclear",
-        "Co-founder Yi He announced Binance would cover all hacking losses and expects to resume withdrawals within 48 hours"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized the scale and potential investor confidence implications",
-          "url": "https://www.theglobeandmail.com/world/video-binance-freezes-assets-after-record-63-billion-heist/"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on North Korea's development as a 'hacking superpower' and broader cyber warfare strategy",
-          "url": "https://www.ft.com/content/caf2d108-bb04-47ff-bcfa-53cca632c63d"
-        }
-      ]
-    },
-    {
-      "headline": "US-Brokered Ceasefire Holds in Kherson as Aid Reaches Oleshky and Evacuations Begin",
+      "headline": "US Approves $2.1 Billion Patriot Missile Sale to Ukraine Amid Ongoing Russian Bombardment",
       "category": "Conflict",
       "bullets": [
-        "A six-day localized ceasefire brokered by US First Lady Melania Trump has allowed aid convoys carrying food and medical supplies to enter Russian-held Oleshky",
-        "Up to 750 residents can evacuate via 25 buses; those leaving will travel through Russian territory to Belarus before entering Ukraine",
-        "Ukrainian and Russian human rights commissioners met in Oleshky overnight to coordinate the evacuation",
-        "Moscow has stressed the localized truce cannot be linked to a broader ceasefire in the conflict"
+        "The US State Department approved the sale of 500 PAC-3 Patriot interceptor missiles to Ukraine, to be funded entirely by European allies and Canada",
+        "Ukrainian President Zelensky warned deliveries could take 'several years' to arrive and called for the US to accelerate release of existing Patriot systems",
+        "The approval follows tensions between Zelensky and Trump earlier in October, which eased after talks with US envoys in Oslo on October 20",
+        "Patriots are described as the only effective weapon for countering Russia's ballistic missiles targeting Ukrainian cities"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Emphasized the humanitarian aspects and the rare quiet experienced by Kherson residents",
-          "url": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized the delay in delivery and recent US-Ukraine tensions over sanctions easing",
+          "url": "#"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Focused on the logistical details and Moscow's statements limiting the scope of the truce",
-          "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Highlighted residents' relief while noting fears about what comes after the ceasefire ends",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on the humanitarian evacuation context rather than the missile sale specifically",
+          "url": "https://www.aljazeera.com/news/2026/10/31/paycheck-to-paycheck-texas-border-voters-shed-parties-amid-economic-woes?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Dockworkers Strike Across 113 Ports in 22 Countries Over Arms Exports and Budget Cuts",
-      "category": "Economics",
+      "headline": "Rare Ukraine Ceasefire Enables Mass Evacuation from Russian-Occupied Oleshky",
+      "category": "Conflict",
       "bullets": [
-        "French ports expected to be 95% shut down during the 24-hour strike affecting major hubs including Le Havre, Dunkirk, Hamburg, Valencia, and Piraeus",
-        "The strike, backed by more than 25 unions, protests the use of ports for arms exports and, in France, proposed budget measures",
-        "Organizers estimate the action could disrupt more than 40% of Mediterranean cargo and $2 billion worth of freight",
-        "The CGT Ports and Docks union, representing 95% of French dockworkers, instructed members not to load or unload any cargo"
+        "Hundreds of residents from the devastated city of Oleshky were evacuated to Belarus and onward to Ukraine under a regional ceasefire brokered by US First Lady Melania Trump",
+        "Four planes carrying evacuees landed in Gomel, Belarus on Saturday morning, with buses to transport them to Ukraine's Chernihiv region",
+        "The ceasefire\u2014the longest since Russia's 2022 invasion\u2014has been in force across the Kherson frontline region since Tuesday to allow demining of evacuation routes",
+        "Estimated 2,000 residents were offered choice of traveling to Ukrainian or Russian-held territory, or remaining with replenished supplies"
       ],
       "sources": [
         {
-          "name": "RFI English",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Provided detailed coverage of French participation and the broader international coordination",
-          "url": "https://www.rfi.fr/en/international/20261029-race-to-find-new-head-of-european-central-bank-after-lagarde-leaves-early"
+          "framing_note": "Highlighted joint Russian-Ukrainian statements and Melania Trump's coordination role",
+          "url": "#"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized humanitarian aspects and food/medicine shortages in Oleshky",
+          "url": "https://www.aljazeera.com/news/2026/10/31/paycheck-to-paycheck-texas-border-voters-shed-parties-amid-economic-woes?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Riot Police Deployed as Poland's Constitutional Court Standoff Escalates",
+      "category": "Geopolitics",
+      "bullets": [
+        "Polish riot police were deployed at the Constitutional Court amid a confrontation between PM Donald Tusk's government and judges appointed by the previous Law and Justice (PiS) party",
+        "Justice Minister Waldemar \u017burek requested stripping court President Bogdan \u015awi\u0119czkowski and Vice-President Bart\u0142omiej Socha\u0144ski of immunity to bring criminal charges",
+        "The Constitutional Court accused participants of 'committing the crime of a coup d'\u00e9tat' in a social media statement",
+        "President Karol Nawrocki, backed by PiS, cancelled his trip to Senegal's Youth Olympics mid-flight to return to Warsaw"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Presented both government's rule-of-law restoration narrative and court's coup accusations",
+          "url": "#"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief coverage noting protests at the court",
+          "url": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court"
+        }
+      ]
+    },
+    {
+      "headline": "COP17 Biodiversity Summit Concludes with Agreements but Widespread Disappointment",
+      "category": "Climate",
+      "bullets": [
+        "Nearly 200 nations approved hard-fought texts at the UN biodiversity summit in Armenia aimed at reviving 2030 nature protection commitments",
+        "The summit sought to address shortfalls in meeting goals including protecting 30% of Earth's land and oceans, tackling pollution, and boosting conservation funding",
+        "French Ecological Transition Minister Monique Barbut said outcomes were 'not commensurate' with the crisis facing the natural world",
+        "Africa CDC director compared the 'unprecedented' geographic spread of the current Ebola outbreak to early COVID, warning all countries to increase preparedness"
+      ],
+      "sources": [
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of achievements and disappointments, quoted French minister's criticism",
+          "url": "#"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Similar framing, emphasized missed opportunities",
+          "url": "https://www.thehindu.com/news/international/new-york-restricts-ai-chatbot-interactions-with-children-explained/article71644287.ece"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Separate coverage focused on Ebola outbreak warning from Africa CDC",
+          "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
+        }
+      ]
+    },
+    {
+      "headline": "Spain Train Disaster Kills 69, Threatens S\u00e1nchez Re-election Bid",
+      "category": "Society",
+      "bullets": [
+        "A collision on Spain's high-speed rail line near Toledo killed 69 people, the second major crash in nine months after 46 died near Cordoba",
+        "Transport Minister Oscar Puente suggested 'human error' was to blame while rejecting claims of chronic infrastructure underinvestment",
+        "The opposition People's Party called for Puente's resignation as a 'moral and ethical' move",
+        "The disaster occurs weeks before snap general elections called by Prime Minister Pedro S\u00e1nchez"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Emphasized political implications and government's defensive posture on infrastructure spending",
+          "url": "#"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "ECB President Christine Lagarde announces early resignation, triggering succession race amid eurozone economic turbulence",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20261029-race-to-find-new-head-of-european-central-bank-after-lagarde-leaves-early"
+      "headline": "Senegal hosts Africa's first-ever Olympic event as Youth Games open in Dakar with nearly 3,000 athletes",
+      "source": "France 24, RFI",
+      "url": "https://www.france24.com/en/africa/20261031-senegal-hosts-africa-s-first-ever-youth-olympic-games"
     },
     {
-      "headline": "At least 14 killed in Russian drone strike on crowded train platform in Dnipro, Ukraine",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko"
+      "headline": "Novaya Gazeta, Russia's most prominent independent newspaper, accuses authorities of 'strangling' it after being blocked from receiving donations",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do"
     },
     {
-      "headline": "At least 60 Orthodox Christians killed in Ethiopia amid rising religious violence",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/video/20261030-at-least-60-christians-killed-in-ethiopia-amid-rising-religious-violence"
+      "headline": "Binance attempting to recover $6.3 billion stolen in cryptocurrency hack linked to North Korea's Lazarus Group",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo"
     },
     {
-      "headline": "Leaked audio reveals train operators cleared high-speed train despite stalled train ahead in deadly Spain crash that killed 69",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o"
-    },
-    {
-      "headline": "Egypt fines prominent editor Lina Attalah and orders closure of independent news outlet Mada Masr",
+      "headline": "Egyptian journalist Lina Attalah released after fine payment as authorities shut down independent outlet Mada Masr",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
     },
     {
-      "headline": "Glacial lake outburst in Bhutan triggers flood alert and evacuations in northern West Bengal and Assam",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/shintaphu-glacial-lake-bursting-gasa-tshachu-hot-springs/article71643533.ece"
-    },
-    {
-      "headline": "Africa CDC warns Ebola outbreak could spread beyond continent as cases reach 10,000",
+      "headline": "UK sanctions 15 Sudanese commanders from both SAF and RSF on anniversary of El Fasher massacre",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official"
+      "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
     },
     {
-      "headline": "US Secretary of State Rubio hosts G20 Foreign Ministers in Atlanta, including sanctioned Russian FM Lavrov",
+      "headline": "French dockworkers join 24-hour strike across 22 countries protesting arms exports and budget measures, potentially disrupting 40% of Mediterranean cargo",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20261030-french-dockworkers-strike-over-budget-measures-and-militarisation-of-ports-arms-war"
+    },
+    {
+      "headline": "France deploys 70,000 police ahead of Halloween 'night of darkness' protests combining student and Yellow Vest movements",
+      "source": "RFI",
+      "url": "https://www.rfi.fr/en/france/20261031-minister-warns-of-risk-of-violence-ahead-of-halloween-night-of-darkness-protests"
+    },
+    {
+      "headline": "Saudi Arabia intercepts drone over Riyadh as Houthi attacks on kingdom escalate following Yemen truce collapse",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/marco-rubio-hosts-g20-foreign-ministers-as-iran-ukraine-wars-divide-members/article71643995.ece"
+      "url": "https://www.thehindu.com/news/international/saudi-arabia-shoots-down-drone-in-riyadh-houthis-yemen-october-31-2026/article71648572.ece"
     },
     {
-      "headline": "France and Chad begin rebuilding military ties with planned air force training exercises",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20261030-france-and-chad-rebuild-military-ties-with-planned-air-force-training"
+      "headline": "Trump reinstates cancelled Iowa and Kansas rallies days before midterms, promises $5,000 to every American if Republicans retain Congress",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/trump-backtracks-on-rallies-in-turbulent-end-to-midterms-campaign/article71648419.ece"
     },
     {
-      "headline": "Sudanese diaspora and human rights groups denounce UAE nominee for UN Secretary-General over Sudan war role",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job"
+      "headline": "New York Governor signs legislation restricting AI chatbot interactions with minors, prohibiting simulated romantic relationships and self-harm encouragement",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/new-york-restricts-ai-chatbot-interactions-with-children-explained/article71644287.ece"
     }
   ]
 }
