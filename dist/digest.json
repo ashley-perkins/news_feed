@@ -1,123 +1,141 @@
 {
-  "date": "Saturday, October 31, 2026",
-  "daily_brief": "The day's most consequential developments center on the Ukraine conflict, where the US approved a $2.1 billion sale of 500 Patriot missiles to Kyiv [BBC], while a rare humanitarian ceasefire brokered by First Lady Melania Trump enabled the evacuation of hundreds from Russian-occupied Oleshky [Al Jazeera, BBC]. In Poland, a constitutional crisis escalated as riot police were deployed amid a standoff between the Tusk government and judges appointed by the previous administration, with the court accusing officials of staging a 'coup d'\u00e9tat' [BBC]. The COP17 biodiversity summit in Armenia concluded with agreements to revive 2030 nature protection goals, though delegates expressed disappointment at limited progress on key issues [RFI, The Hindu]. In Spain, a train disaster near Toledo that killed 69 people threatens Prime Minister S\u00e1nchez's re-election prospects weeks before snap elections [BBC]. Africa marks a historic milestone as Senegal hosts the first Olympic event on the continent with the Youth Olympic Games in Dakar [France 24, RFI]. Meanwhile, French authorities brace for potential unrest as 70,000 police deploy ahead of Halloween protests combining student and Yellow Vest movements [RFI].",
+  "date": "Sunday, November 01, 2026",
+  "daily_brief": "Youth-led protests over the cost of living and underfunded public services swept across Europe this weekend, with demonstrations turning violent in both France and Germany. More than 320,000 people marched in France [RFI], while German police deployed water cannons in Frankfurt, Berlin, and other cities after clashes broke out [BBC]. Meanwhile, diplomatic efforts to de-escalate the U.S.-Iran conflict continued in Doha, with President Trump stating the U.S. still has 'one or two targets' to address in Iran while expressing openness to negotiations [The Hindu], [Globe and Mail]. In a significant humanitarian development, hundreds of Ukrainian civilians were evacuated from the Russian-occupied city of Oleshky following a local ceasefire brokered by U.S. First Lady Melania Trump [BBC]. Cryptocurrency exchange Binance announced it has covered 90% of the $6.3 billion stolen in what the FBI confirmed was a North Korean-backed hack [BBC], [Globe and Mail]. Senegal made history by hosting the first Olympic event on African soil as the Youth Olympic Games opened in Dakar [France 24], [RFI].",
   "top_stories": [
     {
-      "headline": "US Approves $2.1 Billion Patriot Missile Sale to Ukraine Amid Ongoing Russian Bombardment",
-      "category": "Conflict",
+      "headline": "Youth-Led Cost of Living Protests Turn Violent Across France and Germany",
+      "category": "Society",
       "bullets": [
-        "The US State Department approved the sale of 500 PAC-3 Patriot interceptor missiles to Ukraine, to be funded entirely by European allies and Canada",
-        "Ukrainian President Zelensky warned deliveries could take 'several years' to arrive and called for the US to accelerate release of existing Patriot systems",
-        "The approval follows tensions between Zelensky and Trump earlier in October, which eased after talks with US envoys in Oslo on October 20",
-        "Patriots are described as the only effective weapon for countering Russia's ballistic missiles targeting Ukrainian cities"
+        "More than 320,000 protesters marched across France on Saturday, with 70,000 in Paris; police made over 290 arrests after clashes erupted at the end of demonstrations",
+        "In Germany, tens of thousands joined protests organized by 'Gen Z regelt' in Frankfurt, Berlin, Cologne, and Hamburg; police used water cannons after rioters targeted emergency workers and looted shops",
+        "Protesters demanded action on underfunded schools, high living costs, public spending cuts, and opposed military service",
+        "German Interior Minister Alexander Dobrindt called for 'harsh punishments' for rioters and said police prevented violence similar to recent Paris unrest"
       ],
       "sources": [
         {
           "name": "BBC",
           "lean": "Center",
-          "framing_note": "Emphasized the delay in delivery and recent US-Ukraine tensions over sanctions easing",
+          "framing_note": "Focused on violence and police response in Germany, noting protests followed similar French demonstrations",
           "url": "#"
         },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Focused on the humanitarian evacuation context rather than the missile sale specifically",
-          "url": "https://www.aljazeera.com/news/2026/10/31/paycheck-to-paycheck-texas-border-voters-shed-parties-amid-economic-woes?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Rare Ukraine Ceasefire Enables Mass Evacuation from Russian-Occupied Oleshky",
-      "category": "Conflict",
-      "bullets": [
-        "Hundreds of residents from the devastated city of Oleshky were evacuated to Belarus and onward to Ukraine under a regional ceasefire brokered by US First Lady Melania Trump",
-        "Four planes carrying evacuees landed in Gomel, Belarus on Saturday morning, with buses to transport them to Ukraine's Chernihiv region",
-        "The ceasefire\u2014the longest since Russia's 2022 invasion\u2014has been in force across the Kherson frontline region since Tuesday to allow demining of evacuation routes",
-        "Estimated 2,000 residents were offered choice of traveling to Ukrainian or Russian-held territory, or remaining with replenished supplies"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Highlighted joint Russian-Ukrainian statements and Melania Trump's coordination role",
-          "url": "#"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized humanitarian aspects and food/medicine shortages in Oleshky",
-          "url": "https://www.aljazeera.com/news/2026/10/31/paycheck-to-paycheck-texas-border-voters-shed-parties-amid-economic-woes?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Riot Police Deployed as Poland's Constitutional Court Standoff Escalates",
-      "category": "Geopolitics",
-      "bullets": [
-        "Polish riot police were deployed at the Constitutional Court amid a confrontation between PM Donald Tusk's government and judges appointed by the previous Law and Justice (PiS) party",
-        "Justice Minister Waldemar \u017burek requested stripping court President Bogdan \u015awi\u0119czkowski and Vice-President Bart\u0142omiej Socha\u0144ski of immunity to bring criminal charges",
-        "The Constitutional Court accused participants of 'committing the crime of a coup d'\u00e9tat' in a social media statement",
-        "President Karol Nawrocki, backed by PiS, cancelled his trip to Senegal's Youth Olympics mid-flight to return to Warsaw"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Presented both government's rule-of-law restoration narrative and court's coup accusations",
-          "url": "#"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief coverage noting protests at the court",
-          "url": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court"
-        }
-      ]
-    },
-    {
-      "headline": "COP17 Biodiversity Summit Concludes with Agreements but Widespread Disappointment",
-      "category": "Climate",
-      "bullets": [
-        "Nearly 200 nations approved hard-fought texts at the UN biodiversity summit in Armenia aimed at reviving 2030 nature protection commitments",
-        "The summit sought to address shortfalls in meeting goals including protecting 30% of Earth's land and oceans, tackling pollution, and boosting conservation funding",
-        "French Ecological Transition Minister Monique Barbut said outcomes were 'not commensurate' with the crisis facing the natural world",
-        "Africa CDC director compared the 'unprecedented' geographic spread of the current Ebola outbreak to early COVID, warning all countries to increase preparedness"
-      ],
-      "sources": [
         {
           "name": "RFI",
           "lean": "Center",
-          "framing_note": "Balanced coverage of achievements and disappointments, quoted French minister's criticism",
+          "framing_note": "Emphasized broader European context and included details on Halloween-themed costumes at French protests",
           "url": "#"
         },
         {
-          "name": "The Hindu",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Similar framing, emphasized missed opportunities",
-          "url": "https://www.thehindu.com/news/international/new-york-restricts-ai-chatbot-interactions-with-children-explained/article71644287.ece"
+          "framing_note": "Article focused on political scientist analysis of how French protest imagery influenced European movements",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/01/the-bridge-to-nowhere-finally-connects-china-and-north-korea_6768511_4.html"
         },
         {
-          "name": "The Guardian",
+          "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Separate coverage focused on Ebola outbreak warning from Africa CDC",
-          "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
+          "framing_note": "Emphasized youth demands for better education and lower living costs",
+          "url": "https://www.aljazeera.com/gallery/2026/11/1/photos-youth-led-rallies-sweep-germany?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Spain Train Disaster Kills 69, Threatens S\u00e1nchez Re-election Bid",
-      "category": "Society",
+      "headline": "Trump Signals Possible Iran Strikes After Midterms as Diplomatic Talks Continue in Doha",
+      "category": "Geopolitics",
       "bullets": [
-        "A collision on Spain's high-speed rail line near Toledo killed 69 people, the second major crash in nine months after 46 died near Cordoba",
-        "Transport Minister Oscar Puente suggested 'human error' was to blame while rejecting claims of chronic infrastructure underinvestment",
-        "The opposition People's Party called for Puente's resignation as a 'moral and ethical' move",
-        "The disaster occurs weeks before snap general elections called by Prime Minister Pedro S\u00e1nchez"
+        "President Trump stated the U.S. has 'one or two targets' remaining in Iran, specifically mentioning 'Pickaxe Mountain,' a suspected underground nuclear complex",
+        "Iranian negotiators held talks with Qatari mediators in Doha on Saturday following 12 hours of discussions in Tehran on Friday",
+        "Secretary of State Marco Rubio said Trump has not decided on new strikes and prefers diplomatic resolution",
+        "Iran's Supreme Leader ordered armed forces to prepare for 'immediate, impactful, and geographically unrestricted' response to any attacks"
+      ],
+      "sources": [
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Detailed Trump's comments about remaining targets and Iran's denials of nuclear work at the site",
+          "url": "https://www.thehindu.com/news/international/donald-trump-says-flavio-bolsonaro-can-stay-in-us-as-long-as-he-wants-amid-brazilian-probes/article71652154.ece"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized diplomatic track and coordination with Washington, noting regional countries anticipate post-midterm strikes",
+          "url": "https://www.theglobeandmail.com/world/article-trump-administration-did-not-facilitate-bolsonaros-departure-to-us/"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted both diplomatic progress and military rhetoric from both sides, including Iran's threat to use 'new weaponry'",
+          "url": "https://www.aljazeera.com/gallery/2026/11/1/photos-youth-led-rallies-sweep-germany?traffic_source=rss"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Article body unavailable but headline confirmed coverage of Trump's Iran comments",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/01/the-bridge-to-nowhere-finally-connects-china-and-north-korea_6768511_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Hundreds of Ukrainians Evacuated from Russian-Occupied Oleshky After Melania Trump-Brokered Ceasefire",
+      "category": "Conflict",
+      "bullets": [
+        "Hundreds of residents were evacuated from the front-line city of Oleshky on Friday, crossing from Belarus into Ukraine's Chernihiv region on Saturday",
+        "Evacuees had been trapped for years without adequate food, water, or electricity; some resorted to cooking garden weeds to survive",
+        "President Zelensky thanked U.S. First Lady Melania Trump for brokering the local ceasefire that enabled the evacuation",
+        "Emotional family reunions occurred at the arrival site, with some elderly evacuees so weak they were carried on stretchers"
       ],
       "sources": [
         {
           "name": "BBC",
           "lean": "Center",
-          "framing_note": "Emphasized political implications and government's defensive posture on infrastructure spending",
+          "framing_note": "Multiple articles provided detailed human interest coverage of evacuees' experiences and family reunions",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "headline": "Binance Covers 90% of $6.3 Billion Hack Losses as FBI Confirms North Korean Responsibility",
+      "category": "Technology",
+      "bullets": [
+        "Binance, the world's largest cryptocurrency exchange, stated it has replenished 90% of assets stolen in Thursday's hack using company funds",
+        "The FBI confirmed North Korean state-sponsored unit TraderTraitor (Lazarus Group) was responsible for the attack",
+        "Hackers were observed converting stolen assets to Ethereum, with further laundering expected through decentralized finance services",
+        "Withdrawals have been partially restored after being suspended following the breach"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Focused on company's response and FBI attribution to North Korea",
+          "url": "#"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized this was a record heist and included CEO's direct quotes about covering user losses",
+          "url": "https://www.theglobeandmail.com/world/article-trump-administration-did-not-facilitate-bolsonaros-departure-to-us/"
+        }
+      ]
+    },
+    {
+      "headline": "Youth Olympic Games Open in Senegal, Marking First Olympic Event on African Soil",
+      "category": "Society",
+      "bullets": [
+        "President Bassirou Diomaye Faye declared the fourth Summer Youth Olympic Games open at Diamniadio Olympic Stadium near Dakar",
+        "The opening ceremony featured hundreds of drummers and dancers celebrating Senegalese and African culture under the motto 'Africa welcomes, Dakar celebrates'",
+        "Nearly 3,000 athletes aged 14-17 from over 200 countries will compete across three Senegalese cities in 25 sports",
+        "The Games come amid an economic crisis in Senegal and a government crackdown on LGBTQ+ people"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Noted economic context and LGBTQ+ crackdown alongside celebration of historic event",
+          "url": "https://www.france24.com/en/video/20261101-the-world-celebrates-halloween-traditions-costumes-and-pumpkins"
+        },
+        {
+          "name": "RFI",
+          "lean": "Center",
+          "framing_note": "Emphasized the ceremony as a symbol of African unity and cultural diversity",
           "url": "#"
         }
       ]
@@ -125,54 +143,54 @@
   ],
   "additional_stories": [
     {
-      "headline": "Senegal hosts Africa's first-ever Olympic event as Youth Games open in Dakar with nearly 3,000 athletes",
-      "source": "France 24, RFI",
-      "url": "https://www.france24.com/en/africa/20261031-senegal-hosts-africa-s-first-ever-youth-olympic-games"
-    },
-    {
-      "headline": "Novaya Gazeta, Russia's most prominent independent newspaper, accuses authorities of 'strangling' it after being blocked from receiving donations",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do"
-    },
-    {
-      "headline": "Binance attempting to recover $6.3 billion stolen in cryptocurrency hack linked to North Korea's Lazarus Group",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo"
-    },
-    {
-      "headline": "Egyptian journalist Lina Attalah released after fine payment as authorities shut down independent outlet Mada Masr",
+      "headline": "Egypt fines prominent journalist Lina Attalah and orders closure of independent outlet Mada Masr",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
     },
     {
-      "headline": "UK sanctions 15 Sudanese commanders from both SAF and RSF on anniversary of El Fasher massacre",
+      "headline": "Africa's Ebola outbreak reaches 10,000 cases with nearly 5,000 deaths; health official warns it could spread globally",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official"
+    },
+    {
+      "headline": "UK sanctions 15 Sudanese military commanders from both RSF and SAF implicated in El Fasher atrocities",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
     },
     {
-      "headline": "French dockworkers join 24-hour strike across 22 countries protesting arms exports and budget measures, potentially disrupting 40% of Mediterranean cargo",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20261030-french-dockworkers-strike-over-budget-measures-and-militarisation-of-ports-arms-war"
+      "headline": "Judge dismisses Trump's $10 billion defamation lawsuit against Wall Street Journal over Epstein birthday letter",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo"
     },
     {
-      "headline": "France deploys 70,000 police ahead of Halloween 'night of darkness' protests combining student and Yellow Vest movements",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20261031-minister-warns-of-risk-of-violence-ahead-of-halloween-night-of-darkness-protests"
+      "headline": "Thousands rally in New Delhi demanding resignation of India's election chief over voter list changes",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
     },
     {
-      "headline": "Saudi Arabia intercepts drone over Riyadh as Houthi attacks on kingdom escalate following Yemen truce collapse",
+      "headline": "Trump says defeated Brazilian candidate Flavio Bolsonaro can stay in U.S. indefinitely despite probes",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/saudi-arabia-shoots-down-drone-in-riyadh-houthis-yemen-october-31-2026/article71648572.ece"
+      "url": "https://www.thehindu.com/news/international/donald-trump-says-flavio-bolsonaro-can-stay-in-us-as-long-as-he-wants-amid-brazilian-probes/article71652154.ece"
     },
     {
-      "headline": "Trump reinstates cancelled Iowa and Kansas rallies days before midterms, promises $5,000 to every American if Republicans retain Congress",
+      "headline": "Israeli protesters demand opposition ally with Arab parties to oust Netanyahu after inconclusive election",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/trump-backtracks-on-rallies-in-turbulent-end-to-midterms-campaign/article71648419.ece"
+      "url": "https://www.thehindu.com/news/international/israeli-protesters-demand-opposition-ally-with-arab-parties-to-oust-netanyahu/article71652323.ece"
     },
     {
-      "headline": "New York Governor signs legislation restricting AI chatbot interactions with minors, prohibiting simulated romantic relationships and self-harm encouragement",
+      "headline": "Bulgaria holds presidential run-off amid Black Sea security concerns following drone attacks on merchant ships",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions"
+    },
+    {
+      "headline": "Germany fails to meet winter gas storage target, potentially raising prices for other EU countries",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/99b0bbf1-4604-4e56-bc66-9f49d2814737"
+    },
+    {
+      "headline": "Pakistan warns Afghanistan of action against cross-border terror threats, calls terrorism a 'red line'",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/new-york-restricts-ai-chatbot-interactions-with-children-explained/article71644287.ece"
+      "url": "https://www.thehindu.com/news/international/terrorism-is-red-line-pakistan-tells-afghanistan-as-it-warns-of-action-against-cross-border-threats/article71652279.ece"
     }
   ]
 }
