@@ -1,196 +1,202 @@
 {
-  "date": "Sunday, November 01, 2026",
-  "daily_brief": "Youth-led protests over the cost of living and underfunded public services swept across Europe this weekend, with demonstrations turning violent in both France and Germany. More than 320,000 people marched in France [RFI], while German police deployed water cannons in Frankfurt, Berlin, and other cities after clashes broke out [BBC]. Meanwhile, diplomatic efforts to de-escalate the U.S.-Iran conflict continued in Doha, with President Trump stating the U.S. still has 'one or two targets' to address in Iran while expressing openness to negotiations [The Hindu], [Globe and Mail]. In a significant humanitarian development, hundreds of Ukrainian civilians were evacuated from the Russian-occupied city of Oleshky following a local ceasefire brokered by U.S. First Lady Melania Trump [BBC]. Cryptocurrency exchange Binance announced it has covered 90% of the $6.3 billion stolen in what the FBI confirmed was a North Korean-backed hack [BBC], [Globe and Mail]. Senegal made history by hosting the first Olympic event on African soil as the Youth Olympic Games opened in Dakar [France 24], [RFI].",
+  "date": "Monday, November 02, 2026",
+  "daily_brief": "A coordinated cyberattack targeting supermarket refrigeration systems spread across six European countries overnight, marking a significant escalation from a similar incident that struck France last month [BBC], [France 24], [Al Jazeera]. The attacks, which caused temperatures to spike in freezers across Belgium, Luxembourg, Sweden, Ireland, the Netherlands, and Estonia, have resulted in millions of euros in food losses and underscore growing vulnerabilities in critical infrastructure. Meanwhile, as the US midterm elections approach on Tuesday, voters are weighing economic anxieties against broader geopolitical concerns [RFI], [France 24], with Republican strongholds showing signs of weakness amid inflation pressures. In Sudan, the anniversary of the fall of El Fasher has prompted UK sanctions against 15 military commanders implicated in sexual violence [The Guardian], while the UAE's nomination of diplomat Lana Nusseibeh for UN Secretary-General faces opposition from Sudanese diaspora groups citing concerns over the country's alleged support for the RSF [The Guardian]. Iran has signaled flexibility in negotiations with the US over the Strait of Hormuz, proposing a two-day timeline to restore maritime security if its conditions are met [The Hindu], [Al Jazeera]. Cost-of-living protests continue across Europe, with French authorities launching an attempted murder investigation after a Molotov cocktail attack on police [BBC], [RFI].",
   "top_stories": [
     {
-      "headline": "Youth-Led Cost of Living Protests Turn Violent Across France and Germany",
-      "category": "Society",
-      "bullets": [
-        "More than 320,000 protesters marched across France on Saturday, with 70,000 in Paris; police made over 290 arrests after clashes erupted at the end of demonstrations",
-        "In Germany, tens of thousands joined protests organized by 'Gen Z regelt' in Frankfurt, Berlin, Cologne, and Hamburg; police used water cannons after rioters targeted emergency workers and looted shops",
-        "Protesters demanded action on underfunded schools, high living costs, public spending cuts, and opposed military service",
-        "German Interior Minister Alexander Dobrindt called for 'harsh punishments' for rioters and said police prevented violence similar to recent Paris unrest"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Focused on violence and police response in Germany, noting protests followed similar French demonstrations",
-          "url": "#"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "Emphasized broader European context and included details on Halloween-themed costumes at French protests",
-          "url": "#"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article focused on political scientist analysis of how French protest imagery influenced European movements",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/01/the-bridge-to-nowhere-finally-connects-china-and-north-korea_6768511_4.html"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized youth demands for better education and lower living costs",
-          "url": "https://www.aljazeera.com/gallery/2026/11/1/photos-youth-led-rallies-sweep-germany?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Signals Possible Iran Strikes After Midterms as Diplomatic Talks Continue in Doha",
-      "category": "Geopolitics",
-      "bullets": [
-        "President Trump stated the U.S. has 'one or two targets' remaining in Iran, specifically mentioning 'Pickaxe Mountain,' a suspected underground nuclear complex",
-        "Iranian negotiators held talks with Qatari mediators in Doha on Saturday following 12 hours of discussions in Tehran on Friday",
-        "Secretary of State Marco Rubio said Trump has not decided on new strikes and prefers diplomatic resolution",
-        "Iran's Supreme Leader ordered armed forces to prepare for 'immediate, impactful, and geographically unrestricted' response to any attacks"
-      ],
-      "sources": [
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Detailed Trump's comments about remaining targets and Iran's denials of nuclear work at the site",
-          "url": "https://www.thehindu.com/news/international/donald-trump-says-flavio-bolsonaro-can-stay-in-us-as-long-as-he-wants-amid-brazilian-probes/article71652154.ece"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized diplomatic track and coordination with Washington, noting regional countries anticipate post-midterm strikes",
-          "url": "https://www.theglobeandmail.com/world/article-trump-administration-did-not-facilitate-bolsonaros-departure-to-us/"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Highlighted both diplomatic progress and military rhetoric from both sides, including Iran's threat to use 'new weaponry'",
-          "url": "https://www.aljazeera.com/gallery/2026/11/1/photos-youth-led-rallies-sweep-germany?traffic_source=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article body unavailable but headline confirmed coverage of Trump's Iran comments",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/01/the-bridge-to-nowhere-finally-connects-china-and-north-korea_6768511_4.html"
-        }
-      ]
-    },
-    {
-      "headline": "Hundreds of Ukrainians Evacuated from Russian-Occupied Oleshky After Melania Trump-Brokered Ceasefire",
-      "category": "Conflict",
-      "bullets": [
-        "Hundreds of residents were evacuated from the front-line city of Oleshky on Friday, crossing from Belarus into Ukraine's Chernihiv region on Saturday",
-        "Evacuees had been trapped for years without adequate food, water, or electricity; some resorted to cooking garden weeds to survive",
-        "President Zelensky thanked U.S. First Lady Melania Trump for brokering the local ceasefire that enabled the evacuation",
-        "Emotional family reunions occurred at the arrival site, with some elderly evacuees so weak they were carried on stretchers"
-      ],
-      "sources": [
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Multiple articles provided detailed human interest coverage of evacuees' experiences and family reunions",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "Binance Covers 90% of $6.3 Billion Hack Losses as FBI Confirms North Korean Responsibility",
+      "headline": "Coordinated Cyberattack Hits Supermarket Refrigeration Systems Across Six European Countries",
       "category": "Technology",
       "bullets": [
-        "Binance, the world's largest cryptocurrency exchange, stated it has replenished 90% of assets stolen in Thursday's hack using company funds",
-        "The FBI confirmed North Korean state-sponsored unit TraderTraitor (Lazarus Group) was responsible for the attack",
-        "Hackers were observed converting stolen assets to Ethereum, with further laundering expected through decentralized finance services",
-        "Withdrawals have been partially restored after being suspended following the breach"
+        "Overnight temperature spikes affected refrigerators and freezers in approximately 40 Delhaize stores in Belgium and Luxembourg, plus stores in Sweden, Ireland, the Netherlands, and Estonia",
+        "The attack method\u2014switching evaporators to defrost mode\u2014mirrors the technique used in October's cyberattack on hundreds of French supermarkets that caused fires and food losses",
+        "Sabcobel CEO confirmed the incident as a cyberattack and said affected units require physical modifications, not just software updates, to address the vulnerability",
+        "Swedish cybersecurity authorities confirmed they are responding to multiple incidents and had previously warned about exposed operational technology devices requiring patches"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on company's response and FBI attribution to North Korea",
-          "url": "#"
+          "framing_note": "Lead source with technical details from Sabcobel CEO",
+          "url": "https://www.bbc.co.uk/news/articles/cv4g13z0px8yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Globe and Mail",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized this was a record heist and included CEO's direct quotes about covering user losses",
-          "url": "https://www.theglobeandmail.com/world/article-trump-administration-did-not-facilitate-bolsonaros-departure-to-us/"
+          "framing_note": "Emphasized connection to previous French attacks",
+          "url": "https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted vulnerability of systems that once operated mechanically",
+          "url": "https://www.aljazeera.com/news/2026/11/2/freezers-in-sweden-belgium-overheat-following-possible-cyberattacks?traffic_source=rss"
         }
       ]
     },
     {
-      "headline": "Youth Olympic Games Open in Senegal, Marking First Olympic Event on African Soil",
-      "category": "Society",
+      "headline": "US Midterm Elections: Final Day of Early Voting as Economic Anxieties Dominate",
+      "category": "Policy",
       "bullets": [
-        "President Bassirou Diomaye Faye declared the fourth Summer Youth Olympic Games open at Diamniadio Olympic Stadium near Dakar",
-        "The opening ceremony featured hundreds of drummers and dancers celebrating Senegalese and African culture under the motto 'Africa welcomes, Dakar celebrates'",
-        "Nearly 3,000 athletes aged 14-17 from over 200 countries will compete across three Senegalese cities in 25 sports",
-        "The Games come amid an economic crisis in Senegal and a government crackdown on LGBTQ+ people"
+        "Early voting concluded in key states including Florida, with voters citing cost of living, low taxes, and America's strained relationship with Europe as primary concerns",
+        "North Carolina, traditionally a Republican stronghold, shows vulnerability due to agricultural sector impacts from inflation",
+        "President Trump's unpopularity is reportedly affecting Republican candidates across multiple states",
+        "Online betting companies are investing heavily in state elections, seeing an opportunity to shape future gambling regulations"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Noted economic context and LGBTQ+ crackdown alongside celebration of historic event",
-          "url": "https://www.france24.com/en/video/20261101-the-world-celebrates-halloween-traditions-costumes-and-pumpkins"
+          "framing_note": "Focused on Republican vulnerability and agricultural impacts",
+          "url": "https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests"
         },
         {
-          "name": "RFI",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized the ceremony as a symbol of African unity and cultural diversity",
-          "url": "#"
+          "framing_note": "Emphasized local hardship alongside global concerns from Miami voter interviews",
+          "url": "https://www.rfi.fr/en/france/20261101-france-launches-attempted-murder-probe-after-petrol-bomb-attack-on-police"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Covered betting industry angle and Trump's 'imperial presidency' facing 'popular uprising'",
+          "url": "https://www.ft.com/content/eae872b0-69cb-445c-a107-aab95f9a8525?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "headline": "UK Sanctions 15 Sudanese Military Commanders on Anniversary of El Fasher Massacre",
+      "category": "Conflict",
+      "bullets": [
+        "British government imposed travel bans and asset freezes on commanders from both the RSF and Sudanese Armed Forces suspected of sexual violence during the siege of El Fasher",
+        "Up to 10,000 civilians were killed over two days when the RSF captured El Fasher in October 2025, with another 40,000 still unaccounted for",
+        "El Fasher's population has dropped from over 1 million to fewer than 70,000 remaining residents",
+        "The sanctions come as UAE diplomat Lana Nusseibeh's candidacy for UN Secretary-General faces opposition from Sudanese diaspora and human rights groups over the UAE's alleged support for the RSF"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Provided detailed coverage of both the sanctions and opposition to Nusseibeh's UN candidacy",
+          "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on conditions in El Fasher one year after the fall",
+          "url": "https://www.rfi.fr/en/france/20261101-france-launches-attempted-murder-probe-after-petrol-bomb-attack-on-police"
+        }
+      ]
+    },
+    {
+      "headline": "Iran Signals Flexibility on Hormuz Strait, Proposes Two-Day Timeline for Reopening",
+      "category": "Geopolitics",
+      "bullets": [
+        "Iran's Foreign Ministry said it is considering a two-day plan to reopen the Strait of Hormuz if US conditions are met, shortened from a previous seven-day proposal",
+        "Qatar is facilitating indirect talks between Tehran and Washington based on Iran's seven-step peace plan",
+        "Iranian demands include ending the West Asia war, unfreezing Iranian assets, lifting oil sanctions, and ending the US naval blockade",
+        "China's Foreign Minister met with Iranian officials in Beijing, pushing for dialogue over military solutions and expressing support for Iran's sovereignty"
+      ],
+      "sources": [
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Detailed the specific Iranian demands and negotiation timeline",
+          "url": "https://www.thehindu.com/news/international/iran-says-considering-two-day-plan-to-reopen-hormuz/article71656060.ece"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage emphasizing Qatar's mediation role",
+          "url": "https://www.aljazeera.com/news/2026/11/2/freezers-in-sweden-belgium-overheat-following-possible-cyberattacks?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Covered China's diplomatic push and Xi's statement that the region should not be a 'great-power battleground'",
+          "url": "https://www.thehindu.com/news/international/iran-says-considering-two-day-plan-to-reopen-hormuz/article71656060.ece"
+        }
+      ]
+    },
+    {
+      "headline": "France Launches Attempted Murder Probe After Molotov Cocktail Sets Officer Ablaze During Protests",
+      "category": "Society",
+      "bullets": [
+        "Paris prosecutors opened an investigation for attempted murder of persons vested with public authority after petrol bombs were thrown at police during Saturday's protests",
+        "Images showed a homemade incendiary device exploding at an officer's feet, causing second-degree burns to his ankle and minor hand injuries",
+        "Hundreds of thousands participated in largely peaceful demonstrations across France protesting high living costs and poor public services, with over 770 arrests made Saturday",
+        "Student groups have announced plans to resume high school blockades starting Monday despite President Macron calling for calm return to classes"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Emphasized the 'particularly sophisticated' nature of the device and Interior Minister's response",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Detailed the ongoing protest movement and student plans for continued action",
+          "url": "https://www.rfi.fr/en/france/20261101-france-launches-attempted-murder-probe-after-petrol-bomb-attack-on-police"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Covered expert analysis suggesting 'no political solution' to the underlying anger",
+          "url": "https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Egypt fines prominent journalist Lina Attalah and orders closure of independent outlet Mada Masr",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
-    },
-    {
-      "headline": "Africa's Ebola outbreak reaches 10,000 cases with nearly 5,000 deaths; health official warns it could spread globally",
+      "headline": "Africa CDC warns current Ebola outbreak could reach UK and other countries as cases hit 10,000 with nearly 5,000 deaths",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official"
     },
     {
-      "headline": "UK sanctions 15 Sudanese military commanders from both RSF and SAF implicated in El Fasher atrocities",
+      "headline": "Fake nuclear warnings sent to users after Ukrainian and Russian air alert apps hacked on same night",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo"
+    },
+    {
+      "headline": "Ukrainians evacuated from Russian-occupied Oleshky reunite with families after years trapped in frontline city",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo"
+    },
+    {
+      "headline": "Egypt fines prominent journalist Lina Attalah and orders closure of independent news outlet Mada Masr",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
+      "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
     },
     {
-      "headline": "Judge dismisses Trump's $10 billion defamation lawsuit against Wall Street Journal over Epstein birthday letter",
-      "source": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo"
+      "headline": "Cost-of-living protests turn violent in German cities with shops looted in Frankfurt",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o"
     },
     {
-      "headline": "Thousands rally in New Delhi demanding resignation of India's election chief over voter list changes",
+      "headline": "Nine killed as business jet crashes on Florida street near Mar-a-Lago after crew reported icing issues",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o"
+    },
+    {
+      "headline": "Belgian PM offers resignation over budget impasse but King defers decision",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/02/belgian-pm-offers-to-quit-over-budget-impasse-but-king-defers-decision_6769440_4.html"
+    },
+    {
+      "headline": "Cambridge scientist Dr Marta Shahbazi among 69 killed in Spanish train crash while traveling to collect research award",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o"
+    },
+    {
+      "headline": "Jordan's King Abdullah vows to confront terrorism after deadly Karak church attack killed nine",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+      "url": "https://www.aljazeera.com/news/2026/11/2/jordans-king-abdullah-promises-to-confront-terrorists-after-karak-attack"
     },
     {
-      "headline": "Trump says defeated Brazilian candidate Flavio Bolsonaro can stay in U.S. indefinitely despite probes",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/donald-trump-says-flavio-bolsonaro-can-stay-in-us-as-long-as-he-wants-amid-brazilian-probes/article71652154.ece"
-    },
-    {
-      "headline": "Israeli protesters demand opposition ally with Arab parties to oust Netanyahu after inconclusive election",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/israeli-protesters-demand-opposition-ally-with-arab-parties-to-oust-netanyahu/article71652323.ece"
-    },
-    {
-      "headline": "Bulgaria holds presidential run-off amid Black Sea security concerns following drone attacks on merchant ships",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions"
-    },
-    {
-      "headline": "Germany fails to meet winter gas storage target, potentially raising prices for other EU countries",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/99b0bbf1-4604-4e56-bc66-9f49d2814737"
-    },
-    {
-      "headline": "Pakistan warns Afghanistan of action against cross-border terror threats, calls terrorism a 'red line'",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/terrorism-is-red-line-pakistan-tells-afghanistan-as-it-warns-of-action-against-cross-border-threats/article71652279.ece"
+      "headline": "Japan and Taiwan working on broad trade pact similar to Taipei-London agreement amid China pressure",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/economy/trade/taiwan-and-japan-eye-trade-deal-akin-to-taipei-london-pact-sources-say"
     }
   ]
 }
