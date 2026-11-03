@@ -1,202 +1,184 @@
 {
-  "date": "Monday, November 02, 2026",
-  "daily_brief": "A coordinated cyberattack targeting supermarket refrigeration systems spread across six European countries overnight, marking a significant escalation from a similar incident that struck France last month [BBC], [France 24], [Al Jazeera]. The attacks, which caused temperatures to spike in freezers across Belgium, Luxembourg, Sweden, Ireland, the Netherlands, and Estonia, have resulted in millions of euros in food losses and underscore growing vulnerabilities in critical infrastructure. Meanwhile, as the US midterm elections approach on Tuesday, voters are weighing economic anxieties against broader geopolitical concerns [RFI], [France 24], with Republican strongholds showing signs of weakness amid inflation pressures. In Sudan, the anniversary of the fall of El Fasher has prompted UK sanctions against 15 military commanders implicated in sexual violence [The Guardian], while the UAE's nomination of diplomat Lana Nusseibeh for UN Secretary-General faces opposition from Sudanese diaspora groups citing concerns over the country's alleged support for the RSF [The Guardian]. Iran has signaled flexibility in negotiations with the US over the Strait of Hormuz, proposing a two-day timeline to restore maritime security if its conditions are met [The Hindu], [Al Jazeera]. Cost-of-living protests continue across Europe, with French authorities launching an attempted murder investigation after a Molotov cocktail attack on police [BBC], [RFI].",
+  "date": "Tuesday, November 03, 2026",
+  "daily_brief": "Americans head to the polls today in midterm elections that could reshape the balance of power in Congress, with Democrats seeking to capitalize on voter discontent over inflation and President Trump's eight-month war with Iran [Globe and Mail], [Al Jazeera], [RFI]. The conflict intensified overnight as the US conducted limited strikes on Iran's Qeshm Island in the Strait of Hormuz, described by officials as defensive responses to IRGC fire on American aircraft [BBC], [France 24]. Meanwhile, diplomatic efforts continue with the Kremlin confirming US-mediated Russia-Ukraine talks will proceed in Abu Dhabi on November 10-11 [The Hindu], offering a potential path toward ending the four-year conflict. In a significant development for post-Brexit trade, the UK and EU have reached a draft agreement to eliminate red tape on food exports, with officials claiming \u00a35.1bn in annual economic benefits [BBC Europe]. The humanitarian toll of ongoing conflicts remains stark: Russian bombing killed 29 people at a Ukrainian aid distribution center in Zaporizhzhia [BBC Europe], while Africa's unprecedented Ebola outbreak has reached 10,000 cases with nearly 5,000 deaths, prompting warnings it could spread globally [The Guardian].",
   "top_stories": [
     {
-      "headline": "Coordinated Cyberattack Hits Supermarket Refrigeration Systems Across Six European Countries",
-      "category": "Technology",
+      "headline": "US Conducts Strikes on Iranian Island as Midterm Elections Begin",
+      "category": "Conflict",
       "bullets": [
-        "Overnight temperature spikes affected refrigerators and freezers in approximately 40 Delhaize stores in Belgium and Luxembourg, plus stores in Sweden, Ireland, the Netherlands, and Estonia",
-        "The attack method\u2014switching evaporators to defrost mode\u2014mirrors the technique used in October's cyberattack on hundreds of French supermarkets that caused fires and food losses",
-        "Sabcobel CEO confirmed the incident as a cyberattack and said affected units require physical modifications, not just software updates, to address the vulnerability",
-        "Swedish cybersecurity authorities confirmed they are responding to multiple incidents and had previously warned about exposed operational technology devices requiring patches"
+        "US forces struck Iran's Qeshm Island in the Strait of Hormuz, with officials describing the action as limited and defensive in response to IRGC firing on a US aircraft",
+        "Iran's IRGC claimed to have shot down two US MQM-170 drones south of the island and one MQ-9 drone east of the strait",
+        "Trump told reporters he was in 'no rush' to escalate strikes, noting Iran had been 'crippled financially,' while suggesting the US 'might need to go after' Iran's underground nuclear site at Pickaxe Mountain",
+        "Brent crude rose 1.7% to $106.58 per barrel following reports of the strikes"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Lead source with technical details from Sabcobel CEO",
-          "url": "https://www.bbc.co.uk/news/articles/cv4g13z0px8yo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized strikes as 'limited and defensive,' included context on mediator efforts and Trump's falling poll numbers",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized connection to previous French attacks",
-          "url": "https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests"
+          "framing_note": "Brief video coverage without detailed framing",
+          "url": "https://www.france24.com/en/video/20261103-uganda-withdraws-its-troops-from-somalia-as-fight-against-rebels-persists"
         },
         {
-          "name": "Al Jazeera",
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Highlighted vulnerability of systems that once operated mechanically",
-          "url": "https://www.aljazeera.com/news/2026/11/2/freezers-in-sweden-belgium-overheat-following-possible-cyberattacks?traffic_source=rss"
+          "framing_note": "Noted Iran unveiled threatening billboards against Trump in Tehran on the same day, providing Iranian domestic context",
+          "url": "https://www.thehindu.com/news/international/iran-unveils-huge-billboard-with-threat-against-donald-trumps-life/article71660523.ece"
         }
       ]
     },
     {
-      "headline": "US Midterm Elections: Final Day of Early Voting as Economic Anxieties Dominate",
-      "category": "Policy",
-      "bullets": [
-        "Early voting concluded in key states including Florida, with voters citing cost of living, low taxes, and America's strained relationship with Europe as primary concerns",
-        "North Carolina, traditionally a Republican stronghold, shows vulnerability due to agricultural sector impacts from inflation",
-        "President Trump's unpopularity is reportedly affecting Republican candidates across multiple states",
-        "Online betting companies are investing heavily in state elections, seeing an opportunity to shape future gambling regulations"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Focused on Republican vulnerability and agricultural impacts",
-          "url": "https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized local hardship alongside global concerns from Miami voter interviews",
-          "url": "https://www.rfi.fr/en/france/20261101-france-launches-attempted-murder-probe-after-petrol-bomb-attack-on-police"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Covered betting industry angle and Trump's 'imperial presidency' facing 'popular uprising'",
-          "url": "https://www.ft.com/content/eae872b0-69cb-445c-a107-aab95f9a8525?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "UK Sanctions 15 Sudanese Military Commanders on Anniversary of El Fasher Massacre",
-      "category": "Conflict",
-      "bullets": [
-        "British government imposed travel bans and asset freezes on commanders from both the RSF and Sudanese Armed Forces suspected of sexual violence during the siege of El Fasher",
-        "Up to 10,000 civilians were killed over two days when the RSF captured El Fasher in October 2025, with another 40,000 still unaccounted for",
-        "El Fasher's population has dropped from over 1 million to fewer than 70,000 remaining residents",
-        "The sanctions come as UAE diplomat Lana Nusseibeh's candidacy for UN Secretary-General faces opposition from Sudanese diaspora and human rights groups over the UAE's alleged support for the RSF"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Provided detailed coverage of both the sanctions and opposition to Nusseibeh's UN candidacy",
-          "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Focused on conditions in El Fasher one year after the fall",
-          "url": "https://www.rfi.fr/en/france/20261101-france-launches-attempted-murder-probe-after-petrol-bomb-attack-on-police"
-        }
-      ]
-    },
-    {
-      "headline": "Iran Signals Flexibility on Hormuz Strait, Proposes Two-Day Timeline for Reopening",
+      "headline": "Millions Vote in US Midterm Elections Amid Economic Discontent and Iran War Fatigue",
       "category": "Geopolitics",
       "bullets": [
-        "Iran's Foreign Ministry said it is considering a two-day plan to reopen the Strait of Hormuz if US conditions are met, shortened from a previous seven-day proposal",
-        "Qatar is facilitating indirect talks between Tehran and Washington based on Iran's seven-step peace plan",
-        "Iranian demands include ending the West Asia war, unfreezing Iranian assets, lifting oil sanctions, and ending the US naval blockade",
-        "China's Foreign Minister met with Iranian officials in Beijing, pushing for dialogue over military solutions and expressing support for Iran's sovereignty"
+        "All 435 House seats and 35 Senate seats are being contested, with Democrats needing net gains of 3 House seats and 4 Senate seats for majorities",
+        "More than 57 million Americans cast early ballots, with heavy turnout in battleground states including Georgia, Michigan, North Carolina, Ohio, and Texas",
+        "Trump's approval rating is near record lows, with voters expressing frustration over inflation, tariffs on Canadian goods, and the ongoing Iran conflict",
+        "Democrats in Michigan saw internal fractures as candidate Haley Stevens endorsed Republican Mike Rogers after losing her primary"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized Trump's attempts to interfere in election administration and Canada's central role in campaign debates over tariffs",
+          "url": "https://www.theglobeandmail.com/investing/article-trump-tariffs-speeches-hostility-canada-five-charts/"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Focused on Democrats' potential historic gains and promises to address cost-of-living and end Iran war",
+          "url": "https://www.aljazeera.com/news/2026/11/3/polls-open-in-closely-contested-us-midterm-elections-2026?traffic_source=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Highlighted Trump's characterization of Democratic candidates as 'extreme and dangerous'",
+          "url": "https://www.rfi.fr/en/france/20261102-calls-mount-to-ban-french-tv-channel-after-racist-killing"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Provided live results coverage and analysis of Trump's eroding popularity",
+          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/11/03/achille-mbembe-historian-we-must-counter-the-misconception-that-democracy-is-anti-african_6769996_124.html"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Included market reaction context with stock falls and oil price movements",
+          "url": "https://www.thehindu.com/news/international/iran-unveils-huge-billboard-with-threat-against-donald-trumps-life/article71660523.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Kremlin Confirms US-Mediated Russia-Ukraine Talks in Abu Dhabi Next Week",
+      "category": "Geopolitics",
+      "bullets": [
+        "Russia confirmed trilateral talks with Ukraine and the US will take place November 10-11 in Abu Dhabi",
+        "Russian delegation will be led by Vladimir Medinsky, a Putin aide who participated in failed 2022 negotiations",
+        "US special envoy Steve Witkoff met with both Putin and Zelenskyy last month to arrange the talks",
+        "Medinsky, born in Ukraine, has co-authored Russian history textbooks praising Moscow's role in Ukraine"
       ],
       "sources": [
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Detailed the specific Iranian demands and negotiation timeline",
-          "url": "https://www.thehindu.com/news/international/iran-says-considering-two-day-plan-to-reopen-hormuz/article71656060.ece"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Brief coverage emphasizing Qatar's mediation role",
-          "url": "https://www.aljazeera.com/news/2026/11/2/freezers-in-sweden-belgium-overheat-following-possible-cyberattacks?traffic_source=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Covered China's diplomatic push and Xi's statement that the region should not be a 'great-power battleground'",
-          "url": "https://www.thehindu.com/news/international/iran-says-considering-two-day-plan-to-reopen-hormuz/article71656060.ece"
+          "framing_note": "Straightforward reporting on diplomatic developments with biographical details on Medinsky",
+          "url": "https://www.thehindu.com/news/international/iran-unveils-huge-billboard-with-threat-against-donald-trumps-life/article71660523.ece"
         }
       ]
     },
     {
-      "headline": "France Launches Attempted Murder Probe After Molotov Cocktail Sets Officer Ablaze During Protests",
-      "category": "Society",
+      "headline": "Russian Bombing Kills 29 at Ukrainian Aid Distribution Center",
+      "category": "Conflict",
       "bullets": [
-        "Paris prosecutors opened an investigation for attempted murder of persons vested with public authority after petrol bombs were thrown at police during Saturday's protests",
-        "Images showed a homemade incendiary device exploding at an officer's feet, causing second-degree burns to his ankle and minor hand injuries",
-        "Hundreds of thousands participated in largely peaceful demonstrations across France protesting high living costs and poor public services, with over 770 arrests made Saturday",
-        "Student groups have announced plans to resume high school blockades starting Monday despite President Macron calling for calm return to classes"
+        "At least nine 3,000kg aerial bombs struck the village of Komyshuvakha in Zaporizhzhia region on Monday",
+        "29 people confirmed dead including two rescuers and four police officers, with 48 reported missing",
+        "President Zelenskyy stated Russia targeted a school used for humanitarian aid distribution, with a second strike hitting the shelter location",
+        "The attack came as US-mediated peace talks were confirmed for the following week"
       ],
       "sources": [
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Emphasized the 'particularly sophisticated' nature of the device and Interior Minister's response",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
-        },
+          "framing_note": "Detailed casualty reporting with Zelenskyy's statement that Russians knew the site was used for humanitarian aid",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "UK and EU Reach Draft Agreement to Remove Post-Brexit Food Export Checks",
+      "category": "Economics",
+      "bullets": [
+        "A 200-page draft sanitary and phytosanitary (SPS) agreement would eliminate health certificates and inspection fees for food exports",
+        "The deal would allow resumption of exports including fresh sausages, burgers, shellfish, and seed potatoes to the EU",
+        "UK government claims the agreement will deliver \u00a35.1 billion in annual economic benefits",
+        "Draft texts for emissions trading and youth travel schemes were also circulated ahead of the UK-EU summit later this month"
+      ],
+      "sources": [
         {
-          "name": "RFI English",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Detailed the ongoing protest movement and student plans for continued action",
-          "url": "https://www.rfi.fr/en/france/20261101-france-launches-attempted-murder-probe-after-petrol-bomb-attack-on-police"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Covered expert analysis suggesting 'no political solution' to the underlying anger",
-          "url": "https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests"
+          "framing_note": "Emphasized practical benefits for exporters and specific products affected",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Africa CDC warns current Ebola outbreak could reach UK and other countries as cases hit 10,000 with nearly 5,000 deaths",
+      "headline": "Africa's Ebola outbreak reaches 10,000 cases with nearly 5,000 deaths, with health officials warning it could spread globally",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official"
     },
     {
-      "headline": "Fake nuclear warnings sent to users after Ukrainian and Russian air alert apps hacked on same night",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo"
+      "headline": "Senegal's opposition-dominated parliament rejects revised budget bill crucial to $2.2 billion IMF bailout",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/africa/20261103-senegal-powerful-opposition-rejects-crucial-budget-bill"
     },
     {
-      "headline": "Ukrainians evacuated from Russian-occupied Oleshky reunite with families after years trapped in frontline city",
+      "headline": "Bangladesh garment workers clash with police as wage protests enter fourth day despite government announcement of wage review board",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/bangladesh-garment-workers-clash-with-police-defy-call-to-end-protests/article71660838.ece"
+    },
+    {
+      "headline": "UK meat industry affected by cyber-attack that targeted European supermarket refrigeration systems, with some units reaching 100\u00b0C",
       "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo"
+      "url": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o"
     },
     {
-      "headline": "Egypt fines prominent journalist Lina Attalah and orders closure of independent news outlet Mada Masr",
+      "headline": "Four passenger planes across Europe face suspected bomb threats, including flights from London Heathrow and Manchester",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo"
+    },
+    {
+      "headline": "Two police officers protecting polio vaccination workers shot dead in northwestern Pakistan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/3/two-police-officers-protecting-polio-workers-in-pakistan-shot-dead"
+    },
+    {
+      "headline": "Egypt fines editor Lina Attalah and orders closure of independent news outlet Mada Masr amid press freedom crackdown",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
     },
     {
-      "headline": "Cost-of-living protests turn violent in German cities with shops looted in Frankfurt",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o"
+      "headline": "Reserve Bank of Australia raises cash rate to 4.85% as inflation expectations remain entrenched",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/business/2317279/reserve-bank-of-australia-raises-its-cash-rate-to-4-point-85-percent"
     },
     {
-      "headline": "Nine killed as business jet crashes on Florida street near Mar-a-Lago after crew reported icing issues",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o"
-    },
-    {
-      "headline": "Belgian PM offers resignation over budget impasse but King defers decision",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/11/02/belgian-pm-offers-to-quit-over-budget-impasse-but-king-defers-decision_6769440_4.html"
-    },
-    {
-      "headline": "Cambridge scientist Dr Marta Shahbazi among 69 killed in Spanish train crash while traveling to collect research award",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o"
-    },
-    {
-      "headline": "Jordan's King Abdullah vows to confront terrorism after deadly Karak church attack killed nine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/2/jordans-king-abdullah-promises-to-confront-terrorists-after-karak-attack"
-    },
-    {
-      "headline": "Japan and Taiwan working on broad trade pact similar to Taipei-London agreement amid China pressure",
+      "headline": "Thailand to raise excise tax on imported EVs to 35% from 10% to promote local production amid influx of Chinese vehicles",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/trade/taiwan-and-japan-eye-trade-deal-akin-to-taipei-london-pact-sources-say"
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/thailand-to-raise-tax-on-imported-evs-to-35-as-chinese-brands-gain-ground"
+    },
+    {
+      "headline": "Tenerife striker Jesus de Miguel dies at 30 after on-field collision during Spanish second-division match",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo"
     }
   ]
 }

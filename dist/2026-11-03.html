@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 13:17 UTC</span>
+            </div>
+            <h1 class="header-title">Tuesday, November 03, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">Americans head to the polls today in midterm elections that could reshape the balance of power in Congress, with Democrats seeking to capitalize on voter discontent over inflation and President Trump's eight-month war with Iran [Globe and Mail], [Al Jazeera], [RFI]. The conflict intensified overnight as the US conducted limited strikes on Iran's Qeshm Island in the Strait of Hormuz, described by officials as defensive responses to IRGC fire on American aircraft [BBC], [France 24]. Meanwhile, diplomatic efforts continue with the Kremlin confirming US-mediated Russia-Ukraine talks will proceed in Abu Dhabi on November 10-11 [The Hindu], offering a potential path toward ending the four-year conflict. In a significant development for post-Brexit trade, the UK and EU have reached a draft agreement to eliminate red tape on food exports, with officials claiming £5.1bn in annual economic benefits [BBC Europe]. The humanitarian toll of ongoing conflicts remains stark: Russian bombing killed 29 people at a Ukrainian aid distribution center in Zaporizhzhia [BBC Europe], while Africa's unprecedented Ebola outbreak has reached 10,000 cases with nearly 5,000 deaths, prompting warnings it could spread globally [The Guardian].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">US Conducts Strikes on Iranian Island as Midterm Elections Begin</h2>
+            <ul class="story-bullets"><li>US forces struck Iran's Qeshm Island in the Strait of Hormuz, with officials describing the action as limited and defensive in response to IRGC firing on a US aircraft</li><li>Iran's IRGC claimed to have shot down two US MQM-170 drones south of the island and one MQ-9 drone east of the strait</li><li>Trump told reporters he was in 'no rush' to escalate strikes, noting Iran had been 'crippled financially,' while suggesting the US 'might need to go after' Iran's underground nuclear site at Pickaxe Mountain</li><li>Brent crude rose 1.7% to $106.58 per barrel following reports of the strikes</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Emphasized strikes as 'limited and defensive,' included context on mediator efforts and Trump's falling poll numbers</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261103-uganda-withdraws-its-troops-from-somalia-as-fight-against-rebels-persists" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Brief video coverage without detailed framing</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/iran-unveils-huge-billboard-with-threat-against-donald-trumps-life/article71660523.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Noted Iran unveiled threatening billboards against Trump in Tehran on the same day, providing Iranian domestic context</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Millions Vote in US Midterm Elections Amid Economic Discontent and Iran War Fatigue</h2>
+            <ul class="story-bullets"><li>All 435 House seats and 35 Senate seats are being contested, with Democrats needing net gains of 3 House seats and 4 Senate seats for majorities</li><li>More than 57 million Americans cast early ballots, with heavy turnout in battleground states including Georgia, Michigan, North Carolina, Ohio, and Texas</li><li>Trump's approval rating is near record lows, with voters expressing frustration over inflation, tariffs on Canadian goods, and the ongoing Iran conflict</li><li>Democrats in Michigan saw internal fractures as candidate Haley Stevens endorsed Republican Mike Rogers after losing her primary</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theglobeandmail.com/investing/article-trump-tariffs-speeches-hostility-canada-five-charts/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized Trump's attempts to interfere in election administration and Canada's central role in campaign debates over tariffs</span>
+            </a>
+            <a href="https://www.aljazeera.com/news/2026/11/3/polls-open-in-closely-contested-us-midterm-elections-2026?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Focused on Democrats' potential historic gains and promises to address cost-of-living and end Iran war</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261102-calls-mount-to-ban-french-tv-channel-after-racist-killing" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Highlighted Trump's characterization of Democratic candidates as 'extreme and dangerous'</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/le-monde-africa/article/2026/11/03/achille-mbembe-historian-we-must-counter-the-misconception-that-democracy-is-anti-african_6769996_124.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Provided live results coverage and analysis of Trump's eroding popularity</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/iran-unveils-huge-billboard-with-threat-against-donald-trumps-life/article71660523.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Included market reaction context with stock falls and oil price movements</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Kremlin Confirms US-Mediated Russia-Ukraine Talks in Abu Dhabi Next Week</h2>
+            <ul class="story-bullets"><li>Russia confirmed trilateral talks with Ukraine and the US will take place November 10-11 in Abu Dhabi</li><li>Russian delegation will be led by Vladimir Medinsky, a Putin aide who participated in failed 2022 negotiations</li><li>US special envoy Steve Witkoff met with both Putin and Zelenskyy last month to arrange the talks</li><li>Medinsky, born in Ukraine, has co-authored Russian history textbooks praising Moscow's role in Ukraine</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.thehindu.com/news/international/iran-unveils-huge-billboard-with-threat-against-donald-trumps-life/article71660523.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Straightforward reporting on diplomatic developments with biographical details on Medinsky</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Russian Bombing Kills 29 at Ukrainian Aid Distribution Center</h2>
+            <ul class="story-bullets"><li>At least nine 3,000kg aerial bombs struck the village of Komyshuvakha in Zaporizhzhia region on Monday</li><li>29 people confirmed dead including two rescuers and four police officers, with 48 reported missing</li><li>President Zelenskyy stated Russia targeted a school used for humanitarian aid distribution, with a second strike hitting the shelter location</li><li>The attack came as US-mediated peace talks were confirmed for the following week</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Detailed casualty reporting with Zelenskyy's statement that Russians knew the site was used for humanitarian aid</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A9E8E">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #4A9E8E; border-color: #4A9E8E40">Economics</span>
+            </div>
+            <h2 class="story-headline">UK and EU Reach Draft Agreement to Remove Post-Brexit Food Export Checks</h2>
+            <ul class="story-bullets"><li>A 200-page draft sanitary and phytosanitary (SPS) agreement would eliminate health certificates and inspection fees for food exports</li><li>The deal would allow resumption of exports including fresh sausages, burgers, shellfish, and seed potatoes to the EU</li><li>UK government claims the agreement will deliver £5.1 billion in annual economic benefits</li><li>Draft texts for emissions trading and youth travel schemes were also circulated ahead of the UK-EU summit later this month</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Emphasized practical benefits for exporters and specific products affected</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official" target="_blank" rel="noopener">Africa's Ebola outbreak reaches 10,000 cases with nearly 5,000 deaths, with health officials warning it could spread globally</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.france24.com/en/africa/20261103-senegal-powerful-opposition-rejects-crucial-budget-bill" target="_blank" rel="noopener">Senegal's opposition-dominated parliament rejects revised budget bill crucial to $2.2 billion IMF bailout</a>
+            <span class="additional-source">France 24</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/bangladesh-garment-workers-clash-with-police-defy-call-to-end-protests/article71660838.ece" target="_blank" rel="noopener">Bangladesh garment workers clash with police as wage protests enter fourth day despite government announcement of wage review board</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o" target="_blank" rel="noopener">UK meat industry affected by cyber-attack that targeted European supermarket refrigeration systems, with some units reaching 100°C</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo" target="_blank" rel="noopener">Four passenger planes across Europe face suspected bomb threats, including flights from London Heathrow and Manchester</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/news/2026/11/3/two-police-officers-protecting-polio-workers-in-pakistan-shot-dead" target="_blank" rel="noopener">Two police officers protecting polio vaccination workers shot dead in northwestern Pakistan</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown" target="_blank" rel="noopener">Egypt fines editor Lina Attalah and orders closure of independent news outlet Mada Masr amid press freedom crackdown</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rnz.co.nz/news/business/2317279/reserve-bank-of-australia-raises-its-cash-rate-to-4-point-85-percent" target="_blank" rel="noopener">Reserve Bank of Australia raises cash rate to 4.85% as inflation expectations remain entrenched</a>
+            <span class="additional-source">RNZ</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/business/automobiles/electric-vehicles/thailand-to-raise-tax-on-imported-evs-to-35-as-chinese-brands-gain-ground" target="_blank" rel="noopener">Thailand to raise excise tax on imported EVs to 35% from 10% to promote local production amid influx of Chinese vehicles</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo" target="_blank" rel="noopener">Tenerife striker Jesus de Miguel dies at 30 after on-field collision during Spanish second-division match</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
