@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 13:53 UTC</span>
+            </div>
+            <h1 class="header-title">Thursday, November 05, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">The day after Tuesday's US midterm elections, the political fallout continues to dominate headlines as Democrats prepare to take control of both chambers of Congress in January, marking a significant rebuke of President Trump's administration [BBC, RFI, The Hindu]. Vice President JD Vance issued a striking public critique blaming the Iran war for Republican losses, widely seen as positioning for a 2028 presidential run [BBC]. In France, a major day of nationwide strikes brought hundreds of thousands to the streets demanding higher wages and better public services, with 70,000 police deployed amid concerns about potential violence [BBC, RFI, Al Jazeera]. Hong Kong democracy activist Joshua Wong received a 10-year prison sentence under the national security law, adding to his existing detention and drawing international attention to Beijing's ongoing crackdown on dissent [BBC, Le Monde]. In Israel, coalition negotiations intensified as former military chief Gadi Eisenkot emerged as the frontrunner to form a government after an ultra-Orthodox party declined to recommend Prime Minister Netanyahu [The Hindu]. Meanwhile, European aviation authorities grappled with a third consecutive day of bomb threats affecting dozens of flights, all of which have so far proven to be hoaxes [BBC, ABC Australia, France 24].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Democrats Sweep US Midterms, Vance Breaks With Trump Over Iran War</h2>
+            <ul class="story-bullets"><li>Democrats won control of both the House of Representatives and Senate in Tuesday's midterm elections, with gains in traditionally Republican states including Texas</li><li>Vice President JD Vance publicly blamed the Iran war for Republican losses in a 600-word statement on X, marking a sharp break from President Trump</li><li>Trump deflected from the election results at a press conference focused on his $400 million White House ballroom project, avoiding discussion of the defeat</li><li>The election produced historic firsts including the first Black woman governor, first Native American female governor, and first Muslim US senator</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Focused on Vance's political calculation and Trump's deflection tactics</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261105-french-mps-unanimously-reject-2027-budget-as-political-deadlock-deepens" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Emphasized implications for foreign policy and Iran war</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/us-midterm-elections-2026-historic-firsts-black-woman-governor-muslim-senator/article71668857.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Highlighted historic diversity milestones and framed as rejection of Trumpism</span>
+            </a>
+            <a href="https://www.rnz.co.nz/news/world/2339034/how-the-midterms-have-just-transformed-american-politics" target="_blank" rel="noopener" class="source-chip lean-center">
+                RNZ<span class="framing-note">Characterized results as a 'blue tsunami' and seismic rejection of current governance</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">France Deploys 70,000 Police as Nationwide Strikes Bring Hundreds of Thousands to Streets</h2>
+            <ul class="story-bullets"><li>Five major unions launched coordinated strike action joining high school student protests that began in September over poor conditions</li><li>More than 250,000 protesters took to the streets by midday across nearly 70 towns and cities, with estimates of 500,000-700,000 expected nationwide</li><li>Demands include higher minimum wage, tax reforms, and improved public services amid cost of living concerns</li><li>Some unrest reported in Lyon with a car set alight, attributed to radical left-wing 'black bloc' groups</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Emphasized police deployment and potential for violence</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261105-french-mps-unanimously-reject-2027-budget-as-political-deadlock-deepens" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Provided detailed security operation context including helicopters and armored vehicles</span>
+            </a>
+            <a href="https://www.aljazeera.com/news/2026/11/5/workers-strike-across-france-hundreds-of-thousands-expected-to-protest?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Focused on worker demands and protest expansion from student movement</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">Hong Kong Activist Joshua Wong Sentenced to 10 Years Under National Security Law</h2>
+            <ul class="story-bullets"><li>Wong, 30, was sentenced for 'colluding with foreign forces' under Hong Kong's 2020 national security law</li><li>Having already served six years in prison, he was due for release in January but will now remain imprisoned until 2036</li><li>Wong has been arrested multiple times since beginning his activism as a teenager and was once the face of Hong Kong's democracy movement</li><li>Critics say the law has silenced dissent; authorities maintain it is needed for stability</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Detailed Wong's courtroom appearance and provided extensive background on his activism</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/11/05/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-prison_6772438_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Article referenced but content not fully available</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Israel Coalition Talks: Eisenkot Emerges as Frontrunner After Ultra-Orthodox Party Abandons Netanyahu</h2>
+            <ul class="story-bullets"><li>Former military chief Gadi Eisenkot positioned to receive mandate to form government after October 27 election ended in deadlock</li><li>United Torah Judaism, a longtime Netanyahu coalition ally, declined to recommend any candidate to President Herzog</li><li>An Arab-led party endorsed Eisenkot, though he has not clarified whether he would accept Arab support for a coalition</li><li>President Herzog has until November 11 to decide whom to task with forming a government; Netanyahu remains caretaker PM</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.thehindu.com/news/international/us-midterm-elections-2026-historic-firsts-black-woman-governor-muslim-senator/article71668857.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Ran two articles emphasizing Netanyahu's weakening position and the significance of ultra-Orthodox abandonment</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Bomb Threats Disrupt European Aviation for Third Consecutive Day</h2>
+            <ul class="story-bullets"><li>At least 25 flights affected Thursday including diversions of Aer Lingus, Ryanair, and Wizz Air aircraft across Italy, France, Poland, Bulgaria, Austria and Czech Republic</li><li>Italian fighter jets escorted a Finnair flight to Rome; an Aer Lingus Dublin-Rome flight diverted to a French air base</li><li>Threats came via email signed by 'Fighters of the Male State' claiming to target a 'feminist regime'</li><li>No explosives found on any affected flights; EU transport commissioner said unclear if incidents are linked</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Detailed the threatening messages and their purported ideological motivation</span>
+            </a>
+            <a href="https://www.abc.net.au/news/2026-11-05/popular-canola-varities-leading-to-crop-losses-western-australia/107295904" target="_blank" rel="noopener" class="source-chip lean-center">
+                ABC Australia<span class="framing-note">Provided comprehensive list of affected flights</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261105-multiple-flights-in-europe-diverted-because-of-bomb-threats-after-earlier-hoaxes" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Brief coverage noting connection to earlier hoaxes</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows" target="_blank" rel="noopener">British healthcare worker with Ebola evacuated from DR Congo to UK for treatment in first such case from current outbreak</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/business/business-deals/china-blocks-softbank-s-5.4bn-deal-for-abb-robotics-division" target="_blank" rel="noopener">China blocks SoftBank's $5.4 billion acquisition of ABB's robotics division in latest intervention on key tech deals</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261105-french-prosecutors-investigate-%E2%82%AC100m-cyberattack-on-cr%C3%A9dit-mutuel-banking-group" target="_blank" rel="noopener">French prosecutors investigate €100 million cyberattack on Crédit Mutuel Arkéa banking group involving fraudulent transfers possibly converted to cryptocurrency</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o" target="_blank" rel="noopener">Cristiano Ronaldo announces retirement from Portugal national team after 234 caps and 146 goals over 23-year international career</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261105-french-mps-unanimously-reject-2027-budget-as-political-deadlock-deepens" target="_blank" rel="noopener">French National Assembly unanimously rejects 2027 budget as political deadlock continues with 458 votes against</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts" target="_blank" rel="noopener">South Africa's ANC faces potential bruising result in local elections amid voter anger over water outages and crumbling infrastructure</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/thousands-of-troops-secure-indonesia-trial-as-tensions-run-high-over-wiretap-scandal/article71669545.ece" target="_blank" rel="noopener">Thousands of Indonesian troops secure trial involving former President Joko Widodo amid wiretapping scandal that has detained three senior generals</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro" target="_blank" rel="noopener">French blood storage facilities impacted by cyberattacks with hackers attempting to raise temperatures in cold rooms, though no blood products lost</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown" target="_blank" rel="noopener">Egypt fines journalist Lina Attalah and orders closure of independent news outlet Mada Masr amid intensifying crackdown on press freedom</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/international/20261104-democratic-wins-threaten-data-centre-boom-in-key-us-states" target="_blank" rel="noopener">Democratic midterm wins in key US states threaten prospects for energy-hungry data centers and could slow AI rollout</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
