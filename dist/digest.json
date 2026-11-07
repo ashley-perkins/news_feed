@@ -1,196 +1,208 @@
 {
-  "date": "Friday, November 06, 2026",
-  "daily_brief": "The fallout from Tuesday's US midterm elections dominated global headlines Friday, with Democrats securing control of both chambers of Congress in what multiple outlets describe as a historic rebuke of the Trump administration [BBC, France 24, Nikkei Asia]. Tech stocks suffered a trillion-dollar sell-off as markets reacted to anticipated policy shifts, particularly around data center construction [France 24, Nikkei Asia]. The political earthquake has raised questions about Defense Secretary Pete Hegseth's future, with the White House forced to deny imminent departures amid blame over the Iran war [BBC, France 24]. In South Africa, the ANC faces its worst electoral result since 1994, falling below 32% in local elections as voters punished the party over failing infrastructure [The Guardian]. Across Europe, a coordinated wave of hoax bomb threats disrupted flights and prompted evacuations at Irish media outlets, with a Russian extremist group denying involvement despite being named in threatening emails [BBC, Le Monde, Financial Times]. Meanwhile, the UN refugee agency warned ahead of COP31 that three-quarters of the world's displaced people now live on the frontlines of the climate crisis [RFI].",
+  "date": "Saturday, November 07, 2026",
+  "daily_brief": "The global news agenda today is dominated by political upheaval across multiple continents. In Washington, President Trump elevated hardliner Stephen Miller to White House Chief of Staff following the Republican midterm defeat, signaling a combative posture toward the new Democratic Congress [BBC, Le Monde, The Hindu]. In South America, Paraguay's President Santiago Pe\u00f1a was impeached and placed under house arrest after the collapse of Ueno Bank left millions locked out of their savings, marking only the second presidential removal in the country's post-dictatorship history [BBC, Globe and Mail, The Hindu]. Markets showed signs of stabilization after a brutal tech sell-off wiped trillions from AI and semiconductor stocks, though Asian and European indices remained under pressure [BBC, Le Monde]. European aviation faced a third consecutive wave of bomb threats affecting flights across Portugal, Italy, Czech Republic and Bulgaria, with a Russian extremist group denying involvement [BBC, France 24]. Meanwhile, New Zealand awaits final election results as neither major party appears able to form a government outright, with an estimated 700,000 special votes still to be counted [ABC Australia, RNZ, The Hindu].",
   "top_stories": [
     {
-      "headline": "Democrats Sweep US Midterms in Historic Rebuke of Trump Administration",
+      "headline": "Paraguay's President Pe\u00f1a Impeached and Arrested After Bank Collapse Locks Out Millions",
       "category": "Geopolitics",
       "bullets": [
-        "Democrats won control of both the House and Senate in Tuesday's midterm elections, marking one of the party's largest victories in half a century",
-        "The Trump administration's handling of the Iran war and inflation from tariff policies are cited as major factors driving voter backlash",
-        "Tech stocks lost approximately $1 trillion in value on Thursday as investors anticipated policy headwinds for data center construction",
-        "Defense Secretary Pete Hegseth faces calls for removal, with at least one outgoing Republican threatening an impeachment vote; the White House denied reports of imminent cabinet departures"
+        "The Paraguayan Senate unanimously voted to remove President Santiago Pe\u00f1a from office following the collapse of Ueno Bank, which left nearly half the country's 6 million citizens unable to access their accounts",
+        "Pe\u00f1a was placed under house arrest on charges including breach of trust, influence peddling, and misappropriation of funds; he previously held shares in the company that owned the bank",
+        "Vice President Pedro Alliana was sworn in as interim president and pledged support for affected depositors",
+        "This marks only the second presidential impeachment in Paraguay since the end of General Stroessner's 35-year dictatorship in 1989"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on cabinet turmoil and White House denials of personnel changes",
-          "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on the procedural aspects and the scale of public impact",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "France 24",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized economic fallout and tech sector losses; featured analysis of Trump as 'tormented' and seeking 'immortality'",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261106-period-of-uncertainty-trump-is-tormented-he-s-unstoppable-and-he-s-desperate-for-immortality"
+          "framing_note": "Emphasized the street celebrations and historical significance as a democratic moment",
+          "url": "https://www.theglobeandmail.com/world/article-if-donald-trump-acts-out-on-foreign-policy-can-congress-rein-him-in/"
         },
         {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Concentrated on Asian market impacts and anti-data center sentiment as key election driver",
-          "url": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-us-anti-data-center-sentiment-spreads-hitting-asian-markets"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Highlighted Trump's surreal post-election press conference focused on White House ballroom rather than election results",
-          "url": "https://www.rnz.co.nz/news/world/2347891/swimming-against-the-tide-the-kiwis-crossing-the-ditch-to-move-home"
-        },
-        {
-          "name": "Al Jazeera",
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized progressive victories including Nithya Raman's Los Angeles mayoral win and Democratic Socialist gains",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali?traffic_source=rss"
+          "framing_note": "Connected the crisis to broader far-right setbacks in South America, noting rumors Pe\u00f1a fled to Argentina",
+          "url": "https://www.thehindu.com/news/international/new-zealand-vote-still-too-close-to-call-as-results-trickle-in/article71677647.ece"
         }
       ]
     },
     {
-      "headline": "ANC Suffers Worst Result Since End of Apartheid in South African Local Elections",
-      "category": "Geopolitics",
+      "headline": "Trump Appoints Stephen Miller as Chief of Staff in Post-Midterm Shakeup",
+      "category": "Policy",
       "bullets": [
-        "The African National Congress received approximately 31.8% of the national vote with over 80% of ballots counted, down nearly 14 percentage points from 2021",
-        "The party is projected to lose its status as largest party in Gauteng and KwaZulu-Natal, South Africa's two most populous provinces",
-        "Voter turnout increased to 54.5%, up from 46% in 2021, amid widespread anger over water outages, power cuts, and infrastructure failures",
-        "Coalition negotiations are underway with final results expected Sunday; the Democratic Alliance received 24.1% and Jacob Zuma's MK party 9.3%"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Provided detailed coverage emphasizing voter frustration over service delivery failures and infrastructure collapse",
-          "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job"
-        }
-      ]
-    },
-    {
-      "headline": "Wave of Hoax Bomb Threats Disrupts European Flights and Irish Media",
-      "category": "Society",
-      "bullets": [
-        "Multiple European flights were targeted by bomb threats Friday, including Ryanair and Wizz Air services, with at least one flight diverted",
-        "Irish media organizations received threats prompting evacuations; the Irish government described it as a 'coordinated campaign of disruption'",
-        "The incidents come one week before two major summits in Dublin expected to host 50 European leaders",
-        "A Russian extremist group called 'Male State' was named in threatening emails but denied involvement to BBC Russian Service"
+        "President Trump named Stephen Miller, architect of aggressive immigration enforcement policies, as White House Chief of Staff, replacing Susie Wiles",
+        "The appointment follows the Republican Party's sweeping defeat in Tuesday's midterm elections, which gave Democrats control of both chambers of Congress",
+        "Miller described his mission as fighting 'with all of our soul to support our president and defend this magnificent republic'",
+        "The move signals Trump is preparing for confrontation rather than compromise with the new Democratic Congress"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on the Russian group's denial and provided details of the threatening emails",
-          "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Neutral description of Miller's role and the political context",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Reported on European flight disruptions but article content was limited",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/06/pope-s-visit-to-latin-america-in-peru-leo-xiv-seen-as-a-native-son_6773201_4.html"
+          "framing_note": "Headline described Miller as a 'reactionary ideologue and white supremacist'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/07/us-offers-20-million-reward-for-info-on-iran-s-nuclear-program_6774089_4.html"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Emphasized timing ahead of Dublin summits with 50 European leaders expected",
-          "url": "https://www.ft.com/content/f7167042-33d7-423a-89dd-4f379a437c15?syn-25a6b1a6=1"
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Detailed Miller's history and ideological background, noting his 'nativist policies'",
+          "url": "https://www.thehindu.com/news/international/new-zealand-vote-still-too-close-to-call-as-results-trickle-in/article71677647.ece"
         }
       ]
     },
     {
-      "headline": "Global Climate Report: 2026 'Virtually Certain' to Exceed 1.5\u00b0C Warming Threshold",
-      "category": "Climate",
+      "headline": "Tech Stocks Partially Recover After Trillion-Dollar AI Sell-Off",
+      "category": "Economics",
       "bullets": [
-        "EU climate agency reports October 2026 was the warmest on record with average global air temperature 1.75\u00b0C above pre-industrial levels",
-        "The world is now 'virtually certain' to exceed an average of 1.5\u00b0C warming for the full year 2026",
-        "UNHCR reports that nearly 90 million forcibly displaced people\u2014three-quarters of all refugees globally\u2014live in countries most exposed to climate hazards",
-        "The warnings come ahead of next week's COP31 climate summit in Turkey"
-      ],
-      "sources": [
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Focused on the EU agency's temperature data and the 1.5\u00b0C threshold breach",
-          "url": "https://www.ft.com/content/f7167042-33d7-423a-89dd-4f379a437c15?syn-25a6b1a6=1"
-        },
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Emphasized the humanitarian angle, highlighting displaced populations facing 'double injustice' of conflict and climate crisis",
-          "url": "https://www.rfi.fr/en/france/20261106-chilling-figures-show-domestic-violence-still-major-problem-in-france"
-        }
-      ]
-    },
-    {
-      "headline": "Kenyan Doomsday Cult Leader Sentenced to 200 Years for Murder of 191 People",
-      "category": "Society",
-      "bullets": [
-        "Paul Mackenzie and 28 accomplices were sentenced for instructing cult members to starve their children to death to 'meet Jesus'",
-        "Mackenzie received 100 years for homicide and 100 years for starvation-related offenses, to run consecutively",
-        "Of the 191 victims, 190 were children; over 400 bodies were discovered in shallow graves in Shakahola forest in 2023",
-        "Prosecutors had sought the death penalty; the judge declined but called the sentence necessary to send 'an unmistakable message'"
+        "The Nasdaq Composite rebounded 1.1% on Friday after falling 5.5% the previous day in a sell-off that wiped trillions from AI and technology stock valuations",
+        "Investors had sold tech shares partly due to concerns that Democratic midterm victories would slow artificial intelligence development",
+        "US employment figures showed an unexpectedly strong 165,000 jobs added in September, providing a mixed economic picture",
+        "Asian and European markets fared worse, with South Korea's Kospi closing down 6%"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Provided comprehensive coverage including judge's reasoning for rejecting death penalty",
-          "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Straightforward market reporting with global context",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Al Jazeera",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Shorter coverage focusing on basic facts of the sentencing",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali?traffic_source=rss"
+          "framing_note": "Opinion piece framed the sell-off as 'the AI bubble facing reality'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/07/us-offers-20-million-reward-for-info-on-iran-s-nuclear-program_6774089_4.html"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Noted growing backlash against data center expansion from local communities",
+          "url": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "headline": "Third Wave of Bomb Threats Disrupts European Airlines and Media Organizations",
+      "category": "Society",
+      "bullets": [
+        "Multiple flights to and from Lisbon, Rome, Prague and Sofia were targeted with bomb threats on Friday, the third such wave this week",
+        "Three planes were escorted by Hungarian fighter jets; no explosives have been found on any aircraft",
+        "Irish media organizations including RT\u00c9, the Irish Independent, and radio stations were evacuated after receiving similar threats",
+        "A Russian extremist group named in some threats, the 'Male State,' denied involvement; UK authorities have called the incidents a 'malicious hoax'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Comprehensive coverage linking airline and media threats",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Additional detail on the Russian group's denial and the content of threat emails",
+          "url": "https://www.bbc.co.uk/news/articles/c5zjxxmz7mxro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief video coverage",
+          "url": "https://www.france24.com/en/usa-democrats-vow-to-investigate-donald-trump"
+        }
+      ]
+    },
+    {
+      "headline": "New Zealand Election Too Close to Call as Major Parties Struggle to Form Government",
+      "category": "Geopolitics",
+      "bullets": [
+        "With over 98% of voting places counted, neither the National Party nor Labour has secured enough seats to form a government alone, with both hovering just under 30%",
+        "National lost several senior MPs including deputy leader Nicola Willis and Minister of Justice Paul Goldsmith",
+        "An estimated 700,000 special votes remain to be counted, which could take weeks to finalize results",
+        "The campaign was dominated by cost-of-living concerns amid high unemployment and the impact of global fuel shocks from the West Asia conflict"
+      ],
+      "sources": [
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Live blog format with detailed seat-by-seat analysis",
+          "url": "https://www.abc.net.au/news/2026-11-07/rugby-league-world-cup-live-semifinals-from-newcastle/107345014"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage noting PM sees path back to government",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/07/us-offers-20-million-reward-for-info-on-iran-s-nuclear-program_6774089_4.html"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized economic context and voter frustration over living costs",
+          "url": "https://www.thehindu.com/news/international/new-zealand-vote-still-too-close-to-call-as-results-trickle-in/article71677647.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "British healthcare worker with Ebola evacuated from DR Congo to UK for treatment in first case involving UK national in current outbreak",
+      "headline": "Pope Leo XIV begins 12-day Latin America tour three weeks after lung cancer surgery, advocates for universal healthcare in Uruguay",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo"
+    },
+    {
+      "headline": "At least 30 killed in strikes on market in Taiz, Yemen",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market"
+    },
+    {
+      "headline": "Heavy rains flood thousands of displacement tents in Gaza as winter storm hits besieged territory",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza"
+    },
+    {
+      "headline": "EU prosecutors open fraud investigation into Spanish rail authorities after Urda crash killed 69, second probe this year",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o"
+    },
+    {
+      "headline": "ANC projected to fall below one-third of vote in South African local elections as former liberation movement continues decline",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+    },
+    {
+      "headline": "Pakistan to send first astronaut to China's space station as part of Shenzhou-24 mission under Belt and Road cooperation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/pakistani-astronaut-to-join-chinas-next-space-station-mission"
+    },
+    {
+      "headline": "French lawyers plan to sue Interior Minister over police injuries to protesters, citing 20 serious wounds including lost hands and eyes",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261106-french-lawyers-to-sue-interior-minister-over-mutilation-of-young-protesters"
+    },
+    {
+      "headline": "British healthcare worker with Ebola evacuated from DR Congo to UK for treatment",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows"
     },
     {
-      "headline": "Former Macao lawmaker Au Kam-san sentenced to 12.5 years in prison in the territory's first national security prosecution",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/activist-au-kam-san-jailed-12.5-years-in-1st-macao-national-security-case"
+      "headline": "Kenyan doomsday cult leader Paul Mackenzie sentenced to 200 years for murders of 190 children",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
     },
     {
-      "headline": "Tanzanian opposition leader Tundu Lissu sentenced to four years for incitement after being cleared of treason charges that carried potential death sentence",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20261106-tanzania-opposition-leader-lissu-cleared-of-treason-but-jailed-for-incitement"
-    },
-    {
-      "headline": "Nigerian court disqualifies opposition leader Atiku Abubakar as presidential candidate two months before January election",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20261106-uncertainty-over-nigeria-vote-after-court-bars-opposition-leader-atiku-abubakar-from-running"
-    },
-    {
-      "headline": "Iran offers new nuclear and peace proposal to US via Qatari mediators amid escalating tensions and Trump threats to 'destroy' the country",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know"
-    },
-    {
-      "headline": "Magnitude-6.1 earthquake strikes off Tokyo coast; no tsunami warning issued and no immediate reports of damage",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/tokyo-japan-earthquake-weather-updates-november-6-2026/article71674193.ece"
-    },
-    {
-      "headline": "Two killed including one child after school bus crashes in eastern France near Lyon",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo"
-    },
-    {
-      "headline": "Canada PM Mark Carney unveils budget aimed at strengthening economy",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/video/20261106-canada-pm-mark-carney-unveils-budget-to-strengthen-economy"
-    },
-    {
-      "headline": "Spanish farmers ordered to keep 12% of olive oil production off market following bumper harvest",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/7dbff765-cf48-4f78-87dc-09a56aee27fe"
-    },
-    {
-      "headline": "New Delhi air quality deteriorates to hazardous levels days before Diwali festival",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali"
+      "headline": "Self-styled 'King of Germany' goes on trial in D\u00fcsseldorf for leading banned Reichsb\u00fcrger criminal organization",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/c5zjxxmz7mxro"
     }
   ]
 }
