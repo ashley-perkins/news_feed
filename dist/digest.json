@@ -1,198 +1,188 @@
 {
-  "date": "Saturday, November 07, 2026",
-  "daily_brief": "The global news agenda today is dominated by political upheaval across multiple continents. In Washington, President Trump elevated hardliner Stephen Miller to White House Chief of Staff following the Republican midterm defeat, signaling a combative posture toward the new Democratic Congress [BBC, Le Monde, The Hindu]. In South America, Paraguay's President Santiago Pe\u00f1a was impeached and placed under house arrest after the collapse of Ueno Bank left millions locked out of their savings, marking only the second presidential removal in the country's post-dictatorship history [BBC, Globe and Mail, The Hindu]. Markets showed signs of stabilization after a brutal tech sell-off wiped trillions from AI and semiconductor stocks, though Asian and European indices remained under pressure [BBC, Le Monde]. European aviation faced a third consecutive wave of bomb threats affecting flights across Portugal, Italy, Czech Republic and Bulgaria, with a Russian extremist group denying involvement [BBC, France 24]. Meanwhile, New Zealand awaits final election results as neither major party appears able to form a government outright, with an estimated 700,000 special votes still to be counted [ABC Australia, RNZ, The Hindu].",
+  "date": "Sunday, November 08, 2026",
+  "daily_brief": "Sunday's most consequential developments center on escalating Middle East tensions, European security concerns, and political transitions across multiple continents. In the Persian Gulf, three oil tankers caught fire in the Strait of Hormuz [The Hindu, France 24], while Yemen's Houthi rebels struck Riyadh's financial district, damaging the Aramco tower [Le Monde, The Hindu, France 24] \u2014 a significant escalation following Saudi air strikes that killed at least 33 people near Sanaa [BBC]. The U.S. announced a new task force to disrupt Iran's land supply routes and offered $20 million for information on Tehran's nuclear program [BBC, The Hindu]. In Poland, national mourning began after a far-right-linked gunman killed six in Krakow's historic center, with three additional bodies found at the suspect's home [BBC, Financial Times, Globe and Mail]. Israel's President Herzog tasked opposition leader Gadi Eisenkot with forming a government after last week's inconclusive election, though his path to a coalition remains uncertain without Arab party support [BBC, Al Jazeera, Globe and Mail]. In South Africa, the ANC faces its worst electoral result since 1994, falling below 32% in local elections [The Guardian].",
   "top_stories": [
     {
-      "headline": "Paraguay's President Pe\u00f1a Impeached and Arrested After Bank Collapse Locks Out Millions",
-      "category": "Geopolitics",
+      "headline": "Houthi Missiles Strike Riyadh Financial District, Damaging Aramco Tower After Deadly Saudi Strikes in Yemen",
+      "category": "Conflict",
       "bullets": [
-        "The Paraguayan Senate unanimously voted to remove President Santiago Pe\u00f1a from office following the collapse of Ueno Bank, which left nearly half the country's 6 million citizens unable to access their accounts",
-        "Pe\u00f1a was placed under house arrest on charges including breach of trust, influence peddling, and misappropriation of funds; he previously held shares in the company that owned the bank",
-        "Vice President Pedro Alliana was sworn in as interim president and pledged support for affected depositors",
-        "This marks only the second presidential impeachment in Paraguay since the end of General Stroessner's 35-year dictatorship in 1989"
+        "Saudi-led coalition intercepted two ballistic missiles targeting Riyadh's King Abdullah Financial District on Sunday; falling debris damaged multiple floors of the Aramco tower, shattering glass and facade",
+        "Attack follows Saudi air strikes on Saturday that killed at least 33 people, including women and children, in al-Shariyah near Sanaa, according to Houthi-linked media",
+        "Yemen conflict reignited after years-long truce collapsed in July when Saudi Arabia struck Sanaa airport to prevent an Iranian plane landing",
+        "Three oil tankers caught fire in the Strait of Hormuz on Sunday, with Iran's Revolutionary Guards saying vessels were in 'illegal channel'; UK maritime agency reported separate tanker struck by 'unknown projectile'"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "France 24",
           "lean": "Center",
-          "framing_note": "Focused on the procedural aspects and the scale of public impact",
-          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized the street celebrations and historical significance as a democratic moment",
-          "url": "https://www.theglobeandmail.com/world/article-if-donald-trump-acts-out-on-foreign-policy-can-congress-rein-him-in/"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Connected the crisis to broader far-right setbacks in South America, noting rumors Pe\u00f1a fled to Argentina",
-          "url": "https://www.thehindu.com/news/international/new-zealand-vote-still-too-close-to-call-as-results-trickle-in/article71677647.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Trump Appoints Stephen Miller as Chief of Staff in Post-Midterm Shakeup",
-      "category": "Policy",
-      "bullets": [
-        "President Trump named Stephen Miller, architect of aggressive immigration enforcement policies, as White House Chief of Staff, replacing Susie Wiles",
-        "The appointment follows the Republican Party's sweeping defeat in Tuesday's midterm elections, which gave Democrats control of both chambers of Congress",
-        "Miller described his mission as fighting 'with all of our soul to support our president and defend this magnificent republic'",
-        "The move signals Trump is preparing for confrontation rather than compromise with the new Democratic Congress"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Neutral description of Miller's role and the political context",
-          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Emphasized coalition interception and provided broader context on Iran-related developments",
+          "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Headline described Miller as a 'reactionary ideologue and white supremacist'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/07/us-offers-20-million-reward-for-info-on-iran-s-nuclear-program_6774089_4.html"
+          "framing_note": "Article title focused on Aramco tower damage",
+          "url": "https://www.lemonde.fr/en/france/article/2026/11/07/jean-luc-melenchon-raises-ukraine-peace-deal-in-campaign-speech_6774583_7.html"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Detailed Miller's history and ideological background, noting his 'nativist policies'",
-          "url": "https://www.thehindu.com/news/international/new-zealand-vote-still-too-close-to-call-as-results-trickle-in/article71677647.ece"
+          "framing_note": "Detailed account of Aramco damage from witnesses; extensive coverage of Strait of Hormuz incidents",
+          "url": "https://www.thehindu.com/news/international/poland-mourns-victims-of-krakow-mass-shooting-as-security-fears-grow/article71680839.ece"
+        },
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Provided historical context on Yemen war dormancy and recent escalation",
+          "url": "#"
         }
       ]
     },
     {
-      "headline": "Tech Stocks Partially Recover After Trillion-Dollar AI Sell-Off",
-      "category": "Economics",
+      "headline": "Far-Right Gunman Kills Six in Krakow Square; Three More Bodies Found at Suspect's Home",
+      "category": "Society",
       "bullets": [
-        "The Nasdaq Composite rebounded 1.1% on Friday after falling 5.5% the previous day in a sell-off that wiped trillions from AI and technology stock valuations",
-        "Investors had sold tech shares partly due to concerns that Democratic midterm victories would slow artificial intelligence development",
-        "US employment figures showed an unexpectedly strong 165,000 jobs added in September, providing a mixed economic picture",
-        "Asian and European markets fared worse, with South Korea's Kospi closing down 6%"
+        "25-year-old Polish man opened fire in Krakow's Main Market Square on Saturday, killing six people and wounding 17 before police shot him within three minutes",
+        "Suspect drove to multiple spots in the square and fired an automatic weapon at random; victims include four women, two men, and one UK citizen",
+        "Police later discovered bodies of suspect's parents and sister at his home 150km northeast of Krakow; investigation treats attack as 'terrorist offence'",
+        "Interior Minister said suspect held 'very radical' and 'ultranationalistic' views; Poland began two days of national mourning on Sunday"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "BBC",
           "lean": "Center",
-          "framing_note": "Straightforward market reporting with global context",
-          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Opinion piece framed the sell-off as 'the AI bubble facing reality'",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/07/us-offers-20-million-reward-for-info-on-iran-s-nuclear-program_6774089_4.html"
+          "framing_note": "Detailed reconstruction of attack timeline; noted footage verification by BBC Verify",
+          "url": "#"
         },
         {
           "name": "Financial Times",
           "lean": "Center-Right",
-          "framing_note": "Noted growing backlash against data center expansion from local communities",
-          "url": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "Third Wave of Bomb Threats Disrupts European Airlines and Media Organizations",
-      "category": "Society",
-      "bullets": [
-        "Multiple flights to and from Lisbon, Rome, Prague and Sofia were targeted with bomb threats on Friday, the third such wave this week",
-        "Three planes were escorted by Hungarian fighter jets; no explosives have been found on any aircraft",
-        "Irish media organizations including RT\u00c9, the Irish Independent, and radio stations were evacuated after receiving similar threats",
-        "A Russian extremist group named in some threats, the 'Male State,' denied involvement; UK authorities have called the incidents a 'malicious hoax'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Comprehensive coverage linking airline and media threats",
-          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Brief coverage emphasizing PM Tusk's call not to exploit incident politically",
+          "url": "https://www.ft.com/content/c8692ed7-f32b-487f-9efa-3ccd3d144f42?syn-25a6b1a6=1"
         },
         {
-          "name": "BBC Europe",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Additional detail on the Russian group's denial and the content of threat emails",
-          "url": "https://www.bbc.co.uk/news/articles/c5zjxxmz7mxro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief video coverage",
-          "url": "https://www.france24.com/en/usa-democrats-vow-to-investigate-donald-trump"
-        }
-      ]
-    },
-    {
-      "headline": "New Zealand Election Too Close to Call as Major Parties Struggle to Form Government",
-      "category": "Geopolitics",
-      "bullets": [
-        "With over 98% of voting places counted, neither the National Party nor Labour has secured enough seats to form a government alone, with both hovering just under 30%",
-        "National lost several senior MPs including deputy leader Nicola Willis and Minister of Justice Paul Goldsmith",
-        "An estimated 700,000 special votes remain to be counted, which could take weeks to finalize results",
-        "The campaign was dominated by cost-of-living concerns amid high unemployment and the impact of global fuel shocks from the West Asia conflict"
-      ],
-      "sources": [
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Live blog format with detailed seat-by-seat analysis",
-          "url": "https://www.abc.net.au/news/2026-11-07/rugby-league-world-cup-live-semifinals-from-newcastle/107345014"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Brief coverage noting PM sees path back to government",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/07/us-offers-20-million-reward-for-info-on-iran-s-nuclear-program_6774089_4.html"
+          "framing_note": "Emphasized far-right ideology angle and family victims",
+          "url": "https://www.theglobeandmail.com/world/article-israeli-president-picks-opposition-leader-gadi-eisenkot-to-form/"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized economic context and voter frustration over living costs",
-          "url": "https://www.thehindu.com/news/international/new-zealand-vote-still-too-close-to-call-as-results-trickle-in/article71677647.ece"
+          "framing_note": "Focused on national mourning and security concerns following October school stabbings",
+          "url": "https://www.thehindu.com/news/international/poland-mourns-victims-of-krakow-mass-shooting-as-security-fears-grow/article71680839.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Israel's President Tasks Eisenkot with Forming Government After Deadlocked Election",
+      "category": "Geopolitics",
+      "bullets": [
+        "President Isaac Herzog selected former military chief Gadi Eisenkot to attempt coalition formation after neither his bloc (48 seats) nor Netanyahu's coalition (53 seats) secured a 61-seat majority",
+        "Arab-led parties endorsed Eisenkot despite his ruling out a coalition with them; their 19 combined seats positioned them as potential kingmakers",
+        "Eisenkot has 28 days to form government with possible 14-day extension; potential paths include minority government with external Arab support or coalition with ultra-Orthodox parties",
+        "Netanyahu, Israel's longest-serving leader, fights to stay in office after his religious-nationalist coalition lost its parliamentary majority"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Straightforward procedural coverage of coalition process",
+          "url": "#"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Arab parties' motivation to remove Netanyahu; highlighted 'divided opposition'",
+          "url": "https://www.aljazeera.com/sports/2026/11/8/tennis-world-number-one-rybakina-withdraws-from-wta-finals-due-to-virus?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Noted Arab leaders 'incensed by racist policies' of Netanyahu's allies",
+          "url": "https://www.theglobeandmail.com/world/article-israeli-president-picks-opposition-leader-gadi-eisenkot-to-form/"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Liveblog format with broader Middle East context",
+          "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections"
+        }
+      ]
+    },
+    {
+      "headline": "ANC Falls Below 32% in South African Local Elections, Losing Dominance in Key Provinces",
+      "category": "Geopolitics",
+      "bullets": [
+        "African National Congress on course for 31.8% of national vote with 80% counted, down nearly 14 points from 2021 local elections",
+        "ANC projected to lose status as largest party in Gauteng and KwaZulu-Natal, South Africa's two most populous provinces",
+        "Center-right Democratic Alliance at 24.1%; former president Jacob Zuma's uMkhonto weSizwe party at 9.3%",
+        "Voter turnout rose to estimated 54.5%, up from 46% in 2021; coalition negotiations underway with final results expected Sunday"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Extensive coverage across multiple articles; emphasized voter anger over service delivery failures, water outages, and infrastructure decay",
+          "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. Announces $20M Reward for Iran Nuclear Information and New Task Force to Disrupt Tehran's Supply Routes",
+      "category": "Geopolitics",
+      "bullets": [
+        "State Department's Rewards for Justice program offering up to $20 million for information about Iran's nuclear facilities, equipment, and personnel",
+        "U.S. Central Command establishing 20-member Task Force Iron Gate in Tampa to disrupt weapons and sanctioned materials crossing Iran's land borders and Caspian Sea",
+        "Centcom estimates naval blockade has prevented Iran from exporting more than $25 billion in crude oil",
+        "Iran's Revolutionary Guards dismissed effort, saying U.S. 'will never be able to impose the economic blockade it is pursuing'"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "lean": "Center",
+          "framing_note": "Noted Trump's previous claim that Iran's nuclear facilities were 'completely obliterated'",
+          "url": "#"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Included detailed Iranian response dismissing blockade efforts",
+          "url": "https://www.thehindu.com/news/international/poland-mourns-victims-of-krakow-mass-shooting-as-security-fears-grow/article71680839.ece"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Pope Leo XIV begins 12-day Latin America tour three weeks after lung cancer surgery, advocates for universal healthcare in Uruguay",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo"
+      "headline": "Russian overnight strikes damage Ukrainian power infrastructure across 12 regions, causing blackouts ahead of Abu Dhabi trilateral talks",
+      "source": "Le Monde, BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po"
     },
     {
-      "headline": "At least 30 killed in strikes on market in Taiz, Yemen",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market"
-    },
-    {
-      "headline": "Heavy rains flood thousands of displacement tents in Gaza as winter storm hits besieged territory",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza"
-    },
-    {
-      "headline": "EU prosecutors open fraud investigation into Spanish rail authorities after Urda crash killed 69, second probe this year",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o"
-    },
-    {
-      "headline": "ANC projected to fall below one-third of vote in South African local elections as former liberation movement continues decline",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
-    },
-    {
-      "headline": "Pakistan to send first astronaut to China's space station as part of Shenzhou-24 mission under Belt and Road cooperation",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/7/pakistani-astronaut-to-join-chinas-next-space-station-mission"
-    },
-    {
-      "headline": "French lawyers plan to sue Interior Minister over police injuries to protesters, citing 20 serious wounds including lost hands and eyes",
+      "headline": "French unions vow continued pressure on government after fourth wave of protests, with public-sector talks scheduled for November 13",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261106-french-lawyers-to-sue-interior-minister-over-mutilation-of-young-protesters"
+      "url": "https://www.rfi.fr/en/france/20261108-unions-vow-to-keep-pressure-on-french-government-after-fourth-wave-of-protests"
     },
     {
-      "headline": "British healthcare worker with Ebola evacuated from DR Congo to UK for treatment",
+      "headline": "British healthcare worker with Ebola evacuated from DR Congo to UK for treatment in high-consequence infectious disease unit",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows"
+    },
+    {
+      "headline": "New Zealand delivers tightest election in years amid widespread voter disillusionment and record departures from major parties",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo"
+    },
+    {
+      "headline": "European airlines hit by third wave of bomb threats this week, with flights to Lisbon, Rome, Prague and Sofia targeted",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo"
+    },
+    {
+      "headline": "Strong magnitude-5.7 earthquake strikes central Japan near Aichi Prefecture, injuring at least 22 people",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-11-08/japan-earthquake-aichi-prefecture-at-least-22-injured/107361392"
     },
     {
       "headline": "Kenyan doomsday cult leader Paul Mackenzie sentenced to 200 years for murders of 190 children",
@@ -200,9 +190,19 @@
       "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
     },
     {
-      "headline": "Self-styled 'King of Germany' goes on trial in D\u00fcsseldorf for leading banned Reichsb\u00fcrger criminal organization",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/c5zjxxmz7mxro"
+      "headline": "Paraguay's Senate impeaches President Pe\u00f1a rather than accept his resignation offer",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261108-paraguay-senate-impeached-pe%C3%B1a-rather-than-accept-his-offer-to-resign"
+    },
+    {
+      "headline": "Taiwan detains Communist Party leader over alleged Chinese sponsorship in local election campaign",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/taiwan-detains-communist-party-leader-over-alleged-chinese-sponsorship-in-election/article71680805.ece"
+    },
+    {
+      "headline": "Trump offers UFC CEO Dana White position as White House press secretary",
+      "source": "Globe and Mail, Al Jazeera",
+      "url": "https://www.theglobeandmail.com/world/article-trump-offers-ufc-ceo-dana-white-white-house-press-secretary-job/"
     }
   ]
 }
