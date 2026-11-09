@@ -1,208 +1,190 @@
 {
-  "date": "Sunday, November 08, 2026",
-  "daily_brief": "Sunday's most consequential developments center on escalating Middle East tensions, European security concerns, and political transitions across multiple continents. In the Persian Gulf, three oil tankers caught fire in the Strait of Hormuz [The Hindu, France 24], while Yemen's Houthi rebels struck Riyadh's financial district, damaging the Aramco tower [Le Monde, The Hindu, France 24] \u2014 a significant escalation following Saudi air strikes that killed at least 33 people near Sanaa [BBC]. The U.S. announced a new task force to disrupt Iran's land supply routes and offered $20 million for information on Tehran's nuclear program [BBC, The Hindu]. In Poland, national mourning began after a far-right-linked gunman killed six in Krakow's historic center, with three additional bodies found at the suspect's home [BBC, Financial Times, Globe and Mail]. Israel's President Herzog tasked opposition leader Gadi Eisenkot with forming a government after last week's inconclusive election, though his path to a coalition remains uncertain without Arab party support [BBC, Al Jazeera, Globe and Mail]. In South Africa, the ANC faces its worst electoral result since 1994, falling below 32% in local elections [The Guardian].",
+  "date": "Monday, November 09, 2026",
+  "daily_brief": "G7 foreign ministers convened in Paris on Monday with Secretary of State Marco Rubio facing pressure from European allies over the Iran war and Ukraine negotiations, days after Republicans suffered major midterm losses widely attributed to the unpopularity of the conflict [RFI, France 24, Le Monde]. The meeting precedes US-Russia-Ukraine talks scheduled for Tuesday in Abu Dhabi. In Poland, the suspect in Saturday's Krakow mass shooting that killed nine people\u2014including six in the city center and three family members\u2014died in hospital, as authorities continued investigating potential far-right motivations while politicians debated the gunman's ideology [BBC, ABC Australia]. COP31 opened in Antalya, Turkey, with US delegates attending but not participating in negotiations, as nations remain divided over fossil fuel commitments and climate finance for developing countries [RFI]. In South Africa, local election results showed the ANC falling to under 32% of the national vote, marking a historic decline for the party that has governed since 1994 [The Guardian]. Meanwhile, at least 13 migrants drowned off the coast of Crete as Mediterranean crossings continue to surge past 2025 levels [BBC, Le Monde].",
   "top_stories": [
     {
-      "headline": "Houthi Missiles Strike Riyadh Financial District, Damaging Aramco Tower After Deadly Saudi Strikes in Yemen",
-      "category": "Conflict",
+      "headline": "G7 Ministers Press Rubio on Iran War and Ukraine as US Faces Post-Midterm Diplomatic Reckoning",
+      "category": "Geopolitics",
       "bullets": [
-        "Saudi-led coalition intercepted two ballistic missiles targeting Riyadh's King Abdullah Financial District on Sunday; falling debris damaged multiple floors of the Aramco tower, shattering glass and facade",
-        "Attack follows Saudi air strikes on Saturday that killed at least 33 people, including women and children, in al-Shariyah near Sanaa, according to Houthi-linked media",
-        "Yemen conflict reignited after years-long truce collapsed in July when Saudi Arabia struck Sanaa airport to prevent an Iranian plane landing",
-        "Three oil tankers caught fire in the Strait of Hormuz on Sunday, with Iran's Revolutionary Guards saying vessels were in 'illegal channel'; UK maritime agency reported separate tanker struck by 'unknown projectile'"
+        "G7 foreign ministers met in Paris on Monday, with Ukraine and Iran topping the agenda ahead of US-Russia-Ukraine talks in Abu Dhabi on Tuesday",
+        "Secretary of State Marco Rubio defended the Iran war as necessary to prevent nuclear proliferation, despite its role in Republican midterm losses",
+        "Democrats won control of both houses of Congress in last week's midterms, widely seen as a rebuke of Trump's foreign policy",
+        "France's Foreign Minister Barrot confirmed European participation in the Abu Dhabi talks, with discussions potentially moving toward a multilateral format"
       ],
       "sources": [
         {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on European perspective and coalition dynamics",
+          "url": "https://www.rfi.fr/en/environment/20261109-cop31-opens-in-turkey-as-climate-funding-and-fossil-fuels-divide-nations-antalya"
+        },
+        {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Emphasized coalition interception and provided broader context on Iran-related developments",
-          "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections"
+          "framing_note": "Emphasized Iran's view of midterms as 'golden opportunity' for negotiations",
+          "url": "https://www.france24.com/en/video/20261109-cop31-a-focus-on-electrification-as-extreme-weather-events-shake-the-world"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article title focused on Aramco tower damage",
-          "url": "https://www.lemonde.fr/en/france/article/2026/11/07/jean-luc-melenchon-raises-ukraine-peace-deal-in-campaign-speech_6774583_7.html"
+          "framing_note": "Article inaccessible but headline indicated European pressure on Rubio",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/09/20-migrants-die-trying-to-reach-greece-s-crete-authorities-say_6775672_4.html"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Detailed account of Aramco damage from witnesses; extensive coverage of Strait of Hormuz incidents",
-          "url": "https://www.thehindu.com/news/international/poland-mourns-victims-of-krakow-mass-shooting-as-security-fears-grow/article71680839.ece"
-        },
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Provided historical context on Yemen war dormancy and recent escalation",
-          "url": "#"
+          "framing_note": "Highlighted Rubio's defense of war as 'not necessarily popular but needed'",
+          "url": "https://www.thehindu.com/news/international/rubio-says-trumps-war-against-iran-not-necessarily-popular-but-needed-to-stop-a-nuclear-threat/article71681264.ece"
         }
       ]
     },
     {
-      "headline": "Far-Right Gunman Kills Six in Krakow Square; Three More Bodies Found at Suspect's Home",
-      "category": "Society",
+      "headline": "Krakow Mass Shooting Suspect Dies as Poland Debates Gunman's Far-Right Links",
+      "category": "Conflict",
       "bullets": [
-        "25-year-old Polish man opened fire in Krakow's Main Market Square on Saturday, killing six people and wounding 17 before police shot him within three minutes",
-        "Suspect drove to multiple spots in the square and fired an automatic weapon at random; victims include four women, two men, and one UK citizen",
-        "Police later discovered bodies of suspect's parents and sister at his home 150km northeast of Krakow; investigation treats attack as 'terrorist offence'",
-        "Interior Minister said suspect held 'very radical' and 'ultranationalistic' views; Poland began two days of national mourning on Sunday"
+        "The 24-year-old Polish gunman who killed six people in Krakow's Main Market Square and three family members at his home died in hospital on Monday",
+        "Two police officers who engaged the shooter within three minutes and prevented further casualties emerged from comas on Sunday",
+        "Authorities initially cited far-right ideology as a possible motive but have since said the investigation remains ongoing",
+        "A British national and Austrian woman were among the six killed in the public attack; 15 others were wounded"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Detailed reconstruction of attack timeline; noted footage verification by BBC Verify",
-          "url": "#"
+          "framing_note": "Provided detailed timeline and highlighted heroic actions of surgeons and police",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief coverage emphasizing PM Tusk's call not to exploit incident politically",
-          "url": "https://www.ft.com/content/c8692ed7-f32b-487f-9efa-3ccd3d144f42?syn-25a6b1a6=1"
-        },
-        {
-          "name": "Globe and Mail",
+          "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Emphasized far-right ideology angle and family victims",
-          "url": "https://www.theglobeandmail.com/world/article-israeli-president-picks-opposition-leader-gadi-eisenkot-to-form/"
+          "framing_note": "Emphasized political dispute over motive claims, noting opposition accused government of lying",
+          "url": "https://www.abc.net.au/news/2026-11-09/nsw-police-charged-over-alleged-ebike-hit-and-run-broadway/107366072"
         },
         {
-          "name": "The Hindu",
+          "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Focused on national mourning and security concerns following October school stabbings",
-          "url": "https://www.thehindu.com/news/international/poland-mourns-victims-of-krakow-mass-shooting-as-security-fears-grow/article71680839.ece"
+          "framing_note": null,
+          "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows"
         }
       ]
     },
     {
-      "headline": "Israel's President Tasks Eisenkot with Forming Government After Deadlocked Election",
-      "category": "Geopolitics",
+      "headline": "COP31 Opens in Turkey with US Observers Only as Nations Remain Divided on Fossil Fuels",
+      "category": "Climate",
       "bullets": [
-        "President Isaac Herzog selected former military chief Gadi Eisenkot to attempt coalition formation after neither his bloc (48 seats) nor Netanyahu's coalition (53 seats) secured a 61-seat majority",
-        "Arab-led parties endorsed Eisenkot despite his ruling out a coalition with them; their 19 combined seats positioned them as potential kingmakers",
-        "Eisenkot has 28 days to form government with possible 14-day extension; potential paths include minority government with external Arab support or coalition with ultra-Orthodox parties",
-        "Netanyahu, Israel's longest-serving leader, fights to stay in office after his religious-nationalist coalition lost its parliamentary majority"
+        "UN climate talks began Monday in Antalya, Turkey, running until November 20 under a joint Turkish-Australian arrangement",
+        "US delegates will attend but not participate in negotiations, following the Trump administration's climate policy shifts",
+        "UNEP warned in October that existing policies could drive warming to 2.8\u00b0C this century, with a sustained breach of 1.5\u00b0C now considered unavoidable",
+        "Poorer nations are pressing for climate finance to address floods and droughts while fossil fuel commitments remain contentious"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Straightforward procedural coverage of coalition process",
-          "url": "#"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized Arab parties' motivation to remove Netanyahu; highlighted 'divided opposition'",
-          "url": "https://www.aljazeera.com/sports/2026/11/8/tennis-world-number-one-rybakina-withdraws-from-wta-finals-due-to-virus?traffic_source=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Noted Arab leaders 'incensed by racist policies' of Netanyahu's allies",
-          "url": "https://www.theglobeandmail.com/world/article-israeli-president-picks-opposition-leader-gadi-eisenkot-to-form/"
+          "framing_note": "Detailed the overshoot scenario and UN warnings about current trajectory",
+          "url": "https://www.rfi.fr/en/environment/20261109-cop31-opens-in-turkey-as-climate-funding-and-fossil-fuels-divide-nations-antalya"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Liveblog format with broader Middle East context",
-          "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections"
+          "framing_note": "Focused on electrification as a key theme amid extreme weather events",
+          "url": "https://www.france24.com/en/video/20261109-cop31-a-focus-on-electrification-as-extreme-weather-events-shake-the-world"
         }
       ]
     },
     {
-      "headline": "ANC Falls Below 32% in South African Local Elections, Losing Dominance in Key Provinces",
+      "headline": "ANC Falls Below 32% in South African Local Elections, Marking Historic Decline",
       "category": "Geopolitics",
       "bullets": [
-        "African National Congress on course for 31.8% of national vote with 80% counted, down nearly 14 points from 2021 local elections",
-        "ANC projected to lose status as largest party in Gauteng and KwaZulu-Natal, South Africa's two most populous provinces",
-        "Center-right Democratic Alliance at 24.1%; former president Jacob Zuma's uMkhonto weSizwe party at 9.3%",
-        "Voter turnout rose to estimated 54.5%, up from 46% in 2021; coalition negotiations underway with final results expected Sunday"
+        "The ANC received 31.8% of the national vote with over 80% of ballots counted, down nearly 14 points from 2021",
+        "The party is projected to lose its position as the largest party in Gauteng and KwaZulu-Natal, South Africa's two most populous provinces",
+        "The Democratic Alliance received 24.1% and Jacob Zuma's MK party received 9.3%",
+        "Voter turnout increased to approximately 54.5%, up from 46% in the previous local elections"
       ],
       "sources": [
         {
           "name": "The Guardian",
           "lean": "Center-Left",
-          "framing_note": "Extensive coverage across multiple articles; emphasized voter anger over service delivery failures, water outages, and infrastructure decay",
-          "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts"
+          "framing_note": "Framed results as continuation of ANC decline since end of apartheid, citing unemployment, crime, and corruption as factors",
+          "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows"
         }
       ]
     },
     {
-      "headline": "U.S. Announces $20M Reward for Iran Nuclear Information and New Task Force to Disrupt Tehran's Supply Routes",
-      "category": "Geopolitics",
+      "headline": "At Least 13 Migrants Drown Off Crete as Mediterranean Crossings Surge",
+      "category": "Society",
       "bullets": [
-        "State Department's Rewards for Justice program offering up to $20 million for information about Iran's nuclear facilities, equipment, and personnel",
-        "U.S. Central Command establishing 20-member Task Force Iron Gate in Tampa to disrupt weapons and sanctioned materials crossing Iran's land borders and Caspian Sea",
-        "Centcom estimates naval blockade has prevented Iran from exporting more than $25 billion in crude oil",
-        "Iran's Revolutionary Guards dismissed effort, saying U.S. 'will never be able to impose the economic blockade it is pursuing'"
+        "Thirteen Sudanese nationals died when their boat sank approximately 15 nautical miles off the coast of Crete",
+        "Eighteen survivors were rescued, with four including a toddler taken to hospital",
+        "Authorities believe the boat had been at sea for days and struggled to reach shore due to strong winds",
+        "More than 37,000 migrants have arrived in Greece in 2026, already surpassing the 2025 total, with over 22,000 landing in Crete alone"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Noted Trump's previous claim that Iran's nuclear facilities were 'completely obliterated'",
-          "url": "#"
+          "framing_note": "Provided detailed casualty figures and context on Greek migration patterns",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "The Hindu",
+          "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Included detailed Iranian response dismissing blockade efforts",
-          "url": "https://www.thehindu.com/news/international/poland-mourns-victims-of-krakow-mass-shooting-as-security-fears-grow/article71680839.ece"
+          "framing_note": "Reported higher death toll of 20 migrants",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/09/20-migrants-die-trying-to-reach-greece-s-crete-authorities-say_6775672_4.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Russian overnight strikes damage Ukrainian power infrastructure across 12 regions, causing blackouts ahead of Abu Dhabi trilateral talks",
-      "source": "Le Monde, BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po"
+      "headline": "French PM brings forward 1.6% minimum wage increase to December amid ongoing protests over cost of living",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/france/20261109-french-pm-lecornu-announces-increase-minimum-wage-bid-to-calm-protests"
     },
     {
-      "headline": "French unions vow continued pressure on government after fourth wave of protests, with public-sector talks scheduled for November 13",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261108-unions-vow-to-keep-pressure-on-french-government-after-fourth-wave-of-protests"
-    },
-    {
-      "headline": "British healthcare worker with Ebola evacuated from DR Congo to UK for treatment in high-consequence infectious disease unit",
+      "headline": "Two trains collide south of Cairo killing at least seven and injuring 125 in Egypt's latest rail disaster",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows"
+      "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
     },
     {
-      "headline": "New Zealand delivers tightest election in years amid widespread voter disillusionment and record departures from major parties",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo"
+      "headline": "Ukrainian drone strike sets Russia's second-largest oil refinery ablaze in Leningrad region, killing one woman",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-11-09/ukrainian-drone-attack-at-russia-kirishi-refinery-woman-dies/107365888"
     },
     {
-      "headline": "European airlines hit by third wave of bomb threats this week, with flights to Lisbon, Rome, Prague and Sofia targeted",
+      "headline": "Russell Brand sentenced to 10.5 years in prison for rape and sexual assault of four women",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-russell-brand-sentencing-rape-sexual-assaults/"
+    },
+    {
+      "headline": "Paraguay police raid ousted President Santiago Pe\u00f1a's home amid investigation into Ueno Bank collapse",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/9/paraguay-raids-ex-presidents-home-why-a-bank-crash-brought-down-pena"
+    },
+    {
+      "headline": "New wave of bomb threats disrupts European airlines with flights targeted in Lisbon, Rome, Prague and Sofia",
       "source": "BBC Europe",
       "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo"
     },
     {
-      "headline": "Strong magnitude-5.7 earthquake strikes central Japan near Aichi Prefecture, injuring at least 22 people",
-      "source": "ABC Australia",
-      "url": "https://www.abc.net.au/news/2026-11-08/japan-earthquake-aichi-prefecture-at-least-22-injured/107361392"
+      "headline": "Japan and Vietnam sign energy and AI cooperation deals during first visit by Communist Party chief in 11 years",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/japan-and-vietnam-sign-energy-deals-as-hanoi-s-power-needs-surge"
     },
     {
-      "headline": "Kenyan doomsday cult leader Paul Mackenzie sentenced to 200 years for murders of 190 children",
+      "headline": "British healthcare worker with Ebola evacuated from DR Congo to UK for treatment",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
+      "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows"
     },
     {
-      "headline": "Paraguay's Senate impeaches President Pe\u00f1a rather than accept his resignation offer",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/video/20261108-paraguay-senate-impeached-pe%C3%B1a-rather-than-accept-his-offer-to-resign"
-    },
-    {
-      "headline": "Taiwan detains Communist Party leader over alleged Chinese sponsorship in local election campaign",
+      "headline": "Syrian Foreign Minister denies troops deployed to Yemen despite defense cooperation deal with Saudi Arabia",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/taiwan-detains-communist-party-leader-over-alleged-chinese-sponsorship-in-election/article71680805.ece"
+      "url": "https://www.thehindu.com/news/international/syrian-fm-says-country-has-no-troops-in-yemen-wont-send-any/article71683136.ece"
     },
     {
-      "headline": "Trump offers UFC CEO Dana White position as White House press secretary",
-      "source": "Globe and Mail, Al Jazeera",
-      "url": "https://www.theglobeandmail.com/world/article-trump-offers-ufc-ceo-dana-white-white-house-press-secretary-job/"
+      "headline": "Nine foreigners arrested at Johannesburg airport allegedly attempting to leave South Africa to fight in Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo"
     }
   ]
 }

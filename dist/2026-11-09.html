@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 14:54 UTC</span>
+            </div>
+            <h1 class="header-title">Monday, November 09, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">G7 foreign ministers convened in Paris on Monday with Secretary of State Marco Rubio facing pressure from European allies over the Iran war and Ukraine negotiations, days after Republicans suffered major midterm losses widely attributed to the unpopularity of the conflict [RFI, France 24, Le Monde]. The meeting precedes US-Russia-Ukraine talks scheduled for Tuesday in Abu Dhabi. In Poland, the suspect in Saturday's Krakow mass shooting that killed nine people—including six in the city center and three family members—died in hospital, as authorities continued investigating potential far-right motivations while politicians debated the gunman's ideology [BBC, ABC Australia]. COP31 opened in Antalya, Turkey, with US delegates attending but not participating in negotiations, as nations remain divided over fossil fuel commitments and climate finance for developing countries [RFI]. In South Africa, local election results showed the ANC falling to under 32% of the national vote, marking a historic decline for the party that has governed since 1994 [The Guardian]. Meanwhile, at least 13 migrants drowned off the coast of Crete as Mediterranean crossings continue to surge past 2025 levels [BBC, Le Monde].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">G7 Ministers Press Rubio on Iran War and Ukraine as US Faces Post-Midterm Diplomatic Reckoning</h2>
+            <ul class="story-bullets"><li>G7 foreign ministers met in Paris on Monday, with Ukraine and Iran topping the agenda ahead of US-Russia-Ukraine talks in Abu Dhabi on Tuesday</li><li>Secretary of State Marco Rubio defended the Iran war as necessary to prevent nuclear proliferation, despite its role in Republican midterm losses</li><li>Democrats won control of both houses of Congress in last week's midterms, widely seen as a rebuke of Trump's foreign policy</li><li>France's Foreign Minister Barrot confirmed European participation in the Abu Dhabi talks, with discussions potentially moving toward a multilateral format</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.rfi.fr/en/environment/20261109-cop31-opens-in-turkey-as-climate-funding-and-fossil-fuels-divide-nations-antalya" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Focused on European perspective and coalition dynamics</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261109-cop31-a-focus-on-electrification-as-extreme-weather-events-shake-the-world" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Emphasized Iran's view of midterms as 'golden opportunity' for negotiations</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/11/09/20-migrants-die-trying-to-reach-greece-s-crete-authorities-say_6775672_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Article inaccessible but headline indicated European pressure on Rubio</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/rubio-says-trumps-war-against-iran-not-necessarily-popular-but-needed-to-stop-a-nuclear-threat/article71681264.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Highlighted Rubio's defense of war as 'not necessarily popular but needed'</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Krakow Mass Shooting Suspect Dies as Poland Debates Gunman's Far-Right Links</h2>
+            <ul class="story-bullets"><li>The 24-year-old Polish gunman who killed six people in Krakow's Main Market Square and three family members at his home died in hospital on Monday</li><li>Two police officers who engaged the shooter within three minutes and prevented further casualties emerged from comas on Sunday</li><li>Authorities initially cited far-right ideology as a possible motive but have since said the investigation remains ongoing</li><li>A British national and Austrian woman were among the six killed in the public attack; 15 others were wounded</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Provided detailed timeline and highlighted heroic actions of surgeons and police</span>
+            </a>
+            <a href="https://www.abc.net.au/news/2026-11-09/nsw-police-charged-over-alleged-ebike-hit-and-run-broadway/107366072" target="_blank" rel="noopener" class="source-chip lean-center">
+                ABC Australia<span class="framing-note">Emphasized political dispute over motive claims, noting opposition accused government of lying</span>
+            </a>
+            <a href="https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Guardian
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #5A9E5A">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #5A9E5A; border-color: #5A9E5A40">Climate</span>
+            </div>
+            <h2 class="story-headline">COP31 Opens in Turkey with US Observers Only as Nations Remain Divided on Fossil Fuels</h2>
+            <ul class="story-bullets"><li>UN climate talks began Monday in Antalya, Turkey, running until November 20 under a joint Turkish-Australian arrangement</li><li>US delegates will attend but not participate in negotiations, following the Trump administration's climate policy shifts</li><li>UNEP warned in October that existing policies could drive warming to 2.8°C this century, with a sustained breach of 1.5°C now considered unavoidable</li><li>Poorer nations are pressing for climate finance to address floods and droughts while fossil fuel commitments remain contentious</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.rfi.fr/en/environment/20261109-cop31-opens-in-turkey-as-climate-funding-and-fossil-fuels-divide-nations-antalya" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Detailed the overshoot scenario and UN warnings about current trajectory</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261109-cop31-a-focus-on-electrification-as-extreme-weather-events-shake-the-world" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Focused on electrification as a key theme amid extreme weather events</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">ANC Falls Below 32% in South African Local Elections, Marking Historic Decline</h2>
+            <ul class="story-bullets"><li>The ANC received 31.8% of the national vote with over 80% of ballots counted, down nearly 14 points from 2021</li><li>The party is projected to lose its position as the largest party in Gauteng and KwaZulu-Natal, South Africa's two most populous provinces</li><li>The Democratic Alliance received 24.1% and Jacob Zuma's MK party received 9.3%</li><li>Voter turnout increased to approximately 54.5%, up from 46% in the previous local elections</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Guardian<span class="framing-note">Framed results as continuation of ANC decline since end of apartheid, citing unemployment, crime, and corruption as factors</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">At Least 13 Migrants Drown Off Crete as Mediterranean Crossings Surge</h2>
+            <ul class="story-bullets"><li>Thirteen Sudanese nationals died when their boat sank approximately 15 nautical miles off the coast of Crete</li><li>Eighteen survivors were rescued, with four including a toddler taken to hospital</li><li>Authorities believe the boat had been at sea for days and struggled to reach shore due to strong winds</li><li>More than 37,000 migrants have arrived in Greece in 2026, already surpassing the 2025 total, with over 22,000 landing in Crete alone</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Provided detailed casualty figures and context on Greek migration patterns</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/11/09/20-migrants-die-trying-to-reach-greece-s-crete-authorities-say_6775672_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Reported higher death toll of 20 migrants</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.france24.com/en/france/20261109-french-pm-lecornu-announces-increase-minimum-wage-bid-to-calm-protests" target="_blank" rel="noopener">French PM brings forward 1.6% minimum wage increase to December amid ongoing protests over cost of living</a>
+            <span class="additional-source">France 24</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision" target="_blank" rel="noopener">Two trains collide south of Cairo killing at least seven and injuring 125 in Egypt's latest rail disaster</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.abc.net.au/news/2026-11-09/ukrainian-drone-attack-at-russia-kirishi-refinery-woman-dies/107365888" target="_blank" rel="noopener">Ukrainian drone strike sets Russia's second-largest oil refinery ablaze in Leningrad region, killing one woman</a>
+            <span class="additional-source">ABC Australia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/world/article-russell-brand-sentencing-rape-sexual-assaults/" target="_blank" rel="noopener">Russell Brand sentenced to 10.5 years in prison for rape and sexual assault of four women</a>
+            <span class="additional-source">Globe and Mail</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/news/2026/11/9/paraguay-raids-ex-presidents-home-why-a-bank-crash-brought-down-pena" target="_blank" rel="noopener">Paraguay police raid ousted President Santiago Peña's home amid investigation into Ueno Bank collapse</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cq62yy064vjpo" target="_blank" rel="noopener">New wave of bomb threats disrupts European airlines with flights targeted in Lisbon, Rome, Prague and Sofia</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/politics/international-relations/japan-and-vietnam-sign-energy-deals-as-hanoi-s-power-needs-surge" target="_blank" rel="noopener">Japan and Vietnam sign energy and AI cooperation deals during first visit by Communist Party chief in 11 years</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows" target="_blank" rel="noopener">British healthcare worker with Ebola evacuated from DR Congo to UK for treatment</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/syrian-fm-says-country-has-no-troops-in-yemen-wont-send-any/article71683136.ece" target="_blank" rel="noopener">Syrian Foreign Minister denies troops deployed to Yemen despite defense cooperation deal with Saudi Arabia</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo" target="_blank" rel="noopener">Nine foreigners arrested at Johannesburg airport allegedly attempting to leave South Africa to fight in Ukraine</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
