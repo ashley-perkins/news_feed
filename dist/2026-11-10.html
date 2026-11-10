@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 14:08 UTC</span>
+            </div>
+            <h1 class="header-title">Tuesday, November 10, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">Trilateral peace talks between Ukraine, Russia, and the United States have begun in Abu Dhabi, with European allies insisting on participation amid concerns about territorial concessions [BBC], [RFI], [France 24]. The talks come as US officials report 'some flexibility' from both Moscow and Kyiv on the contested Donetsk region. In Washington, Defense Secretary Pete Hegseth faces an impeachment resolution from outgoing Republican Representative Thomas Massie over the conduct of military operations against Iran, which Hegseth denounced as 'sabotage' during his first Pentagon briefing in six months [France 24], [Al Jazeera], [Globe and Mail]. The FBI is reportedly investigating Nvidia CEO Jensen Huang's relationship with a woman US authorities believe to be a Chinese intelligence asset, though China has dismissed the allegations as 'groundless' ahead of a planned Trump-Xi meeting [BBC], [Globe and Mail]. In Southeast Asia, Indonesian Vice President Gibran Rakabuming has indicated his intention to resign amid controversies involving his credentials and alleged wiretapping of President Prabowo [Nikkei Asia]. Meanwhile, France has accused Iran's Revolutionary Guards of orchestrating cyberattacks on supermarket refrigeration systems and summoned Tehran's ambassador [RFI], warning of potential consequences including European sanctions.</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Ukraine-Russia Peace Talks Begin in Abu Dhabi with US Mediation, Europeans Demand Seat at Table</h2>
+            <ul class="story-bullets"><li>Trilateral negotiations between Ukraine, Russia, and the United States commenced in Abu Dhabi on Tuesday, with US envoys Jared Kushner and Steve Witkoff leading the American delegation</li><li>US officials reported both Moscow and Kyiv are showing 'a little bit of flexibility' on control of Ukraine's eastern Donetsk region in potential postwar scenarios</li><li>France, UK, and Germany secured participation in the talks after European officials expressed concern about being excluded from discussions on collective security</li><li>Key disagreement remains over Donetsk, with Russia demanding Ukraine cede territory it still controls while Kyiv resists territorial concessions</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Emphasized European concerns about exclusion and the 'flexibility' remarks from US officials</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261109-french-pm-s-move-to-increase-minimum-wage-fails-to-convince-unions" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Focused on Zelensky's coordination with European leaders and Ukrainian negotiating position</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261110-dana-white-ufc-chief-declines-trump-s-white-house-job-offer" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Highlighted the question of who is at the negotiating table</span>
+            </a>
+            <a href="https://www.thehindu.com/news/international/bangladesh-prosecutor-says-ex-pm-hasina-will-be-executed-if-she-returns/article71686077.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Brief coverage focusing on Zelensky's Nordic meetings ahead of talks</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">Defense Secretary Hegseth Denounces Impeachment Effort Over Iran War as 'Sabotage'</h2>
+            <ul class="story-bullets"><li>Republican Representative Thomas Massie filed an impeachment resolution against Pete Hegseth on Monday, citing the war on Iran, strikes on alleged drug boats, and other actions</li><li>Hegseth held his first Pentagon press briefing in six months, calling the effort a 'farce' and 'political spectacle' by a defeated congressman</li><li>The resolution focuses primarily on the Iran conflict but also references military actions in Yemen against Houthi rebels and in Venezuela</li><li>President Trump defended Hegseth on Truth Social, calling him deserving of an 'A PLUS, PLUS, PLUS' and labeling Massie a 'TOTAL LOSER'</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.france24.com/en/video/20261110-dana-white-ufc-chief-declines-trump-s-white-house-job-offer" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Framed as context of post-midterm Republican losses blamed partly on Iran conflict</span>
+            </a>
+            <a href="https://www.aljazeera.com/news/2026/11/10/gcc-agrees-to-set-up-advanced-military-command-headquarters-in-kuwait?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Included detail on US military casualties and comparisons to Vietnam and Korea</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-nvidia-china-spy-trump-xi-meeting/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized Massie's status as a Trump-opposed Republican who lost his primary</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A7EB0">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #4A7EB0; border-color: #4A7EB040">Technology</span>
+            </div>
+            <h2 class="story-headline">FBI Investigating Nvidia CEO's Relationship with Alleged Chinese Spy, Trump Confirms</h2>
+            <ul class="story-bullets"><li>President Trump confirmed the FBI is investigating Jensen Huang's affair with a woman US authorities believe was a Chinese intelligence asset</li><li>Huang told Trump he 'had no idea she was a spy' and Nvidia has commissioned an independent investigation, saying it has no reason to believe company secrets or national security were compromised</li><li>The revelation knocked approximately $250 billion off Nvidia's market value, making it the world's second most valuable company after Apple</li><li>China's Foreign Ministry dismissed the allegations as 'entirely groundless, speculative and intended to smear and malign China'</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Straightforward reporting on Trump's confirmation and FBI investigation</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-nvidia-china-spy-trump-xi-meeting/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Provided extensive background on Alice Huang's business history and Megaspeed International's chip dealings; included China's pushback framing it as racial targeting</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A7EB0">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #4A7EB0; border-color: #4A7EB040">Technology</span>
+            </div>
+            <h2 class="story-headline">France Accuses Iran's Revolutionary Guards of Supermarket Cyberattacks, Summons Ambassador</h2>
+            <ul class="story-bullets"><li>France attributed October cyberattacks on approximately 700 supermarket refrigeration systems to Shahid Kaveh, an offensive cyber unit of Iran's Islamic Revolutionary Guard Corps</li><li>Foreign Minister Jean-Noël Barrot warned France would consider 'all proportionate measures' including non-public responses to deter further attacks</li><li>Paris prosecutors opened a judicial investigation targeting the head of Shahid Kaveh and two deputies, requesting international arrest warrants</li><li>France summoned Iran's ambassador and announced plans to propose new European-level sanctions against individuals and entities involved</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.rfi.fr/en/france/20261109-french-pm-s-move-to-increase-minimum-wage-fails-to-convince-unions" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Comprehensive coverage of diplomatic and legal responses</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/11/10/vladimir-medinsky-the-kremlin-negotiator-obsessed-with-incorporating-ukraine-into-russia_6776829_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Article focused on explaining the Shahid Kaveh cyber unit</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">Indonesian Vice President Gibran Offers Resignation Amid Diploma, Wiretapping Scandals</h2>
+            <ul class="story-bullets"><li>Vice President Gibran Rakabuming, son of former President Joko Widodo, has expressed intention to resign according to the presidential office</li><li>The resignation offer follows controversies over his high school diploma and alleged wiretapping of President Prabowo Subianto</li><li>The development signals a widening rift between President Prabowo and his predecessor Widodo</li><li>Gibran became vice president after the 2024 election that brought Prabowo to power</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://asia.nikkei.com/opinion/us-midterms-expose-costs-of-east-asia-s-trump-diplomacy" target="_blank" rel="noopener" class="source-chip lean-center">
+                Nikkei Asia<span class="framing-note">Framed as signaling breakdown in relationship between current and former presidents</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/news/2026/11/10/iran-lifts-2000km-limit-on-its-ballistic-missiles-what-that-means" target="_blank" rel="noopener">Iran lifts self-imposed 2,000km limit on ballistic missile range, raising questions about targets beyond Middle East</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections" target="_blank" rel="noopener">South Africa's ANC falls to under a third of vote in local elections, losing dominance in key provinces</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/news/2026/11/10/at-least-12-people-killed-in-motorway-crash-in-southeastern-bulgaria" target="_blank" rel="noopener">At least 12 killed in 50-vehicle pile-up caused by thick fog on Bulgarian motorway near Yambol</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/crd939lpzjp9o" target="_blank" rel="noopener">Israel's new parliament to be sworn in as opposition leader Eisenkot attempts to form government over Netanyahu</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cmreye1q3dnjo" target="_blank" rel="noopener">DR Congo sentences 66 soldiers to death for cowardice and desertion during fighting with rebel groups</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows" target="_blank" rel="noopener">British healthcare worker with Ebola evacuated from DR Congo to UK for treatment at specialist facility</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rnz.co.nz/life/books/post-apocalyptic-science-fiction-novel-wins-2026-booker-prize" target="_blank" rel="noopener">M. John Harrison, 81, becomes oldest Booker Prize winner for dystopian novel 'The End of Everything'</a>
+            <span class="additional-source">RNZ</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/news/2026/11/10/gcc-agrees-to-set-up-advanced-military-command-headquarters-in-kuwait" target="_blank" rel="noopener">GCC establishes advanced military command headquarters in Kuwait following Iran war vulnerabilities</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/malaysian-court-clears-final-hurdle-for-former-pm-najib-razaks-transfer-to-house-arrest/article71686082.ece" target="_blank" rel="noopener">Malaysian court clears final hurdle for former PM Najib Razak's transfer to house arrest after royal pardon</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/world/article-us-to-shun-un-human-rights-council-review/" target="_blank" rel="noopener">US becomes first country to fully shun UN Human Rights Council's universal periodic review</a>
+            <span class="additional-source">Globe and Mail</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
