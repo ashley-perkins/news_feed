@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 13:15 UTC</span>
+            </div>
+            <h1 class="header-title">Wednesday, November 11, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">The most significant diplomatic development today emerged from Abu Dhabi, where US-mediated talks between Russia and Ukraine yielded agreement on what Jared Kushner called the 'biggest humanitarian release of prisoners' in the conflict's history [The Hindu, Globe and Mail, BBC]. US envoys Kushner and Witkoff will travel to Moscow Thursday to meet President Putin before briefing President Zelensky in Dublin. Meanwhile, Spain experienced its first general strike in 14 years as millions of workers protested the housing crisis ahead of a crucial national election [The Hindu, Globe and Mail, Le Monde]. COP31 opened in Antalya with notable absences—only UK Prime Minister Andy Burnham among G7 leaders is scheduled to address the summit, while French President Macron cited Armistice Day commemorations [RFI, Globe and Mail]. In Washington, the House of Representatives blocked a Republican-led effort to impeach Defense Secretary Pete Hegseth over unauthorized military action against Iran, though Democrats signaled they may revisit the matter when they assume control of Congress in January [BBC, France 24]. Across Europe, coordinated bomb threats targeted hundreds of schools in Italy, Scotland, and Ireland, with Italian Prime Minister Meloni convening an emergency security meeting [BBC, Financial Times].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Russia and Ukraine Agree to Largest Prisoner Exchange of War After US-Brokered Talks in Abu Dhabi</h2>
+            <ul class="story-bullets"><li>US envoy Jared Kushner announced agreement on the 'biggest humanitarian release of prisoners' after two days of trilateral talks in Abu Dhabi, with final numbers to be confirmed Thursday</li><li>Both Russian delegation head Vladimir Medinsky and Ukrainian negotiator Rustem Umerov confirmed the planned large-scale exchange</li><li>Kushner and fellow envoy Steve Witkoff will travel to Moscow Thursday to meet President Putin, then to Dublin to brief President Zelensky</li><li>President Zelensky, speaking from Paris, described the first day of talks as 'constructive and quite substantive,' though no breakthrough on ending the war was achieved</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.thehindu.com/news/international/iran-says-tanker-struck-mine-caught-fire-in-hormuz/article71688841.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Emphasized humanitarian aspect and provided detailed context on nearly five years of conflict</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-spain-general-strike-housing-crisis/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Highlighted changing political context with Democrats taking Congress in January</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Included Zelensky's positive remarks about changes in US approach</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/11/11/trinidad-and-tobago-s-highest-court-strikes-down-colonial-era-ban-on-gay-sex_6777456_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Article body unavailable but headline confirmed coverage</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A9E8E">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #4A9E8E; border-color: #4A9E8E40">Economics</span>
+            </div>
+            <h2 class="story-headline">Spain Stages First General Strike in 14 Years Over Housing Crisis Ahead of National Election</h2>
+            <ul class="story-bullets"><li>Millions of workers walked out under the slogan 'Salaries. Housing. Prices.' causing widespread transport disruption and business closures across the country</li><li>Major unions UGT and CCOO reported participation rates of 90% in automotive and port sectors, 85% in meat industry, 82% in waste collection, and 75% in energy</li><li>Average rent in Spain has nearly doubled over the past decade, fueling public anger ahead of elections that could bring the far right to power</li><li>Minor clashes occurred in Barcelona with roadblocks and burning tires, while police used pepper spray against protesters in Madrid</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.thehindu.com/news/international/iran-says-tanker-struck-mine-caught-fire-in-hormuz/article71688841.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Emphasized clashing political desires and far-right electoral implications</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-spain-general-strike-housing-crisis/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Focused on government hoping to leverage protests ahead of election</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/international/article/2026/11/11/trinidad-and-tobago-s-highest-court-strikes-down-colonial-era-ban-on-gay-sex_6777456_4.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Article body unavailable but headline confirmed coverage</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #5A9E5A">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #5A9E5A; border-color: #5A9E5A40">Climate</span>
+            </div>
+            <h2 class="story-headline">COP31 Opens in Turkey with G7 Leaders Largely Absent as Climate Takes Backseat to Global Conflicts</h2>
+            <ul class="story-bullets"><li>UK Prime Minister Andy Burnham is the only G7 leader scheduled to address the summit in Antalya, Turkey</li><li>French President Macron, German Chancellor Merz, and Italian PM Meloni are all absent, along with Canadian and Japanese prime ministers</li><li>Brazilian President Lula criticized the international community for talking 'more about weapons and tariffs than the survival of future generations'</li><li>Turkish President Erdogan and EU chief Ursula von der Leyen are attending, with leaders warning wars and trade disputes must not distract from climate action</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.rfi.fr/en/africa/20261111-cameroon-sets-february-date-for-long-delayed-parliamentary-and-local-elections" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Detailed the absences and noted French government's Armistice Day justification</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-spain-general-strike-housing-crisis/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized how US-Israeli war on Iran disrupted oil shipments and pushed climate down priority list</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">US House Blocks Effort to Impeach Defense Secretary Hegseth Over Iran Military Action</h2>
+            <ul class="story-bullets"><li>Republican congressman Thomas Massie introduced articles of impeachment accusing Hegseth of waging war on Iran without congressional authorization</li><li>House voted along party lines to refer the resolution to the Judiciary Committee, effectively killing the effort for now</li><li>Hegseth called the impeachment bid a 'farce' and 'sabotage' in his first Pentagon briefing in six months</li><li>House Democratic leader Hakeem Jeffries warned 'This is not the end of it' as Democrats prepare to assume control of Congress in January</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Provided detailed procedural context and noted Democrats could revisit in January</span>
+            </a>
+            <a href="https://www.france24.com/en/violent-clashes-near-the-sudanese-border-at-least-65-dead-in-western-ethiopia" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Brief video coverage confirming the vote outcome</span>
+            </a>
+            <a href="https://www.ft.com/content/cb451a27-481d-4106-b40f-4a83e3e361fd?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Mentioned in newsletter roundup alongside other major stories</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Coordinated Bomb Threats Target Hundreds of Schools Across Italy, Scotland and Ireland</h2>
+            <ul class="story-bullets"><li>Approximately 300 schools across Italy received bomb threats via email, prompting evacuations in Rome, Naples, Florence and other cities</li><li>Italian Education Minister described incidents as likely a 'cyber-attack, not a genuine risk' with a clear strategy behind the threats</li><li>Prime Minister Meloni convened emergency meeting of ministers and intelligence chiefs, stating no evidence of 'concrete danger'</li><li>Threats follow similar hoaxes last week targeting European airports and airlines, some claimed by an extremist misogynistic group that later denied involvement</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Detailed Italian government response and linked to previous airport hoaxes</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Same content as BBC World</span>
+            </a>
+            <a href="https://www.ft.com/content/cb451a27-481d-4106-b40f-4a83e3e361fd?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Headline noted threats also hit Scotland and Ireland, framing as coordinated European disruption</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c3rryrryk59zo" target="_blank" rel="noopener">US charges three Iran-backed operatives over terrorist plots including RAF Fairford incident in UK</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/iran-says-tanker-struck-mine-caught-fire-in-hormuz/article71688841.ece" target="_blank" rel="noopener">Iranian oil tanker strikes mine and catches fire in Strait of Hormuz amid ongoing maritime tensions</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/world/article-nato-baltic-nations-drones-russia-ukraine-exchange-strikes/" target="_blank" rel="noopener">NATO scrambles jets as Ukrainian drones stray into Baltic states' airspace during strikes on Russia</a>
+            <span class="additional-source">Globe and Mail</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rnz.co.nz/life/books/post-apocalyptic-science-fiction-novel-wins-2026-booker-prize" target="_blank" rel="noopener">M. John Harrison, 81, becomes oldest Booker Prize winner for dystopian novel 'The End of Everything'</a>
+            <span class="additional-source">RNZ</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/politics/indonesian-vp-s-resignation-plan-and-impeachment-threat-5-things-to-know" target="_blank" rel="noopener">Indonesian Vice President Gibran Rakabuming intends to resign amid diploma fraud and wiretapping controversies</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections" target="_blank" rel="noopener">ANC falls below one-third of vote in South African local elections, losing dominance in key provinces</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/ckx2q2velpjjo" target="_blank" rel="noopener">Twelve killed in fog-related motorway pile-ups involving 70+ vehicles in Bulgaria</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261111-zemmour-joins-2027-race-vowing-to-expel-jobless-foreigners" target="_blank" rel="noopener">Far-right politician Eric Zemmour formally enters 2027 French presidential race vowing mass deportations</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.ft.com/content/cb451a27-481d-4106-b40f-4a83e3e361fd" target="_blank" rel="noopener">Anthropic bankers reportedly preparing to increase IPO valuation to $1.5 trillion</a>
+            <span class="additional-source">Financial Times</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities" target="_blank" rel="noopener">Lewis Hamilton visits Egypt's Rafah crossing and Gaza aid facilities amid ongoing humanitarian crisis</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
