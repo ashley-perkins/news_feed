@@ -1,192 +1,222 @@
 {
-  "date": "Thursday, November 12, 2026",
-  "daily_brief": "European leaders convened in Dublin for a European Political Community summit focused on continental security, while US envoys Jared Kushner and Steve Witkoff traveled to Moscow to meet President Putin following inconclusive Ukraine peace talks in Abu Dhabi [BBC, Globe and Mail, France 24]. The diplomatic push comes as Ukraine faces severe infrastructure strain, with President Zelensky reporting renewed disruptions to military Starlink services that he says are hindering drone interception capabilities [BBC, Financial Times]. Meanwhile, Nvidia faces a leadership crisis as CEO Jensen Huang's admitted affair has sparked national security concerns, with US officials reportedly alleging his former partner Alice Huang was working for Chinese intelligence [Nikkei Asia, The Hindu, Globe and Mail]. In a historic political shift, Democrat Scott Colom won Mississippi's US Senate race by fewer than 5,000 votes, becoming the first Black senator from the state since Reconstruction and expanding the Democratic Senate majority to 55 seats [BBC]. At COP31 in Turkey, African nations saw their proposal to triple climate adaptation finance blocked from the formal agenda by wealthy nations, while M\u00e9decins Sans Fronti\u00e8res warned that hundreds of millions in Ebola response funding is not reaching frontline workers in the Democratic Republic of Congo, where over 5,400 have died [RFI, BBC].",
+  "date": "Friday, November 13, 2026",
+  "daily_brief": "The day's news is dominated by a major Microsoft outage affecting Outlook, Teams, and Copilot services across 74 countries, disrupting businesses, governments, and healthcare systems for over 12 hours [BBC, RFI, Globe and Mail]. Microsoft has attributed the incident to server overload rather than cyberattack, with services showing gradual recovery by Friday afternoon. In parallel, the fallout from former Nvidia CEO Jensen Huang's resignation continues to escalate, with US lawmakers summoning him to testify before Congress over his alleged affair with a woman suspected of being a Chinese spy [BBC, France 24, Financial Times]. The scandal has wiped $550 billion from Nvidia's market value and raised serious questions about potential technology transfers to China. On the diplomatic front, US envoys Jared Kushner and Steve Witkoff met with both Vladimir Putin and Volodymyr Zelensky, announcing that European delegates will be included in future Ukraine peace talks [BBC, RFI, Le Monde]. However, EU officials remain cautious, with foreign policy chief Kaja Kallas warning against Russian 'traps' that could divert focus from achieving a ceasefire [The Hindu]. Meanwhile, the IAEA expressed growing concern over Iran's undisclosed nuclear facility in Isfahan, warning of 'serious proliferation concerns' [BBC, The Hindu].",
   "top_stories": [
     {
-      "headline": "US Envoys Meet Putin in Moscow as Ukraine Peace Talks Yield Limited Progress",
-      "category": "Geopolitics",
-      "bullets": [
-        "US envoys Jared Kushner and Steve Witkoff met with Russian President Vladimir Putin in Moscow on Thursday, following two days of US-mediated talks between Russian and Ukrainian delegations in Abu Dhabi",
-        "The Abu Dhabi talks produced no major breakthrough aside from an agreement for a large prisoner exchange, with the exact number still to be announced",
-        "Kushner and Witkoff are scheduled to travel to Dublin to meet with Ukrainian President Zelensky, where over 40 European leaders are gathering for a European Political Community summit on continental security",
-        "The US is seeking European participation in negotiations, but Moscow has resisted including European countries in direct talks"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focuses on Starlink disruption alongside diplomatic developments",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasizes lack of breakthrough and European concerns about being excluded",
-          "url": "https://www.theglobeandmail.com/world/video-what-happens-if-jensen-huang-is-ousted-at-nvidia/"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Highlights European summit context and security focus",
-          "url": "https://www.france24.com/en/video/20261112-european-leaders-gather-in-dublin-to-discuss-ukraine-s-security-and-their-own"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Leads with Starlink restrictions angle",
-          "url": "https://www.ft.com/content/7f3822b6-b0a1-4fa3-9b9c-fae8ca862afa?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "Ukraine Reports Renewed Starlink Disruptions Amid Russian Attacks on Power Grid",
-      "category": "Conflict",
-      "bullets": [
-        "President Zelensky said Ukraine's military faces 'systematic' restrictions to SpaceX's military-grade Starshield service, hampering efforts to intercept Russian jet-powered drones",
-        "The disruption has been ongoing for several days; a similar incident in late October lasted about a week before being resolved, with unclear explanations from US officials and SpaceX",
-        "Russian attacks on Ukraine's energy grid have intensified, with some Kyiv families experiencing power outages of up to 20 hours; officials warn life will become unsustainable if power cannot be maintained for at least four hours daily",
-        "Ukraine has responded by striking Russian oil refineries"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Provides detailed human interest reporting on civilian impact of blackouts",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief headline focus on Starlink and Moscow meeting timing",
-          "url": "https://www.ft.com/content/7f3822b6-b0a1-4fa3-9b9c-fae8ca862afa?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "Nvidia CEO Jensen Huang Faces Board Review Amid Affair and Espionage Allegations",
+      "headline": "Global Microsoft Outage Disrupts Businesses and Governments Across 74 Countries",
       "category": "Technology",
       "bullets": [
-        "Nvidia CEO Jensen Huang admitted to having an extramarital affair with Alice Huang (Huang Le), a former executive at Singapore-based Megaspeed",
-        "US officials reportedly believe Alice Huang was working for Chinese intelligence; Beijing has rejected the spying allegations",
-        "Nvidia's board of directors met to discuss Huang's situation, with speculation he may be ousted; multiple US media outlets reported he had a second relationship with an Nvidia vice president",
-        "Alice Huang visited Taiwan eight times in 2024-2025 using a Hong Kong passport; Megaspeed pledged to cooperate with US investigations"
-      ],
-      "sources": [
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Provides detailed coverage of social media reaction and business context in Asia",
-          "url": "https://asia.nikkei.com/business/markets/currencies/fed-hike-certainty-pushes-asian-currencies-lower-with-yen-down-near-160"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Focuses on Taiwan visits and government response to intelligence concerns",
-          "url": "https://www.thehindu.com/news/international/indonesias-vice-president-resigns-as-eligibility-and-academic-credentials-are-questioned/article71692540.ece"
-        },
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Brief video coverage focused on succession implications",
-          "url": "https://www.theglobeandmail.com/world/video-what-happens-if-jensen-huang-is-ousted-at-nvidia/"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Headline references 'fall' of Huang but article content unavailable",
-          "url": "https://www.lemonde.fr/en/politics/article/2026/11/12/melenchon-accuses-media-of-distorting-his-words-after-criticism-of-ukraine-remarks_6778708_5.html"
-        }
-      ]
-    },
-    {
-      "headline": "Democrat Scott Colom Wins Mississippi Senate Race, First Black Senator From State Since 1881",
-      "category": "Society",
-      "bullets": [
-        "Scott Colom defeated Republican incumbent Cindy Hyde-Smith by fewer than 5,000 votes out of nearly one million cast, winning 49.2% to 48.7%",
-        "Colom becomes the first Black person from Mississippi seated in the US Senate since Blanche Bruce served from 1875 to 1881",
-        "The victory gives Democrats 55 seats in the 100-member Senate, with a race in Alaska still to be called",
-        "The contest was not considered competitive until the final weeks, as Trump won Mississippi by more than 22 points in 2024"
+        "Microsoft 365 services including Outlook, Teams, and Copilot experienced outages beginning Thursday evening, affecting over 430 million potential users across 74 countries",
+        "Microsoft attributed the disruption to higher-than-usual server load, ruling out malicious activity or cyberattack",
+        "The outage forced some organizations to revert to fax machines, delayed train ticket retrieval in Germany, UK, and Canada, and caused 'serious impact' on the UK's National Health Service",
+        "By Friday afternoon, Microsoft reported gradual stabilization and extended email timeout windows to 48 hours to protect delayed messages"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasizes historic nature and context of Reconstruction-era precedent",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "headline": "MSF Warns Ebola Response Funds Not Reaching Frontlines as DRC Death Toll Exceeds 5,400",
-      "category": "Policy",
-      "bullets": [
-        "M\u00e9decins Sans Fronti\u00e8res reported that the DRC Ebola outbreak 'remains out of control' six months after detection, with more than 5,400 dead and 11,000 infected",
-        "The charity said frontline workers are going unpaid, lack proper training, face supply shortages, and some ambulances have run out of fuel",
-        "Africa CDC reported last month that $700 million of $962 million disbursed for Ebola response was unaccounted for, though it characterized this as a transparency failure rather than confirmed embezzlement",
-        "MSF urged the Congolese government and UN agencies to strengthen oversight and accountability"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Leads with funding accountability angle",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed technical explanation with focus on scale and OpenAI/Anthropic knock-on effects",
+          "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasizes French charity MSF perspective and operational details",
-          "url": "https://www.rfi.fr/en/environment/20261111-un-chief-urges-world-leaders-to-tackle-fossil-fuels-at-cop31"
+          "framing_note": "Emphasized public services impact including rail and healthcare",
+          "url": "https://www.rfi.fr/en/international/20261112-migration-to-wealthy-countries-slows-for-second-year-amid-tougher-rules"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Highlighted this as one of Microsoft's longest outages and second disruption this year",
+          "url": "https://www.theglobeandmail.com/world/article-rebel-attacks-are-fresh-setback-to-ebola-fight-as-death-toll-rises/"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage focusing on global reach",
+          "url": "https://www.aljazeera.com/news/2026/11/13/pakistan-military-reports-it-killed-74-terrorists-during-raids?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Live updates format with emphasis on India impact and NHS disruption",
+          "url": "https://www.thehindu.com/news/international/chinese-company-linked-to-alice-huang-shanghai-longteng-intelligent-computing-obtained-banned-nvidia-chips/article71697606.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Former Nvidia CEO Jensen Huang Summoned to Congress Over Alleged Affair with Suspected Chinese Spy",
+      "category": "Geopolitics",
+      "bullets": [
+        "Jensen Huang resigned as Nvidia CEO on Thursday after 33 years following revelations of extramarital affairs, including with Alice Huang, whom US authorities suspect of spying for China",
+        "Senate Banking Committee Chair Tim Scott summoned both Huang and Commerce Secretary Howard Lutnick to testify in December, with subpoena threatened if voluntary appearance is declined",
+        "Nvidia has lost $550 billion in market value over five days since the scandal broke",
+        "Bloomberg reported that a Chinese company founded by Alice Huang obtained banned Nvidia H800 chips, raising concerns about circumvention of US export restrictions"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on congressional summons and national security implications",
+          "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Press review noting impact on tech industry and Trump administration",
+          "url": "https://www.france24.com/en/video/20261113-haitian-police-retake-national-stadium-after-two-years-of-gang-control"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Analyzed financial implications of potential stock sale by Huang",
+          "url": "https://www.ft.com/content/dfc3d313-1e32-4e56-ab1d-fcb7ea51a386?syn-25a6b1a6=1"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized bipartisan congressional scrutiny and Lutnick's position",
+          "url": "https://www.theglobeandmail.com/world/article-rebel-attacks-are-fresh-setback-to-ebola-fight-as-death-toll-rises/"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Detailed biographical background and timeline of scandal",
+          "url": "https://www.thehindu.com/news/international/chinese-company-linked-to-alice-huang-shanghai-longteng-intelligent-computing-obtained-banned-nvidia-chips/article71697606.ece"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage of congressional summons",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/13/us-envoys-say-europeans-will-be-included-in-upcoming-ukraine-peace-talks_6779500_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "US Envoys Announce European Inclusion in Ukraine Peace Talks After Meeting Putin and Zelensky",
+      "category": "Geopolitics",
+      "bullets": [
+        "US envoys Jared Kushner and Steve Witkoff met with Putin in Moscow and Zelensky in Dublin on Thursday as part of shuttle diplomacy following inconclusive Abu Dhabi talks",
+        "Both sides agreed to include European Union delegates in future negotiations, with Zelensky stating Europeans will have 'a voice' in talks",
+        "Russia and Ukraine agreed to their largest prisoner exchange since the 2022 invasion, though details remain undisclosed",
+        "Putin maintained Russia's territorial demands have not changed, while EU foreign policy chief Kaja Kallas warned against Russian 'traps' that could divert focus from achieving a ceasefire"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Balanced coverage of shuttle diplomacy with emphasis on prisoner exchange",
+          "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Focused on EU summit context and European positioning",
+          "url": "https://www.rfi.fr/en/international/20261112-migration-to-wealthy-countries-slows-for-second-year-amid-tougher-rules"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage of European inclusion announcement",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/13/us-envoys-say-europeans-will-be-included-in-upcoming-ukraine-peace-talks_6779500_4.html"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted Kallas warnings and European skepticism about Russian intentions",
+          "url": "https://www.thehindu.com/news/international/chinese-company-linked-to-alice-huang-shanghai-longteng-intelligent-computing-obtained-banned-nvidia-chips/article71697606.ece"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Covered Ukrainian mobilization controversy alongside peace talks",
+          "url": "https://www.france24.com/en/video/20261113-haitian-police-retake-national-stadium-after-two-years-of-gang-control"
+        }
+      ]
+    },
+    {
+      "headline": "IAEA Warns of 'Serious Proliferation Concern' Over Undisclosed Iranian Nuclear Facility",
+      "category": "Geopolitics",
+      "bullets": [
+        "The IAEA reported it is 'increasingly concerned' about a uranium enrichment plant in Isfahan that Iran announced one day before US-Israeli strikes began in June 2025",
+        "The agency does not know the exact location of the facility or whether it contains nuclear material, as inspectors have been barred since the conflict began",
+        "Before the June 2025 strikes, Iran had accumulated an estimated 441kg of uranium enriched to 60%, close to weapons grade, exceeding the 2015 nuclear deal limits",
+        "The IAEA urged Iran to take 'incremental steps' to allow inspectors to return, warning the situation 'needs to be rectified with the utmost urgency'"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Contextualized with 2015 deal violations and damage from US-Israeli strikes",
+          "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Noted this is first UN Security Council referral in 20 years",
+          "url": "https://www.thehindu.com/news/international/chinese-company-linked-to-alice-huang-shanghai-longteng-intelligent-computing-obtained-banned-nvidia-chips/article71697606.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Ebola Outbreak in Congo Becomes Second-Deadliest in History as Rebel Violence Hampers Response",
+      "category": "Conflict",
+      "bullets": [
+        "The Ebola outbreak in eastern Congo has infected over 11,100 people and killed more than 5,430 in six months, making it the second-largest outbreak in history",
+        "Islamist rebels killed 66 civilians including three health workers and destroyed three clinics in Cantine-Aloya last week, with attacks continuing through Wednesday",
+        "Health workers report shortages of basic supplies including phones, fuel, and water, while violence is scattering Ebola-exposed people across wide areas",
+        "Early signs suggest a Canadian-developed vaccine designed for a different Ebola strain may be effective against the Bundibugyo virus causing this outbreak"
+      ],
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized vaccine development hope alongside security challenges",
+          "url": "https://www.theglobeandmail.com/world/article-rebel-attacks-are-fresh-setback-to-ebola-fight-as-death-toll-rises/"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Israeli airstrike on Nasser hospital in Gaza kills six including surgeon, Hamas-run health ministry says",
-      "source": "BBC World, Financial Times",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo"
+      "headline": "Norway's Supreme Court rules oil exploration licenses invalid in landmark climate ruling",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/13/norway-s-top-court-rules-oil-licences-invalid-in-landmark-ruling_6779764_4.html"
     },
     {
-      "headline": "Spain's parliament passes housing measures one day after first general strike in 14 years over cost of living",
-      "source": "Le Monde, Globe and Mail, BBC Europe",
-      "url": "https://www.theglobeandmail.com/world/article-spain-approves-housing-measures-after-protests/"
+      "headline": "Haitian police retake national stadium in Port-au-Prince after two years of gang control",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261113-haitian-police-retake-national-stadium-after-two-years-of-gang-control"
     },
     {
-      "headline": "African nations' proposal to triple climate adaptation finance blocked from formal COP31 agenda by wealthy countries",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/environment/20261112-africa-s-push-to-triple-adaptation-finance-left-off-official-cop31-agenda"
+      "headline": "Scott Colom becomes first Black Democrat elected to US Senate from Mississippi in modern history",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/13/scott-colom-the-black-democrat-who-claimed-a-stunning-senate-win-in-mississippi_6779797_4.html"
     },
     {
-      "headline": "Indonesia's Vice President Gibran Rakabuming resigns amid disputes over educational credentials",
-      "source": "Nikkei Asia, The Hindu",
-      "url": "https://asia.nikkei.com/politics/indonesian-president-prabowo-says-vp-resignation-for-greater-good"
+      "headline": "Ukrainian drone strikes Russian warship in Gulf of Finland in rare Baltic Sea attack",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo"
     },
     {
-      "headline": "Two oil tankers carrying over 4 million barrels catch fire in Strait of Hormuz after 'accident,' Iran's Revolutionary Guards say",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/irans-guards-say-accident-left-two-tankers-on-fire-in-hormuz/article71692872.ece"
-    },
-    {
-      "headline": "More than 1,800 Italian schools evacuated after second day of bomb hoax threats across Europe",
-      "source": "BBC Europe, Al Jazeera",
-      "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o"
-    },
-    {
-      "headline": "Two Iranian men convicted in UK of spying on dissident journalists for Revolutionary Guards",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/article-iranian-men-found-guilty-in-uk-assisting-iranian-intelligence/"
-    },
-    {
-      "headline": "Canada bars Russian and Belarusian athletes from entering country for World Junior Hockey Championship",
+      "headline": "France condemns Israel's 'demagogic' decision to ban opposition leader Jean-Luc M\u00e9lenchon from entry",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/11/12/canada-wont-let-russian-players-enter-for-ice-hockey-junior-championship"
+      "url": "https://www.aljazeera.com/news/2026/11/13/france-slams-israels-demagogic-ban-on-left-wing-leader-melenchon"
+    },
+    {
+      "headline": "Mauricio Pochettino appointed Manchester United manager as club sits in Premier League relegation zone",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/11/13/manchester-united-new-manager-mauricio-pochettino-usa-soccer"
+    },
+    {
+      "headline": "Quad leaders plan Manila summit to address economic and strategic security in Indo-Pacific",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/international-relations/indo-pacific/quad-leaders-eye-manila-meeting-on-economic-strategic-security"
+    },
+    {
+      "headline": "German chemical industry attacks Chancellor Merz over support for EU carbon pricing scheme",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/environment/20261112-german-chemical-sector-enraged-by-merz-s-backing-of-eu-carbon-scheme"
     },
     {
       "headline": "Kenyan doomsday cult leader Paul Mackenzie sentenced to 200 years for murders of 190 children",
@@ -194,9 +224,9 @@
       "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
     },
     {
-      "headline": "Asian currencies fall as markets price in further Federal Reserve rate hikes, yen approaches 160 to dollar",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/currencies/fed-hike-certainty-pushes-asian-currencies-lower-with-yen-down-near-160"
+      "headline": "Pakistan military reports killing 74 armed fighters in raids along Afghan border",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/13/pakistan-military-reports-it-killed-74-terrorists-during-raids"
     }
   ]
 }
