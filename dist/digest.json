@@ -1,196 +1,196 @@
 {
-  "date": "Saturday, November 14, 2026",
-  "daily_brief": "The most consequential development today is the White House confirmation that President Trump will hold a historic trilateral summit with Presidents Xi Jinping and Putin on the sidelines of APEC in Shenzhen next week [BBC], [Al Jazeera]. The meeting comes as Ukraine's President Zelensky revealed that US negotiators have floated the idea of Kyiv ceding the Donbas region in exchange for NATO membership\u2014a proposal he said would require a referendum [BBC], [Le Monde], [Al Jazeera]. Meanwhile, the FAA lifted the longest nationwide ground stop since 9/11 after a communication system failure grounded US flights for over four hours, causing more than 16,000 delays and cancellations [BBC], [Globe and Mail]. Transportation Secretary Duffy blamed aging infrastructure and called for $50 billion in modernization funding. In France, a fifth consecutive Saturday of protests drew tens of thousands to the streets over cost-of-living concerns, child protection measures, and police conduct [RFI]. South Sudan postponed its first-ever national elections from December to February amid escalating ethnic tensions [RFI], [Al Jazeera]. In Hungary, authorities uncovered nearly $20 million in cash hidden across the country as part of an anti-corruption probe into a former Orb\u00e1n-era minister [BBC Europe].",
+  "date": "Sunday, November 15, 2026",
+  "daily_brief": "The most consequential development today is the confirmation of a historic trilateral summit between Presidents Trump, Xi, and Putin in China next week, where nuclear weapons reduction will be discussed [BBC], [Le Monde]. This comes as US negotiators have floated a controversial proposal for Ukraine to withdraw from Donbas in exchange for NATO membership, a significant shift in American policy that Zelensky says he would put to a referendum if security guarantees were included [BBC], [France 24]. In the Gulf, tensions escalated sharply as Bahrain accused Iran of launching repeated drone attacks on its Riffa Air Base, which hosts US military assets, with Tehran claiming it destroyed American radar installations [Al Jazeera], [Financial Times], [ABC Australia]. Domestically in the US, air travel continues to recover from Friday's four-hour nationwide ground stop\u2014the longest since 2001\u2014caused by a botched copper-to-fiber wire upgrade that overwhelmed legacy air traffic control systems [BBC], [Globe and Mail]. Meanwhile, at COP31 in Antalya, thousands protested environmental inaction as health experts warned of rising heat's disproportionate impact on African mothers and children [Le Monde], [RFI].",
   "top_stories": [
     {
-      "headline": "Trump, Putin, and Xi to Hold Historic Trilateral Summit at APEC in China",
+      "headline": "Trump, Putin, and Xi to Hold Historic Trilateral Summit in China",
       "category": "Geopolitics",
       "bullets": [
-        "The White House confirmed that President Trump will meet with Presidents Putin and Xi Jinping on the sidelines of the APEC summit in Shenzhen, China, from November 18-19",
-        "Nuclear weapons proliferation will be the primary topic; Iran may also be discussed, but Ukraine is not expected to be on the agenda",
-        "No formal agreement is expected from the talks; Moscow and Beijing have not yet commented on the announcement",
-        "This will be Trump's fourth meeting with Xi since returning to office in January 2025"
+        "US President Trump, Russian President Putin, and Chinese President Xi Jinping will meet on the sidelines of the APEC summit in Shenzhen next week, the White House confirmed",
+        "The meeting will focus on nuclear weapons reduction, which Trump has described as a priority due to proliferation concerns",
+        "Iran may also be discussed, but Ukraine is not expected to be on the agenda",
+        "No formal agreement is expected to result from the talks; this will be Trump's fourth meeting with Xi since returning to office in 2025"
       ],
       "sources": [
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward factual reporting emphasizing the historic nature of the meeting",
-          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Duplicate coverage of BBC World",
-          "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "More analytical, noting that the three leaders 'collectively or unilaterally' may not be able to resolve conflicts in Iran or Ukraine",
-          "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "headline": "Zelensky Says US Floated Ukraine Ceding Donbas for NATO Membership",
-      "category": "Geopolitics",
-      "bullets": [
-        "Ukrainian President Zelensky disclosed that US negotiators raised the possibility of Ukraine withdrawing forces from the Donbas region in exchange for NATO membership",
-        "Zelensky said this was the first time such a proposal had been raised by US officials during talks in Abu Dhabi this week",
-        "Zelensky stated he would put any proposal with security guarantees, no military constraints, and reconstruction funds to a national referendum",
-        "Russia's position reportedly remains unchanged, with Moscow demanding both territorial concessions and Ukrainian neutrality"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Neutral reporting focusing on Zelensky's statements and ongoing diplomatic efforts",
-          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Includes additional context from BBC correspondent Rosenberg on Putin's unchanged demands",
-          "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on confirmation from both US and Russian sides, emphasized the historic nature",
+          "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article title available but content not loadable",
-          "url": "https://www.lemonde.fr/en/m-le-mag/article/2026/11/14/daphne-caruana-galizia-was-murdered-for-investigating-malta-s-powerful-her-sons-picked-up-the-fight-for-justice_6780490_117.html"
+          "framing_note": "Article title visible but content not available; confirmed Moscow's acknowledgment",
+          "url": "https://www.lemonde.fr/en/science/article/2026/11/15/spacex-pulls-off-first-ever-spaceship-catch_6781084_10.html"
         },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Embedded the story within broader context of ongoing drone attacks between Russia and Ukraine",
-          "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss"
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Framed within broader APEC summit context and Asian geopolitics",
+          "url": "https://asia.nikkei.com/business/business-trends/gaming-emerges-as-a-new-corporate-networking-tool-in-japan"
         }
       ]
     },
     {
-      "headline": "FAA Lifts Longest US Ground Stop Since 9/11 After Communication System Failure",
+      "headline": "US Floats Ukraine Withdrawing from Donbas in Exchange for NATO Membership",
+      "category": "Geopolitics",
+      "bullets": [
+        "Ukrainian President Zelensky revealed that US negotiators raised the possibility of Ukraine joining NATO if it withdraws remaining forces from the Donbas region",
+        "This marks the first time the US has formally raised such a territorial-for-membership exchange, according to Zelensky",
+        "Zelensky stated he would put any proposal with security guarantees, no military constraints, and reconstruction funds to a public referendum",
+        "US officials confirmed 'many ideas continue to be discussed' but said any deal must be agreed by both parties"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting of Zelensky's statements with US official response",
+          "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Video coverage focusing on the territorial concession question",
+          "url": "https://www.france24.com/en/illegal-mining-threatens-french-guiana-forests-and-indigenous-communities"
+        }
+      ]
+    },
+    {
+      "headline": "Iran Launches Repeated Drone Attacks on US-Linked Base in Bahrain",
+      "category": "Conflict",
+      "bullets": [
+        "Iran's Revolutionary Guard Corps launched multiple drone attacks targeting Bahrain's Riffa Air Base, which hosts US military facilities",
+        "Bahrain's military claims it intercepted several aerial attacks; Iran claims it destroyed a US early warning radar system",
+        "Bahrain condemned the attacks as violations of international law and accused Iran of using its territory to settle accounts with the United States",
+        "The US military has not confirmed Iran's claims of successful strikes; tensions follow months of relative calm in the Gulf"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Detailed coverage including Iran's justification under international law and Bahrain's full response",
+          "url": "https://www.aljazeera.com/news/2026/11/15/israel-coalition-talks-put-arab-party-leader-under-pressure-over-hamas?traffic_source=rss"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Emphasized escalation after period of calm",
+          "url": "https://www.ft.com/content/fc7ccc23-c051-49e6-85e5-8d8ba0a83ef9?syn-25a6b1a6=1"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Brief coverage within broader Middle East roundup",
+          "url": "https://www.abc.net.au/news/2026-11-15/nsw-police-investigate-homophobic-graffiti-alex-greenwich-office/107387850"
+        }
+      ]
+    },
+    {
+      "headline": "US Air Travel Struggles to Recover After Longest Ground Stop in 25 Years",
       "category": "Technology",
       "bullets": [
-        "The FAA ordered a nationwide ground stop lasting over four hours on Friday due to communication issues affecting all air traffic control centers",
-        "More than 8,500 flights were delayed and nearly 8,000 cancelled; approximately 3,500 planes were airborne when the order was issued",
-        "Transportation Secretary Duffy blamed aging infrastructure with technology from the 1970s-1990s and called for $50 billion in modernization funding",
-        "Homeland Security confirmed the issue arose during system patch application; no evidence of cyberattack or terrorism was found"
+        "A nationwide ground stop lasting over four hours on Friday caused approximately 12,000 flight cancellations, the longest such stoppage since the September 11, 2001 attacks",
+        "The cause was identified as a copper-to-fiber optic cable upgrade by contractor L3Harris that overloaded legacy air traffic control systems",
+        "Transportation Secretary Sean Duffy said officials are investigating whether contractor incompetence or faulty equipment was responsible",
+        "FAA Administrator Bryan Bedford said full recovery is expected by end of Sunday, with up to 5,000 additional cancellations on Saturday"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on passenger impact and international flight disruptions",
-          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Technical explanation focus with official statements",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "More detailed technical explanation of legacy analog switches being overloaded; emphasized Secretary Duffy's infrastructure funding request",
-          "url": "https://www.theglobeandmail.com/world/article-new-iron-curtain-nato-russia/"
+          "framing_note": "Included analyst commentary on potential billions in airline costs and Canadian diversions",
+          "url": "https://www.theglobeandmail.com/world/article-what-to-know-flights-us-nationwide-ground-stop/"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Video coverage of ongoing disruptions",
+          "url": "https://www.france24.com/en/illegal-mining-threatens-french-guiana-forests-and-indigenous-communities"
         }
       ]
     },
     {
-      "headline": "France Faces Fifth Consecutive Saturday of Nationwide Protests",
-      "category": "Society",
+      "headline": "Israel Kills Senior Hamas Commander Who Helped Plan October 7 Attack",
+      "category": "Conflict",
       "bullets": [
-        "Between 30,000 and 60,000 demonstrators expected in Paris alone, with 50-60 marches planned nationwide",
-        "Protests encompass cost-of-living concerns, child protection measures, and opposition to a new police protection bill",
-        "What began as high school student protests over deteriorating school conditions has expanded to include university students, unions, and broader public",
-        "Some 70,000 police and gendarmes have been deployed; allegations of police brutality have helped galvanize wider support for the movement"
+        "Samir Abu Younis, newly appointed commander of Hamas's Rafah Brigade, was killed in an Israeli airstrike in Al-Mawasi, southern Gaza",
+        "The IDF described Younis as a central figure who participated in planning and overseeing the October 7, 2023 attack on Israel",
+        "Four missiles struck a tent in the Al-Waha camp sheltering displaced people; three injured and one dead body were transported to Nasser Hospital",
+        "Hamas's Al-Qassam Brigades confirmed Younis's death, stating he had participated in numerous high-profile operations"
       ],
       "sources": [
         {
-          "name": "RFI English",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed coverage of protest coalition and multiple grievances being addressed",
-          "url": "https://www.rfi.fr/en/sports/20261114-france-hold-on-for-thrilling-nations-championship-win-over-south-africa-rugby"
+          "framing_note": "Balanced coverage including IDF claims of civilian harm mitigation and eyewitness accounts",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RFI English",
+          "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Separate article providing historical context on how student protests evolved into broader social movement",
-          "url": "https://www.rfi.fr/en/sports/20261114-france-hold-on-for-thrilling-nations-championship-win-over-south-africa-rugby"
-        }
-      ]
-    },
-    {
-      "headline": "South Sudan Delays First National Elections Until February Amid Rising Tensions",
-      "category": "Policy",
-      "bullets": [
-        "South Sudan's electoral commission postponed presidential and legislative elections from December 22 to February 11, 2027",
-        "The announcement came on the day voter registration was scheduled to begin; no official reason was given for the delay",
-        "Former Vice President Riek Machar has been under house arrest since March 2025, accused of crimes against humanity",
-        "The elections have been delayed at least three times since 2022; the UN had warned that a December vote could trigger widespread conflict"
-      ],
-      "sources": [
-        {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting with context on civil war history and current political tensions",
-          "url": "https://www.rfi.fr/en/sports/20261114-france-hold-on-for-thrilling-nations-championship-win-over-south-africa-rugby"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized concerns about power consolidation under President Kiir following dissolution of unity government in September",
-          "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss"
+          "framing_note": "Brief coverage within broader Middle East news roundup",
+          "url": "https://www.abc.net.au/news/2026-11-15/nsw-police-investigate-homophobic-graffiti-alex-greenwich-office/107387850"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Hungarian authorities uncover nearly $20 million in cash hidden across country in probe of former Orb\u00e1n minister",
+      "headline": "Three men sentenced to death in Jordan for church massacre that killed nine people",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo"
+    },
+    {
+      "headline": "Fifth Canadian soldier dies from injuries sustained in training fire at CFB Wainwright",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o"
+    },
+    {
+      "headline": "Italy fines Meta \u20ac805 million for accessing Android users' photos without proper consent",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o"
+    },
+    {
+      "headline": "Hungarian authorities uncover nearly $20 million in cash hidden during probe of Orb\u00e1n-era minister",
       "source": "BBC Europe",
       "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo"
     },
     {
-      "headline": "All 130 passengers rescued after cruise ship collision on Mississippi River in New Orleans",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo"
-    },
-    {
-      "headline": "SpaceX aborts attempt to catch Starship booster with launch tower 'chopsticks,' diverts to ocean",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo"
-    },
-    {
-      "headline": "Pope Leo XIV draws half a million to open-air mass during homecoming visit to Peru",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/half-a-million-people-gather-for-an-open-air-mass-by-pope-leo-in-peru"
-    },
-    {
-      "headline": "Estonia bans Russian and Belarusian athletes from competing on its territory, joining Norway, Finland, and Canada",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o"
-    },
-    {
-      "headline": "Microsoft 365 outage affects users globally, particularly Exchange Online email services",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-why-did-microsoft-outlook-and-other-products-go-offline-globally/article71696554.ece"
-    },
-    {
-      "headline": "Kenyan doomsday cult leader sentenced to 200 years for murders of 190 children",
+      "headline": "Kenyan doomsday cult leader Paul Mackenzie sentenced to 200 years for murders of 190 children",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
     },
     {
-      "headline": "India launches weekly train service connecting Nepal's Janakpur Dham to Ayodhya",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/indian-railways-to-connect-nepals-janakpur-dham-with-ayodhya-through-weekly-train-service/article71701555.ece"
+      "headline": "Zimbabwean author cleared of using AI to write Caine Prize-winning story after investigation",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story"
     },
     {
-      "headline": "Russia establishes 30% brown bear cull limit after 36 people killed in attacks this year",
+      "headline": "Russia establishes 30% brown bear cull after attacks killed 36 people this year",
       "source": "RNZ",
       "url": "https://www.rnz.co.nz/news/world/2593119/russia-sets-cull-limits-to-help-control-bear-population-after-attacks-kill-36-people"
     },
     {
-      "headline": "France defeats South Africa 21-19 in Nations Championship rugby thriller",
+      "headline": "Francophone summit opens in Cambodia amid tensions with Thailand and African instability",
       "source": "RFI English",
-      "url": "https://www.rfi.fr/en/sports/20261114-france-hold-on-for-thrilling-nations-championship-win-over-south-africa-rugby"
+      "url": "https://www.rfi.fr/en/international/20261115-tensions-and-economic-turbulence-in-cambodia-as-it-hosts-francophonie-summit"
+    },
+    {
+      "headline": "Nigeria's Fela Kuti becomes first African artist inducted into Rock & Roll Hall of Fame",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/culture/20261115-with-nigeria-s-fela-kuti-african-music-enters-the-rock-roll-hall-of-fame"
+    },
+    {
+      "headline": "Congress moves to tighten AI chip export rules following alleged Nvidia-China spy scandal",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29"
     }
   ]
 }
