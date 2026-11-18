@@ -1,203 +1,208 @@
 {
-  "date": "Tuesday, November 17, 2026",
-  "daily_brief": "Ukraine struck a critical blow against Russian logistics by severely damaging the Crimean Bridge in what President Zelensky described as an 'unprecedented operation,' causing a major section to collapse into the water [BBC, Al Jazeera, ABC Australia]. The timing is significant as the strike precedes a rare trilateral summit between Presidents Xi, Trump, and Putin in Shenzhen this week, drawing comparisons to the 1945 Yalta conference [Globe and Mail, Nikkei Asia]. Meanwhile, the fallout from the Nvidia scandal continues to shape US-China tech relations, with Washington announcing new restrictions on remote access to AI chips through third-country data centres [The Hindu, Al Jazeera, BBC]. In Europe, five EU member states announced joint negotiations with Rwanda to establish deportation centres for rejected asylum seekers [The Guardian, RFI], while French presidential frontrunner Marine Le Pen signalled she would end financial aid to Ukraine if elected [RFI]. The Quad leaders met in Manila, unveiling new defence cooperation and critical minerals agreements aimed at counterbalancing China's regional influence [ABC Australia, Nikkei Asia, The Hindu].",
+  "date": "Wednesday, November 18, 2026",
+  "daily_brief": "The day's most consequential developments center on the unprecedented trilateral summit between Presidents Trump, Xi, and Putin in Shenzhen, with the three leaders meeting for the first time together ahead of Thursday's formal talks [BBC], [Nikkei Asia], [The Hindu]. The summit has drawn comparisons to the 1945 Yalta conference, though officials are tempering expectations of immediate breakthroughs on Ukraine or Iran [Le Monde], [The Economist]. Meanwhile, tensions between the US and Iran escalated as Iran targeted American military bases in Kuwait and Bahrain following US strikes on Qeshm Island, raising fears of broader conflict [BBC], [Al Jazeera], [The Hindu]. In a significant blow to Russian logistics, Ukraine executed a multi-stage operation that collapsed a key span of the Kerch Bridge linking Russia to Crimea [BBC], [Al Jazeera], [The Hindu]. On the technology front, Nvidia reported surging revenues of $116 billion while firmly rejecting ousted founder Jensen Huang's bid to return as CEO [BBC], [RNZ]. In US politics, Democrat Mary Peltola's victory in Alaska's Senate race completed a historic midterm sweep, giving Democrats a 56-44 Senate majority [France 24], [ABC Australia].",
   "top_stories": [
     {
-      "headline": "Ukraine Inflicts Major Damage on Crimean Bridge in 'Unprecedented' Strike",
-      "category": "Conflict",
+      "headline": "Trump, Xi, and Putin Gather in Shenzhen for Historic Three-Way Summit",
+      "category": "Geopolitics",
       "bullets": [
-        "Ukrainian drones and missiles struck the Kerch Bridge linking Russia to occupied Crimea, causing a large arched section to collapse into the water",
-        "President Zelensky said the attack followed weeks of methodically destroying Russian air defences, radar systems, and electronic warfare capabilities",
-        "Russia's Crimea governor reported two deaths and suspended all traffic across the 19-kilometre road and rail bridge",
-        "The Kremlin said Putin had been briefed and vowed to rebuild the bridge 'better than before'"
+        "Trump arrived in Shenzhen where Xi Jinping greeted him on the tarmac; Trump later exchanged pleasantries with Putin ahead of Thursday's trilateral meeting",
+        "The three leaders will discuss Ukraine, Iran, nuclear proliferation, trade tensions, and AI development; this marks the first time the US, Chinese, and Russian leaders have met together in person",
+        "Xi described China-Russia relations as 'a source of stability' in a 'turbulent world' during bilateral talks with Putin on Wednesday",
+        "Officials have downplayed expectations for substantive outcomes, describing the summit as more exploratory and symbolic"
       ],
       "sources": [
         {
-          "name": "BBC",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Emphasized symbolic and logistical blow to Moscow, noted timing ahead of Putin's summit meetings",
-          "url": "#"
+          "framing_note": "Focused on diplomatic choreography and Ukrainian concerns about being excluded from discussions",
+          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Al Jazeera",
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Emphasized Xi's free trade messaging and China's technological showcase at APEC",
+          "url": "https://asia.nikkei.com/business/markets/currencies/indonesia-raises-key-interest-rate-as-rupiah-hits-record-low"
+        },
+        {
+          "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Brief video coverage focused on renewed peace talks stalling",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting, included context of Russian retaliatory strikes on Kyiv bridges",
-          "url": "https://www.abc.net.au/news/2026-11-17/armed-fugitive-peppimenarti-and-wadeye-unrest/107396456"
+          "framing_note": "Highlighted China's framing of the summit as 'groundbreaking' for major-country diplomacy",
+          "url": "https://www.thehindu.com/news/international/why-ukraine-keeps-targeting-the-kerch-bridge/article71714957.ece"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article title available but content not accessible",
-          "url": "https://www.lemonde.fr/en/france/article/2026/11/17/russia-calls-french-troops-presence-in-ukraine-a-direct-participation-in-war_6782809_7.html"
-        }
-      ]
-    },
-    {
-      "headline": "Xi, Trump, and Putin to Hold Trilateral Summit at APEC, Drawing Yalta Comparisons",
-      "category": "Geopolitics",
-      "bullets": [
-        "Chinese Foreign Ministry confirmed a trilateral meeting of Chinese, US, and Russian presidents will occur Thursday in Shenzhen following the APEC summit",
-        "China described the meeting as 'of groundbreaking significance' for 'safeguarding world peace and promoting strategic stability'",
-        "Russia's chief negotiator has called for new European security arrangements as part of a 'modern Yalta' framework",
-        "Smaller nations and analysts have expressed concern the three nuclear powers could reach agreements ignoring other countries' interests"
-      ],
-      "sources": [
-        {
-          "name": "Globe and Mail",
-          "lean": "Center",
-          "framing_note": "Emphasized concerns about major powers dividing spheres of influence, drew historical Yalta parallels",
-          "url": "https://www.theglobeandmail.com/world/article-planned-xi-trump-putin-meeting-prompts-worries-they-may-divide-the/"
+          "framing_note": "Opinion piece cautioned against Yalta comparisons",
+          "url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/11/18/inside-deutsche-bank-how-the-banking-giant-found-out-it-had-acted-as-an-intermediary-for-a-huge-money-laundering-network_6783295_8.html"
         },
         {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focused on APEC context and business dimensions, noted possible Kim Jong Un meeting",
-          "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-russia-flags-possible-putin-meeting-with-north-korea-s-kim"
-        },
-        {
-          "name": "Financial Times",
+          "name": "The Economist",
           "lean": "Center-Right",
-          "framing_note": "Mentioned summit in context of Nvidia scandal's shadow over Trump's Asia trip",
-          "url": "https://www.ft.com/content/6d1efc79-8e86-475e-91da-4cf15fd50079?syn-25a6b1a6=1"
+          "framing_note": "Characterized summit as diminishing America's global standing",
+          "url": "https://www.economist.com/international/2026/11/10/global-bullies-have-turned-uncertainty-into-a-weapon"
         }
       ]
     },
     {
-      "headline": "US Tightens AI Chip Export Controls Amid Nvidia Scandal Fallout",
-      "category": "Technology",
+      "headline": "Iran Strikes US Bases in Kuwait and Bahrain as Gulf Tensions Escalate",
+      "category": "Conflict",
       "bullets": [
-        "US announced new regulations requiring licences for remote access to advanced AI chips through data centres in third countries, targeting Chinese firms",
-        "The rules were written by Treasury and the White House rather than Commerce, reflecting reported tensions between Secretaries Bessent and Lutnick",
-        "US confirmed ongoing investigation into Singapore-based Megaspeed since 2024 for potential export control violations involving Nvidia chips",
-        "China condemned the restrictions as 'abusing export control measures'; announcement came days before Trump-Xi summit"
+        "Iran's military targeted the Ali Al Salem Airbase in Kuwait and facilities in Bahrain overnight, marking the first attack on Kuwait in over two months",
+        "The strikes followed US warplane attacks on an Iranian missile launch site on Qeshm Island in the Strait of Hormuz on Tuesday",
+        "A UAE oil tanker crew member is missing after an attack in the Gulf waterway; at least 17 vessels have been attacked off Bulgaria and Romania since mid-July",
+        "Analysts warn the current 'frozen war' status quo is inherently unstable and could escalate into full-blown conflict"
       ],
       "sources": [
         {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Detailed regulatory specifics and Chinese government response",
-          "url": "https://www.thehindu.com/news/international/fresh-unrest-in-bangladesh-as-garment-workers-protest-block-highways-for-higher-wages/article71711657.ece"
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Straightforward reporting on military exchanges and regional context",
+          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
           "lean": "Center-Left",
-          "framing_note": "Framed around cabinet rivalry between Bessent and Lutnick",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss"
-        },
-        {
-          "name": "BBC",
-          "lean": "Center",
-          "framing_note": "Focused on Megaspeed investigation confirmation and Jensen Huang affair context",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "Five EU States Launch Joint Negotiations with Rwanda for Migrant Deportation Centre",
-      "category": "Policy",
-      "bullets": [
-        "Germany, Austria, Netherlands, Denmark, and Greece are negotiating with Rwanda to establish a centre for migrants whose asylum claims have been rejected",
-        "The pilot scheme would accommodate around 100 adults who have exhausted all legal appeals, excluding minors",
-        "Unlike the failed UK-Rwanda scheme, this would not apply to people still pursuing asylum claims",
-        "45 human rights organisations criticised the plans in a joint letter, while Rwanda's interior minister said it offers migrants a 'second chance'"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Led with human rights criticism, described plan as 'grave moral failing'",
-          "url": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities"
-        },
-        {
-          "name": "RFI",
-          "lean": "Center",
-          "framing_note": "More neutral presentation, included detailed operational parameters and Rwandan government perspective",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "headline": "Quad Leaders Announce Defence and Critical Minerals Cooperation at Manila Summit",
-      "category": "Geopolitics",
-      "bullets": [
-        "US, Australia, India, and Japan held their first leaders-level Quad meeting in two years on the sidelines of ASEAN summit in Manila",
-        "Trump announced new critical minerals deals and joint military exercises featuring maritime patrol aircraft",
-        "Leaders issued joint statement opposing 'destabilising or unilateral actions' and expressing concerns about 'economic coercion' including arbitrary export restrictions",
-        "Australia's PM Albanese will travel to Shenzhen for expected meeting with Chinese President Xi"
-      ],
-      "sources": [
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Emphasized Trump praising Albanese, highlighted Australia's balancing act with China",
-          "url": "https://www.abc.net.au/news/2026-11-17/armed-fugitive-peppimenarti-and-wadeye-unrest/107396456"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focused on critical minerals and defence dimensions as counterweight to China",
-          "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-russia-flags-possible-putin-meeting-with-north-korea-s-kim"
+          "framing_note": "Emphasized that the US and Israel initiated the conflict in February; noted Tehran's perspective on provocations",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_lina-attalah-of-mada-masr-on-trial-181126?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Detailed Indian perspective and Modi's bilateral meetings",
-          "url": "https://www.thehindu.com/news/international/fresh-unrest-in-bangladesh-as-garment-workers-protest-block-highways-for-higher-wages/article71711657.ece"
+          "framing_note": "Focused on US blockade pressure on Iran's economy and expert analysis of escalation risks",
+          "url": "https://www.thehindu.com/news/international/why-ukraine-keeps-targeting-the-kerch-bridge/article71714957.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Ukraine Executes Multi-Stage Operation to Collapse Key Span of Crimean Bridge",
+      "category": "Conflict",
+      "bullets": [
+        "A weeks-long Ukrainian operation systematically destroyed Russian air defenses before launching coordinated drone and missile strikes that collapsed a road bridge arch",
+        "President Zelenskyy confirmed Ukrainian-made Neptune and Flamingo missiles along with heavy drones were used in the 'unprecedented operation'",
+        "Road traffic is suspended and rail services restricted to one track; approximately 200 meters of roadway was heavily damaged and submerged",
+        "Russia's Kremlin spokesman said the bridge 'will be rebuilt' but analysts note Crimea is 'logistically turning into an island'"
+      ],
+      "sources": [
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Detailed technical breakdown of the seven-stage operation",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized the symbolic and logistical significance for Ukraine's tactical prowess",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_lina-attalah-of-mada-masr-on-trial-181126?traffic_source=rss"
+        },
+        {
+          "name": "The Hindu",
+          "lean": "Center-Left",
+          "framing_note": "Provided historical context on previous bridge attacks since 2022",
+          "url": "https://www.thehindu.com/news/international/why-ukraine-keeps-targeting-the-kerch-bridge/article71714957.ece"
+        }
+      ]
+    },
+    {
+      "headline": "Nvidia Reports Doubled Revenue to $116 Billion, Rules Out Huang's Return as CEO",
+      "category": "Technology",
+      "bullets": [
+        "Nvidia reported quarterly sales of $115.8 billion, up 103% from a year ago, with profits doubling to $65 billion",
+        "Interim CEO Colette Kress told investors 'we've got this' in the company's first results since founder Jensen Huang's departure",
+        "Board chair Harvey Jones firmly rejected Huang's public statement that he would be 'honoured' to return, saying the board 'does not intend to reinstate him'",
+        "The company forecast revenue of $130 billion next quarter despite assuming no data-center chip sales to China"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Focused on corporate governance drama and financial performance",
+          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Included analyst commentary on market uncertainty following leadership turmoil",
+          "url": "https://www.rnz.co.nz/news/pacific/2648447/category-5-cyclone-xavier-batters-northern-cook-islands-with-gusts-up-to-295km-h"
+        }
+      ]
+    },
+    {
+      "headline": "Democrat Peltola Wins Alaska Senate Race, Completing Historic Midterm Sweep",
+      "category": "Policy",
+      "bullets": [
+        "Mary Peltola defeated two-term Republican incumbent Dan Sullivan with slightly over 50% of the vote after two weeks of ballot counting",
+        "The victory gives Democrats a 56-44 Senate majority after flipping nine GOP-held seats, their best midterm performance since 1958",
+        "Democrats also won Senate races in conservative states including South Carolina, Texas, Kansas, and Mississippi",
+        "Peltola overcame allegations that her campaign helped recruit an independent candidate sharing the Republican incumbent's name"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief video coverage characterizing it as 'historic victory'",
+          "url": "https://www.france24.com/en/video/20261118-a-not-so-veiled-criticism-of-the-us-as-xi-blasts-protectionism-at-apec-summit"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Detailed reporting on vote margins and strategic context of the race",
+          "url": "https://www.abc.net.au/news/2026-11-18/alaska-senate-race-won-by-mary-peltola-vs-dan-sullivan-democrats/107401002"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Marine Le Pen says France would end financial aid to Ukraine if she is elected president, while pledging continued equipment donations and humanitarian support",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20261117-le-pen-to-end-france-s-financial-aid-to-ukraine-if-elected-president"
+      "headline": "Five EU states announce plans for immigration 'return hubs' in Rwanda for rejected asylum seekers",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
     },
     {
-      "headline": "France braces for second nationwide strike in two weeks as public-sector unions demand unfreezing of salary index point",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/france/20261117-france-braces-for-second-nationwide-strike-over-demands-for-higher-wages"
+      "headline": "European Commission accused of manipulating figures to release \u20ac7.4bn in funds to Egypt despite human rights concerns",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/18/european-commission-accused-sugarcoating-figures-egypt-loans"
     },
     {
-      "headline": "Africa CDC warns DRC Ebola outbreak remains 'out of control' six months on, with over 11,200 infections and 5,500 deaths reported",
-      "source": "RFI",
-      "url": "https://www.rfi.fr/en/africa/20261116-ebola-crisis-at-6-monthsi"
+      "headline": "WHO announces strain-specific Ebola vaccines will begin trials in DRC next week as outbreak reaches six months with over 5,500 deaths",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20261118-strain-specific-ebola-vaccines-to-be-trialled-in-drc-who-announces"
     },
     {
-      "headline": "UK sanctions eight Israeli construction firms over West Bank settlements and a settler group blocking Gaza aid",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/17/uk-sanctions-8-israeli-firms-over-occupied-west-bank-settlements-gaza-aid"
-    },
-    {
-      "headline": "Robert Pattinson named as the new James Bond, with Denis Villeneuve set to direct from a Steven Knight script",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/life/screens/movies/british-actor-robert-robert-pattinson-named-as-the-new-james-bond"
-    },
-    {
-      "headline": "Bangladesh deploys over 1,000 paramilitary personnel as garment workers protest and block highways demanding wage increases from $100 to $240 monthly",
+      "headline": "NASA's Voyager 1 probe reaches one light-day from Earth, the farthest distance achieved by any human-made object",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/fresh-unrest-in-bangladesh-as-garment-workers-protest-block-highways-for-higher-wages/article71711657.ece"
+      "url": "https://www.thehindu.com/sci-tech/science/nasa-voyager-1-probe-believed-to-have-reached-light-day-milestone/article71715503.ece"
     },
     {
-      "headline": "Federal Reserve Governor Lisa Cook refuses to attend hearing convened by Trump, citing threats to central bank independence",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/ac8fe697-a48d-4b0a-b556-46ae5463a6e4"
+      "headline": "France and Malaysia announce 'milestone' agreement on rare earth minerals and defense cooperation",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20261118-france-and-malaysia-reach-milestone-agreement-on-defence-and-minerals"
     },
     {
-      "headline": "Japan and South Korea leaders meet in Manila, with PM Takaichi inviting President Lee to Japan in January as bilateral thaw continues",
+      "headline": "Indonesia raises benchmark interest rate to 6% as rupiah hits record low against US dollar",
       "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/japan-and-south-korea-sustain-thaw-ahead-of-key-apec-gathering"
+      "url": "https://asia.nikkei.com/business/markets/currencies/indonesia-raises-key-interest-rate-as-rupiah-hits-record-low"
     },
     {
-      "headline": "French President Macron pitches closer Malaysia ties on rare earths, defence, and nuclear energy to reduce US-China dependence",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/macron-pitches-closer-malaysia-ties-to-reduce-reliance-on-us-china"
+      "headline": "Cameron Bancroft claims entire Australian cricket team knew about 2018 sandpaper ball-tampering plot",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro"
+    },
+    {
+      "headline": "US fears grow over potential sanctions on ICJ judges ahead of historic Myanmar genocide ruling",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
+    },
+    {
+      "headline": "Robert Pattinson announced as the new James Bond, taking over from Daniel Craig",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/arts24/20261118-robert-pattinson-is-the-new-james-bond-the-surprise-casting-choice-explained"
+    },
+    {
+      "headline": "Category 5 Cyclone Xavier batters Northern Cook Islands with gusts up to 315 km/h",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/pacific/2648447/category-5-cyclone-xavier-batters-northern-cook-islands-with-gusts-up-to-295km-h"
     }
   ]
 }
