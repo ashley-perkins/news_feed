@@ -1,154 +1,178 @@
 {
-  "date": "Wednesday, November 18, 2026",
-  "daily_brief": "The day's most consequential developments center on the unprecedented trilateral summit between Presidents Trump, Xi, and Putin in Shenzhen, with the three leaders meeting for the first time together ahead of Thursday's formal talks [BBC], [Nikkei Asia], [The Hindu]. The summit has drawn comparisons to the 1945 Yalta conference, though officials are tempering expectations of immediate breakthroughs on Ukraine or Iran [Le Monde], [The Economist]. Meanwhile, tensions between the US and Iran escalated as Iran targeted American military bases in Kuwait and Bahrain following US strikes on Qeshm Island, raising fears of broader conflict [BBC], [Al Jazeera], [The Hindu]. In a significant blow to Russian logistics, Ukraine executed a multi-stage operation that collapsed a key span of the Kerch Bridge linking Russia to Crimea [BBC], [Al Jazeera], [The Hindu]. On the technology front, Nvidia reported surging revenues of $116 billion while firmly rejecting ousted founder Jensen Huang's bid to return as CEO [BBC], [RNZ]. In US politics, Democrat Mary Peltola's victory in Alaska's Senate race completed a historic midterm sweep, giving Democrats a 56-44 Senate majority [France 24], [ABC Australia].",
+  "date": "Thursday, November 19, 2026",
+  "daily_brief": "The International Court of Justice delivered a historic verdict Thursday, ruling for the first time that a state\u2014Myanmar\u2014committed genocide, finding the country responsible for atrocities against its Rohingya minority during the 2017 military crackdown [RFI, BBC, Al Jazeera, The Hindu]. The ruling came as Presidents Trump, Xi, and Putin concluded unprecedented trilateral talks in Shenzhen on the APEC sidelines, issuing a joint statement on nuclear risk reduction and energy supplies while notably omitting any reference to the Ukraine war [ABC Australia, Nikkei Asia, BBC]. European leaders were conspicuously absent from these discussions despite their far-reaching implications [RFI]. In financial markets, AI firm Anthropic shattered records with its $1.5 trillion Nasdaq debut, raising $81 billion in the largest IPO ever [France 24, BBC]. Meanwhile, the EU delayed new methane emissions rules until 2029 amid energy market pressures [RFI], and Putin warned of a 'far more painful' response to Ukraine's continued strikes on the Crimean Bridge [BBC]. Five EU nations also announced plans for offshore immigration return centers in Rwanda [The Guardian].",
   "top_stories": [
     {
-      "headline": "Trump, Xi, and Putin Gather in Shenzhen for Historic Three-Way Summit",
+      "headline": "ICJ Rules Myanmar Committed Genocide Against Rohingya in Historic First Verdict",
       "category": "Geopolitics",
       "bullets": [
-        "Trump arrived in Shenzhen where Xi Jinping greeted him on the tarmac; Trump later exchanged pleasantries with Putin ahead of Thursday's trilateral meeting",
-        "The three leaders will discuss Ukraine, Iran, nuclear proliferation, trade tensions, and AI development; this marks the first time the US, Chinese, and Russian leaders have met together in person",
-        "Xi described China-Russia relations as 'a source of stability' in a 'turbulent world' during bilateral talks with Putin on Wednesday",
-        "Officials have downplayed expectations for substantive outcomes, describing the summit as more exploratory and symbolic"
+        "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya minority in northern Rakhine State, marking the first time in the court's 80-year history it has found a state responsible for genocide",
+        "The court ordered Myanmar to provide safe passage for refugees to return home and to pay compensation to victims",
+        "Nine of 15 judges voted in favor of the genocide finding after seven years of deliberations on the case brought by Gambia in 2019",
+        "Rohingya refugees in Cox's Bazar, the world's largest refugee camp, watched the verdict on giant screens, with many breaking down in tears"
       ],
       "sources": [
         {
-          "name": "BBC World",
+          "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Focused on diplomatic choreography and Ukrainian concerns about being excluded from discussions",
-          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on refugee reactions and the humanitarian dimension",
+          "url": "https://www.rfi.fr/en/international/20261119-mistral-boss-denies-french-ai-firm-is-macron-s-personal-project"
         },
         {
-          "name": "Nikkei Asia",
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized potential US sanctions on ICJ judges and implications for Israel-Gaza proceedings",
+          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
+        },
+        {
+          "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Emphasized Xi's free trade messaging and China's technological showcase at APEC",
-          "url": "https://asia.nikkei.com/business/markets/currencies/indonesia-raises-key-interest-rate-as-rupiah-hits-record-low"
+          "framing_note": "Straightforward legal reporting on the verdict",
+          "url": "https://www.abc.net.au/news/2026-11-19/wa-craig-rastus-sentenced-manslaughter-derby/107400406"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Detailed focus on what the ruling means for Rohingya people and reparations",
+          "url": "https://www.aljazeera.com/sports/2026/11/19/fifa-under-17-world-cup-2026-gets-under-way-in-qatar-despite-usa-withdrawal?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Highlighted China's framing of the summit as 'groundbreaking' for major-country diplomacy",
-          "url": "https://www.thehindu.com/news/international/why-ukraine-keeps-targeting-the-kerch-bridge/article71714957.ece"
+          "framing_note": "Provided extensive background on Rohingya history and refugee crisis",
+          "url": "https://www.thehindu.com/news/international/icj-verdict-on-rohingya-crackdown-killings-in-myanmar/article71719604.ece"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Brief video coverage",
+          "url": "https://www.france24.com/en/icj-rules-myanmar-committed-genocide-against-the-rohingya"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Opinion piece cautioned against Yalta comparisons",
-          "url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/11/18/inside-deutsche-bank-how-the-banking-giant-found-out-it-had-acted-as-an-intermediary-for-a-huge-money-laundering-network_6783295_8.html"
+          "framing_note": null,
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/19/denmark-s-parliament-ratifies-security-agreement-with-us-greenland_6784286_4.html"
+        }
+      ]
+    },
+    {
+      "headline": "Trump, Xi, and Putin Hold Historic Trilateral Summit in Shenzhen, Exclude Europe",
+      "category": "Geopolitics",
+      "bullets": [
+        "US President Trump, Chinese President Xi, and Russian President Putin met for approximately 90 minutes in Shenzhen on the sidelines of the APEC summit\u2014the first trilateral meeting of these three leaders",
+        "The joint statement addressed nuclear risk reduction, energy supplies, and reform of the UN, but made no mention of the war in Ukraine despite pre-summit expectations",
+        "The declaration included an agreement that the International Criminal Court and similar bodies should not abuse their jurisdiction",
+        "European Union representatives were notably absent from discussions that could have significant implications for the continent"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Emphasized Europe being 'left out in the cold' from consequential talks",
+          "url": "https://www.rfi.fr/en/international/20261119-mistral-boss-denies-french-ai-firm-is-macron-s-personal-project"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Noted Australian PM Albanese's call for Putin to end Ukraine war; highlighted ICC clause significance",
+          "url": "https://www.abc.net.au/news/2026-11-19/wa-craig-rastus-sentenced-manslaughter-derby/107400406"
+        },
+        {
+          "name": "Nikkei Asia",
+          "lean": "Center",
+          "framing_note": "Focused on energy and nuclear commitments; noted joint statement briefly disappeared from APEC website",
+          "url": "https://asia.nikkei.com/politics/international-relations/apec/xi-tells-trump-to-do-right-thing-on-taiwan-as-trade-truce-remains-in-flux"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Analyzed pitfalls for Xi including Ukraine balancing act and Taiwan tensions",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "The Economist",
           "lean": "Center-Right",
           "framing_note": "Characterized summit as diminishing America's global standing",
-          "url": "https://www.economist.com/international/2026/11/10/global-bullies-have-turned-uncertainty-into-a-weapon"
-        }
-      ]
-    },
-    {
-      "headline": "Iran Strikes US Bases in Kuwait and Bahrain as Gulf Tensions Escalate",
-      "category": "Conflict",
-      "bullets": [
-        "Iran's military targeted the Ali Al Salem Airbase in Kuwait and facilities in Bahrain overnight, marking the first attack on Kuwait in over two months",
-        "The strikes followed US warplane attacks on an Iranian missile launch site on Qeshm Island in the Strait of Hormuz on Tuesday",
-        "A UAE oil tanker crew member is missing after an attack in the Gulf waterway; at least 17 vessels have been attacked off Bulgaria and Romania since mid-July",
-        "Analysts warn the current 'frozen war' status quo is inherently unstable and could escalate into full-blown conflict"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on military exchanges and regional context",
-          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.economist.com/international/2026/11/12/despite-recent-misses-political-polling-is-more-accurate-than-ever"
         },
         {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized that the US and Israel initiated the conflict in February; noted Tehran's perspective on provocations",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_lina-attalah-of-mada-masr-on-trial-181126?traffic_source=rss"
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Brief newsletter mention",
+          "url": "https://www.ft.com/content/913e3748-6bf2-4c59-b2b6-31bf58a166ab?syn-25a6b1a6=1"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Focused on US blockade pressure on Iran's economy and expert analysis of escalation risks",
-          "url": "https://www.thehindu.com/news/international/why-ukraine-keeps-targeting-the-kerch-bridge/article71714957.ece"
+          "framing_note": "Drew comparisons to 1945 Yalta conference",
+          "url": "https://www.thehindu.com/news/international/icj-verdict-on-rohingya-crackdown-killings-in-myanmar/article71719604.ece"
         }
       ]
     },
     {
-      "headline": "Ukraine Executes Multi-Stage Operation to Collapse Key Span of Crimean Bridge",
-      "category": "Conflict",
-      "bullets": [
-        "A weeks-long Ukrainian operation systematically destroyed Russian air defenses before launching coordinated drone and missile strikes that collapsed a road bridge arch",
-        "President Zelenskyy confirmed Ukrainian-made Neptune and Flamingo missiles along with heavy drones were used in the 'unprecedented operation'",
-        "Road traffic is suspended and rail services restricted to one track; approximately 200 meters of roadway was heavily damaged and submerged",
-        "Russia's Kremlin spokesman said the bridge 'will be rebuilt' but analysts note Crimea is 'logistically turning into an island'"
-      ],
-      "sources": [
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Detailed technical breakdown of the seven-stage operation",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized the symbolic and logistical significance for Ukraine's tactical prowess",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_lina-attalah-of-mada-masr-on-trial-181126?traffic_source=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Provided historical context on previous bridge attacks since 2022",
-          "url": "https://www.thehindu.com/news/international/why-ukraine-keeps-targeting-the-kerch-bridge/article71714957.ece"
-        }
-      ]
-    },
-    {
-      "headline": "Nvidia Reports Doubled Revenue to $116 Billion, Rules Out Huang's Return as CEO",
+      "headline": "Anthropic Begins Trading at $1.5 Trillion Valuation in Largest IPO on Record",
       "category": "Technology",
       "bullets": [
-        "Nvidia reported quarterly sales of $115.8 billion, up 103% from a year ago, with profits doubling to $65 billion",
-        "Interim CEO Colette Kress told investors 'we've got this' in the company's first results since founder Jensen Huang's departure",
-        "Board chair Harvey Jones firmly rejected Huang's public statement that he would be 'honoured' to return, saying the board 'does not intend to reinstate him'",
-        "The company forecast revenue of $130 billion next quarter despite assuming no data-center chip sales to China"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Focused on corporate governance drama and financial performance",
-          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "RNZ",
-          "lean": "Center",
-          "framing_note": "Included analyst commentary on market uncertainty following leadership turmoil",
-          "url": "https://www.rnz.co.nz/news/pacific/2648447/category-5-cyclone-xavier-batters-northern-cook-islands-with-gusts-up-to-295km-h"
-        }
-      ]
-    },
-    {
-      "headline": "Democrat Peltola Wins Alaska Senate Race, Completing Historic Midterm Sweep",
-      "category": "Policy",
-      "bullets": [
-        "Mary Peltola defeated two-term Republican incumbent Dan Sullivan with slightly over 50% of the vote after two weeks of ballot counting",
-        "The victory gives Democrats a 56-44 Senate majority after flipping nine GOP-held seats, their best midterm performance since 1958",
-        "Democrats also won Senate races in conservative states including South Carolina, Texas, Kansas, and Mississippi",
-        "Peltola overcame allegations that her campaign helped recruit an independent candidate sharing the Republican incumbent's name"
+        "AI company Anthropic priced its IPO at $83 per share, above the proposed $70-$78 range, valuing the company at approximately $1.5 trillion",
+        "The offering raised $81 billion, surpassing SpaceX's June listing as the largest initial public offering ever",
+        "Shares began trading on Nasdaq under ticker 'ANT,' with the tech-heavy index rising nearly 2% at market open",
+        "CEO Dario Amodei said the debut strengthens the company's financial position and its commitment to responsible AI development"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Brief video coverage characterizing it as 'historic victory'",
-          "url": "https://www.france24.com/en/video/20261118-a-not-so-veiled-criticism-of-the-us-as-xi-blasts-protectionism-at-apec-summit"
+          "framing_note": "Highlighted both economic promise and fears of market bubble and risks to humanity",
+          "url": "https://www.france24.com/en/icj-rules-myanmar-committed-genocide-against-the-rohingya"
         },
         {
-          "name": "ABC Australia",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed reporting on vote margins and strategic context of the race",
-          "url": "https://www.abc.net.au/news/2026-11-18/alaska-senate-race-won-by-mary-peltola-vs-dan-sullivan-democrats/107401002"
+          "framing_note": "Noted the seven founders will become multi-billionaires; emphasized questions about when AI investments will pay off",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "Putin Threatens 'Far More Painful' Retaliation After Ukraine's Crimean Bridge Strikes",
+      "category": "Conflict",
+      "bullets": [
+        "The Crimean Bridge was struck for a third time this week early Thursday, following a Tuesday attack that destroyed the central road section and collapsed part into the water",
+        "Russian President Putin vowed Moscow's response would be 'far more painful' than Kyiv's strikes, claiming the bridge was used exclusively for civilian purposes",
+        "Ukraine's defence ministry stated the strikes represent 'time gained and lives saved' by reducing supplies reaching Russian forces",
+        "The collapse represents the worst damage to the strategically important structure in several years"
+      ],
+      "sources": [
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Provided context on Crimea's military significance as a base for Russian operations since 2014",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "headline": "EU Delays Methane Emissions Rules Until 2029 Amid Energy Market Pressures",
+      "category": "Climate",
+      "bullets": [
+        "The European Union agreed to postpone new methane reporting requirements for oil, gas, and coal importers from January 2027 to January 2029",
+        "The compromise came after overnight negotiations, with the European Commission and member states favoring a one-year delay while Parliament sought three years",
+        "The decision follows energy supply uncertainties driven by the Middle East war and international market disruptions",
+        "Environmental groups warned the delay risks undermining EU climate ambitions on methane, the second-largest contributor to global warming"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Balanced presentation of industry adaptation needs versus environmental concerns",
+          "url": "https://www.rfi.fr/en/international/20261119-mistral-boss-denies-french-ai-firm-is-macron-s-personal-project"
         }
       ]
     }
@@ -160,49 +184,49 @@
       "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
     },
     {
-      "headline": "European Commission accused of manipulating figures to release \u20ac7.4bn in funds to Egypt despite human rights concerns",
+      "headline": "France raises bird flu alert to highest level as infections spread across Europe via migration routes",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261119-france-raises-bird-flu-alert-to-highest-level-as-infections-spread-across-europe"
+    },
+    {
+      "headline": "Van Gogh painting sells for record $190.4 million after eleventh-hour resolution of Nazi-era ownership dispute",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
+    },
+    {
+      "headline": "Somalia expels UAE ambassador, accusing Abu Dhabi of actions amounting to 'open invasion'",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty"
+    },
+    {
+      "headline": "Russian man arrested in Silicon Valley for allegedly spying on Palantir employees over Ukraine support",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o"
+    },
+    {
+      "headline": "Denmark's parliament ratifies security agreement with US and Greenland",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/19/denmark-s-parliament-ratifies-security-agreement-with-us-greenland_6784286_4.html"
+    },
+    {
+      "headline": "European Commission accused of manipulating figures to release \u20ac7.4 billion in funds to Egypt",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/18/european-commission-accused-sugarcoating-figures-egypt-loans"
     },
     {
-      "headline": "WHO announces strain-specific Ebola vaccines will begin trials in DRC next week as outbreak reaches six months with over 5,500 deaths",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/africa/20261118-strain-specific-ebola-vaccines-to-be-trialled-in-drc-who-announces"
+      "headline": "Kenya awards prized rare earth deposit to US company in win for Trump administration's efforts against China",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/913e3748-6bf2-4c59-b2b6-31bf58a166ab"
     },
     {
-      "headline": "NASA's Voyager 1 probe reaches one light-day from Earth, the farthest distance achieved by any human-made object",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/sci-tech/science/nasa-voyager-1-probe-believed-to-have-reached-light-day-milestone/article71715503.ece"
-    },
-    {
-      "headline": "France and Malaysia announce 'milestone' agreement on rare earth minerals and defense cooperation",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/international/20261118-france-and-malaysia-reach-milestone-agreement-on-defence-and-minerals"
-    },
-    {
-      "headline": "Indonesia raises benchmark interest rate to 6% as rupiah hits record low against US dollar",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/currencies/indonesia-raises-key-interest-rate-as-rupiah-hits-record-low"
-    },
-    {
-      "headline": "Cameron Bancroft claims entire Australian cricket team knew about 2018 sandpaper ball-tampering plot",
+      "headline": "Migrant boat carrying approximately 100 people capsizes off Senegal coast, dozens missing",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro"
+      "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo"
     },
     {
-      "headline": "US fears grow over potential sanctions on ICJ judges ahead of historic Myanmar genocide ruling",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
-    },
-    {
-      "headline": "Robert Pattinson announced as the new James Bond, taking over from Daniel Craig",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/arts24/20261118-robert-pattinson-is-the-new-james-bond-the-surprise-casting-choice-explained"
-    },
-    {
-      "headline": "Category 5 Cyclone Xavier batters Northern Cook Islands with gusts up to 315 km/h",
-      "source": "RNZ",
-      "url": "https://www.rnz.co.nz/news/pacific/2648447/category-5-cyclone-xavier-batters-northern-cook-islands-with-gusts-up-to-295km-h"
+      "headline": "Malaysia to end visa-free entry for Indian nationals from January 1, 2027",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/malaysia-to-end-visa-free-entry-to-indians-from-january-1-2027/article71719957.ece"
     }
   ]
 }
