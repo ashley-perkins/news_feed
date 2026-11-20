@@ -1,232 +1,214 @@
 {
-  "date": "Thursday, November 19, 2026",
-  "daily_brief": "The International Court of Justice delivered a historic verdict Thursday, ruling for the first time that a state\u2014Myanmar\u2014committed genocide, finding the country responsible for atrocities against its Rohingya minority during the 2017 military crackdown [RFI, BBC, Al Jazeera, The Hindu]. The ruling came as Presidents Trump, Xi, and Putin concluded unprecedented trilateral talks in Shenzhen on the APEC sidelines, issuing a joint statement on nuclear risk reduction and energy supplies while notably omitting any reference to the Ukraine war [ABC Australia, Nikkei Asia, BBC]. European leaders were conspicuously absent from these discussions despite their far-reaching implications [RFI]. In financial markets, AI firm Anthropic shattered records with its $1.5 trillion Nasdaq debut, raising $81 billion in the largest IPO ever [France 24, BBC]. Meanwhile, the EU delayed new methane emissions rules until 2029 amid energy market pressures [RFI], and Putin warned of a 'far more painful' response to Ukraine's continued strikes on the Crimean Bridge [BBC]. Five EU nations also announced plans for offshore immigration return centers in Rwanda [The Guardian].",
+  "date": "Friday, November 20, 2026",
+  "daily_brief": "Friday marked a significant escalation in the Russia-Ukraine conflict as Moscow launched one of its largest aerial assaults of the war, targeting bridges in Kyiv and killing at least nine people [BBC]. In a development raising NATO tensions, a Russian cruise missile struck Polish territory during allied military exercises\u2014an incident Polish PM Donald Tusk called a deliberate 'provocation' [Globe and Mail, Le Monde]. The International Court of Justice delivered a landmark ruling finding Myanmar guilty of genocide against the Rohingya, the first time the court has held a state responsible for the crime [France 24, Al Jazeera]. Myanmar and China rejected the verdict. In Brussels, the UK and EU reached what both sides called a 'landmark' agreement easing trade friction, linking carbon markets, and creating a youth mobility scheme allowing 100,000 young people from each side to live and work abroad for up to three years [The Hindu, RFI]. The deal represents the most significant rapprochement since Brexit. Separately, the White House removed its top cyber-security official Sean Cairncross following a series of unexplained tech outages affecting banking and air traffic control [BBC]. Across Europe, coordinated protests over living costs drew workers and students to the streets in Italy and other nations [France 24, RFI].",
   "top_stories": [
     {
-      "headline": "ICJ Rules Myanmar Committed Genocide Against Rohingya in Historic First Verdict",
-      "category": "Geopolitics",
+      "headline": "Russia Launches Massive Strike on Ukraine, Russian Missile Lands in NATO Member Poland",
+      "category": "Conflict",
       "bullets": [
-        "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya minority in northern Rakhine State, marking the first time in the court's 80-year history it has found a state responsible for genocide",
-        "The court ordered Myanmar to provide safe passage for refugees to return home and to pay compensation to victims",
-        "Nine of 15 judges voted in favor of the genocide finding after seven years of deliberations on the case brought by Gambia in 2019",
-        "Rohingya refugees in Cox's Bazar, the world's largest refugee camp, watched the verdict on giant screens, with many breaking down in tears"
+        "Russia launched over 110 missiles and 400 drones overnight targeting Kyiv bridges, railway stations, residential buildings and energy facilities, killing at least nine people in what President Zelensky called 'one of the most massive strikes' of the war",
+        "A Russian Kh-101 cruise missile struck rural southeastern Poland approximately 50km from the Ukrainian border; two other objects including a drone also violated Polish airspace with no injuries reported",
+        "Polish PM Donald Tusk characterized the incursion as a deliberate 'provocation' timed to coincide with European military exercises preparing for a potential postwar Ukraine mission; NATO Secretary General Mark Rutte condemned the 'grave violations'",
+        "The attacks came days after Ukraine damaged the strategically important Crimean Bridge, with Putin having threatened retaliation"
       ],
       "sources": [
         {
-          "name": "RFI English",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on refugee reactions and the humanitarian dimension",
-          "url": "https://www.rfi.fr/en/international/20261119-mistral-boss-denies-french-ai-firm-is-macron-s-personal-project"
-        },
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Emphasized potential US sanctions on ICJ judges and implications for Israel-Gaza proceedings",
-          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
-        },
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Straightforward legal reporting on the verdict",
-          "url": "https://www.abc.net.au/news/2026-11-19/wa-craig-rastus-sentenced-manslaughter-derby/107400406"
-        },
-        {
-          "name": "Al Jazeera",
-          "lean": "Center-Left",
-          "framing_note": "Detailed focus on what the ruling means for Rohingya people and reparations",
-          "url": "https://www.aljazeera.com/sports/2026/11/19/fifa-under-17-world-cup-2026-gets-under-way-in-qatar-despite-usa-withdrawal?traffic_source=rss"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Provided extensive background on Rohingya history and refugee crisis",
-          "url": "https://www.thehindu.com/news/international/icj-verdict-on-rohingya-crackdown-killings-in-myanmar/article71719604.ece"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Brief video coverage",
-          "url": "https://www.france24.com/en/icj-rules-myanmar-committed-genocide-against-the-rohingya"
+          "framing_note": "Detailed factual coverage emphasizing scale of attack and Polish response",
+          "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": null,
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/19/denmark-s-parliament-ratifies-security-agreement-with-us-greenland_6784286_4.html"
+          "framing_note": "Headline emphasizes both Ukraine casualties and Poland incident",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/20/russian-strikes-on-kyiv-kill-at-least-six_6785275_4.html"
+        },
+        {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Focused on Polish perspective and European military exercises context",
+          "url": "https://www.theglobeandmail.com/world/article-uk-eu-summit-burnham-brexit/"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Noted France calling for UN Security Council meeting after embassies damaged",
+          "url": "https://www.france24.com/en/video/20261120-italy-strike-draws-workers-students-into-nationwide-protests-over-wages-and-living-costs"
         }
       ]
     },
     {
-      "headline": "Trump, Xi, and Putin Hold Historic Trilateral Summit in Shenzhen, Exclude Europe",
-      "category": "Geopolitics",
+      "headline": "UK and EU Agree Landmark Deal on Trade, Youth Mobility in Post-Brexit Reset",
+      "category": "Economics",
       "bullets": [
-        "US President Trump, Chinese President Xi, and Russian President Putin met for approximately 90 minutes in Shenzhen on the sidelines of the APEC summit\u2014the first trilateral meeting of these three leaders",
-        "The joint statement addressed nuclear risk reduction, energy supplies, and reform of the UN, but made no mention of the war in Ukraine despite pre-summit expectations",
-        "The declaration included an agreement that the International Criminal Court and similar bodies should not abuse their jurisdiction",
-        "European Union representatives were notably absent from discussions that could have significant implications for the continent"
+        "UK Prime Minister Andy Burnham and European Commission President Ursula von der Leyen signed agreements eliminating checks on plant and animal product trade, linking emissions trading schemes, and creating a youth mobility programme",
+        "The youth scheme allows 100,000 people aged 18-30 from each side to live and work in the other's territory for up to three years",
+        "Negotiations continue on EU student tuition fees in UK universities, with six months given to reach agreement on this issue",
+        "The deal is expected to significantly reduce 'Irish Sea border' checks on goods moving from Great Britain to Northern Ireland"
       ],
       "sources": [
         {
+          "name": "Globe and Mail",
+          "lean": "Center",
+          "framing_note": "Emphasized Burnham's statement that 'Brexit we were given has not worked'",
+          "url": "https://www.theglobeandmail.com/world/article-uk-eu-summit-burnham-brexit/"
+        },
+        {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Emphasized Europe being 'left out in the cold' from consequential talks",
-          "url": "https://www.rfi.fr/en/international/20261119-mistral-boss-denies-french-ai-firm-is-macron-s-personal-project"
+          "framing_note": "Noted potential tensions over university fees linkage",
+          "url": "https://www.rfi.fr/en/africa/20261120-nigeria-moves-to-end-prison-sentences-for-attempted-suicide"
         },
         {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Noted Australian PM Albanese's call for Putin to end Ukraine war; highlighted ICC clause significance",
-          "url": "https://www.abc.net.au/news/2026-11-19/wa-craig-rastus-sentenced-manslaughter-derby/107400406"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Focused on energy and nuclear commitments; noted joint statement briefly disappeared from APEC website",
-          "url": "https://asia.nikkei.com/politics/international-relations/apec/xi-tells-trump-to-do-right-thing-on-taiwan-as-trade-truce-remains-in-flux"
-        },
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Analyzed pitfalls for Xi including Ukraine balancing act and Taiwan tensions",
-          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "The Economist",
-          "lean": "Center-Right",
-          "framing_note": "Characterized summit as diminishing America's global standing",
-          "url": "https://www.economist.com/international/2026/11/12/despite-recent-misses-political-polling-is-more-accurate-than-ever"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief newsletter mention",
-          "url": "https://www.ft.com/content/913e3748-6bf2-4c59-b2b6-31bf58a166ab?syn-25a6b1a6=1"
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Framed as 'mending fences' and repairing economic fallout",
+          "url": "https://www.aljazeera.com/news/2026/11/20/myanmar-china-object-to-unfair-icj-genocide-ruling?traffic_source=rss"
         },
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Drew comparisons to 1945 Yalta conference",
-          "url": "https://www.thehindu.com/news/international/icj-verdict-on-rohingya-crackdown-killings-in-myanmar/article71719604.ece"
+          "framing_note": "Highlighted Burnham's earlier comments that Brexit caused 'more harm than good'",
+          "url": "https://www.thehindu.com/news/international/malaysia-plans-to-resettle-10000-rohingya-in-turkiye/article71723939.ece"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Focused on Northern Ireland implications",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "Anthropic Begins Trading at $1.5 Trillion Valuation in Largest IPO on Record",
-      "category": "Technology",
+      "headline": "International Court of Justice Rules Myanmar Committed Genocide Against Rohingya",
+      "category": "Geopolitics",
       "bullets": [
-        "AI company Anthropic priced its IPO at $83 per share, above the proposed $70-$78 range, valuing the company at approximately $1.5 trillion",
-        "The offering raised $81 billion, surpassing SpaceX's June listing as the largest initial public offering ever",
-        "Shares began trading on Nasdaq under ticker 'ANT,' with the tech-heavy index rising nearly 2% at market open",
-        "CEO Dario Amodei said the debut strengthens the company's financial position and its commitment to responsible AI development"
+        "The ICJ ruled that Myanmar committed genocide against its Muslim Rohingya minority during military operations in Rakhine state in 2016-2017, the first time the court has found a state responsible for genocide",
+        "The court ordered Myanmar to allow refugees safe passage home and awarded reparations to victims",
+        "Myanmar's military government rejected the ruling as 'unfair' and 'not unanimous'; China criticized the verdict as 'not conducive to the settlement of disputes'",
+        "Concerns emerged that the US could impose sanctions on ICJ judges, including Nobel Peace Prize winner Navi Pillay, over fears the ruling sets precedent for potential Israel-Gaza genocide cases"
       ],
       "sources": [
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Highlighted both economic promise and fears of market bubble and risks to humanity",
-          "url": "https://www.france24.com/en/icj-rules-myanmar-committed-genocide-against-the-rohingya"
+          "framing_note": "Focused on Malaysia's treatment of Rohingya refugees following ruling",
+          "url": "https://www.france24.com/en/video/20261120-italy-strike-draws-workers-students-into-nationwide-protests-over-wages-and-living-costs"
         },
         {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Noted the seven founders will become multi-billionaires; emphasized questions about when AI investments will pay off",
-          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Myanmar and China's objections to ruling",
+          "url": "https://www.aljazeera.com/news/2026/11/20/myanmar-china-object-to-unfair-icj-genocide-ruling?traffic_source=rss"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Led with concerns about potential US sanctions on ICJ judges",
+          "url": "https://www.theguardian.com/world/2026/nov/18/european-commission-accused-sugarcoating-figures-egypt-loans"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Editorial framing praised ICJ's 'courage'",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/20/russian-strikes-on-kyiv-kill-at-least-six_6785275_4.html"
         }
       ]
     },
     {
-      "headline": "Putin Threatens 'Far More Painful' Retaliation After Ukraine's Crimean Bridge Strikes",
-      "category": "Conflict",
+      "headline": "White House Fires Cyber Security Chief After Series of Unexplained Tech Outages",
+      "category": "Technology",
       "bullets": [
-        "The Crimean Bridge was struck for a third time this week early Thursday, following a Tuesday attack that destroyed the central road section and collapsed part into the water",
-        "Russian President Putin vowed Moscow's response would be 'far more painful' than Kyiv's strikes, claiming the bridge was used exclusively for civilian purposes",
-        "Ukraine's defence ministry stated the strikes represent 'time gained and lives saved' by reducing supplies reaching Russian forces",
-        "The collapse represents the worst damage to the strategically important structure in several years"
+        "National Cyber Director Sean Cairncross was removed after reportedly losing confidence of White House Chief of Staff Stephen Miller following multiple tech outages affecting banking, air traffic control and other sectors",
+        "Secretary of State Marco Rubio announced Department of Defense CIO Kirsten Davies as the new national cyber director",
+        "US officials stated the outages were not caused by cyberattacks, though Rubio acknowledged the rapid succession of incidents has raised scrutiny",
+        "The firing comes amid broader security concerns about advanced AI models' ability to discover vulnerabilities that humans cannot find independently"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Provided context on Crimea's military significance as a base for Russian operations since 2014",
-          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Same coverage as BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Noted Congressional demands for clearer explanation of outages",
+          "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "headline": "EU Delays Methane Emissions Rules Until 2029 Amid Energy Market Pressures",
-      "category": "Climate",
+      "headline": "European Protests Against Living Costs Spread Across Multiple Countries",
+      "category": "Society",
       "bullets": [
-        "The European Union agreed to postpone new methane reporting requirements for oil, gas, and coal importers from January 2027 to January 2029",
-        "The compromise came after overnight negotiations, with the European Commission and member states favoring a one-year delay while Parliament sought three years",
-        "The decision follows energy supply uncertainties driven by the Middle East war and international market disruptions",
-        "Environmental groups warned the delay risks undermining EU climate ambitions on methane, the second-largest contributor to global warming"
+        "Coordinated demonstrations took place Friday across more than 25 European countries against rising cost of living, deteriorating public services, stagnant wages and increased military spending",
+        "A coalition of over 50 youth and student-led groups organized under the slogan 'Fight for our future, not their wars'",
+        "In Italy, nationwide strikes drew workers and students protesting wages and living costs",
+        "The protests come ahead of key elections in Spain, France, Italy and Greece"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Balanced presentation of industry adaptation needs versus environmental concerns",
-          "url": "https://www.rfi.fr/en/international/20261119-mistral-boss-denies-french-ai-firm-is-macron-s-personal-project"
+          "framing_note": "Emphasized youth organizing and anti-militarization messaging",
+          "url": "https://www.rfi.fr/en/africa/20261120-nigeria-moves-to-end-prison-sentences-for-attempted-suicide"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on Italian strike participation",
+          "url": "https://www.france24.com/en/video/20261120-italy-strike-draws-workers-students-into-nationwide-protests-over-wages-and-living-costs"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Five EU states announce plans for immigration 'return hubs' in Rwanda for rejected asylum seekers",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
-    },
-    {
-      "headline": "France raises bird flu alert to highest level as infections spread across Europe via migration routes",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261119-france-raises-bird-flu-alert-to-highest-level-as-infections-spread-across-europe"
-    },
-    {
-      "headline": "Van Gogh painting sells for record $190.4 million after eleventh-hour resolution of Nazi-era ownership dispute",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
-    },
-    {
-      "headline": "Somalia expels UAE ambassador, accusing Abu Dhabi of actions amounting to 'open invasion'",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty"
-    },
-    {
-      "headline": "Russian man arrested in Silicon Valley for allegedly spying on Palantir employees over Ukraine support",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o"
-    },
-    {
-      "headline": "Denmark's parliament ratifies security agreement with US and Greenland",
-      "source": "Le Monde",
-      "url": "https://www.lemonde.fr/en/international/article/2026/11/19/denmark-s-parliament-ratifies-security-agreement-with-us-greenland_6784286_4.html"
-    },
-    {
-      "headline": "European Commission accused of manipulating figures to release \u20ac7.4 billion in funds to Egypt",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/18/european-commission-accused-sugarcoating-figures-egypt-loans"
-    },
-    {
-      "headline": "Kenya awards prized rare earth deposit to US company in win for Trump administration's efforts against China",
+      "headline": "Anthropic shares fell sharply in pre-market trading one day after its blockbuster IPO, amid broader tech sector sell-off",
       "source": "Financial Times",
-      "url": "https://www.ft.com/content/913e3748-6bf2-4c59-b2b6-31bf58a166ab"
+      "url": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5"
     },
     {
-      "headline": "Migrant boat carrying approximately 100 people capsizes off Senegal coast, dozens missing",
+      "headline": "France's former PM Dominique de Villepin launched presidential bid for 2027, crowding the political center as Marine Le Pen leads polls",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/71d49bc4-76df-4f0b-bb49-5db49b77aceb"
+    },
+    {
+      "headline": "Nearly 600 women were killed in South Africa between July and September, including 13 whose bodies were found dumped in Johannesburg area",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo"
+      "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o"
     },
     {
-      "headline": "Malaysia to end visa-free entry for Indian nationals from January 1, 2027",
+      "headline": "Malaysia announced plans to resettle 10,000 Rohingya refugees to Turkey through a structured skills training programme",
       "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/malaysia-to-end-visa-free-entry-to-indians-from-january-1-2027/article71719957.ece"
+      "url": "https://www.thehindu.com/news/international/malaysia-plans-to-resettle-10000-rohingya-in-turkiye/article71723939.ece"
+    },
+    {
+      "headline": "South Korea caught 111 students with unauthorized smart devices during college entrance exam after implementing emergency anti-cheating measures",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo"
+    },
+    {
+      "headline": "Indonesian wildfires could cost the country over $30 billion including health costs from respiratory infections, research shows",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/economic-losses-from-indonesia-fires-could-reach-30-billion-research-shows/article71724140.ece"
+    },
+    {
+      "headline": "French prosecutors opened gang rape investigation against actor G\u00e9rard Depardieu, author Michel Houellebecq and director Guillaume Nicloux over allegations from 2018 film set",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261120-depardieu-and-houellebecq-accused-of-gang-rape-on-french-film-set"
+    },
+    {
+      "headline": "US Comancheros motorcycle gang and two New Zealand members sanctioned by US Treasury, first NZ gang targeted by Office of Foreign Assets Control",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/2700126/comancheros-first-gang-in-nz-to-be-sanctioned-by-us-office-of-foreign-assets"
+    },
+    {
+      "headline": "California coastal communities face largest waves in 30 years with offshore buoys recording heights over 30 feet",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state"
+    },
+    {
+      "headline": "Nigeria's President Tinubu asked parliament to decriminalize attempted suicide and treat it as mental health issue rather than criminal offense",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20261120-nigeria-moves-to-end-prison-sentences-for-attempted-suicide"
     }
   ]
 }
