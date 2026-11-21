@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 14:00 UTC</span>
+            </div>
+            <h1 class="header-title">Saturday, November 21, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">The day's most consequential developments center on escalating tensions between Russia and NATO, with a drone strike setting a Russian cargo ship ablaze in the Gulf of Finland [France 24, Al Jazeera] and a Russian cruise missile striking Polish territory during Western military exercises [BBC Europe]. These incidents underscore the volatile security environment in the Baltic region as the Ukraine conflict intensifies. Meanwhile, COP31 climate negotiations in Turkey have entered overtime with deep divisions over fossil fuel language threatening to produce a weakened final agreement [BBC, RFI, Globe and Mail]. Financial markets experienced significant turbulence as a tech stock sell-off pushed major US indices into correction territory, with AI investment concerns and political uncertainty weighing on sentiment [BBC, Le Monde]. In a potentially historic scientific development, an Anthropic mathematician claims to have proven the Riemann Hypothesis using the AI tool Claude, though verification will take weeks [Al Jazeera, Globe and Mail]. Across Europe, cost-of-living protests continued in multiple countries, with unions and students demanding action on wages, education funding, and housing [RFI, France 24].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Drone Strike Sets Russian Cargo Ship Ablaze in Gulf of Finland, NATO Alerted</h2>
+            <ul class="story-bullets"><li>Finnish military detected a drone attack on a Russian cargo vessel west of Gogland Island in international waters on Saturday morning, causing the ship to catch fire and drift toward Finnish waters</li><li>Finland immediately informed NATO and imposed temporary air and maritime restrictions in the eastern Gulf of Finland; the ship was reportedly bound for Russia's Kaliningrad exclave</li><li>Russia's Leningrad region governor confirmed crew evacuation was underway; no party has claimed responsibility for the attack, though it follows Ukraine's intensified long-range strikes against Russian targets</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.france24.com/en/ethiopia-tackling-period-poverty-and-stigma" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Emphasized Finland's NATO coordination and broader Baltic Sea tensions</span>
+            </a>
+            <a href="https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Included Russian official statements and noted Kaliningrad supply implications</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Russian Cruise Missile Strikes Polish Territory During Western Military Exercises</h2>
+            <ul class="story-bullets"><li>A Russian Kh-101 cruise missile struck a rural area in southeastern Poland approximately 50km from the Ukrainian border on Friday morning; no casualties or significant damage reported</li><li>Polish Prime Minister Donald Tusk stated the incursion did not appear accidental given concurrent Western military exercises; Defense Minister called it a 'provocation' and requested additional NATO support</li><li>Two additional objects—a suspected missile and a jet-powered drone—also violated Polish airspace; NATO Secretary General Mark Rutte condemned the 'grave violations'</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Detailed account including local eyewitness testimony and camera footage of impact</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #5A9E5A">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #5A9E5A; border-color: #5A9E5A40">Climate</span>
+            </div>
+            <h2 class="story-headline">COP31 Climate Talks in Deadlock as Fossil Fuel Language Stripped from Draft Agreement</h2>
+            <ul class="story-bullets"><li>UN climate summit in Antalya, Turkey extended past its Friday deadline as nearly 200 countries failed to agree on final text; latest draft removed all references to transitioning away from coal, oil, and gas</li><li>A coalition including France, Panama, Spain, and several EU nations is demanding fossil fuel language be restored, calling the current draft 'not acceptable'; Saudi Arabia and other producers oppose inclusion</li><li>Civil society groups warned hosts Turkey and Australia that the summit is 'on course to become one of the most disappointing COPs' in three decades of negotiations</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Focused on diplomatic deadlock and Africa Group's demands for adaptation funding</span>
+            </a>
+            <a href="https://www.rfi.fr/en/environment/20261120-un-climate-talks-run-into-overtime-as-countries-clash-over-fossil-fuel-cuts-cop31" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Highlighted European pushback and carbon capture technology debate</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-for-a-rookie-portrait-artist-angela-merkel-offers-a-study-in-grace-and/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized disconnect between scientific urgency and negotiating progress</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A9E8E">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #4A9E8E; border-color: #4A9E8E40">Economics</span>
+            </div>
+            <h2 class="story-headline">Tech Stock Sell-Off Pushes Major US Indices into Correction Territory</h2>
+            <ul class="story-bullets"><li>S&P 500 fell 3.7%, Dow Jones dropped 1.9%, and Nasdaq plunged 5.3% on Friday; both S&P 500 and Dow entered correction territory at 10% or more below recent highs</li><li>Anthropic shares declined sharply after their historic IPO, amid broader concerns about the pace and sustainability of AI investment exceeding $1 trillion in the past year</li><li>Investor anxiety heightened following the Democratic midterm victories in early November, which sparked fears of potential restrictions on AI development</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Emphasized AI bubble concerns and political factors</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/economy/article/2026/11/21/wall-street-reels-as-ai-linked-companies-spark-massive-sell-off-in-the-us_6785968_19.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Headline focused on AI companies as drivers of sell-off</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A7EB0">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #4A7EB0; border-color: #4A7EB040">Technology</span>
+            </div>
+            <h2 class="story-headline">Anthropic Mathematician Claims AI-Assisted Proof of 167-Year-Old Riemann Hypothesis</h2>
+            <ul class="story-bullets"><li>Levent Alpoge, a mathematician at Anthropic, announced Friday that he believes he has proven the Riemann Hypothesis—considered the most important unsolved problem in pure mathematics—using the AI tool Claude</li><li>The hypothesis, proposed in 1859 by Bernhard Riemann, concerns the distribution of prime numbers and has resisted proof attempts for over 160 years</li><li>Independent mathematicians are attempting to verify the proof, but no human has yet read through the entire argument; verification may take weeks</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Al Jazeera<span class="framing-note">Provided accessible explanation of the mathematical significance</span>
+            </a>
+            <a href="https://www.theglobeandmail.com/world/article-for-a-rookie-portrait-artist-angela-merkel-offers-a-study-in-grace-and/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Noted this is the second recent AI-linked claim to solving a famous math problem; highlighted timing with Anthropic IPO</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/international/20261120-protesters-join-forces-across-europe-against-high-living-costs" target="_blank" rel="noopener">Cost-of-living protests continue across Europe with hundreds of thousands expected in France, Italy, Spain, UK, and other countries over the weekend</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261121-national-assembly-backs-greater-legal-protection-for-police-using-firearms" target="_blank" rel="noopener">French National Assembly passes controversial legislation giving police greater legal protection when using firearms, prompting left-wing constitutional challenge</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261121-former-pm-de-villepin-launches-20207-presidential-bid-with-warning-to-far-right" target="_blank" rel="noopener">Former French PM Dominique de Villepin launches 2027 presidential bid with warnings against far-right victory</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo" target="_blank" rel="noopener">Three French police officers convicted of racist beating of Black music producer Michel Zecler, permanently banned from police service</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/european-union-proposes-tax-on-big-tech-to-boost-budget/article71728111.ece" target="_blank" rel="noopener">EU proposes 3% tax on large digital companies to help fund bloc's next seven-year budget amid member state disputes</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cvze7de86pk3o" target="_blank" rel="noopener">FBI reportedly investigating apparent breach of its National Crime Information Center database used by federal and local law enforcement</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/iran-us-negotiations-stalled-over-uranium-enrichment-dispute-mediators-warn-of-renewed-conflict-says-reports/article71727934.ece" target="_blank" rel="noopener">Iran-US negotiations stalled over uranium enrichment stockpile dispute, with mediators warning they cannot prevent return to military escalation</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo" target="_blank" rel="noopener">Zelensky defends Crimean Bridge strikes as 'fair response' to Russian attacks on Ukrainian infrastructure</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state" target="_blank" rel="noopener">California coastal communities on high alert as biggest waves in 30 years hit state, with Monterey buoy recording 34.1ft wave height</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/us-court-dispatches-summonses-to-doval-goel-in-pannun-case/article71728227.ece" target="_blank" rel="noopener">US court dispatches summonses to India's National Security Advisor Doval and former RAW chief in Khalistani separatist case</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
