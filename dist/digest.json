@@ -1,202 +1,238 @@
 {
-  "date": "Sunday, November 22, 2026",
-  "daily_brief": "COP31 collapsed without an agreement on Sunday after the European Union formally rejected a final draft text that omitted any explicit reference to fossil fuels [France 24, RFI, The Hindu, Globe and Mail]. The failed summit in Antalya marks a significant setback for international climate diplomacy, with negotiations running more than 40 hours past deadline before breaking down. Meanwhile, tensions in the Baltic escalated as a Russian cargo ship struck by drone attack remained on fire in Finnish waters, with Finnish authorities attributing the strike to Ukraine [BBC, Le Monde]. The Lowy Institute's 2026 Asia Power Index revealed the narrowest power gap between the US and China on record, with Washington's diplomatic influence declining sharply amid its war with Iran [ABC Australia]. In South Korea, Education Minister Choi Kyo-jin resigned following an AI-assisted cheating scandal that disrupted the national college entrance exam [BBC]. Separately, an Indonesian factory fire killed at least three workers with dozens still missing as rescue operations continued [BBC, ABC Australia, France 24].",
+  "date": "Monday, November 23, 2026",
+  "daily_brief": "The collapse of COP31 climate talks in Antalya dominated headlines Monday, with the EU and Pacific island nations rejecting a final text that omitted any reference to fossil fuels [BBC], [The Economist], [Globe and Mail]. UN Secretary-General Ant\u00f3nio Guterres blamed 'powerful fossil fuel interests' for the failure, the worst breakdown since Copenhagen in 2009. Meanwhile, Ukraine expanded its long-range strike capabilities dramatically, sinking the Russian corvette Merkury in Libya's Benghazi port using naval drones deployed 2,400km from the front line [The Guardian], [Al Jazeera]. The Kremlin warned of 'painful consequences' as both Libyan governments condemned the strikes. In a remarkable corporate reversal, Nvidia reinstated Jensen Huang as CEO just days after the board ruled out his return, with President Trump claiming he personally intervened with the company [France 24], [Financial Times]. Democratic Senator Chuck Schumer vowed investigations into potential wrongdoing. Across Europe, Belgium ground to a halt as a national strike against austerity measures cancelled over 400 flights and shut down public transport [BBC], affecting more than 50,000 passengers as coalition budget negotiations continue.",
   "top_stories": [
     {
-      "headline": "COP31 Ends in Failure as EU Rejects Climate Deal Lacking Fossil Fuel Reference",
+      "headline": "COP31 Climate Talks Collapse as EU Rejects Fossil Fuel-Free Final Text",
       "category": "Climate",
       "bullets": [
-        "The European Union formally objected to adopting the final draft text at COP31 in Antalya, Turkey, citing the omission of any mention of fossil fuels as unacceptable",
-        "Negotiations ran more than 44 hours past the official Friday deadline before collapsing, with COP31 President Murat Kurum acknowledging no agreement was reached",
-        "Panama also formally objected to the proposed deal, joining the EU in blocking consensus among nearly 200 nations",
-        "The failed text did reference the 2023 Dubai agreement but contained no explicit commitment to phase out coal, oil, or gas"
+        "UN climate conference in Antalya, Turkey ended Sunday without agreement after becoming the longest COP in history, extending two days past deadline",
+        "Final draft text contained no mention of fossil fuels or transition away from them, prompting formal objections from EU, Pacific island nations, and Panama",
+        "UN Secretary-General Ant\u00f3nio Guterres blamed 'powerful fossil fuel interests' for blocking progress, comparing tactics to 'Big Tobacco's playbook'",
+        "First major COP failure since Copenhagen in 2009; Australian PM Albanese attributed collapse to 'difficult geopolitical times'"
       ],
       "sources": [
         {
-          "name": "France 24",
+          "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Led with breaking news format, emphasized EU rejection and war in Iran context",
-          "url": "https://www.france24.com/en/south-korea-ai-cheating-sparks-exam-security-chaos"
+          "framing_note": "Emphasized fossil fuel industry influence and Guterres criticism",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "RFI English",
-          "lean": "Center",
-          "framing_note": "Highlighted France's criticism calling it 'a step backward'",
-          "url": "https://www.rfi.fr/en/france/20261121-students-and-unions-unite-for-sixth-weekend-of-protests-across-france"
-        },
-        {
-          "name": "The Hindu",
-          "lean": "Center-Left",
-          "framing_note": "Focused on procedural details and quoted Irish minister extensively",
-          "url": "https://www.thehindu.com/news/national/india-eu-trade-pact-likely-to-be-signed-on-december-16/article71731223.ece"
+          "name": "The Economist",
+          "lean": "Center-Right",
+          "framing_note": "Focused on parties' inability to agree on basic text language",
+          "url": "https://www.economist.com/international/2026/11/13/teaching-kids-to-think-for-themselves-in-the-age-of-ai"
         },
         {
           "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Emphasized oil industry support for carbon capture in the draft",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-mississippi-has-a-black-senator-precisely-because-everything-was/"
+          "framing_note": "Included criticism of Canada's climate record",
+          "url": "https://www.theglobeandmail.com/canada/video-cop31-talks-end-without-an-overarching-un-climate-deal/"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Highlighted showdown over fossil fuel interests",
+          "url": "https://www.france24.com/en/tv-shows/down-to-earth/20261123-behind-cop31-failure-a-showdown-over-fossil-fuel-interests"
         },
         {
           "name": "RNZ",
           "lean": "Center",
-          "framing_note": "Included Pacific Island perspective on 'existential threat' and loss of faith in UN process",
-          "url": "https://www.rnz.co.nz/news/world/2718141/new-zealander-found-with-explosive-making-instructions-extremist-material-jailed-in-australia"
+          "framing_note": "Noted New Zealand would have supported the rejected draft text",
+          "url": "https://www.rnz.co.nz/news/environment_climate/2734804/cop-flop-scientist-warns-countries-are-losing-faith-in-un-climate-summits-as-deal-talks-stall"
         }
       ]
     },
     {
-      "headline": "Russian Cargo Ship Burns in Finnish Waters After Drone Strike Attributed to Ukraine",
+      "headline": "Ukraine Sinks Russian Warship in Libya Using Long-Range Naval Drones",
       "category": "Conflict",
       "bullets": [
-        "The Sparta II, a sanctioned Russian cargo vessel bound for Kaliningrad, was struck by drones Saturday morning in the Gulf of Finland and drifted into Finnish waters",
-        "Finnish defence forces stated Ukraine was likely behind the attack; Kyiv has not commented",
-        "Firefighting and rescue efforts continued Sunday with Finnish, Estonian, and Russian assets involved; the ship had not sunk",
-        "Finnish Prime Minister Petteri Orpo said 'war is spilling over into our immediate vicinity' while affirming Ukraine's right to fight back"
+        "Ukrainian forces deployed seven domestically-made naval drones to sink the corvette Merkury at Benghazi naval base, 2,400km from Ukraine's front line",
+        "A second Russian cargo ship, MV Angara, was also struck; Ukraine claims it was transporting weapons",
+        "Both Libyan governments condemned the attack; Kremlin warned of 'escalation of tensions' and 'painful consequences'",
+        "Operation marks significant expansion of Ukraine's long-range strike capability beyond the Black Sea"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Detailed factual account including ship's sanctioned status and Russian military connections",
-          "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Balanced coverage including Libyan government reactions",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "BBC Europe",
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Emphasized Ukrainian military capability development",
+          "url": "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Led with Russian warnings and 'dangerous trend' framing",
+          "url": "https://www.aljazeera.com/news/2026/11/23/police-investigating-bomb-threats-against-schools-in-germany-and-denmark?traffic_source=rss"
+        },
+        {
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Same content as BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Contextualized within pattern of Ukrainian long-range operations",
+          "url": "https://www.theglobeandmail.com/canada/video-cop31-talks-end-without-an-overarching-un-climate-deal/"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Included UN concerns about Libya becoming battleground",
+          "url": "https://www.abc.net.au/news/2026-11-23/zelensky-says-ukraine-struck-russian-ship-near-libya/107418718"
+        }
+      ]
+    },
+    {
+      "headline": "Nvidia Reinstates Jensen Huang as CEO After Trump Claims Direct Intervention",
+      "category": "Technology",
+      "bullets": [
+        "Nvidia board unanimously voted to reinstate co-founder Jensen Huang as CEO, effective immediately, reversing position from days earlier",
+        "Trump told CNBC he directly intervened with Nvidia's board to bring Huang back after his resignation amid affair revelations including alleged Chinese spy",
+        "Democratic Senate leader Chuck Schumer vowed full investigation into potential wrongdoing, accusing Trump of prioritizing financial interests over national security",
+        "Nvidia shares surged approximately 30-33%, driving Nasdaq up 7% and S&P up 4.3%"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Led with Democratic probe and national security concerns",
+          "url": "https://www.france24.com/en/tv-shows/down-to-earth/20261123-behind-cop31-failure-a-showdown-over-fossil-fuel-interests"
+        },
+        {
+          "name": "Financial Times",
+          "lean": "Center-Right",
+          "framing_note": "Focused on market reaction and 'startling reversal'",
+          "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Emphasized board satisfaction with Huang's leadership ability",
+          "url": "https://www.abc.net.au/news/2026-11-23/zelensky-says-ukraine-struck-russian-ship-near-libya/107418718"
+        },
+        {
+          "name": "Al Jazeera",
+          "lean": "Center-Left",
+          "framing_note": "Framed as return after 'intelligence scandal'",
+          "url": "https://www.aljazeera.com/news/2026/11/23/police-investigating-bomb-threats-against-schools-in-germany-and-denmark?traffic_source=rss"
         },
         {
           "name": "Le Monde",
           "lean": "Center-Left",
-          "framing_note": "Article title visible but content unavailable due to technical issues",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/21/italian-ex-police-chief-accused-in-killing-of-judge-found-dead-in-apparent-suicide_6786166_4.html"
+          "framing_note": "Headline focused on Trump intervention",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/23/criminals-and-russians-under-sanctions-may-have-operated-in-europe-using-forged-romanian-citizenships_6787324_4.html"
         }
       ]
     },
     {
-      "headline": "US-China Power Gap Narrows to Record Low as Washington Loses Influence in Asia",
-      "category": "Geopolitics",
+      "headline": "Belgium Paralyzed by National Strike Against Austerity Measures",
+      "category": "Economics",
       "bullets": [
-        "The Lowy Institute's 2026 Asia Power Index found the US has experienced a record decline in diplomatic influence across Asia",
-        "China now ranks first in economic relationships and diplomatic influence measures, ahead of the United States",
-        "The military capability gap between US and China is at its narrowest point on record, attributed more to US missteps than Chinese advances",
-        "Australia's Foreign Minister Penny Wong will deliver a major speech Tuesday elevating AI as a national security challenge amid concerns about foreign interference"
-      ],
-      "sources": [
-        {
-          "name": "ABC Australia",
-          "lean": "Center",
-          "framing_note": "Presented findings neutrally with direct quotes from report authors noting US was seen as 'distracted and disengaged'",
-          "url": "https://www.abc.net.au/news/2026-11-22/recipe-of-the-year-finale-live-blog/107314156"
-        }
-      ]
-    },
-    {
-      "headline": "South Korea Education Minister Resigns Over AI Cheating Scandal That Disrupted National Exam",
-      "category": "Technology",
-      "bullets": [
-        "Education Minister Choi Kyo-jin resigned taking responsibility for confusion caused by last-minute anti-cheating measures during the Suneung college entrance exam",
-        "Emergency alerts were sent to every mobile phone in the country after a top scorer in a tax accountancy exam admitted using AI tools and hidden cameras",
-        "Officials found 111 candidates with unauthorized smart devices during this year's exam, taken by approximately 500,000 students",
-        "President Lee Jae Myung, who has called for exam system overhaul, accepted the resignation"
+        "All flights cancelled at Brussels and Charleroi airports between 07:00-21:00 local time, affecting 404 flights and over 50,000 passengers",
+        "Underground services halted in Brussels as large protests took place against planned budget cuts",
+        "Strike comes as PM Bart De Wever continues coalition talks over budget to cut borrowing costs after King Philippe declined his resignation",
+        "Air traffic controllers and public transport workers joined broader cost-of-living protests"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Comprehensive factual coverage of events and political context",
-          "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Detailed passenger impact and political context",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC Europe",
+          "lean": "Center",
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "France 24",
           "lean": "Center",
-          "framing_note": "Video report format with limited textual detail",
-          "url": "https://www.france24.com/en/south-korea-ai-cheating-sparks-exam-security-chaos"
+          "framing_note": "Brief video coverage only",
+          "url": "https://www.france24.com/en/tv-shows/down-to-earth/20261123-behind-cop31-failure-a-showdown-over-fossil-fuel-interests"
         }
       ]
     },
     {
-      "headline": "Indonesian Factory Fire Kills Three, Leaves Dozens Missing as Rescue Operations Continue",
-      "category": "Society",
+      "headline": "Russian Strikes Kill 11 in Kyiv Region; 7-Year-Old Rescued After 14 Hours",
+      "category": "Conflict",
       "bullets": [
-        "A fire broke out at the PT Fonusa Agung Mulia confectionary factory in Banten province Saturday evening with approximately 300 workers inside",
-        "At least three workers confirmed dead with 29 still missing; 24 body bags removed from the factory though each may contain multiple remains",
-        "The three-story factory was engulfed in flames sending thick black smoke into the sky; firefighters were still tackling some flames Sunday",
-        "The fire's cause has not yet been determined; rescue operations continue in areas where workers are believed trapped"
+        "Overnight Russian strikes on Dymer village killed 11 people; a 7-year-old boy was rescued alive after 14 hours buried in rubble",
+        "A 79-year-old woman was also rescued alive from collapsed residential building and hospitalized",
+        "Separate strike on Vyshneve hit grocery store, killing 3 and wounding 13",
+        "Over 130 emergency personnel deployed to search sites; Zelensky sent condolences to families"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Included detail about relatives gathering outside factory",
-          "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Focused on rescue efforts and human interest angle",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "ABC Australia",
+          "name": "Globe and Mail",
           "lean": "Center",
-          "framing_note": "Noted company said 24 of 65 workers involved had returned home",
-          "url": "https://www.abc.net.au/news/2026-11-22/recipe-of-the-year-finale-live-blog/107314156"
-        },
-        {
-          "name": "France 24",
-          "lean": "Center",
-          "framing_note": "Video format with minimal textual information",
-          "url": "https://www.france24.com/en/south-korea-ai-cheating-sparks-exam-security-chaos"
+          "framing_note": "Mentioned in context of broader Ukraine coverage",
+          "url": "https://www.theglobeandmail.com/canada/video-cop31-talks-end-without-an-overarching-un-climate-deal/"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "Fears grow US may sanction ICJ judges including Nobel laureate Navi Pillay over potential Myanmar genocide ruling",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
+      "headline": "Iran's courts order United States to pay $290 billion in damages for decades of actions against Islamic Republic",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/iran-s-courts-order-us-to-pay-290-billion-in-damages"
     },
     {
-      "headline": "European Commission accused of manipulating figures to release \u20ac7.4bn in funds to Egypt under partnership deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/nov/18/european-commission-accused-sugarcoating-figures-egypt-loans"
+      "headline": "Zelensky calls for four-party peace talks with Russia involving European leaders 'as soon as possible'",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/international/20261123-zelensky-calls-for-eu-inclusion-in-talks-with-russia-as-soon-as-possible-nato-defence"
     },
     {
-      "headline": "Russian missile strikes Poland during Western military exercises; Prime Minister Tusk says incident does not appear accidental",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro"
+      "headline": "UN condemns drone strikes on Khartoum suspected to have been launched by RSF from Ethiopian territory",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/africa/20261123-un-condemns-drone-strikes-in-khartoum-suspected-to-have-come-from-ethiopia"
     },
     {
-      "headline": "Denmark accuses Russian intelligence of plotting assassination of Ukrainian-American rapper near Copenhagen",
-      "source": "BBC Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno"
-    },
-    {
-      "headline": "Mexican drug lord Fausto Isidro Meza Flores arrested in shoot-out after appearing on FBI's 10 most wanted list",
+      "headline": "Oxfam report says Israeli attacks have turned 99% of Gaza into 'toxic wasteland' with long-term environmental contamination",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
+      "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o"
     },
     {
-      "headline": "Corporate Japan accelerates efforts to build independent rare-earth supply chain amid Chinese export controls",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/materials/corporate-japan-races-to-revive-rare-earth-supply-chain-amid-china-curbs"
+      "headline": "Cyberattack forces Guadeloupe university hospital to activate emergency response plan, postpone non-urgent procedures",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261123-major-cyberattack-hits-it-systems-at-guadeloupe-university-hospital"
     },
     {
-      "headline": "India-EU Free Trade Agreement expected to be signed December 16 during PM Modi's Brussels visit",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/india-eu-trade-pact-likely-to-be-signed-on-december-16/article71731223.ece"
+      "headline": "Macron announces \u20ac350 million for civil aviation research and new simplified industrial zones at Choose France summit",
+      "source": "RFI English",
+      "url": "https://www.rfi.fr/en/france/20261123-macron-pledges-%E2%82%AC350m-for-aviation-research-pushes-industrial-acceleration-choose-france-investment"
     },
     {
-      "headline": "Myanmar rejects ASEAN assessment of peace plan implementation as 'unfair and imbalanced'",
-      "source": "The Hindu",
-      "url": "https://www.thehindu.com/news/international/myanmar-calls-asean-review-of-peace-plan-unfair-and-imbalanced-questions-blocs-treatment/article71731357.ece"
+      "headline": "Tajikistan withdraws from International Criminal Court",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/23/tajikistan-leaves-international-criminal-court_6787332_4.html"
     },
     {
-      "headline": "Five centuries-old baobab trees being replanted in South Africa after export to Georgia blocked by authorities",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe"
+      "headline": "Spanish PM Sanchez proposes wealth tax ahead of election",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/23/spanish-pm-sanchez-proposes-wealth-tax-ahead-of-election_6787325_4.html"
     },
     {
-      "headline": "UN report finds one in four women globally unable to refuse sex within marriage",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa"
+      "headline": "Police investigate bomb threats against 450 schools across Germany and Denmark following earlier European hoax wave",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/23/police-investigating-bomb-threats-against-schools-in-germany-and-denmark"
+    },
+    {
+      "headline": "U.S. Army to detonate toxic lead azide in Iowa by Tuesday, bypassing court order under emergency powers",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-us-army-toxic-lead-iowa/"
     }
   ]
 }
