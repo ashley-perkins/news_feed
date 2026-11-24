@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 16:48 UTC</span>
+            </div>
+            <h1 class="header-title">Tuesday, November 24, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">The day's news was dominated by the reinstatement of Jensen Huang as Nvidia CEO following pressure from President Trump, a move that added nearly $1 trillion to the company's market value but drew criticism from lawmakers concerned about national security given Huang's alleged relationship with a suspected Chinese spy [BBC, Le Monde, Financial Times]. NATO Secretary General Mark Rutte pledged to defend against threats in space after German intelligence reports indicated Russia may be preparing to launch a nuclear-armed satellite dubbed 'Sputnik-S' within 60 days [BBC]. In China, Shanghai's powerful Communist Party Secretary Chen Jining was placed under investigation for 'severe violations of discipline and laws,' marking one of the highest-profile targets of Xi Jinping's anti-corruption campaign ahead of the 2027 Party Congress [The Hindu, Financial Times, Nikkei Asia]. Ukraine continued expanding its long-range strike capabilities, with President Zelenskyy confirming responsibility for drone attacks on Russian vessels in Libya and the Gulf of Finland, raising concerns among allies about escalation [The Guardian, ABC Australia]. Meanwhile, the Court of Arbitration for Sport ruled that Senegal won the 2025 Africa Cup of Nations, ending an 11-month legal dispute with Morocco over the chaotic final [RFI].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #4A7EB0">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #4A7EB0; border-color: #4A7EB040">Technology</span>
+            </div>
+            <h2 class="story-headline">Jensen Huang Reinstated as Nvidia CEO After Trump Intervention, Adding $1 Trillion to Market Value</h2>
+            <ul class="story-bullets"><li>Jensen Huang returned as Nvidia CEO less than two weeks after resigning over revelations of extramarital affairs, including one with a woman alleged to be a Chinese spy</li><li>President Trump claimed he 'made the deal' with Nvidia's board to restore Huang, drawing backlash from lawmakers citing national security concerns</li><li>Nvidia shares jumped 31%, adding nearly $1 trillion to market value and boosting broader tech stocks</li><li>Huang faces Congressional testimony next week regarding his relationship with Alice Huang, alleged to be a Chinese intelligence operative</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Focused on Trump's intervention and national security implications, included analysis of what the episode teaches China's Xi about Trump</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/opinion/article/2026/11/24/the-us-still-hasn-t-settled-on-a-strategy-to-slow-china-down_6787585_23.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Article title referenced Trump and market pressure, full content unavailable</span>
+            </a>
+            <a href="https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Brief mention noting investor relief subsiding as Anthropic fell below IPO price</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">NATO Pledges Space Defense as German Intelligence Reports Russia Preparing Nuclear Satellite Launch</h2>
+            <ul class="story-bullets"><li>German media reported intelligence indicates Russia is preparing to launch a nuclear-armed satellite dubbed 'Sputnik-S' within 60 days</li><li>NATO Secretary General Mark Rutte stated the alliance will defend against any threats in space during a press conference with German Chancellor Friedrich Merz</li><li>The satellite could reportedly be used to disrupt or destroy communication and observation satellites</li><li>Russia's Kremlin spokesman dismissed the reports as not worth taking seriously, calling them part of a 'propaganda campaign'</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Straightforward reporting on NATO response and Russian denial</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Identical coverage to BBC World feed</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Shanghai Communist Party Chief Chen Jining Placed Under Corruption Investigation</h2>
+            <ul class="story-bullets"><li>Chen Jining, 62, Shanghai's top Communist Party leader and Politburo member, was announced to be under investigation for 'suspected severe violations of discipline and laws'</li><li>Chen was widely expected to receive a prominent national role at the 2027 Party Congress where Xi Jinping is set to begin a fourth term</li><li>Chen previously served as president of Xi's alma mater Tsinghua University and as Beijing mayor before his Shanghai appointment in 2022</li><li>Politburo members are rarely investigated, with only half a dozen such cases historically</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.thehindu.com/news/international/after-trumps-midterm-poll-rout-south-america-breathes-easy-as-far-right-feels-the-heat/article71673628.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Emphasized Chen's international exposure including doctoral studies at Imperial College London</span>
+            </a>
+            <a href="https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1" target="_blank" rel="noopener" class="source-chip lean-centerright">
+                Financial Times<span class="framing-note">Framed as Xi 'escalating purge'</span>
+            </a>
+            <a href="https://asia.nikkei.com/spotlight/huawei-crackdown/china-s-huawei-says-it-has-homegrown-answer-to-us-chip-design-tool-curbs" target="_blank" rel="noopener" class="source-chip lean-center">
+                Nikkei Asia<span class="framing-note">Described Chen as caught up in Xi's anti-corruption campaign</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #B05A5A">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #B05A5A; border-color: #B05A5A40">Conflict</span>
+            </div>
+            <h2 class="story-headline">Ukraine Claims Responsibility for Drone Strikes on Russian Ships in Libya and Gulf of Finland</h2>
+            <ul class="story-bullets"><li>Ukraine confirmed using seven naval drones launched from a mothership to strike two Russian vessels in Benghazi, Libya, sinking the corvette Merkury</li><li>President Zelenskyy also claimed responsibility for Saturday's drone strike on the cargo ship Sparta II in the Gulf of Finland</li><li>The Libya operation occurred 1,500 miles from the frontline, representing a significant geographic expansion of Ukraine's strike capabilities</li><li>Russia called the attacks 'dangerous escalation' while Norway urged caution; Finland, Estonia and Russian vessels conducted joint rescue operations</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Guardian<span class="framing-note">Detailed operational coverage, noted Ukraine developed sea drone capability despite starting war with no navy</span>
+            </a>
+            <a href="https://www.abc.net.au/news/2026-11-24/martin-parkinson-calls-for-cap-on-temporary-visa-holders/107423044" target="_blank" rel="noopener" class="source-chip lean-center">
+                ABC Australia<span class="framing-note">Emphasized escalation fears and allied concerns, noted Poland accused Russia of deliberately violating its airspace</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Analysis piece examining what strikes say about spread of Ukraine war</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">Court of Arbitration for Sport Declares Senegal 2025 Africa Cup of Nations Champions</h2>
+            <ul class="story-bullets"><li>CAS ruled in favor of Senegal, ending an 11-month legal dispute over the January 2026 final in which Senegal beat Morocco 1-0</li><li>Morocco had appealed after Senegalese players walked off the field without referee permission following a controversial penalty decision</li><li>CAF's appeals panel had initially sided with Morocco in March, declaring Senegal had forfeited by walking off</li><li>The ruling ends a saga that significantly damaged the reputation of Africa's most prestigious national team tournament</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.rfi.fr/en/sports/20261124-senegal-or-morocco-top-sports-lawyers-to-give-verdict-on-2025-afcon-champions" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Comprehensive coverage of legal proceedings and tournament context</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261124-french-officer-to-stand-trial-for-murder-over-nahel-shooting" target="_blank" rel="noopener">French police officer who fatally shot teenager Nahel Merzouk in 2023 traffic stop will stand trial for murder following appeals court ruling</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cm3eg502nxw2o" target="_blank" rel="noopener">Gisèle Pelicot announces legal action after nude photos taken by her convicted ex-husband were sent to media to promote a psychoanalyst's book</a>
+            <span class="additional-source">BBC Europe, RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/cmwy868v3nneo" target="_blank" rel="noopener">Russian Murmansk governor Andrei Chibis detained on corruption charges in first arrest of regional leader in five years</a>
+            <span class="additional-source">BBC Europe</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.ft.com/content/ecdf59b6-c78b-4703-bc26-8d085d7b9d24" target="_blank" rel="noopener">Houthi attack on Saudi sovereign wealth fund headquarters in Riyadh injures 11 as kingdom unveils first budget since conflict restarted</a>
+            <span class="additional-source">Financial Times</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data" target="_blank" rel="noopener">More than 300 Russian fighters killed in Mali propping up military junta, leaked death certificates reveal</a>
+            <span class="additional-source">The Guardian</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/france/20261124-france-to-establish-strategic-stockpiles-of-critical-minerals" target="_blank" rel="noopener">France announces plans to establish strategic stockpiles of rare earths and critical minerals managed by Caisse des Dépôts</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.ft.com/content/5b03bc34-79a5-4c90-8b92-17b27b19098e" target="_blank" rel="noopener">Iraqi government moves to take control of Kurdish-held oilfields as PM works to assert power over semi-autonomous region</a>
+            <span class="additional-source">Financial Times</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.abc.net.au/news/2026-11-25/kate-william-prince-of-wales-break-in-anmer-hall/107423242" target="_blank" rel="noopener">Two men arrested after suspected break-in at Prince William and Princess Kate's Anmer Hall estate on Sandringham</a>
+            <span class="additional-source">ABC Australia, Globe and Mail</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.bbc.co.uk/news/articles/c893rl37ywdgo" target="_blank" rel="noopener">Land mine casualties in Syria approach 1,000 children killed or injured since Assad's fall in December 2024</a>
+            <span class="additional-source">BBC World</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/business/international-business/article-fda-approves-roche-breast-cancer-pill-wilserdly/" target="_blank" rel="noopener">US FDA approves Roche's breast cancer pill Wilserdly, potentially the company's best-selling medicine with projected peak sales rivaling $8.3 billion MS drug</a>
+            <span class="additional-source">Globe and Mail</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
