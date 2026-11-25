@@ -1,190 +1,208 @@
 {
-  "date": "Tuesday, November 24, 2026",
-  "daily_brief": "The day's news was dominated by the reinstatement of Jensen Huang as Nvidia CEO following pressure from President Trump, a move that added nearly $1 trillion to the company's market value but drew criticism from lawmakers concerned about national security given Huang's alleged relationship with a suspected Chinese spy [BBC, Le Monde, Financial Times]. NATO Secretary General Mark Rutte pledged to defend against threats in space after German intelligence reports indicated Russia may be preparing to launch a nuclear-armed satellite dubbed 'Sputnik-S' within 60 days [BBC]. In China, Shanghai's powerful Communist Party Secretary Chen Jining was placed under investigation for 'severe violations of discipline and laws,' marking one of the highest-profile targets of Xi Jinping's anti-corruption campaign ahead of the 2027 Party Congress [The Hindu, Financial Times, Nikkei Asia]. Ukraine continued expanding its long-range strike capabilities, with President Zelenskyy confirming responsibility for drone attacks on Russian vessels in Libya and the Gulf of Finland, raising concerns among allies about escalation [The Guardian, ABC Australia]. Meanwhile, the Court of Arbitration for Sport ruled that Senegal won the 2025 Africa Cup of Nations, ending an 11-month legal dispute with Morocco over the chaotic final [RFI].",
+  "date": "Wednesday, November 25, 2026",
+  "daily_brief": "The human cost of Russia's war in Ukraine came into stark focus today as leaked Russian government statistics analyzed by the BBC revealed nearly 500,000 Russian soldiers have died since 2022 [BBC], a figure the Kremlin declined to confirm, stating only the defence ministry can disclose casualties [France 24]. Meanwhile, Ukraine continued long-range strikes, claiming damage to five Russian military jets at an airfield 300km east of Moscow [BBC], while defending its weekend naval drone attacks on Russian vessels in Libya that killed two Libyan soldiers [RFI, Guardian]. On the economic front, the Trump administration announced sweeping new tariffs targeting 14 major trading partners including the EU, China, and India, based on a probe into excess industrial capacity [The Hindu, ABC Australia]. India faces a 25% tariff, second only to Vietnam's 35% [The Hindu]. In response to technological competition, the EU unveiled plans for a \u20ac50 billion fund to accelerate AI and quantum computing development, aiming to lead the world in quantum technology by 2030 [RFI, Le Monde]. Nvidia CEO Jensen Huang, reinstated after resigning over affairs including one with an alleged Chinese spy, apologized to staff and revealed he is in daily therapy [RNZ], while US Attorney General Todd Blanche deflected questions about federal investigations into the company [BBC].",
   "top_stories": [
     {
-      "headline": "Jensen Huang Reinstated as Nvidia CEO After Trump Intervention, Adding $1 Trillion to Market Value",
-      "category": "Technology",
+      "headline": "Leaked Russian Data Reveals Nearly 500,000 Soldiers Dead in Ukraine War",
+      "category": "Conflict",
       "bullets": [
-        "Jensen Huang returned as Nvidia CEO less than two weeks after resigning over revelations of extramarital affairs, including one with a woman alleged to be a Chinese spy",
-        "President Trump claimed he 'made the deal' with Nvidia's board to restore Huang, drawing backlash from lawmakers citing national security concerns",
-        "Nvidia shares jumped 31%, adding nearly $1 trillion to market value and boosting broader tech stocks",
-        "Huang faces Congressional testimony next week regarding his relationship with Alice Huang, alleged to be a Chinese intelligence operative"
+        "BBC analysis of 11 million leaked Rosstat death records shows at least 490,334 Russian soldiers have died since the 2022 invasion began",
+        "Data was obtained by Belarusian hacker group Cyber Partisans and Ukraine's Silent Crow; BBC Russian matched 90% of records with its own confirmed death list",
+        "Russia's statistics agency admitted to a cyber-attack but denied protected information was leaked; Kremlin spokesman Dmitry Peskov said only the defence ministry can officially report casualties",
+        "Military experts estimate true death toll could range between 530,000 and 700,000 when accounting for incomplete reporting"
       ],
       "sources": [
         {
           "name": "BBC World",
           "lean": "Center",
-          "framing_note": "Focused on Trump's intervention and national security implications, included analysis of what the episode teaches China's Xi about Trump",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Le Monde",
-          "lean": "Center-Left",
-          "framing_note": "Article title referenced Trump and market pressure, full content unavailable",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/11/24/the-us-still-hasn-t-settled-on-a-strategy-to-slow-china-down_6787585_23.html"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Brief mention noting investor relief subsiding as Anthropic fell below IPO price",
-          "url": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1"
-        }
-      ]
-    },
-    {
-      "headline": "NATO Pledges Space Defense as German Intelligence Reports Russia Preparing Nuclear Satellite Launch",
-      "category": "Geopolitics",
-      "bullets": [
-        "German media reported intelligence indicates Russia is preparing to launch a nuclear-armed satellite dubbed 'Sputnik-S' within 60 days",
-        "NATO Secretary General Mark Rutte stated the alliance will defend against any threats in space during a press conference with German Chancellor Friedrich Merz",
-        "The satellite could reportedly be used to disrupt or destroy communication and observation satellites",
-        "Russia's Kremlin spokesman dismissed the reports as not worth taking seriously, calling them part of a 'propaganda campaign'"
-      ],
-      "sources": [
-        {
-          "name": "BBC World",
-          "lean": "Center",
-          "framing_note": "Straightforward reporting on NATO response and Russian denial",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Led investigation, presented detailed methodology and data verification",
+          "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "BBC Europe",
           "lean": "Center",
-          "framing_note": "Identical coverage to BBC World feed",
-          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
+          "framing_note": "Same coverage as BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "France 24",
+          "lean": "Center",
+          "framing_note": "Focused on Kremlin's refusal to comment and cited range up to 700,000",
+          "url": "https://www.france24.com/en/video/20261125-moldova-issues-emergency-kit-guide-prepares-citizens-for-possible-expansion-of-ukraine-war"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Reported same figures in context of Libya strikes story",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
         }
       ]
     },
     {
-      "headline": "Shanghai Communist Party Chief Chen Jining Placed Under Corruption Investigation",
-      "category": "Geopolitics",
+      "headline": "Trump Administration Announces Sweeping New Tariffs on 14 Major Trading Partners",
+      "category": "Economics",
       "bullets": [
-        "Chen Jining, 62, Shanghai's top Communist Party leader and Politburo member, was announced to be under investigation for 'suspected severe violations of discipline and laws'",
-        "Chen was widely expected to receive a prominent national role at the 2027 Party Congress where Xi Jinping is set to begin a fourth term",
-        "Chen previously served as president of Xi's alma mater Tsinghua University and as Beijing mayor before his Shanghai appointment in 2022",
-        "Politburo members are rarely investigated, with only half a dozen such cases historically"
+        "New tariffs target China, EU, India, Japan, South Korea, Vietnam, and eight other economies based on probe into excess industrial capacity",
+        "India faces 25% tariff (second-highest after Vietnam's 35%); tariffs for other partners range from 10-20%; Australia not affected",
+        "Tariffs stack on top of previous duties already imposed during Trump's second term; some Chinese goods face combined rate of 45%",
+        "Move comes despite midterm election setback and Reuters/Ipsos poll showing 62% of Americans support repealing tariffs"
       ],
       "sources": [
         {
           "name": "The Hindu",
           "lean": "Center-Left",
-          "framing_note": "Emphasized Chen's international exposure including doctoral studies at Imperial College London",
-          "url": "https://www.thehindu.com/news/international/after-trumps-midterm-poll-rout-south-america-breathes-easy-as-far-right-feels-the-heat/article71673628.ece"
-        },
-        {
-          "name": "Financial Times",
-          "lean": "Center-Right",
-          "framing_note": "Framed as Xi 'escalating purge'",
-          "url": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1"
-        },
-        {
-          "name": "Nikkei Asia",
-          "lean": "Center",
-          "framing_note": "Described Chen as caught up in Xi's anti-corruption campaign",
-          "url": "https://asia.nikkei.com/spotlight/huawei-crackdown/china-s-huawei-says-it-has-homegrown-answer-to-us-chip-design-tool-curbs"
-        }
-      ]
-    },
-    {
-      "headline": "Ukraine Claims Responsibility for Drone Strikes on Russian Ships in Libya and Gulf of Finland",
-      "category": "Conflict",
-      "bullets": [
-        "Ukraine confirmed using seven naval drones launched from a mothership to strike two Russian vessels in Benghazi, Libya, sinking the corvette Merkury",
-        "President Zelenskyy also claimed responsibility for Saturday's drone strike on the cargo ship Sparta II in the Gulf of Finland",
-        "The Libya operation occurred 1,500 miles from the frontline, representing a significant geographic expansion of Ukraine's strike capabilities",
-        "Russia called the attacks 'dangerous escalation' while Norway urged caution; Finland, Estonia and Russian vessels conducted joint rescue operations"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian",
-          "lean": "Center-Left",
-          "framing_note": "Detailed operational coverage, noted Ukraine developed sea drone capability despite starting war with no navy",
-          "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe"
+          "framing_note": "Focused on India-specific impact, noted potential reduction to 17% if trade agreement reached",
+          "url": "https://www.thehindu.com/news/international/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources/article71740905.ece"
         },
         {
           "name": "ABC Australia",
           "lean": "Center",
-          "framing_note": "Emphasized escalation fears and allied concerns, noted Poland accused Russia of deliberately violating its airspace",
-          "url": "https://www.abc.net.au/news/2026-11-24/martin-parkinson-calls-for-cap-on-temporary-visa-holders/107423044"
+          "framing_note": "Emphasized Australia's exemption and legal context of SCOTUS ruling",
+          "url": "https://www.abc.net.au/news/2026-11-25/edgewater-electric-motorbike-death-trial-police-aerial-vision/107427646"
         },
         {
-          "name": "BBC Europe",
-          "lean": "Center",
-          "framing_note": "Analysis piece examining what strikes say about spread of Ukraine war",
-          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Highlighted contradiction with electoral setback",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/11/25/trump-s-dangerous-leniency-toward-nvidia_6788114_23.html"
         }
       ]
     },
     {
-      "headline": "Court of Arbitration for Sport Declares Senegal 2025 Africa Cup of Nations Champions",
-      "category": "Society",
+      "headline": "EU Unveils \u20ac50 Billion Fund for AI and Quantum Computing to Compete with US and China",
+      "category": "Technology",
       "bullets": [
-        "CAS ruled in favor of Senegal, ending an 11-month legal dispute over the January 2026 final in which Senegal beat Morocco 1-0",
-        "Morocco had appealed after Senegalese players walked off the field without referee permission following a controversial penalty decision",
-        "CAF's appeals panel had initially sided with Morocco in March, declaring Senegal had forfeited by walking off",
-        "The ruling ends a saga that significantly damaged the reputation of Africa's most prestigious national team tournament"
+        "European Commission announced Sovereign Tech Equity Fund targeting \u20ac50 billion to boost AI and quantum computing capabilities",
+        "EU aims to lead the world in quantum technology by 2030 and avoid losing further ground to competitors",
+        "New rules will favor EU companies for public contracts in critical technology sectors",
+        "EU technology chief Henna Virkkunen cited cybersecurity risks from quantum computing, including ability to break encryption protecting digital data"
       ],
       "sources": [
         {
           "name": "RFI English",
           "lean": "Center",
-          "framing_note": "Comprehensive coverage of legal proceedings and tournament context",
-          "url": "https://www.rfi.fr/en/sports/20261124-senegal-or-morocco-top-sports-lawyers-to-give-verdict-on-2025-afcon-champions"
+          "framing_note": "Detailed technical benefits including medical applications and military communications",
+          "url": "https://www.rfi.fr/en/france/20261125-france-urged-to-put-migrant-women-s-safety-at-heart-of-migration-policies"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Brief coverage linking to broader economic strategy",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/11/25/trump-s-dangerous-leniency-toward-nvidia_6788114_23.html"
+        }
+      ]
+    },
+    {
+      "headline": "Ukraine Defends Lethal Drone Strikes on Russian Ships in Libya as Two Libyan Soldiers Die",
+      "category": "Conflict",
+      "bullets": [
+        "Ukraine confirmed using seven naval drones launched from a mothership to attack Russian vessels in Benghazi, sinking corvette Merkury",
+        "Two Libyan army personnel died from wounds sustained in Sunday's attack; Libya's eastern government threatens retaliation",
+        "France's Foreign Minister defended strikes as Ukraine exercising 'absolute right to self-defence'; Italy raised concerns with Kyiv",
+        "Operation conducted 1,500 miles from Ukraine's frontline marks significant geographic expansion of the conflict"
+      ],
+      "sources": [
+        {
+          "name": "RFI English",
+          "lean": "Center",
+          "framing_note": "Led with French FM's defense of Ukraine's actions",
+          "url": "https://www.rfi.fr/en/france/20261125-france-urged-to-put-migrant-women-s-safety-at-heart-of-migration-policies"
+        },
+        {
+          "name": "The Guardian",
+          "lean": "Center-Left",
+          "framing_note": "Detailed operational aspects and confirmed Ukraine's acknowledgment",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+        },
+        {
+          "name": "ABC Australia",
+          "lean": "Center",
+          "framing_note": "Emphasized Libya's retaliation threats and escalation concerns",
+          "url": "https://www.abc.net.au/news/2026-11-25/edgewater-electric-motorbike-death-trial-police-aerial-vision/107427646"
+        }
+      ]
+    },
+    {
+      "headline": "Nvidia CEO Jensen Huang Apologizes to Staff, Reveals Daily Therapy After Reinstatement",
+      "category": "Technology",
+      "bullets": [
+        "Huang apologized during all-staff meeting for violating company code of conduct, said he 'made some terrible mistakes'",
+        "CEO revealed he is now in therapy for 90 minutes daily; thanked his wife and children and said he was grateful for second chance",
+        "Huang dismissed suggestions that Trump orchestrated his return, saying board made decision independently",
+        "US Attorney General Todd Blanche deflected questions about federal investigations, backed Nvidia as 'good corporate citizen'"
+      ],
+      "sources": [
+        {
+          "name": "RNZ",
+          "lean": "Center",
+          "framing_note": "Focused on Huang's personal statements and therapy revelation",
+          "url": "https://www.rnz.co.nz/news/environment_climate/2768377/cop31-format-needs-re-think-former-nz-climate-ambassadors-say"
+        },
+        {
+          "name": "BBC World",
+          "lean": "Center",
+          "framing_note": "Emphasized AG Blanche dodging questions and Trump's pardon comments",
+          "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Le Monde",
+          "lean": "Center-Left",
+          "framing_note": "Opinion piece critical of Trump's 'dangerous leniency' toward Nvidia",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/11/25/trump-s-dangerous-leniency-toward-nvidia_6788114_23.html"
         }
       ]
     }
   ],
   "additional_stories": [
     {
-      "headline": "French police officer who fatally shot teenager Nahel Merzouk in 2023 traffic stop will stand trial for murder following appeals court ruling",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261124-french-officer-to-stand-trial-for-murder-over-nahel-shooting"
+      "headline": "Ukraine claims damage to five Russian military jets in strike on airfield 300km east of Moscow",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo"
     },
     {
-      "headline": "Gis\u00e8le Pelicot announces legal action after nude photos taken by her convicted ex-husband were sent to media to promote a psychoanalyst's book",
-      "source": "BBC Europe, RFI English",
-      "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o"
+      "headline": "China sends first foreign national, Pakistani pilot Muhammad Zeeshan Ali, to Tiangong space station",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/aerospace-defense-industries/china-sends-first-foreign-national-a-pakistani-pilot-to-its-space-station"
     },
     {
-      "headline": "Russian Murmansk governor Andrei Chibis detained on corruption charges in first arrest of regional leader in five years",
+      "headline": "Two Albanian nationals charged with breaking into Prince William and Kate's country home, stealing cufflinks and clock",
+      "source": "ABC Australia",
+      "url": "https://www.abc.net.au/news/2026-11-26/sandringham-estate-breakin-court-appearance/107427840"
+    },
+    {
+      "headline": "COP31 climate talks collapse without final agreement after EU and Pacific nations object to omission of fossil fuels",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/environment_climate/2768377/cop31-format-needs-re-think-former-nz-climate-ambassadors-say"
+    },
+    {
+      "headline": "Russia's Murmansk governor Andrei Chibis detained on corruption charges in rare arrest of regional leader",
       "source": "BBC Europe",
       "url": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo"
     },
     {
-      "headline": "Houthi attack on Saudi sovereign wealth fund headquarters in Riyadh injures 11 as kingdom unveils first budget since conflict restarted",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/ecdf59b6-c78b-4703-bc26-8d085d7b9d24"
+      "headline": "Bangladesh deploys 108 paramilitary platoons ahead of exiled PM Sheikh Hasina's planned return",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/bangladesh-tightens-border-security-ahead-of-hasinas-planned-return-deploys-108-bgb-platoons/article71742554.ece"
     },
     {
-      "headline": "More than 300 Russian fighters killed in Mali propping up military junta, leaked death certificates reveal",
+      "headline": "US Army detonates 5 tons of degraded lead azide in Iowa amid health and environmental concerns",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/article-iowa-planned-detonation-lead-azide/"
+    },
+    {
+      "headline": "Pentagon warns it will take significant measures if Canada does not increase military spending",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/us-politics/article-pentagon-will-do-what-must-if-feels-it-cant-rely-on-canadas-military/"
+    },
+    {
+      "headline": "More than 300 Russian fighters killed in Mali supporting military junta, leaked data reveals",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data"
     },
     {
-      "headline": "France announces plans to establish strategic stockpiles of rare earths and critical minerals managed by Caisse des D\u00e9p\u00f4ts",
-      "source": "RFI English",
-      "url": "https://www.rfi.fr/en/france/20261124-france-to-establish-strategic-stockpiles-of-critical-minerals"
-    },
-    {
-      "headline": "Iraqi government moves to take control of Kurdish-held oilfields as PM works to assert power over semi-autonomous region",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/5b03bc34-79a5-4c90-8b92-17b27b19098e"
-    },
-    {
-      "headline": "Two men arrested after suspected break-in at Prince William and Princess Kate's Anmer Hall estate on Sandringham",
-      "source": "ABC Australia, Globe and Mail",
-      "url": "https://www.abc.net.au/news/2026-11-25/kate-william-prince-of-wales-break-in-anmer-hall/107423242"
-    },
-    {
-      "headline": "Land mine casualties in Syria approach 1,000 children killed or injured since Assad's fall in December 2024",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo"
-    },
-    {
-      "headline": "US FDA approves Roche's breast cancer pill Wilserdly, potentially the company's best-selling medicine with projected peak sales rivaling $8.3 billion MS drug",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/business/international-business/article-fda-approves-roche-breast-cancer-pill-wilserdly/"
+      "headline": "Spain heads to election Sunday with conservatives leading polls amid deeply polarized atmosphere",
+      "source": "BBC Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo"
     }
   ]
 }
