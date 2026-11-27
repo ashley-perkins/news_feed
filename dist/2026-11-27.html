@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiashley — Global Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ─── TOKENS ─── */
+        :root {
+            --bg:          #0D0D0D;
+            --bg-card:     #141414;
+            --bg-surface:  #1A1A1A;
+            --border:      #2A2A2A;
+            --border-subtle: #1E1E1E;
+            --text-primary:   #F0EDE8;
+            --text-secondary: #8A8480;
+            --text-tertiary:  #5A5550;
+            --gold:        #C17D3C;
+            --gold-dim:    #C17D3C30;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body:    'IBM Plex Sans', sans-serif;
+            --font-mono:    'IBM Plex Mono', monospace;
+        }
+
+        /* ─── RESET ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ─── GRAIN OVERLAY ─── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.4;
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .masthead {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+
+        .wordmark {
+            font-family: var(--font-mono);
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        .edition-info {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 6vw, 58px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .header-subtitle {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        /* ─── DAILY BRIEF ─── */
+        .brief-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .daily-brief-text {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: var(--text-primary);
+            max-width: 720px;
+        }
+
+        .daily-brief-text cite {
+            font-style: normal;
+            color: var(--gold);
+            font-size: 0.85em;
+            font-family: var(--font-mono);
+            vertical-align: super;
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ─── TOP STORIES ─── */
+        .stories-section {
+            padding: 40px 0;
+        }
+
+        .story-card {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+        }
+
+        .story-card::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--cat-color, var(--gold));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .story-card:hover::before {
+            opacity: 1;
+        }
+
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .story-number {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        .category-tag {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border: 1px solid;
+            border-radius: 2px;
+        }
+
+        .story-headline {
+            font-family: var(--font-display);
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .story-bullets {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .story-bullets li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            padding: 4px 0 4px 16px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .story-bullets li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        .source-coverage {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .coverage-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        .source-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .source-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            padding: 4px 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .source-chip:hover {
+            border-color: var(--gold);
+            color: var(--text-primary);
+            background: var(--gold-dim);
+        }
+
+        .framing-note {
+            font-size: 9px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.05em;
+            font-style: italic;
+        }
+
+        /* ─── ADDITIONAL STORIES ─── */
+        .additional-section {
+            padding: 40px 0 80px;
+        }
+
+        .additional-list {
+            list-style: none;
+        }
+
+        .additional-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .additional-item a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.15s;
+            flex: 1;
+        }
+
+        .additional-item a:hover {
+            color: var(--text-primary);
+        }
+
+        .additional-source {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.15em;
+        }
+
+        .footer-brand span {
+            color: var(--gold);
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-tertiary);
+            letter-spacing: 0.08em;
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 600px) {
+            .masthead { flex-direction: column; gap: 8px; }
+            .additional-item { flex-direction: column; gap: 4px; }
+            footer { flex-direction: column; gap: 12px; text-align: center; }
+        }
+
+        /* ─── FADE IN ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .story-card, .brief-section, .additional-section {
+            animation: fadeUp 0.4s ease both;
+        }
+
+        .story-card:nth-child(1) { animation-delay: 0.05s; }
+        .story-card:nth-child(2) { animation-delay: 0.10s; }
+        .story-card:nth-child(3) { animation-delay: 0.15s; }
+        .story-card:nth-child(4) { animation-delay: 0.20s; }
+        .story-card:nth-child(5) { animation-delay: 0.25s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="masthead">
+                <span class="wordmark">aiashley — global digest</span>
+                <span class="edition-info">Generated 15:55 UTC</span>
+            </div>
+            <h1 class="header-title">Friday, November 27, 2026</h1>
+            <p class="header-subtitle">International News · 16 Sources · 4 Regions</p>
+        </header>
+
+        <section class="brief-section">
+            <div class="section-label">Daily Brief</div>
+            <p class="daily-brief-text">European Union leaders concluded a tense 12-hour summit in Brussels without agreement on the bloc's 2028-2034 budget, with negotiations set to resume in December amid deep divisions over spending priorities and Ukraine aid [BBC], [RFI]. The impasse comes as Ukraine braces for another difficult winter, with President Zelensky sharply criticizing President Trump's characterization of Vladimir Putin as 'my friend,' comparing it to befriending Hitler during World War Two [BBC]. In Spain, voters head to the polls Sunday in an election dominated by housing affordability protests, with polls suggesting the conservative People's Party will form a government with far-right Vox—potentially the first time the far right enters national government since Franco's dictatorship [BBC]. A significant cybersecurity breach at the U.S. Air Force's Cloud One platform has compromised systems managing sensitive tactical, personnel, and logistics data across hundreds of locations worldwide [The Hindu]. Meanwhile, the UN's food agencies warned that hunger will worsen in 16 countries over the next six months, with Sudan, Yemen, South Sudan, Somalia, and northern Nigeria facing the gravest risks as conflict, fuel costs, and aid cuts converge [Globe and Mail].</p>
+        </section>
+
+        <section class="stories-section">
+            <div class="section-label">Top Stories</div>
+            
+        <article class="story-card" style="--cat-color: #4A9E8E">
+            <div class="story-meta">
+                <span class="story-number">01</span>
+                <span class="category-tag" style="color: #4A9E8E; border-color: #4A9E8E40">Economics</span>
+            </div>
+            <h2 class="story-headline">EU Budget Talks Collapse as Member States Clash Over Spending and Ukraine Aid</h2>
+            <ul class="story-bullets"><li>EU leaders ended 12 hours of negotiations in Brussels without agreement on the 2028-2034 budget, with talks postponed until December 17-18</li><li>A group of net-contributor countries including Germany, Netherlands, Austria, and Sweden opposed higher spending proposals favored by France and Italy</li><li>Germany's Chancellor Merz insisted that Ukraine aid of €45 billion must have unanimous EU support, while Slovakia, Czech Republic, and Hungary objected to the loan</li><li>European Council President Antonio Costa's proposal to cut €204 billion from the budget and introduce a digital tax failed to bridge divisions</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/c69q8yjj1v0po?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Emphasized the walkout by some members and the pressure to reach agreement before 2027 elections</span>
+            </a>
+            <a href="https://www.rfi.fr/en/france/20261127-french-citizens-tasked-with-finding-solutions-to-country-s-debt-crisis" target="_blank" rel="noopener" class="source-chip lean-center">
+                RFI English<span class="framing-note">Highlighted the 'Sensible Seven' coalition and France's deadline concerns ahead of Macron's departure</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #C17D3C">
+            <div class="story-meta">
+                <span class="story-number">02</span>
+                <span class="category-tag" style="color: #C17D3C; border-color: #C17D3C40">Geopolitics</span>
+            </div>
+            <h2 class="story-headline">Zelensky Condemns Trump-Putin 'Friendship' as Ukraine Peace Talks Stall</h2>
+            <ul class="story-bullets"><li>Ukrainian President Zelensky criticized Trump for calling Putin 'my friend' and posting a photo embracing the Russian leader, calling Putin 'an aggressor and a killer'</li><li>Zelensky compared the relationship to befriending Hitler during World War Two, marking his sharpest public criticism of Trump since their 2025 Oval Office meeting</li><li>Peace talks mediated in Abu Dhabi earlier this month made no progress; Zelensky said 'the more we know, the more problems'</li><li>Trump's envoys have been seen as more aligned with Moscow's positions than Kyiv's; talks are expected to resume in December</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/c69q8yjj1v0po?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Led with Zelensky's frustration and included context about delays in US missile deliveries costing Ukrainian lives</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Same coverage as BBC Europe</span>
+            </a>
+            <a href="https://www.france24.com/en/video/20261127-ukraine-residents-brace-for-another-difficult-winter" target="_blank" rel="noopener" class="source-chip lean-center">
+                France 24<span class="framing-note">Brief video coverage focusing on Ukrainians bracing for winter hardships</span>
+            </a>
+            <a href="https://www.lemonde.fr/en/politics/article/2026/11/27/pro-ukraine-and-pro-eu-presidential-candidates-struggle-to-engage-french-voters-on-these-issues_6789832_5.html" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                Le Monde<span class="framing-note">Opinion piece framing focused on 'naming the butcher' to stop Ukraine's slaughter</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #7B6FB0">
+            <div class="story-meta">
+                <span class="story-number">03</span>
+                <span class="category-tag" style="color: #7B6FB0; border-color: #7B6FB040">Policy</span>
+            </div>
+            <h2 class="story-headline">Spain Heads to Polls Sunday with Far-Right Poised to Enter Government</h2>
+            <ul class="story-bullets"><li>Spanish voters go to ballot boxes Sunday with polls showing Socialist PM Pedro Sánchez likely to lose power after eight years</li><li>Conservative People's Party (PP) is projected to win and form a government with far-right Vox party</li><li>If Vox enters government, it would be the first time the far right holds national power in Spain's 50 years of post-Franco democracy</li><li>Housing affordability has dominated the campaign, with protesters jangling house keys across the country; PP leader pledged to build one million new homes</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.bbc.co.uk/news/articles/c69q8yjj1v0po?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC Europe<span class="framing-note">Emphasized the housing crisis as campaign's defining issue and historical significance of potential Vox participation</span>
+            </a>
+            <a href="https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener" class="source-chip lean-center">
+                BBC World<span class="framing-note">Included video interviews with young voters describing housing as 'impossible'</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #4A7EB0">
+            <div class="story-meta">
+                <span class="story-number">04</span>
+                <span class="category-tag" style="color: #4A7EB0; border-color: #4A7EB040">Technology</span>
+            </div>
+            <h2 class="story-headline">Hackers Breach U.S. Air Force Cloud One Computing Platform</h2>
+            <ul class="story-bullets"><li>Hackers breached the U.S. Air Force's flagship Cloud One cloud computing platform, discovered during system upgrades within the past month</li><li>Cloud One manages sensitive applications including air defense radar data, personnel records, pay systems, and munitions tracking across 200+ locations worldwide</li><li>The platform combines resources from Microsoft, Amazon, Oracle, and Alphabet; SAIC was the prime contractor</li><li>The Air Force declined to comment on specifics; the identity of hackers and scope of data theft remain unknown</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.thehindu.com/news/international/pakistan-set-to-host-talks-with-saudi-arabia-turkey-under-trilateral-defence-pact/article71750047.ece" target="_blank" rel="noopener" class="source-chip lean-centerleft">
+                The Hindu<span class="framing-note">Detailed technical explanation of Cloud One's scope and the systems potentially compromised</span>
+            </a></div>
+            </div>
+        </article>
+        <article class="story-card" style="--cat-color: #9E7B4A">
+            <div class="story-meta">
+                <span class="story-number">05</span>
+                <span class="category-tag" style="color: #9E7B4A; border-color: #9E7B4A40">Society</span>
+            </div>
+            <h2 class="story-headline">UN Warns Hunger Crisis to Worsen in 16 Countries as Conflicts and Aid Cuts Collide</h2>
+            <ul class="story-bullets"><li>UN food agencies report hunger will worsen in 16 countries over the next six months, with Sudan, Yemen, South Sudan, Somalia, and northern Nigeria at highest risk</li><li>In Sudan, nearly 19.5 million people (41% of population) face crisis-level hunger; famine risk persists in 13 areas through January</li><li>Sorghum and diesel prices in Sudan have more than doubled due to fighting and Middle East-linked fuel cost increases</li><li>Gaza was downgraded one level following the October 2025 ceasefire, though 67% of the population still faces crisis-level hunger or worse</li></ul>
+            <div class="source-coverage">
+                <span class="coverage-label">Coverage</span>
+                <div class="source-chips">
+            <a href="https://www.theglobeandmail.com/world/article-un-hunger-report-sudan-yemen-war-fuel-costs-aid-cuts/" target="_blank" rel="noopener" class="source-chip lean-center">
+                Globe and Mail<span class="framing-note">Emphasized the intersection of conflict, fuel costs, and aid cuts driving the crisis</span>
+            </a></div>
+            </div>
+        </article>
+        </section>
+
+        <section class="additional-section">
+            <div class="section-label">Also Today</div>
+            <ul class="additional-list">
+                
+        <li class="additional-item">
+            <a href="https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway" target="_blank" rel="noopener">At least 31 killed in fuel tanker crash and fire on Cairo highway; funeral prayers held at Al-Azhar Mosque</a>
+            <span class="additional-source">The Guardian, Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban" target="_blank" rel="noopener">Canada's Supreme Court largely upholds Quebec's religious symbols ban (Bill 21) while ruling face-covering requirement for elected officials unconstitutional</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.aljazeera.com/news/2026/11/27/serbias-student-led-movement-nominates-chemistry-professor-for-presidency" target="_blank" rel="noopener">Serbia's student-led protest movement nominates chemistry professor Radomir Saicic as presidential candidate ahead of December 27 election</a>
+            <span class="additional-source">Al Jazeera</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/economy/indonesia-philippines-and-uae-to-begin-talks-on-joining-cptpp-trade-pact" target="_blank" rel="noopener">Indonesia, Philippines, and UAE to begin formal negotiations to join CPTPP trade pact amid rising global trade uncertainty</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://asia.nikkei.com/politics/taiwan-elections-5-things-to-know-about-city-races-eyed-by-china-and-us" target="_blank" rel="noopener">Taiwan holds local elections Saturday in tight mayoral races watched closely by China and the United States</a>
+            <span class="additional-source">Nikkei Asia</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.ft.com/content/53a48a14-eadf-4fe3-bd33-9facd4c90266" target="_blank" rel="noopener">Russia moves to criminalize sharing information about Ukrainian drone strikes on oil refineries, extending wartime crackdowns to bloggers and citizens</a>
+            <span class="additional-source">Financial Times</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/arsenic-in-the-water-thailand-presses-myanmar-over-mining-pollution/article71750452.ece" target="_blank" rel="noopener">Thailand presses Myanmar on mining pollution after arsenic levels in border water supplies found nearly 30 times government limits</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.thehindu.com/news/international/pakistan-set-to-host-talks-with-saudi-arabia-turkey-under-trilateral-defence-pact/article71750047.ece" target="_blank" rel="noopener">Pakistan hosts trilateral defense talks with Saudi Arabia and Turkey amid ongoing Houthi attacks on Saudi Arabia</a>
+            <span class="additional-source">The Hindu</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.rfi.fr/en/international/20261127-un-marks-first-global-day-against-child-marriage-as-millions-remain-at-risk" target="_blank" rel="noopener">UN marks first International Day for the Elimination of Child Marriage as 650 million women alive today were married as children</a>
+            <span class="additional-source">RFI English</span>
+        </li>
+        <li class="additional-item">
+            <a href="https://www.theglobeandmail.com/world/article-us-thanksgiving-storm-power-east-coast/" target="_blank" rel="noopener">Thanksgiving storms leave over 600,000 without power across U.S. East Coast, force postponement of Macy's parade to Saturday</a>
+            <span class="additional-source">Globe and Mail, BBC World</span>
+        </li>
+            </ul>
+        </section>
+
+        <footer>
+            <span class="footer-brand"><span>aiashley</span> · global digest</span>
+            <span class="footer-meta">Built with Reuters · BBC · Le Monde · Al Jazeera + 12 more</span>
+        </footer>
+
+    </div>
+</body>
+</html>
